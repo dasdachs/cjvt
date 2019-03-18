@@ -1,0 +1,413 @@
+Nicole Ruessler
+
+Čeprav vam ne moremo nuditi splošne tehnične pomoči, vam bomo pomagali pri reševanju problemov, na katere boste naleteli v zvezi z našimi knjigami, disketami ali drugimi izdelki. 
+Če potrebujete takšno pomoč, se obrnite na naš oddelek za tehnično pomoč na številko 800-545-5914 (interna 3833).
+
+III Iskanje informacij v bazi podatkov 143
+
+Vzdrževanje in prikazovanje informacij 8
+
+Zagon Accessa 97 z menija opravil Start 15
+
+Izbira informacij, ki bodo vključene v novo bazo podatkov 49
+
+Podajanje imena za bazo podatkov 51
+
+10 Iskanje in razvrščanje informacij 145
+
+Pregled različnih tipov poizvedb 181
+
+Poimenovanje preračunanih polj 189
+
+Izdelava preračunanih polj na poročilih 325
+
+Povezovanje tabel 352
+
+Ta knjiga je napisana tako, da vam da čim več informacij o večini delov Accessa 97, da boste lahko čim prej začeli delati. 
+Namen knjige je tudi, da vam z Accessom 97 da najboljšo osnovo za reševanje problemov, ki se pojavljajo pri bazah podatkov. 
+
+Ko se boste naučili, kako se posamično uporabljajo različni objekti, tabele, poizvedbe, obrazci in poročila, boste spoznali, kako se sestavijo deli, da izdelate povezano aplikacijo baze podatkov. 
+V 23. poglavju razložim uporabo upravljalnika stikalnih plošč za povezovanje obrazcev in poročil, predstavim pa tudi nekaj namigov v zvezi z delovanjem, ki vam bodo pomagali zaključiti aplikacijo. 
+V 24. poglavju razložim, kako lahko uvozite informacije iz drugih mest, kot so npr. preglednice in druge baze podatkov. 
+V 25. poglavju bomo delali z Accessom 97 in z drugimi aplikacijami, da bomo delili opravila, kot je npr. združevanje pošte z Wordom in kopiranje podatkov neposredno iz Accessa v Word in Excel. 
+V 26. poglavju je razložen Internet in kaj lahko naredite z njim in Accessom 97.
+
+Prihranek časa Informacije je veliko enostavneje dodajati, spreminjati, brisati in iskati, če so te v bazi podatkov. 
+Za podatke lahko tudi zelo hitro izdelate poročila, saj njihova izdelava poteka samodejno. 
+
+Izdelava poročil iz informacij v bazi podatkov 
+
+Ne spreglejte, da je na seznamu trenutnih datotek prikazana Accessova vzorčna aplikacija Northwind, čeprav Accessa 97 še niste odprli. 
+Northwind je vzorčna aplikacija baze podatkov, ki kaže zglede za uporabo nekaterih najpogostejših in najmočnejših zmožnosti. 
+
+Ukazni gumbi
+
+Open Odpiranje (Open) ali izvajanje (Run) določenega tipa objekta, katerega jeziček ste izbrali. 
+Tako lahko npr. odprete obrazec, poženete makro in si ogledate poročilo.
+
+Padajoči seznam ali kombinirani seznam Prikaže seznam vrednosti, med katerimi lahko izbirate. 
+Kliknete lahko besedilno polje in vnesete vrednost ali pa kliknete padajočo puščico na desni strani seznama in izberete vrednost z njega.
+
+3 Pridobivanje pomoči, ko jo potrebujete
+
+Ena izmed velikih skrivnosti pri učenju Accessa 97 je tudi ta, kako pridobiti pomoč, ko jo potrebujete
+
+Slika 3.10 Na tem mestu se odločite, kako velika naj bo iskalna datoteka.
+
+Zadnje mesto, kjer lahko poiščete pomoč, namesto specifične pomoči za Access nudi informacije o vašem sistemu.
+
+Če želite odpreti bazo podatkov, naredite naslednje korake:
+
+Polja in zapisi, stolpci in vrstice. 
+Če ste pred tem že uporabljali preglednice, najbrž poznate zgornje štiri izraze.
+
+Kazalko postavite na prvo mesto v stolpcu Field Name in vpišite MovieTitle (NaslovFilma). 
+Nato za premik na naslednji stolpec Data Type pritisnite Tab ali Enter. 
+Ne spreglejte, da je za stolpec Data Type podan privzetek tipa Text (Besedilo).
+
+Kot lastnost Text statusne vrstice za krmilne elemente na obrazcih. 
+Obrazci in krmilni elementi so razloženi v 20. poglavju "Krmilni elementi, ki še posebej poudarijo obrazce".
+
+Na prvi pogled se vam lahko zdi, da je uporaba polja MovieTitle primerna za primarni ključ. 
+Vendar dobro premislite. 
+Razlog, da polje MovieTitle ni primerno za polje primarnega ključa je, da imate lahko dva filma z enakim imenom; tako je bil npr. film Kiss of Death izdelan v petdesetih letih, še enkrat pa leta 1995. 
+Oba filma imata enak naslov, zato polje MovieTitle ne vsebuje enkratnih informacij za vsak zapis.
+
+Gumbi za premikanje
+
+Čeprav so bili naslovi stolpcev in podatki razloženi v 5. poglavju, jih bom še enkrat ponovil. 
+Naslovi stolpcev so ali ime polja ali lastnost Caption, če je izpolnjena. 
+(Lastnost Caption bo natančneje razložena v 9. poglavju "Podrobnejše pregled lastnosti polj".)
+
+V tabeli 6.1 je predstavljen seznam kombinacij tipk, ki jih lahko uporabite za hitro premikanje po podatkovnem listu.
+
+Ko sem kliknil drugič, je označitev stolpca izginila. 
+Kaj se je zgodilo?
+
+1. 
+Označite stolpce, ki jih želite premakniti.
+
+Če na sliki 7.2 pogledate črto med tabelo Orders in tabelo OrderDetails, boste videli enak tip razmerja: eno naročilo ima lahko več podrobnosti.
+
+Najboljši način za prikaz tabel, s katerimi je povezana tabela, kot je tabela Orders, je z uporabo ukaza Relationships, Show Direct. 
+Najprej pa morate v pogovornem oknu Show Table izbrati Close.
+
+Slika 7.7 Vse te tabele so neposredno povezane s tabelo Orders.
+
+Ali preprosteje…
+
+3. 
+Izberite Tools, Relationships, da boste odprli pogovorno okno Relationships. 
+Prikaže se pogovorno okno Show Table, ki smo ga razložili v razdelku "Dodajanje tabele v okno Relationships".
+
+Če uporabite čarovnika za tabele, Access 97 "ugiba", kakšne bodo lastnosti (podatkovni tip, velikost polja itd.), kar mu gre ponavadi kar dobro od rok, vendar pa kljub temu preverite lastnosti, da boste videli, ali je vse v redu. 
+Spreminjanje lastnosti po tem, ko so podatki že vneseni, lahko povzroči probleme. 
+Lastnosti bomo obravnavali v naslednjem poglavju.
+
+Pregled indeksov
+
+Currency Vrednosti valute in številčni podatki, uporabljeni v matematičnih izračunih, kar vključuje podatke z enim do štirimi decimalnimi mesti.
+
+Če želite videti simbole, uporabljene za druge podatkovne tipe, v spodnjem oknu prikaza Design postavite kazalko na lastnost Format in pritisnite F1. 
+Nato lahko izberete med podatkovnimi tipi, navedenimi pod razdelkom Setting.
+
+1. 
+Tabelo tblBorrowers odprite v prikazu Design.
+
+2. 
+Kazalko postavite na polje HomePhone. 
+Če si ogledate polje HomePhone boste videli, da že ima naslednjo vhodno masko:
+
+Slika 9.7 V novem zapisu v polju State ne spreglejte WA.
+
+Če želimo to preprečiti, moramo v lastnost Validation Rule postaviti pravilo za preverjanje veljavnosti <=Date(). 
+Pravilo <=Date() izraza pravi, da mora biti PurchaseDate (datum nakupa) manjši ali enak današnjemu datumu. 
+(Funkcije Date() se spomnite še iz prejšnjega razdelka.) 
+Operator <= je eden izmed mnogih, ki ga lahko uporabite za primerjanje podatkov, kot lahko vidite v tabeli 9.4.
+
+> Večje kot
+
+10. 
+Za oznako iskalnega stolpca vpišite Category (Kategorija) (glejte sliko 9.18), nato pa kliknite Finish. 
+Prikazalo se bo sporočilno polje, ki vam pove, da morate tabelo shraniti, preden Access 97 lahko izdela razmerja. 
+Kliknite Yes.
+
+Čeprav v tabelo tblTapes najbrž niste vnesli veliko podatkov, je zdaj čas, da se naučite, kako se v tabelah iščejo podatki. 
+V ta namen bomo z uporabo pogovornega okna Find poiskali naslov filma.
+
+Za to iskanje in zamenjavo naredite naslednje:
+
+Slika 11.1 Oglejte si ukaze filtrirne orodne vrstice, ki jih lahko uporabite.
+
+Clear Grid (Počisti mrežo)
+
+Spomnite se, da ste v zadnjem razdelku iskali vse kategorije, ki niso znanstvena fantastika. 
+Od tu izhaja niz <> "Science Fiction". 
+Če želite zbrisati to postavko, kliknite gumb Clear Grid.
+
+<= Manjše ali enako kot
+
+1. 
+Kliknite gumb Filter by Form, da se boste vrnili na zaslon Filter by Form. 
+Vaš zaslon bi moral biti prazen, kot vidite na sliki 11.7. 
+Kliknite kriterij Rating in izberite R.
+
+Slika 11.8 Uporaba več kot enega kriterija z operatorjem OR.
+
+Podajanje kriterija v poizvedbi
+
+Omejitev polj, na katerih je osnovan obrazec.
+
+4. 
+Za nadaljevanje kliknite OK. 
+Preden preklopite v prikaz Query Design, se prikaže pogovorno okno Show Table (glejte sliko 12.2).
+
+Query Type (Tip poizvedbe)
+
+Če želite zbrisati polje, enostavno označite stolpec in pritisnite tipko Delete.
+
+Izdelava preračunanih polj je zelo enostavna, če poznate skladnjo preračunanega polja, ki ga želite izdelati, kar smo pravkar obdelali.
+
+Za pripravo na ničelne vrednosti obstaja funkcija Accessa 97, imenovana IsNull(). 
+Skladnja za funkcijo IsNull() je naslednja:
+
+Delo z AND in OR v kriterijih poizvedb
+
+Slika 14.6 Ta poizvedba uporablja levo zunanjo povezavo.
+
+Preden nadaljujem, bi rad razložil, kaj so izrazi. 
+Izrazi omogočajo uporabo kriterijev, ki vključujejo več kot samo vrednost ali parameter za primerjavo. 
+Obstaja tudi nekaj ukazov, ki jih lahko vključite, da vam pomagajo pri izdelavi izraza. 
+Ukaz, ki ga bom razložil, je Like.
+
+Ne glede na to, ali uporabite "Star*" ali "star*", bo Access prikazal enake rezultate.
+
+Če želite prikazati samo akcijske filme, označene z R ali PG, lahko naredite naslednje:
+
+Ali preprosteje…
+
+Ker ste poizvedbi dodali polja in spremenili njen namen, boste morda želeli spremeniti tudi njeno ime. 
+Če želite spremeniti ime kateregakoli objekta v oknu Database:
+
+2. 
+Povlecite polje Country.
+
+5. 
+Z menija izberite Query, Make-Table Query. 
+Prikaže se pogovorno okno Make Table. 
+Pozvani boste, da vnesete ime tabele (Table Name), v katero bodo postavljeni podatki, odločiti pa se boste morali tudi, ali naj bo nova tabela izdelana v trenutni bazi podatkov (Current Database) ali v drugi bazi podatkov (Another Database).
+
+S tem ste izdelali potrebno izbiralno poizvedbo in ste pripravljeni, da jo spremenite v poizvedbo tipa Append.
+
+Dodajanje novega zapisa na obrazec je podobno uporabi načina podatkovnega lista. 
+Kliknite gumb za premikanje New Record. 
+Prikaže se nov, prazen zapis (glejte sliko 17.2).
+
+Form Wizard (Čarovnik za obrazce) – Hiter način za izdelavo obrazcev. 
+S tem, ko vam Access 97 postavi niz vprašanj, za vas izdela ličen obrazec, ki predstavlja dobro začetno točko. 
+V naslednjem razdelku boste čarovnika za obrazce spoznali korak za korakom.
+
+Učinkovit način za izbiranje vseh, razen enega ali dveh polj, je z uporabo gumba >> (Vsa polja na desno), s katerim premaknete vsa polja. 
+Nato izberite polje, ki ga želite izločiti, v tem primeru TapeID in kliknite gumb (<) (Premakni v levo). 
+Na ta način boste namesto nekaj deset gumbov kliknili samo dva.
+
+Priporočam, da za posamično aplikacijo uporabite enega ali dva sloga. 
+Če boste uporabili preveč slogov, boste pokvarili privlačnost vmesnika.
+
+Ko boste na obrazcu, poiščite gumb za vsako izmed pravkar razloženih postavk in preverite, ali jih lahko vklopite in izklopite.
+
+Če imate odprt seznam polj, ga zaprite z izklopom gumba Field List ali pa tako, da kliknete gumb Close okna.
+
+Našel sem pravilne mape, vidim pa tudi imena datotek. 
+Toda kako lahko vidim grafiko tako kot jo vidite vi?
+
+5. 
+Na orodni vrstici klinite gumb Field List. 
+Prikaže se seznam polj.
+
+V tabeli 20.1 je prikazanih nekaj tipov krmilnih elementov, katerih uporabo priporočam za različne tipe podatkovnih vnosov. 
+
+Podobrazec Povezovanje informacij iz enega izvora zapisov z drugim. 
+Zgled, prikazan v tem poglavju, na obrazcu Tape Information prikazuje vse osebe, ki so si sposodile določen trak.
+
+Za zdaj zaprite stran lastnosti. 
+Naslednja naloga je dodajanje naslova na vrh obrazca. 
+V ta namen bomo iz orodjarne dodali krmilni element Label. 
+Naredite naslednje:
+
+1. 
+Na orodjarni kliknite gumb Control Wizard. 
+Ko je čarovnik za krmilne elemente vključen, se zdi, da je gumb pogreznjen.
+
+Končane ukazne gumbe lahko vidite na sliki 20.9.
+
+4. 
+Ko ima krmilni element želeno velikost, spustite gumb miške. 
+S tem ste na obrazec dodali jeziček z dvema stranema (glejte sliko 20.10).
+
+Ko sem na jeziček dodal strani, so se na njih pojavile številke, ki niso 1 in 2. 
+Zakaj?
+
+1. 
+Kliknite jeziček Page 1 (Main Tape Information).
+
+2. 
+Kliknite gumb Field List, da boste odprli seznam polj.
+
+Drugo postavko s seznama smo z zagonom glavnega obrazca že izvedli. 
+Za izdelavo podobrazca je najprej potrebno izdelati obrazec, ki bo uporabljen kot podobrazec.
+
+Pregled čarovnika za poročila
+
+S seznama izberite številko Avery 5096, ki v eno vrstico natisne tri nalepke (glejte sliko 21.10).
+
+Razdelek z nogo strani
+
+V tem razdelku bom pokazal, kako lahko spremenite in izboljšate poročila.
+
+1. 
+Kazalko postavite na dno razdelka z glavo strani in počakajte, da se bo ta spremenila v črtico, prekrižano s puščico navzgor in navzdol.
+
+Sledi nov način za označevanje krmilnih elementov, ki deluje tako za obrazce, kot tudi za poročila.
+
+Naslov se bo spremenil v glavi strani poročila. 
+Ko boste poročilo naslednjič odprli v predolgedu pred tiskanjem, boste v naslovu videli novo ime.
+
+Poigrajte se še z drugimi stolpci, da jih boste poravnali in spremenili njihovo velikost tako, kot želite. 
+Ko bo poročilo zaključeno, kliknite gumb Print Preview in si oglejte poročilo (glejte sliko 22.9).
+
+3. 
+Z menija izberite Edit, Paste. 
+S tem boste odprli pogovorno okno, v katerem boste podali ime novega poročila.
+
+Slika 22.15 Ali ni super, da je spreminjanje sloga tako enostavno?
+
+Dobra stvar tega čarovnika je, da ima na vsakem koraku zglede.
+
+Na začetku se vam bo lahko zdelo, da je delovanje prav dobro, vendar ne pozabite, da boste kasneje dodali podatke in tabele se bodo povečale. 
+Če želite zapreti čarovnika za analiziranje tabel, izberite Cancel ali Finish.
+
+4. 
+Za urejanje glavne stikalne plošče kliknite Edit.
+
+Ta polja se prikažejo v tretjem polju. 
+Tretje polje se spreminja glede na nastavitev možnosti Command.
+
+Display Form Odpri takoj, ko se odpre baza podatkov. 
+To možnost nastavite na Switchboard.
+
+1. 
+Pojdite v Nadzorno ploščo (Control Panel) Windows in izberite Add/Remove Programs. 
+Prikaže se pogovorno okno Add/Remove Programs Properties.
+
+Za lastnost Save as type (Shrani kot tip) izberite Microsoft Excel 97. 
+Access 97 bo datoteko samodejno imenoval tblTapex.xls (glejte sliko 24.4).
+
+Ko enkrat vnesete želeno besedilo in polja, izdelajte združeni dokument. 
+V ta namen na orodni vrstici za združevanje pošte kliknite gumb Merge to a New Document. 
+Word bo nemudoma izdelal združeni dokument (glejte sliko 25.4).
+
+Slika 25.7 Ti podatki so prišli iz Accessa 97.
+
+Zdaj shranite tabelo in jo odprite v prikazu Datasheet. 
+Ko boste vprašani, ali želite izdelati primarni ključ, izberite No.
+
+Ker je ta knjiga namenjena Accessu 97, ne bom porabil prav veliko časa, da bi vam predstavil stvari, ki jih morate vedeti o Internetu in svetovnem spletu. 
+Predpostavljam da že nekaj veste o nastavitvi šifre za Internet in uporabi spletnega pregledovalnika. 
+Če potrebujete podrobnejše informacije o Internetu in izdelavi spletnih mest in strani, preberite knjigo Jerryja Honeycutta Using the Internet (druga izdaja) ali knjigo Erica Maloneya in Josha Nossitera FrontPage 97.
+
+\\ (Pot UNC) msn:
+
+Dodajanje polj z naslovom hiperpovezave 
+
+Če spremenite lastnost Caption, lahko spremenite naslov ukaznega gumba kakorkoli želite. 
+Če želite preizkusiti nov ukazni gumb Hyperlink, preklopite v prikaz Form, nato pa kliknite ukazni gumb.
+
+dodajanje
+
+ukazov na stikalno ploščo, 337
+
+skrivanje, 92-93
+
+krmilni element kombiniranega seznama, 284
+
+meni Insert, 93
+
+podajanje za poizvedbe, 178
+
+poizvedbe za štetje strank, 213
+
+lastnosti Data, obrazci, 247, 252
+
+hiperpovezava, 370
+
+privzetki
+
+padajoči seznami, pogovorna okna, 24
+
+preglednice Excela
+
+poizvedbe, 206
+
+lastnost Field Size, 124-125
+
+strani lastnosti, 245
+
+glejte tudi slogi
+
+grafike ozadja, 250
+
+besedilno polje, 258, 279
+
+Format, 246, 253
+
+jeziček Find, 37-38
+
+prazna baza podatkov, 46
+
+možnosti postavitve
+
+funkcija Left(), 191
+
+več zapisov tabele, brisanje, 85
+
+pogovorno okno New , izdelovanje baz podatkov, 45
+
+razmerja eden za enega, 101
+
+baza podatkov VideoLib, 58
+
+prepisovalni način, 80
+
+primarni ključi
+
+pravilo za preverjanje veljavnosti, 133
+
+tipa Delete, 232
+
+indeksi, 333-335
+
+tipa Make-Table, 224-227
+
+komponente, 174-175
+
+lastnost Required Field, 135
+
+baz podatkov, 42-44
+
+oblikovanje, prikaz Design, 58
+
+polja, 63
+
+vključevanje v poizvedbe, 175
+
+izdelovanje mask, 127
+
+shranjevanje, 64-65
+
+navpični drsniki, podatkovni listi, 76
+
+Design, odpiranje objektov, 22
+
+za poštne nalepke, 302-306
+

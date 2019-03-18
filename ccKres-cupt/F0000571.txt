@@ -1,0 +1,460 @@
+12:00 Nastavitev elektronskih novic Branje Usenet novic
+
+Dobrodošli v knjigi Naučite se sami: Linux v 24. urah. 
+Verjetno razmišljate “Le zakaj želijo, da ostanem pokonci in se učim to stvar?” 
+No, to ni čisto res. 
+V tej knjigi smo uporabili novo metodo učenja tega zanimivega izdelka: 24 enournih lekcij, ki so bile izoblikovane tako, da ne boste izgubili zanimanja in se boste hkrati veliko naučili. 
+Ker je učni proces razdeljen na majhne enote, ne boste prevzeti nad celovitostjo nekaterih novih tehnologij, ki se danes pojavljajo na trgu. 
+Vsaka enourna lekcija je sestavljena iz veliko novih in starih informacij, ki vam bodo pri delu pomagale.
+
+Bill Ball je pisec, urednik in novinar, ki dela z računalniki zadnjih dvajset let. 
+Z Linux-om je pričel delati, ko je prešel od firme BSD4.3 Machten k Apple Macintoshu. 
+Objavil je mnogo člankov v revijah kot so Computer Shopping in Mac Tech Magazine. 
+Revije je začel urejati leta 1986 za založbo Que. Kadar ne lovi rib na bližnji reki Potomac River, se vozi s svojimi MG oldtimerji. 
+Živi v Aquia Harbor-ju v Stafford Country, Virginia.
+
+Komu je ta knjiga namenjena?
+
+1 Priprave na namestitev Linux-a
+
+Samo trenutek 
+
+Zelo dobro je zbrati podatke, čeprav za samo namestitev niso potrebni, o vseh drugih komponentah zunaj vašega računalnika: zvočniki, zunanji pogoni itd.
+
+V primeru da imate IDE CD in ga program ne zazna, računalnik ponovno zaženite in v prvem zaslonskem menuju vnesite poseben ukaz, ki poda jedru mesto pogona:
+
+Delitev trdega diska
+
+Slika 2.6. 
+Zaslonski menu programa Disk Druid
+
+Type Nastavitev tipa particije.
+
+Če ste izbrali Generic VGA kartico, vas program vpraša ali želite namestitve preizkusiti. 
+Zavrnite to možnost in namestitev se bo nadaljevala.
+
+Izberite geslo za vaš računalnik, zapišite ga na papir in vnesite v računalnik. 
+Iz varnostnih razlogov se geslo na zaslonu ne vidi. 
+Zaradi morebitnih tipkarskih napak ga boste morali vnesti dvakrat. 
+Ko ga dvakrat vnesete, izberite 'Ok' in pritisnite Enter. 
+Če se gesli ujemata, se bo namestitev nadaljevala, v nasprotnem primeru boste morali vnos ponoviti.
+
+Rpm –qa | grep ^X
+
+Vnesite horizontalno stopnjo osveževanja. 
+Če niste popolnoma prepričani o sposobnostih monitorja, bodite pri izbiri stopnje zelo previdni. 
+Večina monitorjev naj bi bila zmožna prikaza v standardnem VGA načinu. 
+Prav tako bodite previdni pri izbiri vertikalne stopnje osveževanja.
+
+Naslednje okno je odvisno od tega ali je bila vaša PCI grafična kartica zaznana ali ne. 
+V primeru da je bila zaznana, bo namestitveni program poizkušal namestiti pravilne grafične nastavitve in območja, ki so na voljo. 
+Če PCI kartica ni bila zaznana, lahko izbirate ali naj te nastavitve in območja poskuša najti. 
+To se zgodi zato, ker starejše ISA kartice ne dopuščajo nastavljanja in v primeru poskusa povzročijo zaustavitev računalnika.
+
+# 3 – Full multi user mode
+
+II. del
+
+/usr/man/man1/man.1
+
+SEE ALSO Spisek sorodnih man strani
+
+Za X Window sistem je na voljo tudi grafična verzija ukaza man, ki se imenuje xman. 
+Xman se ne uporablja samo za branje priročnikov ampak tudi za iskanje imenikov, kjer se nahajajo. 
+Program xman je zelo priročen in mnogi uporabniki imajo na namizju aktivno njegovo okence.
+
+# cd ../..
+
+ali
+
+Da bi našli nove ali modificirane datoteke, ki so stare dan ali več v imeniku /usr/bin, lahko uporabite
+
+badblocks (8) - search a de,ice for bad blocks
+
+../ .dtprofile* .netscape axhome/
+
+csh grep mt sleep
+
+Obstaja pa še drug, boljši pripomoček za prikaz drevesne strukture sistema, ukaz tree, ki je obravnavan kasneje v tej uri.
+
+auto mail research
+
+Pripomoček tree, katerega avtor je Steve Baker, se uporablja za grafični prikaz katere koli želene strukture in ima kar nekaj zanimivih lastnosti. 
+Številna stikala so podobna tistim v ukazu ls. 
+Podprta je uporaba izrazov, oz wildcards. 
+Ukaz tree podpira tudi uporabo barv. 
+Obstaja pa tudi stikalo –x, ki ima podoben namen kot stikalo –xdev v ukazu find.
+
+| |-- applix_4.2-2.diff.Sz
+
+|-- games
+
+| |-- netcastr
+
+# more dolgadatoteka.txt
+
+Nov 12 21:02:03 localhost cardmgr[l52]: socket 1: Serial or Modem Card
+
+V tej uri se boste naučili kako kreirati, kopirati, brisati in premikati datoteke, oz. imenike. 
+Spoznali boste kako brskati po datotekah in kako jih komprimirati, oz. dekomprimirati. 
+Ti podatki so samo nadgradnja prejšnjih. 
+Spoznali boste nove ukaze, ki vam bodo koristili tudi kasneje v tej knjigi.
+
+Linux se uporablja v podobne namene kot ostali operacijski sistemi. 
+Kreirate, brišete in premikate datoteke na disku, da bi organizirali podatke in določili izgled sistema. 
+V tem delu boste našli postopke, kako to doseči na hiter in enostaven način.
+
+# touch –t 1225110099 newfile2
+
+Pomislili boste, da lahko v imeniku temp kreirate imenik child z ukazom:
+
+# mkdir temp5/parent/child2
+
+# touch file1
+
+# mkdir –p temp/temp2/temp3
+
+Verjetno boste najprej uporabili najenostavnejšo obliko, na primer:
+
+# cp -r tempdirl tempdir2
+
+# cat file2
+
+Sedaj pa poskusite z ukazom egrep najti v datoteki vzorce s črko b v oklepajih:
+
+5161: (Unfortunately, the system was being unfriendly.)
+
+Sedaj ko ste zgradili imenik, naredite arhiv z uporabo ukaza tar:
+
+• Podpira cpio in tar arhive
+
+Use 'info bash' to find out more about the shell in general.
+
+Vsak vnos in rezultat ima v lupini prirejeno datotečno številko. 
+Za standardni vnos je ta številka nič (0). 
+Za standardni rezultat je številka ena (1) in za standardno napako dva (2). 
+S to informacijo lahko ukaz cpio zaženete v ozadju, obvestila o napakah pa se shranjujejo v datoteko. 
+Naredite to s kombinacijo operatorja preusmeritve standardnega rezultata in datotečno številko standardne napake, kot je prikazano v naslednjem primeru:
+
+Ta ukazna vrstica ohrani predhodno vsebino datoteke cpio.errors in pripne vse nove napake na konec datoteke. 
+Tak pristop vodi vse prijave napak, kadar zaženete ukaz cpio. 
+Ta metoda je uporabna v primeru, če ste omogočili sistemsko prijavljanje za Linux. 
+Oglejte si vsebino datoteke z imenom messages, ki se nahaja v imeniku /var/log.
+
+This is another line of text
+
+/bin/tcsh
+
+[1]- Stopped (signal) pine
+
+rmv -d[elete] -e[mpty] -h[elp] -l[ist] file1-4
+
+• Tip pisave za okna, ikone in menuje
+
++ “I” Exec xsetroot –solid cyan4
+
+Uporaba rxvt terminala
+
+Če ne uporabljate X11 v 8bpp načinu (256 barv) z XF86_SVGA strežnikom, boste našli bolj omejeno izbiro barv. 
+Na primer, če uporabljate XF86_VGA16 strežnik boste imeli na voljo le 16 barv in samo črno in belo, če uporabljate strežnik X86_MONO. 
+Barve, ki so na voljo lahko vidite tudi z uporabo xcmap aplikacije, ki prikaže barve v mreži in daje rgb (red, green, blue –rdeča, zelena, modra) vrednosti barv v šesnajstiški osnovi (več informacij boste našli v X in xcmap priročnikih). 
+Drug program, ki ga lahko preizkusite je showrgb aplikacija, ki avtomatsko prikaže vsebino rgb podatkovne baze, rgb.txt.
+
+# xset m “40 4”
+
+Za kopiranje iz ene v drugo okno lahko uporabite tudi aplikacijo xcutsel. 
+Ko boste uporabljali to aplikacijo, boste videli dva gumba z imenoma “copy PRIMARY to 0” in “copy 0 to PRIMARY”. 
+Za kopiranje teksta iz ene v drugo, ga najprej v enem oknu izberite. 
+Potem kliknite gumb “copy PRIMARY to 0”. 
+Nato kliknite na gumb “copy 0 to primary”, premaknite se na okno kamor tekst želite prilepiti in uporabite za lepljenje miško ali tipkovnico.
+
+V X11 lahko za upravljanje ohranjevalcev zaslona uporabite aplikacijo xset, ki smo jo obravnavali prej. 
+Če bi radi videli trenutne nastavitve, uporabite stikalo q (tu se ne uporablja pomišljaj), na primer:
+
+Aplikaciji xscreensaver in xscreensaver-command, katerih avtor je Jamie Zawinski, se nahajajo v imeniku /usr/X11R6/bin. 
+V aplikaciji xsceensaver lahko uporabite 16 različnih stikal. 
+V tej uri niso obravnavana vsa. 
+Osnoven način uporabe tega ohranjevalca zaslona je zagon xscreensaver aplikacije v ozadju
+
+V imeniku /usr/X11R6/bin boste našli še X11 aplikacijo ical, ki pa je pripomoček za osebno načrtovanje z večjim prikazom koledarja. 
+Podrobnosti boste našli v 18. uri.
+
+• “Pokaži in klikni” potrditvena okna za prikaz barv namizja in okvirjev oken
+
+Kadar za prijavo v Linux uporabite xdm in zaženete X11, se vam lahko zgodi, da določenih aplikacij ne boste mogli zagnati v terminalskem oknu kot korenski uporabnik. 
+To j ezaradi tega, ker morate uporabiti ukaz xhost, da začasno dodate ime vašega računalnika v dostopno listo X strežnika. 
+To storite po naslednjem obrazcu: xhost+local host, su –c “rootcommand”, kjer je rootcommand ime ukaza, ki ga želite zagnati kot korenski uporabnik (kot na primer nadzorna plošča ali printtool).
+
+• “Lepljivi gumbi” za polaganje aplikacij ali oken na vsako namizje
+
+V datoteko .xinitrc vnesite ukaz startkde in uporabite ukaz startx za zagon X11 in KDE (glej sliko 8.3). 
+Nad izgledom namiznega okolja boste prijetno presenečeni, vendar morate vedeti, da je KDE še vedno v izdelavi. 
+Lahko da manjka dokumentacija in da nekateri programi ne boso pravilno delovali. 
+Kljub temu je KDE uporabno X11 okolje.
+
+Prihranite čas
+
+LIBS = -L/usr/X11/lib -lXext -lX11 -lXmu -lXt -lm
+
+III. del - Povezovanje z zunanjim svetom
+
+9 Uporaba komunikacijskih programov
+
+Naslednji korak je kreiranje datoteke z imenom /etc/conf.uugetty.ttySX, kjer X označuje serijski vhod oz. številko naprave na serijskem vhodu. 
+V tem primeru je modem priključen na DOS COM2 vhod oz. na /dev/cua1 ali /dev/ttyS1, torej boste kot svojo datoteko kreirali conf.uugetty.ttyS1. 
+Prepričajte se, da ste prijavljeni kot korenski uporabnik in vnesite naslednje vrstice:
+
+# fax wait
+
+efax: 48:58 waiting for activity
+
+/var/spool/fax/1204164646.003
+
+Prva naloga je kreiranje fax.allow in fax.deny datotek, če še ne obstajata. 
+V fax.allow datoteko vnesite imena uporabnikov, ki jim želite omogočiti uporabo faks storitev. 
+Vnesite vsaj dve imeni: ime korenskega uporabnika in vaše ime.
+
+# which devices to use for outgoing faxes
+
+# which fax number to transmit to the receiving station
+
+Printing myfile.txt
+
+Ukaz poroča o številu kreiranih opravil, o številu strani in telefonski številki daljinske faks naprave. 
+Čakajoč faks lahko odstranite z uporabo ukaza faxrm, kot v naslednjem primeru:
+
+Iz tega primera je razvidno, da ukaz faxrunq uporablja za pregled čakajočih faksov program sendfax v imeniku /var/spool, nato se poveže z modemom, kliče in potem pošlje faks. 
+Ena dobrih lastnosti sendfax programskega paketa je, da se sporočilo o pismu avtomatsko odpošlje do pošiljatelja faksov, ki preverja postopek faksiranja, kot v naslednjem primeru:
+
+# set the local fax station id
+
+#fax-id 49 89 xxxxxxxx
+
+fax-id 1 202 555 1212
+
+• Je dovolj fleksibilen, da z njim lahko uporabljate različne tipe povezav
+
+Nadalje preverite pppd ukazno vrstico v ppp-on zapisu, in spremenite /dev/modem tako, da bo ustrezalo napravi, na katero je priključen vaš modem. 
+Če želite, lahko za kreiranje simbolične povezave od serijskih vrat do /dev/modem uporabite pristop, ki je opisan v 9. 
+Uri, “Uporaba komunikacijskih programov”. 
+Pa še nasvet: če imate 14.4 modem, uporabite za številčno vrednost 19200; če uporabljate 28.8 ali 33.6 modem preizkusite 57600. 
+Mogoče se boste lahko povezali pri višji hitrosti, se posebej je to verjetno pri novejših modemih.
+
+Prihranite čas
+
+Če je vaš modem priključen na računalnik in telefonska linija na modem, ste pripravljeni za preizkus povezave.
+
+Active UNIX domain sockets (w/o servers)
+
+Nov 5 16:29:51 localhost chat[371]: rAT^M^M
+
+V primeru težav lahko pregledate posamezne dele zapisa med delovanjem vašega ali ISP-jevega modema. 
+Verjetno bo šlo vse po sreči, če pa imate težave pri vzpostavljanju ali nastavljanju zveze, si vzemite čas in preberite chat in pppd priročnike, skupaj z dokumenti PPP-HOWTO in PPP-FAQ.
+
+reading message 2.
+
+reading message 1 (581 bytes) flushed
+
+This is how to use the mail program!
+
+# cat /etc/nntpserver
+
+# tin –nqr
+
+case help nmap rhelp trace
+
+-rwxr-xr-x 1 19 19 29668 Apr 22 1997 pg.exe
+
+Več informacij boste našli v Lynx priročniku.
+
+/HELP etiquett
+
+close close current connection
+
+Urejevalce teksta uporabljajo zelo različni ljudje. 
+Občasni uporabniki, pisci, programerji in sistemski upravitelji bodo uporabljali urejevalce teksta, v takšne ali drugačne namene. 
+Vsekakor morate vedeti, kako spremeniti tekstovne datoteke za oblikovanje Linux-a, da bo deloval tako, kot vi želite. 
+Sledi spoznavanje različnih urejevalcev teksta in tekstovnih orodij, ki jih lahko uporabljate skupaj z Linux-om.
+
+Nekaj teh ukazov za formatiranje, kot na primer ftm ali pr, je obravnavanih v naslednji uri, “Priprava dokumentov”, v tem delu pa boste spoznali, kako lahko uporabljate mnoge druge za delo s tekstom. 
+Na primer, ukaz tr (translate – prevedi) lahko uporabite na usmerjenem tekstu za prevod, stiskanje ali brisanje znakov.
+
+2. 
+YOU MAY APPLY BUG FIXES, PORTABILITY FIXES AND OTHER MODIFICATIONS DERIVED FROM THE PUBLIC DOMAIN OR FROM THE COPYRIGHT HOLDER. 
+A PACKAGE MODIFIED IN SUCH A WAY SHALL STILL BE CONSIDERED THE STANDARD VERSION.
+
+-rw-r--r-- 1 root root 4244 May 5 1997 CENSORSHIP
+
+-rw-rȔr-- 131199 FAQ
+
+Oblikovanje teksta
+
+V 14. uri ste spoznali nekatere tekstovne filtre za spreminjanje izpisa različnih programov ali vsebine dokumenta. 
+Če se ne želite učiti uporabe obsežnih programov za oblikovanje, ali ne želite uporabljati zapletenih ukazov za nastavljanje teksta, vam ti filtri lahko pomagajo pri oblikovanju dokumentov in so primerni za hitro opremljanje dokumentov z glavami in nogami, robovi in številkami strani.
+
+Nashville Norfolk Phoenix
+
+Standard Version of this Package without restriction, provided that you
+
+2. 
+You may apply bug fixes, portability fixes and other modifications derived from the Public Domain or from the Copyright Holder. 
+A packag
+
+# nroff –man /usr/man/man1/ls.1 |less
+
+Središčna poravnava .ds C
+
+Vstavi (prostor) x palcev navzdol .sp xi
+
+# groff –Tps –mm myfile.txt >myfile.ps
+
+Tiskalniki so označeni kot znakvne naprave in so v imeniku /dev. 
+Oglejte si naslednji primer:
+
+Če ste tiskalnik namestili med procesom namestitve Linux-a, bo definiran v datoteki /etc/printcap. 
+Ta datoteka je ASCII baza podatkov o vaših sistemskih lokalnih in omrežnih tiskalnikih, in opisuje zmožnosti vsakega.
+
+:lp=/dev/lp1:\
+
+Ta ukazna vrstica pošlje rezultat programa za oblikovanje groff skozi linijsko simultano obdelavo. 
+Obdelate lahko tudi več datotek hkrati in s pomočjo ukaza lpq spremljate potek. 
+Oglejte si naslednji primer:
+
+V tabeli 16.1 so navedeni nekateri grafični formati, skupaj s programi za pretvarjanje in jih boste našli na vašem sistemu.
+
+.bmp Windows, OS/2 bitmap bmptoppm
+
+S spreminjanjem datotek Fig-color in Fig, ki se nahajata v imeniku /usr/X11/lib/app-defaults, lahko prilagodite privzete ukaze. 
+Za več informacij o uporabi programa, preberite priročnik.
+
+Učenje matematičnih in finančnih orodij
+
+Kalkulator dtcalc, ki je del CDE-ja (glejte 8 uro, “Opis drugih X Window upravljalcev”), nudi mnogo koristnih opcij in lahko emulira logični, znanstveni ali finančni kalkulator. 
+Z njim lahko prav tako uporabljate miško ali tipkovnico, ne nudi pa toliko registrov za shranjevaje kot dc ukaz. 
+Na sliki 17.2 je prikazan dtcalc kalkulator.
+
+Slika 17.5. 
+Program omogoča dostop do menujev s pomočjo miške, oblikovanje tabel in podpira grafiko.
+
+Načrtovanje nalog in opominjevalcev z ukazom at
+
+Ta ukazna vrstica nastavi privzet urejevalec teksta na pico. 
+To lahko preverite, če poiščete spremenljivko okolja, na primer:
+
+Aplikacija ical je primerna za organiziranje osebnih ali skupinskih nalog. 
+Za nasvete in namige kako prilagoditi program vašim potrebam si oglejte zapise v imeniku /usr/lib/ical/contrib.
+
+Če vaša kartica dela v Linux-u, je to čudovito! 
+S predvajanjem glasbenih CD-jev lahko pričnete takoj. 
+Če ne uporabljate X11, lahko predvajate glasbo z ukazom cdp, ki ga najdete v imeniku /usr/bin. 
+Ta ukaz je tekstovni program. 
+Za uporabo najprej vstavite glasbeni CD v CD-ROM in vnesite ukaz:
+
+Ali si želite dobro partijo šaha? 
+Preizkusite gnuchess program. 
+Na vašem sistemu boste našli nameščenih več verzij te igre. 
+Verzija gnuchess uporablja kazalčno naslavljanje za prikaz osnovne grafike. 
+Igralna plošča se po vsaki uspešni potezi obnovi.
+
+Program xgal ima 6 različnih opcij ukazne vrstice, igro pa lahko začnete iz terminalskega okna tudi brez uporabe opcij:
+
+20. 
+Osnove upravljanja sistema
+
+# rm –fr /*
+
+/dev/hda1 on /mnt/dos type msdos (rw)
+
+1024 ./.tin/.mailidx
+
+rm: remove 'file1'? y
+
+V tem delu boste dobili nekaj nasvetov, kako prihraniti prostor. 
+Kot upravljavec sistema morate skrbeti tudi za zdravje sistema in občasno izvajati čistilne operacije, ki bodo sprostile prostor na disku. 
+Ko boste spoznali nekatere tehnike oz. pristope, ne bo več težav pri sproščanju prostora na disku.
+
+# free 
+
+r b w swpd free buff cache si so bi bo in cs us sy id
+
+memoryuse unlimited
+
+Kot lahko vidite, prikazuje pregled omejitev, kadar ste prijavljeni kot korenski uporabnik, v tcsh lupini precej drugačne rezultate. 
+To je še en razlog, zakaj se ni dobro prijavljati kot korenski uporabnik! 
+Kot upravljavec sistema lahko vsakemu uporabniku omejite količino pomnilnika ali število razpoložljivih procesov. 
+To je zelo priročno, če na računalniku istočasno dela več ljudi, vi pa bi radi prihranili sistemski pomnilnik. 
+Če pa računalnik uporabljate v normalnih delovnih pogojih samo vi, so privzete nastavitve dokaj sprejemljive.
+
+Ukaz ps izpiše trenutno delujoče programe in njihove procesne številke, oz. PID-e. 
+Te informacije lahko uporabite za prekinitev procesa z ukazom
+
+22) SIGTTOU 23) SIGURG 24) SIGXCPU 25) SIGXFSZ
+
+daemon:*:2:2:daemon:/sbin:
+
+Vnesite geslo in ga potem potrdite s ponovnim vnosom. 
+Če vse poteka normalno, se geslo shrani v imenik /etc/passwd, na primer:
+
+Pozor
+
+Uporabniki lahko običajno po prijavi zamenjajo lupino z ukazom chsh. 
+Spisek lupin, ki so trenutno na voljo, lahko dobite z uporabo –l (list shells – spisek lupin) stikala, na primer:
+
+Ukaz preišče datoteko z imenom shells, ki se nahaja v imeniku /etc in prikaže spisek lupin. 
+To ne pomeni, da so te na voljo, ampak so samo “sprejemljive”. 
+V datoteko lahko dodajate ali odstranjujete lupine, ki jih lahko uporabniki izbirajo. 
+Prepričajte se, da se izpisane lupine nahajajo na vašem sistemu. 
+Za zamenjavo lupine lahko uporabite
+
+Uporabite lahko tudi druge omejitve. 
+V naslednjem delu boste spoznali, kako lahko določite največjo dovoljeno zasedenost diska.
+
+quotacheck Preverjanje datotečnega sistema in uporabe deležev
+
+V tem primeru bo ukaz edquota uporabil urejevalec teksta pico. 
+Znašli se boste v urejevalcu z naslednjim tekstom:
+
+|-- mnt - where you mount other filesystems
+
+| |-- local programs not on CD-ROM
+
+| | |--shin
+
+/dev/hdb /mnt/cdrom ignore 0 0 0
+
+/dev/hdb /mnt/cdrom iso9660 noauto,ro,user 0
+
+Naslednji korak je kreiranje filesystem na disketi. 
+Za kreiranje drugega podaljšanega filesystema uporabite ukaz make2fs. 
+V ukazu, ki se nahaja v imeniku /sbin, lahko uporabite več kot deset različnih stikal, ampak uporabljali jih boste samo nekaj, na primer:
+
+V primeru smo uporabili stikalo –c za preverjanje sektorjev (na disketi) in stikalo -L za poimenovanje disket. 
+Uporabili smo tudi stikalo –v (obširnejši način), ki omogoča nadzor dogajanja. 
+Ukaz mke2fs avtomatsko določi kapaciteto diskete z ukazom badblocks, ki se nahaja v imeniku /sbin jo preveri in potem kreira filesystem na disketi. 
+Uporabite lahko tudi stikalo -m z vrednostjo 0 za maksimalno razpoložljivo kapaciteto in podajanje diskete z visoko gostoto zapisa:
+
+S tem boste prekopirali datoteke s končnico .txt na disk. 
+Za kopiranje datotek z vašega diska, argumente samo obrnite:
+
+V Linux-u obstaja vsaj osem različnih tipov, najpogostejši pa so:
+
+# ls -l afile
+
+drwx----x 2 bball bball
+
+Ukaz zaženete s klikom na 'Modem Configuration' gumb v oknu kontrolne plošče ali z zagonom terminalskega okna, v katerem vtipkate:
+
+Ta ukaz predstavlja revolucijo pri zvočnih nastavitvah v Linux-u. 
+Pred tem je bilo potrebno za dodajanje zvočne podpore popolnoma prevesti jedro. 
+Ukaz sndconfig uporablja za nastavljanje jedra, da podpira zvok naložljive module, ki se nahajajo v imeniku /lib/modules/2.0.31/misc.
+
+cpio: x11: truncating inode number
+
+1082 blocks
+
+• ztape – Novejši tračni gonilnik, s katerim lahko upravljate dodatne tračne formate.
+
+Upravljanje uporabnikovih cron razporeditev
+
+* * * * * /usr/local/bin/saytime %
+

@@ -1,0 +1,13 @@
+Da bi vam lahko kdo poslal šifrirano sporočilo, morate najprej narediti lasten javni in zasebni ključ. 
+PGP vas pri tem vodi za roko. 
+Če boste vtipkali: pgp -kg, bo že vedel, kako se tega lotiti. 
+Pri dolžini ključa se odločite za 1024. 
+Na vprašanje o identiteti lahko odgovorite karkoli, a smiselno je, da vnesete svoje ime in priimek, naslov za elektronsko pošto in morda še ljubkovalno ime, po katerem vas večina pozna. 
+Po identifikatorju ali njegovih delih lahko namreč neki javni ključ najdemo v PGP-arhivih javnih ključev. 
+Na koncu PGP še vpraša za tajno geslo, s katerim bo zašifriral vaš tajni ključ - izmislite si kaj daljšega, predvsem pa nekaj, kar si boste dobro zapomnili, pa bo težko uganiti. 
+Tega gesla si ne zapišite na listek ali v datoteko: to je namreč edini ključ do vaših skrivnosti! 
+Pa tudi pozabiti ga ne smete, sicer vam ne more nihče pomagati. 
+Svoj javni ključ še podpišite, da vam ne bo mogel kdo spremeniti vašega imena, ki je vezano nanj: pgp -ks moj-id. 
+Sedaj boste svoj javni ključ objavili, da ga bodo lahko tisti, ki vam želijo kaj skrivnega sporočiti, tudi našli. 
+Najprej ga izpišite na datoteko: pgp -kxa mojkljuc.asc moj-id.
+

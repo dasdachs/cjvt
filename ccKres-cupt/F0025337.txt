@@ -1,0 +1,180 @@
+1.1 Uvod
+
+Sodobni inženir je bolj kot kadarkoli izpostavljen zahtevam neusmiljene konkurenčnosti trga in posledično racionalizaciji na vseh nivojih proizvodnje, tudi pri razvoju novih oz. optimizaciji obstoječih tehnologij. 
+Tako ostre zahteve pa hkrati omogočajo in spodbujajo razvoj in rabo matematičnih modelov v procesni industriji. 
+Razložimo to bolj podrobno na primeru poklica kemijskega inženirja. 
+Delo kemijskega inženirja, neglede na to ali usmerja svoje znanje na področju procesne tehnologije, biotehnologije, okoljske tehnologije ali tehnologije materialov, zajema v največji meri tri področja dela: raziskovanje in razvoj procesa, načrtovanje procesa in vodenje procesa s težnjo po njegovi optimizaciji. 
+Pod procesom razumemo niz operacij ali tehnoloških postopkov s snovmi. 
+Odvija se v različnih aparaturah oz. napravah, ki medsebojno povezane s snovnimi in energijskimi tokovi tvorijo industrijsko postrojenje oz. tehnološki obrat, kjer na izhodu dobimo željeni proizvod. 
+Razumljivo je, da rabi kemijski inženir za uspešno reševanje tako zahtevnih nalog ogromno tako kvalitativnih kot tudi kvantitativnih podatkov o določenem procesu. 
+Del teh podatkov je na razpolago v strokovni literaturi, nikoli pa vsi potrebni podatki niso vnaprej znani. 
+Na osnovi laboratorijskih raziskav lahko pridobimo nekatere podatke, kot na primer kinetiko kemijskih reakcij. 
+Pomembne informacije o procesu, ki jih ne moremo dobiti na laboratorijskem nivoju in so praktično nedoločljive na industrijskem nivoju, nam omogočajo pilotne raziskave. 
+V ta namen je potrebno postaviti pilotno napravo oz. postrojenje, ki dejansko predstavlja fizični model proučevanega procesa. 
+Simulacije, izvedene na fizičnem modelu, nas lahko pripeljejo do globljega razumevanje procesa, njegove optimizacije na industrijsken nivoju in morda novih tehnoloških rešitev. 
+Zavedati pa se moramo, da je načrtovanje in izgradnja fizičnih modelov tehnično in ekonomsko zelo zahtevna operacija. 
+Simuliranje procesa na osnovi matematičnega modela je v primerjavi s fizičnim modelom neprimerno ceneje. 
+Upravljanje z matematičnimi modeli je preprosto, okolju neškodljivo in varno, kar pa pogosto ne velja za vodenje samih realnih procesov ali njihovih fizičnih modelov. 
+S simulacijami, kot jih napoveduje matematični model, lahko preučujemo obnašanje procesa praktično pri vseh mogočih in nemogočih obratovalnih pogojih in pri vseh smiselnih vrednostih parametrov Parametri predstavljajo procesne lastnosti sistema in njegove okolice, ki jim lahko pripišemo določene numerične vrednosti. 
+Parameter imenujemo tudi konstanto ali koeficient v matematični enačbi.. 
+Pri fizičnih modelih je spreminjanje parametrov precej bolj omejeno, včasih nemogoče. 
+Relativno preprosto je menjati vrednost npr. vstopne koncentracije reaktantov ali pretok hladilne vode, težko oz. nemogoče pa je spremeniti premer reaktorja, dolžino nekega voda ipd.
+
+Zaključimo z modrostjo modeliranja in nekoliko cinizma: vsi modeli so napačni, nekateri so koristni.
+
+• Kateri način ugotovitve veljavnosti oz. potrditve modela je primeren in uresničljiv za dani primer?
+
+• Kako vzdrževati in ohranjati uporabnost modela?
+
+- vpliv sprememb procesnih parametrov na izvajanje procesa
+
+• matematične modele.
+
+Drugi razlog pa je izhajal iz vse bolj izrazitih industrijskih zahtev, da se do rezultata pride čim hitreje in s čim bolj natančnimi rezultati. 
+Z intenzivnim vključevanjem drugih naravoslovnih znanosti, predvsem matematike in fizike, je kemijsko inženirstvo hitreje prihajalo do novih spoznanj in bolj ekonomično reševalo industrijske probleme. 
+Poleg matematičnih modelov in vzporedno z njimi, kadar znanstveni pristopi niso prodrli v bistvo procesov, so se začeli pojavljati fizični modeli v obliki učinkovitih pilotnih naprav.
+
+Kadar sta f in V konstantna, nam njun kvocient V/f = daje zadrževalni čas in obratno razmerje prostorninsko (volumensko) hitrost.
+
+Slika 2.3 Koraki sistematičnega pristopa k izgradnji modela.
+
+• vhode in izhode
+
+Vsak matematičen model je zgrajen na osnovi določenih predpostavk, ki lahko izrazito vplivajo na rezultate modela. 
+Zato jih obravnavamo v povezavi z modelnimi enačbami in pripadajočimi začetnimi in robnimi pogoji, kot eno izmed sestavin procesnega modela. 
+Najbolj pogosto predpostavke vključujejo
+
+4.4 Zapis ohranitvenih bilanc
+
+• preciznost - odziv modela je krivulja ne pa družina krivulj ali neko področje vrednosti
+
+CA,0 - začetna koncentracija reaktanta Av reaktorju, (mol/m3)
+
+fA,i - molski iztok reaktanta A, (mol/s)
+
+• Sferne koordinate, kjer je točka v prostoru določena z razdaljo od izbrane točke, “zemljepisno dolžino” in “širino”: (r,*,*).
+
+in posledično je količina pretečene snovi skozi nagnjeno ploskev enaka
+
+kjer vektorska količina *označuje masni fluks (kg/s m2). 
+
+V drugem poglavju (primer 2.2) smo sledili spremembam koncentracije reaktanta A in entalpije v mešalnem reaktorju (sistem PNS). 
+Za lažje razumevanje splošnih ohranitvenih bilanc (3.16, 3.17) izpeljimo kot primer komponentno snovno bilanco (pr. 2.2)
+
+še v integralni obliki. 
+V enačbi (3.16) je opisana hitrost akumulacije števila molov komponente A, če vzamemo za spremenljivko =nA (mol) in je potem =/V=CA (mol/m3). 
+Prvi člen 
+
+(Albert Einstein)
+
+Pričujoče poglavje vsebuje kratek pregled konstitutivnih zvez, ki skupaj z ohranitvenimi načeli in procesnimi pogoji predstavljajo osnovne elemente vsakega matematičnega modela. 
+Če modeliramo proces, ki poteka na primer v plinasti fazi, bomo pri razvoju matematičnega modela zapisali enačbe stanj, ki opisujejo medsebojno odvisnost prostornine, pritiska in števila molov plina pri idealnih ali realnih pogojih. 
+Pri večfaznem sistemu, ki zajema npr. paro in tekočino, bomo rabili izraze, ki opisujejo ravnotežne odnose (npr. Raoultov zakon), relativne hlapnosti, ravnotežne konstante ipd. 
+Če se v sistemu odvija kemijska reakcija, moramo poznati zakonitosti reakcijske kinetike in še bi lahko naštevali. 
+
+Johnson, C., Process Control Instrumentation Technology, Prentice-Hall International, 1997..
+
+Slika 4.3 Prenos snovi med plinasto in kapljevinasto fazo (primer absorpcije).
+
+• ves upor proti prenosu snovi je v filmu tekočine 
+
+PREVAJANJE
+
+RADIACIJA
+
+Pri modeliranju (bio)kemijskih procesov ni veliko primerov, ki bi pri zapisu prenosa toplote zahtevali upoštevanje radiacije. 
+Toplotni tok, ki ga emitira telo, postane pomemben šele pri povišani temperaturi, prevladujoč način transporta pa postane pri temperaturah, višjih od 700 K.
+
+Kemijske reakcije se odražajo v porabi in tvorbi kemijskih reakcijskih komponent znotraj obravnavanega območja, za katerega zapišemo komponentne snovne bilance. 
+Kadar kemijsko reakcijo spremljajo znatni toplotni efekti (reakcijske toplote), moramo te vplive vključiti v energijsko bilanco.
+
+kjer je *i stehiometrični koeficient i-te reakcijske komponente v reakciji, lahko zapišemo enakost celokupne hitrosti reakcije in reakcijskih hitrosti posameznih komponent reakcije
+
+Spomnimo se, da imajo po dogovoru stehiometrični koeficienti reaktantov negativen predznak in stehiometrični koeficienti produktov pozitiven predznak. 
+
+kjer je (h-1) specifična hitrost rasti mikroorganizma, X pa je koncentracija biomase, ki pri nestrukturnih modelih opisuje enovito biomaso, v katero so združene vse komponente celic.
+
+(4.28)
+
+(4.32)
+
+Enačba (4.40) preide sedaj v
+
+Upoštevanje dni,* = - dni,****dni*nam daje naslednjo ravnotežno zvezo
+
+(4.45)
+
+pri čemer sta xA in yA ravnotežni sestavi glede na komponento A pri dani temperaturi. 
+Ravnotežna razmerja v binarnih sistemih pogosto izražamo tudi z relativno hlapnostjo *AB
+
+Sestavo reakcijske mešanice v ravnotežju lahko merimo na več načinov. 
+Odkrili so, da lahko sestavo mešanice v ravnotežju za vsako reakcijo podamo z ravnotežno konstanto K, ki jo lahko eksperimentalno določimo, ali pa njeno vrednost napovemo na podlagi termodinamike. 
+Osnovna značilnost ravnotežne konstante je njena neodvisnost od začetne sestave reakcijske mešanice. 
+
+Pri takšnem neposrednem razvoju algebrajske zveze, kot smo ga spoznali na opisanem primeru, je izbor tipa algebrajskega modela, ki ustreza danim podatkom, ključnega pomena. 
+Je to polinom in katere stopnje? 
+Je potrebno vključiti eksponentni člen in kje? 
+
+Predpostavke
+
+• pliska mešanica komponent A in B se obnaša kot idealen plin
+
+• prenos toplote z radiacijo je zanemarljiva
+
+- Namesto molekularnih koeficientov toplotne in snovne difuzivnosti uvedemo, tako imenovane, efektivne difuzivnosti. 
+Te so po naravi empirične in morajo biti eksperimentalno določene za vsak procesni sistem ali podsistem. 
+Pri tem si lahko pomagamo z obstoječimi korelacijskimi enačbami, določenimi za procesne sisteme, kjer je težko ali nemogoče določiti lokalna hitrostna polja (procesi s turbulentnimi tokovnimi profili, tok skozi strnjene sloje, difuzija v poroznih medijih, ipd.) 
+
+Zapis modelnih enačb obravnavanega procesa (I-VI) temelji na naslednjih predpostavkah
+
+To metodo moramo uporabljati iterativno. 
+Ko hočemo določiti vrednost rešitvene funkcije v točki x0+2h, potrebujemo že izračunano vrednost v točki x0+h. 
+Potem se pomaknemo v točko x0+3h in tako naprej. 
+Seveda je lahko korak h tudi negativen, če nas zanima rešitev začetnega problema levo od začetne točke x0. 
+Eulerjevo metodo lahko zapišemo v obliki zaporedja približkov
+
+Slika 6.4 Rungejeva trapezna metoda. 
+
+To formulo je izpeljal Runge leta 1895. 
+Natančnost te formule je primerljiva z natančnostjo Runge-ove sredinske formule. 
+Pokazati se da, da je globalna napaka zgornjih dveh formul po velikem številu korakov proporcionalna . 
+To pomeni, da se napaka pri razpolovitvi koraka h približno deli s 4.
+
+u(x,0) = u(x,10) = 0
+
+• konstanten molski tok reakcijske zmesi
+
+• zanemarljiva temperaturna odvisnost koeficienta toplotnega prenosa in specifične toplotne kapacitete za vodik
+
+(P1.10)oziroma
+
+kjer je K1 empirična konstanta hitrosti raztapljanja (L/mg min).
+
+• idealno pomešanje 
+
+KOMPONENTNA SNOVNA BILANCA PROCESNE SPREMENLJIVKE X (X(Z) X(Z), M1(Z), C(Z), U2(Z), OC(Z)) V MOLSKIH ENOTAH ZA PROSTORSKI BILANČNI ELEMENT
+
+• KONSTANTNA HITROST GIBANJA TEKOČINE V CEVI
+
+(P5.1)
+
+S PRIPADAJOČIMI ZAČETNIMI IN ROBNIMI POGOJI
+
+TO PA NAM V LIMITI DA DOLOČEN INTEGRAL
+
+(P5.16)
+
+(P5.27)KJER JE 
+
+PRIMER P.6 PASTERIZACIJA AJVARJA
+
+• KOEFICIENT TERMIČNE PREVODNOSTI * JE NEODVISEN OD POZICIJE ZNOTRAJ TELESA IN ZANEMARLJIVO ODVISEN OD TEMPERATURE.
+
+Hangos, K.
+M., Cameron, I.
+T., Computer Aided Modeling, EURECHA Workshop on Computer Aided Modeling, Veszprem, Hungary, 1999. 
+
+Konstitutivne zveze…………………………….………………
+
+Modelne enačbe………………………....................................
+

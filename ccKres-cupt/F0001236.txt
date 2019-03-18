@@ -1,0 +1,35 @@
+interno 52
+
+Podatkovna raven je celična hrbtenica za blokovno posredovanje, sestavljena iz naprav podjetja NewBridge, vgrajenih v vozlišča na Telekomovih vozelnih centralah. 
+Hrbtenica »frame relay« omogoča ločitev fizične ravni povezav (raven 2 modela za povezovanje odprtih sistemov OSI) od logične ravni. 
+Prednosti hrbtenice so številne: skrajšanje razdalje najetih bakrenih vodov do posameznih uporabnikov (in s tem večje prenosne hitrosti), možnost dinamičnega dodeljevanja hitrosti, uporaba 2Mb/s digitalnih povezav in zagotovljena prepustnost vsake končne lokacije.
+
+36
+
+Kakšna naj bo baza podatkov za analiziranje v živo? 
+Izhajajmo iz tega, kako razmišlja in kaj potrebuje poslovni analitik. 
+Analitik vidi poslovne podatke v kontekstu realnega okolja. 
+Analizirati začne, recimo, pri določenem izdelku glede na časovno obdobje. 
+Potem spreminja zorni kot, od tega, kako dobro se izdelek prodaja, do tega, kako je izdelan, in končno do tega, kako je prodajan. 
+Značilen pogled analitika na podatke je torej večdimenzionalen. 
+Relacijski podatkovni model v obliki velikega števila dvodimenzionalnih tabel in relacij med njimi je zato nenaraven, predvsem pa okoren za analitično uporabo. 
+
+Naslov: Nekaj velikih
+
+Novosti
+
+Kaj pa, če stanje ni ne končno ne nadaljevalno? 
+V tem primeru bo (idealno) pravilo svetovalo, naj se ustavimo ali nadaljujemo gotovo bo svetovalo boljšo možnost. 
+Če se ustavimo, dobimo F(i), če nadaljujemo, toliko, kolikor nam izračuna gornja formula. 
+Vse tri možnosti lahko združimo v
+
+Za zgled in vajo se poigrajmo s predelavo parkirne naloge. 
+Kako ukiniti nadaljevalna stanja? 
+Nadaljevalna stanja v tej nalogi so (k, 1), stanja, v katerih je parkirno mesto ob nas zasedeno. 
+Vprašajmo se takole: smo v stanju (k, 0) (v katerem se lahko ustavimo, če želimo). 
+Kakšna je verjetnost, da bo naslednje stanje, v katerem se bomo lahko ustavili, stanje (l, 0)? 
+Če je l k, je verjetnost enaka 0, ker se ne bomo vozili nazaj in tudi na mestu ne bomo stali. 
+Če pa je l > k, moramo izračunati verjetnost, da so vsi prostori med k in l zasedeni (nadaljevalna stanja), prostor l pa prost. 
+Verjetnost, da je stanje prosto, je p, stanj med k in l je l k 1 in kdor še ni povsem pozabil verjetnostnega računa, ve, da je verjetnost, ki jo iščemo, enaka p(1 p)l k 1. 
+Opustimo nadaljevalna stanja, torej vsa stanja, ki imajo na drugem mestu enico; ničlo lahko izpustimo in nova naloga je
+

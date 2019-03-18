@@ -1,0 +1,973 @@
+10. dan
+
+Če mi boste pisali, zagotovo vključite naslov in avtorja knjige, kot tudi vaše ime, ter telefonsko številko ali številko faksa. 
+Pazljivo bom prebral vaše pripombe ter jih sporočil avtorjem in založnikom, ki so delali na tej knjigi.
+
+Polja s ključem
+
+Pri tem je najbolj pomembno, da se zavedate, kakšno obliko bodo imele pridobljene informacije. 
+Z drugimi besedami povedano, pri izdelavi strukture baze podatkov se morate zavedati, kako boste iz niza podatkov pridobili informacije. 
+To je gotovo ena izmed težjih nalog za nove uporabnike baz podatkov.
+
+Seveda dejanska baza podatkov za bolnico vsebuje veliko več tabel kot naša. 
+Povezave med njimi so lahko takšne:
+
+Prva normalna oblika se imenuje atomska oblika, ker njena nadaljnja razčlenitev ni mogoča. 
+Oglejte si tabelo z imeni osebja enega oddelka na sliki 1.14.
+
+V Access je vključena zvijača, ki vas prisili na občasno stiskanje baze podatkov. 
+Čeprav bo Access bazo podatkov dinamično razširil zaradi prilagoditve dodanim objektom in podatkom, pri njihovi odstranitvi ne omogoča tudi samodejnega stiskanja. 
+Ta postopek morate izvesti programsko ali ročno.
+
+Opomba
+
+Novo okno, ki ga vidite na zaslonu, je tudi objekt v Microsoftovi hierarhiji objektov – dejstvo, ki si ga morate zapomniti za delo z objekti v VBA ali makro kodo. 
+Za zdaj bomo to okno imenovali okno v pogledu Database za objekt Northwind:Database, kar piše tudi na naslovni vrstici. 
+To okno je razdeljeno v tri glavne dele, prikazane na sliki 2.3:
+
+Nov objekt, ki se imenuje Northwind:Database, je pogled Database ali vsebnik baze podatkov, kot se včasih imenuje, ker vsebuje različne objekte, ki tvorijo sistem baze podatkov. 
+Prikaže vse postavke ali objekte iz vašega projekta in jih zbere po klasifikaciji. 
+Niz gumbov na levi strani vsebnika omogoča, da izberete različne vrste objektov, kot so tabele ali poročila. 
+Kliknite postavko Forms (ali kakšno drugo postavko, ki ni trenutno izbrana) in v desnem podoknu se bodo prikazali vsi objekti baze podatkov za to postavko. 
+Slika 2.3 prikazuje pogled Database za preprosto bazo podatkov.
+
+Z izbiro različnih predmetov boste spremenili prikaz znotraj pogleda Database. 
+Izbiro Forms primerjajte z izbiro Tables s slike 2.2.
+
+Large icons – Objekte baze podatkov prikaže z velikimi ikonami. 
+Ta funkcija je podobna pogledu, ki se prikaže, če odprete Raziskovalec Windows ali ikono Moj računalnik.
+
+Slika 2.9
+
+Slika 2.19
+
+Razdelek Detail obrazca vsebuje tri polja (ali krmilne elemente) za podatke in tri oznake, ki povedo uporabnikom, kaj predstavljajo polja. 
+Poskusite preklopiti med pogledoma Design in Form in si oglejte, kako se spremenijo krmilni elementi in njihove oznake. 
+Ko končate, zaprite obrazec in zavrzite slučajno opravljene spremembe. 
+Zdaj so na vrsti poročila.
+
+Slika 2.26
+
+Sledite korakom v tem poglavju, če pa želite, lahko odprete svojo kopijo Accessa.
+
+Tu kliknite za zagon modula
+
+5. 
+Izdelajte prototip sistema – To je izbirni del in je koristen predvsem za velike projekte, pri katerih se vam bo vloženo delo gotovo povrnilo. 
+Izdelajte model predlaganega sistema in ga preizkusite z dejanskimi podatki. 
+Če ste zunanji sodelavec, ga pokažite uporabnikom in nadrejenim, da vam bodo povedali svoje mnenje. 
+Zadnji korak je lahko zelo koristen, če menite, da ljudje, ki bodo uporabljali ta sistem, niso povsem naklonjeni njegovi uporabi. 
+Nezadovoljni uporabniki lahko namreč uničijo še tako dober sistem baze podatkov.
+
+Rezultat informacij
+
+Za zdaj še ne pričakujte, da si boste znali predstaviti delovanje teh elementov v praksi. 
+Ko boste končali s knjigo, se vrnite na ta razdelek in takrat vam bo veliko bolj jasen.
+
+1. 
+Tudi največji strokovnjaki uporabljajo pomoč
+
+Pri Microsoftu so vključili tudi številne zglede, ki jih lahko iz pomoči prekopirate in prilepite neposredno v vašo aplikacijo. 
+Ti zgledi zagotovo nimajo hroščev, zato ni nobenega razloga, da jih ne bi prelepili in prilagodili svojim potrebam. 
+
+Če želite videti delovanje pomoči, morate odpreti bazo podatkov. 
+Najbolje bo, da odprete Start.mdb. 
+Kliknite Rockyja ali kakšnega drugega pomočnika in izberite možnost See a Complete List of Help Topics. 
+Na vrhu prikazanega zaslona poiščite ikono Show in jo kliknite. 
+Vaš zaslon bo podoben kot na sliki 2.30.
+
+Sledi zgled za uporabo. 
+Z glavnega menija izberite Tools, Security, Set Database Password. 
+V prikazanem pogovornem oknu na naslovni vrstici kliknite vprašaj poleg ikone za zapiranje. 
+Poleg kazalke se bo prikazal tudi vprašaj. 
+Kliknite polje Password (Geslo). 
+Vaš zaslon bo podoben kot na sliki 2.32.
+
+Orodne vrstice lahko vsidrate na stran, na dno ali na vrh zaslona.
+
+Za zagon novega čarovnika za baze podatkov izberite katerokoli postavko, prikazano na tem jezičku in kliknite OK. 
+Access vas bo vodil skozi korake čarovnika, v katerem bodo vaše glavne možnosti namenjene oblikam, ki so uporabljene za zaslonske objekte.
+
+Povzetek
+
+Lastnosti tabele
+
+Pri oblikovanju tabel morate paziti predvsem na naslednje:
+
+Namig
+
+1. 
+Običajen model namesto relacijskega
+
+Slika 3.14
+
+Ta zadeva je videti v posnetku zaslona precej nejasna, zato odprite tblStudentIncident, kliknite znak plus in si sami oglejte, kako deluje ta pripomoček. 
+Večina strokovnjakov meni, da je najboljši način za vnašanje podatkov za povezave tipa "eden z več" s pomočjo obrazca s podobrazcem. 
+To temo bomo obravnavali 16. dan v poglavju "Zahtevnejši koncepti obrazcev" in si jo lahko na hitro ogledate.
+
+Naloga: Urejanje pogleda podatkov tabele
+
+3. 
+Kliknite kjerkoli v stopcu (polju) Contact Name. 
+S tem omogočite uveljavitev naslednjega dejanja za to polje.
+
+Naloga: Filtriranje
+
+Pogovorno okno Find omogoča hitro iskanje podatkov.
+
+V Ali univerzalni znak * deluje v Accessovem pogovornem oknu Find?
+
+1 teden
+
+1 dan
+
+2. 
+Kliknite v polju Contact Name. 
+Na orodni vrstici kliknite gumb Sort Ascending. 
+Kot ste že videli v pogledu Datasheet tabele, bo Access razvrstil trenutno polje v abecednem vrstnem redu. 
+Kliknite v polju Customer ID in za vrnitev podatkovnega lista v njegov izvirni pogled znova kliknite gumb Sort Ascending.
+
+5. 
+Na orodni vrstici kliknite gumb Remove Filter in odstranite filter. 
+Zaprite poizvedbo in zavrzite spremembe, opravljene v postavitvi.
+
+3. 
+V vrstico Criteria v stolpcu CompanyName vnesite Du monde entier. 
+S tabulatorjem skočite na drugo polje. 
+Access bo vnosu dodal narekovaje. 
+To pomeni, da je omejitev tega kriterija niz med narekovajema. 
+Vaš zaslon bo podoben kot na sliki 4.9.
+
+Poizvedba tipa OR bo vrnila zapise, ki ustrezajo enemu ali drugemu kriteriju v vrstici Criteria.
+
+Slika 4.16
+
+Polja iz različnih tabel lahko povežete, ne da bi vse te tabele vključili v rezultate poizvedbe.
+
+6. 
+Poizvedbo vrnite v pogled Design. 
+Kriterij spremenite v Like "ave?". 
+Zaženite poizvedbo. 
+Kot lahko vidite, univerzalni znak ? deluje podobno kot v ukazni vrstici – nadomešča en znak. 
+V tem primeru bo poizvedba vrnila vse zapise, katerih priimek se začne z ave in vsebuje še eno črko (ali številko). 
+
+13. 
+Denimo, da želite v tej poizvedbi poiskati samo zapise z datumom po letu 2000. 
+Ali mislite, da bosta kriterija v polju Dates >2000 in >#1/1/2000# delovala?
+
+ObrestnaMera = .05125
+
+txt Besedilno polje
+
+TABELA 5.2 Značilna uporaba pravil o poimenovanju
+
+Slika 5.6
+
+Slika 5.11
+
+Text box Vsebuje besedilo ali številke. 
+Lahko je povezan, nepovezan ali vsebuje izračun (izraz).
+
+Combo box Običajno spustno polje. 
+Pravzaprav je kombinacija besedilnega polja
+
+Namig
+
+Slika 5.17
+
+Razdelek Form Header tega obrazca vsebuje oznako krmilnega elementa, ki ostaja enaka ne glede na to, kaj je prikazano v razdelku Detail.
+
+Naloga: Spoznavanje zaporedja premikanja
+
+1. 
+Zaženite Access in odprite bazo podatkov SimpleForms. 
+Na vrstici objektov kliknite postavko Forms. 
+Poiščite obrazec frmTabOrder in ga odprite v pogledu Design. 
+Če je obrazec zaradi navodil iz prejšnjega razdelka odprt v pogledu Form, ga zdaj preklopite v pogled Design.
+
+3. 
+V pogovornem oknu lahko spremenite zaporedje premikanja med krmilnimi elementi obrazca na dva načina. 
+Če kliknete gumb Auto Order, bo zaporedje premikanja med krmilnimi elementi potekalo od leve proti desni in od dna proti vrhu, če pa kliknete sivi kvadratek na levi strani imena krmilnega elementa, lahko krmilni element povlečete in spustite na novo mesto v zaporedju.
+
+Združevanje znotraj poročila
+
+4. 
+Prva stvar, ki jo bomo popravili na tem poročilu, je dolžina dveh prekratkih polj. 
+Zdaj poročilo sega do desnega roba strani, zato teh polj ne morete kar preprosto raztegniti, sicer bo poročilo izven robov. 
+V tem primeru bo Access natisnil levo in desno stran vsake strani, zaradi česar bo poročilo imelo 20.000 strani. 
+Še huje, če bo vsaka logična stran natisnjena na dveh fizičnih straneh, bo poročilo izgubilo logično povezanost. 
+Prekratka polja lahko popravite na naslednje načine:
+
+8. 
+Naslednji korak zahteva precej natančnosti. 
+Za prilagoditev polj na optimalno širino boste morda tudi morali preklopiti med pogledoma Design in Preview. 
+
+To poročila ima zdaj več prostora za polje Name, prikaže pa tudi celotno oznako stranke.
+
+4. 
+Na seznamu Properties poiščite jeziček Format in ga kliknite. 
+Poiščite lastnost Caption in jo spremenite v Voters by Precinct. 
+Vaš zaslon bo podoben kot na sliki 6.13.
+
+Precinct Count:
+
+3. 
+V naslednjem pogovornem oknu lahko podate pisavo in njene značilnosti. 
+Razen če nimate posebnega razloga, pustite privzete nastavitve, saj so primerne za nalepke.
+
+8. 
+Razlaga podrobnosti izrazov
+
+1. 
+Če je potrebno, zaženite Access. 
+Na vrstici objetkov pogleda Database kliknite postavko Reports. 
+Poiščite poročilo rptSumming in ga odprite v predogledu pred tiskanjem. 
+Vaš zaslon bo podoben kot na sliki 6.22.
+
+Slika 6.23
+
+S preprosto spremembo lastnosti boste spremenili ta krmilni element iz kopije obstoječega krmilnega elementa v krmilni element tekoče vsote.
+
+O Tehnično gledano ne, toda uporabiti ga morate za vsako polje, ki ima presledek v Name (predhodno Control Name). 
+Če za imena polj uporabite [ ], Access ne bo nikoli naredil napake, kar se lahko zgodi, če ne uporabite oklepajev. 
+Oklepaji so tudi zelo koristni, saj za razvijalca takoj določijo polje iz funkcije, zato jih vedno uporabite. 
+
+2. 
+Poročilo rptAllSums odprite v pogledu Design.
+
+8. 
+Krmilni element prilepite v področje Report Header in ustrezno s tem spremenite oznako.
+
+Preprost makro
+
+1. 
+Brisanje dejanj makrov
+
+9. 
+Kliknite ukazni gumb. 
+Če ste za ta krmilni element odstranili dogodek, se ne bo zgodilo nič. 
+Znova kliknite nepovezani krmilni element besedilnega polja. 
+Videli boste, da se bo makro zagnal, krmilni element pa bo znova dobil žarišče.
+
+Če želite izdelati makre za delo z objekti, najprej izdelajte objekte, nato pa makre. 
+Na ta način bodo objekti prikazani na kombiniranih seznamih mreže za oblikovanje makrov. 
+Na koncu makre dodelite krmilnim elementom (če je ustrezno).
+
+Če poskusite zagnati ta makro, se ne bo zgodilo nič, ker pogoja ni mogoče zadovoljiti. 
+Access bo sporočil, da ne more najti objekta, ki ga preizkušate, da bi videli, ali je ničelen. 
+
+7. 
+Preklopite v pogled Form. 
+V polje Name vnesite nekaj podatkov. 
+S tipko Tab skočite v polje Surname. 
+Razen premika utripalke se ne zgodi nič.
+
+3. 
+Ali bodo vnosi v stolpcu Macro Name prikazani v pogledu Database?
+
+1. 
+Vaja
+
+3. 
+Zaženite nov makro.
+
+Stran, tako kot vsak drug Accessov objekt, potrebuje ime; to ime bo uporabljeno tudi za stran izven vsebnika, ki jo bo Access izdelal pri shranitvi tega objekta.
+
+Slika 8.6
+
+10. 
+Poiščite mapo, v katero Access po privzetku shranjuje dokumente. 
+To je običajno c:\My Documents. 
+Če želite videti, katera mapa je to na vašem računalniku, izberite Tools, Options, General in poiščite besedilno polje z oznako Default Database Folder, prikazano na sliki 8.7. 
+V Raziskovalcu se pomaknite do te mape in poiščite objekt z imenom, ki ste ga dodelili strani, toda s pripono .HTM. 
+Slika 8.8 prikazuje ta objekt za vzorčne podatke.
+
+5. 
+V objektu tblUsers poiščite polje Room. 
+Slika 8.12 prikazuje polje FieldList z označenim poljem.
+
+To je dober začetek v pogosto zamotanem svetu funkcije Data Access Pages. 
+Naslednji razdelek vsebuje nekaj praktičnih informacij o tem objektu.
+
+V Kako lahko spremenim zaščito za stran?
+
+2. 
+Odprite pogovorno okno Field List in razširite postavko Tables. 
+Poiščite tabelo tblUsers in jo kliknite. 
+Z gumbom Add to Page dodajte polja iz te tabele kot krmilne elemente na stran. 
+Vaš zaslon bo podoben kot na sliki 8.16.
+
+Preverjanje veljavnosti podatkov v tabelah
+
+Namig
+
+To je še ena preprosta tabela, primerna za vadbo.
+
+6. 
+To je vse. 
+Kliknite Finish (to lahko naredite tudi v zadnjem pogovornem oknu) in postopek je končan. 
+Access bo izdelal vhodno masko glede na vaše določbe in jo postavil v lastnost polja Input Mask. 
+Maska za to polje je 99/99/00;0;#.
+
+& Prisili katerikoli vnos vključno s presledkom
+
+Odprite bazo podatkov Table Validation in poiščite tabelo Employees. 
+To je tabela, uvožena iz baze podatkov Northwind. 
+Odprite jo v pogledu Design. 
+Poiščite polje Photo in videli boste, da je njegov podatkovni tip OLE Object.
+
+3. 
+Za izhod iz teh pogovornih oken kliknite OK. 
+Access bo spustil hiperpovezavo nekam na obrazec. 
+Povezavo povlecite desno od polja Photo. 
+Vaš zaslon bo podoben kot na sliki 9.21.
+
+Hiperpovezave lahko vključite kot podatke, če polje tabele definirate s podatkovnim tipom Hyperlink. 
+Podobno lahko vključite hiperpovezavo tako, da jo spustite kamorkoli na obrazec, kjer bo delovala kot aktivna oznaka.
+
+1. 
+Kviz
+
+Kliknite v področju za vnos številke in videli boste, da se bo prikazal gumb za izdelavo (tri pike). 
+S klikom na gumb odprite standardno pogovorno okno Windows za izbiro barv. 
+Vaš zaslon bo podoben kot na sliki 10.1.
+
+Default View Pogled pri odprtju obrazca
+
+Slika 11.4
+
+Slika 11.6
+
+Seniority: DateDiff("yyyy" [HireDate], Date( ))
+
+2. 
+Vrnite se v pogled Design. 
+V vrstici kriterija stolpca UnitPrice izdelajte naslednji izraz:
+
+Vaš zaslon bo podoben kot na sliki 11.20.
+
+3. 
+Ali morate v poizvedbah uporabljati samo vgrajene Accessove funkcije?
+
+3. 
+Izberite poročilo rptStudentRoster in kliknite gumb Design.
+
+Prvi jeziček na seznamu je Format, na katerem so navedene lastnosti, ki vplivajo na obliko poročila kot celoto. 
+Ena izmed prvih lastnosti, ki jih boste najbrž spremenili, je lastnost Caption, ki nadzoruje besedilo, prikazano v naslovni vrstici poročila, prikazanega v predogledu pred tiskanjem. 
+Če ste poročilo izdelali s čarovnikom, bo v naslovu in v oznaki razdelka Report Header prikazano besedilo, ki ste ga vnesli pri izdelavi poročila. 
+To besedilo se uporablja tudi za poimenovanje poročila.
+
+Na poročilu deluje lastnost Width nekoliko drugače. 
+Če kliknete gumb za izbiro poročila in si ogledate lastnost Width, boste videli, da je nastavljena na 6.5 palca. 
+Če uporabljate običajni papir z velikostjo 8.5x11 palca, vam manjkata dva palca. 
+Lastnost Width za poročilo je samo del nastavitev.
+
+Dodate lahko grafikon, ki temelji na vaših podatkih.
+
+Grafika je prikazana v sredini poročila.
+
+5. 
+Izberite grafiko, kot je na primer ena izmed datotek z ločevalnimi sličicami, ki so vključene v Microsoft Office 2000. 
+Najdete jo v mapi \Program Files\Common Files\Microsoft Shared\ClipArt\Themes1\Lines. 
+Datoteka se imenuje bd21348_.wmf.
+
+S čarovnikom za grafikone lahko dodate naslov in legendo.
+
+5. 
+Z dvoklikom izberite besedico Counts.
+
+11. dan ste v poglavju " Razvrščanje podatkov s poizvedbami in povezavami" lahko delali z izrazi, s katerimi ste prikazali izpeljane podatke. 
+Pri delu z bazo podatkov je pomembno, da čim bolj zmanjšate količino podatkov, ki bodo shranjeni v njej. 
+To lahko naredite s pomočjo izrazov, s katerimi tudi preprečite težave v integriteti podatkov. 
+Če shranite preračunane informacije kot polje, se v primeru, da zapis ni pravilno ažuriran, lahko zgodi, da boste imeli v tabeli shranjene napačne informacije. 
+
+3. 
+V razdelek Detail dodajte dve besedilni polji in zbrišite njuni oznaki.
+
+Če želite izdelati poročilo s podporočilom, morate
+
+7. 
+Izberite oznako Department Name in jo spremenite v Department.
+
+• "D", ScorePercent>=.7 and ScorePercent<.8, "C",
+
+Za vključitev podporočila lahko uporabite dva načina. 
+Eden je uporaba orodja Subform/Subreport, ki ga najdete na orodjarni, s katerim odprete čarovnika za podobrazce in podporočila, drugi način pa je z vlečenjem obstoječega podporočila iz okna Database na določeno mesto na poročilu.
+
+V naslednji nalogi bomo dokončali register študentov.
+
+Poročila lahko bolje izkoristite tudi tako, da na njih dodate izraze. 
+Izraze lahko uporabite v celotnem Accessu 2000, toda na poročilih lahko izdelate izračune in popolnoma spremenite način prikaza podatkov.
+
+O Če je za vsak povezan zapis na voljo veliko informacij, se lahko upočasni predogled pred tiskanjem in sam postopek tiskanja.
+
+4. 
+Katere vgrajene funkcije uporabite, če morate ovrednotiti vsebino polja z več možnostmi in prikazati vrednost na osnovi rezultatov?
+
+NOV IZRAZ Čarodeji Control so orodja, ki avtomatizirajo nastavitve nekaterih kontrol. 
+Za VBA najpogosteje uporabimo ukazni gumb. 
+Če imamo ob izdelavi ukaznega gumba aktivirane čarodeje Control, lahko v ozadju izdelamo VBA.
+
+Čarodej Command Button Wizard je naredil vse potrebno za izvajanje izbranega opravila. 
+Poglejmo, kako Visual Basic for Applications deluje v Accessu 2000.
+
+NOV IZRAZ Zadnja vrsta procedur je **property procedura**. 
+Uporabljamo jih le pri izdelavi **class modules**. **Class modules** omogočajo izdelavo prirejenih objektov -- s **property proceduro** tem novim objektom določimo lastnosti. 
+To vrsto procedur uporabljajo le izkušeni programerji, zato jih ta knjiga ne pokriva.
+
+Na levi strani okna je sivo območje, s katerim si v primeru težav s proceduro pomagamo pri preizkušanju kode. 
+Preizkušanje kode je opisano v nadaljevanju poglavja.
+
+Word in Visual Basic urejevalnik se razlikujeta v tem, da je Visual Basic urejevalnik strožji glede vnašanja kode, kot je Word glede vnašanja besedila v dokument.
+
+Option Compare Database
+
+Funkcija je zelo podobna podproceduri. 
+Sinkaksa se razlikuje le na nekaterih mestih:
+
+Spremenljivko lahko določimo tudi eksplicitno. 
+Ta pristop uporabi čarodej Control Wizard. 
+Slabost tega načina je, da zahteva dodatno vrstico kode, vendar pa ima več prednosti.
+
+Sintaksa se začne s ključno besedo Dim (dimenzija) in je ostanek starejše različice jezika BASIC. 
+Besedi Dim sledi ime spremenljivke, ključna beseda As in ustrezen tip.
+
+Sintaksa za deklaracijo konstante
+
+Koda, ki jo je čarodej Control Wizard izdelal za prikaz poročila, uporablja mehanizem OpenReport, ki vsebuje štiri argumente. 
+Eden izmed njih določa, kako želimo poročilo prikazati. 
+Nastavitev 2 odpre poročilo v prikazu Print Preview. 
+Da si nam tega ni treba zapomniti, koda namesto številčne nastavitve uporablja konstanto acPreview.
+
+Med vnašanjem kode je na voljo še ena vrsta pomoči. 
+Tako kot druge aplikacije ima tudi Visual Basic urejevalnik nekatere opcije, ki jih določi uporabnik sam. 
+Ena izmed njih je Auto Quick Info, ki nudi informacije, katere argumente zahtevajo določeni **statement**, funkcije in metode (slika 13.18).
+
+Odgovor: Če okno Code ni prikazano, kliknemo ime modula v oknu Project in klinemo gumb Code.
+
+##381##
+
+Accessovo QBE okno nudi okolje za začetnike, ki bi radi spoznali SQL. 
+Poizvedbo, ki izbere **subset** zapisov, lahko v Accessu uporabimo na več načinov: kot samostojno preglednico, kot vir zapisov za obrazec oziroma poročilo ter kot vir vrstic za seznam. 
+Pozvedbo lahko dostopamo tudi z VBA.
+
+Najpogosteje SQL uporabimo za izdelavo poizvedbe, ki iz podatkovne zbirke izbere **subset** zapisov. 
+To izvedemo s **statement** SELECT. 
+Poizvedba ne spremeni podatkov v tabelah,
+
+Uporaba nadomestnih znakov
+
+2. 
+V stolpcu State kliknemo vrstico Criteria.
+
+= enačaj
+
+3. 
+Vnesemo >30 in pritisnemo Enter (slika 14.11).
+
+V prejšnjih razdelkih smo za izbiranje zapisov, ki ustrezajo določenim kriterijem, uporabili različne primerjave. 
+Pri številčnih podatkih smo iskali tudi razpon vrednosti. 
+Včasih pa ne poznamo točno celotne vrednosti, ki jo želimo poiskati, kar še posebej velja za tekstovna polja. 
+Želimo na primer poiskati zapis stranke, a se ne spomnimo imena organizacije; vemo samo, da se začne na črko E.
+
+Na voljo so še nekateri drugi nadomestni znaki. 
+Če poznamo vse razen enega znaka, lahko ta znak nadomestimo z vprašajem. 
+Poizvedba qryWildCardQuestionMark, ki prikliče zapis organizacije Avalon, z operatorjem Like uporabi vprašaj, ker ne pozna točnega imena – v imenu manjka tretja črka.
+
+Pri izdelavi kompleksnih poizvedb se moramo zavedati, da ima Access svoje omejitve. 
+Omejeno je število tabel, povezav, znakov, uporaba logičnih operatorjev ter število znakov, ki jih lahko vsebuje SQL **statement** kot celota. 
+Prva omejitev se nanaša na število tabel, ki jih lahko uporabimo v poizvedbi; uporabimo lahko največ 32 tabel. 
+Med temi tabelami je lahko največ 32 povezav, vključno z indeksi, vsebujejo pa lahko največ 255 polj.
+
+Stavek WHERE deluje z vsemi tipi podatkov; paziti moramo le, da kriterije pravilno oblikujemo. 
+Izraz lahko sestavimo iz standardnih operatorjev za primerjavo, stavek WHERE pa podpira tudi logične operatorje, kot sta AND in OR. S ključno besedo BETWEEN poiščemo razpon vrednosti. 
+Ključna beseda LIKE omogoča iskanje zapisov s pomočjo nadomestnih znakov, ki jih uporabimo, kadar ne poznamo točne vrednosti kriterija. 
+S stavkom WHERE lahko prikličemo tudi zapise z manjkajočimi podatki oziroma zapise z vsemi podatki. 
+Pri tem uporabimo testne vrednosti Is Null in Is Not Null.
+
+3. 
+Na osnovi tabele tblProducts izdelajte poizvedbo, ki prikaže polji Product (izdelek) in Price (cena). 
+Poizvedba naj poišče le izdelke, ki stanejo med 10 in 15 dolarji.
+
+Akcijske poizvedbe
+
+Izdelava parametrov v poizvedbah
+
+Poizvedba Make Table izdela novo tabelo s zapisi iz obstoječe tabele.
+
+Naloga: Pretvorba izbirne poizvedbe v poizvedbo Update
+
+9. 
+Ko se odpre okence z sporočilom, kliknemo Yes.
+
+S poizvedbami Append tabelam dodajamo zapise iz drugih tabel. 
+Dodamo lahko celo zapise iz tabele, ki se nahaja v drugi podatkovni zbirki.
+
+4. 
+Vnesemo SupplierID:12 in pritisnemo Enter.
+
+Slika 15.10 Access vedno pred poganjanjem poizvedbe opozori, da poizvedba podatke spremeni.
+
+Slika 15.11 Akcijske poizvedbe upoštevajo pravila, ki s pomočjo povezav zagotavljajo celovitost podatkov.
+
+INSERT INTO cilj ŠIN zunanjapodatkovnazbirka] Š(polje1Š, polje2Š, …]])] SELECT Švir.]polje1Š, polje2Š, …] FROM izraztabele
+
+Naloga: Izdelava poizvedbe Delete
+
+3. 
+V pogovornem oknu Show Table izberemo tblClients, nato pa s klikom na Close pogovorno okno zapremo.
+
+Ostali stolpci uporabljajo podatke polja LCMonth, ki s funkcijo Month izloči številko meseca. 
+Ker pa je večina ljudi bolj vajena imen mesecev kot njihovih številk, lahko te naslove stolpcev dodatno izboljšamo. 
+Dvanajsta lekcija je predstavila funkcijo Choose. 
+Ta funkcija prikaže določeno vrednost, ki je odvisna od podane številke. 
+Prav to potrebujemo za prikaz naslovov stolpcev.
+
+S Pass-Through poizvedbo je omogočen dostop do funkcij podatkovne zbirke, kjer so podatki shranjeni. 
+Poleg tega lahko poizvedbo poganjamo na gostiteljskem sistemu in tako prihranimo sistemske vire na svojem. 
+To je še posebej pomembno pri sistemih, ki obdelujejo velike količine transakcij. 
+Sistem, ki na primer obdeluje naročila, vzdržuje sezname izdelkov in nadzira dobavo, predela veliko transakcij. 
+Nova naročila, novi izdelki in informacije o dobavi se dodajajo in vzdržujejo istočasno.
+
+3. 
+Izberemo Design View.
+
+11. 
+Pod prvo tekstovno okence vnesemo še eno.
+
+4. 
+Na orodni vrstici kliknemo gumb Build.
+
+Zadnji del lekcije se osredotoča na načine za spreminjanje kriterijev v poizvedbah. 
+Izdelamo lahko poizvedbo, ki zahteva kriterij, ko jo odpremo. 
+V tem primeru uporabimo parametre.
+
+Izdelava prilagojenih menijev in orodnih vrstic
+
+Ko zaprete poizvedbo, lahko izdelate obrazec. 
+To lahko naredite od samega začetka ali pustite čarovniku za obrazce, da to naredi za vas.
+
+Druga rešitev za to težavo je, da vse zapise zaščitite pred spreminjanjem. 
+Nastavitev Snapshot izdela statičen niz zapisov, ki je namenjen zgolj za prikaz in ga ni mogoče ažurirati. 
+V naslednji nalogi lahko preizkusite nastavitev Snapshot za lastnost Recordset Type.
+
+4. 
+Na orodni vrstici kliknite gumb View in prikažite pogled Form.
+
+7. 
+Zaprite obrazec ne da bi shranili spremembe.
+
+2. 
+Izberite gumb New, s katerim boste odprli pogovorno okno New Form.
+
+9. 
+Zmanjšajte velikost okna obrazca tako, da boste videli samo prikazane stolpce in za približno pet vrstic.
+
+Če si zapomnite, kako širok je obrazec, si boste pri združitvi podobrazca z glavnim obrazcem prihranili nekaj časa, ker vam ne potrebno ugibati, kako širok naj bo krmilni element podobrazca na glavnem obrazcu.
+
+Pred vključitvijo podobrazca boste morali pogosto vnovič urediti obrazec, da se bo podobrazec bolj prilegal nanj. 
+Če ste po opravljenih spremembah pogledali, kolikšna je širina podobrazca, ste videli, da je približno pet palcev, kar pomeni, da mora imeti glavni obrazec vsaj to širino.
+
+To lahko uporabnike spravi v precejšnjo zadrego, če niso pripravljeni na to. 
+Če se želite vrniti na glavni obrazec, ne da bi skočili na naslednji zapis, lahko dodate dostopno tipko. 
+To lahko naredite tako, da pred črko v oznaki polja vpišete znak &. 
+Izbrana črka postane dostopna tipka in je prikazana s podčrtajem. 
+Če uporabnik s to tipko pritisne še tipko Alt, bo takoj skočil na to polje. 
+
+Krmilni element običajnega seznama je skoraj enak kot kombinirani seznam, z razliko, da prikaže celoten seznam in za njegovo odprtje uporabniku ni treba klikniti puščice. 
+Da bi deloval čim boljše, mu morate dodeliti tri vrstice.
+
+Čarovnik mora ugotoviti, kaj naj naredi z izbrano vrednostjo.
+
+Slika 16.23
+
+Slika 16.24
+
+7. 
+Izberite InstructorID in Instructor, nato pa kliknite Next in si oglejte vsebino seznama.
+
+Drug način za poselitev kombiniranega seznama ali običajnega seznama je z uporabo VBA. 
+Za uporabo tega načina mora biti lastnost Row Source nastavljena na funkcijo VBA. 
+Ta način bomo obdelali v 19. poglavju z naslovom "Delo z VBA".
+
+Slika 16.28
+
+19. 
+Kliknite After Update, nato pa kliknite gumb s tremi pikami, s katerim boste odprli urejevalnik Visual Basica.
+
+Err_cmdOpen_Click
+
+Izdelava prilagojenih menijev in orodnih vrstic
+
+Če želite izdelati prilagojeni meni, morate najprej določiti, katere funkcije boste potrebovali pri delu z obrazcem ali poročilom. 
+To vam bo pomagalo določiti vsebino novega menija.
+
+3. 
+Izberite New, s čimer boste prikazali pogovorno okno New Toolbar (glejte sliko 16.34).
+
+7. 
+Za Type izberite Menu Bar in kliknite Close.
+
+4. 
+Odprite seznam Properties (glejte sliko 16.37).
+
+Obrazec frmSelectDepartment uporabniku omogoča izbiro oddelka in prikaz obrazca frmClasses s samo tistimi zapisi, ki so specifični za ta oddelek. 
+Skupina možnosti onemogoča prikaz vseh zapisov.
+
+3. 
+S klikom gumba OK potrdite izdelavo nove orodne vrstice.
+
+6. 
+Z desnim gumbom miške kliknite ikono pomoči in izberite Begin a Group.
+
+Raziskali ste več možnosti, ki omogočajo prikaz podatkov iz več tabel brez slabosti, povezanih z uporabo poizvedb kot izvora zapisov za obrazec. 
+Naučili ste se, kako s podobrazcem vključite podatke iz več kot ene tabele. 
+Videli ste tudi, kako se uporabljata kombinirani seznam in običajni seznam za prikaz informacij iz iskalne tabele.
+
+Slika 17.2
+
+Zapisi za študente drugega letnika zaradi filtra niso prikazani na tem poročilu.
+
+V resnični bazi podatkov bi najbrž nastavili filter za vsak razred in ga natisnili, kar pa zahteva nekoliko več dela. 
+To nalogo bomo opravili kasneje v tem poglavju, ko bomo raziskali parametrska poročila.
+
+Height .3"
+
+Glava strani zdaj vsebuje besedilno polje, v katerem bodo ponovljene informacije iz glave poročila.
+
+12. 
+Shranite poročilo in ga zaprite.
+
+1. 
+Uporaba lastnosti Keep Together in Grp Keep Together
+
+Lastnost New Row or Col omogoča izdelavo glavo skupine, ki je odmaknjena od glave skupine Year.
+
+Slika 17.15
+
+11. 
+Pod sliko leva dodajte besedilno polje in zbrišite njegovo priključeno oznako.
+
+Glava poročila zdaj na drugi strani vsebuje pismo.
+
+Z uporabo zunanjega vira za besedilo, kot je Microsoft Word, je izvajanje sprememb zelo preprosto. 
+Če ravnatelju ni všeč napisano besedilo, ga lahko preprosto spremenite v datoteki Microsoft Worda. 
+S tem si boste prihranili zelo veliko časa, še posebej, če razvijate sistem za nekoga drugega.
+
+Opozorilo
+
+Naloga: Nastavitev poizvedbe kot izvora zapisov
+
+10. 
+Oglejte si poročilo. 
+Zdaj ima uporabniško definiran naslov, ki je prikazan na prvi strani in v glavi strani (glejte sliko 17.23).
+
+Msgbox "Na voljo ni noben zapis, ki ustreza vašemu kriteriju."
+
+5. 
+S seznama Save As Type izberite HTML Document.
+
+3. 
+Vnesite novo ime datoteke, kot je na primer Departments.
+
+Me.RecordsetClone.FindFirst "[EventID] = & Me![Combo33]
+
+End Sub
+
+Object.property
+
+Objekt Application predstavlja osrednje nadzorno mesto za Microsoft Access z VBA. 
+Accessov objektni model je zelo obsežen. 
+Celoten model je prikazan na sliki 18.3.
+
+1. 
+Pregled stavka If…Then…Else
+
+Ta struktura se začne s ključno besedo If, ki ji sledi izraz, ki ga želite preizkusiti. 
+Vrednost spremenljivke, lastnost ali polje lahko preizkusite z enako strukturo kot jo ima izraz, ki smo ga izdelali 14. dan v poglavju "Razumevanje SQL".
+
+Me!EndTime = #5:00:00 PM#
+
+Če obstaja možnost, da se vsebina preizkusnega izraza ne bo ujemala z nobenim členom, morate vključiti člen Case Else, ki določi, kaj se bo zgodilo. 
+Zadnja vrstica je End Select, ki kaže konec pogojnega bloka.
+
+Me!EndDate = Me!StartDate
+
+Loop
+
+GoTo line
+
+Funkcija je oblikovana tako, da jo postavite v izraz in da vrne vrednost. 
+V prejšnjih lekcijah ste za izdelavo izrazov v poizvedbah, obrazcih in poročilih uporabili številne vgrajene funkcije.
+
+Konstanta Vrednost Opis
+
+TABELA 18.2 Konstante za gumbe MsgBox
+
+VbApplicationModal 0 Modalnost glede na aplikacijo; preden lahko uporabnik nadaljuje delo s sistemom, mora.
+
+Prva vrsta napake je skladenjska napaka, ki je tehnično gledano tipkarska napaka. 
+Včasih se bo zgodilo, da boste pri pisanju določene vrstice kode naredili napako. 
+Urejevalnik Visual Basica naredi več stvari, s katerimi vam pomaga, da se izognete tem napakam:
+
+Sledenje napakam je odločilnega pomena pri razvijanju sistema. 
+Sledenje napakam se imenuje razhroščevanje, dodajanje kode, ki bo skrbela za napake, ki jih ni mogoče odstraniti, pa se imenuje obravnavanje napak. 
+V zadnjih dveh razdelkih bom prikazal pregled tehnik, ki jih lahko uporabite za rahroščevanje in dodajanje obravnavanja napak v kodo.
+
+Orodja za pregledovanje skladnje, ki sem jih omenil v prejšnjem razdelku, bodo poiskala skladenjske napake in omogočila, da jih popravite. 
+Za logične in izvajalske napake pa se boste morali zanesti na preizkus sistema, s katerim boste zagotovili, da deluje tako kot ste pričakovali.
+
+If lResponse = vbNo Then
+
+Ko nastavite prekinitveno točko, lahko začnete s preizkusom kode. 
+Najprej morate preklopiti nazaj v Access in v pogled Form.
+
+2. 
+Naslov dogodka spremenite v Access Quick Start for Developers.
+
+4. 
+Kliknite gumb Attendance Report in prikazalo se bo sporočilno okno za dogodek NoData (glejte sliko 18.18).
+
+Sporočilo vas obvešča, da je bil za poročilo nastavljen argument Cancel, ki vas v osnovi obvešča, da nobeni podatki za to poročilo ne obstajajo dvakrat. 
+Zdaj obstaja tudi možnost, da bo nekdo poskusil razhroščiti kodo. 
+Vendar ni nobene potrebe za razhroščevanje, ker je bil prikaz poročila prekinjen, da bi se izognili prikazu praznega poročila.
+
+Zaradi tega morate dodati možnost za obravnavanje napak. 
+V ta namen kliknite gumb Debug, s čimer boste prikazali kodo, nato pa kliknite gumb End in zaustavite izvajanje.
+
+IZPIS 18.6 Stavek Select Case za obravnavanje napak
+
+Zdaj lahko preizkusite nadzornik napak in zagotovite, da se ne bo prikazalo dvojno sporočilo o napaki.
+
+Za današnjo lekcijo bomo uporabili vzorčno bazo podatkov Events19.mdb, ki jo najdete v mapi 19. dne.
+
+5. 
+Vrnite se v Microsoft Access ter shranite in zaprite obrazec.
+
+stCriteria = "[EventID] = "& Me!EventID
+
+MsgBox strMessage, vbInformation + vbOKOnly,
+
+Slika 19.5
+
+Za risanje dejanske črte se uporablja metoda Line. 
+Z njo lahko narišete črto ali pravokotnik. 
+Njena skladnja je takšna:
+
+Object.
+Line [[Step] (x1, y1) ò [Step] (x2, y2) [, [Color][, B[F]]]
+
+Podati morate objekt za risanje, ki mu sledi pika in ključna beseda Line. 
+Za tem delom lahko sledi argument Step.
+
+11. 
+Za ime podjetja vpišite Fisher Development.
+
+Me!StartTime = #9:00:00 AM#
+
+Če StartDate vnesete brez EventTypeID, ne bo vneseno nič. 
+V bistvu je to Case Else in nobeno polje ne bo ažurirano.
+
+Dejanja, ki jih morate izvesti na več mestih, združite v splošni proceduri. 
+Na ta način boste poenostavili ažuriranje, saj morate kodo namesto na več mestih spremeniti samo na enem. 
+
+9. 
+Dodajte naslednjo kodo:
+
+DateDiff(interval1, date1, date2[, firstdayofweek[, firstweekofyear]])
+
+2. 
+Vpišite naslednjo vrstico in pritisnite Enter:
+
+12. 
+Za dogodek vpišite Access for Developers in pritisnite tipko Tab.
+
+Private Sub StartDate_AfterUpdate( )
+
+á"tblEvents", [EventID] = " & Me.EventID)
+
+Set rsEvent = New ADODB.Recordset
+
+Case acLBOpen
+
+Select Case col
+
+Case acLBClose
+
+Private Sub Form_AfterUpdate( )
+
+strWhere = "EventID = " & Me!EventID
+
+rsDecrement.
+Find strWhere, , adSearchForward
+
+If rsDecrement!AvailableSpaces = 0 Then
+
+Me!EventID.Requery
+
+13. 
+S pomočjo gumba View preklopite v pogled Form.
+
+Zadnji argument je start, ki omogoča, da določite, naj se iskanje začne pri trenutnem položaju v nizu zapisov. 
+Ker se niz zapisov vzpostavi vsakič, tudi ta argument ni potreben.
+
+End If
+
+Dim strMessage As String, strTitle As String, lOptions As Long
+
+' Izdelava novega pogleda in izvoza (61. vrstica)
+
+' Brisanje pogleda (poizvedbe) (66. vrstica)
+
+strTitle = "Nepričakovana napaka"
+
+Users – Če uporabljate zaščito, shranjujejo informacije o uporabnikih.
+
+Views – Shranjujejo informacije o katerihkoli pogledih, kot je na primer izbiralna poizvedba Accessa.
+
+includefielnames in range omogočata, da določite, ali uporabljate elemente. 
+Argumenta range ne morete uporabiti med izvažanjem in je v tem zgledu kode izpuščen.
+
+Namig
+
+Če izdelate pogled s tem postopkom in ga ne zbrišete, ne bo prikazan na seznamu Query okna Database.
+
+ErrEvents:
+
+stDocName = "frmReportSwitchboard"
+
+strMessage = "Error " & Err.
+Number & " , " &
+
+MsgBox strMessaga. 
+VbInformation + vbOKOnly
+
+2. 
+V pogovornem oknu za odpiranje Accessa v skupini Create New Database Using izberite Select Blank Access Database in kliknite OK.
+
+Z zaščito na ravni uporabnikov izdelate informacijsko datoteko delovne skupine. 
+V informacijski datoteki delovne skupine so shranjene informacije o zaščiti na ravni uporabnikov, vključno z uporabniškimi skupinami, posameznimi uporabniki, njihovimi pravicami in gesli za dostop do določenih objektov.
+
+4. 
+Prijavite se kot nov administrator.
+
+1. 
+Onemogočanje privzetega administratorja
+
+To pomeni, da imajo vsi uporabniki popoln dostop do baze podatkov in njenih objektov, kar se ne bo spremenilo, dokler ne nastavite pravic.
+
+Ta pristop je zelo dober, če vsi uporabniki potrebujejo enako raven dostopa, toda ne bo deloval, če potrebujete različne ravni dostopa. 
+To zaščito boste bolje razumeli, če si boste ogledali naslednji scenarij za vodenje dogodkov.
+
+Z nastavitvijo ločenih uporabniških šifer omogočite tudi, da lahko bazo podatkov sočasno uporablja več uporabnikov. 
+Dokler so vsi uporabniki uporabljali šifro Admin, je z njo lahko do baze podatkov naenkrat dostopil samo en uporabnik. 
+S tem boste tudi poenostavili vodenje uporabe.
+
+1. 
+Izberite jeziček Users.
+
+12. 
+V besedilno polje Name vpišite TWilliams in pritisnite tipko Tab.
+
+1. 
+Izberite Tools, Security, User and Group Accounts, s čimer boste odprli pogovorno okno User and Group Accounts.
+
+Pri nastavitvi zaščite so na voljo pravice za različne vrste objektov v bazi podatkov, ne pa tudi za module. 
+Zaščita modulov se izvaja drugače. 
+
+Če morate spremeniti pravice za skupino objektov, lahko več kot enega izberete tako, da kliknete prvega, nato pa s pritisnjeno tipko Ctrl kliknete še preostale.
+
+Slika 20.16
+
+Naloga: Povezava privzete delovne skupine
+
+7. 
+Kliknite gumb Browse in s pomočjo pogovornega okna poiščite in izberite datoteko System.mdw, ki je v mapi Office.
+
+Naloga: Zagon čarovnika za zaščito
+
+Vprašanja in odgovori
+
+1. 
+Nastaviti informacijsko datoteko delovne skupine z možnostjo Workgroup Administrator, kot smo razložili 20. dan.
+
+3. 
+Iz ustrezne mape izberite DevSys.mdb.
+
+9. 
+S klikom gumba OK zaprite sporočilno okno, ki kaže, da je uvažanje končano.
+
+Slika 21.15
+
+' Navedba funkcij API
+
+' Privzetek = All Files, *.*
+
+strFullPathReturned, strFileNameReturned, intFileOffset in intFileExtension so spremenljivke, v katerih se hranijo informacije o imenu datoteke za tem, ko ga izberete.
+
+Dim strSearchPath As String
+
+Const conMaxTables = 8
+
+Exit Function
+
+Na koncu vrstic za obravnavanje težav je oznaka ErrLinkFailed:, ki prikaže sporočilo in funkcijo nastavi na False.
+
+39. vrstica funkcije RelinkTables pokliče funkcijo FindDatabase, če v mapi ni mogoče najti imena privzete baze podatkov. 
+Ta funkcija nadzoruje operacijo iskanja datoteke in je prikazana v izpisu 21.4.
+
+Funkcija FindDatabase se začne z navedbo spremenljivke s pomočjo uporabniško definiranega tipa, ki ga zahtevajo funkcije API. 
+Nato so različnim elementom te spremenljivke dodeljene vrednosti. 
+Posredovan je naslov pogovornega okna kot tudi iskalna pot.
+
+For intRet = 0 To intNum
+
+intNum je nato preizkušen z operatorjem Mod, ki ga deli z 2, da vidi, ali je sodo število. 
+Če ni, mu doda niz *.*, s katerim zagotovi sodost.
+
+of.nMaxFileTitle = 511
+
+of.lpstrTitle = msaof.strDialogTitle
+
+Ko je postopek za pridobitev imena datoteke končan, se postopek vrne v funkcijo RelinkTables in nadaljuje s funkcijo RefreshLinks.
+
+ErrRefresh:
+
+On Error Goto LoadErr
+
+Da bi bila vključitev kode za dinamično povezovanje v katerokoli bazo podatkov preprostejša, se zelo majhen del obdelave izvede s tem obrazcem. 
+Druga vrstica inicializra obravnavanje napak z ustrezno oznako vrstice na koncu procedure.
+
+Naloga: Prikaz delovanja dinamičnega povezovanja
+
+6. 
+Vpišite Vnesite uradno ime dogodka in pritisnite Enter.
+
+Pri delu z Officeom 2000 ste najbrž že srečali Officeovega pomočnika. 
+To je orodje pomoči, ki je bilo oblikovano za nudenje interaktivne pomoči. 
+Morda vas je pomočnik pozdravil, ko ste prvič zagnali aplikacijo. 
+To je animacijska figurica, ki se odziva na vaše zahteve za pomoč. 
+Po privzetku je nastavljena na animirano sponko (glejte sliko 21.22).
+
+Private Sub Form_AfterUpdate( )
+
+DoCmd.OpenReport "rptEventSchedula", acViewPreview
+
+V desnem podoknu so prikazane informacije o temah oziroma besedilo. 
+Vanj so lahko vključene tudi grafike ali drugi objekti kot so video ali zvočni izrezki. 
+Vključuje lahko tudi povezave z drugimi informacijami. 
+Okno teme lahko vsebuje navzkrižno referenco, ki se imenuje skok (glejte sliko 21.27). 
+Skok je prikazan v drugi barvi in podčrtano. 
+Če kliknete to besedo, boste skočili na povezano temo.
+
+Displays Database Window Nastavi, ali se bo okno Database odprlo kot skrito.
+
+3. 
+Da, s klikom gumba orodne vrstice Run.
+
+6. 
+Da. 
+Odstranite označitev polja Show za polja, ki jih ne želite prikazati.
+
+19. dan "Uporaba zahtevnejših konceptov obrazcev"
+

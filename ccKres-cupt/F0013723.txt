@@ -1,0 +1,1272 @@
+Naslovnica
+
+<A> ... </A> Ustvari povezavo ali sidro.
+
+Ȕ Ron Loewy, HyperAct, Inc.
+
+Z revizijami Denise Tyler
+
+##iv##
+
+##vii##
+
+V petem delu se boste naučili izboljšati svoje strani s pomočjo večpredstavnostnih (multimedijskih) učinkov, zvoka, videa in drugih naprednejših predstavitvenih metod. 
+Naučili se bosta stranem dodati Javo, JavaScript in Dynamic HTML in s tem popeljati vaše spletne strani na višji nivo interaktivnosti in kvalitete predstavitve.
+
+Posebne pisave
+
+OPOMBA: Slike v tej knjigi so običajno narejene s pomočjo Windows brskalnika (najpogosteje je to Microsoft Internet Explorer). 
+Edini razlog za to izbiro je, da knjigo pišem v glavnem na Windows PCju. 
+Če uporabljate Macintosh ali UNIX sistem, se ne smete počutiti zapostavljenega. 
+Kot sem omenila že prej, je veličastnost spleta v tem, da vidite isto informacijo ne glede na platformo, na kateri delate. 
+Torej v slikah ignorirajte obliko gumbov in robove oken in posvetite pozornost vsebini okna.
+
+##16##
+
+##22##
+
+Delavnica
+
+##28##
+
+PREVOD SLIKE:
+
+• Glasovanje in nabiranje mnenj (anketiranje). 
+Interaktivnost in spletni obrazci omogočajo dostop do povratne informacije od bralcev o praktično katerikoli temi. 
+To vključuje nabiranje mnenj, predlogov, komentarjev o vaših spletnih straneh ali izdelkih itd.
+
+V hierarhični organizaciji bralci zlahka sledijo svojemu trenutnemu položaju v strukturi. 
+Izbirajo med pomikom navzgor, s katerim dobijo splošnejšo informacijo, in med pomikom navzdol, s katerim dobijo bolj specifično informacijo. 
+Če poskrbimo še za povezavo direktno do zgornjega nivoja, lahko bralci takoj in z lahkoto vedno pridejo na znan položaj.
+
+##39##
+
+Drug način za organiziranje dokumentov je linearna ali sekvenčna organizacija Ȕ podobno kot so organizirani tiskani dokumenti. 
+V linearni strukturi, kot to ilustrira slika 2.7, je domača stran naslov ali uvod, vsaka naslednja stran pa je dostopna sekvenčno. 
+V strogi linearni strukturi povezave kažejo le na prejšnjo in naslednjo stran. 
+Včasih pa boste želeli na vsako stran poleg povezav "naprej" in "nazaj" dodati tudi povezavo "na začetek", ki bo bralca hitro popeljala nazaj na prvo stran.
+
+Slika 2.11: Kombinacija linearne in hierarhične organizacije.
+
+Koncept snemalne knjige se dobro obnese tudi pri izdelavi spletnih strani. 
+Snemalna knjiga vam poda grob oris izgleda celotnega spletnega mesta, ko bo dokončano. 
+Vključno z informacijo katere teme gredo na katero stran, glavne povezave in morda celo kakšno konceptualno idejo kakšne vrste grafik boste uporabljali in kam jih boste postavili. 
+S to predstavitvijo v rokah lahko spletno stran razvijate ne bi se morali stalno zavedati, kam natanko ta stran spada v celotnem spletnem mestu in kakšen je njen (običajno kompleksen) odnos do drugih strani.
+
+• Kaj boste postavili na vašo domačo stran?Ker je domača stran izhodiščna točka do ostale informacije na vašem spletnem mestu, dobro razmislite kakšno vrsto informacije boste ponudili na domači strani. 
+Splošen povzetek vsega, kar je še na voljo? 
+Seznam povezav do drugih tem?
+
+Kako izgledajo HTML datoteke
+
+Pri razčlenjevanju HTML strani brskalnik ignorira vse oblikovanje, ki ste ga naredili ročno Ȕ se pravi dodatne presledke, tabulatorje, returne itd. 
+Edina reč, ki oblikuje HTML stran, je HTML oznaka. 
+Če ste dolge ure pazljivo urejali preprosto tekstovno datoteko, tako da imate sedaj lepo oblikovane odstavke in stolpce števil, in če pri tem ne vključite HTML oznak, se bo ob včitavanju v brskalnik vse besedilo zlilo v en sam odstavek. 
+Vse vaše delo je bilo zaman.
+
+<H1>
+
+V mnogo primerih so lahko pretvorniki izjemno uporabni, še posebej, če želite na splet kar se da hitro postaviti že obstoječe dokumente. 
+Seveda pa pretvorniki bolehajo za enakimi pomanjkljivostmi kot WYSIWYG urejevalniki: rezultat se lahko od brskalnika do brskalnika razlikuje in niso nam na razpolago novejše ali naprednejše možnosti. 
+Večina pretvornikov je tudi dokaj omejena, ne nujno zaradi njih samih, ampak zaradi omejitev HTMLja. 
+Še tako bister pretvornik ne more HTMLja pripraviti da naredi stvari, ki se jih v HTMLju ne da narediti. 
+Če HTML določene zmožnosti nima, pretvornik tu ne more nič. 
+(Velikokrat se zgodi celo, da bo pretvornik v vaši HTML datoteki naredil čudne stvari in vam povzročil več dela, kot če bi vse oblikovanje naredili kar ročno.)
+
+Naloge
+
+• oznake za komentarje,
+
+</BODY>
+
+</HEAD>
+
+Naslov na vrhu strani pa bi lahko bil le:
+
+• "I" pove brskalniku, za oštevilčevanje elementov seznama uporabi velike rimske številke (se pravi: I, II, III, IV itd.)
+
+<LI>Vendredi
+
+<OL TYPE="I">
+
+<LI>July
+
+<P>Things I like to do in the morning:</P>
+
+Tako kot urejene sezname lahko v HTML 3.2 z uporabo atributov prirejamo tudi neurejene sezname. 
+Tudi ti atributi so v HTML 4.0 neodobravani. 
+Večina brskalnikov (vključno z Netscapejem in Internet Explorerjem) za elemente neurejenega seznama uporablja kroglice. 
+Tekstovni brskalniki, kot na primer Lynx, v splošnem uporabljajo zvezdico.
+
+Naslednji primer omogoča primerjavo teh treh vrst seznamov, kakor jih prikaže Internet Explorer (glejte sliko 4.8).
+
+<LI>DAT - Digital Audio Tapes
+
+Zamikanje ugnezdenih seznamov v sami HTML kodi pomaga prikazati njihovo vlogo v končni postavitvi.
+
+Naslednji primer prikazuje ugnezden seznam in njegov izgled v Internet Explorerju (glejte sliko 4.10).
+
+Torej: v vašem urejevalniku izdelajte enostaven primer. 
+Ni nujno, da bo stran karkoli pomenila. 
+Pravzaprav je pomembno le, da vsebuje oznake strukture strani, ime strani, par naslovov in odstavek ali dva. 
+Tukaj je primer:
+
+<P>We make cheese. 
+Lots of cheese; more than eight tons of cheese
+
+Če imate dostop do kakšnega drugega brskalnika (na vašem računalniku ali, še bolje, na drugem računalniku), toplo priporočam, da si isto HTML datoteko ogledate še z drugim brskalnikom, tako da si boste lahko ogledali razlike med brskalniki. 
+Včasih vas lahko razlike kar presenetijo; stvari, ki izgledajo dobro v enem brskalniku, so v drugem prav čudne.
+
+<LI>Galba
+
+<LI><A>Claudius</A>
+
+<P>"The First Caesars" page by Dr. Ellis Knox has more information on these Emperors.</P>
+
+Ko z uporabo oznake <A> definirate povezavo, ima le-ta dva dela: HREF atribut v začetni oznaki in besedilo med začetno in končno oznako. 
+Besedilo med začetno in končno oznako služi kot vroča točka povezave.
+
+##114##
+
+<HEAD>
+
+<LI><EM>Lullabye, My Sweet Little Baby</EM>
+
+##119##
+
+ftp://mojsistem.com
+
+Kljub temu, da vaš brskalnik za dostop do datoteke uporablja protokol FTP, lahko na ta način dostopate tudi do HTML datotek. 
+Spletnih brskalnikov namreč ne briga, na kak način dobijo nadbesedilno datoteko. 
+Dokler lahko prepoznajo, da je datoteka napisana v HTMLju, bodisi da jim to pove strežnik (kot pri HTTPju Ȕ o tem bomo govorili kasneje) bodisi po končnici datoteke, bo brskalnik datoteko razčlenil in prikazal kot HTML dokument. 
+Če je ne prepoznajo kot HTML datoteko, pa tudi ni nič hudega, saj jo lahko še vedno shranijo na lokalni disk.
+
+ftp://ime:geslo@ftp.foo.com/home/foo/homepage.html
+
+Obe obliki URLja predpostavljata, da novice berete z NNTP strežnika. 
+Obe lahko uporabljate le, če imate v nastavitvah vašega brskalnika ali pa v spremenljivkah okolja definiran NNTP strežnik. 
+Torej so URLji novičarskih skupin najbolj uporabni za enostavno prebiranje določenih prispevkov lokalno, ne pa za uporabo kot povezave na straneh.
+
+V tem poglavju ste se naučili vse o povezavah. 
+Povezave splet spremenijo iz zbirke nepovezanih strani v ogromen, medsebojno povezan informacijski sistem (spet so tu tiste zveneče besede).
+
+• Strežnik je preobremenjen ali pa ni priključen na Internet.Računalniki ne delujejo ves čas, prav tako ne omrežne povezave. 
+Če določen URL ne deluje, je morda nekaj narobe z računalnikom v omrežju. 
+Morda pa je spletno mesto zelo priljubljeno in ga trenutno poskuša doseči preveč ljudi. 
+Poskusite kasneje, izven delovnih konic tega strežnika. 
+Če poznate upravitelje strežnika, jim poskusite poslati email ali pa jim telefonirati.
+
+O Seveda lahko. 
+Če lahko s svojim brskalnikom pridete do URLja, ga lahko tudi postavite v povezavo. 
+Zavedajte pa se, da eni brskalniki podpirajo URLje, ki jih morda drugi ne. 
+Tako na primer Lynx res dobro obvlada Mailto URLje, drugi brskalniki pa jih morda ne podpirajo. ##129## Tako se lahko zgodi, da je z URL jem vse v redu, le brskalnik ga ne podpira.
+
+Znakovni slogi
+
+HTML 4.0 je vpeljal dve novi oznaki logičnih slogov, ki sta najbolj uporabni v avdio brskalnikih. 
+Grafični brskalniki, kot na primer Netscape ali Internet Explorer, jih ne bodo prikazali drugače. 
+Ko pa vsebino ene izmed teh oznak prebere avdio brskalnik, izgovori vsako črko posebej. 
+Tako na primer besedo STOL namesto "stol" izgovori "S-T-O-L".
+
+INPUT:
+
+Fizični slogi
+
+<BIG> Večje kot okoliško besedilo.
+
+Trik je v tem, da je predoblikovano besedilo običajno prikazano (vsaj v grafičnih prikazovalnikih) v pisavi fiksne širine, na primer Courier. 
+Predoblikovano besedilo je odlično za prikazovanje primerov programske koda kjer želite, da se pravilno prikažeta zamik in oblika vrstic. 
+Ker lahko z uporabo oznake <PRE> besedilo poravnate tako, da enostavno vpišete ustrezno število presledkov, je ta oznaka uporabna tudi za enostavne tabele. 
+Idealna pa ta možnost seveda ni, saj so tabele prikazane v pisavi fiksne širine. 
+Sledi primer tabele izdelane z oznako <PRE>. 
+Slika 6.3 prikazuje njen izgled v Internet Explorerju.
+
+Uranus 32000 1782 84 years 23 hrs
+
+<LI>Send Fedex with pictures
+
+INPUT:
+
+<H2>2 Pixels</H2>
+
+<HR SIZE="16">
+
+<HR ALIGN="CENTER" SIZE="4" WIDTH="300">
+
+<HR ALIGN="CENTER" SIZE="4" WIDTH="400" NOSHADE>
+
+The way to dusty death. 
+Out, out, brief candle!<BR>
+
+##149##
+
+Void where prohibited. 
+Keep hands and feet inside
+
+--Edgar Allen Poe
+
+##150##
+
+Ni videti nenavadno, kajne? 
+Na žalost pa HTML te vrstice tako, kot je napisana, ne more prikazati. 
+Zakaj? 
+Težava nastopi pri znaku "<" (manjši). 
+Za HTML brskalnik namreč ta znak pomeni začetek HTML oznake. 
+Ker v tem kontekstu znak "manjši" ni začetek HTML oznake, se lahko vaš brskalnik zmede. 
+Isto težavo boste imeli z znakom "večji" (>), ker v HTMLju pomeni konec HTML oznake, ##153## in z znakom "&", ki pomeni začetek znakovne entitete. 
+Obravnavano vrstico v HTMLju na pravilen način zapišemo kot:
+
+Slika 6.13: Poravnava naslovov.
+
+<H1 ALIGN=LEFT>Serendipity Products</H1>
+
+Element <NOBR> ... </NOBR> ima nasproten učinek kot <BR>. 
+Besedilo med oznakama <NOBR>vedno ostane prikazano v eni vrstici, tudi če bi sicer za izpis zahtevalo dve ali več vrstic. <NOBR> uporabljamo za besedila in fraze, ki morajo ostati izpisana v isti vrstici. 
+Toda bodite pazljivi: dolge nezlomljive vrstice lahko na vaši strani izgledajo res čudno, če pa so daljše od širine strani, se lahko raztezajo čez rob okna.
+
+</BODY></HTML>
+
+Slika 6.17: Razdelek Recent Titles (Novi Naslovi).
+
+<UL>
+
+<LI><A HREF ="#recent">Recent Titles</A></LI>
+
+<UL>
+
+<LI>A well-lit reading room so you can "try before you buy"
+
+</UL>
+
+Poživite stran Vse, kar sem do sedaj vključila na stran, je bilo čisti HTML 2.0, torej je berljivo v vseh brskalnikih in bo v vseh tudi prikazano bolj ali manj enako. 
+Ko ste pri izdelavi strani na tej točki, pa lahko dodate dodane oznake za oblikovanje, ki za veliko bralcev izgleda strani ne bodo spremenile, v brskalnikih, ki te atribute podpirajo, pa bo stran lahko videti privlačnejša.
+
+Oznake, oznake in spet oznake! 
+V tem poglavju ste spoznali večino preostalih HTML oznak za predstavitev besedila ter nekaj oznak za dodatno oblikovanje in prezentacijo besedila. 
+Izdelali ste tudi "pravo" HTML stran. 
+Če prenehate s prebiranjem knjige na tem mestu, lahko že izdelujete dokaj spodobne HTML strani. 
+Toda prihaja še veliko zanimivega, zato le berite dalje.
+
+Slika 7.1: Domača stran Halloween House.
+
+Slike in besedilo
+
+<H2><IMG SRC="house.jpg">The Halloween House of Terror!!</H2>
+
+OUTPUT:
+
+Opazite lahko, da je v teh primerih vključevanja slike med besedilo slika prikazana tako, da je spodnji rob slike poravnan s spodnjim robom besedila. 
+Tudi oznaka <IMG> ima atribut ALIGN, s katerim lahko sliko poravnamo navzgor ali navzdol z okoliškim besedilom ali drugimi slikami v isti vrstici.
+
+Da se izogne tej omejitvi standarda HTML 2.0 je Netscape definiral dve novi vrednosti atributa ALIGN oznake <IMG>: LEFT in RIGHT. 
+Ti novi vrednosti sta bili vključeni v HTML 3.2 in ju sedaj poleg Nestscapeja podpirajo tudi številni drugi brskalniki.
+
+##193##
+
+Up To Index
+
+• Spletna stran ostaja majhna, tako da se hitro naloži.
+
+Internet Explorer ponuja še dodatno možnost: nepremično ozadje, imenovano vodno znamenje. 
+Ideja vodnega znamenja je v tem, da se, ko se po strani drsno premikate, premika samo ospredje strani (besedilo in slike). 
+Tlakovci v ozadju ostanejo zasidrani. 
+Za uporabo tega učinka uporabite atribut BGPROPERTIES=FIXED, kot kaže naslednji del kode:
+
+Ali res potrebujete to sliko?
+
+• Ponovna uporaba istih slik pripomore h konsistentnosti vašega dizajna čez več strani, ker je del vzpostavljanja "celostne podobe" vašega spletnega mesta.
+
+V Kakšna je razlika med GIF sliko in JPEG sliko? 
+Ali obstaja kakšno pravilo, ki pove, kdaj naj uporabimo kateri format?
+
+3. 
+Več stvari lahko povzroči, da se slika ne naloži. 
+Lahko da je napačen URL; lahko da je napačno ime datoteke (razlikovanje velikih in malih črk); lahko da ima napačno končnico ali napačen tip datoteke; lahko pa je v vašem brskalniku izključeno nalaganje slik.
+
+2. 
+Na prvem zaslonu izberite datoteke, ki jih želite v animacijo vključiti. 
+Kliknite gumb Add Image in izberite diskovni pogon in imenik, na katerega ste datoteke shranili. 
+Kliknite ime zadnje datoteke (ball10.tga), nato pa shift-kliknite ime prve datoteke. 
+S tem ste izbrali vse sličice. 
+Nato jih s klikom Open postavite v seznam. 
+(Iz neznanega razloga ni dobro najprej klikniti prve nato pa shift-klikniti zadnje datoteke. 
+V tem primeru namreč program zamenja njun vrstni red. 
+To je dober primer, zakaj je datoteke potrebno shranjevati v številskem zaporedju.).
+
+##226##
+
+Slika 8.11: Prvo sličico animacije shranite v datoteko, katere ime se zaključi s številko.
+
+Slika 8.12: Za naslednjo sličico žogico premaknite z orodjem Pick in datoteko shranite z novim imenom.
+
+• Ker se mora na strežniku za vsak klik na zemljevid pognati poseben program, tovrstni zemljevidi precej počasneje reagirajo na klike, kot običajne povezave ali slike. 
+Tako imate občutek, da odziv na klik zemljevida traja neskončno.
+
+Sedaj poznate osnovne razlike med strežniškimi in odjemalskimi zemljevidi. 
+Kasneje v tem poglavju se boste naučili izdelati obe vrsti zemljevidov.
+
+Izdelava strežniških zemljevidov
+
+##247##
+
+Če koordinate, prikazane na slikah 9.5 do 9.7, vnesemo v HCSA HTTPd zemljevidovo krmilno datoteko, dobimo nekaj takega:
+
+<TITLE>The Really Cool Music Page</TITLE>
+
+Med oznakama <MAP> in </MAP> vnesete koordinate vsakega območja in ustrezne ciljne URLje. 
+Pri tem uporabite vrednosti in povezave, ki ste jih določili v razdelku o strežniških zemljevidih. 
+Vendar pa so tokrat koordinate podane znotraj nove oznake: oznake <AREA>. 
+Za definiranje mnogokotnika iz naloge 9.1 bi tako napisali naslednje:
+
+<AREA SHAPE="POLY" COORDS="175,152, 203,118, 223,118, 247,152, 237,153, 237,181, 186,181, 186,153" HREF="music/home.html">
+
+Za krožne oblike (CIRCLE) predstavljata x, in y središče kroga, radius pa polmer:
+
+<AREA SHAPE="POLY" COORDS="175,152, 203,118, 223,118, 247,152,
+
+Naloga 9.2: Ponoven obisk klikabilne knjižne police
+
+</head>
+
+O Če uporabljate odjemalske zemljevide jih lahko izdelate in testirate na vašem lokalnem sistemu (če seveda tudi vse vaše povezave kažejo na datoteke v vaši lokalni predstavitvi). 
+Če uporabljate strežniške zemljevide pa morate biti priključeni na strežnik, saj potrebujete strežniški zemljevidni program.
+
+<STRONG>noon to 7</STRONG> on weekends.</P>
+
+OUTPUT:
+
+• Trajni slogi se uporabijo vedno, ne glede na uporabnikov lokalni izbor.
+
+A:link { color: #CC9900}
+
+##278##
+
+a:link { color: #CC9900}
+
+Le zakaj se ta vrsta slogovnih strani imenuje "Kaskadne"? 
+Saj očitno tukaj ni nobenih kaskad, oziroma brzic in slapov.
+
+• Najprej se uporabijo slogi definirani v zunanji slogovni strani.
+
+background-color Nastavi barvo ozadja elementa. 
+Vrednost barve je lahko eno izmed 16 imen barv, ena izmed različic RGB trojčka ali pa transparent.
+
+background-image Priredi sliko ozadja. 
+Vrednost mora biti URL slike ali pa none.
+
+##286##
+
+BODY { background-color: #CCFFCC;
+
+background-image: url(background.gif); background-repeat: repeat }
+
+padding-bottom: 3px;
+
+background-color: #CCFFCC;
+
+border-color: #99CC33 #996633;
+
+##291##
+
+##297##
+
+H2 { color: #996633;
+
+.FANTASY { text-align: center;
+
+<P>Our hours are <STRONG>10am to 9pm</STRONG> weekdays,
+
+• Unfurling Style Sheets (članek na spletnem mestu ZD Internet Magazine). 
+Čeprav je informacija v tem članku stara več kot leto dni, članek vsebuje nekaj osnovne teorije, ki vem bo lahko v pomoč: http://www.zdim.com/content/anchors/199704/28/1.html.
+
+<CAPTION>Vital Statistics</CAPTION>
+
+<TH>Weight</TH>
+
+<TD>5'1"</TD>
+
+Naslov tabele bralcu pove, za kaj gre v tabeli. 
+Prav temu namenu služi element <CAPTION>. 
+Čeprav bi za naslov lahko uporabili tudi običajen odstavek, lahko orodja za obdelavo HTML datotek ##314## naslove tabel ob uporabi <CAPTION> pravilno obravnavajo (jih na primer izvlečejo v posebno datoteko, tabele oštevilčijo in podobno).
+
+Nadaljujte z dodajanjem ostalih dveh vrstic z naslovnima opisoma Yellow (rumeno) in Blue (modro). 
+Do sedaj morate imeti za celotno tabelo naslednjo kodo:
+
+<TH><BR></TH>
+
+<TR>
+
+</TR>
+
+<TR>
+
+Atribut za zapolnjevanje celic definira količino prostora med robovi celice in njeno vsebino. 
+Veliko brskalnikov privzame vrednost 1 piksel. 
+Več prostora lahko dodate z atributom CELLPADDING oznake <TABLE>. 
+Količino zapolnjevanja podate v pikslih.
+
+##320##
+
+Širina stolpcev
+
+Slika 11.10 Širine stolpcev.
+
+<TH WIDTH="20%">Eye Color</TH>
+
+Pogosto je najlažji način za izdelavo majhnih sprememb postavitve tabele kar uporaba prelomov vrstice (<BR>). 
+Prelomi vrstice so še posebej uporabni, če imate tabelo, v kateri je večina celic majhnih, dolge podatke pa ima samo par celic. 
+Dokler mu dopušča širina ekrana, bo brskalnik poskusil prikazati res dolge vrstice, ki v nekaterih tabelah izgledajo precej čudno. 
+Tako je na primer zadnja vrstica tabele, prikazane na sliki 11.11, kodirana na naslednji način:
+
+<TD>TC</TD>
+
+OPOMBA: Atribut NOWRAP je v HTML 4.0 neodobravan na račun lastnosti slogovnih strani.
+
+Barva tabele in celic
+
+</HTML>
+
+INPUT:
+
+<TH></TH>
+
+</TR>
+
+<TD ALIGN="LEFT" VALIGN="MIDDLE"><IMG SRC="button.gif"></TD>
+
+<TD ALIGN="CENTER" VALIGN="BOTTOM"><IMG SRC="button.gif"></TD>
+
+Slika 11.18: Tabela, v kateri se celice raztezajo preko več stolpcev in vrstic.
+
+<TH COLSPAN="2">Gender </TH>
+
+<TR>
+
+<TH ROWSPAN="2">Piston</TH>
+
+Slika 11.22: Pet stolpcev, pet vrstic.
+
+</BODY>
+
+Naslednje tri celice so precej enostavne, saj se nikamor ne raztezajo. 
+Tu so njihove definicije:
+
+<TR>
+
+</TR>
+
+<TR ALIGN="CENTER">
+
+</TR>
+
+<TABLE BORDER="1" WIDTH="450">
+
+<COLGROUP>
+
+</COLGROUP>
+
+<TD>Biology</TD>
+
+<TR>
+
+• Tabela vsebuje več kot eno telo.
+
+• Tabelo testirajte v več brskalnikih. 
+Različni brskalniki imajo lahko različne predstave o postavitvi tabele ali pa so bolj tolerantni do napak v vaši HTML kodi.
+
+Table 11.2: Trenutni HTML 4.0 tabenlni elementi.
+
+Kaj so okvirji in kdo jih podpira?
+
+TARGET="ime_okna"
+
+<TITLE>Yellow Page</TITLE>
+
+<H1>Yellow Page</H1>
+
+<P> <A HREF="yellow.html" TARGET="yellow_page">Open</A> the Yellow Page in a new window. <BR>
+
+Ob definiciji oznake <FRAMESET> morate uporabiti enega izmed dveh atributov. 
+Prvi atribut je atribut COLS, ki je oblike:
+
+<FRAME SRC="leftcol.html">
+
+<FRAME SRC="document3.html">
+
+Naloga 12.2:Izdelava strani z vsebino okvirovja
+
+<HTML>
+
+</HEAD>
+
+</HTML>
+
+Na sliki 12.15 je desni del zaslona razbit v dva vodoravna okvirja, tretji okvir, na levi, pa se razteza čez vso višino zaslona. 
+Za izdelavo okvirovnega dokumenta, ki opisuje to postavitev, odprite vaš urejevalnik besedila in vnesite osnovno HTML strukturo:
+
+Naloga 12.5: Uporaba poimenovanih okvirjev in nadpovezav 
+
+Poimenovanje posameznih okvirjev Če bi v tej fazi dokument frameset.html naložili v brskalnik, ki podpira okvirje, bi videli nekaj podobnega sliki 12.15. 
+Morda bi se velikost besedila in razmiki malo razlikovali, toda splošna slika bi bila enaka.
+
+</HEAD>
+
+</FRAMESET>
+
+<P>Reason 5 <A HREF="reason5.html" TARGET="main">Reason 5</A></P>
+
+<TITLE>Why I'm Away Frameset</TITLE>
+
+<FRAME SRC="reason1.html" NAME="main"> <!-- with an embedded -->
+
+Lebdeči okvirji imajo svoje prednosti in slabosti. 
+Prednost je, da lahko lebdeči okvir postavite kamorkoli na spletno stran, tako kot sliko, tabelo ali katerikoli drug element spletne strani. 
+To omogoča veliko novih možnosti postavitve, ki jih ne morete izvesti s standardnimi okvirji, ki ste jih spoznali do sedaj.
+
+Ker že poznate uporabo običajnih okvirjev in vrinjenih slik, je uporaba <IFRAME> lahka. 
+Naslednja koda prikazuje en način uporabe strani Away From My Desk z lebdečimi okvirji. 
+V tem primeru najprej izdelamo stran z rdečim ozadjem. 
+Povezave, ki jih uporabnik klikne, se nahajajo v eni vrstici, centrirane nad lebdečim okvirjem. 
+Zaradi preglednosti kode sem vsako povezavo napisala v svojo vrstico.
+
+<TITLE>I'm Away From My Desk</TITLE>
+
+<IFRAME NAME="reason"
+
+WIDTH="450"
+
+Če vas po tem poglavju bolji glava, verjetno niste edini. 
+Čeprav je osnoven koncept za uporabo okvirjev relativno enostaven, je njihova implementacija lahko precej zapletena. 
+Zato je najboljši način za spoznavanje okvirjev kar eksperimentiranje.
+
+To poglavje je sestavljeno iz dveh glavnih delov. 
+Prvi del opisuje zunanje medijske datoteke, ki so najenostavnejši način izdelovanja večpredstavnosti na spletu. 
+To zmožnost podpirajo vsi brskalniki. 
+V prvi polovici poglavja boste spoznali naslednje:
+
+Video datoteke
+
+Tako vsaj pravi teorija. 
+Za veliko vrst datotek boste morda morali vaš strežnik konfigurirati , da jih bo obravnaval pravilno. 
+Sicer se lahko zgodi, da ko obiskovalec datoteko prebere, dobi žlobudranje, čire-čare ali pa sploh nič.
+
+</HEAD>
+
+##405##
+
+Orchid
+
+Sedaj se premaknite k oddelku z zvokom in videom. 
+Imamo tri avdio in dve video datoteki. 
+Ker teh datotek ne moremo zmanjšati na enostavne vinjetne slike, jih bolj na široko opišite v besedilu arhiva (ne pozabite napisati tudi ogromnih velikosti datotek):
+
+flying airplane over a landscape (2.3Meg)</P>
+
+Končno lahko ikone povežete do zunanjih datotek. 
+Tukaj je HTML koda končnega seznama:
+
+Narrows bridge accident (where the bridge twisted and fell
+
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0">
+
+START="fileopen"
+
+<TD>Dance the night away at
+
+<HEAD>
+
+• HEIGHT in WIDTH določata velikost omejevalne škatle. 
+Tako HEIGHT kot WIDTH pričakujeta vrednost v pikslih ali odstotek velikosti zaslona. 
+Tako na primer HEIGHT=50% zavzame polovico višine zaslona.
+
+INPUT:
+
+##418##
+
+Slika 13.12: Šest animacijskih sličic.
+
+<PARAM NAME="ENDIMAGE" VALUE="6">
+
+<FORM METHOD=POST ACTION="http://www.yourisp.com/cgi-bin/post-query">
+
+Glede na skriptno možnost, ki ste jo izbrali, so rezultati lahko različni. 
+Post-query CGI skript bo na primer vrnil stran, ki vsako izpolnjeno polje obrazca prikaže kot kroglični seznam. 
+Slika 14.2 prikazuje primer rezultata, ki ga generira Microsoft FrontPage. 
+Poleg vsakega polja obrazca, ki ga je uporabnik izpolnil, (v tem primeru samo polje theName) se nahajajo dejanski podatki, ki jih je vnesel uporabnik (v tem primeru Laura Lemay).
+
+<FORM METHOD=POST ACTION="http://www.yourisp.com/cgi-bin/post-query">
+
+<LI><INPUT TYPE="radio" NAME="theAnimal" VALUE="fish">fish
+
+Po privzetem obnašanju so vsi radijski gumbi izključeni (odizbrani). 
+Gumb, ki naj bo izbran na začetku, lahko določimo z atributom CHECKED:
+
+<P>Profession (choose all that apply): </P>
+
+<LI><INPUT TYPE="checkbox" NAME="lawyer">Lawyer
+
+OUTPUT:
+
+Obrazci omogočajo tudi alternativen način implementacije zemljevidov z uporabo TYPE=IMAGE pri oznaki <INPUT>. 
+TYPE=IMAGE uporabimo z atributom SRC, ki, kot pri <IMG>, podaja ime poti ali URL do slike:
+
+<INPUT TYPE="radio" NAME="theSex" VALUE="male">Male
+
+<INPUT TYPE="checkbox" NAME="vitamin">Ten Essential Vitamins and Nutrients<BR>
+
+Slika 14.10: Rezultati iz primera nadrealističnega vprašalnika.
+
+##448##
+
+OPOMBA: Vsak brskalnik sam določi, kako bralec naredi večkratne izbire. 
+Običajno mora bralec med večkratnim izbiranjem držati pritisnjeno tipko, toda tipka se lahko od brskalnika do brskalnika razlikuje.
+
+<OPTION>Flour
+
+</FORM>
+
+• Informacijo iz prvega obrazca zapišete v začasno datoteko in nato ob drugem obrazcu to datoteko preberete.
+
+Drug izvor že izdelanih skriptov je kar sam Internet. 
+Obstaja nekaj zelo dobrih spletnih mest, ki ponujajo že narejene skripte, ki jih lahko prosto uporabljate. 
+Zavedajte pa se, da boste potrebovali nekaj znanja o CGI, če jih boste hoteli prirediti za svoje potrebe in uporabiti. 
+Naslednji URLji ponujajo odlično izbiro že narejenih skriptov, ki jih lahko uporabite:
+
+Če boste k sebi prenašali kakšega teh skriptov, boste verjetno želeli vedeti, kako jih spremeniti in prirediti za lastno uporabo. 
+Več o CGI in skriptnih jezikih na splošno se lahko naučite v naslednjih knjigah:
+
+Delavnica vsebuje vprašanja, kviz in nalogi v zvezi z izdelavo obrazcev.
+
+Microsoft pričakuje, da bodo z vgrajeno podporo doseganju podatkov razvijalci lahko izdelali strani, ki podatke organizirajo sproti na odjemalčevem sistemu. 
+To pomeni, da lahko avtor spletne predstavitve enkrat izdela privlačne spletne strani in potem samo redno spreminja ključne podatke. 
+Namesto dostavljanja ene same spletne strani je potrebno dostaviti spletno stran kot HTML datoteko in podatke kot katerikoli podpiran tip podatkovne datoteke (kar pomeni ASCII z ločili, Excel, Access in tipi podatkovnih zbirk, ki ustrezajo ODBC standardu). 
+Pristop uspešno minimizira omrežni promet in zahteve na strežniku, ker lahko sortiranje in organiziranje opravi Internet Explorerjev vgrajen podatkovni stroj, ko je enkrat s strežnika prejel podatke.
+
+• Behaviors: Omogoča posebno obnašanje krmil in drugih elementov strani.
+
+</SCRIPT>
+
+Slika 15.5: Plast 125 pikslov na desno in navzdol od izhodišča dokumentovega okna.
+
+<LAYER NAME="menu" BELOW="logo" Z-INDEX=3>
+
+INPUT:
+
+</LAYER>
+
+Sedaj morate narediti še datoteko daily.html:
+
+Spoznavanje delovanja plasti v Netscapeju je bilo precej izčrpovalno. 
+Edina težava s plastmi je, da jih Netscapejev glavni tekmec, Microsoft, v svojem brskalniku Internet Explorer ne podpira.
+
+Takoj lahko opazite več zanimivih lastnosti tega primera:
+
+• Uporabljeno je absolutno pozicioniranje Ȕ specifikacija pravi, da so elementi z absolutnim pozicioniranjem postavljeni ne glede na položaj ali velikost njihovih starševskih elementov. 
+Absolutno pozicionirani elementi ne vejo nič drug o drugem in so postavljeni relativno glede na dokumentovo okno.
+
+INPUT:
+
+Definicije slogov
+
+V prejšnjem primeru ste na primer pozicionirali nekaj besedila znotraj 100 pikselskega kvadrata. 
+Stran bi lahko napisali tudi takole:
+
+Blue Light has the shortest wavelength. 
+Blue lasers are hard
+
+##495##
+
+<LAYER> Netscapejeva razširitev Ȕ podaja plast vsebine.
+
+BELOW Netscapejeva razširitev Ȕ Podaja plast neposredno pod trenutno plastjo.
+
+PAGEY Netscapejeva razširitev Ȕ Vrhnji rob plasti (v pikslih) od vrhnjega roba okna.
+
+HEIGHT Netscapejeva razširitev Ȕ Podaja višino plasti.
+
+BGCOLOR Netscapejeva razširitev Ȕ Barva ozadja plasti.
+
+O Da. 
+Microsoft se je potrudil in je svoj razvojni model Dynamic HTMLja prilagodil svojemu razvojnemu modelu za Visual Basic (kot so to naredili tudi s tehnologijo ActiveX). 
+Če njihov pristop zmaga (in pri W3Cju je postal kar priljubljen), bodo razvijalce veliko lažje oskrbovali z orodji, ker lahko začnejo z obstoječimi razvojnimi orodji za Visual Basic in jih v spletna orodja pretvorijo z mnogo manj napora kot Netscape (ki bi moral začeti iz nič).
+
+HTML 3.2
+
+Ko pišete ne pozabite da lahko vaši bralci na katerokoli vašo spletno stran skočijo od koderkoli. 
+Lahko se na primer zgodi, da stran strukturirate tako, da razdelek štiri neposredno sledi razdelku tri in nanj ne kaže nobena druga povezava. 
+Nato pa lahko nekdo, ki ga niti ne poznate, vzpostavi povezavo na razdelek štiri. 
+Od takrat, ko je ta povezava vzpostavljena, se kaj lahko zgodi, da se bodo bralci znašli v četrtem razdelku, ne da bi sploh vedeli, da obstaja tudi tretji razdelek.
+
+Bodite previdni pri poudarkih
+
+Z odstranitvijo nekaj krepkega tiska in uporabo manj besedila za povezave lahko znatno zmanjšate količino motenj v odstavku. 
+To lepo ilustrira slika 16.5.
+
+Naslove uporabljajte kot naslove
+
+Naslovi se najbolje obnesejo, če so uporabljeni kot naslovi, ker izstopajo iz okoliškega besedila in naznanjajo novo temo. 
+Če določen del besedila res želite poudariti, razmislite raje o uporabi majhne slike, vodoravne črte ali kakega drugega načina poudarjanja. 
+Slika 16.7 prikazuje enako besedilo kot slika 16.6 z drugačno vrsto vizualnih poudarkov.
+
+Pogosta napaka, ki jo pri izdelavi povezav dela veliko oblikovalcev spletnih strani, je sindrom "Tukaj" (angleško: "Here"). 
+Sindrom Tukaj je nagnjenost izdelavi povezav, ki vsebujejo eno samo poudarjeno besedo (tukaj ali here), povezava pa je opisana v ostalem besedilu. 
+Oglejmo si nekaj primerov:
+
+Na spletnih straneh ne uporabljajte veliko slik. 
+Poleg dejstva, da vsaka slika podaljša čas nalaganja strani, velja tudi, da lahko veliko slik na isti strani daje vtis prenatrpanosti in odvrača pozornost od vsebine strani. 
+Nekateri včasih mislijo, čim več slik, tem boljša je stran Ȕ a temu ni tako. 
+Primer kaže slika 16.20.
+
+• Pogosto lahko na zaslonu prikažete celotno stran, tako da lahko bralec enostavno preleti vso informacijo.
+
+Slika 16.24 prikazuje lep primer naslova.
+
+Laura Lemay <A HREF="mailto:lemay@lne.com">lemay@lne.com</A>
+
+myfile.ps.
+
+4. 
+Pravilno ali napačno: Čas nalaganja slike lahko zmanjšate tako, da z atributoma WIDTH in HEIGHT oznake <IMG> sliko pomanjšate.
+
+1. 
+Tri "podvrste" HTMLja 4.0 so HTML 4.0 Transitional (za najširši razpon občinstva in zasnovana za tiste, ki uporabljajo starejše brskalnike), HTML 4.0 Frameset (ki vsebuje oznake specifikacije Transitional plus oznake za izdelavo okvirjev) in HTML 4.0 Strict (za tiste, ki se želijo držati čistih HTML 4.0 oznak in atributov).
+
+Kodo in slike teh primerov lahko najdete na spletni strani te knjige (za podrobnosti glejte zadnjo notranjo platnico knjige).
+
+##550##
+
+Vsaka posamezna stran je posvečena enemu proizvajalcu. 
+Če je bralec izbral specifičnega proizvajalca, povezava kaže direktno na to specifično stran (na primer stran za Nortona, prikazano na sliki 17.10). 
+Vsaka stran proizvajalca vsebuje informacijo o proizvajalcu in različnih motociklih, ki jih izdeluje.
+
+##551##
+
+Razdelek O spletnem mestu (About the Site) vsebuje povezave do strani,. ki bodo bralcu pomagale hitro pregledati vsebino vašega spletnega mesta ali videti, kaj se je od njegovega zadnjega obiska spremenilo. 
+Slika 18.2 prikazuje primer enostavnega menija povezav za ta namen. 
+V tovrstno kategorijo je dobro vključiti:
+
+• Tekstovne povezave v spodnjem okvirju opravljajo isto funkcijo kot ikone v levem okvirju. 
+Te povezave so tu za uporabnike, ki v svojih brskalnikih ne vidijo slik ali za tiste, ki so jim ljubše tekstovne povezave.
+
+<HTML>
+
+<H1 ALIGN="CENTER">
+
+</P>
+
+</FONT></B>
+
+<TR>
+
+</TH>
+
+OUTPUT:
+
+Ključ dobrega oblikovanja okvirovij je izdelava čim manj okvirjev in hitro in enostavno razumljivega navigacijskega sistema. 
+Težka odločitev pa je, za katero ločljivost nameravate svoje strani oblikovati, ker je brskalnik razdeljen na več razdelkov. 
+Več ko izdelate okvirjev, manjše bodo posamezne strani v okvirjih.
+
+</HTML>
+
+CLASS="bloodredbold">Halloween House of Terror</SPAN> provides the ultimate in Halloween
+
+<TD WIDTH="64%" CLASS="red">Don't open the closet door, whatever you do!</TD>
+
+5. 
+Naštejte prednosti in slabosti uporabe standarda HTML 4.0 Strict?
+
+Devetnajsti dan: Postavitev vašega mesta v splet 
+
+Sedaj, devetnajstega dne, ste končno nared za objavljanje svojega mesta. 
+Postavili ga boste na splet, da ga bodo lahko videli tudi drugi in svoje strani povezali na vaše. 
+V tem in naslednjem poglavju se boste naučili vsega, kar morate vedeti za uspešno objavo vašega dela, kako opozoriti ljudi na obstoj svojega mesta in kako ga obdržati uglašenega, ko je enkrat objavljeno:
+
+• Kaj spletni strežnik počne in zakaj ga potrebujete.
+
+Strežniško obdelovanje datotek
+
+Zadnjih nekaj let se je pojavilo veliko organizacij, ki ne nudijo drugega kot objavljanje na spletu. 
+Te organizacije običajno poskrbijo za metodo prenosa vaših datotek do njihovih spletnih mest (običajno FTP), nudijo vam prostor na disku in mrežne povezave za dostop do vaših datotek. 
+Imajo tudi poklicne upravitelje spletnih mest, ki zagotavljajo nemoteno delovanje strežnikov.
+
+Postavitev lastnega strežnika
+
+• Ali nudite tudi kakšne že izdelane skripte, ki jih lahko uporabim v svojih spletnih straneh? 
+Če vam pisanje lastnih skriptov ne diši, preverite pri ponudniku, če nudi kaj uporabnega. 
+Tako na primer veliko ponudnikov nudi skripte, ki vam na svojo stran omogočajo postavitev števca dostopov. 
+Drugi pa lahko nudijo tudi dostop do obdelave obrazcev.
+
+1. 
+Spletni strežnik je program, ki teče na računalniku v Internetu (ali intranetu). 
+Zna poiskati datoteke in slediti, kam so odšle.
+
+2. 
+Povezavo v Internet lahko dobite v šoli, na delu, pri komercialnem ponudniku ali pa lahko postavite svoj lastni Internet strežnik.
+
+Svojo stran lahko predložite indeksu Alta Vista s pomočjo obrazca na http://www.altavista.digital.com/av/content/addurl.htm, ki ga prikazuje slika 20.7.
+
+Lycos
+
+##632##
+
+Vizitke, glave pisem, brošure in oglasi
+
+1. 
+Nekaj načinov promoviranja vašega spletnega mesta je: glavni spletni imeniki in indeksi, objave v novičarskih skupinah, vizitke, spletni obroči.
+
+Prvi korak je zagotavljanje pravilnosti HTMLja: ali imajo vse oznake ustrezne končne oznake, ali se oznake morda prekrivajo, ali ste oznake uporabili znotraj drugih, čeprav jih ne bi smeli, itd.
+
+WebTechov HTML Validation Service (včasih znan pod imenom HAL's HTML Validator) je strogi HTML 2.0 ali 3.2 validator, ki vaše HTML dokumente preveri ali ustrezajo SGML definiciji HTMLja. 
+V času tiska so možnosti tega validatorja vključevale tudi W3C osnutek specifikacije za HTML 4.0 Strict, HTML 4.0 Frameset in HTML 4.0 Transitional. 
+Če naredite HTML validatorjev test vam to zagotavlja, da vaše strani absolutno ustrezajo HTML specifikaciji. 
+Slika 21.1 prikazuje domačo stran HTML Validation Service na http://www.webtechs.com/html-val-svr/, kjer lahko interaktivno testirate že objavljene strani.
+
+Weblint
+
+Za prikaz vrst napak, ki jih detektirata Weblint in Webtechs HTML validation Service, poskusimo naslednji primer, ki vsebuje nekaj pogostih napak. 
+To je Susanina stran o kaktusnih vrtovih (Cactus Gardens), prikazana na sliki 21.6.
+
+<H1>Choosing and Ordering Plants</H3>
+
+Ta je lahka. 
+Avtor je H1 pomotoma zaprl s H3. 
+Začetna in končna oznaka se morata ujemati, zato </H3> spremenite v <H1>.
+
+line 0: No closing </A> seen for <A> on line 10.
+
+<UL>
+
+Posodabljanje in dodajanje strani vašemu spletnemu mestu
+
+http://www.yahoo.com/Computers_and_Internet/World_Wide_Web/Programming/Access_Counts
+
+Builder.com
+
+Microsoft Sitebuilder
+
+Yahoojev seznam o obrazcih
+
+Razno
+
+http://info.med.yale.edu/caim/manual/index.html
+
+http://www.yahoo.com/Computers_and_Internet/Multimedia/Video/
+
+Specifikacije HTML, HTTP in URLjev
+
+http://www.w3.org/pub/WWW/Protocols/
+
+http://hoohoo.ncsa.uiuc.edu/cgi/interface.html
+
+http://thelist.iworld.com/
+
+Specifikacija za HTML 4.0 vsebuje več atributov, ki pridejo v poštev pri precejšnjem številu elementov. 
+Na njih se v tej prilogi sklicujem z oznakami %coreattrs, %i18n in %events, katerih pomen je podan spodaj.
+
+• dir="..." 
+Smer besedila (ltr, rtl).
+
+• onmouseover="..." 
+Miška se je premaknila nad predmet.
+
+<HR>
+
+noshade="..." 
+Prikaže črto kot brez senčenja.
+
+<BR> ... </BR>
+
+UporabaZa definicijo povezav in sider.
+Otv/Zap oznakaobvezna/obveznaAtributi%coreattrs, %i18n, %events.
+
+rel="..." 
+Odnos med tenutnim dokumentom in dokumentom, na katerega kaže povezava.
+
+charoff="..." 
+Odmik prvega poravnalnega znaka.
+
+span="..." 
+Število stolpcev v skupini.
+
+<TBODY> ... </TBODY>
+
+align="..." 
+Vodoravna poravnava (left, center, right, justify, char).
+
+UporabaDefinira vsebino celic glave tabele.
+Otv/Zap oznakaobvezna/neobveznaAtributi%coreattrs, %i18n, %events.
+
+scrolling="..." 
+Določa prisotnost drsnega traku (auto, yes, no).
+
+<APPLET> ... </APPLET>
+
+height="..." 
+Višina prikazanega programčka.
+
+<INPUT> ... </INPUT>
+
+UporabaIzdela izbore, ki jih lahko uporabnik izbere.
+Otv/Zap oznakaobvezna/obveznaAtributi%coreattrs, %i18n, %events.
+
+Za obdelavo podatkov in izvajanje drugih dinamičnih dogodkov je preko elementa SCRIPT na voljo skriptni jezik.
+
+Znak Številna entiteta Imenska entiteta (če obstaja) Opis
+
+© &#169; © Copyright.
+
+2 &#178; &sup2; Na kvadrat.
+
+&#180; &acute; Ostrivec.
+
+&#202; &Ecirc; Veliki E s cirkumfleksom..
+
+Da bi bila informacija lažje dostopna, so v tej prilogi lastnosti CSS organizirane v naslednjem vrstnem redu:
+
+• CSS1 vrednosti Ȕ Legalne CSS1 vrednosti in slovnica
+
+Začetna none
+
+Podedovana Ne.
+
+position
+
+Začetna static
+
+unicode-bidi
+
+Podedovana Ne.
+
+Podedovana Ne.
+
+Uporaba Nastavi sliko ozadja.
+
+CSS1 vrednosti <uri> | none
+
+Opombe Ta lastnost sprejme le eno vrednost. 
+Za nastavitev različnih vrednosti vsaki strani obrobe uporabite lastnosti border-width, border-style ali border-color.
+
+CSS1 vrednosti ['border-bottom-width' || 'border-style' || <color>]
+
+Opombe Odstotki se nanašajo na višino vsebujočega bloka.
+
+padding
+
+Uporaba Podaja pisavo, ki ni označena kot small-caps pisava (normal) ali tako, ki je označena kot small-caps (small-caps).CSS1 vrednosti normal | small-capsCSS2 vrednosti inheritZačetna normal ##731##Uporabna pri Vseh elementih.Podedovana Da.
+
+Uporaba Podaja zvok, ki naj se predvaja v ozadju med izgovoritvijo elementove vsebine.CSS2 vrednosti <uri> | mix? | repeat? | auto | none | inheritZačetna autoUporabna pri Vseh elementih.Podedovana Ne.
+
+marker-offset
+
+##746##
+
+Uporabna pri Tabelah in vrinjenih tabelnih elementih.
+
+Lastnosti uporabniškega vmesnika omogočajo prirejanje izgleda kazalke, nastavitve barv, pisav in dinamičnih obrisov.
+
+Velikosti kotov se uporabljajo pri avralnih slogovnih straneh. 
+Njihov format je neobvezen predznak (+ ali -), ki mu takoj sledi število. 
+Kotne enote so:
+
+<length>
+
+Dolžine so podane z neobveznim predznakom ("+" ali "–"), ki mu takoj sledi število z ali brez decimalne pike, temu pa takoj sledi ena izmed naslednjih ključnih besed:
+
+<percentage>
+
+lightgreen svetlo zelena #90EE90
+
+linen platnena #FAF0E6
+
+red rdeča #FF0000
+
+rosybrown rožnato rjava #BC8F8F
+
+application/sla Stereolitografija stl, STL
+
+application/solids MATRA Prelude Solids SOL
+
+podpisi 164-165
+
+GifBuilder 223
+
+urejevalniki slik 229-236
+
+arhiv (medijski arhiv)
+
+ALT, atribut 256
+
+NAME, atribut 374, 384
+
+MAXLENGTH, atribut 438
+
+VALUE, atribut 437
+
+BORDERCOLOR 326-327
+
+TEXT 206
+
+MARQUEE, oznaka 417
+
+DFN, oznaka 685
+
+SUB, oznaka 687
+
+zunanje slogovne strani 274
+
+border-bottom, lastnost (Kaskadne slogovne strani) 723
+
+border-style, lastnost (Kaskadne slogovne strani) 724
+
+okvirji 372-374
+
+barve, spreminjanje 326-327
+
+COLS, atribut
+
+GIF Construction Set 223
+
+pretvarjanje tekstovnih datotek 141
+
+barvne lastnosti 720-722
+
+lastnosti za vizualne učinke 736
+
+HTML razširitve 504-507
+
+DFN, oznaka 135, 685
+
+absolutno pozicioniranje 476-479
+
+poimenovanje plasti 474
+
+relativno pozicioniranje 490
+
+PARAM, oznaka 703
+
+GIF datoteke, glejte GIF datoteke
+
+FONT, oznaka 688
+
+spletni brskalniki 55
+
+atributi
+
+NAME 374, 384
+
+NOFRAMES, dodajanje vsebine 385-386
+
+GIF datoteke
+
+tiskana različica (spletna mesta) 533
+
+MARQUEE, oznaka 417
+
+zadetki 616
+
+ime gostitelja (URLji) 121
+
+Kako naročiti (How To Order), stran (nakupovalni katalog) 560, 563-564
+
+pretvorniki 64
+
+oznake, glejte oznake
+
+HTML Transit, spletna stran 669
+
+Hypertext Markup Language, glejte HTML
+
+URLji 122-123
+
+lebdeči okvirji, definiranje 388-390
+
+poskakujoča žogica, vaja 231, 236
+
+Džuboks, primer spletne stran 257-259
+
+definirane 178
+
+gumbi 192
+
+predogledi 203-204
+
+TYPE 435-437, 452
+
+zasebni imeniki 621-624
+
+IPP (Internet Presence Provider, ponudnik prisotnosti na Internetu) 600-601
+
+poravnava 145
+
+lastnosti seznamov(Kaskadne slogovne strani) 731-732
+
+DD 87
+
+Lycos, spletno mesto 621, 626-628, 675
+
+čarobna imena ciljev 386-387
+
+margin-top, lastnost (Kaskadne slogovne strani) 726
+
+FRAME, oznaka 388
+
+FRAME, oznaka 374
+
+zmožnost doseganja podatkov (data binding feature) 462
+
+MULTIPLE, atribut (oznaka SELECT) 448
+
+skrivanje/prikazovanje 481
+
+LiveWire 606
+
+Netscape Galleria, spletno mesto 624
+
+atributi
+
+podpis 164-165
+
+HTML 4.0 Frameset, specifikacija 585-586
+
+Dynamic HTML, primer 492-495
+
+testiranje integritete 640-655
+
+Džuboks, spletno mesto
+
+grupiranje sorodne informacije 514
+
+dveh strani 99-103
+
+(Spletna navidezna knjižnica) 619-620
+
+!DOCTYPE..., oznaka 681
+
+tehnična informacija (Technical Information), strani (predstavitev podjetja, primer mesta) 543-544
+
+povezava lokalnih strani 103-105
+
+brskalniški vtičniki 423-425
+
+številke vrat (URLji) 121
+
+plasti 469-473
+
+skrivanje/prikazovanje 481
+
+poimenovanje 474
+
+podpora izdelkom (Product Support), strani (predstavitev podjetja, primer mesta) 544
+
+lastnosti uporabniškega vmesnika 747-748
+
+Stenografska lastnosti 283
+
+objavljanje spletnih mest
+
+radijski gumbi (obrazci) 439-440
+
+registriranje spletnih strani 616-624
+
+spletni indeksi 624-629
+
+HotBot 626-627
+
+relativno pozicioniranje (Dynamic HTML) 490
+
+daljne strani 106
+
+spreminjanje velikosti slik 201-202
+
+skripti
+
+izdelava 242-254
+
+iskanje 600-601
+
+spletne strani 164-165
+
+SIZE, atribut 143-144, 156-157
+
+SELECT, oznaka 449
+
+H, oznaka 681
+
+deklaracije 268
+
+lastnosti obrob 288-290
+
+SUP, oznaka 138, 687
+
+CELLPADDING 319-320
+
+CELLSPACING 320-321
+
+tabele 308
+
+naslovi 309, 313
+
+podatkovne celice 311
+
+VAR 135
+
+CITE 684
+
+START, atribut 411
+
+DD 87
+
+OPTION 47-448, 707
+
+COLSPAN, atribut 332-333
+
+NOWRAP, atribut 323-324
+
+del (<DIV>) 154-155
+
+vroče točke 98
+
+"Tukaj", sindrom 519-521
+
+pretvarjanje 141
+
+S, oznaka 689
+
+ADDRESS, oznaka 683
+
+CODE, oznaka 684
+
+Tucows, spletno mesto 17
+
+TYPE, atribut
+
+optimiziranje barv animacije 228-229
+
+Uniform Resource Locators (URL) 14, 17, 24-25, 120
+
+določanje 578-580
+
+preverjanje pravilnosti, primer 648-654
+
+privzete vrednosti v obrazcu 443
+
+FRAME, atribut 347
+
+zunanji mediji 399-400
+
+Lycos 626-628
+
+običajne uporabe 220
+
+primeri dizajna
+
+Jcount 635, 666
+
+informacija o obiskovalcih 634
+
+LAYER, oznaka 472-473
+
+TABLE, oznaka 317-318
+
+World Wide Web Consortium, spletno mesto 677
+

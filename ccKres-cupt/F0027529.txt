@@ -1,0 +1,1441 @@
+Delphi 2.0 je v bistvu paskalski prevajalnik. 
+Delphi 2.0 je naslednja stopnja v razvoju tistega prvega paskalskega prevajalnika, ki ga Borland razvija že odkar je pred več kot dvanajstimi leti Andreas Hejlsberg napisal prvi prevajalnik z imenom Turbo Pascal. 
+Paskalski programerji so lahko vseskozi uživali v trdnosti, uslužnosti in seveda hitrosti prevajanja, ki ga Turbo Pascal ponuja. 
+Tudi Delphi 2.0 pri tem ni nobena izjema, saj se v njem kaže več kot desetletje iskušenj razvijalcev prevajalnikov in nova doba 32-bitnih optimiziranih prevajalnikov. 
+Zadovolni boste, ko boste ugotovili, da se Delphi 2.0 prav v vsem odlikuje kot vsi njegovi predhodniki.
+
+je cilj razvijalcev aplikacij tipa odjemalec/strežnik. 
+Če razvijate aplikacijo, katera vzpostavlja zvezo s pomočjo datotečnega strežnika SQL, potem morate vedeti, da ta izdaja vsebuje vsa potrebna orodja orodja za razvijanje aplikacij tipa odjemalec/strežnik. 
+Client/Server Suite vsebuje vse, kar vsebujeta ostali dve izdaji Delphija 2.0, poleg tega pa še:
+
+Glavno okno v Delphiju 2.0.
+
+Orodna vrstica Delphija 2.0 je tudi spremenljiva! 
+Kadar se nahajate na orodni vrstici, vas desni gumb miške popelje do izbire dodajanja in odstranjevanja gumbov. 
+Vse kar lahko naredite v glavnem meniju, lahko naredite hireje s pomočjo gumba v orodni vrstici. 
+Slika 1.3 kaže običajno uporabljeno orodno vrstico.
+
+V oknu Code Editor izvajate programiranje v ožjem pomenu besede. 
+Tukaj pišete kodo katera določa, kako se bo vaš program obnašal. 
+Tukaj tudi Delphi 2.0 dodaja kodo, katero avtomatsko generira na osnovi gradnikov v vaši aplikaciji. 
+Na vrhu tega okna se nahajajo jezički, vsak od njih se nanaša na svojo enoto ali datoteko. 
+Vsakič ko vaši aplikaciji dodate nov obrazec, se ustvari nova enota in se doda k skupini jezičkov na vrhu okna. 
+Lahko pa k vaši aplikaciji dodate tudi dodatne enote, katere ne predstavljajo obrazcev in bodo končale kot jezički na vrhu okna Code Editor.
+
+uses
+
+end;
+
+Včasih imenujemo ustvarjanje uporabniškega vmesnika in spošni izgled programa . 
+V nevizualnih okoljih je izdelava prototipa (ozadja) aplikacije pogosto vzela več časa kot pa pisanje samega aplikacije. 
+Ozadje je vse bistvo programa, kajneda? 
+Seveda, razpoznaven in vizualno zadovoljiv uporabniški vmesnik je velik del aplikacije, ampak kakšna bi bila korist od nje, če bi npr. imeli komunikacijski program z vzorno izdelanimi okni in pogovornimi okni, pa ne bi bil zmožen poslati podatkov po modemu? 
+Tudi pri aplikacijah je tako kot pri ljudeh; lepo je gledati lep obrazek, ampak da postane reden del našega življenja, pa nam mora nuditi še kaj več. 
+Zato, prosim, brez komentarjev o ozadjih.
+
+D: Double = 3.14159;
+
+const float CeloStevilo = 3.14;
+
+Po želiji pa lahku pri najavi določite tudi tip konstante. 
+To vam omogoča poplen nadzor nad tem, kako prevajalnik ravna s konstantami:
+
+var
+
+inc(spremenljivka);
+
+{$H+}
+
+S2 := S2 + 'popolnoma drugačnega!';// S2 je spremenjen, torej je prepisan v svoj // pomnilniški prostor, število referenc se je // zmanjšalo
+
+Dva niza lahko združite s pomočjo operatorja ali s funkcijo , kot to kažeta sledeča primera:
+
+{ ali }
+
+RealizeLength(S);// nastavi dolžino S na nič
+
+Nikoli ne shranite v nizu več znakov, kot ste rezervirali prostora. 
+Če bi npr. najavili spremenljivko kot in ji poskušali prirediti niz '', bi bil niz odsekan, tako da bi ostalo le osem znakov, vi pa bi izgubili kodo. 
+
+S1 := 'v Delphiju 2.0';//da tekst v niz S1
+
+end;
+
+V1, V2: Variant;
+
+begin
+
+begin
+
+end;
+
+Uporabniško definirani tipi
+
+Polja 
+
+N.i := 23;
+
+MojZapis = record
+
+New(Zapis);// rezervira pomnilnik za Zapis
+
+b: byte;
+
+Tipe lahko prirejate le, če se velikosti podatkovnih tipov ujemata. 
+Npr. ne morete prirediti tipa v tip . 
+Za pretvorbo tipa s plavajočo vejico v celoštevilčni tip uporabite funkciji ali . 
+Da pa pretvorite celo število v število s plavajočo vejico, lahko uporabite le prireditveni operator:
+
+'Visual Basic
+
+Če imate stavek , ki dela več primerjav, potem se prepričajte, da ste vsako primerjavo napisali v oklepajih, saj drugače koda ni jasna. 
+Naredite takole:
+
+end;
+
+for(i=1; i<=10; i++)
+
+x += i;
+
+For I = 1 to 10
+
+Vrednost pa lahko vrnete tudi tako, da v funkcijski kodi priredite vrednost imenu funkcije. 
+To je standardna paskalska zgradba in je ostanek prejšnjih različic Object Pascala.
+
+begin
+
+Object Pascal dovoljuje tudi polje konstant, katero vam omogoča, da podprogramu podate različne podatkovne tipe v polju. 
+Skladnja za najavo podprograma, kateri sprejme polje konstant, je taka:
+
+vtClass:TypeStr := 'Class'; 
+
+interface
+
+Imenujemo tudi vsebovane spremenljivke; polja so podatkovne spremenljivke, ki jih predmeti vsebujejo. 
+Polje v predmetu je prav takšno, kot je paskalski zapis. 
+V jeziku C++ polja včasih imenujemo tudi podatkovni člani.
+
+procedure JazSemSporočilo(var M: Tmessage); message wm_NekoSporočilo
+
+(javni)Ta polja in metode so dosegljivi kjerkoli v vašem programu. 
+Kostruktorji in destruktorji bi morali biti vedno javni.
+
+Izpis 2.3 prikazuje uporabo obravnavanja izjem pri datotečnem vhodu/izhodu.
+
+Če boste definirali svoj predmet izjem, potem ga izpeljite iz znanega predmeta izjem, kot je ali iz enega njegovih potomcev. 
+Tako bodo lahko vaše izjeme obravnavali tudi splošni krmilniki izjem.
+
+on EMathError do // prestreglo bo EMathError ali kateregakoli potomca
+
+tip prednika predmeta
+
+V tem poglavju smo predelali kar nekaj stvari. 
+Naučili ste se osnovno skladnjo in semantiko paskalskega jezika vključno s spremenljivkami, operatorji, funkcijami, procedurami, tipi, konstrukti in stili. 
+Jasni pa vam morajo biti tudi OOP, predmeti, polja, lastnosti, metode, , obravnavanje izjem in RTTI.
+
+Predmeti v 16-bitnih Oknih so se nanašali na entitete, do katerih smo lahko dostopali preko ročice. 
+To ni veljalo za kernel predmete, saj ti v 16-bitnih oknih sploh še niso obstajali.
+
+Win32 okolje je predstavilo novost, imenovano 32-bitni linearni pomnilniški model. 
+Končno lahko paskalski programerji najavijo veliko polje ne da bi prevajalnik javil napako:
+
+IzročenPomnilnik, ki je bil rezerviran in določen fizičnemu pomnilniku. 
+Proces lahko dostopa do izročenega pomnilnika. 
+Funkcija izroči navidezni pomnilnik.
+
+Kopice 
+
+Uniči predmet na kopici, ki je bil ustvarjen s . 
+
+Ponovno rezervira blok pomnilnika s kopice, kar vam omogoča, da spremenite lastnosti kopice.
+
+end;
+
+private
+
+Povedali smo že, da so dogodki lastnosti. 
+Kot podatkovne lastnosti se tudi dogodki nanašajo na zasebna podatkovna polja gradnikov. 
+Ta podatkovna polja so procedurskega tipa, kot je . 
+Poglejte si to kodo:
+
+Koncepta starševstva ne smete mešati z lastništvom. 
+Gradniki so lahko starši drugim gradnikom. 
+Samo gradniki v oknu, kot so nasledniki , lahko služijo kot starši drugim gradnikom. 
+Starševski gradniki so odgovorni za klicanje tistih metod svojih otrok, s katerimi se ti izrišejo. 
+Starševski gradniki so tudi odgovorni za pravilni izgled svojih otrok. 
+Starševski gradnik je določen skozi gradnikovo lastnost .
+
+Starševski gradnik še ni nujno lastnik gradnika. 
+Popolnoma legalno za gradnike je, da imajo različne starše in lastnike.
+
+Poglejte si proceduro najavljeno v zasebnem delu glavnega obrazca. 
+Ta procedura poskrbi za izpis imena razreda in prednikov v na glavnem obrazcu.
+
+Prikaz projekta informacij o razredu
+
+Razred izhaja direktno iz . 
+Skoraj vsi gradniki, ki jih uporabljamo v Delphiju, izhajajo iz . 
+Posebni nameni so, da njegove lastnosti lahko oblikujemo v času razvijanja aplikacije v oknu Object Inspector in da je lahko lastnik drugih gradnikov.
+
+MojSeznamNizov.
+Add('Pink Floyd'); 
+
+Tabela 4.4 prikazuje nekatere pogosteje uporabljene metode razreda . 
+Uporabo teh funkcij boste spoznali v kasnejših poglavjih.
+
+Zgradba aplikacij in koncepti oblikovanja
+
+nastane v času oblikovanja in ima končnico DPR. 
+V tej datoteki se nahaja izvorna koda glavnega programa. 
+V projektni datoteki je shranjen glavni obrazec in vsi avtomatsko ustvarjeni obrazci. 
+Teh datotek vam navadno ne bo potrebno urejati, razen pri podprogramih za inicializacijo programa, za prikaz začetne slike in pri raznih drugih podprogramih, ki se morajo izvršiti takoj, ko program zaženemo. 
+Tipično projektno datoteko lahko vidite v izpisu 5.1.
+
+Obstaja veliko načinov za izboljšanje postopka razvijanja, predvsem s pomočjo tehnik, katere omogočajo boljšo organizacijo in preglednost, pa tudi deljenje kode. 
+V sledečih odstavkih vam bomo dali nakaj takšnih nasvetov.
+
+Enote za globalne najave 
+
+Ta koda prikazuje, kako lahko dinamično ustvarite izvod in ga priredite spremenljivki . 
+Pomembno je vedeti, da morate, kadar obrazec ustvarite dinamično, tega odstraniti iz seznama obrazcev za avtomatsko kreiranje (auto-create) v pogovornem oknu Project Options. 
+Do tega pogovornega okna pridete z izbiro menija Project | Options. 
+Če pa je izvod že narejen, potem lahko obrazec s pomočjo metode pokažete kot modalnega. 
+Koda lahko izgleda takole:
+
+begin
+
+end;
+
+Ta vrstica preveri, če obstaja izvod , na katerega kaže spremenljivka . 
+V resnici tukaj le preverimo, če je enak . 
+Čeprav sicer ne bo , ko boste privič vstopili v ta podprogram, pa bo ob drugem vstopu v podprogram enak , potem ko boste prvi izvod že uničili. 
+Razlog tiči v tem, da VCL ne nastavi spremenljivke na , ko je obrazec uničen, zato morate to narediti sami.
+
+Form1.
+Show;
+
+SysUtils, WinTypes, WinProcs, Messages, Classes, Graphics, Controls, Forms, Dialogs;
+
+Izpis 5.5 PWDLG.
+PAS, Obrazec in njegov gradniški ovoj .
+
+se imenuje gradnik, ker ga ovijemo okrog obrazca, tako da ga lahko postavimo na paleto gradnikov Delphija 2.0.
+
+V eni izmed prejšnjih vrstic kode ste lahko videli, kako dostopamo do lastnosti in s tem spremenimo njeno lastnost , tako da vsebuje aplikacije. kaže na , tako da lahko skozi dostopate do katerekoli lastnosti . 
+Lahko tudi dostopate do lastnosti, katere ste dodali vašim dedovanim obrazcem, vendar morate pri tem ustrezno prirediti tip :
+
+Tabela 5.1. 
+Lastnosti .
+
+Kaže obrazec v žarišču. 
+Ta lastnost se spremeni, ko dobi žarišče drug obrazec ali ko aplikacija v Delphiju dobi žarišče od druge aplikacije.
+
+end;
+
+Vendar pa, če hočete, da ta koda deluje pravilno, mora DPR izgledati takole (z dodatnim navodilom prevajalniku za povezovanje datoteke virov):
+
+Kot ste spoznali v 3. poglavju, "Win32 API", ima Win32 API zelo močno orodje za delo z napakami: izjeme. 
+Po prevzetem izvod avtomatsko obravnava vsako izjemo, ki nastopi tako, da izpiše uporabniku okno s sporočilom o napaki, kot ga lahko vidite na sliki 5.9.
+
+Vendar pa se spomnite, da lastnosti predmeta ne morete urejati v oknu Object Inspector. 
+Tem lastnostim morate prirediti proceduro med izvajanjem.
+
+V začetku tega poglavja smo povedali, da so obrazci srce vseh aplikacij v Delphiju. 
+Vendar pa vam nič ne preprečuje, da ne bi naredili aplikacije, ki ne bi imela niti enega samega obrazca. 
+DPR datoteka ni nič drugega kot programska datoteka, ki uporablja enote, v katerih so definirani obrazci in drugi predmeti. 
+Taka programska datoteka pa seveda lahko deluje brez obrazcev. 
+Če hočete to narediti, potem preprosto začnite nov projekt in odstranite njegov glavni obrazec z izbiro File | Remove From Project. 
+Potem bo vaša DPR datoteka izgledala takole:
+
+Izpis 5.10. 
+Zapuščanje oken s pomočjo in .
+
+Aplikacije za delo z datotekami. 
+To so tiste aplikacije, ki imajo v meniju Datoteka (File) izbire Odpri (Open), Shrani (Save) in Zapri (Close).
+
+Prijavi ikone velikosti 16 x 16 in 32 x 32 točk za tipe datotek, uporabljene v aplikaciji, pa tudi za ikono aplikacije.
+
+Zahteve za uslužnostne aplikacije 
+
+Podpira lupino uporabniškega vmesnika Windows 95, zato mora ustrezati sledečim zahtevam:
+
+Okno je bilo aktivivirano ali deaktivirano.
+
+Kako deluje Okenski sistem sporočil
+
+MessageBeep(0);
+
+v bo spuščen.
+
+sprejema vhodno žarišče.
+
+Uporabnik je kliknil na drsnik.
+
+VCL vsebuje razširjeno zbirko svojih notranjih objavljenih sporočil. 
+Čeprav v svojih Delphijevih aplikacijah teh sporočil ne uporabljate pogosto, pa bodo uporabna za razvijalce gradnikov v Delphiju. 
+Ta sporočila govorijo o stanjih, kot so žarišče, barva in vidnost. 
+Popolno zbirko teh sporočil lahko najdete v pomoči razvijalcev gradnikov (CWG.
+HLP - Component Writer's help) pod temo .
+
+var
+
+SLIKA 6.3
+
+Tip je enak tipu v Delphiju 1.0. 
+Kot enozložni znak lahko vsebuje 256 različnih znakov. uporabite samo, kadar ste prepričani, da bo znakovna spremenljivka vedno enozložna.
+
+procedure SetLength(var S: String; NovaDolzina: Integer);
+
+end;
+
+DisposeStr(S2);
+
+begin
+
+end;
+
+Nizi s končnim ničelnim znakom kot vmesni pomnilniki 
+
+Pogosta je uporaba spremenljivk za vmesni pomnilnik, ki je podan API funkcijam, katere napolnijo niz z informacijo. 
+Klasičen primer je API funkcija , katera je takole definirana v Win32 API:
+
+Če želite shraniti Okenski imenik v spremenljivko niza, je v Delphiju 1.0 najlažji način za to, da podate naslov prvega elementa niza, kot kaže primer:
+
+var
+
+var
+
+P: PChar;
+
+end;
+
+initialization
+
+MyGlobalObject.
+Free;
+
+Delphi 2.0 predstavlja navodila za uporabo dveh novih konvencij klicanja: in . 
+Prevzeta konvencija klicanja pri Delphiju 2.0 je , saj omogoča hitrejše izvajanje. 
+Ta metoda podajanja parametrov narekuje, da so prvi trije parametri podani vsak zase v registrih , in . 
+Ostali parametri uporabijo sistem klicanja . 
+Konvencija klicanja pa je nekaj vmes med in , saj pomeni podajanje parametrov kot pri , čiščenje sklada pa kot pri .
+
+32-bitni viri 
+
+Če želite shraniti sliko, uporabite metodo SaveToFile(), ki samodejno določi tip datoteke za shranitev:
+
+Če želite eno bitno sliko prekopirati na drugo, uporabite metodo TBitmap.
+Assign() kot sledi:
+
+Tabela *** 
+
+Slog Nariše
+
+psDot Črto, izdelano iz pik
+
+SLIKA 9.1. 
+Različni slogi peresa.
+
+Krmilnik dogodka PenMode1Click() kaže, kako se rišejo črte z uporabo različnih načinov peresa. 
+Tukaj za izvajanje dejanj, ki smo jih razložili predhodno, uporabljamo način pmNotMerge, kar povzroči rezultat, ki je prikazan na sliki 9.2.
+
+Čopič zapolni področja in oblike, narisane na platnu. 
+To se od TPen razlikuje v tem, da TPen omogoča risanje črt na platnu, čopič pa zapolnitev področja na platnu z uporabo različnih barv, slogov in vzorcev. 
+
+Metoda Patterns1Click() kaže risanje z različnimi vzorci TBrush. 
+Najprej izrišemo naslove, nato pa na platno obrazca z uporabo razpoložljivih vzorcev čopiča izrišemo pravokotnike. 
+Na sliki 9.4 je prikazan rezultat te metode.
+
+Image1.
+Canvas.Rectangle(, , Image1.
+Width, Image1.
+Height);
+
+Font.
+Color lahko dodelite katerokoli izmed že definiranih barv Delphija 2.0. 
+Naslednja koda pisavi platna dodeli rdečo barvo:
+
+fsStrikeOut Vodoravna črta prek pisave, ki daje prečrtan videz
+
+Form1.
+Font := Form2.
+Font
+
+TCanvas.ClipRect predstavlja področje platna, na katerem se lahko riše.
+
+Glavni obrazec ima 10 metod, ki so krmilniki dogodkov za vsako menijsko postavko. 
+Dve javni metodi služita kot pomožni funkciji za krmilnike dogodkov. 
+Prvih osem menijskih postavk povzroči, da se na platnu obrazca narišejo oblike. 
+Zadnji dve postavki, Fill (Zapolni) in Use Bitmap Pattern (Uporabi vzorec bitne slike) podajata, ali naj bo oblika zapolnjena z vzorcem čopiča oziroma bitne slike.
+
+case Integer of
+
+TextSize1Click() kaže, kako se določi velikost besedilnega niza z uporabo metod TCanvas.TextWidth() in TCanvas.TextHeight(). 
+Rezultat te metode je prikazan na sliki 9.11.
+
+try
+
+Win32 omogoča, da definirate preslikovalni način za DC ali Canvas.
+Handle. 
+Win32 definira osem preslikovalnih načinov, ki jih lahko uporabite. 
+Ti preslikovalni načini, skupaj z njihovimi lastnostmi, so prikazani v tabeli 9.4. 
+Vzorčni projekt v naslednjem razdelku bolj podrobno prikazuje preslikovalne načine.
+
+Metoda MMANISOTROPICClick() izvede enako operacijo, z razliko, da uporabi način MM_ANISOTROPIC. 
+Obe metodi prikazujemo zato, da pokažemo osnovno razliko med preslikovalnima načinoma MM_ISOTROPIC in MM_ANISOTROPIC. 
+
+Tehnike TPanel 
+
+Kot smo že dejali, je velik del delovanja risalnega programa razložen v opombah v kodi. 
+Priporočamo, da preberete kodo in opombe, da boste lahko razumeli, kaj se dogaja v programu.
+
+Ozadje Vrednost Barva
+
+SLIKA 9.21. #FOrImage.
+
+Višina Vsota ascendenta, descendenta in notranje zapolnitve.
+
+lfUnderline: Byte;
+
+fillChar(ALogFont, sizeof(TLogFont), );
+
+Metoda SetDefaults() inicializira strukturo TLOGFONT s privzetimi vrednostmi. 
+Ta metoda je poklicana pri izdelavi glavnega obrazca in vsakič, ko uporabnik pritisne gumb Set Defaults (Nastavi privzetke). 
+Preizkušajte ta projekt, če želite videti različne učinke, ki jih ima lahko pisava, kot je prikazano na sliki 9.28.
+
+tmAveCharWidth: Integer;
+
+tmStruckOut: Byte;
+
+TWorthless = class(TCustomControl)
+
+Dodajanje predmetnih lastnosti h gradnikom 
+
+Da bomo lahko definirali predmetno lastnost za gradnik , moramo najprej definirati predmet, ki bo služil kot tip te lastnosti. 
+Ta predmet je prikazan v izpisu 11.4.
+
+Konstruktor smo definirali takole:
+
+property SomeObject: TSomeObject read FSomeObject write FSomeObject;
+
+end;
+
+Ustvarjanje metod 
+
+Nasvet za pomoč:Preden Delphi na novo zgradi knjižnico gradnikov, naredi razervno kopijo datoteke in jo imenuje CMPLIB32.~DC. 
+Če se vaša CMPLIB32 pokvari, lahko samo preimenujete razervno datoteko v CMPLIB32.
+DCL. 
+Ali pa, v skrajnem primeru skopirajte CMPLIB32.
+DCL iz imenika \RUNIMAGE\DELPHI\BIN na zgoščenki Delphija 2.0.
+
+Najprej bomo pogledali sposobnost , ki nam omogoči informacijo o vrstici in stolpcu. 
+Vidite lahko, da smo h gradniku dodali dve zasebni polji, in . 
+Ti dve polji bosta vsebovali položaj vrstice in stolpca kurzorja v . 
+Vidite lahko tudi javni lastnosti in . 
+Ti metodi sta javni, saj med oblikovnajam gradnika nimamo od njiju nobene koristi. 
+Lastnosti in imata obe dostopni metodi za branje in pisanje. 
+Za lastnost sta ti metodi in , za pa in . 
+Za praktično uporabo bi verjetno lahko odstranili shranitvena polja in , saj so vredosti in omogočene skozi dostopne metode. 
+Vendar pa smo jih pustili tam, saj to ponuja možnost razširitve gradnika.
+
+Gradnik vsebuje tudi dva nova gradnika: in . 
+Dogodek se zgodi, ko uporabnik klikne na vodoravni drsnik kontrole, pa ko uporabnik klikne na navpični drsnik. 
+Da lahko sprožimo take dogodke, moramo prestreči sporočili Win32 in , ki sta poslani kontroli kadarkoli uporabnik klikne na katerikoli drsnik. 
+Tako smo naredili dva dogodkovna krmilnika: in . 
+Ta dva dogodkovna krmilnika pokličeta metodi za razpošiljanje sporočil in . 
+Ti metodi preverita, če je uporabinik gradnika priskrbel dogodkovna krmilnika za dogodka in in potem pokličeta ta dva dogodkovna krmilnika. 
+Če se sprašujete, zakaj tega nismo preverili že kar v dogodkovnem krmilniku metode, smo to naredili zato, ker boste pogosto želeli poklicati dogodkovni krmilnik kot rezultat različnih akcij, kot npr. ko uporabnik spremeni položaj kurzorja.
+
+Kot dodatno ugodnost pa smo naredili gradnik , ki povzema funkcijo in omogoča vizualno predstavitev aplikacije, katera se bo izvršila. 
+Vse, kar mora uporabnik narediti, je, da pritisne na gumb in aplikacija se izvrši.
+
+Izpis 11.13. 
+RUNBTN.
+PAS, izvorna koda za gradnik . 
+
+je priročna uslužnostna funkcija, ki jo boste verjetno želeli imeti v ločeni enoti, tako da jo boste lahko delili z drugimi aplikacijami. 
+Dejansko smo jo vključili v našo lastno datoteko UTILS.
+PAS v \CODE\UTILS\XXXX.
+PAS.
+
+Ker je Object Pascal zgrajen na osnovi predmetnega modela enostranskega dedovanja, mora biti svoj gradnik, ki mora vsebovati tako kot tudi . 
+Ker mora ta gradnik vsebovati uokvirjene kontrole, mora biti tudi sam uokvirjena kontrola. 
+Zato smo se odločili, da deduje iz in da naredi in v konstruktorju gradnika s sledečo kodo:
+
+begin
+
+FHeader := THeaderControl.
+Create(Self)// naredi HeaderControl
+
+// ostale stvari
+
+Pojavi se vsako sekundo.
+
+Začnite z uvodnimi pripravami - ne navalite takoj na gradnik. 
+Vprašajte se, kaj najprej potrebujete, da bo ta gradnik lahko deloval.
+
+Poseben psevdo-vizualen gradnik, ki bo predstavljen v tem podpoglavju, je izboljšan gradnik za namige. 
+Razlog, da smo ta gradnik poimenovali psevdo-vizualen gradnik je preprosto v tem, da se v času izdelave programa ne vidi. 
+Na obrazce ga ne postavljate (rišete), a kljub temu se med izvajanjem programa vidi, če se z miško postavite na določeno mesto. 
+
+4. 
+Prireditev novega razreda za namige.
+
+procedure TMarquee.PaintLine(R: TRect; LineNum: integer);
+
+{ this method is called to paint each line of text onto MemBitmap }
+
+URect: TRect;
+
+begin
+
+ScrollPixels >= CurrLine then
+
+Izpis 12.2 Izvorna koda enote Marquee.
+PAS
+
+Add('Bobby');
+
+Add('Cindy');
+
+end;
+
+Opis
+
+Privzet urejevalnik za imena naborov znakov. 
+Ta urejevalnik naredi seznam vseh naborov znakov, ki so dosegljivi v sistemu.
+
+procedure RegisterPropertyEditor(PropertyType: PTypeInfo; ComponentClass: TClass; const PropertyName: string; EditorClass: TPropertyEditorClass);
+
+Izpis 12.6 prikazuje definicijo za urejevalnik lastnosti podatkovnega tipa .
+
+{ Descend from the TStringProperty class so that this editor
+
+Result := [paDialog]; // Display a dialog in the Edit method
+
+end;
+
+Verjetno še ne veste, toda za vsak gradnik se ob urejanju obrazca odpre drug urejevalnik. 
+Tip urejevalnika, ki se ustvari, je odvisen od izbranega gradnika, čeprav pa vsi urejevalniki gradnikov izhajajo iz razreda . 
+Ta razred je deklariran kot:
+
+end;
+
+end;
+
+V proceduri pa sta parametra in podatkovnega tipa , ki je deklariran kot:
+
+FInteger := Reader.ReadInteger;
+
+{ any memory previously allocated for FData. }
+
+if not Empty then
+
+Metoda najprej preveri, ali mogoče pomnilnik ni bil že prej zasežen (to naredi s testom lastnosti . 
+Če je vrednost večja od 0, se pomnilnik, na katerega kaže , sprosti. 
+Nadalje se za rezervira nov kos pomnilnika, njegova velikost pa se zapiše v . 
+Vrednost toka se nato prebere v , ki ima tako dovolj prostora, da sprejme vse želene podatke.
+
+end;
+
+public
+
+TNotifyIcondata = record
+
+if not (AOwner is TForm) then
+
+raise ENotifyIconError.
+Create('Owner must be a TForm');
+
+FIcon.
+Assign(Value); // set new icon
+
+{ Change icon on notification tray }
+
+case lParam of
+
+{ Popup local menu at the cursor position. }
+
+const
+
+Izpis 12.13 Enota Main.
+PAS
+
+Operacijski sistem Win32 nam omogoča uporabo več poti izvajanja (več niti) v programu. 
+Če bi morali izpostaviti eno samo, najpomembnejšo prednost, ki jo imajo 32-bitna Okna pred 16-bitnimi Okni, bi bile to nedvomno niti, saj nam omogočajo hkratno izvajanje različnih operacij v programu. 
+Niti so tudi eden izmed najočitnejših razlogov za nakup Delphi-ja 2 in v tem poglavju se bomo naučili vseh podrobnosti, ki nam iz niti omogočajo iztisniti največ.
+
+Najpogostejša uporaba niti 
+
+Slika 13.1: Izbor Thread Object v pogovornem oknu New Items.
+
+Procedure TForm1.Button1Click(Sender: TObject);
+
+i: integer;
+
+unit ThrdU;
+
+{$R *.DFM}
+
+NewThread: TTestThread;
+
+TThreadPriority = (tpIdle, tpLewest, tpLower, tpNormal, tpHigher, tpHighest, tpTimeCritical);
+
+function GetThreadTimes(hThread: THandle; var lpCreationTime, lpExitTime, lpKernelTime, lpUserTime: TFileTime): BOOL; stdcall;
+
+Čas, ko se je nit zaključila. 
+Če nit še obstaja, je vrednost parametra nedefinirana.
+
+DecodeDate(DateTime, wYear, wMonth, wDay);
+
+FNewStr: String;
+
+procedure TMainForm.Button1Click(Sender: TObject);
+
+SetShowStr('');
+
+procedure ThreadsDone(Sender: TObject);
+
+implementation
+
+Result := NextNumber; // return global var
+
+Rešitev tega problema je v sinhronizaciji niti, da le ti ne dostopata do globalega polja hkrati. 
+Izberemo lahko več možnosti. 
+Za rešitev obstaja precej možnosti in vse so pravilne.
+
+end;
+
+Sleep(5); // let thread intertwine
+
+end;
+
+procedure Execute; override;
+
+MaxSize = 128;
+
+end;
+
+Label3: TLabel;
+
+{ Private declarations }
+
+end;
+
+end;
+
+ukažete operacijskemu sistemu, naj rezervira zlogov pomnilnika, ki jih lahko premika po pomnilniku. 
+Kot rezultat naj vrne ročico na ta blok v spremenljivko . 
+Iz ročice dobimo kazalec s klicem funkcije
+
+procedure DdeServerItem1PokeData(Sender: TObject);
+
+DDEServerItem1.
+Text := Edit1.
+Text;
+
+procedure TMain.Button1Click(Sender: TObject);
+
+procedure TMain.Button2Click(Sender: TObject);
+
+Izdelava avtomatizacijskih OLE nadzornikov 
+
+Label2: TLabel;
+
+ConnectBtn: TButton;
+
+end;
+
+ContForm: TContForm;
+
+{$R *.DFM}
+
+uses OLEAuto;
+
+EnableBtns(True);
+
+StdCtrls;
+
+CLSCTX_SERVER = CLSCTX_INPROC_SERVER or CLSCTX_LOCAL_SERVER;
+
+Slika 15.16 Pregled relacij v sistemskem registru
+
+Sent To ‘SentTo’
+
+end;
+
+begin
+
+end;
+
+implementation
+
+try
+
+ToolServices := AToolServices;
+
+end
+
+OpenDialog: TOpenDialog;
+
+{$R *.DFM}
+
+{$ifdef BUILD_EXE}
+
+var Terminate: TExpertTerminateProc): Boolean; stdcall;
+
+Result := esStandard;
+
+MainForm.
+Free;
+
+end;
+
+except
+
+end.
+
+ToolServices.OpenFile(FileStr)
+
+To poglavje vam je dalo osnoven vpogled v vmesnike, ki sestavljajo Delphi-jev Open Tools API. 
+Vedeti in razumeti morate predvsem izgradnjo ekspertov in njihovo vklapljanje v IDE. 
+V naslednjem poglavju boste spoznali vse, kar ste kadarkoli želeli vedeti o dinamičnih knjižnicah, njihovi izgradnji v Delphi-ju, uporabi in različnih trikih v zvezi z njimi.
+
+Opazili boste, da enota izgleda povsem tipično, toda funkcije Max() ne definira, temveč jo samo deklarira. 
+Rezervirana beseda external pove, da se funkcija nahaja v DLL-u, katerega ime sledi. 
+Za uporabo te enote mora aplikacija samo dodati njeno ime v usus stavek. 
+Ko aplikacijo poženete, se DLL avtomatično naloži in vsak dostop do funkcije Max() se preslika v DLL.
+
+Skrivanje implementacije 
+
+Odgovarjajoča povezava z DLL-om je zapisana v sekciji implementation in izgleda takole:
+
+{ This record will hold the denominations after the conversions have
+
+Pennies := TotPennies;
+
+{ Export the function by name }
+
+To poglavje vam razkriva, kako lahko DLL-i uporabljajo vaše obrazce. 
+Eden izmed razlogov za uvrstitev pogostih obrazcev v DLL je zmožnost razširitve uporabe vaših obrazcev v vseh razvojnih okoljih Oken, recimo C++, Visual Basic ali Object PAL.
+
+{ If the function is imported successfully, then Label1 to reflect
+
+Funkcija FreeLibrary() je deklarirana kot:
+
+Dogodek Namen
+
+Windows, Messages, SysUtils, Classes, Graphics, Controls,
+
+procedure Button3Click(Sender: TObject);
+
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+
+LibHandle := 0;
+
+DLLProc := @DLLEntryPoint;
+
+Pritisk na drugi gumb izvede metodo Button2Click(), ki kliče funkcijo FreeLibrary() in sprosti dinamično knjižnico iz pomnilnika. 
+Ko se to zgodi, se izvede procedura, na katero kaže spremenljivka DLLProc (v konkretnem primeru je to procedura DLLEntryPoint()) in posreduje se ji parameter DLL_PROCESS_DETACH.
+
+call back function EnumWindowsProc which will be called for each
+
+TWindowInfo(ListBox1.
+Items.Objects[i...
+Free
+
+begin
+
+string }
+
+end;
+
+{ Return true by default which indicates not to stop enumerating
+
+Result := True;
+
+begin
+
+end;
+
+procedure Button1Click(Sender: TObject);
+
+S: String;
+
+ShowMessage('The word '+Edit1.
+Text+' occurs '
+
+ShareMem,
+
+Classes;
+
+procedure OpenSharedData;
+
+{ Initialize this data }
+
+Za ilustracijo uporabe opisanega DLL-a boste razvili dve aplikaciji, ki ga uporabljata. 
+Prva aplikacija, SHARETEST.
+EXE , vam dovoli spreminjanje podatkov DLL-a. 
+Druga aplikacija (APP2.
+EXE) ravno tako uporablja iste podatke in s pomočjo ure nenehno obnavlja oznaki, ki vsebujeta vrednost teh podatkov. 
+Ko boste pognali obe aplikaciji, boste videli deljivost podatkov, saj bo APP2.
+EXE nenehno odsevala spremembe, ki jih bo nad podatki izvedla SHARETEST.
+EXE. 
+
+Button1: TButton;
+
+begin
+
+GlobalData^.I := StrToInt(MaskEdit1.
+Text);
+
+Tiskanje v Delphi-ju
+
+V tem poglavju se boste naučili veliko tiskalniških tehnik z uporabo gradnika TPrinter. 
+Naučili se boste preprostih stvari, ki jih je Delphi še poenostavil. 
+Spoznali pa boste tudi napredne tehnike tiskanja, ki vas bodo popeljale po poti uspešnega programerja.
+
+Objekt TPrinter 
+
+PageHeight Višina potiskanega dela strani, v točkah (pixels).
+
+end;
+
+Rewrite(PText);
+
+{ Call StretchDIBits to print the bitmap }
+
+end;
+
+Naprednejše tiskanje 
+
+Po izvedbi metode EndDoc() ne smete uporabljati metod, ki rišejo na tiskalnikovo platno (metode objekta Printer.
+Canvas), saj je bilo tiskanje že zaključeno.
+
+2. 
+Identificirajte enote mere na ciljni površini oziroma na tiskalniškem platnu.
+
+const
+
+EnvelopeHeightInPixels := trunc(EnvelopeHeightValue * PixPerInY);
+
+Izpis 18.5 MAINFORM.
+PAS, glavni obrazec programa za izpis ovojnic
+
+FeedType: TFeedType; // Stores the feed type from TEnvPosition
+
+Različna opravila pri tiskanju 
+
+Popolne informacije o vsakem izmed polj se nahajajo v Delphi-jevi elektronski pomoči, mi pa bomo tukaj spoznali samo nekatere izmed pogostejših. 
+Kljub temu pa je dobro pogledati tudi v elektronsko pomoč in spoznati še kaj novega oziroma takega, o čemer tu sploh ne bomo govorili. 
+Pozorni morate biti tudi zato, ker so nekatera polja različna za operacijska sistema Okna 95 in Okna NT.
+
+Definicija regulacije tiskanja 
+
+Regulacija predstavlja faktor, s katerim bodo pomnožene razdalje pri tiskanju. 
+Končna stran se regulira iz fizičnih mer, s faktorjem TDeviceMode.dmScale / 100. 
+Če torej želite zmanjšati grafiko (in tekst) na polovico velikosti, boste postavili dmScale na vrednost 50. 
+Sledeča koda zmanjša ves izhod na 50% originalne velikosti:
+
+Izpis 19.1 prikazuje, kako uporabite proceduro Rewrite(), da ustvarite novo datoteko in ji dodate pet vrstic teksta.
+
+Izpis 19.2 Branje tekstovne datoteke
+
+finally
+
+uses
+
+var
+
+procedure TMain.FormCreate(Sender: TObject);
+
+Predpostavite, da želite shraniti enega ali več takšnih zapisov v datoteko. 
+Kako bi lahko to storili, ste videli že v prejšnjem podpoglavju, enako pa dosežete tudi z deklaracijo:
+
+Za resnično ugotavljanje števila zapisov služi metoda GetNumRec(). 
+Število zapisov izračuna s preprostim deljenjem velikosti celotne datoteke (zapisana v TStream.
+Size) z velikostjo posameznega zapisa. 
+Če je torej velikost datoteke 224 zlogov in velikost zapisa 56 zlogov, se v datoteki nahajajo štirje zapisi (162/56 = 4).
+
+BlockRead(F, Buffer, 1, NumRecRead);
+
+Buffer: array[0..128] of byte;
+
+AssignFile(F, ‘SOMEFILE.
+DAT’);
+
+unit mainform;
+
+respective file variables }
+
+{ Read SizeOf(Buffer) bytes from the source file
+
+BlockRead(SrcFile, Buffer, SizeOf(Buffer), BytesRead);
+
+until BytesRead = 0;
+
+BufPtr: PChar; 
+
+Mode: Integer;// File mode
+
+fmShareDenyNone Vsak proces lahko odpre to datoteko brez omejitev.
+
+Izpis 19.10 Preprost primer pomnilniško preslikane datoteke
+
+V naslednjem koraku preslikovalni objekt zares ustvarimo s klicem funkcije CreateFileMapping(). 
+V primeru napake izvržemo izjemo, sicer nadaljujemo in ustvarimo preslikovalno datoteko. 
+V primeru napake zopet izvržemo izjemo. 
+
+Glavni obrazec iskalnega programa je definiran v enoti MAINFORM.
+PAS, ki je prikazana na izpisu 19.12.
+
+Za pridobitev informacij o razpoložljivih diskih na sistemu uporabite Win32 API funkcijo GetDriveType(). 
+Funkcija sprejme parameter tipa PChar in vrne eno izmed celoštevilčnih vrednosti, ki so zapisane v tabeli 19.6.
+
+below }
+
+3. 
+Število zlogov na sektor. 
+
+RootPath: String; // Holds the drive root path
+
+begin
+
+Label12.Caption := 'X';
+
+end;
+
+function GetWindowsDirectory(lpBuffer: PChar, uSize: UINT); UINT;
+
+V podatku Time je zapisan čas zadnjega popravila ali ustvaritve datoteke. 
+Podatek Size seveda vsebuje velikost datoteke v zlogih, podatek Name pa ime datoteke. 
+Podatek Attr vsebuje njene atribute. 
+Atributi so lahko sestavljeni iz konstant, definiranih v tabeli 19.7
+
+dwFileAttributes: DWORD;
+
+Definicija razreda TVerInfoRes 
+
+Uporaba razreda TVerInfoRes 
+
+table1.
+Next;
+
+Za prikazovanje podatkov na obrazec boste v programu uporabili gradnik TDBGrid. 
+Proces priključitve gradnikov, kot je TDBGrid, na podatkovno zbirko, zahteva nekaj korakov. 
+Sledeč seznam vsebuje potrebne korake za priključitev gradnika TDBGrid na podatke gradnika TTable:
+
+Pomemben rezultat, ki ga lahko izveste iz zgornjih dejstev, je: »Pri prazni zbirki sta EOF in BOF True!«.
+
+Vrednosti polj 
+
+VarArr := table1[‘Common_Name;Category;Length_In’];
+
+OPOMBA: Če vas zanima, koliko polj se nahaja v podatkovni zbirki, uporabite lastnost FieldCount
+
+naslednik razreda TField Podatkovni tip ustrezen podatkovni tip v Object Pascal-u
+
+TAutoIncField ftAutoInc Integer
+
+Slika 20.9 ‘Metanje’ polj na obrazec
+
+ftFmtMemo Paradox-ov formatiran tekst
+
+Primer uporabe BLOB polj 
+
+WavETitle Character 25
+
+Gumb ADD je uporabljen za izbor WAV datoteke na disku in dodajanje v tabelo. 
+Odzivna procedura njegovega onClick dogodka:
+
+B := TBlobStream.
+Create(Table1Wave, bmRead); // create blob stream
+
+Stanja podatkovne zbirke 
+
+FindKey() 
+
+Za uporabo metode ApplyRange() (za vzpostavitev območja) sledite trem korakom:
+
+12. 
+Postavite lastnost TableType in tako povejte, kakšnega tipa tabelo želite. 
+Če postavite lastnost na ttDefault, bo tip tabele odvisen od končnice prej podanega imena (na primer, če je končnica imena .DB, bo Delphi ustvaril Paradox-ovo tabelo, če pa je končnica .DB, bo ustvaril DBase tabelo).
+
+13. 
+Uporabite Table.
+FieldDefs.Add() metodo in dodajte definicije polj v tabeli. 
+Metoda Add() sprejme štiri parametre:
+
+Niz opcij tipa TIndexOptions, ki določajo tip indeksa.
+
+procedure Range1Click(Sender: TObject);
+
+end;
+
+{ Public declarations }
+
+Tip Pomen
+
+Velikost pomeni celotno število znakov v polju. 
+Za številčna polja mora biti ta vrednost manjša ali enaka 20.
+
+4. 
+Z desnim miškinim gumbom kliknite po gradniku TBatchMove in izberite opcijo Execute iz lokalnega menuja.
+
+2. 
+Pritisnite gumb ‘Add’ v pogovornem oknu ‘Dialog Sources’ in odprlo se vam bo pogovorno okno ‘Add Data Source’, ki je prikazano na sliki 20.24. 
+Iz seznama izberite opcijo »Microsoft Access Driver (*.mdb)« in pritisnite OK.
+
+Slika 20.25 Pogovorno okno ‘ODBC Microsoft Access 2.0 Setup’
+
+SKALABILNE APLIKACIJE: Pogostokrat, ko bo govora o razvoju aplikacij tipa odjemalec/strežnik znotraj Delphi-ja, boste slišali besedo skalabilnost. 
+Kaj pa je skalabilnost? 
+Nekaterim to pomeni preprost dostop do strežnikovih podatkov z uporabo Delphi-jevih podatkovnih kontrol, drugim pa to pomeni magično spremembo namizne aplikacije v aplikacijo tipa odjemalec/strežnik samo z zamenjavo sinonima.
+
+Ena izmed najpogostejših napak pri konceptih tehnologij odjemalec/strežnik je v nepoznavanju dela strežniških podatkovnih baz. 
+Takšne podatkovne baze obdelujejo nize podatkov in ne posameznih zapisov. 
+To pomeni, da odjemalčeve aplikacije direktno ne obdelujejo tabel podatkov (kakor je to v navadi pri namiznih podatkovnih aplikacijah), temveč obdelujejo samo manjše podmnožice teh podatkov.
+
+SQL podatkovne baze obravnavajo zaščito drugače kot namizne podatkovne baze. 
+Omogočajo enakovredno zaščito z gesli za celotno podatkovno bazo, a ob tem omogočajo tudi specifične zaščite samo posameznih objektov, kot so pogledi, shranjene procedure...(več o teh objektih bomo govorili kasneje). 
+To pa z drugimi besedami pomeni, da je lahko zaščita podatkov na strežniku narejena glede na uporabniške potrebe po podatkih.
+
+Procesiranje podatkov. 
+SQL omogoča odjemalcem spreminjanje, dodajanje in brisanje zapisov. 
+To lahko dosežete s preprostim SQL ukazom ali pa preko shranjene procedure na strežniku.
+
+Za definiranje tabele, njenih polj in kakršnih koli integritetnih omejitev uporabite ukaz CREATE TABLE. 
+Izpis 21.1 prikazuje, kako ustvariti InterBase tabelo. 
+
+Uporaba domen 
+
+Izpis 21.3 prikazuje preprosto izvršljivo shranjeno proceduro.
+
+old.
+EMP_NO,
+
+BEFORE DELETE Sproži se pred brisanjem zapisa iz tabele.
+
+Prej omenjene variacije stavka GRANT veljajo tudi za shranjene procedure.
+
+Handle Uporabljen za direkten dostop do BDE-jevih funkcij in procedur.
+
+KeepConection Spremenljivka tipa Boolean, ki pove, ali naj TDataBase ostane povezana s podatkovno bazo, četudi ni odprt nobeden TDataSet. 
+Ta lastnost se uporablja za večjo hitrost in izboljšanje performans aplikacije.
+
+procedure Button2Click(Sender: TObject);
+
+implementation
+
+end;
+
+begin
+
+Za ilustracijo te podedovane slabosti gradnika TTable za dostop do velikih tabel si zamislite, da odprete TTable samo za pridobitev nekaj zapisov. 
+Čas, ki je potreben, da se odpre SQL tabela, je premosorazmeren z njeno velikostjo. 
+Ko izdate podatkovnemu strežniku ukaz, kot je prikazan spodaj, gradnik TTable najprej podatkovnemu strežniku pošlje serijo SQL, da od njega dobi podatke o tabeli, ključih, indeksih...:
+
+Čeprav je gradnik TTable sposoben iskanja posameznih zapisov z uporabo metode FindKey(), so njegove sposobnosti pri SQL podatkovnih bazah omejene. 
+Prvič; metoda FindKey() lahko išče zapise samo nad indeksiranim poljem oziroma indeksiranimi polji, kadar jih je več. 
+Gradnik TQuery nima te omejitve, saj vso komunikacijo izvajate preko SQL-a. 
+Res je, da metoda FindKey() ustvari SELECT SQL ukaz za strežnik, toda rezultat bo vseboval vsa polja tabele, čeprav jih vi morda potrebujete samo nekaj. 
+To velja tudi v primeru, če ste s pomočjo urejevalnika polj iz gradnika TTAble izbrali samo nekaj polj (rezultat bo še vedno vseboval vsa polja, le prikazal bo samo izbrane!).
+
+ParamByName(‘CAPITAL...
+AsString := ‘Lima’;
+
+fDoloča podatkovni tip float
+
+finally
+
+function VarToInt(const V: Variant): Integer;
+
+SQL stavki ne smejo vsebovati izračunanih polj
+
+SQL stavki ne smejo uporabljati funkcij, kot so SUM ali AVG
+
+DataBaseName Ime podatkovne baze, ki vsebuje shranjeno proceduro. 
+Ta je ponavadi enaka lastnosti DataBaseName gradnika TDatabase, ki je povezan z želenim podatkovnim strežnikom.
+
+Vhodni in izhodni parametri shranjene procedure 
+
+Pridobitev rezultatov shranjene procedure z gradnikom TQuery 
+
+To poglavje vam je podalo kar veliko informacij s področja razvoja programov v okoljih odjemalec/strežnik. 
+Primerjali smo razvoj programov v okolju odjemalec/strežnik s tistimi v okolju preprostih namiznih podatkovnih baz. 
+Predstavili smo vam tudi različne tehnike v Delphi-ju in InterBase-u, ki vam bodo pomagale pri nadaljnjem razvoju. 
+V poglavju 30 pa bomo razvili pravo aplikacijo tipa odjemalec/strežnik, ki bo uporabljala podatkovno bazo InterBase.
+
+Delphi-jeve podatkovne sposobnosti so precej impozantne, toda tukaj je še množica operacij, ki jih Delphi-jevi gradniki ne podpirajo, Borland DataBase Engine (BDE - Borland-ov podatkovni stroj) pa jih vsebuje. 
+Ker so Delphi-jevi podatkovni gradniki neodvisni (ali pa se temu zelo približajo) od podatkovne baze, s katero delajo, v večini primerov ne izkoriščajo postopkov BDE-ja, ki so vezani na določen tip podatkovne baze. 
+To poglavje vam predstavlja notranjost podatkovnega stroja, v katero boste morali poseči, če boste želeli specifične stvari, ki jih podatkovni gradniki sicer ne omogočajo.
+
+// continue function
+
+T.
+CursorPosChanged;
+
+Check(dbiGetRecord(Handle, dbiNOLOCK, Nil, @RP));
+
+Parameter hDB predstavlja ročico podatkovne baze. 
+Posredovati morate lastnost Handle gradnika TDatabase ali lastnost DBHandle kateregakoli naslednika razreda TDataSet.
+
+raise EDatabaseError.
+Create(SPackError);
+
+CRTblDesc = packed record { Create/Restruct Table descr }
+
+szPassword : DBINAME; { Password (optional) }
+
+iSecRecCount : Word; { Number of security defs supplied }
+
+Dogodek TApplication.OnMessage se zgodi samo, kadar pride sporočilo iz aplikacijske vrste za sporočila (poglejte v poglavje 6 za podrobnejšo razlago terminologije, povezane s sporočili). 
+Sporočila, ki se nahajajo v aplikacijski vrsti za sporočila, so predvsem tista, ki se ubadajo z upravljanjem oken (na primer WM_PAINT in WM_SIZE) ali pa tista, ki so bila poslana z eno izmed okenskih API funkcij (PostMessage(), PostAppMessage() ali BroadcastSystemMessage()). 
+Problem se pojavi, ko so z uporabo funkcije SendMessage() poslani tudi drugi tipi sporočil direktno v okensko proceduro. 
+Če se to zgodi, se TApplication.OnMessage sploh ne zgodi in zato ne morete ugotoviti, ali je določeno sporočilo prispelo. 
+
+Bodite pozorni na dogodek OnDestroy, kjer se najprej obnovi stara okenska procedura (OldWndProc), preden se nad novo ustvarjeno izvede funkcija FreeObjectInstance(). 
+Če bi pred sprostitvijo nove procedure ne usposobili stare, bi bila naša aplikacija nesposobna prejemati sporočila. 
+Ker se tako ne bi mogla odzvati na nobeno sporočilo, bi se sesula, po vsej verjetnosti pa bi to porušilo tudi operacijski sistem.
+
+OPOMBA: To poglavje vas ne bo naučilo programiranja v zbirniku. 
+Vam bo pa vsekakor prikazalo njegovo uporabo (v Delphij-u). 
+
+mov eax, I
+
+inc eax
+
+asm
+
+POZOR: V vaših aplikacijah uporabljajte samo funkcijo SetWindowHookEx() in ne funkcije SetWindowHook(). 
+Slednja je bila definirana v 16- bitnih Oknih, v Win32 API-ju pa ni več implementirana.
+
+Result := CallNextHookEx(HookHandle, Code, wParam, lParam);
+
+Key: TKeyString;
+
+(Key: 'ESCAPE'; vkCode: vk_Escape));
+
+function FindKeyInArray(Key: TKeyString; var Code: Byte): Boolean;
+
+i: word;
+
+paramH Če je sporočilo eno izmed sporočil tipkovnice, vsebuje to polje pregledno kodo tipke (scan key code), če pa gre za sporočilo miške, to polje vsebuje Y koordinato miške v zaslonskih enotah.
+
+var
+
+{ get a hc_GetNext before and hc_Skip }
+
+OPOMBA: Za ponovitev: Funkcije v C++ datotekah (.CPP) bodo vedno imele pohabljena imena, če jih ne deklarirate kot extern »C«.
+
+3. Uporabite zastavico -u- ob klicu BCC32 iz ukazne vrstice (ta zastavica prepreči dodajanje podčrtaja)
+
+5. Postavite podčrtaj pred spremenljivko v Object Pascal-ovi programski kodi.
+
+// globals
+
+implementation
+
+const
+
+interface
+
+uses
+
+DDGM_HandshakeMessage: Cardinal;
+
+begin
+
+Uporaba integriranega razhroščevalnika 
+
+Uporaba parametrov ukazne vrstice 
+
+raise ERegistryException.
+Create('Delphi is not properly installed.');
+
+CPE okno se v TD32 deli na pet površin: površina za CPE, površina za dump, površina za registre, površina za zastavice in površina za sklad (oglejte si sliko 24.8). 
+Vsaka izmed teh površin torej omogoča uporabniku pogled na enega izmed pomembnih delov procesorja.
+
+Tudi na površini za sklad lahko spreminjate vrednosti, prikazuje pa vam seveda trenutni sklad programa.
+
+SLIKA 25.2 %%Filter Editor.
+
+##snd_Alias_ID Parameter ##pszSound je vnaprej določen identifikator zvoka. 
+
+Po tem, ko odprete predvajalnik medijev, v krmilniku ##OnClick ##Buttona1 ne pozabite nastaviti lastnosti ##Nofity na ##True:
+
+SLIKA 25.5...
+Obrazec začasnega zaslona predvajalnika zgoščenk.
+
+except
+
+end;
+
+##TimeFormat 
+
+{Ta metoda poišče skupni čas in posnetke na zgoščenki ter jih prikaže.}
+
+posnetkov
+
+{Ta metoda prikaže trenutni čas trenutnega posnetka}
+
+begin
+
+TrackDoneGauge.Progress := (60 * m) + s;
+
+var
+
+Formatiranje nizov 
+
+SNumProcs = 'Number of Processorsq%d';
+
+dwAvailPhys: DWORD;
+
+##dwMemoryLoad prikaže število od 0 do 100, ki približno kaže uporabo pomnilnika. 
+0 pomeni, da ni v uporabi nič pomnilnika, 100 pa, da je v uporabi celoten pomnilnik.
+
+Add(Format(SMemUse, [dwMemoryLoad]));
+
+##type
+
+end;
+
+dwPageSize: DWORD;
+
+lpMinimumApplicationAddress: Pointer;
+
+wProcessorRevision: Word);
+
+Polje ##dwReserved ostane neuporabljeno.
+
+##lpMinimumApplicationAddress vrne najnižji pomnilniški naslov, do katerega lahko dostopajo aplikacije in DLL-ji. 
+Poskus dostopa do pomnilniškega naslova, nižjega od te vrednosti, bo verjetno povzročil kršitev dostopa. 
+
+Slika 26.3 kaže ##InfoForm, ki pri zagonu prikazuje sistemske informacije, vključno z informacijami o različici operacijskega sistema in imenika.
+
+SLIKA 26.4...
+Prikaz nizov okolja. 
+
+Posnetki 
+
+##TH32CS_SNAPMODULE V posnetku vključuje seznam modulov podanega procesa Win32.
+
+DoLBText;
+
+[IntToHex(T.th32ThreadID,8), GetClassPriorityString(T.tpBasePri),
+
+repeat
+
+dwFlags: DWORD;
+
+HL.dwSize := SizeOf(HL);
+
+PHE^ := HE; //bomo kasneje imeli na voljo dovolj informacij o kopici
+
+if MemSize > ProcMemMaxSize then MemSize := ProcMemMaxSize;
+
+Screen.
+Cursor := crDefault;
+
+Izpis 26.2. nadaljevanje
+
+Definiranje aplikacije 
+
+%%Ime polja Tip Velikost Pomen
+
+##CITY A 40 Ime mesta
+
+Gradnik ##TDataModule za to aplikacijo bomo razložili, ker ##DataModule1 glavnemu obrazcu aplikacije nudi dostop do podatkov. ##DataModule1 je prikazan na sliki 27.1.
+
+V 20. poglavju ste spoznali gradnik ##TField. 
+Prek področja ##Fields naslednika ##TDataSet ste se naučili dostopiti do gradnikov ##TField pri zagonu. 
+Naučili ste se uporabljati tudi metodo ##TDataSet.FieldsByName() za pridobivanje dostopa do določenih primerkov ##TField. 
+Za ##AddressTable morate izdelati primerke ##TField, saj moramo za nekatera polja podati določene urejevalne maske. 
+
+Urejevalne maske predstavljajo idealen način za preverjanje vhodnih podatkov uporabnika ali definiranje tega, kako naj bodo ti podatki prikazani. 
+To so nizi, izdelani iz posebnih znakov, ki definirajo, kaj lahko uporabnik vpiše ali kako naj bodo podatki prikazani. 
+
+>C<>cccccccccccccccccccccccccccccc;;
+
+Prvi in zgornji gradnik ##TGroupBox se imenuje ##grName. 
+To polje skupine vsebuje gradnik ##TNoteBook, imenovan ##NameNoteBook, ki ima dve strani: ##PersonalPage in ##BusinessPage. 
+Strani se med seboj nekoliko razlikujeta. ##PersonalPage, prikazana na sliki 27.3 vsebuje tri gradnike ##TDBEdit, ki so povezani s polji ##LAST_NAME, ##FIRST_NAME in ##MIDDLEINIT iz ##ADDRESS.
+DB.
+
+Drugi gradniki 
+
+Kot smo že omenili ##TDBCheckBox,BusinessAddressCB spremeni ##AcativePage iz ##NameNoteBook.
+
+Krmilnik dogodka ##OnClick iz ##ClipboardBtn ##ClipboardBtnClick() določa, ali naj bo poklicana metoda ##PasteFromClipboard() ali ##CopyToClipboard, odvisno od vrednosti spremenljvke ##Mode.
+
+%%Ime polja %%Tip %%Velikost %%Pomen
+
+##TDataModule aplikacije - centraliziranje dostopa do baze podatkov 
+
+Ta obrazec vsebuje le klice metodam ##DataModula1 za dodajanje ali odstranjevanje zapisov alarmov. 
+Njegova izvorna koda je prikazana v izpisu 28.4.
+
+Definicija komuniciranja prek zaporednih vrat 
+
+Krmiljenje poteka 
+
+Zdaj ste pripravljeni na namestitev gradnikov. 
+Z uporabo načina za namestitev gradnikov, uporabljenega v 11. poglavju "Pisanje prilagojenih gradnikov v Delphiju", z izbiro datoteke APDREG.
+PAS iz pogovornega okna Add Module, kot je prikazano na sliki 29.1, namestite gradnike APD. 
+Ta datoteka je v imeniku C:\APD\, ki ste ga ravnokar izdelali. 
+Async Professional for Delphi vključuje tudi podprograme za pošiljanje in prejemanje telefaksov, ki pa jih ne bomo razložili. 
+Če želite uporabiti gradnike telefaksa APD, boste morali namestiti tudi modul APDFREG.
+PAS.
+
+Gradnik ##TTerminal 
+
+POZOR Razen če nimate posebne strojne opreme, ki bi omogočala delitev IRQ-jev, na en IRQ ne morete priključiti dveh različnih naprav. 
+To lahko povzroči neskladje, pa tudi odpoved aplikacije. 
+Zaradi tega npr. miško priključite na COM3, modem pa na COM1.
+
+Izpis 29.1. prikazuje izvorno kodo za glavni obrazec.
+
+SLIKA 29.7...
+Elektronska oglasna deska TurboPower.
+
+V prejšnjih poglavjih ste videli, kako se izdelajo aplikacije baze podatkov za namizne baze podatkov, kot je Paradox. 
+V tem zadnjem poglavju bomo pokazali, kako se izdela aplikacija baze podatkov z uporabo konceptov, razloženih v 21. poglavju "Razvijanje odjemalsko/strežniških aplikacij". 
+Uporabljen zadnji del baze podatkov bo Local Interbase. 
+Aplikacija bo izdelana za tipičen poslovni model. 
+Ta poslovni model od aplikacije zahteva, da vodi tri osnovne nize podatkov:
+
+Preden definirate tabele, prožila ali katerekoli druge modne zadeve, razmislite o definiranju domen, ki bodo uporabljene v celotni kodi SQL, ki tvori metapodatke. 
+
+Tabela CUSTOMER predstavlja podatkovni objekt stranke in je definirana tako:
+
+Tabela PART predstavlja inventar trgovine. 
+Definicija te tabele je dokaj preprosta:
+
+CONSTRAINT PPART_NUMBER PRIMARY KEY (PART_NUMBER));
+
+V tabeli ITEMS so postavke ali deli določene prodaje. 
+Tabela SALES ima povezave s tabelo ITEMS in je povezano s poljema ##SALE_NUMBER in ##SALE_NO v vsaki tabeli. 
+Tabela ITEMS je definirana tako:
+
+##GRANT SELECT, UPDATE ON CUSTOMER TO PUBLIC WITH GRANT OPTION;
+
+Odločili smo se, da bomo najprej razložili uporabniško definirane podprograme, saj veliko drugih podprogramov uporablja te metode. 
+Te metode so povezane predvsem z načinom prikaza obrazca oziroma s tem, kateri gradniki in menijske postavke so vidni.
+
+##EIntOverflow - Do nje pride, če poskušate izvesti operacijo, ki presega zmogljivosti tipa integralne spremenljivke. 
+Do te izjeme pride kot rezultat napake med izvajanjem 215. 
+Do te izjeme bo prišlo le, če je omogočeno preverjanje prelivanja z uporabo {$Q+} v kodi ali Options | Project | Compiler | Overflow v IDE-ju. 
+To izjemo bo povzročila naslednja koda: 
+
+##EInvalidCast - Do te izjeme pride, če razredu za dodelitev nezdružljivega razreda uporabite operator ##as. 
+Do te izjeme pride kot rezultat napake med izvajanjem 219. 
+To izjemo bo povzročila naslednja koda: 
+
+##EStreamError - Ta izjema je osnovni razred vseh izjem pretoka. 
+Ta izjema navadno kaže problem pri nalaganju ##TStrings iz pretoka ali pri nastavitvi zmogljivosti pretoka pomnilnika. 
+Naslednji razredi izjem kažejo druga specifična stanja napak:
+
+ERROR_INVALID_ACCESS12Dostopna koda ni veljavna.
+
+ERROR_BAD_LENGTH24Program je izdal ukaz, vendar njegova dolžina ni pravilna.
+
+ERROR_SHARING_BUFFER_EXCEEDED36Za deljenje je odprtih preveč datotek.
+
+ERROR_NOT_SUPPORTED50Omrežna zahteva ni podprta.
+
+ERROR_INVALID_AT_INTERRUPT_TIME104Med prekinitvijo ne morem zahtevati ekskluzivnih semaforjev. 
+
+ERROR_NOT_JOINED136Sistem je poskusil zbrisati ##JOIN pogona, ki ni združen.
+
+ERROR_SIGNAL_PENDING162Signal je že v teku.
+
+ERROR_INVALID_SEGMENT_NUMBER180Sistem je odkril številko segmenta, ki ni bila pravilna.
+
+ERROR_BAD_EXE_FORMAT193%1 ni veljavna aplikacija za Okna NT.
+
+ERROR_RING2SEG_MUST_BE_MOVABLE200Segment kode ne sme biti večji ali enak 64 kb.
+
+ERROR_CANTWRITE1013V konfiguracijski registracijski ključ se ne da pisati.
+
+ERROR_CHILD_MUST_BE_VOLITILE1021Ne morem izdelati stabilnega podključa pod nestalnim glavnim ključem.
+
+ERROR_INVALID_BLOCK_LENGTH1106Pri dostopanju do novega traku z več particijami velikost trenutnega bloka ni pravilna.
+
+ERROR_PORT_UNREACHABLE.1234V oddaljenem sistemu na ciljni končni točki omrežja ne deluje nobena storitev.
+
+ERROR_INVALID_ID_AUTHORITY1343Podana vrednost je bila neveljavna vrednost za pooblastilo identifikatorja.
+
+ERROR_INVALID_SERVER_STATE1352Strežnik upravljalnika varnostnih šifer (SAM) ali lokalnega varnostnega pooblastila (LSA) je bil v napačnem stanju za izvršitev varnostne operacije.
+
+ERROR_NON_MDICHILD_WINDOW1445Ne morem obdelati sporočila iz okna, ki ni okno vmesnika več dokumentov (MDI).
+
+ERROR_NETLOGON_NOT_STARTED1792Klic oddaljene procedure za to nit je že v teku. 
+Narejen je bil poskus prijave, vendar storitev omrežne prijave ni bila pognana.
+
+ERROR_ACCOUNT_EXPIRED1793Uporabniška šifra se je iztekla.
+
+ERROR_UNKNOWN_PORT1796Podana vrata niso znana.
+
+ERROR_UNKNOWN_PRINTPROCESSOR1798Tiskalni procesor ni znan.
+
+ERROR_INC_BACKUP4003Izdelava varnostne kopije ni uspela. 
+Je bila celotna varnostna kopija že izdelana?
+
+10280404Odpiranje ni uspelo.
+
+46171209SQL prodajalca.
+
+46741242INTRBASE - isc_rollback_transaction.
+
+4699125BMSSQL - dbfreebuf.
+
+481912D3SYBASE - dbsetopt.
+
+89662306Pokvarjena zaklepalna datoteka.
+
+94812509Omejitev zaporedne številke (Paradox).
+
+9738260AOperacija odpiranja podrobne table ni uspela.
+
+97482614Polja referenčne integritete morajo biti indeksirana.
+
+9997270DIndeks ne obstaja.
+
+100182722Neveljaven imenik.
+
+10045273DNezdružljive strukture zapisov.
+
+102412801Zapis je zaklenil drug uporabnik.
+
+107722A14Prehodno povezavo SQL je potrebno deliti.
+
+110202B0CNeveljavna dostopna koda.
+
+110432B23Datoteka že obstaja.
+
+110472B27Neznanana notranja napaka operacijskega sistema.
+
+112682C04Ne morem zakleniti omrežne datoteke.
+
+117892E0DNapaka tipa v izrazu CALC.
+
+118042E1CVzorčni element je uporabljen v dveh poljih z nezdružljivim tipom ali z BLOB.
+
+118602E54Neveljaven izraz v vrstici INSERT.
+
+119582EB6SELECT DISTINCT ne smete uporabiti z UNION, razen če ne uporabljate UNION ALL.
+
+119592EB7GROUP BY je zahtevan, če so v nastalem nizu uporabljena agregatna in neagregatna polja.
+
+125463102Neznan tip baze podatkov.
+
+135743506Neveljaven tip povezave.
+
+13578350AObjekt je v logičnem DB.
+
+158753E03Napačna različica gonilnika.
+
+158763E04Napačen tip gonilnika.
+

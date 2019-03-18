@@ -1,0 +1,10 @@
+Delovanje in zgradbo gonilnika najlaže opišemo, če ga začnemo opazovati trenutek za tem, ko ga operacijski sistem namesti v pomnilnik. 
+Takrat Windows 95 pokliče namestitveno funkcijo; OnDeviceInit ali OnSysDynamicDeviceInit, če je gonilnik dinamično naložljiv. 
+Funkcija mora za vsak podprti komunikacijski vmesnik zgraditi nov predmet in operacijskemu sistemu sporočiti ime komunikacijskega vmesnika. 
+Sledi klic funkcije Register, ki prijavi nove vmesnike v operacijski sistem. 
+Pomembno je, da namestitvene funkcije ne izpeljemo neposredno iz razreda VDevice, kakor pri večini drugih gonilnikov, ampak uporabimo razred VCommPortDriver, ki vsebuje nekoliko spremenjeno namestitveno funkcijo.
+
+Primož Gabrijelčič
+
+(po internetu)
+

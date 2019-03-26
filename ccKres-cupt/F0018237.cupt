@@ -1,0 +1,179 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0018237.txt
+# text = 3COM OfficeConnect Cable/ DSL Gateway 3C855
+1	3COM	3COM	X	Xf	Foreign=Yes		root	_	_	_
+
+2	OfficeConnect	officeconnect	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+3	Cable	Cable	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+4	/	/	PUNCT	Z	_	5	punct	_	_	_
+
+5	DSL	DSL	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+6	Gateway	Gateway	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:foreign	_	_	_
+
+7	3C855	3C855	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0018237.txt
+# text = Tiskalnik ima na voljo 16 MB( W812) oziroma 32 MB( W812tn, W812dtn), razširljiv pa je do 272 oziroma do 288 MB.
+1	Tiskalnik	Tiskalnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_	_
+
+2	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	na	na	ADP	Sa	Case=Acc	4	case	_	_	_
+
+4	voljo	volja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_	_
+
+5	16	16	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+6	MB	MB	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	obl	_	_	_
+
+7	(	(	PUNCT	Z	_	8	punct	_	_	_
+
+8	W812	W812	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+9	)	)	PUNCT	Z	_	8	punct	_	_	_
+
+10	oziroma	oziroma	CCONJ	Cc	_	12	cc	_	_	_
+
+11	32	32	NUM	Mdc	NumForm=Digit|NumType=Card	8	conj	_	_	_
+
+12	MB	MB	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+13	(	(	PUNCT	Z	_	14	punct	_	_	_
+
+14	W812tn	W812tn	NUM	Mdc	NumForm=Digit|NumType=Card	12	nummod	_	_	_
+
+15	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+16	W812dtn	W812dtn	NUM	Mdc	NumForm=Digit|NumType=Card	14	conj	_	_	_
+
+17	)	)	PUNCT	Z	_	14	punct	_	_	_
+
+18	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+19	razširljiv	razširljiv	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	parataxis	_	_	_
+
+20	pa	pa	CCONJ	Cc	_	19	advmod	_	_	_
+
+21	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	cop	_	_	_
+
+22	do	do	ADP	Sg	Case=Gen	23	case	_	_	_
+
+23	272	272	NUM	Mdc	NumForm=Digit|NumType=Card	27	nummod	_	_	_
+
+24	oziroma	oziroma	CCONJ	Cc	_	26	cc	_	_	_
+
+25	do	do	ADP	Sg	Case=Gen	26	case	_	_	_
+
+26	288	288	NUM	Mdc	NumForm=Digit|NumType=Card	23	conj	_	_	_
+
+27	MB	MB	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	19	obl	_	_	_
+
+28	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0018237.txt
+# text = Na računalnik ga lahko priključimo prek vzporednih ali USB vrat, omrežna različica pa ima še 10/ 100Mb ethernetni priključek.
+1	Na	na	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	računalnik	računalnik	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_	_
+
+3	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	5	obj	_	_	_
+
+4	lahko	lahko	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+5	priključimo	priključiti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	prek	prek	ADP	Sg	Case=Gen	10	case	_	_	_
+
+7	vzporednih	vzporeden	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_	_
+
+8	ali	ali	CCONJ	Cc	_	9	cc	_	_	_
+
+9	USB	USB	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_	_
+
+10	vrat	vrata	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	5	obl	_	_	_
+
+11	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+12	omrežna	omrežen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_	_
+
+13	različica	različica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_	_
+
+14	pa	pa	CCONJ	Cc	_	15	advmod	_	_	_
+
+15	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	parataxis	_	_	_
+
+16	še	še	PART	Q	_	15	advmod	_	_	_
+
+17	10	10	NUM	Mdc	NumForm=Digit|NumType=Card	21	nummod	_	_	_
+
+18	/	/	PUNCT	Z	_	19	punct	_	_	_
+
+19	100Mb	100Mb	NUM	Mdc	NumForm=Digit|NumType=Card	17	conj	_	_	_
+
+20	ethernetni	etherneten	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_	_
+
+21	priključek	priključek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_	_
+
+22	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0018237.txt
+# text = Barvilo, ki je vgrajeno v novi tiskalnik, bo zadoščalo za izpis 6000 strani, na voljo pa je tudi zmogljivejša kaseta s podporo 12.000 stranem.
+1	Barvilo	Barvilo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_	_
+
+2	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+3	ki	ki	SCONJ	Cs	_	5	mark	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+5	vgrajeno	vgrajen	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	1	acl	_	_	_
+
+6	v	v	ADP	Sa	Case=Acc	8	case	_	_	_
+
+7	novi	nov	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+8	tiskalnik	tiskalnik	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_	_
+
+9	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+10	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	11	aux	_	_	_
+
+11	zadoščalo	zadoščati	VERB	Vmpp-sn	Aspect=Imp|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+12	za	za	ADP	Sa	Case=Acc	13	case	_	_	_
+
+13	izpis	izpis	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_	_
+
+14	6000	6000	NUM	Mdc	NumForm=Digit|NumType=Card	15	nummod	_	_	_
+
+15	strani	stran	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_	_
+
+16	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+17	na	na	ADP	Sa	Case=Acc	18	case	_	_	_
+
+18	voljo	volja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_	_
+
+19	pa	pa	CCONJ	Cc	_	20	advmod	_	_	_
+
+20	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	parataxis	_	_	_
+
+21	tudi	tudi	PART	Q	_	20	advmod	_	_	_
+
+22	zmogljivejša	zmogljiv	ADJ	Agcfsn	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	23	amod	_	_	_
+
+23	kaseta	kaseta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_	_
+
+24	s	z	ADP	Si	Case=Ins	25	case	_	_	_
+
+25	podporo	podpora	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	23	nmod	_	_	_
+
+26	12.000	12.000	NUM	Mdc	NumForm=Digit|NumType=Card	27	nummod	_	_	_
+
+27	stranem	stran	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	25	nmod	_	_	_
+
+28	.	.	PUNCT	Z	_	11	punct	_	_	_
+

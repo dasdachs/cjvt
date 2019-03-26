@@ -1,0 +1,139 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0008189.txt
+# text = Vzorec biodizla
+1	Vzorec	vzorec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	biodizla	biodizel	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008189.txt
+# text = Avstrija, Finska
+1	Avstrija	Avstrija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	Finska	Finska	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008189.txt
+# text = EVROPSKA KOMISIJA PREDSTAVILA NAČRT UVAJANJA
+1	EVROPSKA	evropski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	KOMISIJA	komisija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+3	PREDSTAVILA	predstaviti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+4	NAČRT	načrt	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_	_
+
+5	UVAJANJA	uvajanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008189.txt
+# text = Postojna 14. december( 05) 70 00 610
+1	Postojna	Postojna	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+2	14.	14.	NUM	Mdo	NumForm=Digit|NumType=Ord	3	nummod	_	_	_
+
+3	december	december	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+4	(	(	PUNCT	Z	_	5	punct	_	_	_
+
+5	05	05	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+6	)	)	PUNCT	Z	_	5	punct	_	_	_
+
+7	70	70	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+8	00	00	NUM	Mdc	NumForm=Digit|NumType=Card	5	conj	_	_	_
+
+9	610	610	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008189.txt
+# text = File: MILER, I x 4 cm, KG 50
+1	File	file	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	parataxis	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	MILER	miler	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	I	I	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+6	x	x	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+7	4	4	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+8	cm	cm	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_	_
+
+9	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+10	KG	KG	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_	_
+
+11	50	50	NUM	Mdc	NumForm=Digit|NumType=Card	10	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008189.txt
+# text = BIKCA simentalca, 170 kg težkega, prodam.
+1	BIKCA	BiKCA	NOUN	Ncfsa	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_	_
+
+2	simentalca	simentalec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+4	170	170	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+5	kg	kg	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_	_
+
+6	težkega	težek	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+7	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+8	prodam	prodati	VERB	Vmer1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008189.txt
+# text = Tel.: 01/ 72 34 070.- 11929
+1	Tel.	tel.	X	Y	Abbr=Yes		root	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	01/	01/	NUM	Mdc	NumForm=Digit|NumType=Card	1	conj	_	_	_
+
+4	72	72	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+5	34	34	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+6	070.	070.	NUM	Mdc	NumForm=Digit|NumType=Card	3	conj	_	_	_
+
+7	-	-	PUNCT	Z	_	8	punct	_	_	_
+
+8	11929	11929	NUM	Mdc	NumForm=Digit|NumType=Card	6	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008189.txt
+# text = ni bilo jasno slej ko prej.
+1	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	2	aux	_	_	_
+
+2	bilo	biti	VERB	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+3	jasno	jasen	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	_	_
+
+4	slej	slej	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+5	ko	ko	SCONJ	Cs	_	6	case	_	_	_
+
+6	prej	prej	ADV	Rgc	Degree=Cmp	4	advmod	_	_	_
+
+7	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008189.txt
+# text = Odpotovati vsem se že mudi.
+1	Odpotovati	odpotovati	VERB	Vmen	Aspect=Perf|VerbForm=Inf	5	xcomp	_	_	_
+
+2	vsem	ves	DET	Pg-mpd	Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	5	obj	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	5	expl	_	_	_
+
+4	že	že	PART	Q	_	5	advmod	_	_	_
+
+5	mudi	mudi	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	.	.	PUNCT	Z	_	5	punct	_	_	_
+

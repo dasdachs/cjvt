@@ -1,0 +1,507 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0029298.txt
+# text = Dr. Andrej Bajuk je v kontekstu priprav državnega proračuna za prihodnje leto opozarjal predvsem na finančni primanjkljaj, saj naj bi bil trikrat višji, kot priznava vlada.
+1	Dr.	dr.	X	Y	Abbr=Yes	2	nmod	_	_	_
+
+2	Andrej	Andrej	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_	_
+
+3	Bajuk	Bajuk	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	kontekstu	kontekst	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_	_
+
+7	priprav	priprava	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_	_
+
+8	državnega	državen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_	_
+
+9	proračuna	proračun	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+10	za	za	ADP	Sa	Case=Acc	12	case	_	_	_
+
+11	prihodnje	prihodnji	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_	_
+
+12	leto	leto	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	13	obl	_	_	_
+
+13	opozarjal	opozarjati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+14	predvsem	predvsem	PART	Q	_	13	advmod	_	_	_
+
+15	na	na	ADP	Sa	Case=Acc	17	case	_	_	_
+
+16	finančni	finančen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_	_
+
+17	primanjkljaj	primanjkljaj	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_	_
+
+18	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+19	saj	saj	CCONJ	Cc	_	24	cc	_	_	_
+
+20	naj	naj	PART	Q	_	24	advmod	_	_	_
+
+21	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	24	aux	_	_	_
+
+22	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	24	cop	_	_	_
+
+23	trikrat	trikrat	ADV	Rgp	Degree=Pos	24	advmod	_	_	_
+
+24	višji	visok	ADJ	Agcmsny	Case=Nom|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	13	conj	_	_	_
+
+25	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+26	kot	kot	SCONJ	Cs	_	27	mark	_	_	_
+
+27	priznava	priznavati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_	_
+
+28	vlada	vlada	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_	_
+
+29	.	.	PUNCT	Z	_	13	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0029298.txt
+# text = Opozoril je tudi na problem neplačanih davkov; bilo naj bi jih za 50 milijard tolarjev, dolžniki pa naj bi bili" paradni konji slovenskega gospodarstva".
+1	Opozoril	opozoriti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	tudi	tudi	PART	Q	_	1	advmod	_	_	_
+
+4	na	na	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	problem	problem	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl	_	_	_
+
+6	neplačanih	neplačan	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_	_
+
+7	davkov	davek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_	_
+
+8	;	;	PUNCT	Z	_	9	punct	_	_	_
+
+9	bilo	biti	VERB	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part	1	parataxis	_	_	_
+
+10	naj	naj	PART	Q	_	9	advmod	_	_	_
+
+11	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	9	aux	_	_	_
+
+12	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	9	obj	_	_	_
+
+13	za	za	ADP	Sa	Case=Acc	15	case	_	_	_
+
+14	50	50	NUM	Mdc	NumForm=Digit|NumType=Card	15	nummod	_	_	_
+
+15	milijard	milijarda	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	9	obl	_	_	_
+
+16	tolarjev	tolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_	_
+
+17	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+18	dolžniki	dolžnik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_	_
+
+19	pa	pa	CCONJ	Cc	_	25	advmod	_	_	_
+
+20	naj	naj	PART	Q	_	25	advmod	_	_	_
+
+21	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	25	aux	_	_	_
+
+22	bili	biti	AUX	Va-p-pm	Gender=Masc|Number=Plur|VerbForm=Part	25	cop	_	_	_
+
+23	"	"	PUNCT	Z	_	25	punct	_	_	_
+
+24	paradni	paraden	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	25	amod	_	_	_
+
+25	konji	konj	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	1	parataxis	_	_	_
+
+26	slovenskega	slovenski	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_	_
+
+27	gospodarstva	gospodarstvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_	_
+
+28	"	"	PUNCT	Z	_	25	punct	_	_	_
+
+29	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0029298.txt
+# text = V zvezi z državnima bankama pa je med drugim dejal, da imamo državljani Slovenije, ker sta bili dokapitalizirani z javnim denarjem, pravico vedeti, kaj se v njih in z njima dogaja.
+1	V	v	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	zvezi	zveza	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_	_
+
+3	z	z	ADP	Si	Case=Ins	5	case	_	_	_
+
+4	državnima	državen	ADJ	Agpfdi	Case=Ins|Degree=Pos|Gender=Fem|Number=Dual	5	amod	_	_	_
+
+5	bankama	banka	NOUN	Ncfdi	Case=Ins|Gender=Fem|Number=Dual	2	nmod	_	_	_
+
+6	pa	pa	CCONJ	Cc	_	10	advmod	_	_	_
+
+7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	_	_
+
+8	med	med	ADP	Si	Case=Ins	9	case	_	_	_
+
+9	drugim	drug	ADJ	Mlpmsi	Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_	_
+
+10	dejal	dejati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+11	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+12	da	da	SCONJ	Cs	_	13	mark	_	_	_
+
+13	imamo	imeti	VERB	Vmpr1p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	ccomp	_	_	_
+
+14	državljani	državljan	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_	_
+
+15	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+16	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+17	ker	ker	SCONJ	Cs	_	20	mark	_	_	_
+
+18	sta	biti	AUX	Va-r3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	aux	_	_	_
+
+19	bili	biti	AUX	Va-p-dm	Gender=Masc|Number=Dual|VerbForm=Part	20	cop	_	_	_
+
+20	dokapitalizirani	dokapitalizalina	ADJ	Appmdn	Case=Nom|Degree=Pos|Gender=Masc|Number=Dual|VerbForm=Part	26	advcl	_	_	_
+
+21	z	z	ADP	Si	Case=Ins	23	case	_	_	_
+
+22	javnim	javen	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_	_
+
+23	denarjem	denar	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	20	obl	_	_	_
+
+24	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+25	pravico	pravica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	26	iobj	_	_	_
+
+26	vedeti	vedeti	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	10	parataxis	_	_	_
+
+27	,	,	PUNCT	Z	_	35	punct	_	_	_
+
+28	kaj	kaj	PRON	Pq-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	35	nsubj	_	_	_
+
+29	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	35	expl	_	_	_
+
+30	v	v	ADP	Sl	Case=Loc	31	case	_	_	_
+
+31	njih	on	PRON	Pp3mpl	Case=Loc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	35	obl	_	_	_
+
+32	in	in	CCONJ	Cc	_	34	cc	_	_	_
+
+33	z	z	ADP	Si	Case=Ins	34	case	_	_	_
+
+34	njima	on	PRON	Pp3mdi	Case=Ins|Gender=Masc|Number=Dual|Person=3|PronType=Prs	31	conj	_	_	_
+
+35	dogaja	dogajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	ccomp	_	_	_
+
+36	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0029298.txt
+# text = Potem se je Janez Janša zadržal pri predlogih za spremembo ustave in med drugim menil, da so prizadevanja za ukinitev referenduma kot najbolj demokratične oblike odločanja močna predvsem zato, ker so doslej vsi uspeli.
+1	Potem	potem	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	6	expl	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
+
+4	Janez	Janez	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	_
+
+5	Janša	Janša	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	_	_
+
+6	zadržal	zadržati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+7	pri	pri	ADP	Sl	Case=Loc	8	case	_	_	_
+
+8	predlogih	predlog	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	6	obl	_	_	_
+
+9	za	za	ADP	Sa	Case=Acc	10	case	_	_	_
+
+10	spremembo	sprememba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+11	ustave	ustava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_	_
+
+12	in	in	CCONJ	Cc	_	15	cc	_	_	_
+
+13	med	med	ADP	Si	Case=Ins	14	case	_	_	_
+
+14	drugim	drug	ADJ	Mlpmsi	Case=Ins|Gender=Masc|Number=Sing	15	obl	_	_	_
+
+15	menil	meniti	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	6	conj	_	_	_
+
+16	,	,	PUNCT	Z	_	28	punct	_	_	_
+
+17	da	da	SCONJ	Cs	_	28	mark	_	_	_
+
+18	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	28	cop	_	_	_
+
+19	prizadevanja	prizadevanje	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	28	nsubj	_	_	_
+
+20	za	za	ADP	Sa	Case=Acc	21	case	_	_	_
+
+21	ukinitev	ukinitev	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	19	nmod	_	_	_
+
+22	referenduma	referendum	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_	_
+
+23	kot	kot	SCONJ	Cs	_	26	case	_	_	_
+
+24	najbolj	najbolj	ADV	Rgs	Degree=Sup	25	advmod	_	_	_
+
+25	demokratične	demokratičen	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	_	_
+
+26	oblike	oblika	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	19	conj	_	_	_
+
+27	odločanja	odločanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_	_
+
+28	močna	močen	ADJ	Agpnpn	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	15	ccomp	_	_	_
+
+29	predvsem	predvsem	PART	Q	_	28	advmod	_	_	_
+
+30	zato	zato	ADV	Rgp	Degree=Pos	36	mark	_	_	_
+
+31	,	,	PUNCT	Z	_	30	punct	_	_	_
+
+32	ker	ker	SCONJ	Cs	_	30	fixed	_	_	_
+
+33	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	36	aux	_	_	_
+
+34	doslej	doslej	ADV	Rgp	Degree=Pos	36	advmod	_	_	_
+
+35	vsi	ves	DET	Pg-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	36	nsubj	_	_	_
+
+36	uspeli	uspeti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	28	advcl	_	_	_
+
+37	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0029298.txt
+# text = Sicer pa je največ besed namenil vsem tistim, ki nasprotujejo vstopu Slovenije v Nato, in poudaril, da je to nasprotovanje naši pridružitvi demokratičnemu delu sveta in njegovim sistemom varnosti.
+1	Sicer	sicer	PART	Q	_	6	advmod	_	_	_
+
+2	pa	pa	CCONJ	Cc	_	6	advmod	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
+
+4	največ	največ	DET	Rgs	PronType=Ind	5	det	_	_	_
+
+5	besed	beseda	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	6	obj	_	_	_
+
+6	namenil	nameniti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+7	vsem	ves	DET	Pg-mpd	Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	8	det	_	_	_
+
+8	tistim	tisti	DET	Pd-npd	Case=Dat|Gender=Neut|Number=Plur|PronType=Dem	6	obj	_	_	_
+
+9	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+10	ki	ki	SCONJ	Cs	_	11	mark	_	_	_
+
+11	nasprotujejo	nasprotovati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_	_
+
+12	vstopu	vstop	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	11	obj	_	_	_
+
+13	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+14	v	v	ADP	Sa	Case=Acc	15	case	_	_	_
+
+15	Nato	Nato	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+16	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+17	in	in	CCONJ	Cc	_	18	cc	_	_	_
+
+18	poudaril	poudariti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	11	conj	_	_	_
+
+19	,	,	PUNCT	Z	_	23	punct	_	_	_
+
+20	da	da	SCONJ	Cs	_	23	mark	_	_	_
+
+21	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	23	cop	_	_	_
+
+22	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	23	nsubj	_	_	_
+
+23	nasprotovanje	nasprotovanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	18	ccomp	_	_	_
+
+24	naši	naš	DET	Ps1fsdp	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	25	det	_	_	_
+
+25	pridružitvi	pridružitev	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	23	obj	_	_	_
+
+26	demokratičnemu	demokratičen	ADJ	Agpmsd	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_	_
+
+27	delu	del	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	23	obj	_	_	_
+
+28	sveta	svet	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_	_
+
+29	in	in	CCONJ	Cc	_	31	cc	_	_	_
+
+30	njegovim	njegov	DET	Ps3mpdsm	Case=Dat|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	31	det	_	_	_
+
+31	sistemom	sistem	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	27	conj	_	_	_
+
+32	varnosti	varnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_	_
+
+33	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0029298.txt
+# text = Svetovno prvenstvo, do 125 ccm: 1. Elias 178 točk, 2. Poggiali 170, 3.
+1	Svetovno	svetoven	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_	_
+
+2	prvenstvo	prvenstvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+3	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+4	do	do	ADP	Sg	Case=Gen	6	case	_	_	_
+
+5	125	125	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+6	ccm	cce	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_	_
+
+7	:	:	PUNCT	Z	_	2	punct	_	_	_
+
+8	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	9	nummod	_	_	_
+
+9	Elias	Elias	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_	_
+
+10	178	178	NUM	Mdc	NumForm=Digit|NumType=Card	11	nummod	_	_	_
+
+11	točk	točka	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_	_
+
+12	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+13	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	14	nummod	_	_	_
+
+14	Poggiali	Poggiali	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_	_
+
+15	170	170	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+
+16	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+17	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	15	conj	_	_	_
+
+18	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0029298.txt
+# text = Ui 132, 4. Cecchinello 116, 5. Sanna 105; do 250 ccm: 1. Kato 247 točk, 2. Harada 198, 3. Melandri 169, 4. Rolfo 136, 5. Nieto 114; do 500 ccm: 1. Rossi 225 točk, 2. Biaggi 183, 3. Capirossi 147, 4. Barros 127, 5. Nakano 116.
+1	Ui	UI	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+2	132	132	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+3	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+4	4.	4.	NUM	Mdo	NumForm=Digit|NumType=Ord	5	nummod	_	_	_
+
+5	Cecchinello	Cecchinello	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+6	116	116	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+7	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+8	5.	5.	NUM	Mdo	NumForm=Digit|NumType=Ord	9	nummod	_	_	_
+
+9	Sanna	Sanna	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+10	105	105	NUM	Mdc	NumForm=Digit|NumType=Card	9	nummod	_	_	_
+
+11	;	;	PUNCT	Z	_	1	punct	_	_	_
+
+12	do	do	ADP	Sg	Case=Gen	13	case	_	_	_
+
+13	250	250	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+
+14	ccm	cce	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	19	nmod	_	_	_
+
+15	:	:	PUNCT	Z	_	14	punct	_	_	_
+
+16	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	17	nummod	_	_	_
+
+17	Kato	kato	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	19	nmod	_	_	_
+
+18	247	247	NUM	Mdc	NumForm=Digit|NumType=Card	19	nummod	_	_	_
+
+19	točk	točka	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur		root	_	_	_
+
+20	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+21	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	22	nummod	_	_	_
+
+22	Harada	harada	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	19	appos	_	_	_
+
+23	198	198	NUM	Mdc	NumForm=Digit|NumType=Card	22	nummod	_	_	_
+
+24	,	,	PUNCT	Z	_	26	punct	_	_	_
+
+25	3.	3.	NUM	Mdo	NumForm=Digit|NumType=Ord	26	nummod	_	_	_
+
+26	Melandri	melander	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	22	conj	_	_	_
+
+27	169	169	NUM	Mdc	NumForm=Digit|NumType=Card	26	nummod	_	_	_
+
+28	,	,	PUNCT	Z	_	30	punct	_	_	_
+
+29	4.	4.	NUM	Mdo	NumForm=Digit|NumType=Ord	30	nummod	_	_	_
+
+30	Rolfo	Rolfo	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	26	conj	_	_	_
+
+31	136	136	NUM	Mdc	NumForm=Digit|NumType=Card	30	nummod	_	_	_
+
+32	,	,	PUNCT	Z	_	34	punct	_	_	_
+
+33	5.	5.	NUM	Mdo	NumForm=Digit|NumType=Ord	34	nummod	_	_	_
+
+34	Nieto	Nieto	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	30	conj	_	_	_
+
+35	114	114	NUM	Mdc	NumForm=Digit|NumType=Card	34	nummod	_	_	_
+
+36	;	;	PUNCT	Z	_	34	punct	_	_	_
+
+37	do	do	ADP	Sg	Case=Gen	39	case	_	_	_
+
+38	500	500	NUM	Mdc	NumForm=Digit|NumType=Card	39	nummod	_	_	_
+
+39	ccm	cce	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	34	nmod	_	_	_
+
+40	:	:	PUNCT	Z	_	42	punct	_	_	_
+
+41	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	42	nummod	_	_	_
+
+42	Rossi	Rossi	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	39	nmod	_	_	_
+
+43	225	225	NUM	Mdc	NumForm=Digit|NumType=Card	44	nummod	_	_	_
+
+44	točk	točka	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	42	nmod	_	_	_
+
+45	,	,	PUNCT	Z	_	47	punct	_	_	_
+
+46	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	47	nummod	_	_	_
+
+47	Biaggi	Biagga	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	44	appos	_	_	_
+
+48	183	183	NUM	Mdc	NumForm=Digit|NumType=Card	47	nummod	_	_	_
+
+49	,	,	PUNCT	Z	_	51	punct	_	_	_
+
+50	3.	3.	NUM	Mdo	NumForm=Digit|NumType=Ord	51	nummod	_	_	_
+
+51	Capirossi	Capirossa	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	44	appos	_	_	_
+
+52	147	147	NUM	Mdc	NumForm=Digit|NumType=Card	51	nummod	_	_	_
+
+53	,	,	PUNCT	Z	_	55	punct	_	_	_
+
+54	4.	4.	NUM	Mdo	NumForm=Digit|NumType=Ord	55	nummod	_	_	_
+
+55	Barros	Barros	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	51	conj	_	_	_
+
+56	127	127	NUM	Mdc	NumForm=Digit|NumType=Card	55	nummod	_	_	_
+
+57	,	,	PUNCT	Z	_	59	punct	_	_	_
+
+58	5.	5.	NUM	Mdo	NumForm=Digit|NumType=Ord	59	nummod	_	_	_
+
+59	Nakano	nakana	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	55	appos	_	_	_
+
+60	116.	116.	NUM	Mdo	NumForm=Digit|NumType=Ord	59	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0029298.txt
+# text = ( šr)
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	šr	šr	X	X	_		root	_	_	_
+
+3	)	)	PUNCT	Z	_	2	punct	_	_	_
+

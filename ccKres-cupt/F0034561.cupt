@@ -1,0 +1,663 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0034561.txt
+# text = Debeli tisk:
+1	Debeli	debel	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	tisk	tisk	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	:	:	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034561.txt
+# text = Kljub dejstvu, da naj bi bilo v Sloveniji glede na ITM( indeks telesne mase) celo do 48 odstotkov ljudi( pre) debelih, pa strokovno zdravniško pomoč poišče le kakih 5 odstotkov ljudi.
+1	Kljub	kljub	ADP	Sd	Case=Dat	2	case	_	_	_
+
+2	dejstvu	dejstvo	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	32	obl	_	_	_
+
+3	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+4	da	da	SCONJ	Cs	_	7	mark	_	_	_
+
+5	naj	naj	PART	Q	_	7	advmod	_	_	_
+
+6	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	7	aux	_	_	_
+
+7	bilo	biti	VERB	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part	2	acl	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	Sloveniji	Slovenija	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_	_
+
+10	glede	glede	ADV	Rgp	Degree=Pos	12	advmod	_	_	_
+
+11	na	na	ADP	Sa	Case=Acc	12	case	_	_	_
+
+12	ITM	ITM	PROPN	Npmsa	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_	_
+
+13	(	(	PUNCT	Z	_	14	punct	_	_	_
+
+14	indeks	indeks	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	_	_
+
+15	telesne	telesen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_	_
+
+16	mase	masa	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+17	)	)	PUNCT	Z	_	14	punct	_	_	_
+
+18	celo	celo	PART	Q	_	7	advmod	_	_	_
+
+19	do	do	ADP	Sg	Case=Gen	21	case	_	_	_
+
+20	48	48	NUM	Mdc	NumForm=Digit|NumType=Card	21	nummod	_	_	_
+
+21	odstotkov	odstotek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_	_
+
+22	ljudi	človek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_	_
+
+23	(	(	PUNCT	Z	_	24	punct	_	_	_
+
+24	pre	pre	NUM	Mdc	NumForm=Digit|NumType=Card	21	nummod	_	_	_
+
+25	)	)	PUNCT	Z	_	24	punct	_	_	_
+
+26	debelih	debel	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	24	conj	_	_	_
+
+27	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+28	pa	pa	CCONJ	Cc	_	32	advmod	_	_	_
+
+29	strokovno	strokoven	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_	_
+
+30	zdravniško	zdravniški	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_	_
+
+31	pomoč	pomoč	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	32	obj	_	_	_
+
+32	poišče	poiskati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+33	le	le	PART	Q	_	32	advmod	_	_	_
+
+34	kakih	kak	DET	Pq-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Int	36	det	_	_	_
+
+35	5	5	NUM	Mdc	NumForm=Digit|NumType=Card	36	nummod	_	_	_
+
+36	odstotkov	odstotek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	32	obj	_	_	_
+
+37	ljudi	človek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	36	nmod	_	_	_
+
+38	.	.	PUNCT	Z	_	32	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034561.txt
+# text = Vsi drugi se mučijo s praviloma neuspešnimi dietami.
+1	Vsi	ves	DET	Pg-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	2	nmod	_	_	_
+
+2	drugi	drug	ADJ	Mlpmpn	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+4	mučijo	mučiti	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	s	z	ADP	Si	Case=Ins	8	case	_	_	_
+
+6	praviloma	praviloma	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+7	neuspešnimi	neuspešen	ADJ	Agpfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_	_
+
+8	dietami	dieta	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	4	obl	_	_	_
+
+9	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034561.txt
+# text = Debelost se pojavi, ker naravni mehanizem kopičenja zalog v telesu za hude čase deluje proti nam.
+1	Debelost	debelost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	3	expl	_	_	_
+
+3	pojavi	pojaviti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+5	ker	ker	SCONJ	Cs	_	15	mark	_	_	_
+
+6	naravni	naraven	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	mehanizem	mehanizem	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_	_
+
+8	kopičenja	kopičenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_	_
+
+9	zalog	zaloga	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_	_
+
+10	v	v	ADP	Sl	Case=Loc	11	case	_	_	_
+
+11	telesu	telo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	15	obl	_	_	_
+
+12	za	za	ADP	Sa	Case=Acc	14	case	_	_	_
+
+13	hude	hud	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_	_
+
+14	čase	čas	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	15	obl	_	_	_
+
+15	deluje	delovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_	_
+
+16	proti	proti	ADP	Sd	Case=Dat	17	case	_	_	_
+
+17	nam	jaz	PRON	Pp1-pd	Case=Dat|Number=Plur|Person=1|PronType=Prs	15	obl	_	_	_
+
+18	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034561.txt
+# text = Telesno ravnovesje se poruši, ker v telo pride več kalorij, kot jih telo porabi.
+1	Telesno	telesno	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_	_
+
+2	ravnovesje	ravnovesje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+4	poruši	porušiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+6	ker	ker	SCONJ	Cs	_	9	mark	_	_	_
+
+7	v	v	ADP	Sa	Case=Acc	8	case	_	_	_
+
+8	telo	telo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_	_
+
+9	pride	priti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_	_
+
+10	več	več	DET	Rgc	PronType=Ind	11	det	_	_	_
+
+11	kalorij	kalorija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	9	nsubj	_	_	_
+
+12	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+13	kot	kot	SCONJ	Cs	_	16	mark	_	_	_
+
+14	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	16	obj	_	_	_
+
+15	telo	telo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_	_
+
+16	porabi	poraba	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	_	_
+
+17	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034561.txt
+# text = Le še ljudje, ki opravljajo približno 5 odstotkov poklicev, dandanes porabijo 3.200 kalorij na dan.
+1	Le	le	PART	Q	_	13	advmod	_	_	_
+
+2	še	še	PART	Q	_	13	advmod	_	_	_
+
+3	ljudje	človek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_	_
+
+4	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+5	ki	ki	SCONJ	Cs	_	6	mark	_	_	_
+
+6	opravljajo	opravljati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_	_
+
+7	približno	približno	ADV	Rgp	Degree=Pos	8	advmod	_	_	_
+
+8	5	5	NUM	Mdc	NumForm=Digit|NumType=Card	9	nummod	_	_	_
+
+9	odstotkov	odstotek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	obj	_	_	_
+
+10	poklicev	poklic	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_	_
+
+11	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+12	dandanes	dandanes	ADV	Rgp	Degree=Pos	13	advmod	_	_	_
+
+13	porabijo	porabiti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+14	3.200	3.200	NUM	Mdc	NumForm=Digit|NumType=Card	15	nummod	_	_	_
+
+15	kalorij	kalorija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	13	obj	_	_	_
+
+16	na	na	ADP	Sa	Case=Acc	17	case	_	_	_
+
+17	dan	dan	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+18	.	.	PUNCT	Z	_	13	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034561.txt
+# text = Drugim pa se odvečne kalorije v obliki plavalnih obročev nakopičijo okoli trebuha in dodatnih blazin na zadnjici.
+1	Drugim	drug	ADJ	Mlpmpd	Case=Dat|Gender=Masc|Number=Plur	10	obj	_	_	_
+
+2	pa	pa	CCONJ	Cc	_	10	advmod	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	10	expl	_	_	_
+
+4	odvečne	odvečen	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_	_
+
+5	kalorije	kalorija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_	_
+
+6	v	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+7	obliki	oblika	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_	_
+
+8	plavalnih	plavalen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_	_
+
+9	obročev	obroč	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_	_
+
+10	nakopičijo	nakopičiti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+11	okoli	okoli	ADP	Sg	Case=Gen	12	case	_	_	_
+
+12	trebuha	trebuh	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_	_
+
+13	in	in	CCONJ	Cc	_	15	cc	_	_	_
+
+14	dodatnih	dodaten	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_	_
+
+15	blazin	blazina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	12	conj	_	_	_
+
+16	na	na	ADP	Sl	Case=Loc	17	case	_	_	_
+
+17	zadnjici	zadnjica	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_	_
+
+18	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034561.txt
+# text = Salo je še posebej nevarno, ker se v njem nabirajo pesticidi, konzervansi, aditivi in težke kovine, ki povzročajo hude bolezni.
+1	Salo	salo	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+3	še	še	PART	Q	_	5	advmod	_	_	_
+
+4	posebej	posebej	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+5	nevarno	nevaren	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing		root	_	_	_
+
+6	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+7	ker	ker	SCONJ	Cs	_	11	mark	_	_	_
+
+8	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	11	expl	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	10	case	_	_	_
+
+10	njem	on	PRON	Pp3msl	Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	_	_
+
+11	nabirajo	nabirati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_	_
+
+12	pesticidi	pesticid	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_	_
+
+13	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+14	konzervansi	konzervansi	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	12	conj	_	_	_
+
+15	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+16	aditivi	aditiv	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	12	conj	_	_	_
+
+17	in	in	CCONJ	Cc	_	19	cc	_	_	_
+
+18	težke	težek	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_	_
+
+19	kovine	kovina	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	12	conj	_	_	_
+
+20	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+21	ki	ki	SCONJ	Cs	_	22	mark	_	_	_
+
+22	povzročajo	povzročati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl	_	_	_
+
+23	hude	hud	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	24	amod	_	_	_
+
+24	bolezni	bolezen	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	22	obj	_	_	_
+
+25	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034561.txt
+# text = Strokovnjaki so izračunali, da bi ljudje zgolj s hujšanjem in z vzdrževanjem primerne telesne teže pojavljanje različnih oblik raka lahko zmanjšali celo za 30 do 40 odstotkov!
+1	Strokovnjaki	strokovnjak	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	_	_
+
+3	izračunali	izračunati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+4	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+5	da	da	SCONJ	Cs	_	22	mark	_	_	_
+
+6	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	22	aux	_	_	_
+
+7	ljudje	človek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	_	_
+
+8	zgolj	zgolj	PART	Q	_	22	advmod	_	_	_
+
+9	s	z	ADP	Si	Case=Ins	10	case	_	_	_
+
+10	hujšanjem	hujšanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	22	obl	_	_	_
+
+11	in	in	CCONJ	Cc	_	13	cc	_	_	_
+
+12	z	z	ADP	Si	Case=Ins	13	case	_	_	_
+
+13	vzdrževanjem	vzdrževanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	10	conj	_	_	_
+
+14	primerne	primeren	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_	_
+
+15	telesne	telesen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_	_
+
+16	teže	teža	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_	_
+
+17	pojavljanje	pojavljanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	22	obj	_	_	_
+
+18	različnih	različen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_	_
+
+19	oblik	oblika	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_	_
+
+20	raka	rak	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_	_
+
+21	lahko	lahko	ADV	Rgp	Degree=Pos	22	advmod	_	_	_
+
+22	zmanjšali	zmanjšati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	3	ccomp	_	_	_
+
+23	celo	celo	PART	Q	_	22	advmod	_	_	_
+
+24	za	za	ADP	Sa	Case=Acc	28	case	_	_	_
+
+25	30	30	NUM	Mdc	NumForm=Digit|NumType=Card	28	nummod	_	_	_
+
+26	do	do	ADP	Sg	Case=Gen	27	case	_	_	_
+
+27	40	40	NUM	Mdc	NumForm=Digit|NumType=Card	25	conj	_	_	_
+
+28	odstotkov	odstotek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	22	obl	_	_	_
+
+29	!	!	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034561.txt
+# text = Ne jejte banan, grenivk, korenja ali pese, ker vsebujejo veliko sladkorja.
+1	Ne	ne	PART	Q	Polarity=Neg	2	advmod	_	_	_
+
+2	jejte	jesti	VERB	Vmpm2p	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin		root	_	_	_
+
+3	banan	banana	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	2	obj	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	grenivk	grenivka	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	conj	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	korenja	korenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	3	conj	_	_	_
+
+8	ali	ali	CCONJ	Cc	_	9	cc	_	_	_
+
+9	pese	pesa	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_	_
+
+10	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+11	ker	ker	SCONJ	Cs	_	12	mark	_	_	_
+
+12	vsebujejo	vsebovati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_	_
+
+13	veliko	veliko	DET	Rgp	PronType=Ind	14	det	_	_	_
+
+14	sladkorja	sladkor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	obj	_	_	_
+
+15	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034561.txt
+# text = OČI, OGLEDALO DUŠE
+1	OČI	OČI	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur		root	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	OGLEDALO	ogledalo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	_	_
+
+4	DUŠE	duša	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034561.txt
+# text = zlato
+1	zlato	zlat	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034561.txt
+# text = Iščete senčilo za lica, ki bo dolgo obstojno?
+1	Iščete	iskati	VERB	Vmpr2p	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	senčilo	senčilo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_	_
+
+3	za	za	ADP	Sa	Case=Acc	4	case	_	_	_
+
+4	lica	lica	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+6	ki	ki	SCONJ	Cs	_	9	mark	_	_	_
+
+7	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	9	cop	_	_	_
+
+8	dolgo	dolgo	ADV	Rgp	Degree=Pos	9	advmod	_	_	_
+
+9	obstojno	obstojno	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	acl	_	_	_
+
+10	?	?	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034561.txt
+# text = Sisley ponuja tri nove duete senčil Phyto- Blush Éclat, ki bodo zahvaljujoč tehnološko izpopolnjenemu ultra drobnemu mikroniziranemu prahu dolgo obstojni.
+1	Sisley	sisley	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_	_
+
+2	ponuja	ponujati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	tri	trije	NUM	Mlcmpa	Case=Acc|Gender=Masc|NumForm=Word|NumType=Card|Number=Plur	5	nummod	_	_	_
+
+4	nove	nov	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_	_
+
+5	duete	duet	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_	_
+
+6	senčil	senčiti	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_	_
+
+7	Phyto	Phyto	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+8	-	-	PUNCT	Z	_	9	punct	_	_	_
+
+9	Blush	Blush	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_	_
+
+10	Éclat	Éclat	NOUN	Ncmpg	Case=Nom|Gender=Masc|Number=Plur	6	nmod	_	_	_
+
+11	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+12	ki	ki	SCONJ	Cs	_	14	mark	_	_	_
+
+13	bodo	biti	AUX	Va-f3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	14	cop	_	_	_
+
+14	zahvaljujoč	zahvaljujoč	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	5	acl	_	_	_
+
+15	tehnološko	tehnološki	ADV	Rgp	Degree=Pos	16	advmod	_	_	_
+
+16	izpopolnjenemu	izpopolnjen	ADJ	Appmsd	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	17	amod	_	_	_
+
+17	ultra	ulter	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	14	obj	_	_	_
+
+18	drobnemu	droben	ADJ	Agpmsd	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_	_
+
+19	mikroniziranemu	mikroniziran	ADJ	Appmsd	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	20	amod	_	_	_
+
+20	prahu	prah	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	14	obj	_	_	_
+
+21	dolgo	dolgo	ADV	Rgp	Degree=Pos	22	advmod	_	_	_
+
+22	obstojni	obstojen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	14	conj	_	_	_
+
+23	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034561.txt
+# text = Sestava senčila, ki ima kremno in svilnato mehko teksturo, bo poskrbela, da bo obraz zasijal v popolnoma enakomernih in intenzivnih barvnih nanosih ter v najbolj čistih barvah, zaradi popolnoma razpršene svetlobe pa bo zabrisal tudi gube in gubice.
+1	Sestava	sestava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_	_
+
+2	senčila	senčilo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_	_
+
+3	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+4	ki	ki	SCONJ	Cs	_	5	mark	_	_	_
+
+5	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	acl	_	_	_
+
+6	kremno	kremno	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_	_
+
+7	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+8	svilnato	svilnato	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	advmod	_	_	_
+
+9	mehko	mehek	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	conj	_	_	_
+
+10	teksturo	tekstura	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_	_
+
+11	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+12	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	13	aux	_	_	_
+
+13	poskrbela	poskrbeti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+14	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+15	da	da	SCONJ	Cs	_	18	mark	_	_	_
+
+16	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	18	aux	_	_	_
+
+17	obraz	obraz	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_	_
+
+18	zasijal	zasijati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	13	ccomp	_	_	_
+
+19	v	v	ADP	Sl	Case=Loc	25	case	_	_	_
+
+20	popolnoma	popolnoma	ADV	Rgp	Degree=Pos	21	advmod	_	_	_
+
+21	enakomernih	enakomeren	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	25	amod	_	_	_
+
+22	in	in	CCONJ	Cc	_	23	cc	_	_	_
+
+23	intenzivnih	intenziven	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	21	conj	_	_	_
+
+24	barvnih	barven	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	25	amod	_	_	_
+
+25	nanosih	nanos	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	18	obl	_	_	_
+
+26	ter	ter	CCONJ	Cc	_	30	cc	_	_	_
+
+27	v	v	ADP	Sl	Case=Loc	30	case	_	_	_
+
+28	najbolj	najbolj	ADV	Rgs	Degree=Sup	29	advmod	_	_	_
+
+29	čistih	čist	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	30	amod	_	_	_
+
+30	barvah	barva	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	25	conj	_	_	_
+
+31	,	,	PUNCT	Z	_	38	punct	_	_	_
+
+32	zaradi	zaradi	ADP	Sg	Case=Gen	35	case	_	_	_
+
+33	popolnoma	popolnoma	ADV	Rgp	Degree=Pos	34	advmod	_	_	_
+
+34	razpršene	razpršen	ADJ	Appfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	35	amod	_	_	_
+
+35	svetlobe	svetloba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	38	obl	_	_	_
+
+36	pa	pa	CCONJ	Cc	_	38	advmod	_	_	_
+
+37	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	38	aux	_	_	_
+
+38	zabrisal	zabrisati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	13	parataxis	_	_	_
+
+39	tudi	tudi	PART	Q	_	38	advmod	_	_	_
+
+40	gube	guba	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	38	obj	_	_	_
+
+41	in	in	CCONJ	Cc	_	42	cc	_	_	_
+
+42	gubice	gubica	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	40	conj	_	_	_
+
+43	.	.	PUNCT	Z	_	13	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034561.txt
+# text = Rastlinski izvlečki bodo kožo dodatno navlažili in zaščitili pred prostimi radikali.
+1	Rastlinski	rastlinski	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_	_
+
+2	izvlečki	izvleček	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_	_
+
+3	bodo	biti	AUX	Va-f3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	6	aux	_	_	_
+
+4	kožo	koža	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_	_
+
+5	dodatno	dodatno	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+6	navlažili	navlažiti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	zaščitili	zaščititi	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	6	conj	_	_	_
+
+9	pred	pred	ADP	Si	Case=Ins	11	case	_	_	_
+
+10	prostimi	prost	ADJ	Agpmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_	_
+
+11	radikali	radikati	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	8	obl	_	_	_
+
+12	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034561.txt
+# text = Po dve različni barvni kombinaciji v duetu omogočata različne načine ličenja, ki jih lahko prilagodite sezoni, priložnosti in tipu kože.
+1	Po	po	ADP	Sl	Case=Loc	5	case	_	_	_
+
+2	dve	dva	NUM	Mlcfda	Case=Acc|Gender=Fem|NumForm=Word|NumType=Card|Number=Dual	5	nummod	_	_	_
+
+3	različni	različen	ADJ	Agpfdl	Case=Loc|Degree=Pos|Gender=Fem|Number=Dual	5	amod	_	_	_
+
+4	barvni	barven	ADJ	Agpfdl	Case=Loc|Degree=Pos|Gender=Fem|Number=Dual	5	amod	_	_	_
+
+5	kombinaciji	kombinacija	NOUN	Ncfdl	Case=Acc|Gender=Fem|Number=Dual	8	obl	_	_	_
+
+6	v	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+7	duetu	duet	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+8	omogočata	omogočati	VERB	Vmpr3d	Aspect=Imp|Mood=Ind|Number=Dual|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	različne	različen	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_	_
+
+10	načine	način	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_	_
+
+11	ličenja	ličenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_	_
+
+12	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+13	ki	ki	SCONJ	Cs	_	16	mark	_	_	_
+
+14	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	16	obj	_	_	_
+
+15	lahko	lahko	ADV	Rgp	Degree=Pos	16	advmod	_	_	_
+
+16	prilagodite	prilagoditi	VERB	Vmer2p	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	acl	_	_	_
+
+17	sezoni	sezona	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	16	obj	_	_	_
+
+18	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+19	priložnosti	priložnost	NOUN	Ncfpd	Case=Dat|Gender=Fem|Number=Plur	17	conj	_	_	_
+
+20	in	in	CCONJ	Cc	_	21	cc	_	_	_
+
+21	tipu	tip	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	17	conj	_	_	_
+
+22	kože	koža	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_	_
+
+23	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034561.txt
+# text = 72.880 SIT
+1	72.880	72.880	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	SIT	SIT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034561.txt
+# text = ALENKA GODEC, PEVKA
+1	ALENKA	Alenko	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	GODEC	godec	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	flat:name	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	PEVKA	pevko	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_	_
+

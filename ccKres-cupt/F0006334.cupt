@@ -1,0 +1,83 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0006334.txt
+# text = ( portret)
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	portret	portret	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	)	)	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0006334.txt
+# text = PAVLA COLNAR
+1	PAVLA	Pavel	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	COLNAR	COLNAR	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0006334.txt
+# text = Naklanski nogometaši skušajo prebroditi krizo
+1	Naklanski	naklanski	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_	_
+
+2	nogometaši	nogometaš	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_	_
+
+3	skušajo	skušati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	prebroditi	prebroditi	VERB	Vmen	Aspect=Perf|VerbForm=Inf	3	xcomp	_	_	_
+
+5	krizo	kriza	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0006334.txt
+# text = ŠEVALEC
+1	ŠEVALEC	ševalec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0006334.txt
+# text = GLAS
+1	GLAS	glas	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0006334.txt
+# text = V Kranju, 14. marca 1994
+1	V	v	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	Kranju	Kranj	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing		root	_	_	_
+
+3	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+4	14.	14.	NUM	Mdo	NumForm=Digit|NumType=Ord	5	nummod	_	_	_
+
+5	marca	marec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	appos	_	_	_
+
+6	1994	1994	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0006334.txt
+# text = ZETOR, od 45 do 160 KM
+1	ZETOR	zetor	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+3	od	od	ADP	Sg	Case=Gen	4	case	_	_	_
+
+4	45	45	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+5	do	do	ADP	Sg	Case=Gen	6	case	_	_	_
+
+6	160	160	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+7	KM	KM	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	1	appos	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0006334.txt
+# text = Žal je bil gospod Nietzsche precej nedosleden.
+1	Žal	žal	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_	_
+
+3	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	7	cop	_	_	_
+
+4	gospod	gospod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_	_
+
+5	Nietzsche	Nietzsche	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+6	precej	precej	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+7	nedosleden	nedosleden	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing		root	_	_	_
+
+8	.	.	PUNCT	Z	_	7	punct	_	_	_
+

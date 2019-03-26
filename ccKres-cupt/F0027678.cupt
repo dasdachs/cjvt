@@ -1,0 +1,963 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = 5. člen
+1	5.	5.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = Določbe zavarovalnih pogojev za zavarovanja, ki so obvezna po tem zakonu, s katerimi se zmanjšujejo pravice oškodovancev in potnikov v javnem prometu, določene s tem zakonom, so brez pravnega učinka.
+1	Določbe	določba	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	31	nsubj	_	_	_
+
+2	zavarovalnih	zavarovalen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_	_
+
+3	pogojev	pogoj	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_	_
+
+4	za	za	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	zavarovanja	zavarovanje	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	3	nmod	_	_	_
+
+6	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+7	ki	ki	SCONJ	Cs	_	9	mark	_	_	_
+
+8	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	cop	_	_	_
+
+9	obvezna	obvezen	ADJ	Agpnpn	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	5	acl	_	_	_
+
+10	po	po	ADP	Sl	Case=Loc	12	case	_	_	_
+
+11	tem	ta	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_	_
+
+12	zakonu	zakon	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+13	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+14	s	z	ADP	Si	Case=Ins	15	case	_	_	_
+
+15	katerimi	kateri	DET	Pq-mpi	Case=Ins|Gender=Masc|Number=Plur|PronType=Int	17	obl	_	_	_
+
+16	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	17	expl	_	_	_
+
+17	zmanjšujejo	zmanjševati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	_	_
+
+18	pravice	pravica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	_	_
+
+19	oškodovancev	oškodovanec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_	_
+
+20	in	in	CCONJ	Cc	_	21	cc	_	_	_
+
+21	potnikov	potnik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	19	conj	_	_	_
+
+22	v	v	ADP	Sl	Case=Loc	24	case	_	_	_
+
+23	javnem	javen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_	_
+
+24	prometu	promet	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	21	nmod	_	_	_
+
+25	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+26	določene	določen	ADJ	Appfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	18	amod	_	_	_
+
+27	s	z	ADP	Si	Case=Ins	29	case	_	_	_
+
+28	tem	ta	DET	Pd-msi	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_	_
+
+29	zakonom	zakon	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	26	obl	_	_	_
+
+30	,	,	PUNCT	Z	_	26	punct	_	_	_
+
+31	so	biti	VERB	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+32	brez	brez	ADP	Sg	Case=Gen	34	case	_	_	_
+
+33	pravnega	praven	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_	_
+
+34	učinka	učinek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	31	obl	_	_	_
+
+35	.	.	PUNCT	Z	_	31	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = Zavarovalnica mora zavarovalne pogoje pred začetkom njihove uporabe predložiti v odobritev ministru za finance.
+1	Zavarovalnica	zavarovalnica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_	_
+
+2	mora	morati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	zavarovalne	zavarovalen	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_	_
+
+4	pogoje	pogoj	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_	_
+
+5	pred	pred	ADP	Si	Case=Ins	6	case	_	_	_
+
+6	začetkom	začetek	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+7	njihove	njihov	DET	Ps3fsgp	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	8	det	_	_	_
+
+8	uporabe	uporaba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+9	predložiti	predložiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	2	xcomp	_	_	_
+
+10	v	v	ADP	Sa	Case=Acc	11	case	_	_	_
+
+11	odobritev	odobritev	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_	_
+
+12	ministru	minister	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	9	iobj	_	_	_
+
+13	za	za	ADP	Sa	Case=Acc	14	case	_	_	_
+
+14	finance	finance	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	12	nmod	_	_	_
+
+15	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = Če ta v 30 dneh ne sporoči svoje odločitve, lahko zavarovalnica začne uporabljati predložene zavarovalne pogoje.
+1	Če	če	SCONJ	Cs	_	7	mark	_	_	_
+
+2	ta	ta	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_	_
+
+3	v	v	ADP	Sl	Case=Loc	5	case	_	_	_
+
+4	30	30	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+5	dneh	dan	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	7	obl	_	_	_
+
+6	ne	ne	PART	Q	Polarity=Neg	7	advmod	_	_	_
+
+7	sporoči	sporoči	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_	_
+
+8	svoje	svoj	DET	Px-fsg	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	_	_
+
+9	odločitve	odločitev	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	obj	_	_	_
+
+10	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+11	lahko	lahko	ADV	Rgp	Degree=Pos	13	advmod	_	_	_
+
+12	zavarovalnica	zavarovalnica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_	_
+
+13	začne	začeti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+14	uporabljati	uporabljati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	13	xcomp	_	_	_
+
+15	predložene	predložen	ADJ	Appmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	17	amod	_	_	_
+
+16	zavarovalne	zavarovalen	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	_	_
+
+17	pogoje	pogoj	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_	_
+
+18	.	.	PUNCT	Z	_	13	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = 7. člen
+1	7.	7.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = Podatke iz tretjega, četrtega in petega odstavka tega člena lahko uporablja tudi oškodovanec za uveljavljanje odškodninskih zahtevkov in zahtevkov iz zavarovanja potnikov v javnem prometu.
+1	Podatke	podatek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_	_
+
+2	iz	iz	ADP	Sg	Case=Gen	8	case	_	_	_
+
+3	tretjega	tretji	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	8	amod	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	četrtega	četrti	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	3	conj	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	petega	pet	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	3	conj	_	_	_
+
+8	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+9	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_	_
+
+10	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+11	lahko	lahko	ADV	Rgp	Degree=Pos	12	advmod	_	_	_
+
+12	uporablja	uporabljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+13	tudi	tudi	PART	Q	_	12	advmod	_	_	_
+
+14	oškodovanec	oškodovanec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_	_
+
+15	za	za	ADP	Sa	Case=Acc	16	case	_	_	_
+
+16	uveljavljanje	uveljavljanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	14	nmod	_	_	_
+
+17	odškodninskih	odškodninski	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	_	_
+
+18	zahtevkov	zahtevek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_	_
+
+19	in	in	CCONJ	Cc	_	20	cc	_	_	_
+
+20	zahtevkov	zahtevek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	18	conj	_	_	_
+
+21	iz	iz	ADP	Sg	Case=Gen	22	case	_	_	_
+
+22	zavarovanja	zavarovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_	_
+
+23	potnikov	potnik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_	_
+
+24	v	v	ADP	Sl	Case=Loc	26	case	_	_	_
+
+25	javnem	javen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_	_
+
+26	prometu	promet	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	23	nmod	_	_	_
+
+27	.	.	PUNCT	Z	_	12	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = 12. člen
+1	12.	12.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = Če je potnik ali drugi upravičenec utrpel večjo škodo, kot je znašala zavarovalnina, ki jo je prejel iz tega zavarovanja, ima proti osebi, ki je odgovorna za škodni dogodek, ali njeni odgovorni zavarovalnici, pravico le do zahtevka za preostanek pravno priznane škode.
+1	Če	če	SCONJ	Cs	_	7	mark	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_	_
+
+3	potnik	potnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_	_
+
+4	ali	ali	CCONJ	Cc	_	6	cc	_	_	_
+
+5	drugi	drug	ADJ	Mlpmsny	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+6	upravičenec	upravičenec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_	_
+
+7	utrpel	utrpeti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	24	advcl	_	_	_
+
+8	večjo	velik	ADJ	Agcfsa	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	9	amod	_	_	_
+
+9	škodo	škoda	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_	_
+
+10	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+11	kot	kot	SCONJ	Cs	_	13	mark	_	_	_
+
+12	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	_	_
+
+13	znašala	znašati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	9	acl	_	_	_
+
+14	zavarovalnina	zavarovalnina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_	_
+
+15	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+16	ki	ki	SCONJ	Cs	_	19	mark	_	_	_
+
+17	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	19	obj	_	_	_
+
+18	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	aux	_	_	_
+
+19	prejel	prejeti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	14	acl	_	_	_
+
+20	iz	iz	ADP	Sg	Case=Gen	22	case	_	_	_
+
+21	tega	ta	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	22	det	_	_	_
+
+22	zavarovanja	zavarovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	19	obl	_	_	_
+
+23	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+24	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+25	proti	proti	ADP	Sd	Case=Dat	26	case	_	_	_
+
+26	osebi	oseba	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	24	obl	_	_	_
+
+27	,	,	PUNCT	Z	_	30	punct	_	_	_
+
+28	ki	ki	SCONJ	Cs	_	30	mark	_	_	_
+
+29	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	30	cop	_	_	_
+
+30	odgovorna	odgovoren	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	acl	_	_	_
+
+31	za	za	ADP	Sa	Case=Acc	33	case	_	_	_
+
+32	škodni	škoden	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_	_
+
+33	dogodek	dogodek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obl	_	_	_
+
+34	,	,	PUNCT	Z	_	30	punct	_	_	_
+
+35	ali	ali	CCONJ	Cc	_	38	cc	_	_	_
+
+36	njeni	njen	DET	Ps3fslsf	Case=Loc|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	38	det	_	_	_
+
+37	odgovorni	odgovoren	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_	_
+
+38	zavarovalnici	zavarovalnica	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	33	conj	_	_	_
+
+39	,	,	PUNCT	Z	_	30	punct	_	_	_
+
+40	pravico	pravica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	26	conj	_	_	_
+
+41	le	le	PART	Q	_	40	advmod	_	_	_
+
+42	do	do	ADP	Sg	Case=Gen	43	case	_	_	_
+
+43	zahtevka	zahtevek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	_	_
+
+44	za	za	ADP	Sa	Case=Acc	45	case	_	_	_
+
+45	preostanek	preostanek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	43	nmod	_	_	_
+
+46	pravno	praven	ADV	Rgp	Degree=Pos	47	advmod	_	_	_
+
+47	priznane	priznan	ADJ	Appfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	48	amod	_	_	_
+
+48	škode	škoda	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	45	nmod	_	_	_
+
+49	.	.	PUNCT	Z	_	24	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = Potniku ali drugemu upravičencu, kateremu je odgovorna oseba ali njena zavarovalnica povrnila vso škodo, ugasne pravica do zavarovalnine iz zavarovanja potnikov v javnem prometu do višine izplačane odškodnine.
+1	Potniku	Potnik	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	17	obj	_	_	_
+
+2	ali	ali	CCONJ	Cc	_	4	cc	_	_	_
+
+3	drugemu	drug	ADJ	Mlpmsd	Case=Dat|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	upravičencu	upravičenec	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+5	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+6	kateremu	kateri	DET	Pq-msd	Case=Dat|Gender=Masc|Number=Sing|PronType=Int	13	obj	_	_	_
+
+7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	_	_
+
+8	odgovorna	odgovoren	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	acl	_	_	_
+
+9	oseba	oseba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_	_
+
+10	ali	ali	CCONJ	Cc	_	12	cc	_	_	_
+
+11	njena	njen	DET	Ps3fsnsf	Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_	_
+
+12	zavarovalnica	zavarovalnica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	_	_
+
+13	povrnila	povrniti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	4	acl	_	_	_
+
+14	vso	ves	DET	Pg-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	15	det	_	_	_
+
+15	škodo	škoda	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_	_
+
+16	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+17	ugasne	ugasen	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+18	pravica	pravica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_	_
+
+19	do	do	ADP	Sg	Case=Gen	20	case	_	_	_
+
+20	zavarovalnine	zavarovalnina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_	_
+
+21	iz	iz	ADP	Sg	Case=Gen	22	case	_	_	_
+
+22	zavarovanja	zavarovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_	_
+
+23	potnikov	potnik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_	_
+
+24	v	v	ADP	Sl	Case=Loc	26	case	_	_	_
+
+25	javnem	javen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_	_
+
+26	prometu	promet	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	22	nmod	_	_	_
+
+27	do	do	ADP	Sg	Case=Gen	28	case	_	_	_
+
+28	višine	višina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_	_
+
+29	izplačane	izplačan	ADJ	Appfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	30	amod	_	_	_
+
+30	odškodnine	odškodnina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	_	_
+
+31	.	.	PUNCT	Z	_	17	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = 14. člen
+1	14.	14.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = - za avtobuse in tovorna vozila 60.000.000 tolarjev
+1	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+2	za	za	ADP	Sa	Case=Acc	3	case	_	_	_
+
+3	avtobuse	avtobus	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur		root	_	_	_
+
+4	in	in	CCONJ	Cc	_	6	cc	_	_	_
+
+5	tovorna	tovoren	ADJ	Agpnpa	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	6	amod	_	_	_
+
+6	vozila	vozilo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	3	conj	_	_	_
+
+7	60.000.000	60.000.000	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+8	tolarjev	tolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = Zavarovanje avtomobilske odgovornosti zajema tudi škode, povzročene z vozilom, ki ga je uporabljala nepooblaščena oseba.
+1	Zavarovanje	zavarovanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_	_
+
+2	avtomobilske	avtomobilski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	odgovornosti	odgovornost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	zajema	zajema	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	tudi	tudi	PART	Q	_	4	advmod	_	_	_
+
+6	škode	škoda	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	povzročene	povzročen	ADJ	Appfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	6	amod	_	_	_
+
+9	z	z	ADP	Si	Case=Ins	10	case	_	_	_
+
+10	vozilom	vozilo	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	8	obl	_	_	_
+
+11	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+12	ki	ki	SCONJ	Cs	_	15	mark	_	_	_
+
+13	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	15	obj	_	_	_
+
+14	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	aux	_	_	_
+
+15	uporabljala	uporabljati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	10	acl	_	_	_
+
+16	nepooblaščena	nepooblaščen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_	_
+
+17	oseba	oseba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_	_
+
+18	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = Zavarovalnica, pri kateri je zavarovana avtomobilska odgovornost, mora škodo, ki je bila povzročena v tujini, plačati do višine, določene s predpisi o zavarovanju avtomobilske odgovornosti tiste države, v kateri je nastala škoda.
+1	Zavarovalnica	zavarovalnica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_	_
+
+2	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+3	pri	pri	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	kateri	kateri	DET	Pq-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Int	6	obl	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_	_
+
+6	zavarovana	zavarovan	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_	_
+
+7	avtomobilska	avtomobilski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	odgovornost	odgovornost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_	_
+
+9	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+10	mora	morati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+11	škodo	škoda	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_	_
+
+12	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+13	ki	ki	SCONJ	Cs	_	16	mark	_	_	_
+
+14	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	aux	_	_	_
+
+15	bila	biti	AUX	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	16	cop	_	_	_
+
+16	povzročena	povzročen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	11	acl	_	_	_
+
+17	v	v	ADP	Sl	Case=Loc	18	case	_	_	_
+
+18	tujini	tujina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_	_
+
+19	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+20	plačati	plačati	VERB	Vmen	Aspect=Perf|VerbForm=Inf	10	xcomp	_	_	_
+
+21	do	do	ADP	Sg	Case=Gen	22	case	_	_	_
+
+22	višine	višina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	20	obl	_	_	_
+
+23	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+24	določene	določen	ADJ	Appfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	22	amod	_	_	_
+
+25	s	z	ADP	Si	Case=Ins	26	case	_	_	_
+
+26	predpisi	predpis	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	24	obl	_	_	_
+
+27	o	o	ADP	Sl	Case=Loc	28	case	_	_	_
+
+28	zavarovanju	zavarovanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	26	nmod	_	_	_
+
+29	avtomobilske	avtomobilski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_	_
+
+30	odgovornosti	odgovornost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	_	_
+
+31	tiste	tisti	DET	Pd-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	32	det	_	_	_
+
+32	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_	_
+
+33	,	,	PUNCT	Z	_	37	punct	_	_	_
+
+34	v	v	ADP	Sl	Case=Loc	35	case	_	_	_
+
+35	kateri	kateri	DET	Pq-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Int	37	obl	_	_	_
+
+36	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	37	aux	_	_	_
+
+37	nastala	nastati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	32	acl	_	_	_
+
+38	škoda	škoda	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	37	nsubj	_	_	_
+
+39	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = V primeru, da so najnižje zavarovalne vsote v tujini nižje od vsot iz 19. člena tega zakona, je zavarovalnica dolžna povrniti škodo do teh vsot.
+1	V	v	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	primeru	primer	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	23	obl	_	_	_
+
+3	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+4	da	da	SCONJ	Cs	_	11	mark	_	_	_
+
+5	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	cop	_	_	_
+
+6	najnižje	nizko	ADJ	Agsfpn	Case=Nom|Degree=Sup|Gender=Fem|Number=Plur	8	amod	_	_	_
+
+7	zavarovalne	zavarovalen	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_	_
+
+8	vsote	ves	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	10	case	_	_	_
+
+10	tujini	tujina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_	_
+
+11	nižje	nizek	ADJ	Agcfpn	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	2	acl	_	_	_
+
+12	od	od	ADP	Sg	Case=Gen	13	case	_	_	_
+
+13	vsot	vsot	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_	_
+
+14	iz	iz	ADP	Sg	Case=Gen	16	case	_	_	_
+
+15	19.	19.	NUM	Mdo	NumForm=Digit|NumType=Ord	16	nummod	_	_	_
+
+16	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+17	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_	_
+
+18	zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_	_
+
+19	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+20	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	22	cop	_	_	_
+
+21	zavarovalnica	zavarovalnica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_	_
+
+22	dolžna	dolžen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing		root	_	_	_
+
+23	povrniti	povrniti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	22	ccomp	_	_	_
+
+24	škodo	škoda	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_	_
+
+25	do	do	ADP	Sg	Case=Gen	27	case	_	_	_
+
+26	teh	ta	DET	Pd-fpg	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	27	det	_	_	_
+
+27	vsot	vsot	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	_	_
+
+28	.	.	PUNCT	Z	_	22	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = To zavarovanje ne krije odgovornosti za škodo, ki jo utrpijo potniki letala.
+1	To	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_	_
+
+2	zavarovanje	zavarovanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_	_
+
+3	ne	ne	PART	Q	Polarity=Neg	4	advmod	_	_	_
+
+4	krije	krij	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	odgovornosti	odgovornost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	obj	_	_	_
+
+6	za	za	ADP	Sa	Case=Acc	7	case	_	_	_
+
+7	škodo	škoda	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+8	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+9	ki	ki	SCONJ	Cs	_	11	mark	_	_	_
+
+10	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	11	obj	_	_	_
+
+11	utrpijo	utrpiti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	_	_
+
+12	potniki	potnik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_	_
+
+13	letala	letalo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_	_
+
+14	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = Za plačilo škod, ki jih oškodovancem povzročijo vozniki nezavarovanih in neznanih motornih vozil ter priklopnikov in nezavarovanih zračnih plovil, se pri Slovenskem zavarovalnem biroju ustanovi škodni sklad.
+1	Za	za	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	plačilo	plačilo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	27	obl	_	_	_
+
+3	škod	škoda	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_	_
+
+4	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+5	ki	ki	SCONJ	Cs	_	8	mark	_	_	_
+
+6	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	8	obj	_	_	_
+
+7	oškodovancem	oškodovanec	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	8	iobj	_	_	_
+
+8	povzročijo	povzročiti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_	_
+
+9	vozniki	voznik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_	_
+
+10	nezavarovanih	nezavarovan	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	14	amod	_	_	_
+
+11	in	in	CCONJ	Cc	_	12	cc	_	_	_
+
+12	neznanih	neznan	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	10	conj	_	_	_
+
+13	motornih	motoren	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	14	amod	_	_	_
+
+14	vozil	vozilo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_	_
+
+15	ter	ter	CCONJ	Cc	_	16	cc	_	_	_
+
+16	priklopnikov	priklopnik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	14	conj	_	_	_
+
+17	in	in	CCONJ	Cc	_	20	cc	_	_	_
+
+18	nezavarovanih	nezavarovan	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	20	amod	_	_	_
+
+19	zračnih	zračen	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	20	amod	_	_	_
+
+20	plovil	plovilo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	_	_
+
+21	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+22	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	27	expl	_	_	_
+
+23	pri	pri	ADP	Sl	Case=Loc	26	case	_	_	_
+
+24	Slovenskem	slovenski	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_	_
+
+25	zavarovalnem	zavarovalen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_	_
+
+26	biroju	biro	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	27	obl	_	_	_
+
+27	ustanovi	ustanova	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+28	škodni	škoden	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_	_
+
+29	sklad	sklad	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_	_
+
+30	.	.	PUNCT	Z	_	27	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = Iz škodnega sklada se plačujejo tudi zavarovalnine potnikom v javnem prometu zaradi posledic nesreče, če lastnik javnega prevoznega sredstva ni sklenil zavarovalne pogodbe.
+1	Iz	iz	ADP	Sg	Case=Gen	3	case	_	_	_
+
+2	škodnega	škoden	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	sklada	sklad	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_	_
+
+4	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	5	expl	_	_	_
+
+5	plačujejo	plačevati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	tudi	tudi	PART	Q	_	5	advmod	_	_	_
+
+7	zavarovalnine	zavarovalnina	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_	_
+
+8	potnikom	potnik	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	5	iobj	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	11	case	_	_	_
+
+10	javnem	javen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	prometu	promet	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+12	zaradi	zaradi	ADP	Sg	Case=Gen	13	case	_	_	_
+
+13	posledic	posledica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_	_
+
+14	nesreče	nesreča	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_	_
+
+15	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+16	če	če	SCONJ	Cs	_	22	mark	_	_	_
+
+17	lastnik	lastnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_	_
+
+18	javnega	javen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_	_
+
+19	prevoznega	prevozen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_	_
+
+20	sredstva	sredstvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_	_
+
+21	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	22	aux	_	_	_
+
+22	sklenil	skleniti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	5	advcl	_	_	_
+
+23	zavarovalne	zavarovalen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_	_
+
+24	pogodbe	pogodba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	22	obj	_	_	_
+
+25	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = Za obveznosti iz 34. člena tega zakona odgovarja Slovenski zavarovalni biro s sredstvi škodnega sklada.
+1	Za	za	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	obveznosti	obveznost	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	_	_
+
+3	iz	iz	ADP	Sg	Case=Gen	5	case	_	_	_
+
+4	34.	34.	NUM	Mdo	NumForm=Digit|NumType=Ord	5	nummod	_	_	_
+
+5	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+6	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_	_
+
+7	zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+8	odgovarja	odgovarjati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	Slovenski	slovenski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+10	zavarovalni	zavarovalen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	biro	biro	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_	_
+
+12	s	z	ADP	Si	Case=Ins	13	case	_	_	_
+
+13	sredstvi	sredstvo	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	11	nmod	_	_	_
+
+14	škodnega	škoden	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_	_
+
+15	sklada	sklad	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+16	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = Ta lahko obravnavanje zahtevkov prepusti eni od zavarovalnic, ki plačujejo prispevek v sklad.
+1	Ta	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_	_
+
+2	lahko	lahko	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+3	obravnavanje	obravnavanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_	_
+
+4	zahtevkov	zahtevek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_	_
+
+5	prepusti	prepustiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	eni	en	NUM	Mlpfsd	Case=Dat|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing	5	obl	_	_	_
+
+7	od	od	ADP	Sg	Case=Gen	8	case	_	_	_
+
+8	zavarovalnic	zavarovalnica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_	_
+
+9	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+10	ki	ki	SCONJ	Cs	_	11	mark	_	_	_
+
+11	plačujejo	plačevati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_	_
+
+12	prispevek	prispevek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_	_
+
+13	v	v	ADP	Sa	Case=Acc	14	case	_	_	_
+
+14	sklad	sklad	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+15	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = Zavarovalnica ima v tem primeru pravico zahtevati od Slovenskega zavarovalnega biroja povračilo stroškov likvidacije.
+1	Zavarovalnica	zavarovalnica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_	_
+
+2	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	v	v	ADP	Sl	Case=Loc	5	case	_	_	_
+
+4	tem	ta	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_	_
+
+5	primeru	primer	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_	_
+
+6	pravico	pravica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_	_
+
+7	zahtevati	zahtevati	VERB	Vmbn	VerbForm=Inf	2	xcomp	_	_	_
+
+8	od	od	ADP	Sg	Case=Gen	11	case	_	_	_
+
+9	Slovenskega	slovenski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+10	zavarovalnega	zavarovalen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	biroja	biro	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_	_
+
+12	povračilo	povračilo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_	_
+
+13	stroškov	strošek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_	_
+
+14	likvidacije	likvidacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_	_
+
+15	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = Oškodovanec, ki mu je bila povzročena škoda in potnik v javnem prometu, ki je utrpel prometno nesrečo s prometnim sredstvom iz 34. člena tega zakona, imata pravico vložiti zahtevek pri Slovenskem zavarovalnem biroju.
+1	Oškodovanec	oškodovanec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_	_
+
+2	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+3	ki	ki	SCONJ	Cs	_	7	mark	_	_	_
+
+4	mu	on	PRON	Pp3msd--y	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	7	obj	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_	_
+
+6	bila	biti	AUX	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	7	cop	_	_	_
+
+7	povzročena	povzročen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_	_
+
+8	škoda	škoda	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+
+9	in	in	CCONJ	Cc	_	10	cc	_	_	_
+
+10	potnik	potnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_	_
+
+11	v	v	ADP	Sl	Case=Loc	13	case	_	_	_
+
+12	javnem	javen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_	_
+
+13	prometu	promet	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+14	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+15	ki	ki	SCONJ	Cs	_	17	mark	_	_	_
+
+16	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	aux	_	_	_
+
+17	utrpel	utrpeti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	13	acl	_	_	_
+
+18	prometno	prometen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_	_
+
+19	nesrečo	nesreča	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_	_
+
+20	s	z	ADP	Si	Case=Ins	22	case	_	_	_
+
+21	prometnim	prometen	ADJ	Agpnsi	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_	_
+
+22	sredstvom	sredstvo	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	19	nmod	_	_	_
+
+23	iz	iz	ADP	Sg	Case=Gen	25	case	_	_	_
+
+24	34.	34.	NUM	Mdo	NumForm=Digit|NumType=Ord	25	nummod	_	_	_
+
+25	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_	_
+
+26	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	27	det	_	_	_
+
+27	zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_	_
+
+28	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+29	imata	imeti	VERB	Vmpr3d-n	Aspect=Imp|Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+30	pravico	pravica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_	_
+
+31	vložiti	vložiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	29	xcomp	_	_	_
+
+32	zahtevek	zahtevek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	_	_
+
+33	pri	pri	ADP	Sl	Case=Loc	36	case	_	_	_
+
+34	Slovenskem	slovenski	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_	_
+
+35	zavarovalnem	zavarovalen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_	_
+
+36	biroju	biro	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	32	nmod	_	_	_
+
+37	.	.	PUNCT	Z	_	29	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = 42. člen
+1	42.	42.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = - na predlog Urada za zavarovalni nadzor za prekršek po 43. členu tega zakona;
+1	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+2	na	na	ADP	Sa	Case=Acc	3	case	_	_	_
+
+3	predlog	predlog	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing		root	_	_	_
+
+4	Urada	urad	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+5	za	za	ADP	Sa	Case=Acc	7	case	_	_	_
+
+6	zavarovalni	zavarovalen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	nadzor	nadzor	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+8	za	za	ADP	Sa	Case=Acc	9	case	_	_	_
+
+9	prekršek	prekršek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+10	po	po	ADP	Sl	Case=Loc	12	case	_	_	_
+
+11	43.	43.	NUM	Mdo	NumForm=Digit|NumType=Ord	12	nummod	_	_	_
+
+12	členu	člen	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+13	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_	_
+
+14	zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+15	;	;	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0027678.txt
+# text = Št. 460- 01/94- 5/3 Ljubljana, dne 26. oktobra 1994
+1	Št.	Št.	X	Y	Abbr=Yes	2	case	_	_	_
+
+2	460	460	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+3	-	-	PUNCT	Z	_	4	punct	_	_	_
+
+4	01/94	01/94	NUM	Mdc	NumForm=Digit|NumType=Card	2	conj	_	_	_
+
+5	-	-	PUNCT	Z	_	6	punct	_	_	_
+
+6	5/3	5/3	NUM	Mdc	NumForm=Digit|NumType=Card	2	conj	_	_	_
+
+7	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+8	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+9	dne	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	appos	_	_	_
+
+10	26.	26.	NUM	Mdo	NumForm=Digit|NumType=Ord	11	nummod	_	_	_
+
+11	oktobra	oktober	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+12	1994	1994	NUM	Mdc	NumForm=Digit|NumType=Card	11	nummod	_	_	_
+

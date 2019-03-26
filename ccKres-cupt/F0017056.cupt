@@ -1,0 +1,101 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0017056.txt
+# text = 2. Märtin/ Park( Ford Focus WRC) +1: 12,6
+1	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	Märtin	Märtin	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	/	/	PUNCT	Z	_	4	punct	_	_	_
+
+4	Park	Park	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+5	(	(	PUNCT	Z	_	6	punct	_	_	_
+
+6	Ford	ford	X	Xf	Foreign=Yes	2	appos	_	_	_
+
+7	Focus	Focus	X	Xf	Foreign=Yes	6	flat:foreign	_	_	_
+
+8	WRC	WRC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	flat:foreign	_	_	_
+
+9	)	)	PUNCT	Z	_	6	punct	_	_	_
+
+10	+	+	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	flat:foreign	_	_	_
+
+11	1:	1:	PUNCT	Z	_	10	punct	_	_	_
+
+12	12,6	12,6	NUM	Mdc	NumForm=Digit|NumType=Card	10	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017056.txt
+# text = Novi 2,8- litrski motor CRD je možno dobiti samo s štiristopenjskim samodejnim menjalnikom.
+1	Novi	nov	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+2	2,8	2,8	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+3	-	-	PUNCT	Z	_	4	punct	_	_	_
+
+4	litrski	litrski	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+5	motor	motor	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_	_
+
+6	CRD	CRD	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_	_
+
+8	možno	možen	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing		root	_	_	_
+
+9	dobiti	dobiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	8	csubj	_	_	_
+
+10	samo	samo	PART	Q	_	9	advmod	_	_	_
+
+11	s	z	ADP	Si	Case=Ins	14	case	_	_	_
+
+12	štiristopenjskim	štiristopenjski	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+13	samodejnim	samodejen	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+14	menjalnikom	menjalnik	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+15	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017056.txt
+# text = Vozili smo.
+1	Vozili	voziti	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+2	smo	biti	VERB	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017056.txt
+# text = Meritev s tovrstnim samodejnim menjalnikom ni možna
+1	Meritev	meritev	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+
+2	s	z	ADP	Si	Case=Ins	5	case	_	_	_
+
+3	tovrstnim	tovrsten	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+4	samodejnim	samodejen	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+5	menjalnikom	menjalnik	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+6	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	7	cop	_	_	_
+
+7	možna	možen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017056.txt
+# text = GM: Boljši od Toyote
+1	GM	GM	INTJ	I	_	3	discourse	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Boljši	dober	ADJ	Agcmsny	Case=Nom|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing		root	_	_	_
+
+4	od	od	ADP	Sg	Case=Gen	5	case	_	_	_
+
+5	Toyote	Toyota	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017056.txt
+# text = 33 35
+1	33	33	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	35	35	NUM	Mdc	NumForm=Digit|NumType=Card	1	flat	_	_	_
+

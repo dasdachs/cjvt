@@ -1,0 +1,99 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0003469.txt
+# text = Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začne prvega dne v naslednjem mesecu po objavi v Uradnem listu Republike Slovenije.
+1	Ta	ta	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_	_
+
+2	zakon	zakon	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+3	začne	začeti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	veljati	veljati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	3	xcomp	_	_	_
+
+5	naslednji	naslednji	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+6	dan	dan	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+7	po	po	ADP	Sl	Case=Loc	8	case	_	_	_
+
+8	objavi	objava	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	11	case	_	_	_
+
+10	Uradnem	uraden	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	listu	list	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+12	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+13	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+14	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+15	uporabljati	uporabljati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	18	xcomp	_	_	_
+
+16	pa	pa	CCONJ	Cc	_	15	advmod	_	_	_
+
+17	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	15	expl	_	_	_
+
+18	začne	začeti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_	_
+
+19	prvega	prvi	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	20	amod	_	_	_
+
+20	dne	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_	_
+
+21	v	v	ADP	Sl	Case=Loc	23	case	_	_	_
+
+22	naslednjem	naslednji	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_	_
+
+23	mesecu	mesec	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_	_
+
+24	po	po	ADP	Sl	Case=Loc	25	case	_	_	_
+
+25	objavi	objava	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_	_
+
+26	v	v	ADP	Sl	Case=Loc	28	case	_	_	_
+
+27	Uradnem	uraden	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_	_
+
+28	listu	list	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	25	nmod	_	_	_
+
+29	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	_	_
+
+30	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_	_
+
+31	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003469.txt
+# text = Številka: 434- 02 /91- 7/ 108 Ljubljana, dne 15. aprila 1998
+1	Številka	Številka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	434	434	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+4	-	-	PUNCT	Z	_	5	punct	_	_	_
+
+5	02	02	NUM	Mdc	NumForm=Digit|NumType=Card	3	conj	_	_	_
+
+6	/91	/91	NUM	Mdc	NumForm=Digit|NumType=Card	3	conj	_	_	_
+
+7	-	-	PUNCT	Z	_	8	punct	_	_	_
+
+8	7	7	NUM	Mdc	NumForm=Digit|NumType=Card	6	conj	_	_	_
+
+9	/	/	PUNCT	Z	_	10	punct	_	_	_
+
+10	108	108	NUM	Mdc	NumForm=Digit|NumType=Card	8	conj	_	_	_
+
+11	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+12	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+13	dne	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	appos	_	_	_
+
+14	15.	15.	NUM	Mdo	NumForm=Digit|NumType=Ord	15	nummod	_	_	_
+
+15	aprila	april	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+16	1998	1998	NUM	Mdc	NumForm=Digit|NumType=Card	15	nummod	_	_	_
+

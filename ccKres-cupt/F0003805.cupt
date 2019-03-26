@@ -1,0 +1,169 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0003805.txt
+# text = 28 .a člen se črta.
+1	28	28	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+2	.a	.a	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+3	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+4	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	5	expl	_	_	_
+
+5	črta	črtati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003805.txt
+# text = 4. člen
+1	4.	4.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003805.txt
+# text = V 30. členu se prvi, drugi in tretji odstavek nadomestijo z novim prvim odstavkom, ki se glasi:" Minister, pristojen za finance, sklene z Banko Slovenije pogodbo o tiskanju, načinu dajanja v obtok in distribuciji upravnih kolkov ter o znesku nadomestila za kritje stroškov v zvezi s temi deli.
+1	V	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	30.	30.	NUM	Mdo	NumForm=Digit|NumType=Ord	3	nummod	_	_	_
+
+3	členu	člen	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_	_
+
+4	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	11	expl	_	_	_
+
+5	prvi	prvi	ADJ	Mlompn	Case=Nom|Gender=Masc|NumType=Ord|Number=Plur	10	amod	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	drugi	drug	ADJ	Mlpmsny	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	conj	_	_	_
+
+8	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+9	tretji	tretji	ADJ	Mlomsn	Case=Nom|Gender=Masc|NumType=Ord|Number=Sing	5	conj	_	_	_
+
+10	odstavek	odstavek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_	_
+
+11	nadomestijo	nadomestiti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+12	z	z	ADP	Si	Case=Ins	15	case	_	_	_
+
+13	novim	nov	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_	_
+
+14	prvim	prvi	ADJ	Mlomsi	Case=Ins|Gender=Masc|NumType=Ord|Number=Sing	15	amod	_	_	_
+
+15	odstavkom	odstavek	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_	_
+
+16	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+17	ki	ki	SCONJ	Cs	_	19	mark	_	_	_
+
+18	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	19	expl	_	_	_
+
+19	glasi	glasiti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	_	_
+
+20	:	:	PUNCT	Z	_	28	punct	_	_	_
+
+21	"	"	PUNCT	Z	_	28	punct	_	_	_
+
+22	Minister	minister	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_	_
+
+23	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+24	pristojen	pristojen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_	_
+
+25	za	za	ADP	Sa	Case=Acc	26	case	_	_	_
+
+26	finance	finance	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	24	obl	_	_	_
+
+27	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+28	sklene	skleniti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_	_
+
+29	z	z	ADP	Si	Case=Ins	30	case	_	_	_
+
+30	Banko	Banko	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	28	obl	_	_	_
+
+31	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_	_
+
+32	pogodbo	pogodba	NOUN	Ncfsi	Case=Acc|Gender=Fem|Number=Sing	28	obj	_	_	_
+
+33	o	o	ADP	Sl	Case=Loc	34	case	_	_	_
+
+34	tiskanju	tiskanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	32	nmod	_	_	_
+
+35	,	,	PUNCT	Z	_	36	punct	_	_	_
+
+36	načinu	način	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	34	conj	_	_	_
+
+37	dajanja	dajanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	36	nmod	_	_	_
+
+38	v	v	ADP	Sl	Case=Loc	39	case	_	_	_
+
+39	obtok	obtok	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	37	nmod	_	_	_
+
+40	in	in	CCONJ	Cc	_	41	cc	_	_	_
+
+41	distribuciji	distribucija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	34	conj	_	_	_
+
+42	upravnih	upraven	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	43	amod	_	_	_
+
+43	kolkov	kolkov	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	41	nmod	_	_	_
+
+44	ter	ter	CCONJ	Cc	_	46	cc	_	_	_
+
+45	o	o	ADP	Sl	Case=Loc	46	case	_	_	_
+
+46	znesku	znesek	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	32	conj	_	_	_
+
+47	nadomestila	nadomestilo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	46	nmod	_	_	_
+
+48	za	za	ADP	Sa	Case=Acc	49	case	_	_	_
+
+49	kritje	kritje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	47	nmod	_	_	_
+
+50	stroškov	strošek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	49	nmod	_	_	_
+
+51	v	v	ADP	Sl	Case=Loc	52	case	_	_	_
+
+52	zvezi	zveza	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	49	nmod	_	_	_
+
+53	s	z	ADP	Si	Case=Ins	55	case	_	_	_
+
+54	temi	ta	DET	Pd-mpi	Case=Ins|Gender=Masc|Number=Plur|PronType=Dem	55	det	_	_	_
+
+55	deli	del	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	52	nmod	_	_	_
+
+56	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003805.txt
+# text = "
+1	"	"	PUNCT	Z	_		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003805.txt
+# text = 5. člen
+1	5.	5.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003805.txt
+# text = Sedanja točka 2 č) postane točka 2 c).
+1	Sedanja	sedanji	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	točka	točka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_	_
+
+3	2	2	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+4	č	č	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	)	)	PUNCT	Z	_	4	punct	_	_	_
+
+6	postane	postati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	točka	točka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	xcomp	_	_	_
+
+8	2	2	NUM	Mdc	NumForm=Digit|NumType=Card	9	nummod	_	_	_
+
+9	c	c	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+10	)	)	PUNCT	Z	_	9	punct	_	_	_
+
+11	.	.	PUNCT	Z	_	6	punct	_	_	_
+

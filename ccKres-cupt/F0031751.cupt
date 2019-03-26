@@ -1,0 +1,351 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0031751.txt
+# text = http:/ /www .ecb.int/
+1	http:	http:	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	/	/	PUNCT	Z	_	3	punct	_	_	_
+
+3	/www	/www	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+4	.ecb.int	.ecb.int	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+5	/	/	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031751.txt
+# text = Evropska komisija
+1	Evropska	evropski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	komisija	komisija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031751.txt
+# text = Neobičajno so se dvignile cene za vrsto drobnih artiklov, ki jih pogosto kupujemo.
+1	Neobičajno	neobičajno	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+4	dvignile	dvigniti	VERB	Vmep-pf	Aspect=Perf|Gender=Fem|Number=Plur|VerbForm=Part		root	_	_	_
+
+5	cene	cena	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_	_
+
+6	za	za	ADP	Sa	Case=Acc	7	case	_	_	_
+
+7	vrsto	vrsta	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+8	drobnih	droben	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_	_
+
+9	artiklov	artikl	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_	_
+
+10	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+11	ki	ki	SCONJ	Cs	_	14	mark	_	_	_
+
+12	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	14	obj	_	_	_
+
+13	pogosto	pogosto	ADV	Rgp	Degree=Pos	14	advmod	_	_	_
+
+14	kupujemo	kupovati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	acl	_	_	_
+
+15	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031751.txt
+# text = Vsakodnevni majhni nakupi bolj vplivajo na naše dojemanje rasti cen kakor redkejši izdatki, recimo nakup novega računalnika, zavarovanje ali stroški najemnine.
+1	Vsakodnevni	vsakodneven	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_	_
+
+2	majhni	majhen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_	_
+
+3	nakupi	nakup	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_	_
+
+4	bolj	bolj	ADV	Rgc	Degree=Cmp	5	advmod	_	_	_
+
+5	vplivajo	vplivati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	na	na	ADP	Sa	Case=Acc	8	case	_	_	_
+
+7	naše	naš	DET	Ps1nsap	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det	_	_	_
+
+8	dojemanje	dojemanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_	_
+
+9	rasti	rast	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+10	cen	cena	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_	_
+
+11	kakor	kakor	SCONJ	Cs	_	13	case	_	_	_
+
+12	redkejši	redek	ADJ	Agcmpn	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	13	amod	_	_	_
+
+13	izdatki	izdatek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	10	obl	_	_	_
+
+14	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+15	recimo	reči	VERB	Vmem1p	Aspect=Perf|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	5	parataxis	_	_	_
+
+16	nakup	nakup	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_	_
+
+17	novega	nov	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_	_
+
+18	računalnika	računalnik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_	_
+
+19	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+20	zavarovanje	zavarovanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	18	conj	_	_	_
+
+21	ali	ali	CCONJ	Cc	_	22	cc	_	_	_
+
+22	stroški	strošek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	16	conj	_	_	_
+
+23	najemnine	najemnina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_	_
+
+24	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031751.txt
+# text = Vendar pa je njihov vpliv na življenjske stroške manjši − zavzemajo le majhen del košarice HICP.
+1	Vendar	vendar	CCONJ	Cc	_	11	cc	_	_	_
+
+2	pa	pa	CCONJ	Cc	_	11	advmod	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_	_
+
+4	njihov	njihov	DET	Ps3msnp	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	5	det	_	_	_
+
+5	vpliv	vpliv	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_	_
+
+6	na	na	ADP	Sa	Case=Acc	8	case	_	_	_
+
+7	življenjske	življenjski	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_	_
+
+8	stroške	strošek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	5	nmod	_	_	_
+
+9	manjši	majhen	ADJ	Agcmsny	Case=Acc|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	−	−	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_	_
+
+11	zavzemajo	zavzemati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+12	le	le	PART	Q	_	11	advmod	_	_	_
+
+13	majhen	majhen	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+14	del	del	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_	_
+
+15	košarice	košarica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+16	HICP	HICP	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_	_
+
+17	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031751.txt
+# text = Naš vtis o vsesplošnih podražitvah s prehodom na evro tako bolj temelji na cenah artiklov, ki jih kupujemo pogosto, kakor na vsebini celotne košarice.
+1	Naš	naš	DET	Ps1msnp	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	_	_
+
+2	vtis	vtis	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_	_
+
+3	o	o	ADP	Sl	Case=Loc	5	case	_	_	_
+
+4	vsesplošnih	vsesplošen	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_	_
+
+5	podražitvah	podražitev	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	2	nmod	_	_	_
+
+6	s	z	ADP	Si	Case=Ins	7	case	_	_	_
+
+7	prehodom	prehod	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+8	na	na	ADP	Sa	Case=Acc	9	case	_	_	_
+
+9	evro	evro	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+10	tako	tako	ADV	Rgp	Degree=Pos	11	advmod	_	_	_
+
+11	bolj	bolj	ADV	Rgc	Degree=Cmp	12	advmod	_	_	_
+
+12	temelji	temeljiti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+13	na	na	ADP	Sl	Case=Loc	14	case	_	_	_
+
+14	cenah	cena	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	12	obl	_	_	_
+
+15	artiklov	artikl	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_	_
+
+16	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+17	ki	ki	SCONJ	Cs	_	19	mark	_	_	_
+
+18	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	19	obj	_	_	_
+
+19	kupujemo	kupovati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	acl	_	_	_
+
+20	pogosto	pogosto	ADV	Rgp	Degree=Pos	19	advmod	_	_	_
+
+21	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+22	kakor	kakor	SCONJ	Cs	_	24	case	_	_	_
+
+23	na	na	ADP	Sl	Case=Loc	24	case	_	_	_
+
+24	vsebini	vsebina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_	_
+
+25	celotne	celoten	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_	_
+
+26	košarice	košarica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_	_
+
+27	.	.	PUNCT	Z	_	12	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031751.txt
+# text = Torej mnenje o dvigu cen zaradi prehoda na evro sicer ni bilo brez podlage, vendar pojav dejansko ni bil vsesplošen in ni veliko vplival na življenjske stroške.
+1	Torej	torej	ADV	Rgp	Degree=Pos	12	advmod	_	_	_
+
+2	mnenje	mnenje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_	_
+
+3	o	o	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	dvigu	dvig	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	cen	cena	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_	_
+
+6	zaradi	zaradi	ADP	Sg	Case=Gen	7	case	_	_	_
+
+7	prehoda	prehod	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_	_
+
+8	na	na	ADP	Sa	Case=Acc	9	case	_	_	_
+
+9	evro	evro	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+10	sicer	sicer	PART	Q	_	12	advmod	_	_	_
+
+11	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	12	aux	_	_	_
+
+12	bilo	biti	VERB	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+13	brez	brez	ADP	Sg	Case=Gen	14	case	_	_	_
+
+14	podlage	podlaga	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_	_
+
+15	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+16	vendar	vendar	CCONJ	Cc	_	21	cc	_	_	_
+
+17	pojav	pojav	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_	_
+
+18	dejansko	dejansko	ADV	Rgp	Degree=Pos	21	advmod	_	_	_
+
+19	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	21	aux	_	_	_
+
+20	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	21	cop	_	_	_
+
+21	vsesplošen	vsesplošen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	12	conj	_	_	_
+
+22	in	in	CCONJ	Cc	_	25	cc	_	_	_
+
+23	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	25	aux	_	_	_
+
+24	veliko	veliko	DET	Rgp	PronType=Ind	25	advmod	_	_	_
+
+25	vplival	vplivati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	21	conj	_	_	_
+
+26	na	na	ADP	Sa	Case=Acc	28	case	_	_	_
+
+27	življenjske	življenjski	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	28	amod	_	_	_
+
+28	stroške	strošek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	25	obl	_	_	_
+
+29	.	.	PUNCT	Z	_	12	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031751.txt
+# text = jan. 1996 jan. 1997 jan. 1998 jan. 1999 jan. 2000 jan.
+1	jan.	jan.	X	Y	Abbr=Yes		root	_	_	_
+
+2	1996	1996	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+3	jan.	jan.	X	Y	Abbr=Yes	4	punct	_	_	_
+
+4	1997	1997	NUM	Mdc	NumForm=Digit|NumType=Card	2	conj	_	_	_
+
+5	jan.	jan.	X	Y	Abbr=Yes	4	fixed	_	_	_
+
+6	1998	1998	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+7	jan.	jan.	X	Y	Abbr=Yes	6	fixed	_	_	_
+
+8	1999	1999	NUM	Mdc	NumForm=Digit|NumType=Card	6	conj	_	_	_
+
+9	jan.	jan.	X	Y	Abbr=Yes	8	punct	_	_	_
+
+10	2000	2000	NUM	Mdc	NumForm=Digit|NumType=Card	8	conj	_	_	_
+
+11	jan.	jan.	X	Y	Abbr=Yes	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031751.txt
+# text = 2001 jan. 2002 jan. 2003 jan.
+1	2001	2001	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	jan.	jan.	X	Y	Abbr=Yes	1	flat:foreign	_	_	_
+
+3	2002	2002	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+4	jan.	jan.	X	Y	Abbr=Yes	5	punct	_	_	_
+
+5	2003	2003	NUM	Mdc	NumForm=Digit|NumType=Card	3	conj	_	_	_
+
+6	jan.	jan.	X	Y	Abbr=Yes	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031751.txt
+# text = 2004 jan. 2005
+1	2004	2004	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	jan.	jan.	X	Y	Abbr=Yes	1	flat:foreign	_	_	_
+
+3	2005	2005	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031751.txt
+# text = Razlika v zaznavi potrošnikov
+1	Razlika	razlika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	v	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	zaznavi	zaznava	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	potrošnikov	potrošnik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031751.txt
+# text = Prihod evra v obtok
+1	Prihod	prihod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	evra	evro	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	v	v	ADP	Sa	Case=Acc	4	case	_	_	_
+
+4	obtok	obtok	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031751.txt
+# text = Kako so se skušale preprečiti neupravičene podražitve in kaj je mogoče storiti v prihodnje?
+1	Kako	kako	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	5	expl	_	_	_
+
+4	skušale	skušati	VERB	Vmpp-pf	Aspect=Imp|Gender=Fem|Number=Plur|VerbForm=Part		root	_	_	_
+
+5	preprečiti	preprečiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	4	xcomp	_	_	_
+
+6	neupravičene	neupravičen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	_
+
+7	podražitve	podražitev	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	obj	_	_	_
+
+8	in	in	CCONJ	Cc	_	11	cc	_	_	_
+
+9	kaj	kaj	PRON	Pq-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	12	obj	_	_	_
+
+10	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	cop	_	_	_
+
+11	mogoče	mogoč	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	conj	_	_	_
+
+12	storiti	storiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	11	csubj	_	_	_
+
+13	v	v	ADP	Sa	Case=Acc	14	case	_	_	_
+
+14	prihodnje	prihodnji	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	obl	_	_	_
+
+15	?	?	PUNCT	Z	_	4	punct	_	_	_
+

@@ -1,0 +1,135 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0028829.txt
+# text = Nevenka ŽižmundCelovška c. 127, Ljubljana
+1	Nevenka	Nevenka	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	ŽižmundCelovška	žižmundcelovšek	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	c.	c.	X	Y	Abbr=Yes	2	nmod	_	_	_
+
+4	127	127	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+5	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+6	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028829.txt
+# text = 10.30 E+, pon.
+1	10.30	10.30	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	E+	E+	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:foreign	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	pon.	pon.	X	Y	Abbr=Yes	2	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028829.txt
+# text = Poklicni morilec Dekker ima pred seboj še zadnjo nalogo, vendar ga že na začetku spremlja slab občutek.
+1	Poklicni	poklicen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	morilec	morilec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+3	Dekker	dekker	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	pred	pred	ADP	Si	Case=Ins	6	case	_	_	_
+
+6	seboj	se	PRON	Px---i	Case=Ins|PronType=Prs|Reflex=Yes	4	obl	_	_	_
+
+7	še	še	PART	Q	_	4	advmod	_	_	_
+
+8	zadnjo	zadnji	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_	_
+
+9	nalogo	naloga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_	_
+
+10	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+11	vendar	vendar	CCONJ	Cc	_	16	cc	_	_	_
+
+12	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	16	obj	_	_	_
+
+13	že	že	PART	Q	_	16	advmod	_	_	_
+
+14	na	na	ADP	Sl	Case=Loc	15	case	_	_	_
+
+15	začetku	začetek	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_	_
+
+16	spremlja	spremljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_	_
+
+17	slab	slab	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_	_
+
+18	občutek	občutek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_	_
+
+19	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028829.txt
+# text = Ko izve, da mora ubiti lepo dekle in nedolžnega otroka, mu slaba vest ne da miru.
+1	Ko	ko	SCONJ	Cs	_	2	mark	_	_	_
+
+2	izve	izva	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_	_
+
+3	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+4	da	da	SCONJ	Cs	_	5	mark	_	_	_
+
+5	mora	morati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_	_
+
+6	ubiti	ubiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	5	xcomp	_	_	_
+
+7	lepo	lep	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_	_
+
+8	dekle	dekle	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_	_
+
+9	in	in	CCONJ	Cc	_	11	cc	_	_	_
+
+10	nedolžnega	nedolžen	ADJ	Agpmsa	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	otroka	otrok	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	8	conj	_	_	_
+
+12	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+13	mu	on	PRON	Pp3msd--y	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	17	iobj	_	_	_
+
+14	slaba	slab	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_	_
+
+15	vest	vest	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_	_
+
+16	ne	ne	PART	Q	Polarity=Neg	17	advmod	_	_	_
+
+17	da	dati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+18	miru	mir	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	17	obj	_	_	_
+
+19	.	.	PUNCT	Z	_	17	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028829.txt
+# text = Bo sposoben še zadnjič ubijati, preden temu poslu za vedno obrne hrbet?
+1	Bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	2	cop	_	_	_
+
+2	sposoben	sposoben	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing		root	_	_	_
+
+3	še	še	PART	Q	_	2	advmod	_	_	_
+
+4	zadnjič	zadnjič	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+5	ubijati	ubijati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	2	ccomp	_	_	_
+
+6	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+7	preden	preden	SCONJ	Cs	_	12	mark	_	_	_
+
+8	temu	ta	DET	Pd-msd	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_	_
+
+9	poslu	posel	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	12	iobj	_	_	_
+
+10	za	za	ADP	Sa	Case=Acc	11	case	_	_	_
+
+11	vedno	vedno	ADV	Rgp	Degree=Pos	12	advmod	_	_	_
+
+12	obrne	obrniti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_	_
+
+13	hrbet	hrbet	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_	_
+
+14	?	?	PUNCT	Z	_	2	punct	_	_	_
+

@@ -1,0 +1,425 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0016910.txt
+# text = Založba Obzorja, Maribor, 2000
+1	Založba	založba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	Obzorja	obzorje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	Maribor	Maribor	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+5	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+6	2000	2000	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0016910.txt
+# text = Police samopostrežne trgovine v kletni etaži trgovske hiše Merkur so iz dneva v dan bolj prazne.
+1	Police	Police	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	_	_
+
+2	samopostrežne	samopostrežen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	trgovine	trgovina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	v	v	ADP	Sl	Case=Loc	6	case	_	_	_
+
+5	kletni	kleten	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	etaži	etaža	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+7	trgovske	trgovski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	hiše	hiša	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+9	Merkur	Merkur	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+10	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	cop	_	_	_
+
+11	iz	iz	ADP	Sg	Case=Gen	12	case	_	_	_
+
+12	dneva	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_	_
+
+13	v	v	ADP	Sa	Case=Acc	14	case	_	_	_
+
+14	dan	dan	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_	_
+
+15	bolj	bolj	ADV	Rgc	Degree=Cmp	16	advmod	_	_	_
+
+16	prazne	prazen	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur		root	_	_	_
+
+17	.	.	PUNCT	Z	_	16	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0016910.txt
+# text = Tako je zaradi napovedane ukinitve prodajnih programov v tej mariborski trgovski hiši, zaradi česar bo, kot smo v Večeru že poročali, brez dela ostala več kot polovica od 167 zaposlenih delavcev Merkurja.
+1	Tako	tako	ADV	Rgp	Degree=Pos	27	advmod	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	27	aux	_	_	_
+
+3	zaradi	zaradi	ADP	Sg	Case=Gen	5	case	_	_	_
+
+4	napovedane	napovedan	ADJ	Appfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	5	amod	_	_	_
+
+5	ukinitve	ukinitev	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	27	obl	_	_	_
+
+6	prodajnih	prodajen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_	_
+
+7	programov	program	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	12	case	_	_	_
+
+9	tej	ta	DET	Pd-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_	_
+
+10	mariborski	mariborski	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_	_
+
+11	trgovski	trgovski	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_	_
+
+12	hiši	hiša	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	27	obl	_	_	_
+
+13	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+14	zaradi	zaradi	ADP	Sg	Case=Gen	15	case	_	_	_
+
+15	česar	kar	PRON	Pr-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Rel	27	obl	_	_	_
+
+16	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	27	aux	_	_	_
+
+17	,	,	PUNCT	Z	_	23	punct	_	_	_
+
+18	kot	kot	SCONJ	Cs	_	23	mark	_	_	_
+
+19	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	23	aux	_	_	_
+
+20	v	v	ADP	Sl	Case=Loc	21	case	_	_	_
+
+21	Večeru	veler	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	23	obl	_	_	_
+
+22	že	že	PART	Q	_	23	advmod	_	_	_
+
+23	poročali	poročati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	12	acl	_	_	_
+
+24	,	,	PUNCT	Z	_	23	punct	_	_	_
+
+25	brez	brez	ADP	Sg	Case=Gen	26	case	_	_	_
+
+26	dela	delo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	27	obl	_	_	_
+
+27	ostala	ostati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+28	več	več	DET	Rgc	PronType=Ind	30	advmod	_	_	_
+
+29	kot	kot	SCONJ	Cs	_	28	fixed	_	_	_
+
+30	polovica	polovica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	27	xcomp	_	_	_
+
+31	od	od	ADP	Sg	Case=Gen	34	case	_	_	_
+
+32	167	167	NUM	Mdc	NumForm=Digit|NumType=Card	34	nummod	_	_	_
+
+33	zaposlenih	zaposlen	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	34	amod	_	_	_
+
+34	delavcev	delavec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	_	_
+
+35	Merkurja	Merkur	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_	_
+
+36	.	.	PUNCT	Z	_	27	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0016910.txt
+# text = Kot je povedala direktorica Jeklotehne Trgovine Vesna Selič, so prisiljeni krčiti prostor veleblagovnice zaradi previsoke najemnine.
+1	Kot	kot	SCONJ	Cs	_	3	mark	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	_	_
+
+3	povedala	povedati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	12	advcl	_	_	_
+
+4	direktorica	direktorica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+5	Jeklotehne	jeklotehen	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+6	Trgovine	trgovina	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	5	flat:name	_	_	_
+
+7	Vesna	Vesna	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+8	Selič	Selič	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	7	flat:name	_	_	_
+
+9	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+10	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	cop	_	_	_
+
+11	prisiljeni	prisiljen	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+12	krčiti	krčiti	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	11	ccomp	_	_	_
+
+13	prostor	prostor	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_	_
+
+14	veleblagovnice	veleblagovnica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_	_
+
+15	zaradi	zaradi	ADP	Sg	Case=Gen	17	case	_	_	_
+
+16	previsoke	previsok	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_	_
+
+17	najemnine	najemnina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_	_
+
+18	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0016910.txt
+# text = 12.30 Policija, ponovitev serije.
+1	12.30	12.30	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Policija	policija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	ponovitev	ponovitev	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_	_
+
+5	serije	serija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+6	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0016910.txt
+# text = 15.25 Košarka, NBA, posnetek.
+1	15.25	15.25	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Košarka	Košarka	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	NBA	NBA	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+5	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+6	posnetek	posnetek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_	_
+
+7	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0016910.txt
+# text = 17.20 Odkrivanje skrivnosti magije, dokumentarec, 2/4. 18. 10 Rokomet, kvalifikacije za EP: Turčija- Hrvaška, prenos.
+1	17.20	17.20	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Odkrivanje	odkrivanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+3	skrivnosti	skrivnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	magije	magija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+5	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+6	dokumentarec	dokumentarec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_	_
+
+7	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+8	2/4.	2/4.	NUM	Mdo	NumForm=Digit|NumType=Ord	11	nummod	_	_	_
+
+9	18.	18.	NUM	Mdo	NumForm=Digit|NumType=Ord	11	nummod	_	_	_
+
+10	10	10	NUM	Mdc	NumForm=Digit|NumType=Card	9	flat	_	_	_
+
+11	Rokomet	Rokomet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_	_
+
+12	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+13	kvalifikacije	kvalifikacija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	2	appos	_	_	_
+
+14	za	za	ADP	Sa	Case=Acc	15	case	_	_	_
+
+15	EP	EP	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+16	:	:	PUNCT	Z	_	17	punct	_	_	_
+
+17	Turčija	Turčija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_	_
+
+18	-	-	PUNCT	Z	_	19	punct	_	_	_
+
+19	Hrvaška	hrvaški	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	17	conj	_	_	_
+
+20	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+21	prenos	prenos	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	17	conj	_	_	_
+
+22	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0016910.txt
+# text = 19.55 Nogomet( seniorji), kvalifikacije za SP: Hrvaška- San Marino, prenos.
+1	19.55	19.55	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Nogomet	nogomet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	(	(	PUNCT	Z	_	4	punct	_	_	_
+
+4	seniorji	senior	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	2	appos	_	_	_
+
+5	)	)	PUNCT	Z	_	4	punct	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	kvalifikacije	kvalifikacija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	2	appos	_	_	_
+
+8	za	za	ADP	Sa	Case=Acc	9	case	_	_	_
+
+9	SP	SP	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+10	:	:	PUNCT	Z	_	16	punct	_	_	_
+
+11	Hrvaška	hrvaški	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+
+12	-	-	PUNCT	Z	_	13	punct	_	_	_
+
+13	San	San	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_	_
+
+14	Marino	Marino	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	_	_
+
+15	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+16	prenos	prenos	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_	_
+
+17	.	.	PUNCT	Z	_	16	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0016910.txt
+# text = 22.00 Šport danes.
+1	22.00	22.00	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Šport	Šport	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	danes	danes	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+4	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0016910.txt
+# text = 22. 15 Mati in sin, serija, 34/42.
+1	22.	22.	NUM	Mdo	NumForm=Digit|NumType=Ord	3	nummod	_	_	_
+
+2	15	15	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+3	Mati	mati	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+4	in	in	CCONJ	Cc	_	5	cc	_	_	_
+
+5	sin	sin	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	serija	serija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	_	_
+
+8	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+9	34/42	34/42	NUM	Mdc	NumForm=Digit|NumType=Card	7	conj	_	_	_
+
+10	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0016910.txt
+# text = 22.40 Cosby show, serija, 9/26. 23.05 Simpsonovi, risana serija, 8/25. 23.30 Lulu, drama, 1995( Kim Lieu, r: Srinivas Krishna).
+1	22.40	22.40	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Cosby	Cosby	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	show	show	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	serija	serija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	9/26	9/26	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+8	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+9	23.05	23.05	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+10	Simpsonovi	Simpsonov	ADJ	Aspfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	13	amod	_	_	_
+
+11	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+12	risana	risan	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	conj	_	_	_
+
+13	serija	serija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_	_
+
+14	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+15	8/25.	8/25.	NUM	Mdo	NumForm=Digit|NumType=Ord	13	nummod	_	_	_
+
+16	23.30	23.30	NUM	Mdc	NumForm=Digit|NumType=Card	15	flat	_	_	_
+
+17	Lulu	Lulu	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_	_
+
+18	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+19	drama	drama	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	13	conj	_	_	_
+
+20	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+21	1995	1995	NUM	Mdc	NumForm=Digit|NumType=Card	19	nummod	_	_	_
+
+22	(	(	PUNCT	Z	_	23	punct	_	_	_
+
+23	Kim	kim	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	19	appos	_	_	_
+
+24	Lieu	Lieu	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	23	flat:name	_	_	_
+
+25	,	,	PUNCT	Z	_	26	punct	_	_	_
+
+26	r:	r:	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	23	conj	_	_	_
+
+27	Srinivas	Srinivas	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	28	nmod	_	_	_
+
+28	Krishna	krishen	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	23	appos	_	_	_
+
+29	)	)	PUNCT	Z	_	23	punct	_	_	_
+
+30	.	.	PUNCT	Z	_	13	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0016910.txt
+# text = 1.00 Pregled sporeda.
+1	1.00	1.00	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Pregled	pregled	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	sporeda	spored	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0016910.txt
+# text = Feri Horvat:" Potrebujemo konkurenčnost v bančništvu, potrebujemo močne banke, potrebujemo pa tudi vlečnega in ne trojanskega konja"
+1	Feri	feri	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	parataxis	_	_	_
+
+2	Horvat	Horvat	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+4	"	"	PUNCT	Z	_	5	punct	_	_	_
+
+5	Potrebujemo	potrebovati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	konkurenčnost	konkurenčnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_	_
+
+7	v	v	ADP	Sl	Case=Loc	8	case	_	_	_
+
+8	bančništvu	bančništvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	_	_
+
+9	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+10	potrebujemo	potrebovati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	parataxis	_	_	_
+
+11	močne	močen	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	_	_
+
+12	banke	banka	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_	_
+
+13	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+14	potrebujemo	potrebovati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	parataxis	_	_	_
+
+15	pa	pa	CCONJ	Cc	_	14	advmod	_	_	_
+
+16	tudi	tudi	PART	Q	_	14	advmod	_	_	_
+
+17	vlečnega	vlečen	ADJ	Agpmsa	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_	_
+
+18	in	in	CCONJ	Cc	_	20	cc	_	_	_
+
+19	ne	ne	CCONJ	Cc	_	20	cc	_	_	_
+
+20	trojanskega	trojanski	ADJ	Agpmsa	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	conj	_	_	_
+
+21	konja	konj	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_	_
+
+22	"	"	PUNCT	Z	_	21	punct	_	_	_
+

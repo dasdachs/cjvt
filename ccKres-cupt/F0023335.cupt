@@ -1,0 +1,135 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0023335.txt
+# text = Dr. Barbara Ritter
+1	Dr.	dr.	X	Y	Abbr=Yes	2	nmod	_	_	_
+
+2	Barbara	Barbara	PROPN	Npfsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	Ritter	Ritter	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023335.txt
+# text = Modno iz svetlega lesa in stekla
+1	Modno	moden	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing		root	_	_	_
+
+2	iz	iz	ADP	Sg	Case=Gen	4	case	_	_	_
+
+3	svetlega	svetel	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	lesa	les	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+5	in	in	CCONJ	Cc	_	6	cc	_	_	_
+
+6	stekla	steklo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023335.txt
+# text = Vitrina ne sme manjkati v nobenem stanovanju.
+1	Vitrina	Vitrin	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	obj	_	_	_
+
+2	ne	ne	PART	Q	Polarity=Neg	3	advmod	_	_	_
+
+3	sme	smeti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	manjkati	manjkati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	3	xcomp	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+6	nobenem	noben	DET	Pz-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Neg	7	det	_	_	_
+
+7	stanovanju	stanovanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_	_
+
+8	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023335.txt
+# text = Predstavljamo vam odlično rešitev za vse, ki nimajo prostora preveč: moderna stenska vitrina( 90 x 23 x 35 cm) je kljub svoji majhnosti izredno prostorna in odlično krasi steno vaše jedilnice.
+1	Predstavljamo	predstavljati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	vam	ti	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	1	iobj	_	_	_
+
+3	odlično	odlično	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	rešitev	rešitev	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_	_
+
+5	za	za	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	vse	ves	DET	Pg-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	4	nmod	_	_	_
+
+7	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+8	ki	ki	SCONJ	Cs	_	9	mark	_	_	_
+
+9	nimajo	imeti	VERB	Vmpr3p-y	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	acl	_	_	_
+
+10	prostora	prostor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	obj	_	_	_
+
+11	preveč	preveč	DET	Rgp	PronType=Ind	9	advmod	_	_	_
+
+12	:	:	PUNCT	Z	_	29	punct	_	_	_
+
+13	moderna	moderen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_	_
+
+14	stenska	stenski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_	_
+
+15	vitrina	vitrina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	_	_
+
+16	(	(	PUNCT	Z	_	22	punct	_	_	_
+
+17	90	90	NUM	Mdc	NumForm=Digit|NumType=Card	22	nummod	_	_	_
+
+18	x	x	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	_	_
+
+19	23	23	NUM	Mdc	NumForm=Digit|NumType=Card	22	nummod	_	_	_
+
+20	x	x	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	22	nmod	_	_	_
+
+21	35	35	NUM	Mdc	NumForm=Digit|NumType=Card	22	nummod	_	_	_
+
+22	cm	cm	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	15	appos	_	_	_
+
+23	)	)	PUNCT	Z	_	22	punct	_	_	_
+
+24	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	29	cop	_	_	_
+
+25	kljub	kljub	ADP	Sd	Case=Dat	27	case	_	_	_
+
+26	svoji	svoj	DET	Px-fsd	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	27	det	_	_	_
+
+27	majhnosti	majhnost	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	29	obl	_	_	_
+
+28	izredno	izredno	ADV	Rgp	Degree=Pos	29	advmod	_	_	_
+
+29	prostorna	prostoren	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	parataxis	_	_	_
+
+30	in	in	CCONJ	Cc	_	32	cc	_	_	_
+
+31	odlično	odlično	ADV	Rgp	Degree=Pos	32	advmod	_	_	_
+
+32	krasi	kras	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	_	_
+
+33	steno	stena	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	32	obj	_	_	_
+
+34	vaše	vaš	DET	Ps1fsgp	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	35	det	_	_	_
+
+35	jedilnice	jedilnica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	_	_
+
+36	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023335.txt
+# text = Calligaris Vivere, Maros, Ljubljana, 47.632 SIT
+1	Calligaris	Calligaris	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Vivere	viver	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	Maros	Maros	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+5	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+6	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	47.632	47.632	NUM	Mdc	NumForm=Digit|NumType=Card	9	nummod	_	_	_
+
+9	SIT	SIT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_	_
+

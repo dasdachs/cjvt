@@ -1,0 +1,137 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0002937.txt
+# text = 13 DNI( THIRTEEN DAYS)
+1	13	13	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	DNI	dan	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur		root	_	_	_
+
+3	(	(	PUNCT	Z	_	4	punct	_	_	_
+
+4	THIRTEEN	thirteen	X	Xf	Foreign=Yes	2	appos	_	_	_
+
+5	DAYS	DAYS	X	X	_	4	flat:foreign	_	_	_
+
+6	)	)	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0002937.txt
+# text = 23. julij- 23. avgust
+1	23.	23.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	julij	julij	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+4	23.	23.	NUM	Mdo	NumForm=Digit|NumType=Ord	5	nummod	_	_	_
+
+5	avgust	avgust	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0002937.txt
+# text = 91 odstotkov anketirank meni, da se v prihodnosti ne smejo zrediti niti za en sam kilogram.
+1	91	91	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	odstotkov	odstotek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	nsubj	_	_	_
+
+3	anketirank	anketiranka	ADJ	Appmpnn	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	2	amod	_	_	_
+
+4	meni	meniti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+6	da	da	SCONJ	Cs	_	11	mark	_	_	_
+
+7	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	12	expl	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	prihodnosti	prihodnost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_	_
+
+10	ne	ne	PART	Q	Polarity=Neg	11	advmod	_	_	_
+
+11	smejo	smeti	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_	_
+
+12	zrediti	zrediti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	11	xcomp	_	_	_
+
+13	niti	niti	PART	Q	_	12	advmod	_	_	_
+
+14	za	za	ADP	Sa	Case=Acc	17	case	_	_	_
+
+15	en	en	NUM	Mlpmsa	Case=Acc|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing	17	nummod	_	_	_
+
+16	sam	sam	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_	_
+
+17	kilogram	kilogram	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_	_
+
+18	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0002937.txt
+# text = 5 % Slovenk ne bi motilo, če bi se zredile za 5 kilogramov, 4 % pa je vseeno, čeprav se zredijo za 10 kilogramov.
+1	5	5	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	%	%	NOUN	Ncmpg	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	_
+
+3	Slovenk	Slovenka	PROPN	Npfpg	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_	_
+
+4	ne	ne	PART	Q	Polarity=Neg	6	advmod	_	_	_
+
+5	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	6	aux	_	_	_
+
+6	motilo	motiti	VERB	Vmpp-sn	Aspect=Imp|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+7	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+8	če	če	SCONJ	Cs	_	11	mark	_	_	_
+
+9	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	11	aux	_	_	_
+
+10	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	11	expl	_	_	_
+
+11	zredile	zrediti	VERB	Vmep-pf	Aspect=Perf|Gender=Fem|Number=Plur|VerbForm=Part	6	advcl	_	_	_
+
+12	za	za	ADP	Sa	Case=Acc	14	case	_	_	_
+
+13	5	5	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+
+14	kilogramov	kilogram	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_	_
+
+15	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+16	4	4	NUM	Mdc	NumForm=Digit|NumType=Card	17	nummod	_	_	_
+
+17	%	%	NOUN	Ncmsn	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_	_
+
+18	pa	pa	CCONJ	Cc	_	19	advmod	_	_	_
+
+19	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	parataxis	_	_	_
+
+20	vseeno	vseeno	ADV	Rgp	Degree=Pos	19	advmod	_	_	_
+
+21	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+22	čeprav	čeprav	SCONJ	Cs	_	24	mark	_	_	_
+
+23	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	24	expl	_	_	_
+
+24	zredijo	zrediti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_	_
+
+25	za	za	ADP	Sa	Case=Acc	27	case	_	_	_
+
+26	10	10	NUM	Mdc	NumForm=Digit|NumType=Card	27	nummod	_	_	_
+
+27	kilogramov	kilogram	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	24	obl	_	_	_
+
+28	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0002937.txt
+# text = ČISTILNA MASKA IZ MANDLJEV IN MEDU
+1	ČISTILNA	čistilen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	MASKA	maska	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+3	IZ	iz	ADP	Sg	Case=Gen	4	case	_	_	_
+
+4	MANDLJEV	Mandejev	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_	_
+
+5	IN	in	CCONJ	Cc	_	6	cc	_	_	_
+
+6	MEDU	medu	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	conj	_	_	_
+

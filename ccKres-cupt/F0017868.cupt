@@ -1,0 +1,635 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0017868.txt
+# text = Vedeti je treba, da je v ponedeljek, 14. novembra, nadzorni svet družbe DARS sprejel poročilo naše komisije.
+1	Vedeti	vedeti	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	2	csubj	_	_	_
+
+2	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	treba	treba	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+4	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+5	da	da	SCONJ	Cs	_	17	mark	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	aux	_	_	_
+
+7	v	v	ADP	Sa	Case=Acc	8	case	_	_	_
+
+8	ponedeljek	ponedeljek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_	_
+
+9	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+10	14.	14.	NUM	Mdo	NumForm=Digit|NumType=Ord	11	nummod	_	_	_
+
+11	novembra	november	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	appos	_	_	_
+
+12	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+13	nadzorni	nadzoren	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+14	svet	svet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_	_
+
+15	družbe	družba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+16	DARS	DARS	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+17	sprejel	sprejeti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	1	ccomp	_	_	_
+
+18	poročilo	poročilo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_	_
+
+19	naše	naš	DET	Ps1fsgp	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	20	det	_	_	_
+
+20	komisije	komisija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_	_
+
+21	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017868.txt
+# text = Zato bi moral DARS ponoviti razpisni postopek.
+1	Zato	zato	CCONJ	Cc	_	3	cc	_	_	_
+
+2	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	3	aux	_	_	_
+
+3	moral	morati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+4	DARS	DARS	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+5	ponoviti	ponoviti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	3	xcomp	_	_	_
+
+6	razpisni	razpisen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	postopek	postopek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_	_
+
+8	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017868.txt
+# text = Dva dni kasneje, v sredo, 16. novembra, je bila ponovno sklicana seja nadzornega sveta, kjer se je začel, vsaj sam to razumem tako, politični pritisk na člane nadzornega sveta.
+1	Dva	dva	NUM	Mlcmdn	Case=Nom|Gender=Masc|NumForm=Word|NumType=Card|Number=Dual	2	nummod	_	_	_
+
+2	dni	dan	NOUN	Ncmda	Case=Acc|Gender=Masc|Number=Dual	3	nmod	_	_	_
+
+3	kasneje	kasno	ADV	Rgc	Degree=Cmp	14	advmod	_	_	_
+
+4	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+5	v	v	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	sredo	sreda	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	appos	_	_	_
+
+7	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+8	16.	16.	NUM	Mdo	NumForm=Digit|NumType=Ord	9	nummod	_	_	_
+
+9	novembra	november	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	appos	_	_	_
+
+10	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+11	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	aux	_	_	_
+
+12	bila	biti	AUX	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	14	cop	_	_	_
+
+13	ponovno	ponovno	ADV	Rgp	Degree=Pos	14	advmod	_	_	_
+
+14	sklicana	sklican	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+15	seja	seja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_	_
+
+16	nadzornega	nadzoren	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_	_
+
+17	sveta	svet	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+18	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+19	kjer	kjer	SCONJ	Cs	_	22	mark	_	_	_
+
+20	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	22	expl	_	_	_
+
+21	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	22	aux	_	_	_
+
+22	začel	začeti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	15	acl	_	_	_
+
+23	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+24	vsaj	vsaj	PART	Q	_	27	advmod	_	_	_
+
+25	sam	samo	PART	Q	_	27	advmod	_	_	_
+
+26	to	ta	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	27	obj	_	_	_
+
+27	razumem	razumeti	VERB	Vmbr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	parataxis	_	_	_
+
+28	tako	tako	ADV	Rgp	Degree=Pos	27	advmod	_	_	_
+
+29	,	,	PUNCT	Z	_	30	punct	_	_	_
+
+30	politični	političen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	28	conj	_	_	_
+
+31	pritisk	pritisk	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_	_
+
+32	na	na	ADP	Sa	Case=Acc	33	case	_	_	_
+
+33	člane	član	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	31	nmod	_	_	_
+
+34	nadzornega	nadzoren	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_	_
+
+35	sveta	svet	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_	_
+
+36	.	.	PUNCT	Z	_	14	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017868.txt
+# text = Na podlagi novega mnenja finančnega ministrstva, ki ga je nadzorni svet prejel v torek, 15. novembra, torej dan po tem, ko je že sprejel mnenje naše komisije, je bilo poročilo komisije drugič zavrnjeno.
+1	Na	na	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	podlagi	podlaga	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	38	obl	_	_	_
+
+3	novega	nov	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_	_
+
+4	mnenja	mnenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+5	finančnega	finančen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_	_
+
+6	ministrstva	ministrstvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+7	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+8	ki	ki	SCONJ	Cs	_	13	mark	_	_	_
+
+9	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	13	obj	_	_	_
+
+10	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	_	_
+
+11	nadzorni	nadzoren	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_	_
+
+12	svet	svet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_	_
+
+13	prejel	prejeti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	6	acl	_	_	_
+
+14	v	v	ADP	Sa	Case=Acc	15	case	_	_	_
+
+15	torek	torek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_	_
+
+16	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+17	15.	15.	NUM	Mdo	NumForm=Digit|NumType=Ord	18	nummod	_	_	_
+
+18	novembra	november	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	15	appos	_	_	_
+
+19	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+20	torej	torej	ADV	Rgp	Degree=Pos	38	advmod	_	_	_
+
+21	dan	dan	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	38	nsubj	_	_	_
+
+22	po	po	ADP	Sl	Case=Loc	23	case	_	_	_
+
+23	tem	ta	DET	Pd-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	21	nmod	_	_	_
+
+24	,	,	PUNCT	Z	_	28	punct	_	_	_
+
+25	ko	ko	SCONJ	Cs	_	28	mark	_	_	_
+
+26	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	28	aux	_	_	_
+
+27	že	že	PART	Q	_	28	advmod	_	_	_
+
+28	sprejel	sprejeti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	23	acl	_	_	_
+
+29	mnenje	mnenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	28	obj	_	_	_
+
+30	naše	naš	DET	Ps1fsgp	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	31	det	_	_	_
+
+31	komisije	komisija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_	_
+
+32	,	,	PUNCT	Z	_	28	punct	_	_	_
+
+33	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	38	aux	_	_	_
+
+34	bilo	biti	AUX	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part	38	cop	_	_	_
+
+35	poročilo	poročilo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	38	nsubj	_	_	_
+
+36	komisije	komisija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	_	_
+
+37	drugič	drugič	ADV	Rgp	Degree=Pos	38	advmod	_	_	_
+
+38	zavrnjeno	zavrnjen	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+39	.	.	PUNCT	Z	_	38	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017868.txt
+# text = Glede tega bi še povedal, da sem bil nekaj dni kasneje vabljen na sejo odbora za okolje in infrastrukturo, kjer naj bi kot predsednik komisije predstavil njeno stališče.
+1	Glede	glede	ADP	Sg	Case=Gen	2	case	_	_	_
+
+2	tega	ta	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	_	_
+
+3	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	5	aux	_	_	_
+
+4	še	še	PART	Q	_	5	advmod	_	_	_
+
+5	povedal	povedati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+7	da	da	SCONJ	Cs	_	13	mark	_	_	_
+
+8	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	_	_
+
+9	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	13	cop	_	_	_
+
+10	nekaj	nekaj	DET	Rgp	PronType=Ind	11	det	_	_	_
+
+11	dni	dan	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_	_
+
+12	kasneje	kasno	ADV	Rgc	Degree=Cmp	13	advmod	_	_	_
+
+13	vabljen	vabljen	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	5	ccomp	_	_	_
+
+14	na	na	ADP	Sa	Case=Acc	15	case	_	_	_
+
+15	sejo	seja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_	_
+
+16	odbora	odbor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+17	za	za	ADP	Sa	Case=Acc	18	case	_	_	_
+
+18	okolje	okolje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	16	nmod	_	_	_
+
+19	in	in	CCONJ	Cc	_	20	cc	_	_	_
+
+20	infrastrukturo	infrastruktura	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	18	conj	_	_	_
+
+21	,	,	PUNCT	Z	_	28	punct	_	_	_
+
+22	kjer	kjer	SCONJ	Cs	_	28	mark	_	_	_
+
+23	naj	naj	PART	Q	_	28	advmod	_	_	_
+
+24	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	28	aux	_	_	_
+
+25	kot	kot	SCONJ	Cs	_	26	case	_	_	_
+
+26	predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	28	obl	_	_	_
+
+27	komisije	komisija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_	_
+
+28	predstavil	predstaviti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	20	acl	_	_	_
+
+29	njeno	njen	DET	Ps3nsasf	Case=Acc|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	30	det	_	_	_
+
+30	stališče	stališče	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	28	obj	_	_	_
+
+31	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017868.txt
+# text = Vendar se je že na začetku seje začela čudna igra, ki je nisem razumel.
+1	Vendar	vendar	CCONJ	Cc	_	8	cc	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	8	expl	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_	_
+
+4	že	že	PART	Q	_	8	advmod	_	_	_
+
+5	na	na	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	začetku	začetek	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_	_
+
+7	seje	seja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+8	začela	začeti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+9	čudna	čuden	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_	_
+
+10	igra	igra	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_	_
+
+11	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+12	ki	ki	SCONJ	Cs	_	15	mark	_	_	_
+
+13	je	on	PRON	Pp3fsg--y	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	15	obj	_	_	_
+
+14	nisem	biti	AUX	Va-r1s-y	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	15	aux	_	_	_
+
+15	razumel	razumeti	VERB	Vmbp-sm	Gender=Masc|Number=Sing|VerbForm=Part	10	acl	_	_	_
+
+16	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017868.txt
+# text = Postavilo se je proceduralno vprašanje, ali se bo poročilo komisije sploh poslušalo ali ne.
+1	Postavilo	postaviti	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	1	expl	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+4	proceduralno	proceduralen	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_	_
+
+5	vprašanje	vprašanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_	_
+
+6	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+7	ali	ali	ADV	Rgp	Degree=Pos	13	mark	_	_	_
+
+8	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	13	expl	_	_	_
+
+9	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	13	aux	_	_	_
+
+10	poročilo	poročilo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_	_
+
+11	komisije	komisija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_	_
+
+12	sploh	sploh	PART	Q	_	13	advmod	_	_	_
+
+13	poslušalo	poslušati	VERB	Vmpp-sn	Aspect=Imp|Gender=Neut|Number=Sing|VerbForm=Part	5	acl	_	_	_
+
+14	ali	ali	CCONJ	Cc	_	15	cc	_	_	_
+
+15	ne	ne	PART	Q	_	13	advmod	_	_	_
+
+16	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017868.txt
+# text = Dejstvo je, da odbor ni organ, ki bi sprejel kakršnokoli odločitev, kljub temu pa poslanci niso hoteli poslušati niti informacije komisije.
+1	Dejstvo	dejstvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_	_
+
+3	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+4	da	da	SCONJ	Cs	_	7	mark	_	_	_
+
+5	odbor	odbor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_	_
+
+6	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	7	cop	_	_	_
+
+7	organ	organ	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	csubj	_	_	_
+
+8	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+9	ki	ki	SCONJ	Cs	_	11	mark	_	_	_
+
+10	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	11	aux	_	_	_
+
+11	sprejel	sprejeti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	7	acl	_	_	_
+
+12	kakršnokoli	kakršenkoli	DET	Pq-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int	13	det	_	_	_
+
+13	odločitev	odločitev	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_	_
+
+14	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+15	kljub	kljub	ADP	Sd	Case=Dat	16	case	_	_	_
+
+16	temu	ta	DET	Pd-nsd	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	21	obl	_	_	_
+
+17	pa	pa	CCONJ	Cc	_	20	advmod	_	_	_
+
+18	poslanci	poslanec	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_	_
+
+19	niso	biti	AUX	Va-r3p-y	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	20	aux	_	_	_
+
+20	hoteli	hoteti	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	1	parataxis	_	_	_
+
+21	poslušati	poslušati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	20	xcomp	_	_	_
+
+22	niti	niti	PART	Q	_	21	advmod	_	_	_
+
+23	informacije	informacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	21	obj	_	_	_
+
+24	komisije	komisija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_	_
+
+25	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017868.txt
+# text = Rekli so, da bo že vlada povedala svoje stališče.
+1	Rekli	reči	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+4	da	da	SCONJ	Cs	_	8	mark	_	_	_
+
+5	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	8	aux	_	_	_
+
+6	že	že	PART	Q	_	8	advmod	_	_	_
+
+7	vlada	vlada	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_	_
+
+8	povedala	povedati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	1	ccomp	_	_	_
+
+9	svoje	svoj	DET	Px-nsa	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	_	_
+
+10	stališče	stališče	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_	_
+
+11	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017868.txt
+# text = Ampak vlada ni strokovni organ, naša komisija pa je bila sestavljena iz samih strokovnjakov, ki so pripravili pravno, finančno in gradbeno strokovno mnenje.
+1	Ampak	ampak	CCONJ	Cc	_	5	cc	_	_	_
+
+2	vlada	vlada	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_	_
+
+3	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+4	strokovni	strokoven	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+5	organ	organ	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+6	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+7	naša	naš	DET	Ps1fsnp	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det	_	_	_
+
+8	komisija	komisija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_	_
+
+9	pa	pa	CCONJ	Cc	_	12	advmod	_	_	_
+
+10	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	aux	_	_	_
+
+11	bila	biti	AUX	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	12	cop	_	_	_
+
+12	sestavljena	sestavljen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	5	parataxis	_	_	_
+
+13	iz	iz	ADP	Sg	Case=Gen	15	case	_	_	_
+
+14	samih	sam	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_	_
+
+15	strokovnjakov	strokovnjak	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_	_
+
+16	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+17	ki	ki	SCONJ	Cs	_	19	mark	_	_	_
+
+18	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	aux	_	_	_
+
+19	pripravili	pripraviti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	15	acl	_	_	_
+
+20	pravno	praven	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_	_
+
+21	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+22	finančno	finančen	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	conj	_	_	_
+
+23	in	in	CCONJ	Cc	_	24	cc	_	_	_
+
+24	gradbeno	gradben	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	conj	_	_	_
+
+25	strokovno	strokoven	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_	_
+
+26	mnenje	mnenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_	_
+
+27	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017868.txt
+# text = Kaj takšnega se ni moglo zgoditi niti v prejšnjem sistemu, sedaj pa je to plod koalicijske obstrukcije z očitnim političnim motivom, da se ne sliši drugo mnenje.
+1	Kaj	kaj	PRON	Pq-nsa	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	5	nsubj	_	_	_
+
+2	takšnega	takšen	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	1	nmod	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	6	expl	_	_	_
+
+4	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+5	moglo	moči	VERB	Vmpp-sn	Aspect=Imp|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	zgoditi	zgoditi	VERB	Vmen	Aspect=Perf|VerbForm=Inf	5	xcomp	_	_	_
+
+7	niti	niti	PART	Q	_	6	advmod	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	10	case	_	_	_
+
+9	prejšnjem	prejšnji	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	sistemu	sistem	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_	_
+
+11	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+12	sedaj	sedaj	ADV	Rgp	Degree=Pos	16	advmod	_	_	_
+
+13	pa	pa	CCONJ	Cc	_	16	advmod	_	_	_
+
+14	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	cop	_	_	_
+
+15	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	16	nsubj	_	_	_
+
+16	plod	plod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	parataxis	_	_	_
+
+17	koalicijske	koalicijski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_	_
+
+18	obstrukcije	obstrukcija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+19	z	z	ADP	Si	Case=Ins	22	case	_	_	_
+
+20	očitnim	očiten	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_	_
+
+21	političnim	političen	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_	_
+
+22	motivom	motiv	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	18	nmod	_	_	_
+
+23	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+24	da	da	SCONJ	Cs	_	27	mark	_	_	_
+
+25	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	27	expl	_	_	_
+
+26	ne	ne	PART	Q	Polarity=Neg	27	advmod	_	_	_
+
+27	sliši	slišati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl	_	_	_
+
+28	drugo	drug	ADJ	Mlpnsa	Case=Acc|Gender=Neut|Number=Sing	29	amod	_	_	_
+
+29	mnenje	mnenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	27	obj	_	_	_
+
+30	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017868.txt
+# text = Osebno menim, da ima lahko takšno ravnanje ministrstva za finance in odbora globoke posledice za naše gospodarstvo, za pravno državo in vstopanje v Evropo, saj naj bi bila graditev avtocestnega križa eden največjih projektov Slovenije do leta 2000.
+1	Osebno	oseben	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+2	menim	meniti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+4	da	da	SCONJ	Cs	_	5	mark	_	_	_
+
+5	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	ccomp	_	_	_
+
+6	lahko	lahko	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+7	takšno	takšen	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	det	_	_	_
+
+8	ravnanje	ravnanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_	_
+
+9	ministrstva	ministrstvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_	_
+
+10	za	za	ADP	Sa	Case=Acc	11	case	_	_	_
+
+11	finance	finance	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	9	nmod	_	_	_
+
+12	in	in	CCONJ	Cc	_	13	cc	_	_	_
+
+13	odbora	odbor	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	conj	_	_	_
+
+14	globoke	globok	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_	_
+
+15	posledice	posledica	NOUN	Ncfsa	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_	_
+
+16	za	za	ADP	Sa	Case=Acc	18	case	_	_	_
+
+17	naše	naš	DET	Ps1nsap	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	18	det	_	_	_
+
+18	gospodarstvo	gospodarstvo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	15	nmod	_	_	_
+
+19	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+20	za	za	ADP	Sa	Case=Acc	22	case	_	_	_
+
+21	pravno	praven	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_	_
+
+22	državo	država	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	_	_
+
+23	in	in	CCONJ	Cc	_	24	cc	_	_	_
+
+24	vstopanje	vstopanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	18	conj	_	_	_
+
+25	v	v	ADP	Sa	Case=Acc	26	case	_	_	_
+
+26	Evropo	Evropa	PROPN	Npfsa	Case=Acc|Gender=Fem|Number=Sing	24	nmod	_	_	_
+
+27	,	,	PUNCT	Z	_	37	punct	_	_	_
+
+28	saj	saj	CCONJ	Cc	_	37	cc	_	_	_
+
+29	naj	naj	PART	Q	_	37	advmod	_	_	_
+
+30	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	37	aux	_	_	_
+
+31	bila	biti	AUX	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	37	cop	_	_	_
+
+32	graditev	graditev	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	37	nsubj	_	_	_
+
+33	avtocestnega	avtocesten	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_	_
+
+34	križa	križ	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_	_
+
+35	eden	eden	NUM	Mlpmsn	Case=Nom|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing	37	nummod	_	_	_
+
+36	največjih	velik	ADJ	Agsmpg	Case=Gen|Degree=Sup|Gender=Masc|Number=Plur	37	amod	_	_	_
+
+37	projektov	projekt	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	conj	_	_	_
+
+38	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	_	_
+
+39	do	do	ADP	Sg	Case=Gen	40	case	_	_	_
+
+40	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	37	nmod	_	_	_
+
+41	2000	2000	NUM	Mdc	NumForm=Digit|NumType=Card	40	nummod	_	_	_
+
+42	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017868.txt
+# text = Ičo Vidmar
+1	Ičo	Ičo	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	Vidmar	Vidmar	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	flat:name	_	_	_
+

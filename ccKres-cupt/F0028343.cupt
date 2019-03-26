@@ -1,0 +1,403 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = ZBIRKA KITAJSKI HOROSKOPI
+1	ZBIRKA	zbirka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	KITAJSKI	kitajski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	HOROSKOPI	horoskopi	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = 21. januar 1966 do 8. februar 1967
+1	21.	21.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	januar	januar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	1966	1966	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+4	do	do	ADP	Sg	Case=Gen	6	case	_	_	_
+
+5	8.	8.	NUM	Mdo	NumForm=Digit|NumType=Ord	6	nummod	_	_	_
+
+6	februar	februar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+7	1967	1967	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = JIN IN JANG
+1	JIN	JIN	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	IN	in	CCONJ	Cc	_	3	cc	_	_	_
+
+3	JANG	JANG	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = PALČKE ZA DIVINACIJO
+1	PALČKE	palček	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur		root	_	_	_
+
+2	ZA	za	ADP	Sa	Case=Acc	3	case	_	_	_
+
+3	DIVINACIJO	divinacija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = Kitajska legenda pravi, da je cesar Žad, nebeški vladar, dal privesti k sebi dvanajst najzanimivejših živali z Zemlje.
+1	Kitajska	Kitajska	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	legenda	legenda	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+3	pravi	praviti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+5	da	da	SCONJ	Cs	_	13	mark	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	_	_
+
+7	cesar	cesar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_	_
+
+8	Žad	žad	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+9	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+10	nebeški	nebeški	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	vladar	vladar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_	_
+
+12	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+13	dal	dati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	3	ccomp	_	_	_
+
+14	privesti	privesti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	13	xcomp	_	_	_
+
+15	k	k	ADP	Sd	Case=Dat	16	case	_	_	_
+
+16	sebi	se	PRON	Px---d	Case=Dat|PronType=Prs|Reflex=Yes	14	obl	_	_	_
+
+17	dvanajst	dvanajst	NUM	Mlc-pa	Case=Acc|NumForm=Word|NumType=Card|Number=Plur	19	nummod	_	_	_
+
+18	najzanimivejših	zanimiv	ADJ	Agsfpg	Case=Gen|Degree=Sup|Gender=Fem|Number=Plur	19	amod	_	_	_
+
+19	živali	žival	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	14	obj	_	_	_
+
+20	z	z	ADP	Sg	Case=Gen	21	case	_	_	_
+
+21	Zemlje	zemlja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_	_
+
+22	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = Konju je dodelil sedmo mesto.
+1	Konju	Konj	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	_	_
+
+3	dodelil	dodeliti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+4	sedmo	sedmi	ADJ	Mlonsa	Case=Acc|Gender=Neut|NumType=Ord|Number=Sing	5	amod	_	_	_
+
+5	mesto	mesto	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_	_
+
+6	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = KONJ
+1	KONJ	KONJ	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = MOTIVACIJA
+1	MOTIVACIJA	motivacija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = Z vašim astrološkim znamenjem je povezan lotos( Nelumbo nucifera).
+1	Z	z	ADP	Si	Case=Ins	4	case	_	_	_
+
+2	vašim	vaš	DET	Ps1nsip	Case=Ins|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	_	_	_
+
+3	astrološkim	astrološki	ADJ	Agpnsi	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_	_
+
+4	znamenjem	znamenje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	6	obl	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_	_
+
+6	povezan	povezan	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+7	lotos	lotos	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	_
+
+8	(	(	PUNCT	Z	_	9	punct	_	_	_
+
+9	Nelumbo	Nelumba	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_	_
+
+10	nucifera	nucifer	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+11	)	)	PUNCT	Z	_	9	punct	_	_	_
+
+12	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = Iz njegovih semen izdelujejo sredstva za jačanje želodca in vranice, za ohranjanje duševnega ravnovesja ter za nadziranje ravni telesnih tekočin.
+1	Iz	iz	ADP	Sg	Case=Gen	3	case	_	_	_
+
+2	njegovih	njegov	DET	Ps3npgsm	Case=Gen|Gender=Neut|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_	_
+
+3	semen	seme	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	4	obl	_	_	_
+
+4	izdelujejo	izdelovati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	sredstva	sredstvo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_	_
+
+6	za	za	ADP	Sa	Case=Acc	7	case	_	_	_
+
+7	jačanje	jačanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	_	_
+
+8	želodca	želodec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+9	in	in	CCONJ	Cc	_	10	cc	_	_	_
+
+10	vranice	vranica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	conj	_	_	_
+
+11	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+12	za	za	ADP	Sa	Case=Acc	13	case	_	_	_
+
+13	ohranjanje	ohranjanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	7	conj	_	_	_
+
+14	duševnega	duševen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_	_
+
+15	ravnovesja	ravnovesje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_	_
+
+16	ter	ter	CCONJ	Cc	_	18	cc	_	_	_
+
+17	za	za	ADP	Sa	Case=Acc	18	case	_	_	_
+
+18	nadziranje	nadziranje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	13	conj	_	_	_
+
+19	ravni	raven	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_	_
+
+20	telesnih	telesen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	_	_
+
+21	tekočin	tekočina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_	_
+
+22	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = HRANA
+1	HRANA	hrana	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = 12 V vašem značaju je nekaj dvojnosti; po eni strani ste delavni in radodarni, po drugi preračunljivi in hladni.
+1	12	12	NUM	Mdc	NumForm=Digit|NumType=Card	5	advmod	_	_	_
+
+2	V	v	ADP	Sl	Case=Loc	4	case	_	_	_
+
+3	vašem	vaš	DET	Ps1mslp	Case=Loc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	_	_	_
+
+4	značaju	značaj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_	_
+
+5	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	nekaj	nekaj	DET	Rgp	PronType=Ind	7	det	_	_	_
+
+7	dvojnosti	dvojnost	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	5	nsubj	_	_	_
+
+8	;	;	PUNCT	Z	_	13	punct	_	_	_
+
+9	po	po	ADP	Sl	Case=Loc	11	case	_	_	_
+
+10	eni	en	NUM	Mlpfsl	Case=Loc|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing	11	nummod	_	_	_
+
+11	strani	stran	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_	_
+
+12	ste	biti	AUX	Va-r2p-n	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	cop	_	_	_
+
+13	delavni	delaven	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	parataxis	_	_	_
+
+14	in	in	CCONJ	Cc	_	15	cc	_	_	_
+
+15	radodarni	radodaren	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	13	conj	_	_	_
+
+16	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+17	po	po	ADP	Sl	Case=Loc	18	case	_	_	_
+
+18	drugi	drug	ADJ	Mlpfsl	Case=Loc|Gender=Fem|Number=Sing	19	obl	_	_	_
+
+19	preračunljivi	preračunljiv	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	conj	_	_	_
+
+20	in	in	CCONJ	Cc	_	21	cc	_	_	_
+
+21	hladni	hladen	ADJ	Agpmpl	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	19	conj	_	_	_
+
+22	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = okvir:
+1	okvir	okvir	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = 5. okt.- 3. nov.
+1	5.	5.	NUM	Mdo	NumForm=Digit|NumType=Ord	5	nummod	_	_	_
+
+2	okt.	okt.	X	Y	Abbr=Yes	5	discourse	_	_	_
+
+3	-	-	PUNCT	Z	_	4	punct	_	_	_
+
+4	3.	3.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+5	nov	nov	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing		root	_	_	_
+
+6	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = 9
+1	9	9	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = 15. maj- 13. jun.
+1	15.	15.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	maj	maj	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	-	-	PUNCT	Z	_	4	punct	_	_	_
+
+4	13.	13.	NUM	Mdo	NumForm=Digit|NumType=Ord	5	nummod	_	_	_
+
+5	jun	jun	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_	_
+
+6	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = 4
+1	4	4	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = 1919 1. feb.
+1	1919	1919	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	3	nummod	_	_	_
+
+3	feb	feb	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = - 19. feb.
+1	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+2	19.	19.	NUM	Mdo	NumForm=Digit|NumType=Ord	3	nummod	_	_	_
+
+3	feb	feb	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+4	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = 1920 Oven
+1	1920	1920	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Oven	oven	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = 1937 11. feb.
+1	1937	1937	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	11.	11.	NUM	Mdo	NumForm=Digit|NumType=Ord	1	flat	_	_	_
+
+3	feb	feb	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+4	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = - 30. jan.
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	30.	30.	NUM	Mdo	NumForm=Digit|NumType=Ord		root	_	_	_
+
+3	jan	jan	X	Xf	Foreign=Yes	2	flat:foreign	_	_	_
+
+4	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = 1938Vol
+1	1938	1938	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	Vol	vola	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = 1950 17. feb.
+1	1950	1950	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	17.	17.	NUM	Mdo	NumForm=Digit|NumType=Ord	1	flat	_	_	_
+
+3	feb	feb	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+4	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = - 5. feb.
+1	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+2	5.	5.	NUM	Mdo	NumForm=Digit|NumType=Ord	3	nummod	_	_	_
+
+3	feb	feb	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+4	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = 1951 Tiger
+1	1951	1951	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	Tiger	Tiger	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = 1964 13. feb.
+1	1964	1964	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	13.	13.	NUM	Mdo	NumForm=Digit|NumType=Ord	1	flat	_	_	_
+
+3	feb	feb	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+4	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = - 1. feb.
+1	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+2	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	3	nummod	_	_	_
+
+3	feb	feb	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+4	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = 1965 Zmaj
+1	1965	1965	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Zmaj	zmaj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = 1975 11. feb.
+1	1975	1975	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	11.	11.	NUM	Mdo	NumForm=Digit|NumType=Ord	1	flat	_	_	_
+
+3	feb	feb	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+4	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = - 30. jan.
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	30.	30.	NUM	Mdo	NumForm=Digit|NumType=Ord		root	_	_	_
+
+3	jan	jan	X	Xf	Foreign=Yes	2	flat:foreign	_	_	_
+
+4	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0028343.txt
+# text = 1976 Zajec
+1	1976	1976	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	Zajec	zajec	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+

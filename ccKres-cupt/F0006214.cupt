@@ -1,0 +1,297 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0006214.txt
+# text = Aljoša Dragaš
+1	Aljoša	Aljoša	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	Dragaš	Dragaš	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0006214.txt
+# text = Nekdanji predsednik francoskega prvoligaša Olimpiquea iz Marseilla, Bernard Tapie, se bo vrnil k svojemu najljubšemu konjičku- vodenju kluba.
+1	Nekdanji	nekdanji	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_	_
+
+3	francoskega	francoski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	prvoligaša	prvoligaš	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	Olimpiquea	Olimpique	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+6	iz	iz	ADP	Sg	Case=Gen	7	case	_	_	_
+
+7	Marseilla	Marseill	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+8	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+9	Bernard	Bernard	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_	_
+
+10	Tapie	Tapie	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_	_
+
+11	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+12	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	14	expl	_	_	_
+
+13	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	14	aux	_	_	_
+
+14	vrnil	vrniti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+15	k	k	ADP	Sd	Case=Dat	18	case	_	_	_
+
+16	svojemu	svoj	DET	Px-msd	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	18	det	_	_	_
+
+17	najljubšemu	uljub	ADJ	Agsmsd	Case=Dat|Degree=Sup|Gender=Masc|Number=Sing	18	amod	_	_	_
+
+18	konjičku	konjiček	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	_	_
+
+19	-	-	PUNCT	Z	_	20	punct	_	_	_
+
+20	vodenju	vodenje	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	18	appos	_	_	_
+
+21	kluba	klub	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_	_
+
+22	.	.	PUNCT	Z	_	14	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0006214.txt
+# text = Pred leti je bil obsojen zaradi podkupovanja in prirejanja rezultatov, kar je bil tudi glavni razlog, da je bil šest mesecev zaprt.
+1	Pred	pred	ADP	Si	Case=Ins	2	case	_	_	_
+
+2	leti	leto	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	5	obl	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+4	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	5	cop	_	_	_
+
+5	obsojen	obsojen	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	zaradi	zaradi	ADP	Sg	Case=Gen	7	case	_	_	_
+
+7	podkupovanja	podkupovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_	_
+
+8	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+9	prirejanja	prirejanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	7	conj	_	_	_
+
+10	rezultatov	rezultat	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_	_
+
+11	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+12	kar	kar	PRON	Pr-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	17	nsubj	_	_	_
+
+13	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	aux	_	_	_
+
+14	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	17	cop	_	_	_
+
+15	tudi	tudi	PART	Q	_	17	advmod	_	_	_
+
+16	glavni	glaven	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_	_
+
+17	razlog	razlog	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	parataxis	_	_	_
+
+18	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+19	da	da	SCONJ	Cs	_	24	mark	_	_	_
+
+20	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	24	aux	_	_	_
+
+21	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	24	cop	_	_	_
+
+22	šest	šest	NUM	Mlc-pa	Case=Acc|NumForm=Word|NumType=Card|Number=Plur	23	nummod	_	_	_
+
+23	mesecev	mesec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	24	obl	_	_	_
+
+24	zaprt	zaprt	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	17	acl	_	_	_
+
+25	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0006214.txt
+# text = Zdaj bo spet prevzel enako funkcijo, kot jo je opravljal pred leti.
+1	Zdaj	zdaj	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+2	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	4	aux	_	_	_
+
+3	spet	spet	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+4	prevzel	prevzeti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	enako	enak	DET	Pi-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	6	det	_	_	_
+
+6	funkcijo	funkcija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_	_
+
+7	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+8	kot	kot	SCONJ	Cs	_	11	mark	_	_	_
+
+9	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	11	obj	_	_	_
+
+10	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_	_
+
+11	opravljal	opravljati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	6	acl	_	_	_
+
+12	pred	pred	ADP	Si	Case=Ins	13	case	_	_	_
+
+13	leti	leto	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	11	obl	_	_	_
+
+14	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0006214.txt
+# text = Vodil bo vse športne zadeve nekdanjega prvaka Evrope, Marseilla, je povedal predsednik kluba Robert- Louis Dreyfus.
+1	Vodil	voditi	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	1	aux	_	_	_
+
+3	vse	ves	DET	Pg-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	5	det	_	_	_
+
+4	športne	športen	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_	_
+
+5	zadeve	zadeva	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_	_
+
+6	nekdanjega	nekdanji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	prvaka	prvak	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+8	Evrope	Evropa	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+9	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+10	Marseilla	Marseill	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	8	appos	_	_	_
+
+11	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+12	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	_	_
+
+13	povedal	povedati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	1	parataxis	_	_	_
+
+14	predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_	_
+
+15	kluba	klub	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+16	Robert	Robert	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+17	-	-	PUNCT	Z	_	18	punct	_	_	_
+
+18	Louis	Louis	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	16	conj	_	_	_
+
+19	Dreyfus	Dreyfus	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	18	flat:name	_	_	_
+
+20	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0006214.txt
+# text = Veteran v francoski reprezentanci Didier Deschamps vidi edino priložnost za vrnitev kluba na pota stare slave v Tapieju:" Tapie je človek, ki te nikoli ne pusti na cedilu.
+1	Veteran	veteran	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_	_
+
+2	v	v	ADP	Sl	Case=Loc	4	case	_	_	_
+
+3	francoski	francoski	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	reprezentanci	reprezentanca	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+5	Didier	Didier	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+6	Deschamps	deschamps	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_	_
+
+7	vidi	videti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+8	edino	edin	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_	_
+
+9	priložnost	priložnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_	_
+
+10	za	za	ADP	Sa	Case=Acc	11	case	_	_	_
+
+11	vrnitev	vrnitev	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+12	kluba	klub	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+13	na	na	ADP	Sa	Case=Acc	14	case	_	_	_
+
+14	pota	pot	NOUN	Ncmsa	Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+15	stare	star	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_	_
+
+16	slave	slava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+17	v	v	ADP	Sl	Case=Loc	18	case	_	_	_
+
+18	Tapieju	Tapie	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+19	:	:	PUNCT	Z	_	23	punct	_	_	_
+
+20	"	"	PUNCT	Z	_	23	punct	_	_	_
+
+21	Tapie	Tapie	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_	_
+
+22	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	23	cop	_	_	_
+
+23	človek	človek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	parataxis	_	_	_
+
+24	,	,	PUNCT	Z	_	29	punct	_	_	_
+
+25	ki	ki	SCONJ	Cs	_	29	mark	_	_	_
+
+26	te	ti	PRON	Pp2-sa--y	Case=Acc|Number=Sing|Person=2|PronType=Prs|Variant=Short	29	obj	_	_	_
+
+27	nikoli	nikoli	ADV	Rgp	Degree=Pos	29	advmod	_	_	_
+
+28	ne	ne	PART	Q	Polarity=Neg	29	advmod	_	_	_
+
+29	pusti	pustiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl	_	_	_
+
+30	na	na	ADP	Sl	Case=Loc	31	case	_	_	_
+
+31	cedilu	cedilo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	29	obl	_	_	_
+
+32	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0006214.txt
+# text = Meni osebno in mnogim drugim nogometašem je veliko pomagal.
+1	Meni	jaz	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	9	obj	_	_	_
+
+2	osebno	osebno	ADV	Rgp	Degree=Pos	9	advmod	_	_	_
+
+3	in	in	CCONJ	Cc	_	6	cc	_	_	_
+
+4	mnogim	mnog	DET	Pi-mpd	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_	_
+
+5	drugim	drug	ADJ	Mlpmpd	Case=Dat|Gender=Masc|Number=Plur	6	amod	_	_	_
+
+6	nogometašem	nogometaš	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	2	conj	_	_	_
+
+7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	aux	_	_	_
+
+8	veliko	veliko	DET	Rgp	PronType=Ind	9	advmod	_	_	_
+
+9	pomagal	pomagati	VERB	Vmbp-sm	Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+10	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0006214.txt
+# text = Upam, da bo enako uspešen, kot je bil pred leti.
+1	Upam	upati	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+3	da	da	SCONJ	Cs	_	6	mark	_	_	_
+
+4	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	6	cop	_	_	_
+
+5	enako	enako	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+6	uspešen	uspešen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	1	ccomp	_	_	_
+
+7	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+8	kot	kot	SCONJ	Cs	_	10	mark	_	_	_
+
+9	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	_	_
+
+10	bil	biti	VERB	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	6	advcl	_	_	_
+
+11	pred	pred	ADP	Si	Case=Ins	12	case	_	_	_
+
+12	leti	leto	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	10	obl	_	_	_
+
+13	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0006214.txt
+# text = "
+1	"	"	PUNCT	Z	_		root	_	_	_
+

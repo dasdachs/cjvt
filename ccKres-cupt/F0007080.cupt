@@ -1,0 +1,133 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0007080.txt
+# text = - Janez Burgar- Valburga
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	Janez	Janez	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	Burgar	Burgar	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_	_
+
+4	-	-	PUNCT	Z	_	5	punct	_	_	_
+
+5	Valburga	Valburg	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007080.txt
+# text = KDO JE KDO NA GORENJSKEM
+1	KDO	KDO	PRON	Pq-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	2	nsubj	_	_	_
+
+2	JE	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	KDO	KDO	PRON	Pq-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	2	nsubj	_	_	_
+
+4	NA	na	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	GORENJSKEM	Gorenjsko	PROPN	Npnsl	Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007080.txt
+# text = - ZA DRUŠTVO ONKOLOŠKIH BOLNIKOV SLOVENIJE: žiro račun: 50103- 678- 43005; naslov: Društvo onkoloških bolnikov, Onkološki inštitut, Oddelek za psihoonkologijo, Zaloška c. 2, 61105 Ljubljana.
+1	-	-	PUNCT	Z	_	9	punct	_	_	_
+
+2	ZA	za	ADP	Sa	Case=Acc	3	case	_	_	_
+
+3	DRUŠTVO	društvo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_	_
+
+4	ONKOLOŠKIH	onkološki	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_	_
+
+5	BOLNIKOV	bolnik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_	_
+
+6	SLOVENIJE	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+7	:	:	PUNCT	Z	_	9	punct	_	_	_
+
+8	žiro	žira	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+9	račun	račun	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+10	:	:	PUNCT	Z	_	9	punct	_	_	_
+
+11	50103	50103	NUM	Mdc	NumForm=Digit|NumType=Card	9	nummod	_	_	_
+
+12	-	-	PUNCT	Z	_	13	punct	_	_	_
+
+13	678	678	NUM	Mdc	NumForm=Digit|NumType=Card	11	conj	_	_	_
+
+14	-	-	PUNCT	Z	_	15	punct	_	_	_
+
+15	43005	43005	NUM	Mdc	NumForm=Digit|NumType=Card	11	conj	_	_	_
+
+16	;	;	PUNCT	Z	_	15	punct	_	_	_
+
+17	naslov	naslov	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	parataxis	_	_	_
+
+18	:	:	PUNCT	Z	_	17	punct	_	_	_
+
+19	Društvo	društvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_	_
+
+20	onkoloških	onkološki	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_	_
+
+21	bolnikov	bolnik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_	_
+
+22	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+23	Onkološki	onkološki	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_	_
+
+24	inštitut	inštitut	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	19	conj	_	_	_
+
+25	,	,	PUNCT	Z	_	26	punct	_	_	_
+
+26	Oddelek	oddelek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	19	conj	_	_	_
+
+27	za	za	ADP	Sa	Case=Acc	28	case	_	_	_
+
+28	psihoonkologijo	psihoonkologija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	26	nmod	_	_	_
+
+29	,	,	PUNCT	Z	_	30	punct	_	_	_
+
+30	Zaloška	zaloški	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	19	conj	_	_	_
+
+31	c.	c.	X	Y	Abbr=Yes	30	nmod	_	_	_
+
+32	2	2	NUM	Mdc	NumForm=Digit|NumType=Card	31	nummod	_	_	_
+
+33	,	,	PUNCT	Z	_	34	punct	_	_	_
+
+34	61105	61105	NUM	Mdc	NumForm=Digit|NumType=Card	32	conj	_	_	_
+
+35	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	31	appos	_	_	_
+
+36	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007080.txt
+# text = KRIMINAL
+1	KRIMINAL	kriminal	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007080.txt
+# text = Tel.&fax: 064/ 221- 164
+1	Tel.&fax	Tel.&fax	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing		root	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	064	064	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+4	/	/	PUNCT	Z	_	5	punct	_	_	_
+
+5	221	221	NUM	Mdc	NumForm=Digit|NumType=Card	3	conj	_	_	_
+
+6	-	-	PUNCT	Z	_	7	punct	_	_	_
+
+7	164	164	NUM	Mdc	NumForm=Digit|NumType=Card	3	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007080.txt
+# text = Gorenjska c. 33 c
+1	Gorenjska	Gorenjsk	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	c.	c.	X	Y	Abbr=Yes	1	nmod	_	_	_
+
+3	33	33	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+4	c	c	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007080.txt
+# text = 28
+1	28	28	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+

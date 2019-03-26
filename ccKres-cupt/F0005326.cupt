@@ -1,0 +1,737 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = Domača stran: http:// www.
+1	Domača	domač	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	stran	stran	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+3	:	:	PUNCT	Z	_	2	punct	_	_	_
+
+4	http:	http:	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	/	/	PUNCT	Z	_	7	punct	_	_	_
+
+6	/	/	PUNCT	Z	_	7	punct	_	_	_
+
+7	www	www	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_	_
+
+8	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = unisyn.com/automate/.
+1	unisyn.com/automate/	unisyn.com/automate/	INTJ	I	_		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = Program: http:// ftp.loop.com/ ~unisyn/automate .exe.
+1	Program	program	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	http:	http:	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	/	/	PUNCT	Z	_	6	punct	_	_	_
+
+5	/	/	PUNCT	Z	_	6	punct	_	_	_
+
+6	ftp.loop.com	ftp.loop.ca	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_	_
+
+7	/	/	PUNCT	Z	_	8	punct	_	_	_
+
+8	~unisyn/automate	aunisynautomat	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Plur	3	conj	_	_	_
+
+9	.exe	.eza	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+10	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = Okolje: Windows 3.
+1	Okolje	okolje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Windows	Windows	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+5	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = 1/95/98/ NT 3.51/ NT 4. Velikost: 6300 KB. Cena: Standardna inačica 59,95 dolarja, profesionalna 179,95 dolarja.
+1	1/95/98	1/95/98	NUM	Mdc	NumForm=Digit|NumType=Card	20	parataxis	_	_	_
+
+2	/	/	PUNCT	Z	_	3	punct	_	_	_
+
+3	NT	NT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+4	3.51	3.51	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+5	/	/	PUNCT	Z	_	6	punct	_	_	_
+
+6	NT	NT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_	_
+
+7	4.	4.	NUM	Mdo	NumForm=Digit|NumType=Ord	8	nummod	_	_	_
+
+8	Velikost	velikost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_	_
+
+9	:	:	PUNCT	Z	_	13	punct	_	_	_
+
+10	6300	6300	NUM	Mdc	NumForm=Digit|NumType=Card	11	nummod	_	_	_
+
+11	KB	KB	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+12	.	.	PUNCT	Z	_	13	punct	_	_	_
+
+13	Cena	cena	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_	_
+
+14	:	:	PUNCT	Z	_	16	punct	_	_	_
+
+15	Standardna	standarden	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_	_
+
+16	inačica	inačica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_	_
+
+17	59,95	59,95	NUM	Mdc	NumForm=Digit|NumType=Card	18	nummod	_	_	_
+
+18	dolarja	dolar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_	_
+
+19	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+20	profesionalna	profesionalen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing		root	_	_	_
+
+21	179,95	179,95	NUM	Mdc	NumForm=Digit|NumType=Card	22	nummod	_	_	_
+
+22	dolarja	dolar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	20	obl	_	_	_
+
+23	.	.	PUNCT	Z	_	20	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = Po podatkih agencije Zona Research( http:// www.
+1	Po	po	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	podatkih	podatek	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur		root	_	_	_
+
+3	agencije	agencija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	Zona	zona	PROPN	Npfsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+5	Research	Research	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+6	(	(	PUNCT	Z	_	7	punct	_	_	_
+
+7	http	http	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_	_
+
+8	:	:	PUNCT	Z	_	7	punct	_	_	_
+
+9	/	/	PUNCT	Z	_	7	punct	_	_	_
+
+10	/	/	PUNCT	Z	_	11	punct	_	_	_
+
+11	www	www	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_	_
+
+12	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = zonaresearch.com/) je svetovni trg šibkih odjemalcev v letu 1997 dosegel 34,7- odstotno povečanje.
+1	zonaresearch.com	zonareserrch.ca	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	12	parataxis	_	_	_
+
+2	/	/	PUNCT	Z	_	1	punct	_	_	_
+
+3	)	)	PUNCT	Z	_	1	punct	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	aux	_	_	_
+
+5	svetovni	svetoven	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+6	trg	trg	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_	_
+
+7	šibkih	šibek	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_	_
+
+8	odjemalcev	odjemalec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	10	case	_	_	_
+
+10	letu	leto	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_	_
+
+11	1997	1997	NUM	Mdc	NumForm=Digit|NumType=Card	10	nummod	_	_	_
+
+12	dosegel	doseči	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+13	34,7	34,7	NUM	Mdc	NumForm=Digit|NumType=Card	15	nummod	_	_	_
+
+14	-	-	PUNCT	Z	_	15	punct	_	_	_
+
+15	odstotno	odstoten	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_	_
+
+16	povečanje	povečanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_	_
+
+17	.	.	PUNCT	Z	_	12	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = Prodanih je bilo 347.917 odjemalcev v skupni vrednosti 350 milijonov dolarjev.
+1	Prodanih	prodan	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	bilo	biti	VERB	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part	1	cop	_	_	_
+
+4	347.917	347.917	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+5	odjemalcev	odjemalec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	nsubj	_	_	_
+
+6	v	v	ADP	Sl	Case=Loc	8	case	_	_	_
+
+7	skupni	skupen	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	vrednosti	vrednost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+9	350	350	NUM	Mdc	NumForm=Digit|NumType=Card	10	nummod	_	_	_
+
+10	milijonov	milijon	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_	_
+
+11	dolarjev	dolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_	_
+
+12	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = Med šibke odjemalce pri Zona Research uvrščajo vse naprave, ki lahko izvajajo programe v strežniku in strežnik uporabljajo pri nameščanju, vzdrževanju in upravljanju programja.
+1	Med	med	ADP	Sa	Case=Acc	3	case	_	_	_
+
+2	šibke	šibek	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_	_
+
+3	odjemalce	odjemalec	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	7	obl	_	_	_
+
+4	pri	pri	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	Zona	zona	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+6	Research	Research	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+7	uvrščajo	uvrščati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+8	vse	ves	DET	Pg-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	9	det	_	_	_
+
+9	naprave	naprava	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_	_
+
+10	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+11	ki	ki	SCONJ	Cs	_	13	mark	_	_	_
+
+12	lahko	lahko	ADV	Rgp	Degree=Pos	13	advmod	_	_	_
+
+13	izvajajo	izvajati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	_	_
+
+14	programe	program	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_	_
+
+15	v	v	ADP	Sl	Case=Loc	16	case	_	_	_
+
+16	strežniku	strežnik	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+17	in	in	CCONJ	Cc	_	19	cc	_	_	_
+
+18	strežnik	strežnik	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_	_
+
+19	uporabljajo	uporabljati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_	_
+
+20	pri	pri	ADP	Sl	Case=Loc	21	case	_	_	_
+
+21	nameščanju	nameščanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	19	obl	_	_	_
+
+22	,	,	PUNCT	Z	_	23	punct	_	_	_
+
+23	vzdrževanju	vzdrževanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	21	conj	_	_	_
+
+24	in	in	CCONJ	Cc	_	25	cc	_	_	_
+
+25	upravljanju	upravljanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	21	conj	_	_	_
+
+26	programja	programje	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_	_
+
+27	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = S hišnim video centrom naj bi izbirali in predvajali kabelske programe, brskali po svetovnem spletu, gledali filme z enot DVD ter se igrali z zahtevnejšimi 3D igrami.
+1	S	z	ADP	Si	Case=Ins	4	case	_	_	_
+
+2	hišnim	hišen	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+3	video	video	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+4	centrom	center	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_	_
+
+5	naj	naj	PART	Q	_	7	advmod	_	_	_
+
+6	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	7	aux	_	_	_
+
+7	izbirali	izbirati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+8	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+9	predvajali	predvajati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	7	conj	_	_	_
+
+10	kabelske	kabelski	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_	_
+
+11	programe	program	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_	_
+
+12	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+13	brskali	brskati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	7	parataxis	_	_	_
+
+14	po	po	ADP	Sl	Case=Loc	16	case	_	_	_
+
+15	svetovnem	svetoven	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_	_
+
+16	spletu	splet	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_	_
+
+17	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+18	gledali	gledati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	7	parataxis	_	_	_
+
+19	filme	film	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	18	obj	_	_	_
+
+20	z	z	ADP	Sg	Case=Gen	21	case	_	_	_
+
+21	enot	enota	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_	_
+
+22	DVD	DVD	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	21	nmod	_	_	_
+
+23	ter	ter	CCONJ	Cc	_	25	cc	_	_	_
+
+24	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	25	expl	_	_	_
+
+25	igrali	igrati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	18	conj	_	_	_
+
+26	z	z	ADP	Si	Case=Ins	29	case	_	_	_
+
+27	zahtevnejšimi	zahteven	ADJ	Agcfpi	Case=Ins|Degree=Cmp|Gender=Fem|Number=Plur	29	amod	_	_	_
+
+28	3D	3d	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	29	nmod	_	_	_
+
+29	igrami	igra	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	25	obl	_	_	_
+
+30	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = Poleg tega računajo tudi na množico programov, ki so jih programske hiše že priredile za operacijski sistem Windows CE ali pa jih še bodo.
+1	Poleg	poleg	ADP	Sg	Case=Gen	2	case	_	_	_
+
+2	tega	ta	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	_	_
+
+3	računajo	računati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	tudi	tudi	PART	Q	_	3	advmod	_	_	_
+
+5	na	na	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	množico	množica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_	_
+
+7	programov	program	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_	_
+
+8	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+9	ki	ki	SCONJ	Cs	_	15	mark	_	_	_
+
+10	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	aux	_	_	_
+
+11	jih	on	PRON	Pp3fpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	15	obj	_	_	_
+
+12	programske	programski	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_	_
+
+13	hiše	hiša	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_	_
+
+14	že	že	PART	Q	_	15	advmod	_	_	_
+
+15	priredile	prirediti	VERB	Vmep-pf	Aspect=Perf|Gender=Fem|Number=Plur|VerbForm=Part	7	acl	_	_	_
+
+16	za	za	ADP	Sa	Case=Acc	18	case	_	_	_
+
+17	operacijski	operacijski	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_	_
+
+18	sistem	sistem	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_	_
+
+19	Windows	Windows	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	18	nmod	_	_	_
+
+20	CE	ce	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+
+21	ali	ali	CCONJ	Cc	_	25	cc	_	_	_
+
+22	pa	pa	CCONJ	Cc	_	25	advmod	_	_	_
+
+23	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	25	nsubj	_	_	_
+
+24	še	še	PART	Q	_	25	advmod	_	_	_
+
+25	bodo	biti	VERB	Va-f3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	15	conj	_	_	_
+
+26	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = Med drugim je na voljo tudi program ATI Video Player.
+1	Med	med	ADP	Si	Case=Ins	2	case	_	_	_
+
+2	drugim	drug	ADJ	Mlpmsi	Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_	_
+
+3	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	na	na	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	voljo	volja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_	_
+
+6	tudi	tudi	PART	Q	_	3	advmod	_	_	_
+
+7	program	program	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+8	ATI	ATI	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+9	Video	video	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+10	Player	Player	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+11	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = Obenem ATI prenaša svoje gonilnike Turbo 2D in 3D v okolje Windows CE ter tako poskuša vzpodbuditi razvijalce računalniških iger, da bi svoje izdelke prenesli z Windows 95 na Windows CE.
+1	Obenem	obenem	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+2	ATI	ATI	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+3	prenaša	prenašati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	svoje	svoj	DET	Px-mpa	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	_	_
+
+5	gonilnike	gonilnik	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_	_
+
+6	Turbo	Turbo	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+7	2D	2D	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+8	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+9	3D	3d	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_	_
+
+10	v	v	ADP	Sa	Case=Acc	11	case	_	_	_
+
+11	okolje	okolje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_	_
+
+12	Windows	Windows	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+13	CE	ce	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+14	ter	ter	CCONJ	Cc	_	16	cc	_	_	_
+
+15	tako	tako	ADV	Rgp	Degree=Pos	17	advmod	_	_	_
+
+16	poskuša	poskušati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_	_
+
+17	vzpodbuditi	vzpodbuditi	VERB	Vmen	Aspect=Perf|VerbForm=Inf	16	xcomp	_	_	_
+
+18	razvijalce	razvijalec	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_	_
+
+19	računalniških	računalniški	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	_	_
+
+20	iger	igra	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_	_
+
+21	,	,	PUNCT	Z	_	26	punct	_	_	_
+
+22	da	da	SCONJ	Cs	_	26	mark	_	_	_
+
+23	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	26	aux	_	_	_
+
+24	svoje	svoj	DET	Px-mpa	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	25	det	_	_	_
+
+25	izdelke	izdelek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	26	obj	_	_	_
+
+26	prenesli	prenesti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	17	advcl	_	_	_
+
+27	z	z	ADP	Si	Case=Ins	28	case	_	_	_
+
+28	Windows	Windows	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	26	obl	_	_	_
+
+29	95	95	NUM	Mdc	NumForm=Digit|NumType=Card	28	nummod	_	_	_
+
+30	na	na	ADP	Sa	Case=Acc	31	case	_	_	_
+
+31	Windows	Windows	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obl	_	_	_
+
+32	CE	ce	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	31	nmod	_	_	_
+
+33	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = Podjetje National Semiconductor( http:// www.
+1	Podjetje	podjetje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+2	National	National	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	Semiconductor	Semiconductor	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	(	(	PUNCT	Z	_	5	punct	_	_	_
+
+5	http	http	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_	_
+
+6	:	:	PUNCT	Z	_	5	punct	_	_	_
+
+7	/	/	PUNCT	Z	_	5	punct	_	_	_
+
+8	/	/	PUNCT	Z	_	9	punct	_	_	_
+
+9	www	www	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_	_
+
+10	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = national.com/) je predstavilo novo serijo integriranih vezij, katerih značilnost je zelo majhno ohišje.
+1	national.com	national.c	PROPN	Npmsn	Case=Dat|Gender=Masc|Number=Sing	5	iobj	_	_	_
+
+2	/	/	PUNCT	Z	_	1	punct	_	_	_
+
+3	)	)	PUNCT	Z	_	1	punct	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+5	predstavilo	predstaviti	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	novo	nov	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	_
+
+7	serijo	serija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_	_
+
+8	integriranih	integriran	ADJ	Appfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	9	amod	_	_	_
+
+9	vezij	vezij	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_	_
+
+10	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+11	katerih	kateri	DET	Pq-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Int	12	nmod	_	_	_
+
+12	značilnost	značilnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_	_
+
+13	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	cop	_	_	_
+
+14	zelo	zelo	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+
+15	majhno	majhen	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_	_
+
+16	ohišje	ohišje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	9	acl	_	_	_
+
+17	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = Gre za nizkonapetostne operacijske ojačevalce LMV321/358/324, namenjene predvsem vgradnji v celične telefone in druge prenosne naprave.
+1	Gre	iti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	za	za	ADP	Sa	Case=Acc	5	case	_	_	_
+
+3	nizkonapetostne	nizkonapaposten	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_	_
+
+4	operacijske	operacijski	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_	_
+
+5	ojačevalce	ojačevalec	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	1	obl	_	_	_
+
+6	LMV321/358/324	lmv321/358/324	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	namenjene	namenjen	ADJ	Appfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	1	parataxis	_	_	_
+
+9	predvsem	predvsem	PART	Q	_	8	advmod	_	_	_
+
+10	vgradnji	vgradnji	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_	_
+
+11	v	v	ADP	Sa	Case=Acc	13	case	_	_	_
+
+12	celične	celičen	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_	_
+
+13	telefone	telefon	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	10	nmod	_	_	_
+
+14	in	in	CCONJ	Cc	_	17	cc	_	_	_
+
+15	druge	drug	ADJ	Mlpfpa	Case=Acc|Gender=Fem|Number=Plur	17	amod	_	_	_
+
+16	prenosne	prenosen	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_	_
+
+17	naprave	naprava	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	13	conj	_	_	_
+
+18	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = Tako je LMV321 na voljo v ohišju SC70- 5, ki meri le dva milimetra v širino in en milimeter v višino.
+1	Tako	tako	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+2	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	LMV321	LMV321	NUM	Mdc	NumForm=Digit|NumType=Card	2	advmod	_	_	_
+
+4	na	na	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	voljo	volja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_	_
+
+6	v	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+7	ohišju	ohišje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_	_
+
+8	SC70	SC70	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+9	-	-	PUNCT	Z	_	10	punct	_	_	_
+
+10	5	5	NUM	Mdc	NumForm=Digit|NumType=Card	8	conj	_	_	_
+
+11	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+12	ki	ki	SCONJ	Cs	_	10	fixed	_	_	_
+
+13	meri	mera	NOUN	Ncfsn	Case=Dat|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+14	le	le	PART	Q	_	16	advmod	_	_	_
+
+15	dva	dva	NUM	Mlcmda	Case=Nom|Gender=Masc|NumForm=Word|NumType=Card|Number=Dual	16	nummod	_	_	_
+
+16	milimetra	milimeter	NOUN	Ncmda	Case=Acc|Gender=Masc|Number=Dual	7	appos	_	_	_
+
+17	v	v	ADP	Sa	Case=Acc	18	case	_	_	_
+
+18	širino	širina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+19	in	in	CCONJ	Cc	_	21	cc	_	_	_
+
+20	en	en	NUM	Mlpmsa	Case=Acc|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing	21	nummod	_	_	_
+
+21	milimeter	milimeter	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	conj	_	_	_
+
+22	v	v	ADP	Sa	Case=Acc	23	case	_	_	_
+
+23	višino	višina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	21	nmod	_	_	_
+
+24	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = Čip je po trditvah podjetja še za tri četrtine manjši.
+1	Čip	čip	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	cop	_	_	_
+
+3	po	po	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	trditvah	trditev	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	10	obl	_	_	_
+
+5	podjetja	podjetje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+6	še	še	PART	Q	_	10	advmod	_	_	_
+
+7	za	za	ADP	Sa	Case=Acc	9	case	_	_	_
+
+8	tri	trije	NUM	Mlcfpa	Case=Acc|Gender=Fem|NumForm=Word|NumType=Card|Number=Plur	9	nummod	_	_	_
+
+9	četrtine	četrtina	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	10	obl	_	_	_
+
+10	manjši	majhen	ADJ	Agcmsny	Case=Nom|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing		root	_	_	_
+
+11	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = Ko smo opisano zamenjavo opravili, se lahko v nekaterih različicah Windows 95 nepravilno prikazujejo besedila s pomočjo.
+1	Ko	ko	SCONJ	Cs	_	5	mark	_	_	_
+
+2	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+3	opisano	opisan	ADJ	Appfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	4	amod	_	_	_
+
+4	zamenjavo	zamenjava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_	_
+
+5	opravili	opraviti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	15	advcl	_	_	_
+
+6	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+7	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	15	expl	_	_	_
+
+8	lahko	lahko	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	11	case	_	_	_
+
+10	nekaterih	nekateri	DET	Pi-fpl	Case=Loc|Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_	_
+
+11	različicah	različica	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	15	obl	_	_	_
+
+12	Windows	Windows	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+13	95	95	NUM	Mdc	NumForm=Digit|NumType=Card	12	nummod	_	_	_
+
+14	nepravilno	nepravilen	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+
+15	prikazujejo	prikazovati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+16	besedila	besedilo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	15	obj	_	_	_
+
+17	s	z	ADP	Si	Case=Ins	18	case	_	_	_
+
+18	pomočjo	pomoč	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+19	.	.	PUNCT	Z	_	15	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = Za odpravo tovrstnih težav poskrbi datoteka \ WINDOWS \
+1	Za	za	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	odpravo	odprava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+3	tovrstnih	tovrsten	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_	_
+
+4	težav	težava	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_	_
+
+5	poskrbi	poskrbeti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	datoteka	datoteka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_	_
+
+7	\	\	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+8	WINDOWS	windows	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+9	\	\	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = WIN. INI, ki naj vključuje naslednje zapise v sekciji za zamenjavo pisav:
+1	WIN	WIN	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+3	INI	in	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing		root	_	_	_
+
+4	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+5	ki	ki	SCONJ	Cs	_	7	mark	_	_	_
+
+6	naj	naj	PART	Q	_	7	advmod	_	_	_
+
+7	vključuje	vključevati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_	_
+
+8	naslednje	naslednji	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_	_
+
+9	zapise	zapis	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_	_
+
+10	v	v	ADP	Sl	Case=Loc	11	case	_	_	_
+
+11	sekciji	sekcija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+12	za	za	ADP	Sa	Case=Acc	13	case	_	_	_
+
+13	zamenjavo	zamenjava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+14	pisav	pisava	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_	_
+
+15	:	:	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = < Glava vtis>
+1	<	<	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+2	Glava	glava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+3	vtis	vtis	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+4	>	>	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005326.txt
+# text = UPRAVLJANJE DOKUMENTOV
+1	UPRAVLJANJE	upravljanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+2	DOKUMENTOV	dokument	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_	_
+

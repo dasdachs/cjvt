@@ -1,0 +1,721 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0030388.txt
+# text = Za Slovensko razvojno družbo se uporabljajo določbe zakona o gospodarskih družbah( Uradni list RS, št. 30/93, 29/94, 82/94), ki se nanašajo na delniško družbo, če ni v tem zakonu drugače določeno.
+1	Za	za	ADP	Sa	Case=Acc	4	case	_	_	_
+
+2	Slovensko	slovenski	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+3	razvojno	razvojen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	družbo	družba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_	_
+
+5	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	6	expl	_	_	_
+
+6	uporabljajo	uporabljati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	določbe	določba	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_	_
+
+8	zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+9	o	o	ADP	Sl	Case=Loc	11	case	_	_	_
+
+10	gospodarskih	gospodarski	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_	_
+
+11	družbah	družba	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	8	nmod	_	_	_
+
+12	(	(	PUNCT	Z	_	14	punct	_	_	_
+
+13	Uradni	uraden	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+14	list	list	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	appos	_	_	_
+
+15	RS	RS	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+16	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+17	št.	št.	NUM	Mdo	NumForm=Digit|NumType=Ord	14	nummod	_	_	_
+
+18	30/93	30/93	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+
+19	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+20	29/94	29/94	NUM	Mdc	NumForm=Digit|NumType=Card	18	conj	_	_	_
+
+21	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+22	82/94	82/94	NUM	Mdc	NumForm=Digit|NumType=Card	18	conj	_	_	_
+
+23	)	)	PUNCT	Z	_	14	punct	_	_	_
+
+24	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+25	ki	ki	SCONJ	Cs	_	27	mark	_	_	_
+
+26	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	27	expl	_	_	_
+
+27	nanašajo	nanašati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	_	_
+
+28	na	na	ADP	Sa	Case=Acc	30	case	_	_	_
+
+29	delniško	delniški	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_	_
+
+30	družbo	družba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	27	obl	_	_	_
+
+31	,	,	PUNCT	Z	_	38	punct	_	_	_
+
+32	če	če	SCONJ	Cs	_	38	mark	_	_	_
+
+33	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	38	cop	_	_	_
+
+34	v	v	ADP	Sl	Case=Loc	36	case	_	_	_
+
+35	tem	ta	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	36	det	_	_	_
+
+36	zakonu	zakon	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	38	obl	_	_	_
+
+37	drugače	drugače	ADV	Rgp	Degree=Pos	38	advmod	_	_	_
+
+38	določeno	določen	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	27	advcl	_	_	_
+
+39	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030388.txt
+# text = Dejavnosti v zvezi s prestrukturiranjem gospodarskih družb iz prejšnjega odstavka opravlja Slovenska razvojna družba zlasti z izvajanjem naslednjih ukrepov in metod: 1. odkupovanjem terjatev do gospodarskih družb in prestrukturiranjem terjatev z odložitvami plačil oziroma delnimi odpusti dolgov, 2. odkupovanjem delnic, poslovnih deležev oziroma drugih članskih pravic v gospodarskih družbah oziroma drugih pravnih osebah, 3. vplačevanjem delnic v primerih povečanja osnovnega kapitala gospodarskih družb z denarnimi vplačili, s prenosom terjatev do teh gospodarskih družb oziroma z drugimi stvarnimi vložki, 4. izdajanjem poroštev, 5. izvajanjem združitev in razdružitev gospodarskih družb z izvrševanjem pravic do udeležbe pri upravljanju teh gospodarskih družb, 6. odkupovanjem nepremičnin in proizvodnih sredstev v stečajnih postopkih z namenom nadaljevanja opravljanja dejavnosti.
+1	Dejavnosti	dejavnost	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_	_
+
+2	v	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	zvezi	zveza	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	s	z	ADP	Si	Case=Ins	5	case	_	_	_
+
+5	prestrukturiranjem	prestrukturiranje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	3	nmod	_	_	_
+
+6	gospodarskih	gospodarski	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_	_
+
+7	družb	družba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_	_
+
+8	iz	iz	ADP	Sg	Case=Gen	10	case	_	_	_
+
+9	prejšnjega	prejšnji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+11	opravlja	opravljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+12	Slovenska	slovenski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_	_
+
+13	razvojna	razvojen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_	_
+
+14	družba	družba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_	_
+
+15	zlasti	zlasti	PART	Q	_	11	advmod	_	_	_
+
+16	z	z	ADP	Si	Case=Ins	17	case	_	_	_
+
+17	izvajanjem	izvajanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	11	obl	_	_	_
+
+18	naslednjih	naslednji	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	19	amod	_	_	_
+
+19	ukrepov	ukrep	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_	_
+
+20	in	in	CCONJ	Cc	_	21	cc	_	_	_
+
+21	metod	metoda	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	19	conj	_	_	_
+
+22	:	:	PUNCT	Z	_	11	punct	_	_	_
+
+23	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	24	nummod	_	_	_
+
+24	odkupovanjem	odkupovanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	11	obj	_	_	_
+
+25	terjatev	terjatev	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	_	_
+
+26	do	do	ADP	Sg	Case=Gen	28	case	_	_	_
+
+27	gospodarskih	gospodarski	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	_	_
+
+28	družb	družba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	_	_
+
+29	in	in	CCONJ	Cc	_	30	cc	_	_	_
+
+30	prestrukturiranjem	prestrukturiranje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	28	conj	_	_	_
+
+31	terjatev	terjatev	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	30	nmod	_	_	_
+
+32	z	z	ADP	Si	Case=Ins	33	case	_	_	_
+
+33	odložitvami	odložitev	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	30	nmod	_	_	_
+
+34	plačil	plačilo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	33	nmod	_	_	_
+
+35	oziroma	oziroma	CCONJ	Cc	_	37	cc	_	_	_
+
+36	delnimi	delen	ADJ	Agpfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	37	amod	_	_	_
+
+37	odpusti	odpustiti	NOUN	Ncfpi	Case=Gen|Gender=Fem|Number=Plur	34	conj	_	_	_
+
+38	dolgov	dolg	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	37	nmod	_	_	_
+
+39	,	,	PUNCT	Z	_	41	punct	_	_	_
+
+40	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	41	nummod	_	_	_
+
+41	odkupovanjem	odkupovanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	37	nmod	_	_	_
+
+42	delnic	delnica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	41	nmod	_	_	_
+
+43	,	,	PUNCT	Z	_	45	punct	_	_	_
+
+44	poslovnih	posloven	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	45	amod	_	_	_
+
+45	deležev	delež	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	42	conj	_	_	_
+
+46	oziroma	oziroma	CCONJ	Cc	_	49	cc	_	_	_
+
+47	drugih	drug	ADJ	Mlpfpg	Case=Gen|Gender=Fem|Number=Plur	49	amod	_	_	_
+
+48	članskih	članski	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	49	amod	_	_	_
+
+49	pravic	pravica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	42	conj	_	_	_
+
+50	v	v	ADP	Sl	Case=Loc	52	case	_	_	_
+
+51	gospodarskih	gospodarski	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	52	amod	_	_	_
+
+52	družbah	družba	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	49	nmod	_	_	_
+
+53	oziroma	oziroma	CCONJ	Cc	_	56	cc	_	_	_
+
+54	drugih	drug	ADJ	Mlpfpl	Case=Loc|Gender=Fem|Number=Plur	56	amod	_	_	_
+
+55	pravnih	praven	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	56	amod	_	_	_
+
+56	osebah	oseba	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	52	conj	_	_	_
+
+57	,	,	PUNCT	Z	_	59	punct	_	_	_
+
+58	3.	3.	NUM	Mdo	NumForm=Digit|NumType=Ord	59	nummod	_	_	_
+
+59	vplačevanjem	vplačevanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	56	nmod	_	_	_
+
+60	delnic	delnica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	59	nmod	_	_	_
+
+61	v	v	ADP	Sl	Case=Loc	62	case	_	_	_
+
+62	primerih	primer	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	56	nmod	_	_	_
+
+63	povečanja	povečanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	62	nmod	_	_	_
+
+64	osnovnega	osnoven	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	65	amod	_	_	_
+
+65	kapitala	kapital	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	63	nmod	_	_	_
+
+66	gospodarskih	gospodarski	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	67	amod	_	_	_
+
+67	družb	družba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	65	nmod	_	_	_
+
+68	z	z	ADP	Si	Case=Ins	70	case	_	_	_
+
+69	denarnimi	denaren	ADJ	Agpnpi	Case=Ins|Degree=Pos|Gender=Neut|Number=Plur	70	amod	_	_	_
+
+70	vplačili	vplačilo	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	62	nmod	_	_	_
+
+71	,	,	PUNCT	Z	_	73	punct	_	_	_
+
+72	s	z	ADP	Si	Case=Ins	73	case	_	_	_
+
+73	prenosom	prenos	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	63	conj	_	_	_
+
+74	terjatev	terjatev	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	73	nmod	_	_	_
+
+75	do	do	ADP	Sg	Case=Gen	78	case	_	_	_
+
+76	teh	ta	DET	Pd-fpg	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	78	det	_	_	_
+
+77	gospodarskih	gospodarski	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	78	amod	_	_	_
+
+78	družb	družba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	74	nmod	_	_	_
+
+79	oziroma	oziroma	CCONJ	Cc	_	83	cc	_	_	_
+
+80	z	z	ADP	Si	Case=Ins	83	case	_	_	_
+
+81	drugimi	drug	ADJ	Mlpmpi	Case=Ins|Gender=Masc|Number=Plur	83	amod	_	_	_
+
+82	stvarnimi	stvaren	ADJ	Agpmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	83	amod	_	_	_
+
+83	vložki	vložek	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	73	conj	_	_	_
+
+84	,	,	PUNCT	Z	_	86	punct	_	_	_
+
+85	4.	4.	NUM	Mdo	NumForm=Digit|NumType=Ord	86	nummod	_	_	_
+
+86	izdajanjem	izdajanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	78	conj	_	_	_
+
+87	poroštev	poroštvo	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	86	nmod	_	_	_
+
+88	,	,	PUNCT	Z	_	90	punct	_	_	_
+
+89	5.	5.	NUM	Mdo	NumForm=Digit|NumType=Ord	90	nummod	_	_	_
+
+90	izvajanjem	izvajanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	83	conj	_	_	_
+
+91	združitev	združitev	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	90	nmod	_	_	_
+
+92	in	in	CCONJ	Cc	_	93	cc	_	_	_
+
+93	razdružitev	razdružitev	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	86	conj	_	_	_
+
+94	gospodarskih	gospodarski	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	95	amod	_	_	_
+
+95	družb	družba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	93	nmod	_	_	_
+
+96	z	z	ADP	Si	Case=Ins	97	case	_	_	_
+
+97	izvrševanjem	izvrševanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	93	nmod	_	_	_
+
+98	pravic	pravica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	97	nmod	_	_	_
+
+99	do	do	ADP	Sg	Case=Gen	100	case	_	_	_
+
+100	udeležbe	udeležba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	98	nmod	_	_	_
+
+101	pri	pri	ADP	Sl	Case=Loc	102	case	_	_	_
+
+102	upravljanju	upravljanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	97	nmod	_	_	_
+
+103	teh	ta	DET	Pd-fpg	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	105	det	_	_	_
+
+104	gospodarskih	gospodarski	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	105	amod	_	_	_
+
+105	družb	družba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	102	nmod	_	_	_
+
+106	,	,	PUNCT	Z	_	108	punct	_	_	_
+
+107	6.	6.	NUM	Mdo	NumForm=Digit|NumType=Ord	108	nummod	_	_	_
+
+108	odkupovanjem	odkupovanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	102	conj	_	_	_
+
+109	nepremičnin	nepremičnina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	108	nmod	_	_	_
+
+110	in	in	CCONJ	Cc	_	112	cc	_	_	_
+
+111	proizvodnih	proizvoden	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	112	amod	_	_	_
+
+112	sredstev	sredstvo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	105	conj	_	_	_
+
+113	v	v	ADP	Sl	Case=Loc	115	case	_	_	_
+
+114	stečajnih	stečajen	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	115	amod	_	_	_
+
+115	postopkih	postopek	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	112	nmod	_	_	_
+
+116	z	z	ADP	Si	Case=Ins	117	case	_	_	_
+
+117	namenom	namen	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	112	nmod	_	_	_
+
+118	nadaljevanja	nadaljevanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	117	nmod	_	_	_
+
+119	opravljanja	opravljanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	118	nmod	_	_	_
+
+120	dejavnosti	dejavnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	119	nmod	_	_	_
+
+121	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030388.txt
+# text = Ukrepe iz drugega odstavka tega člena izvršuje Slovenska razvojna družba v obsegu in na načine, določene s poslovnim načrtom Slovenske razvojne družbe, v naslednjih gospodarskih družbah s sedežem na območju Republike Slovenije: 1. gospodarskih družbah, vključenih v program prestrukturiranja podjetij, 2. drugih gospodarskih družbah v skladu s poslovnim načrtom Slovenske razvojne družbe.
+1	Ukrepe	ukrep	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_	_
+
+2	iz	iz	ADP	Sg	Case=Gen	4	case	_	_	_
+
+3	drugega	drug	ADJ	Mlpmsg	Case=Gen|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+5	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_	_
+
+6	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+7	izvršuje	izvrševati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+8	Slovenska	slovenski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_	_
+
+9	razvojna	razvojen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_	_
+
+10	družba	družba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+
+11	v	v	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	obsegu	obseg	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+13	in	in	CCONJ	Cc	_	15	cc	_	_	_
+
+14	na	na	ADP	Sa	Case=Acc	15	case	_	_	_
+
+15	načine	način	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	12	conj	_	_	_
+
+16	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+17	določene	določen	ADJ	Appmpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	12	amod	_	_	_
+
+18	s	z	ADP	Si	Case=Ins	20	case	_	_	_
+
+19	poslovnim	posloven	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_	_
+
+20	načrtom	načrt	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	17	obl	_	_	_
+
+21	Slovenske	slovenski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_	_
+
+22	razvojne	razvojen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_	_
+
+23	družbe	družba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_	_
+
+24	,	,	PUNCT	Z	_	28	punct	_	_	_
+
+25	v	v	ADP	Sl	Case=Loc	28	case	_	_	_
+
+26	naslednjih	naslednji	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	_	_
+
+27	gospodarskih	gospodarski	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	_	_
+
+28	družbah	družba	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	20	conj	_	_	_
+
+29	s	z	ADP	Si	Case=Ins	30	case	_	_	_
+
+30	sedežem	sedež	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	28	nmod	_	_	_
+
+31	na	na	ADP	Sl	Case=Loc	32	case	_	_	_
+
+32	območju	območje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	28	nmod	_	_	_
+
+33	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	_	_
+
+34	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	_	_
+
+35	:	:	PUNCT	Z	_	38	punct	_	_	_
+
+36	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	38	nummod	_	_	_
+
+37	gospodarskih	gospodarski	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	38	amod	_	_	_
+
+38	družbah	družba	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	32	conj	_	_	_
+
+39	,	,	PUNCT	Z	_	40	punct	_	_	_
+
+40	vključenih	vključen	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	38	amod	_	_	_
+
+41	v	v	ADP	Sa	Case=Acc	42	case	_	_	_
+
+42	program	program	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	40	obl	_	_	_
+
+43	prestrukturiranja	prestrukturiranje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	42	nmod	_	_	_
+
+44	podjetij	podjetje	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	43	nmod	_	_	_
+
+45	,	,	PUNCT	Z	_	49	punct	_	_	_
+
+46	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	49	nummod	_	_	_
+
+47	drugih	drug	ADJ	Mlpfpl	Case=Loc|Gender=Fem|Number=Plur	49	amod	_	_	_
+
+48	gospodarskih	gospodarski	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	49	amod	_	_	_
+
+49	družbah	družba	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	43	conj	_	_	_
+
+50	v	v	ADP	Sl	Case=Loc	51	case	_	_	_
+
+51	skladu	sklad	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	49	nmod	_	_	_
+
+52	s	z	ADP	Si	Case=Ins	54	case	_	_	_
+
+53	poslovnim	posloven	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	54	amod	_	_	_
+
+54	načrtom	načrt	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	51	nmod	_	_	_
+
+55	Slovenske	slovenski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	57	amod	_	_	_
+
+56	razvojne	razvojen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	57	amod	_	_	_
+
+57	družbe	družba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	54	nmod	_	_	_
+
+58	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030388.txt
+# text = Letno poročilo Slovenske razvojne družbe mora pregledati pooblaščeni revizor.
+1	Letno	letno	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_	_
+
+2	poročilo	poročilo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_	_
+
+3	Slovenske	slovenski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+4	razvojne	razvojen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	družbe	družba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+6	mora	morati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	pregledati	pregledati	VERB	Vmen	Aspect=Perf|VerbForm=Inf	6	xcomp	_	_	_
+
+8	pooblaščeni	pooblaščen	ADJ	Appmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	9	amod	_	_	_
+
+9	revizor	revizor	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_	_
+
+10	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030388.txt
+# text = Zaradi usklajenega izvrševanja nalog v zvezi s programom prestrukturiranja podjetij Vlada s sklepom ustanovi projektni svet kot koordinativno delovno telo Vlade.
+1	Zaradi	zaradi	ADP	Sg	Case=Gen	3	case	_	_	_
+
+2	usklajenega	usklajen	ADJ	Appnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	3	amod	_	_	_
+
+3	izvrševanja	izvrševanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	14	obl	_	_	_
+
+4	nalog	naloga	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	zvezi	zveza	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+7	s	z	ADP	Si	Case=Ins	8	case	_	_	_
+
+8	programom	program	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+9	prestrukturiranja	prestrukturiranje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_	_
+
+10	podjetij	podjetje	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_	_
+
+11	Vlada	vlada	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_	_
+
+12	s	z	ADP	Si	Case=Ins	13	case	_	_	_
+
+13	sklepom	sklep	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	14	obl	_	_	_
+
+14	ustanovi	ustanova	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+15	projektni	projekten	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_	_
+
+16	svet	svet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_	_
+
+17	kot	kot	SCONJ	Cs	_	20	case	_	_	_
+
+18	koordinativno	koordinativen	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_	_
+
+19	delovno	deloven	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_	_
+
+20	telo	telo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	16	obl	_	_	_
+
+21	Vlade	vlada	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_	_
+
+22	.	.	PUNCT	Z	_	14	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030388.txt
+# text = Strokovne naloge v zvezi z izvedbo javnih razpisov opravlja Slovenska razvojna družba.
+1	Strokovne	strokoven	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_	_
+
+2	naloge	naloga	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_	_
+
+3	v	v	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	zvezi	zveza	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+5	z	z	ADP	Si	Case=Ins	6	case	_	_	_
+
+6	izvedbo	izvedba	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+7	javnih	javen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_	_
+
+8	razpisov	razpis	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_	_
+
+9	opravlja	opravljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	Slovenska	slovenski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_	_
+
+11	razvojna	razvojen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_	_
+
+12	družba	družba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_	_
+
+13	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030388.txt
+# text = Obveznosti, ki izhajajo iz tretjega in četrtega odstavka 125. člena stanovanjskega zakona, izpolni Slovenska razvojna družba z izdajo posebne emisije obveznic.
+1	Obveznosti	obveznost	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_	_
+
+2	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+3	ki	ki	SCONJ	Cs	_	4	mark	_	_	_
+
+4	izhajajo	izhajati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	_	_
+
+5	iz	iz	ADP	Sg	Case=Gen	9	case	_	_	_
+
+6	tretjega	tretji	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	9	amod	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	četrtega	četrti	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	6	conj	_	_	_
+
+9	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+10	125.	125.	NUM	Mdo	NumForm=Digit|NumType=Ord	11	nummod	_	_	_
+
+11	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+12	stanovanjskega	stanovanjski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_	_
+
+13	zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+14	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+15	izpolni	izpolniti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+16	Slovenska	slovenski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_	_
+
+17	razvojna	razvojen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_	_
+
+18	družba	družba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_	_
+
+19	z	z	ADP	Si	Case=Ins	20	case	_	_	_
+
+20	izdajo	izdaja	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	15	obl	_	_	_
+
+21	posebne	poseben	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_	_
+
+22	emisije	emisija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_	_
+
+23	obveznic	obveznica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_	_
+
+24	.	.	PUNCT	Z	_	15	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030388.txt
+# text = Obveznice, izdane na tej podlagi, se ob vnovčitvi vnovčijo v breme drugih sestavin kapitala Slovenske razvojne družbe.
+1	Obveznice	obveznica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	izdane	izdan	ADJ	Appfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	1	amod	_	_	_
+
+4	na	na	ADP	Sl	Case=Loc	6	case	_	_	_
+
+5	tej	ta	DET	Pd-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_	_
+
+6	podlagi	podlaga	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_	_
+
+7	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+8	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	11	expl	_	_	_
+
+9	ob	ob	ADP	Sl	Case=Loc	10	case	_	_	_
+
+10	vnovčitvi	vnovčitev	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_	_
+
+11	vnovčijo	vnovčiti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+12	v	v	ADP	Sa	Case=Acc	13	case	_	_	_
+
+13	breme	breme	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_	_
+
+14	drugih	drug	ADJ	Mlpfpg	Case=Gen|Gender=Fem|Number=Plur	15	amod	_	_	_
+
+15	sestavin	sestavina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_	_
+
+16	kapitala	kapital	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+17	Slovenske	slovenski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_	_
+
+18	razvojne	razvojen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_	_
+
+19	družbe	družba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+20	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030388.txt
+# text = Sklad Republike Slovenije za razvoj mora na dan uveljavitve tega zakona izdelati bilanco stanja in bilanco uspeha.
+1	Sklad	sklad	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	_
+
+2	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	za	za	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	razvoj	razvoj	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+6	mora	morati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	na	na	ADP	Sa	Case=Acc	8	case	_	_	_
+
+8	dan	dan	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_	_
+
+9	uveljavitve	uveljavitev	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+10	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_	_
+
+11	zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+12	izdelati	izdelati	VERB	Vmen	Aspect=Perf|VerbForm=Inf	6	xcomp	_	_	_
+
+13	bilanco	bilanca	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_	_
+
+14	stanja	stanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_	_
+
+15	in	in	CCONJ	Cc	_	16	cc	_	_	_
+
+16	bilanco	bilanca	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	conj	_	_	_
+
+17	uspeha	uspeh	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_	_
+
+18	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030388.txt
+# text = Prav tako so dolžne izdelati bilanco stanja in bilanco uspeha tudi vse institucije, ki se pripojijo Slovenski razvojni družbi, na dan pripojitve.
+1	Prav	prav	PART	Q	_	2	advmod	_	_	_
+
+2	tako	tako	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+3	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_	_
+
+4	dolžne	dolžen	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur		root	_	_	_
+
+5	izdelati	izdelati	VERB	Vmen	Aspect=Perf|VerbForm=Inf	4	ccomp	_	_	_
+
+6	bilanco	bilanca	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_	_
+
+7	stanja	stanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_	_
+
+8	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+9	bilanco	bilanca	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	_	_
+
+10	uspeha	uspeh	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+11	tudi	tudi	PART	Q	_	5	advmod	_	_	_
+
+12	vse	ves	DET	Pg-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	13	det	_	_	_
+
+13	institucije	institucija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_	_
+
+14	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+15	ki	ki	SCONJ	Cs	_	17	mark	_	_	_
+
+16	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	17	expl	_	_	_
+
+17	pripojijo	pripojiti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl	_	_	_
+
+18	Slovenski	slovenski	ADJ	Agpfsd	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_	_
+
+19	razvojni	razvojen	ADJ	Agpfsd	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_	_
+
+20	družbi	družba	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	17	obj	_	_	_
+
+21	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+22	na	na	ADP	Sa	Case=Acc	23	case	_	_	_
+
+23	dan	dan	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	appos	_	_	_
+
+24	pripojitve	pripojitev	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_	_
+
+25	.	.	PUNCT	Z	_	4	punct	_	_	_
+

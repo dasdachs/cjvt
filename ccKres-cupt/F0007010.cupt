@@ -1,0 +1,97 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0007010.txt
+# text = ZAKON O ODKUPU TERJATEV DO IRAKA, KUBE IN LJUDSKE REPUBLIKE ANGOLE TER ZVEZNE DIREKCIJE ZA PROMET IN REZERVE IZDELKOV POSEBNEGA NAMENA
+1	ZAKON	zakon	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	O	o	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	ODKUPU	odkup	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	TERJATEV	terjatev	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_	_
+
+5	DO	do	ADP	Sg	Case=Gen	6	case	_	_	_
+
+6	IRAKA	irak	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	KUBE	kuba	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	6	conj	_	_	_
+
+9	IN	in	CCONJ	Cc	_	11	cc	_	_	_
+
+10	LJUDSKE	Ljudska	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_	_
+
+11	REPUBLIKE	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	conj	_	_	_
+
+12	ANGOLE	Angole	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+13	TER	ter	CCONJ	Cc	_	15	cc	_	_	_
+
+14	ZVEZNE	zvezen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_	_
+
+15	DIREKCIJE	direkcija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_	_
+
+16	ZA	za	ADP	Sa	Case=Acc	17	case	_	_	_
+
+17	PROMET	promet	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+18	IN	in	CCONJ	Cc	_	19	cc	_	_	_
+
+19	REZERVE	rezerva	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	17	conj	_	_	_
+
+20	IZDELKOV	izdelek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_	_
+
+21	POSEBNEGA	poseben	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_	_
+
+22	NAMENA	namena	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007010.txt
+# text = Vlada Republike Slovenije določi znesek, do katerega se izdajo obveznice na podlagi podatkov o priznanih terjatvah, ki jih ugotovi Banka Slovenije.
+1	Vlada	vlada	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+2	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	določi	določiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	znesek	znesek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_	_
+
+6	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+7	do	do	ADP	Sg	Case=Gen	8	case	_	_	_
+
+8	katerega	kateri	DET	Pq-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Int	10	obl	_	_	_
+
+9	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	10	expl	_	_	_
+
+10	izdajo	izdaja	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_	_
+
+11	obveznice	obveznica	NOUN	Ncfpg	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_	_
+
+12	na	na	ADP	Sl	Case=Loc	13	case	_	_	_
+
+13	podlagi	podlaga	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_	_
+
+14	podatkov	podatek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_	_
+
+15	o	o	ADP	Sl	Case=Loc	17	case	_	_	_
+
+16	priznanih	priznan	ADJ	Appfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	17	amod	_	_	_
+
+17	terjatvah	terjatev	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	14	nmod	_	_	_
+
+18	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+19	ki	ki	SCONJ	Cs	_	21	mark	_	_	_
+
+20	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	21	obj	_	_	_
+
+21	ugotovi	ugotov	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl	_	_	_
+
+22	Banka	banka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_	_
+
+23	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_	_
+
+24	.	.	PUNCT	Z	_	4	punct	_	_	_
+

@@ -1,0 +1,861 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = - pogoje poslovanja in uporabe storitev Mobi
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	pogoje	pogoj	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur		root	_	_	_
+
+3	poslovanja	poslovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+4	in	in	CCONJ	Cc	_	5	cc	_	_	_
+
+5	uporabe	uporaba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_	_
+
+6	storitev	storitev	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_	_
+
+7	Mobi	Mobi	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = Težave s Skladom kmetijskih zemljišč in gozdov pri lastninjenju Breme vladnih ukrepov na plečih živilske industrije
+1	Težave	težava	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur		root	_	_	_
+
+2	s	z	ADP	Si	Case=Ins	3	case	_	_	_
+
+3	Skladom	sklad	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	kmetijskih	kmetijski	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	_	_
+
+5	zemljišč	zemljišče	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	gozdov	gozd	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	conj	_	_	_
+
+8	pri	pri	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	lastninjenju	lastninjenje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	_	_
+
+10	Breme	Breme	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_	_
+
+11	vladnih	vladen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_	_
+
+12	ukrepov	ukrep	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_	_
+
+13	na	na	ADP	Sl	Case=Loc	14	case	_	_	_
+
+14	plečih	pleč	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	10	nmod	_	_	_
+
+15	živilske	živilski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_	_
+
+16	industrije	industrija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = 10.05 Izobr. pr.- 12.00 Dnevnik- 12.20 Hrvat. spomenik- 12.35 New York- 13.
+1	10.05	10.05	NUM	Mdc	NumForm=Digit|NumType=Card	10	dep	_	_	_
+
+2	Izobr.	izobr.a	X	Y	Abbr=Yes	1	flat:foreign	_	_	_
+
+3	pr.	pr.	X	Y	Abbr=Yes	2	nmod	_	_	_
+
+4	-	-	PUNCT	Z	_	5	punct	_	_	_
+
+5	12.00	12.00	NUM	Mdc	NumForm=Digit|NumType=Card	3	conj	_	_	_
+
+6	Dnevnik	dnevnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_	_
+
+7	-	-	PUNCT	Z	_	8	punct	_	_	_
+
+8	12.20	12.20	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+9	Hrvat.	Hrvat.	X	Y	Abbr=Yes	8	fixed	_	_	_
+
+10	spomenik	spomenik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+11	-	-	PUNCT	Z	_	14	punct	_	_	_
+
+12	12.35	12.35	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+
+13	New	New	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+14	York	York	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	_	_
+
+15	-	-	PUNCT	Z	_	16	punct	_	_	_
+
+16	13	13	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+
+17	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = 10 Esmeralda, ser.- 13.55 Poročila- 14.00 Dok. odd.- 14.55 Za otr. in mlad.
+1	10	10	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Esmeralda	Esmeralda	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	ser.	ser.	X	Y	Abbr=Yes	2	nummod	_	_	_
+
+5	-	-	PUNCT	Z	_	4	punct	_	_	_
+
+6	13.55	13.55	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+7	Poročila	poročilo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	appos	_	_	_
+
+8	-	-	PUNCT	Z	_	9	punct	_	_	_
+
+9	14.00	14.00	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+10	Dok.	dok.	X	Y	Abbr=Yes	9	flat	_	_	_
+
+11	odd.	odd.	X	Y	Abbr=Yes	9	flat	_	_	_
+
+12	-	-	PUNCT	Z	_	13	punct	_	_	_
+
+13	14.55	14.55	NUM	Mdc	NumForm=Digit|NumType=Card	11	conj	_	_	_
+
+14	Za	za	ADP	Sa	Case=Acc	15	case	_	_	_
+
+15	otr.	otr.	X	Y	Abbr=Yes	13	advmod	_	_	_
+
+16	in	in	CCONJ	Cc	_	17	cc	_	_	_
+
+17	mlad	mlad	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	15	conj	_	_	_
+
+18	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = - 17.00 Hrvat. danes- 17.30 Županij. panorama- 18.00 Besede- 18.35 Kolo sreče- 19. 10 Risanka- 19.30 Dnevnik- 20.05 Mesec Alabame, predstava- 21. 10 Viza- 21.40 Remekdela- 22.00 Motrišče- 22.30 Z namen.in razlog.
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	17.00	17.00	NUM	Mdc	NumForm=Digit|NumType=Card	25	nummod	_	_	_
+
+3	Hrvat.	Hrvat.	X	Y	Abbr=Yes	2	fixed	_	_	_
+
+4	danes	danes	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+5	-	-	PUNCT	Z	_	6	punct	_	_	_
+
+6	17.30	17.30	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+7	Županij.	Županij.	X	Y	Abbr=Yes	6	nmod	_	_	_
+
+8	panorama	panorama	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+9	-	-	PUNCT	Z	_	11	punct	_	_	_
+
+10	18.00	18.00	NUM	Mdc	NumForm=Digit|NumType=Card	11	nummod	_	_	_
+
+11	Besede	beseda	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+12	-	-	PUNCT	Z	_	14	punct	_	_	_
+
+13	18.35	18.35	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+
+14	Kolo	kolo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	8	appos	_	_	_
+
+15	sreče	sreča	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+16	-	-	PUNCT	Z	_	19	punct	_	_	_
+
+17	19.	19.	NUM	Mdo	NumForm=Digit|NumType=Ord	19	nummod	_	_	_
+
+18	10	10	NUM	Mdc	NumForm=Digit|NumType=Card	17	flat	_	_	_
+
+19	Risanka	Risanka	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	15	nmod	_	_	_
+
+20	-	-	PUNCT	Z	_	21	punct	_	_	_
+
+21	19.30	19.30	NUM	Mdc	NumForm=Digit|NumType=Card	19	nummod	_	_	_
+
+22	Dnevnik	dnevnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	19	nmod	_	_	_
+
+23	-	-	PUNCT	Z	_	24	punct	_	_	_
+
+24	20.05	20.05	NUM	Mdc	NumForm=Digit|NumType=Card	25	nummod	_	_	_
+
+25	Mesec	mesec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+26	Alabame	Alabame	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_	_
+
+27	,	,	PUNCT	Z	_	28	punct	_	_	_
+
+28	predstava	predstava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	25	conj	_	_	_
+
+29	-	-	PUNCT	Z	_	30	punct	_	_	_
+
+30	21.	21.	NUM	Mdo	NumForm=Digit|NumType=Ord	32	nummod	_	_	_
+
+31	10	10	NUM	Mdc	NumForm=Digit|NumType=Card	30	flat	_	_	_
+
+32	Viza	Viza	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	28	conj	_	_	_
+
+33	-	-	PUNCT	Z	_	34	punct	_	_	_
+
+34	21.40	21.40	NUM	Mdc	NumForm=Digit|NumType=Card	32	nummod	_	_	_
+
+35	Remekdela	remekdel	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	32	nmod	_	_	_
+
+36	-	-	PUNCT	Z	_	37	punct	_	_	_
+
+37	22.00	22.00	NUM	Mdc	NumForm=Digit|NumType=Card	38	nummod	_	_	_
+
+38	Motrišče	motrišče	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	35	nmod	_	_	_
+
+39	-	-	PUNCT	Z	_	40	punct	_	_	_
+
+40	22.30	22.30	NUM	Mdc	NumForm=Digit|NumType=Card	38	nummod	_	_	_
+
+41	Z	z	ADP	Si	Case=Ins	43	case	_	_	_
+
+42	namen.in	namen.ina	NUM	Mdo	NumForm=Digit|NumType=Ord	43	nummod	_	_	_
+
+43	razlog	razlog	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	25	obl	_	_	_
+
+44	.	.	PUNCT	Z	_	25	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = - 23.20 Špan. film.
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	23.20	23.20	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+3	Špan.	Špan.	X	Y	Abbr=Yes	4	amod	_	_	_
+
+4	film	film	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+5	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = Francoska beseda sommelier je težko izgovorljiva, marsikdo pa tudi ne ve, kaj, oziroma kdo se skriva pod tem nazivom.
+1	Francoska	francoski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	beseda	beseda	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_	_
+
+3	sommelier	sommelier	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_	_
+
+5	težko	težko	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+6	izgovorljiva	izgovorljiv	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing		root	_	_	_
+
+7	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+8	marsikdo	marsikdo	PRON	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	12	nsubj	_	_	_
+
+9	pa	pa	CCONJ	Cc	_	12	advmod	_	_	_
+
+10	tudi	tudi	PART	Q	_	12	advmod	_	_	_
+
+11	ne	ne	PART	Q	Polarity=Neg	12	advmod	_	_	_
+
+12	ve	vedeti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_	_
+
+13	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+14	kaj	kaj	PRON	Pq-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	19	obj	_	_	_
+
+15	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+16	oziroma	oziroma	CCONJ	Cc	_	19	cc	_	_	_
+
+17	kdo	kdo	PRON	Pq-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	19	nsubj	_	_	_
+
+18	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	19	expl	_	_	_
+
+19	skriva	skrivati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_	_
+
+20	pod	pod	ADP	Si	Case=Ins	22	case	_	_	_
+
+21	tem	ta	DET	Pd-msi	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_	_
+
+22	nazivom	naziv	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	19	obl	_	_	_
+
+23	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = Sommelier ali vinski svetovalec v gostinskem lokalu ali hotelski restavraciji skrbi za dobro počutje gostov, svetuje pri izbiri hrane in k njej ustreznega vina.
+1	Sommelier	Sommelier	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_	_
+
+2	ali	ali	CCONJ	Cc	_	4	cc	_	_	_
+
+3	vinski	vinski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	svetovalec	svetovalec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+6	gostinskem	gostinski	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	lokalu	lokal	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+8	ali	ali	CCONJ	Cc	_	10	cc	_	_	_
+
+9	hotelski	hotelski	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_	_
+
+10	restavraciji	restavracija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	7	conj	_	_	_
+
+11	skrbi	skrbeti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+12	za	za	ADP	Sa	Case=Acc	14	case	_	_	_
+
+13	dobro	dober	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_	_
+
+14	počutje	počutje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_	_
+
+15	gostov	gost	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_	_
+
+16	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+17	svetuje	svetovati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_	_
+
+18	pri	pri	ADP	Sl	Case=Loc	19	case	_	_	_
+
+19	izbiri	izbira	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_	_
+
+20	hrane	hrana	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_	_
+
+21	in	in	CCONJ	Cc	_	23	cc	_	_	_
+
+22	k	k	ADP	Sd	Case=Dat	23	case	_	_	_
+
+23	njej	on	PRON	Pp3fsd	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	conj	_	_	_
+
+24	ustreznega	ustrezen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_	_
+
+25	vina	vino	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_	_
+
+26	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = V željo po večji kakovosti strežbe se mnogi slovenski gostinci odločajo za dodatno izobraževanje na področju vinogradništva, vinarstva, kulinarike, osnov primernega vedenja in trženja.
+1	V	v	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	željo	želja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_	_
+
+3	po	po	ADP	Sl	Case=Loc	5	case	_	_	_
+
+4	večji	velik	ADJ	Agcfsl	Case=Loc|Degree=Cmp|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	kakovosti	kakovost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+6	strežbe	strežba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+7	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	11	expl	_	_	_
+
+8	mnogi	mnog	DET	Pi-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_	_
+
+9	slovenski	slovenski	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_	_
+
+10	gostinci	gostinec	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_	_
+
+11	odločajo	odločati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+12	za	za	ADP	Sa	Case=Acc	14	case	_	_	_
+
+13	dodatno	dodaten	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_	_
+
+14	izobraževanje	izobraževanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_	_
+
+15	na	na	ADP	Sl	Case=Loc	16	case	_	_	_
+
+16	področju	področje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	14	nmod	_	_	_
+
+17	vinogradništva	vinogradništvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_	_
+
+18	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+19	vinarstva	vinarstvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	17	conj	_	_	_
+
+20	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+21	kulinarike	kulinarika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	17	conj	_	_	_
+
+22	,	,	PUNCT	Z	_	23	punct	_	_	_
+
+23	osnov	osnova	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	16	conj	_	_	_
+
+24	primernega	primeren	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_	_
+
+25	vedenja	vedenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_	_
+
+26	in	in	CCONJ	Cc	_	27	cc	_	_	_
+
+27	trženja	trženje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	25	conj	_	_	_
+
+28	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = Tečaje za vinske svetovalce prireja društvo Sommelier Slovenije iz Nove Gorice, ki je že od leta 1994 član mednarodnega društva sommelierjev.
+1	Tečaje	tečaj	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_	_
+
+2	za	za	ADP	Sa	Case=Acc	4	case	_	_	_
+
+3	vinske	vinski	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_	_
+
+4	svetovalce	svetovalec	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	1	nmod	_	_	_
+
+5	prireja	prirejati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	društvo	društvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_	_
+
+7	Sommelier	Sommelier	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+8	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+9	iz	iz	ADP	Sg	Case=Gen	11	case	_	_	_
+
+10	Nove	nov	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_	_
+
+11	Gorice	Gorica	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+12	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+13	ki	ki	SCONJ	Cs	_	19	mark	_	_	_
+
+14	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	cop	_	_	_
+
+15	že	že	PART	Q	_	19	advmod	_	_	_
+
+16	od	od	ADP	Sg	Case=Gen	17	case	_	_	_
+
+17	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	19	obl	_	_	_
+
+18	1994	1994	NUM	Mdc	NumForm=Digit|NumType=Card	17	nummod	_	_	_
+
+19	član	član	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	acl	_	_	_
+
+20	mednarodnega	mednaroden	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_	_
+
+21	društva	društvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_	_
+
+22	sommelierjev	sommelier	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_	_
+
+23	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = Kot pravi predsednik društva Franko Rutar, lahko uspešen sommelier tudi dobro trži vina svoje dežele v tujini.
+1	Kot	kot	SCONJ	Cs	_	3	case	_	_	_
+
+2	pravi	pravi	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	obl	_	_	_
+
+4	društva	društvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_	_
+
+5	Franko	Franko	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+6	Rutar	Rutar	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_	_
+
+7	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+8	lahko	lahko	ADV	Rgp	Degree=Pos	13	advmod	_	_	_
+
+9	uspešen	uspešen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	sommelier	sommelier	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_	_
+
+11	tudi	tudi	PART	Q	_	13	advmod	_	_	_
+
+12	dobro	dobro	ADV	Rgp	Degree=Pos	13	advmod	_	_	_
+
+13	trži	tržeti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+14	vina	vino	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	13	obj	_	_	_
+
+15	svoje	svoj	DET	Px-fsg	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	_	_
+
+16	dežele	dežela	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+17	v	v	ADP	Sl	Case=Loc	18	case	_	_	_
+
+18	tujini	tujina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+19	.	.	PUNCT	Z	_	13	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = Tako je vino slovenske avtohtone sorte zelen prišlo v francoske gostinske lokale prav po zaslugi naših sommelierjev, poznavanje tega vina pa je celo odločalo o prvaku na zadnjem svetovnem prvenstvu sommelierjev.
+1	Tako	tako	ADV	Rgp	Degree=Pos	8	mark	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_	_
+
+3	vino	vino	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_	_
+
+4	slovenske	slovenski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+5	avtohtone	avtohton	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	sorte	sorta	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+7	zelen	zelen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	8	advcl	_	_	_
+
+8	prišlo	priti	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+9	v	v	ADP	Sa	Case=Acc	12	case	_	_	_
+
+10	francoske	francoski	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_	_
+
+11	gostinske	gostinski	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_	_
+
+12	lokale	lokal	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	8	obl	_	_	_
+
+13	prav	prav	PART	Q	_	15	advmod	_	_	_
+
+14	po	po	ADP	Sl	Case=Loc	15	case	_	_	_
+
+15	zaslugi	zasluga	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+16	naših	naš	DET	Ps1mpgp	Case=Gen|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	17	det	_	_	_
+
+17	sommelierjev	sommelier	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_	_
+
+18	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+19	poznavanje	poznavanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	25	nsubj	_	_	_
+
+20	tega	ta	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	21	det	_	_	_
+
+21	vina	vino	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_	_
+
+22	pa	pa	CCONJ	Cc	_	25	advmod	_	_	_
+
+23	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	25	aux	_	_	_
+
+24	celo	celo	PART	Q	_	25	advmod	_	_	_
+
+25	odločalo	odločati	VERB	Vmpp-sn	Aspect=Imp|Gender=Neut|Number=Sing|VerbForm=Part	8	parataxis	_	_	_
+
+26	o	o	ADP	Sl	Case=Loc	27	case	_	_	_
+
+27	prvaku	prvak	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	25	obl	_	_	_
+
+28	na	na	ADP	Sl	Case=Loc	31	case	_	_	_
+
+29	zadnjem	zadnji	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	31	amod	_	_	_
+
+30	svetovnem	svetoven	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	31	amod	_	_	_
+
+31	prvenstvu	prvenstvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	27	nmod	_	_	_
+
+32	sommelierjev	sommelier	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	_	_
+
+33	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = Ivan Peršolja, vodja komisije za izobraževanje sommelierjev poudari, da so člani društva Sommelier Slovenije tudi redni člani ocenjevalnih komisij na evropskih in svetovnih prvenstvih sommelierjev.
+1	Ivan	Ivan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_	_
+
+2	Peršolja	Peršolja	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	vodja	vodja	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_	_
+
+5	komisije	komisija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+6	za	za	ADP	Sa	Case=Acc	7	case	_	_	_
+
+7	izobraževanje	izobraževanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	_	_
+
+8	sommelierjev	sommelier	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_	_
+
+9	poudari	poudariti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+11	da	da	SCONJ	Cs	_	19	mark	_	_	_
+
+12	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	cop	_	_	_
+
+13	člani	član	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_	_
+
+14	društva	društvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_	_
+
+15	Sommelier	Sommelier	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+16	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_	_
+
+17	tudi	tudi	PART	Q	_	19	advmod	_	_	_
+
+18	redni	reden	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	19	amod	_	_	_
+
+19	člani	član	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	9	ccomp	_	_	_
+
+20	ocenjevalnih	ocenjevalen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	_	_
+
+21	komisij	komisija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_	_
+
+22	na	na	ADP	Sl	Case=Loc	26	case	_	_	_
+
+23	evropskih	evropski	ADJ	Agpnpl	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	26	amod	_	_	_
+
+24	in	in	CCONJ	Cc	_	25	cc	_	_	_
+
+25	svetovnih	svetoven	ADJ	Agpnpl	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	23	conj	_	_	_
+
+26	prvenstvih	prvenstvo	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	21	nmod	_	_	_
+
+27	sommelierjev	sommelier	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_	_
+
+28	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = ki lahko jo vsak poseka.
+1	ki	ki	SCONJ	Cs	_	5	mark	_	_	_
+
+2	lahko	lahko	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+3	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	5	obj	_	_	_
+
+4	vsak	vsak	DET	Pg-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	5	nsubj	_	_	_
+
+5	poseka	posek	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = - po potrebi učvrstiti mrežo in zamenjati količek.
+1	-	-	PUNCT	Z	_	4	punct	_	_	_
+
+2	po	po	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	potrebi	potreba	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+4	učvrstiti	učvrstiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf		root	_	_	_
+
+5	mrežo	mreža	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	zamenjati	zamenjati	VERB	Vmen	Aspect=Perf|VerbForm=Inf	4	conj	_	_	_
+
+8	količek	količek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_	_
+
+9	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = SOBOTA, 31. OKTOBER
+1	SOBOTA	Sobota	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	,	,	PUNCT	Z	_	1	punct	_	_	_
+
+3	31.	31.	NUM	Mdo	NumForm=Digit|NumType=Ord	1	conj	_	_	_
+
+4	OKTOBER	oktober	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = II. program
+1	II.	II.	X	Y	Abbr=Yes	2	amod	_	_	_
+
+2	program	program	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = Mobikartice so različnih velikosti.
+1	Mobikartice	Mobikartica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_	_
+
+3	različnih	različen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_	_
+
+4	velikosti	velikost	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur		root	_	_	_
+
+5	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = Mobičuk za 2.500 tolarjev vam v notranjem prometu omogoča 19 minut pogovora od ponedeljka do petka ali 39 minut pogovora ob sobotah, nedeljah in praznikih.
+1	Mobičuk	Mobičuk	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_	_
+
+2	za	za	ADP	Sa	Case=Acc	4	case	_	_	_
+
+3	2.500	2.500	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+4	tolarjev	tolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_	_
+
+5	vam	ti	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	9	iobj	_	_	_
+
+6	v	v	ADP	Sl	Case=Loc	8	case	_	_	_
+
+7	notranjem	notranji	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+8	prometu	promet	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+9	omogoča	omogočati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	19	19	NUM	Mdc	NumForm=Digit|NumType=Card	11	nummod	_	_	_
+
+11	minut	minuta	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	9	obj	_	_	_
+
+12	pogovora	pogovor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+13	od	od	ADP	Sg	Case=Gen	14	case	_	_	_
+
+14	ponedeljka	ponedeljko	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+15	do	do	ADP	Sg	Case=Gen	16	case	_	_	_
+
+16	petka	petek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+17	ali	ali	CCONJ	Cc	_	19	cc	_	_	_
+
+18	39	39	NUM	Mdc	NumForm=Digit|NumType=Card	19	nummod	_	_	_
+
+19	minut	minuta	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	16	conj	_	_	_
+
+20	pogovora	pogovor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_	_
+
+21	ob	ob	ADP	Sl	Case=Loc	22	case	_	_	_
+
+22	sobotah	sobota	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	19	nmod	_	_	_
+
+23	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+24	nedeljah	nedelja	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	22	conj	_	_	_
+
+25	in	in	CCONJ	Cc	_	26	cc	_	_	_
+
+26	praznikih	praznik	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	22	conj	_	_	_
+
+27	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = Mobiplavček za 5.000 tolarjev pa vam dovoljuje 39 minut pogovora od ponedeljka do petka ali pa 78 minut ob sobotah nedeljah in praznikih.
+1	Mobiplavček	mobiplavček	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_	_
+
+2	za	za	ADP	Sa	Case=Acc	4	case	_	_	_
+
+3	5.000	5.000	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+4	tolarjev	tolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_	_
+
+5	pa	pa	CCONJ	Cc	_	7	advmod	_	_	_
+
+6	vam	ti	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	7	iobj	_	_	_
+
+7	dovoljuje	dovoljevati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+8	39	39	NUM	Mdc	NumForm=Digit|NumType=Card	9	nummod	_	_	_
+
+9	minut	minuta	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	7	obj	_	_	_
+
+10	pogovora	pogovor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+11	od	od	ADP	Sg	Case=Gen	12	case	_	_	_
+
+12	ponedeljka	ponedeljko	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+13	do	do	ADP	Sg	Case=Gen	14	case	_	_	_
+
+14	petka	petek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_	_
+
+15	ali	ali	CCONJ	Cc	_	18	cc	_	_	_
+
+16	pa	pa	CCONJ	Cc	_	7	advmod	_	_	_
+
+17	78	78	NUM	Mdc	NumForm=Digit|NumType=Card	18	nummod	_	_	_
+
+18	minut	minuta	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	14	conj	_	_	_
+
+19	ob	ob	ADP	Sl	Case=Loc	20	case	_	_	_
+
+20	sobotah	sobota	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	18	nmod	_	_	_
+
+21	nedeljah	nedelja	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	20	nmod	_	_	_
+
+22	in	in	CCONJ	Cc	_	23	cc	_	_	_
+
+23	praznikih	praznik	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	21	conj	_	_	_
+
+24	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = Mobireglja- za 10 tisoč tolarjev boste med tednom lahko govorili 78 minut, ob sobotah, nedeljah in praznikih pa 156 minut.
+1	Mobireglja	mobiregljati	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	11	parataxis	_	_	_
+
+2	-	-	PUNCT	Z	_	1	punct	_	_	_
+
+3	za	za	ADP	Sa	Case=Acc	6	case	_	_	_
+
+4	10	10	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+5	tisoč	tisoč	NUM	Mlc-pa	Case=Acc|NumForm=Word|NumType=Card|Number=Plur	4	flat	_	_	_
+
+6	tolarjev	tolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_	_
+
+7	boste	biti	AUX	Va-f2p-n	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin	11	aux	_	_	_
+
+8	med	med	ADP	Si	Case=Ins	9	case	_	_	_
+
+9	tednom	teden	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_	_
+
+10	lahko	lahko	ADV	Rgp	Degree=Pos	11	advmod	_	_	_
+
+11	govorili	govoriti	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+12	78	78	NUM	Mdc	NumForm=Digit|NumType=Card	13	nummod	_	_	_
+
+13	minut	minuta	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	11	obj	_	_	_
+
+14	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+15	ob	ob	ADP	Sl	Case=Loc	16	case	_	_	_
+
+16	sobotah	sobota	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	13	appos	_	_	_
+
+17	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+18	nedeljah	nedelja	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	16	conj	_	_	_
+
+19	in	in	CCONJ	Cc	_	20	cc	_	_	_
+
+20	praznikih	praznik	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	16	conj	_	_	_
+
+21	pa	pa	CCONJ	Cc	_	23	cc	_	_	_
+
+22	156	156	NUM	Mdc	NumForm=Digit|NumType=Card	23	nummod	_	_	_
+
+23	minut	minuta	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	16	conj	_	_	_
+
+24	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = Še druge prednosti: preprosta uporaba, anonimnost, sproten nadzor nad porabo in dosegljivost vsepovsod.
+1	Še	še	PART	Q	_	6	advmod	_	_	_
+
+2	druge	drug	ADJ	Mlpfpn	Case=Nom|Gender=Fem|Number=Plur	3	amod	_	_	_
+
+3	prednosti	prednost	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	6	parataxis	_	_	_
+
+4	:	:	PUNCT	Z	_	3	punct	_	_	_
+
+5	preprosta	preprost	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	uporaba	uporaba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	anonimnost	anonimnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_	_
+
+9	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+10	sproten	sproten	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	nadzor	nadzor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_	_
+
+12	nad	nad	ADP	Si	Case=Ins	13	case	_	_	_
+
+13	porabo	poraba	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+14	in	in	CCONJ	Cc	_	15	cc	_	_	_
+
+15	dosegljivost	dosegljivost	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	13	conj	_	_	_
+
+16	vsepovsod	vsepovsod	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+
+17	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005255.txt
+# text = II. program
+1	II.	II.	X	Y	Abbr=Yes	2	amod	_	_	_
+
+2	program	program	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+

@@ -1,0 +1,469 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0026122.txt
+# text = Od tu naprej je vse tako kakor v kakem drugem Unixu.
+1	Od	od	ADP	Sg	Case=Gen	2	case	_	_	_
+
+2	tu	tu	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+3	naprej	naprej	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+4	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	vse	ves	DET	Pg-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	4	nsubj	_	_	_
+
+6	tako	tako	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+7	kakor	kakor	SCONJ	Cs	_	11	case	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	11	case	_	_	_
+
+9	kakem	kak	DET	Pq-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Int	11	det	_	_	_
+
+10	drugem	drug	ADJ	Mlpmsl	Case=Loc|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	Unixu	unix	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_	_
+
+12	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026122.txt
+# text = Precej suhoparno.
+1	Precej	precej	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+2	suhoparno	suhoparno	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing		root	_	_	_
+
+3	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026122.txt
+# text = Najprej se naučimo uporabljati vi, nato nas zafrkava sh, tako da moramo nujno uporabiti chsh, uspemo narediti novega uporabnika z adduser, se preveč igramo z /etc/passwd in na koncu( ko imamo vsega dovolj) napišemo shutdown now.
+1	Najprej	najprej	ADV	Rgs	Degree=Sup	4	advmod	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+3	naučimo	naučiti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	uporabljati	uporabljati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	3	xcomp	_	_	_
+
+5	vi	ti	PRON	Pp2mpn	Case=Nom|Gender=Masc|Number=Plur|Person=2|PronType=Prs	4	nsubj	_	_	_
+
+6	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+7	nato	nato	ADV	Rgp	Degree=Pos	9	advmod	_	_	_
+
+8	nas	jaz	PRON	Pp1-pa	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	obj	_	_	_
+
+9	zafrkava	zafrkava	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_	_
+
+10	sh	sh	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_	_
+
+11	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+12	tako	tako	CCONJ	Cc	_	14	cc	_	_	_
+
+13	da	da	SCONJ	Cs	_	12	fixed	_	_	_
+
+14	moramo	morati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	conj	_	_	_
+
+15	nujno	nujno	ADV	Rgp	Degree=Pos	16	advmod	_	_	_
+
+16	uporabiti	uporabiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	14	xcomp	_	_	_
+
+17	chsh	chsh	NOUN	Ncmsa	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_	_
+
+18	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+19	uspemo	uspeti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	conj	_	_	_
+
+20	narediti	narediti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	19	xcomp	_	_	_
+
+21	novega	nov	ADJ	Agpmsa	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_	_
+
+22	uporabnika	uporabnik	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_	_
+
+23	z	z	ADP	Si	Case=Ins	24	case	_	_	_
+
+24	adduser	adduser	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	22	nmod	_	_	_
+
+25	,	,	PUNCT	Z	_	28	punct	_	_	_
+
+26	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	28	expl	_	_	_
+
+27	preveč	preveč	DET	Rgp	PronType=Ind	28	advmod	_	_	_
+
+28	igramo	igrati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	_	_
+
+29	z	z	ADP	Si	Case=Ins	30	case	_	_	_
+
+30	/etc/passwd	/etc/passwd	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	28	obl	_	_	_
+
+31	in	in	CCONJ	Cc	_	33	cc	_	_	_
+
+32	na	na	ADP	Sl	Case=Loc	33	case	_	_	_
+
+33	koncu	konec	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	30	conj	_	_	_
+
+34	(	(	PUNCT	Z	_	36	punct	_	_	_
+
+35	ko	ko	SCONJ	Cs	_	36	mark	_	_	_
+
+36	imamo	imeti	VERB	Vmpr1p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	28	advcl	_	_	_
+
+37	vsega	ves	DET	Pg-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	38	nmod	_	_	_
+
+38	dovolj	dovolj	DET	Rgp	PronType=Ind	36	advmod	_	_	_
+
+39	)	)	PUNCT	Z	_	36	punct	_	_	_
+
+40	napišemo	napisati	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	36	conj	_	_	_
+
+41	shutdown	shutdown	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	40	obj	_	_	_
+
+42	now	now	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	41	nmod	_	_	_
+
+43	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026122.txt
+# text = Kljub vsemu smo srečni, ker vse skupaj čisto spodobno deluje.
+1	Kljub	kljub	ADP	Sd	Case=Dat	2	case	_	_	_
+
+2	vsemu	ves	DET	Pg-nsd	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	4	obl	_	_	_
+
+3	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_	_
+
+4	srečni	srečen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur		root	_	_	_
+
+5	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+6	ker	ker	SCONJ	Cs	_	11	mark	_	_	_
+
+7	vse	ves	DET	Pg-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	11	nsubj	_	_	_
+
+8	skupaj	skupaj	ADV	Rgp	Degree=Pos	11	advmod	_	_	_
+
+9	čisto	čisto	ADV	Rgp	Degree=Pos	10	advmod	_	_	_
+
+10	spodobno	spodobno	ADV	Rgp	Degree=Pos	11	advmod	_	_	_
+
+11	deluje	delovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_	_
+
+12	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026122.txt
+# text = Seveda pa nekaj manjka.
+1	Seveda	seveda	PART	Q	_	4	advmod	_	_	_
+
+2	pa	pa	CCONJ	Cc	_	4	advmod	_	_	_
+
+3	nekaj	nekaj	PRON	Pi-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	4	nsubj	_	_	_
+
+4	manjka	manjkati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026122.txt
+# text = Okna!
+1	Okna	okno	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur		root	_	_	_
+
+2	!	!	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026122.txt
+# text = Zato nemudoma vzamemo nov paket devetih disket in vstavimo še X Okna.
+1	Zato	zato	CCONJ	Cc	_	3	cc	_	_	_
+
+2	nemudoma	nemudoma	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+3	vzamemo	vzeti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	nov	nov	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+5	paket	paket	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_	_
+
+6	devetih	devet	NUM	Mlc-pg	Case=Gen|NumForm=Word|NumType=Card|Number=Plur	7	nummod	_	_	_
+
+7	disket	disket	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_	_
+
+8	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+9	vstavimo	vstaviti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_	_
+
+10	še	še	PART	Q	_	9	advmod	_	_	_
+
+11	X	X	NOUN	Ncmsa	Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+12	Okna	okno	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	_	_
+
+13	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026122.txt
+# text = Hitrejša in lažja pot do podatkovnega modela baze je izključitev uporabnikov, tako da se računalnikarji na osnovi podatkovnih modelov obstoječih informacijskih sistemov sami odločijo, kaj bodo ponudili uporabnikom.
+1	Hitrejša	hiter	ADJ	Agcfsn	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+2	in	in	CCONJ	Cc	_	3	cc	_	_	_
+
+3	lažja	lahek	ADJ	Agcfsn	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	1	conj	_	_	_
+
+4	pot	pot	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_	_
+
+5	do	do	ADP	Sg	Case=Gen	7	case	_	_	_
+
+6	podatkovnega	podatkoven	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	modela	model	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+8	baze	baza	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+9	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	cop	_	_	_
+
+10	izključitev	izključitev	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+11	uporabnikov	uporabnik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_	_
+
+12	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+13	tako	tako	CCONJ	Cc	_	25	cc	_	_	_
+
+14	da	da	SCONJ	Cs	_	13	fixed	_	_	_
+
+15	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	25	expl	_	_	_
+
+16	računalnikarji	računalnikar	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_	_
+
+17	na	na	ADP	Sl	Case=Loc	18	case	_	_	_
+
+18	osnovi	osnova	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+19	podatkovnih	podatkoven	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	20	amod	_	_	_
+
+20	modelov	model	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_	_
+
+21	obstoječih	obstoječ	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	23	amod	_	_	_
+
+22	informacijskih	informacijski	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	_	_
+
+23	sistemov	sistem	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_	_
+
+24	sami	sam	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	25	obl	_	_	_
+
+25	odločijo	odločiti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_	_
+
+26	,	,	PUNCT	Z	_	29	punct	_	_	_
+
+27	kaj	kaj	PRON	Pq-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	29	obj	_	_	_
+
+28	bodo	biti	AUX	Va-f3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	29	aux	_	_	_
+
+29	ponudili	ponuditi	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	25	ccomp	_	_	_
+
+30	uporabnikom	uporabnik	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	29	obj	_	_	_
+
+31	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026122.txt
+# text = Izvedba te druge različice je sicer hitrejša, ampak dolgoročno manj uspešna, saj uporabniki večinoma niso povsem zadovoljni s ponujenim in je treba stvari popravljati in ponavljati.
+1	Izvedba	izvedba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+
+2	te	ta	DET	Pd-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_	_
+
+3	druge	drug	ADJ	Mlpfsg	Case=Gen|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	različice	različica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	_	_
+
+6	sicer	sicer	PART	Q	_	7	advmod	_	_	_
+
+7	hitrejša	hiter	ADJ	Agcfsn	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing		root	_	_	_
+
+8	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+9	ampak	ampak	CCONJ	Cc	_	12	cc	_	_	_
+
+10	dolgoročno	dolgoročno	ADV	Rgp	Degree=Pos	11	advmod	_	_	_
+
+11	manj	manj	DET	Rgc	PronType=Ind	12	advmod	_	_	_
+
+12	uspešna	uspešen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	conj	_	_	_
+
+13	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+14	saj	saj	CCONJ	Cc	_	19	cc	_	_	_
+
+15	uporabniki	uporabnik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_	_
+
+16	večinoma	večinoma	ADV	Rgp	Degree=Pos	19	advmod	_	_	_
+
+17	niso	biti	AUX	Va-r3p-y	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	19	cop	_	_	_
+
+18	povsem	povsem	ADV	Rgp	Degree=Pos	19	advmod	_	_	_
+
+19	zadovoljni	zadovoljen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	12	conj	_	_	_
+
+20	s	z	ADP	Si	Case=Ins	21	case	_	_	_
+
+21	ponujenim	ponujen	ADJ	Appmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	19	obl	_	_	_
+
+22	in	in	CCONJ	Cc	_	23	cc	_	_	_
+
+23	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	conj	_	_	_
+
+24	treba	treba	ADV	Rgp	Degree=Pos	23	advmod	_	_	_
+
+25	stvari	stvar	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	26	obj	_	_	_
+
+26	popravljati	popravljati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	23	csubj	_	_	_
+
+27	in	in	CCONJ	Cc	_	28	cc	_	_	_
+
+28	ponavljati	ponavljati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	26	conj	_	_	_
+
+29	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026122.txt
+# text = Če začnemo izdelovati podatkovni model skladišča pri zahtevah uporabnikov in potem na osnovi tega poiščemo vire podatkov, ki smo jih vključili v skladišče, je to pristop od zgoraj navzdol.
+1	Če	če	SCONJ	Cs	_	2	mark	_	_	_
+
+2	začnemo	začeti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	28	advcl	_	_	_
+
+3	izdelovati	izdelovati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	2	xcomp	_	_	_
+
+4	podatkovni	podatkoven	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+5	model	model	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_	_
+
+6	skladišča	skladišče	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_	_
+
+7	pri	pri	ADP	Sl	Case=Loc	8	case	_	_	_
+
+8	zahtevah	zahteva	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	5	nmod	_	_	_
+
+9	uporabnikov	uporabnik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_	_
+
+10	in	in	CCONJ	Cc	_	15	cc	_	_	_
+
+11	potem	potem	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+
+12	na	na	ADP	Sl	Case=Loc	13	case	_	_	_
+
+13	osnovi	osnova	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_	_
+
+14	tega	ta	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	15	obl	_	_	_
+
+15	poiščemo	poiskati	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_	_
+
+16	vire	vir	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	15	obj	_	_	_
+
+17	podatkov	podatek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_	_
+
+18	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+19	ki	ki	SCONJ	Cs	_	22	mark	_	_	_
+
+20	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	22	aux	_	_	_
+
+21	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	22	obj	_	_	_
+
+22	vključili	vključiti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	17	acl	_	_	_
+
+23	v	v	ADP	Sa	Case=Acc	24	case	_	_	_
+
+24	skladišče	skladišče	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	22	obl	_	_	_
+
+25	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+26	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	28	cop	_	_	_
+
+27	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	28	det	_	_	_
+
+28	pristop	pristop	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+29	od	od	ADP	Sg	Case=Gen	30	case	_	_	_
+
+30	zgoraj	zgoraj	ADV	Rgp	Degree=Pos	28	advmod	_	_	_
+
+31	navzdol	navzdol	ADV	Rgp	Degree=Pos	30	advmod	_	_	_
+
+32	.	.	PUNCT	Z	_	28	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026122.txt
+# text = Če pa začnemo pri virih podatkov in iz tega, kar imamo na voljo, zgradimo podatkovni model skladišča, je to pristop od spodaj navzgor.
+1	Če	če	SCONJ	Cs	_	3	mark	_	_	_
+
+2	pa	pa	CCONJ	Cc	_	3	advmod	_	_	_
+
+3	začnemo	začeti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	advcl	_	_	_
+
+4	pri	pri	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	virih	vir	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	3	obl	_	_	_
+
+6	podatkov	podatek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_	_
+
+7	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+8	iz	iz	ADP	Sg	Case=Gen	9	case	_	_	_
+
+9	tega	ta	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	5	conj	_	_	_
+
+10	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+11	kar	kar	PRON	Pr-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	12	obj	_	_	_
+
+12	imamo	imeti	VERB	Vmpr1p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	acl	_	_	_
+
+13	na	na	ADP	Sa	Case=Acc	14	case	_	_	_
+
+14	voljo	volja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_	_
+
+15	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+16	zgradimo	zgraditi	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+17	podatkovni	podatkoven	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_	_
+
+18	model	model	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_	_
+
+19	skladišča	skladišče	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_	_
+
+20	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+21	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	23	cop	_	_	_
+
+22	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	23	nsubj	_	_	_
+
+23	pristop	pristop	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	16	parataxis	_	_	_
+
+24	od	od	ADP	Sg	Case=Gen	25	case	_	_	_
+
+25	spodaj	spodaj	ADV	Rgp	Degree=Pos	26	advmod	_	_	_
+
+26	navzgor	navzgor	ADV	Rgp	Degree=Pos	23	advmod	_	_	_
+
+27	.	.	PUNCT	Z	_	16	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026122.txt
+# text = Oba pristopa sta mogoča, vsak ima svoje dobre in slabe plati.
+1	Oba	oba	DET	Pg-mdn	Case=Nom|Gender=Masc|Number=Dual|PronType=Tot	2	det	_	_	_
+
+2	pristopa	pristop	NOUN	Ncmdn	Case=Nom|Gender=Masc|Number=Dual	4	nsubj	_	_	_
+
+3	sta	biti	AUX	Va-r3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_	_
+
+4	mogoča	mogoč	ADJ	Agpmdn	Case=Nom|Degree=Pos|Gender=Masc|Number=Dual		root	_	_	_
+
+5	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+6	vsak	vsak	DET	Pg-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	7	nsubj	_	_	_
+
+7	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	parataxis	_	_	_
+
+8	svoje	svoj	DET	Px-fpa	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	12	det	_	_	_
+
+9	dobre	dober	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	_	_
+
+10	in	in	CCONJ	Cc	_	11	cc	_	_	_
+
+11	slabe	slab	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	conj	_	_	_
+
+12	plati	plat	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_	_
+
+13	.	.	PUNCT	Z	_	4	punct	_	_	_
+

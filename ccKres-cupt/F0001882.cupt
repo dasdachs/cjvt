@@ -1,0 +1,401 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0001882.txt
+# text = 1. člen
+1	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001882.txt
+# text = Izrazi, uporabljeni v tem zakonu, pomenijo:
+1	Izrazi	Izraz	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	uporabljeni	uporabljen	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	1	amod	_	_	_
+
+4	v	v	ADP	Sl	Case=Loc	6	case	_	_	_
+
+5	tem	ta	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_	_
+
+6	zakonu	zakon	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_	_
+
+7	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+8	pomenijo	pomeniti	VERB	Vmbr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	:	:	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001882.txt
+# text = Distributerji smejo dobavljati samo varne proizvode.
+1	Distributerji	distributer	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_	_
+
+2	smejo	smeti	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	dobavljati	dobavljati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	2	xcomp	_	_	_
+
+4	samo	samo	PART	Q	_	3	advmod	_	_	_
+
+5	varne	varen	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_	_
+
+6	proizvode	proizvod	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_	_
+
+7	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001882.txt
+# text = Ne smejo dobavljati proizvodov, za katere vedo oziroma za katere bi na temelju svojega poklicnega znanja morali vedeti, da ne izpolnjujejo predpisanih pogojev in da so nevarni.
+1	Ne	ne	PART	Q	Polarity=Neg	2	advmod	_	_	_
+
+2	smejo	smeti	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	dobavljati	dobavljati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	2	xcomp	_	_	_
+
+4	proizvodov	proizvod	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	obj	_	_	_
+
+5	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+6	za	za	ADP	Sa	Case=Acc	7	case	_	_	_
+
+7	katere	kateri	DET	Pq-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Int	8	obl	_	_	_
+
+8	vedo	vedeti	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_	_
+
+9	oziroma	oziroma	CCONJ	Cc	_	18	cc	_	_	_
+
+10	za	za	ADP	Sa	Case=Acc	11	case	_	_	_
+
+11	katere	kateri	DET	Pq-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Int	18	obl	_	_	_
+
+12	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	18	aux	_	_	_
+
+13	na	na	ADP	Sl	Case=Loc	14	case	_	_	_
+
+14	temelju	temelj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_	_
+
+15	svojega	svoj	DET	Px-nsg	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	17	det	_	_	_
+
+16	poklicnega	poklicen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_	_
+
+17	znanja	znanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_	_
+
+18	morali	morati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	8	conj	_	_	_
+
+19	vedeti	vedeti	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	18	xcomp	_	_	_
+
+20	,	,	PUNCT	Z	_	23	punct	_	_	_
+
+21	da	da	SCONJ	Cs	_	23	mark	_	_	_
+
+22	ne	ne	PART	Q	Polarity=Neg	23	advmod	_	_	_
+
+23	izpolnjujejo	izpolnjevati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_	_
+
+24	predpisanih	predpisan	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	25	amod	_	_	_
+
+25	pogojev	pogoj	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	23	obj	_	_	_
+
+26	in	in	CCONJ	Cc	_	29	cc	_	_	_
+
+27	da	da	SCONJ	Cs	_	29	mark	_	_	_
+
+28	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	29	cop	_	_	_
+
+29	nevarni	nevaren	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	23	conj	_	_	_
+
+30	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001882.txt
+# text = Pristojni inšpekcijski organ iz 5. člena tega zakona z odločbo prepove promet in dobavo proizvodov oziroma odredi njihov umik iz prometa, če ugotovi, da proizvodi kljub izpolnjevanju določb iz tretjega odstavka tega člena ogrožajo varnost in zdravje potrošnikov in drugih uporabnikov.
+1	Pristojni	pristojen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+2	inšpekcijski	inšpekcijski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	organ	organ	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_	_
+
+4	iz	iz	ADP	Sg	Case=Gen	6	case	_	_	_
+
+5	5.	5.	NUM	Mdo	NumForm=Digit|NumType=Ord	6	nummod	_	_	_
+
+6	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+7	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_	_
+
+8	zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+9	z	z	ADP	Si	Case=Ins	10	case	_	_	_
+
+10	odločbo	odločba	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_	_
+
+11	prepove	prepova	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+12	promet	promet	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_	_
+
+13	in	in	CCONJ	Cc	_	14	cc	_	_	_
+
+14	dobavo	dobava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	conj	_	_	_
+
+15	proizvodov	proizvod	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_	_
+
+16	oziroma	oziroma	CCONJ	Cc	_	17	cc	_	_	_
+
+17	odredi	odred	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_	_
+
+18	njihov	njihov	DET	Ps3msap	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	19	det	_	_	_
+
+19	umik	umik	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_	_
+
+20	iz	iz	ADP	Sg	Case=Gen	21	case	_	_	_
+
+21	prometa	promet	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_	_
+
+22	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+23	če	če	SCONJ	Cs	_	24	mark	_	_	_
+
+24	ugotovi	ugotov	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_	_
+
+25	,	,	PUNCT	Z	_	36	punct	_	_	_
+
+26	da	da	SCONJ	Cs	_	36	mark	_	_	_
+
+27	proizvodi	proizvod	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	36	nsubj	_	_	_
+
+28	kljub	kljub	ADP	Sd	Case=Dat	29	case	_	_	_
+
+29	izpolnjevanju	izpolnjevanje	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	36	obl	_	_	_
+
+30	določb	določba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	_	_
+
+31	iz	iz	ADP	Sg	Case=Gen	33	case	_	_	_
+
+32	tretjega	tretji	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	33	amod	_	_	_
+
+33	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_	_
+
+34	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	35	det	_	_	_
+
+35	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_	_
+
+36	ogrožajo	ogrožati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	ccomp	_	_	_
+
+37	varnost	varnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	36	obj	_	_	_
+
+38	in	in	CCONJ	Cc	_	39	cc	_	_	_
+
+39	zdravje	zdravje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	37	conj	_	_	_
+
+40	potrošnikov	potrošnik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	39	nmod	_	_	_
+
+41	in	in	CCONJ	Cc	_	43	cc	_	_	_
+
+42	drugih	drug	ADJ	Mlpmpg	Case=Gen|Gender=Masc|Number=Plur	43	amod	_	_	_
+
+43	uporabnikov	uporabnik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	40	conj	_	_	_
+
+44	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001882.txt
+# text = - v času, ki je potreben za izvedbo raznih pregledov in preskusov, začasno prepovedo vsakršno dobavo, ponudbo dobave ali razstavljanje proizvodov ali skupine proizvodov, kakor hitro obstaja utemeljen sum, da so ti proizvodi nevarni,
+1	-	-	PUNCT	Z	_	16	punct	_	_	_
+
+2	v	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	času	čas	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_	_
+
+4	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+5	ki	ki	SCONJ	Cs	_	7	mark	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	_	_
+
+7	potreben	potreben	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	acl	_	_	_
+
+8	za	za	ADP	Sa	Case=Acc	9	case	_	_	_
+
+9	izvedbo	izvedba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_	_
+
+10	raznih	razen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_	_
+
+11	pregledov	pregled	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_	_
+
+12	in	in	CCONJ	Cc	_	13	cc	_	_	_
+
+13	preskusov	preskus	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	11	conj	_	_	_
+
+14	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+15	začasno	začasno	ADV	Rgp	Degree=Pos	16	advmod	_	_	_
+
+16	prepovedo	prepovedati	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+17	vsakršno	vsakršen	DET	Pg-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	18	det	_	_	_
+
+18	dobavo	dobava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_	_
+
+19	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+20	ponudbo	ponudba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	18	appos	_	_	_
+
+21	dobave	dobava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_	_
+
+22	ali	ali	CCONJ	Cc	_	23	cc	_	_	_
+
+23	razstavljanje	razstavljanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	18	conj	_	_	_
+
+24	proizvodov	proizvod	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_	_
+
+25	ali	ali	CCONJ	Cc	_	26	cc	_	_	_
+
+26	skupine	skupina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	24	conj	_	_	_
+
+27	proizvodov	proizvod	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_	_
+
+28	,	,	PUNCT	Z	_	31	punct	_	_	_
+
+29	kakor	kakor	SCONJ	Cs	_	31	mark	_	_	_
+
+30	hitro	hitro	ADV	Rgp	Degree=Pos	31	advmod	_	_	_
+
+31	obstaja	obstajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl	_	_	_
+
+32	utemeljen	utemeljen	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	33	amod	_	_	_
+
+33	sum	sum	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	_	_
+
+34	,	,	PUNCT	Z	_	39	punct	_	_	_
+
+35	da	da	SCONJ	Cs	_	39	mark	_	_	_
+
+36	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	39	cop	_	_	_
+
+37	ti	ta	DET	Pd-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	38	det	_	_	_
+
+38	proizvodi	proizvod	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	39	nsubj	_	_	_
+
+39	nevarni	nevaren	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	33	acl	_	_	_
+
+40	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001882.txt
+# text = Če pristojni inšpekcijski organ ne razpolaga s potrebnim strokovnim znanjem ali opremo za izvedbo potrebnega pregleda ali preskusa iz prejšnjega odstavka, izvedbo takih posameznih dejanj v okviru inšpekcijskega nadzorstva poveri usposobljeni instituciji.
+1	Če	če	SCONJ	Cs	_	6	mark	_	_	_
+
+2	pristojni	pristojen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+3	inšpekcijski	inšpekcijski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	organ	organ	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	_
+
+5	ne	ne	PART	Q	Polarity=Neg	6	advmod	_	_	_
+
+6	razpolaga	razpolaga	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	_	_	_
+
+7	s	z	ADP	Si	Case=Ins	10	case	_	_	_
+
+8	potrebnim	potreben	ADJ	Agpnsi	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_	_
+
+9	strokovnim	strokoven	ADJ	Agpnsi	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_	_
+
+10	znanjem	znanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	6	obl	_	_	_
+
+11	ali	ali	CCONJ	Cc	_	12	cc	_	_	_
+
+12	opremo	oprema	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	10	conj	_	_	_
+
+13	za	za	ADP	Sa	Case=Acc	14	case	_	_	_
+
+14	izvedbo	izvedba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+15	potrebnega	potreben	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_	_
+
+16	pregleda	pregled	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+17	ali	ali	CCONJ	Cc	_	18	cc	_	_	_
+
+18	preskusa	preskus	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	16	conj	_	_	_
+
+19	iz	iz	ADP	Sg	Case=Gen	21	case	_	_	_
+
+20	prejšnjega	prejšnji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_	_
+
+21	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_	_
+
+22	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+23	izvedbo	izvedba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_	_
+
+24	takih	tak	DET	Pd-npg	Case=Gen|Gender=Neut|Number=Plur|PronType=Dem	26	det	_	_	_
+
+25	posameznih	posamezen	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	26	amod	_	_	_
+
+26	dejanj	dejanje	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	23	nmod	_	_	_
+
+27	v	v	ADP	Sl	Case=Loc	28	case	_	_	_
+
+28	okviru	okvir	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	31	obl	_	_	_
+
+29	inšpekcijskega	inšpekcijski	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_	_
+
+30	nadzorstva	nadzorstvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	_	_
+
+31	poveri	poveriti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+32	usposobljeni	usposobljen	ADJ	Appfsd	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	33	amod	_	_	_
+
+33	instituciji	institucija	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	31	iobj	_	_	_
+
+34	.	.	PUNCT	Z	_	31	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001882.txt
+# text = Z denarno kaznijo 150.000 tolarjev se kaznuje za prekršek iz prvega odstavka tega člena posameznik- fizična oseba, ki stori dejanje iz prejšnjega odstavka.
+1	Z	z	ADP	Si	Case=Ins	3	case	_	_	_
+
+2	denarno	denaren	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	kaznijo	kazen	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_	_
+
+4	150.000	150.000	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+5	tolarjev	tolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_	_
+
+6	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	7	expl	_	_	_
+
+7	kaznuje	kazno	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+8	za	za	ADP	Sa	Case=Acc	9	case	_	_	_
+
+9	prekršek	prekršek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_	_
+
+10	iz	iz	ADP	Sg	Case=Gen	12	case	_	_	_
+
+11	prvega	prvi	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	12	amod	_	_	_
+
+12	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+13	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_	_
+
+14	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+15	posameznik	posameznik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	18	nmod	_	_	_
+
+16	-	-	PUNCT	Z	_	17	punct	_	_	_
+
+17	fizična	fizičen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_	_
+
+18	oseba	oseba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+
+19	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+20	ki	ki	SCONJ	Cs	_	21	mark	_	_	_
+
+21	stori	storiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl	_	_	_
+
+22	dejanje	dejanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_	_
+
+23	iz	iz	ADP	Sg	Case=Gen	25	case	_	_	_
+
+24	prejšnjega	prejšnji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_	_
+
+25	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_	_
+
+26	.	.	PUNCT	Z	_	7	punct	_	_	_
+

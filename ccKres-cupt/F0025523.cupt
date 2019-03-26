@@ -1,0 +1,69 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0025523.txt
+# text = Ivan Vidic
+1	Ivan	Ivan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Vidic	Vidic	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0025523.txt
+# text = Slovenija 1 ob 0.00
+1	Slovenija	Slovenija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+3	ob	ob	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	0.00	0.00	NUM	Mdc	NumForm=Digit|NumType=Card	2	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0025523.txt
+# text = POP TV ob 20. uri
+1	POP	POP	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	TV	TV	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	ob	ob	ADP	Sl	Case=Loc	5	case	_	_	_
+
+4	20.	20.	NUM	Mdo	NumForm=Digit|NumType=Ord	5	nummod	_	_	_
+
+5	uri	ura	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0025523.txt
+# text = Na uvodni dirki sezone bo 200 kolesarjev- Vseslovenska ekipa Perutnina Ptuj- Krka Telekom bo imela deset tekmovalcev
+1	Na	na	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	uvodni	uvoden	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	dirki	dirka	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+4	sezone	sezona	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+5	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin		root	_	_	_
+
+6	200	200	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+7	kolesarjev	kolesar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	_	_
+
+8	-	-	PUNCT	Z	_	17	punct	_	_	_
+
+9	Vseslovenska	vseslovenski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_	_
+
+10	ekipa	ekipa	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_	_
+
+11	Perutnina	perutnina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	10	nmod	_	_	_
+
+12	Ptuj	Ptuj	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+13	-	-	PUNCT	Z	_	14	punct	_	_	_
+
+14	Krka	krka	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	12	conj	_	_	_
+
+15	Telekom	Telekom	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+16	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	17	aux	_	_	_
+
+17	imela	imeti	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	5	parataxis	_	_	_
+
+18	deset	deset	NUM	Mlc-pa	Case=Acc|NumForm=Word|NumType=Card|Number=Plur	19	nummod	_	_	_
+
+19	tekmovalcev	tekmovalec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	17	obj	_	_	_
+

@@ -1,0 +1,83 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0012982.txt
+# text = ZAKON O SPREMEMBAH IN DOPOLNITVAH ZAKONA O IZPLAČEVANJU OSEBNIH DOHODKOV IN NEKATERIH DRUGIH PREJEMKOV DELAVCEV ZA 1991. LETO IN PRVO TROMESEČJE 1992.
+1	ZAKON	zakon	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	O	o	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	SPREMEMBAH	sprememba	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	1	nmod	_	_	_
+
+4	IN	in	CCONJ	Cc	_	5	cc	_	_	_
+
+5	DOPOLNITVAH	dopolnitev	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	3	conj	_	_	_
+
+6	ZAKONA	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+7	O	o	ADP	Sl	Case=Loc	8	case	_	_	_
+
+8	IZPLAČEVANJU	izplačevanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	_	_
+
+9	OSEBNIH	oseben	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_	_
+
+10	DOHODKOV	dohodek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_	_
+
+11	IN	in	CCONJ	Cc	_	14	cc	_	_	_
+
+12	NEKATERIH	nekateri	DET	Pi-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_	_
+
+13	DRUGIH	drug	ADJ	Mlpmpg	Case=Gen|Gender=Masc|Number=Plur	14	amod	_	_	_
+
+14	PREJEMKOV	prejemek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	conj	_	_	_
+
+15	DELAVCEV	delavec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_	_
+
+16	ZA	za	ADP	Sa	Case=Acc	17	case	_	_	_
+
+17	1991	1991	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+
+18	.	.	PUNCT	Z	_	19	punct	_	_	_
+
+19	LETO	leto	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	1	nmod	_	_	_
+
+20	IN	in	CCONJ	Cc	_	22	cc	_	_	_
+
+21	PRVO	PRVO	ADJ	Mlonsa	Case=Acc|Gender=Neut|NumType=Ord|Number=Sing	22	amod	_	_	_
+
+22	TROMESEČJE	tromesečje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	19	conj	_	_	_
+
+23	1992	1992	NUM	Mdc	NumForm=Digit|NumType=Card	22	nummod	_	_	_
+
+24	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0012982.txt
+# text = LETA
+1	LETA	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0012982.txt
+# text = 4. člen
+1	4.	4.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0012982.txt
+# text = 5. člen
+1	5.	5.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0012982.txt
+# text = Skupščina Republike Slovenije Predsednik dr. France Bučar
+1	Skupščina	skupščina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	Predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+5	dr.	dr.	X	Y	Abbr=Yes	6	nmod	_	_	_
+
+6	France	France	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+7	Bučar	Bučar	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	_	_
+

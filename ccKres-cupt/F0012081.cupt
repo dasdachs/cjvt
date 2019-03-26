@@ -1,0 +1,119 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0012081.txt
+# text = Nevarna igra
+1	Nevarna	nevaren	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	igra	igra	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0012081.txt
+# text = LJUBLJANA, 10.- V razstavnem prostoru Domusa na Slovenski cesti 17 bo od jutri na ogled razstava Pravilna prehrana mladostnika.
+1	LJUBLJANA	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	13	parataxis	_	_	_
+
+2	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+3	10.	10.	NUM	Mdo	NumForm=Digit|NumType=Ord	13	parataxis	_	_	_
+
+4	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+5	V	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+6	razstavnem	razstaven	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	prostoru	prostor	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_	_
+
+8	Domusa	Domus	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+9	na	na	ADP	Sl	Case=Loc	11	case	_	_	_
+
+10	Slovenski	slovenski	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_	_
+
+11	cesti	cesta	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+12	17	17	NUM	Mdc	NumForm=Digit|NumType=Card	11	nummod	_	_	_
+
+13	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	19	cop	_	_	_
+
+14	od	od	ADP	Sg	Case=Gen	15	case	_	_	_
+
+15	jutri	jutri	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_	_
+
+16	na	na	ADP	Sa	Case=Acc	17	case	_	_	_
+
+17	ogled	ogled	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_	_
+
+18	razstava	razstava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+19	Pravilna	pravilen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_	_
+
+20	prehrana	prehrana	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_	_
+
+21	mladostnika	mladostnik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_	_
+
+22	.	.	PUNCT	Z	_	19	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0012081.txt
+# text = Na slovesnosti ob 18.30 jo bo odprl prof.
+1	Na	na	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	slovesnosti	slovesnost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_	_
+
+3	ob	ob	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	18.30	18.30	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+5	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	7	obj	_	_	_
+
+6	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	7	aux	_	_	_
+
+7	odprl	odpreti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+8	prof.	prof.	X	Y	Abbr=Yes	7	nsubj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0012081.txt
+# text = dr. Dražigost Pokorn, dr. medicine in predstojnik Inštituta za higieno pri Medicinski fakulteti v Ljubljani.
+1	dr.	dr.	X	Y	Abbr=Yes	2	nmod	_	_	_
+
+2	Dražigost	dražigost	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	Pokorn	pokorn	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_	_
+
+4	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+5	dr.	dr.	X	Y	Abbr=Yes	6	nmod	_	_	_
+
+6	medicine	medicina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	appos	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	predstojnik	predstojnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_	_
+
+9	Inštituta	inštitut	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+10	za	za	ADP	Sa	Case=Acc	11	case	_	_	_
+
+11	higieno	higiena	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+12	pri	pri	ADP	Sl	Case=Loc	14	case	_	_	_
+
+13	Medicinski	medicinski	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_	_
+
+14	fakulteti	fakulteta	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+15	v	v	ADP	Sl	Case=Loc	16	case	_	_	_
+
+16	Ljubljani	Ljubljana	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+17	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0012081.txt
+# text = Slovenija hvaležna Grčiji za podporo
+1	Slovenija	Slovenija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_	_
+
+2	hvaležna	hvaležen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing		root	_	_	_
+
+3	Grčiji	Grčija	PROPN	Npfsd	Case=Dat|Gender=Fem|Number=Sing	2	obj	_	_	_
+
+4	za	za	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	podporo	podpora	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_	_
+

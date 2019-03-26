@@ -1,0 +1,151 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0031321.txt
+# text = " 3. a člen Podjetja iz 1. člena tega zakona, ki so na dan 20.10.
+1	"	"	PUNCT	Z	_	2	punct	_	_	_
+
+2	3	3	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+3	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+4	a	a	CCONJ	Cc	_	5	cc	_	_	_
+
+5	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+6	Podjetja	Podjetje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_	_
+
+7	iz	iz	ADP	Sg	Case=Gen	9	case	_	_	_
+
+8	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	9	nummod	_	_	_
+
+9	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+10	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_	_
+
+11	zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+12	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+13	ki	ki	SCONJ	Cs	_	14	mark	_	_	_
+
+14	so	biti	VERB	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	acl	_	_	_
+
+15	na	na	ADP	Sa	Case=Acc	16	case	_	_	_
+
+16	dan	dan	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_	_
+
+17	20.10.	20.10.	NUM	Mdc	NumForm=Digit|NumType=Card	16	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031321.txt
+# text = 1994 v lasti Sklada Republike Slovenije za razvoj in do 20.10.
+1	1994	1994	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	v	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	lasti	last	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	Sklada	sklad	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+5	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+6	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+7	za	za	ADP	Sa	Case=Acc	8	case	_	_	_
+
+8	razvoj	razvoj	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+9	in	in	CCONJ	Cc	_	11	cc	_	_	_
+
+10	do	do	ADP	Sg	Case=Gen	11	case	_	_	_
+
+11	20.10	20.10	NUM	Mdc	NumForm=Digit|NumType=Card	8	conj	_	_	_
+
+12	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031321.txt
+# text = 1994 niso poravnala dospelih obveznosti iz naslova vodnih povračil iz let 1990 in 1991, te obveznosti poravnajo v rokih in na način iz drugega, tretjega, četrtega in petega odstavka prejšnjega člena.
+1	1994	1994	NUM	Mdc	NumForm=Digit|NumType=Card	3	dep	_	_	_
+
+2	niso	biti	AUX	Va-r3p-y	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	aux	_	_	_
+
+3	poravnala	poravnati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+4	dospelih	dospel	ADJ	Appfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	5	amod	_	_	_
+
+5	obveznosti	obveznost	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	3	obj	_	_	_
+
+6	iz	iz	ADP	Sg	Case=Gen	7	case	_	_	_
+
+7	naslova	naslov	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+8	vodnih	voden	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	_	_
+
+9	povračil	povračilo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_	_
+
+10	iz	iz	ADP	Sg	Case=Gen	11	case	_	_	_
+
+11	let	leto	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_	_
+
+12	1990	1990	NUM	Mdc	NumForm=Digit|NumType=Card	11	nummod	_	_	_
+
+13	in	in	CCONJ	Cc	_	14	cc	_	_	_
+
+14	1991	1991	NUM	Mdc	NumForm=Digit|NumType=Card	12	conj	_	_	_
+
+15	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+16	te	ta	DET	Pd-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	17	det	_	_	_
+
+17	obveznosti	obveznost	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	_	_
+
+18	poravnajo	poravnati	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_	_
+
+19	v	v	ADP	Sl	Case=Loc	20	case	_	_	_
+
+20	rokih	rok	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	18	obl	_	_	_
+
+21	in	in	CCONJ	Cc	_	23	cc	_	_	_
+
+22	na	na	ADP	Sa	Case=Acc	23	case	_	_	_
+
+23	način	način	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	conj	_	_	_
+
+24	iz	iz	ADP	Sg	Case=Gen	32	case	_	_	_
+
+25	drugega	drug	ADJ	Mlpmsg	Case=Gen|Gender=Masc|Number=Sing	32	amod	_	_	_
+
+26	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+27	tretjega	tretji	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	25	conj	_	_	_
+
+28	,	,	PUNCT	Z	_	29	punct	_	_	_
+
+29	četrtega	četrti	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	25	conj	_	_	_
+
+30	in	in	CCONJ	Cc	_	31	cc	_	_	_
+
+31	petega	pet	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	25	conj	_	_	_
+
+32	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_	_
+
+33	prejšnjega	prejšnji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_	_
+
+34	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_	_
+
+35	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031321.txt
+# text = Predsednik Državnega zbora Republike Slovenije Jožef Školč
+1	Predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Državnega	državen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	zbora	zbor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+5	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+6	Jožef	Jožef	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+7	Školč	Školč	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	_	_
+

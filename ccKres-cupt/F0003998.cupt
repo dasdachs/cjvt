@@ -1,0 +1,97 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0003998.txt
+# text = These words are my own
+1	These	these	X	Xf	Foreign=Yes		root	_	_	_
+
+2	words	words	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+3	are	ara	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+4	my	my	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+5	own	own	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003998.txt
+# text = 4: Nemški sanjski moški Marcel in njegova izbranka Juliana, ki mu je po sanjskem potovanju dala košarico.
+1	4	4	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Nemški	nemški	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+4	sanjski	sanjski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+5	moški	moški	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+6	Marcel	Marcel	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+7	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+8	njegova	njegov	DET	Ps3fsnsm	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_	_
+
+9	izbranka	izbranka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_	_
+
+10	Juliana	Julian	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+11	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+12	ki	ki	SCONJ	Cs	_	18	mark	_	_	_
+
+13	mu	on	PRON	Pp3msd--y	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	18	iobj	_	_	_
+
+14	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	aux	_	_	_
+
+15	po	po	ADP	Sl	Case=Loc	17	case	_	_	_
+
+16	sanjskem	sanjski	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_	_
+
+17	potovanju	potovanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	18	obl	_	_	_
+
+18	dala	dati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	9	acl	_	_	_
+
+19	košarico	košarica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_	_
+
+20	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003998.txt
+# text = Ali vam je Seks v mestu po sedmih letih postal dolgočasen?
+1	Ali	ali	ADV	Rgp	Degree=Pos	10	advmod	_	_	_
+
+2	vam	ti	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	10	obj	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	_	_
+
+4	Seks	seks	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	mestu	mesto	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_	_
+
+7	po	po	ADP	Sl	Case=Loc	9	case	_	_	_
+
+8	sedmih	sedem	NUM	Mlc-pl	Case=Loc|NumForm=Word|NumType=Card|Number=Plur	9	nummod	_	_	_
+
+9	letih	leto	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	10	obl	_	_	_
+
+10	postal	postati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+11	dolgočasen	dolgočasen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	10	xcomp	_	_	_
+
+12	?	?	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003998.txt
+# text = ( foto: Z- Jola2)
+1	(	(	PUNCT	Z	_	6	punct	_	_	_
+
+2	foto	foto	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	:	:	PUNCT	Z	_	2	punct	_	_	_
+
+4	Z	z	ADP	Si	Case=Ins	6	case	_	_	_
+
+5	-	-	PUNCT	Z	_	6	punct	_	_	_
+
+6	Jola2	Jola2	X	X	_	2	nummod	_	_	_
+
+7	)	)	PUNCT	Z	_	6	punct	_	_	_
+

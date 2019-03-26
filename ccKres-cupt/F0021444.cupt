@@ -1,0 +1,983 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = 1. člen( vsebina zakona)
+1	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	(	(	PUNCT	Z	_	4	punct	_	_	_
+
+4	vsebina	vsebina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_	_
+
+5	zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+6	)	)	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = 7. člen( izobraževalni programi)
+1	7.	7.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	(	(	PUNCT	Z	_	5	punct	_	_	_
+
+4	izobraževalni	izobraževalen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_	_
+
+5	programi	program	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	2	appos	_	_	_
+
+6	)	)	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = Javno veljavni izobraževalni program za odrasle ima splošni in posebni del: a)
+1	Javno	javen	ADV	Rgp	Degree=Pos	4	amod	_	_	_
+
+2	veljavni	veljaven	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+3	izobraževalni	izobraževalen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	program	program	NOUN	Ncmsnn	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_	_
+
+5	za	za	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	odrasle	odrasel	ADJ	Appmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	4	amod	_	_	_
+
+7	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+8	splošni	splošen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+9	in	in	CCONJ	Cc	_	10	cc	_	_	_
+
+10	posebni	poseben	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	conj	_	_	_
+
+11	del	del	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_	_
+
+12	:	:	PUNCT	Z	_	13	punct	_	_	_
+
+13	a	a	X	X	_	7	parataxis	_	_	_
+
+14	)	)	PUNCT	Z	_	13	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = Splošni del vsebuje:
+1	Splošni	splošen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	del	del	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+3	vsebuje	vsebovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	:	:	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = - da ima strokovni delavec, ki organizira izobraževanje, visokošolsko izobrazbo ustrezne smeri, pedagoško- andragoško izobrazbo in strokovni izpit, predpisan za področje izobraževanja( v nadaljnjem besedilu: strokovni izpit),
+1	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+2	da	da	SCONJ	Cs	_	3	mark	_	_	_
+
+3	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	strokovni	strokoven	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+5	delavec	delavec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+6	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+7	ki	ki	SCONJ	Cs	_	8	mark	_	_	_
+
+8	organizira	organizirati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_	_
+
+9	izobraževanje	izobraževanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_	_
+
+10	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+11	visokošolsko	visokošolski	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_	_
+
+12	izobrazbo	izobrazba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	conj	_	_	_
+
+13	ustrezne	ustrezen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_	_
+
+14	smeri	smer	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+15	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+16	pedagoško	pedagoški	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_	_
+
+17	-	-	PUNCT	Z	_	18	punct	_	_	_
+
+18	andragoško	andragoški	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	conj	_	_	_
+
+19	izobrazbo	izobrazba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	conj	_	_	_
+
+20	in	in	CCONJ	Cc	_	22	cc	_	_	_
+
+21	strokovni	strokoven	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_	_
+
+22	izpit	izpit	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	conj	_	_	_
+
+23	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+24	predpisan	predpisan	ADJ	Appmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	22	amod	_	_	_
+
+25	za	za	ADP	Sa	Case=Acc	26	case	_	_	_
+
+26	področje	področje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	24	obl	_	_	_
+
+27	izobraževanja	izobraževanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_	_
+
+28	(	(	PUNCT	Z	_	31	punct	_	_	_
+
+29	v	v	ADP	Sl	Case=Loc	31	case	_	_	_
+
+30	nadaljnjem	nadaljnji	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	31	amod	_	_	_
+
+31	besedilu	besedilo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	27	appos	_	_	_
+
+32	:	:	PUNCT	Z	_	34	punct	_	_	_
+
+33	strokovni	strokoven	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_	_
+
+34	izpit	izpit	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	parataxis	_	_	_
+
+35	)	)	PUNCT	Z	_	34	punct	_	_	_
+
+36	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = 14. člen( vpis v razvid)
+1	14.	14.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	(	(	PUNCT	Z	_	4	punct	_	_	_
+
+4	vpis	vpis	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_	_
+
+5	v	v	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	razvid	razvid	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+7	)	)	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = 15. člen( ustanavljanje)
+1	15.	15.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	(	(	PUNCT	Z	_	4	punct	_	_	_
+
+4	ustanavljanje	ustanavljanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	2	appos	_	_	_
+
+5	)	)	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = Javne organizacije za izobraževanje odraslih ustanovi lokalna skupnost, lahko pa tudi država.
+1	Javne	Javne	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_	_
+
+2	organizacije	organizacija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_	_
+
+3	za	za	ADP	Sa	Case=Acc	4	case	_	_	_
+
+4	izobraževanje	izobraževanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+5	odraslih	odrasel	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	4	amod	_	_	_
+
+6	ustanovi	ustanova	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	lokalna	lokalen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	skupnost	skupnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_	_
+
+9	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+10	lahko	lahko	ADV	Rgp	Degree=Pos	13	advmod	_	_	_
+
+11	pa	pa	CCONJ	Cc	_	13	advmod	_	_	_
+
+12	tudi	tudi	PART	Q	_	13	advmod	_	_	_
+
+13	država	država	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	parataxis	_	_	_
+
+14	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = - odloča o posodobitvah izobraževalnega dela,
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	odloča	odločati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	o	o	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	posodobitvah	posodobitev	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	2	obl	_	_	_
+
+5	izobraževalnega	izobraževalen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_	_
+
+6	dela	delo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+7	,	,	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = Strokovni aktiv sestavljajo strokovni delavci- organizatorji izobraževanja in učitelji na posameznem izobraževalnem področju.
+1	Strokovni	strokoven	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	aktiv	aktiv	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+3	sestavljajo	sestavljati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	strokovni	strokoven	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_	_
+
+5	delavci	delavec	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_	_
+
+6	-	-	PUNCT	Z	_	7	punct	_	_	_
+
+7	organizatorji	organizator	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	3	parataxis	_	_	_
+
+8	izobraževanja	izobraževanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_	_
+
+9	in	in	CCONJ	Cc	_	10	cc	_	_	_
+
+10	učitelji	učitelj	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	7	conj	_	_	_
+
+11	na	na	ADP	Sl	Case=Loc	14	case	_	_	_
+
+12	posameznem	posamezen	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_	_
+
+13	izobraževalnem	izobraževalen	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_	_
+
+14	področju	področje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	_	_
+
+15	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = Nacionalni program za izobraževanje odraslih:
+1	Nacionalni	nacionalen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	program	program	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	za	za	ADP	Sa	Case=Acc	4	case	_	_	_
+
+4	izobraževanje	izobraževanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+5	odraslih	odrasel	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	4	amod	_	_	_
+
+6	:	:	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = - za investicije v javne organizacije za izobraževanje odraslih, katerih ustanoviteljica je država,
+1	-	-	PUNCT	Z	_	14	punct	_	_	_
+
+2	za	za	ADP	Sa	Case=Acc	3	case	_	_	_
+
+3	investicije	investicija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur		root	_	_	_
+
+4	v	v	ADP	Sa	Case=Acc	6	case	_	_	_
+
+5	javne	javen	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_	_
+
+6	organizacije	organizacija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	3	nmod	_	_	_
+
+7	za	za	ADP	Sa	Case=Acc	8	case	_	_	_
+
+8	izobraževanje	izobraževanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	_	_
+
+9	odraslih	odrasel	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	8	amod	_	_	_
+
+10	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+11	katerih	kateri	DET	Pq-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Int	12	nmod	_	_	_
+
+12	ustanoviteljica	ustanoviteljica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_	_
+
+13	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	cop	_	_	_
+
+14	država	država	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	9	acl	_	_	_
+
+15	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = b)
+1	b	biti	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	)	)	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = Sredstva lokalne skupnosti
+1	Sredstva	sredstvo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur		root	_	_	_
+
+2	lokalne	lokalen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	skupnosti	skupnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = Standarde in normative iz 29. člena tega zakona določi minister.
+1	Standarde	standard	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_	_
+
+2	in	in	CCONJ	Cc	_	3	cc	_	_	_
+
+3	normative	normativa	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	1	conj	_	_	_
+
+4	iz	iz	ADP	Sg	Case=Gen	6	case	_	_	_
+
+5	29.	29.	NUM	Mdo	NumForm=Digit|NumType=Ord	6	nummod	_	_	_
+
+6	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+7	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_	_
+
+8	zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+9	določi	določiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	minister	minister	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_	_
+
+11	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = V postopku priprave si minister pridobi mnenje pristojnega strokovnega sveta.
+1	V	v	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	postopku	postopek	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_	_
+
+3	priprave	priprava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	si	se	PRON	Px---d--y	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	6	expl	_	_	_
+
+5	minister	minister	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	_
+
+6	pridobi	pridobiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	mnenje	mnenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_	_
+
+8	pristojnega	pristojen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+9	strokovnega	strokoven	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	sveta	svet	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+11	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = Za izvedbo izobraževalnega programa za odrasle se lahko iz državnega proračuna dodelijo sredstva organizaciji za izobraževanje odraslih, če le ta izkaže, da ima vsaj eno tretjino sredstev, potrebnih za izvedbo programa, zagotovljeno iz drugih virov.
+1	Za	za	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	izvedbo	izvedba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_	_
+
+3	izobraževalnega	izobraževalen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	programa	program	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	za	za	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	odrasle	odrasel	ADJ	Appmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	4	amod	_	_	_
+
+7	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	12	expl	_	_	_
+
+8	lahko	lahko	ADV	Rgp	Degree=Pos	12	advmod	_	_	_
+
+9	iz	iz	ADP	Sg	Case=Gen	11	case	_	_	_
+
+10	državnega	državen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	proračuna	proračun	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_	_
+
+12	dodelijo	dodeliti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+13	sredstva	sredstvo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	_	_
+
+14	organizaciji	organizacija	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	_	_
+
+15	za	za	ADP	Sa	Case=Acc	16	case	_	_	_
+
+16	izobraževanje	izobraževanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	14	nmod	_	_	_
+
+17	odraslih	odrasel	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	16	amod	_	_	_
+
+18	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+19	če	če	SCONJ	Cs	_	22	mark	_	_	_
+
+20	le	le	PART	Q	_	22	advmod	_	_	_
+
+21	ta	ta	DET	Pd-fsn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	22	nsubj	_	_	_
+
+22	izkaže	izkazati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_	_
+
+23	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+24	da	da	SCONJ	Cs	_	25	mark	_	_	_
+
+25	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	22	csubj	_	_	_
+
+26	vsaj	vsaj	PART	Q	_	27	advmod	_	_	_
+
+27	eno	en	NUM	Mlpfsa	Case=Acc|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing	28	nummod	_	_	_
+
+28	tretjino	tretjina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_	_
+
+29	sredstev	sredstvo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	28	nmod	_	_	_
+
+30	,	,	PUNCT	Z	_	31	punct	_	_	_
+
+31	potrebnih	potreben	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	28	amod	_	_	_
+
+32	za	za	ADP	Sa	Case=Acc	33	case	_	_	_
+
+33	izvedbo	izvedba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	31	obl	_	_	_
+
+34	programa	program	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_	_
+
+35	,	,	PUNCT	Z	_	36	punct	_	_	_
+
+36	zagotovljeno	zagotovljen	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	34	amod	_	_	_
+
+37	iz	iz	ADP	Sg	Case=Gen	39	case	_	_	_
+
+38	drugih	drug	ADJ	Mlpmpg	Case=Gen|Gender=Masc|Number=Plur	39	amod	_	_	_
+
+39	virov	vir	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	36	obl	_	_	_
+
+40	.	.	PUNCT	Z	_	12	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = - druge medsebojne pravice in obveznosti.
+1	-	-	PUNCT	Z	_	4	punct	_	_	_
+
+2	druge	drug	ADJ	Mlpfpn	Case=Nom|Gender=Fem|Number=Plur	4	amod	_	_	_
+
+3	medsebojne	medsebojen	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_	_
+
+4	pravice	pravica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur		root	_	_	_
+
+5	in	in	CCONJ	Cc	_	6	cc	_	_	_
+
+6	obveznosti	obveznost	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	conj	_	_	_
+
+7	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = - obseg sredstev, ki se zagotavljajo iz republiškega proračuna,
+1	-	-	PUNCT	Z	_	7	punct	_	_	_
+
+2	obseg	obseg	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	sredstev	sredstvo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_	_
+
+4	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+5	ki	ki	SCONJ	Cs	_	7	mark	_	_	_
+
+6	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	7	expl	_	_	_
+
+7	zagotavljajo	zagotavljati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_	_
+
+8	iz	iz	ADP	Sg	Case=Gen	10	case	_	_	_
+
+9	republiškega	republiški	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	proračuna	proračun	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_	_
+
+11	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = Akt o ustanovitvi sklada določi vire, način in pogoje pridobivanja sredstev za uresničevanje namena, za katerega je sklad ustanovljen.
+1	Akt	akt	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+2	o	o	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	ustanovitvi	ustanovitev	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	sklada	sklad	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+5	določi	določiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	vire	vir	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	način	način	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	conj	_	_	_
+
+9	in	in	CCONJ	Cc	_	10	cc	_	_	_
+
+10	pogoje	pogoj	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	6	conj	_	_	_
+
+11	pridobivanja	pridobivanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_	_
+
+12	sredstev	sredstvo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_	_
+
+13	za	za	ADP	Sa	Case=Acc	14	case	_	_	_
+
+14	uresničevanje	uresničevanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	10	nmod	_	_	_
+
+15	namena	namen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+16	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+17	za	za	ADP	Sa	Case=Acc	18	case	_	_	_
+
+18	katerega	kateri	DET	Pq-msa	Case=Acc|Gender=Masc|Number=Sing|PronType=Int	21	obl	_	_	_
+
+19	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	21	cop	_	_	_
+
+20	sklad	sklad	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_	_
+
+21	ustanovljen	ustanovljen	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	15	acl	_	_	_
+
+22	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = Na sklad se prenesejo sredstva za financiranje izobraževalnih programov iz državnega proračuna.
+1	Na	na	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	sklad	sklad	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+4	prenesejo	prenesti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	sredstva	sredstvo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_	_
+
+6	za	za	ADP	Sa	Case=Acc	7	case	_	_	_
+
+7	financiranje	financiranje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	_	_
+
+8	izobraževalnih	izobraževalen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_	_
+
+9	programov	program	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_	_
+
+10	iz	iz	ADP	Sg	Case=Gen	12	case	_	_	_
+
+11	državnega	državen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_	_
+
+12	proračuna	proračun	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+13	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = V sklad se lahko združujejo tudi sredstva iz drugih virov.
+1	V	v	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	sklad	sklad	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	5	expl	_	_	_
+
+4	lahko	lahko	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+5	združujejo	združevati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	tudi	tudi	PART	Q	_	5	advmod	_	_	_
+
+7	sredstva	sredstvo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_	_
+
+8	iz	iz	ADP	Sg	Case=Gen	10	case	_	_	_
+
+9	drugih	drug	ADJ	Mlpmpg	Case=Gen|Gender=Masc|Number=Plur	10	amod	_	_	_
+
+10	virov	vir	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_	_
+
+11	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = Poslovanje sklada iz prvega odstavka prejšnjega člena vodi upravni odbor, ki ga sestavlja deset članov.
+1	Poslovanje	poslovanje	NOUN	Ncnsn	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_	_
+
+2	sklada	sklad	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	iz	iz	ADP	Sg	Case=Gen	5	case	_	_	_
+
+4	prvega	prvi	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	5	amod	_	_	_
+
+5	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+6	prejšnjega	prejšnji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+8	vodi	voditi	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	upravni	upraven	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	odbor	odbor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_	_
+
+11	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+12	ki	ki	SCONJ	Cs	_	14	mark	_	_	_
+
+13	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	14	obj	_	_	_
+
+14	sestavlja	sestavljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	_	_
+
+15	deset	deset	NUM	Mlc-pn	Case=Acc|NumForm=Word|NumType=Card|Number=Plur	16	nummod	_	_	_
+
+16	članov	član	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	14	nsubj	_	_	_
+
+17	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = Člane imenuje Vlada na predlog ministra, pristojnega za izobraževanje odraslih.
+1	Člane	član	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_	_
+
+2	imenuje	imenovati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	Vlada	vlada	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_	_
+
+4	na	na	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	predlog	predlog	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_	_
+
+6	ministra	minister	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	pristojnega	pristojen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_	_
+
+9	za	za	ADP	Sa	Case=Acc	10	case	_	_	_
+
+10	izobraževanje	izobraževanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_	_
+
+11	odraslih	odrasel	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	10	amod	_	_	_
+
+12	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = V upravni odbor se imenujejo predstavniki ministrstev, delodajalcev, sindikatov in strokovne javnosti.
+1	V	v	ADP	Sa	Case=Acc	3	case	_	_	_
+
+2	upravni	upraven	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	odbor	odbor	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_	_
+
+4	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	5	expl	_	_	_
+
+5	imenujejo	imenovati	VERB	Vmbr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	predstavniki	predstavnik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_	_
+
+7	ministrstev	ministrstvo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_	_
+
+8	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+9	delodajalcev	delodajalec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	7	conj	_	_	_
+
+10	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+11	sindikatov	sindikat	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	7	conj	_	_	_
+
+12	in	in	CCONJ	Cc	_	14	cc	_	_	_
+
+13	strokovne	strokoven	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_	_
+
+14	javnosti	javnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	conj	_	_	_
+
+15	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = Sklad je pravna oseba javnega prava.
+1	Sklad	sklad	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_	_
+
+3	pravna	praven	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	oseba	oseba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+5	javnega	javen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_	_
+
+6	prava	pravo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+7	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = 43. člen
+1	43.	43.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = 46. člen( vpis po pogodbi)
+1	46.	46.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	(	(	PUNCT	Z	_	4	punct	_	_	_
+
+4	vpis	vpis	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_	_
+
+5	po	po	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	pogodbi	pogodba	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+7	)	)	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = Izobraževalna organizacija mora najmanj dvakrat letno objaviti roke za izpite iz izobraževalnih programov, ki jih izvaja.
+1	Izobraževalna	izobraževalen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	organizacija	organizacija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+3	mora	morati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	najmanj	najmanj	ADV	Rgs	Degree=Sup	5	advmod	_	_	_
+
+5	dvakrat	dvakrat	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+6	letno	letno	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+7	objaviti	objaviti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	3	xcomp	_	_	_
+
+8	roke	roka	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_	_
+
+9	za	za	ADP	Sa	Case=Acc	10	case	_	_	_
+
+10	izpite	izpiti	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	_	_
+
+11	iz	iz	ADP	Sg	Case=Gen	13	case	_	_	_
+
+12	izobraževalnih	izobraževalen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_	_
+
+13	programov	program	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_	_
+
+14	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+15	ki	ki	SCONJ	Cs	_	17	mark	_	_	_
+
+16	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	17	obj	_	_	_
+
+17	izvaja	izvajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl	_	_	_
+
+18	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = 48. člen( pristojnosti)
+1	48.	48.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	(	(	PUNCT	Z	_	4	punct	_	_	_
+
+4	pristojnosti	pristojnost	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	2	appos	_	_	_
+
+5	)	)	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = Zbirka podatkov iz 2. točke prvega odstavka tega člena obsega poleg podatkov iz prejšnjega odstavka še podatke o napredovanju posameznega udeleženca izobraževanja in o izdanih spričevalih in drugih listinah.
+1	Zbirka	zbirka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_	_
+
+2	podatkov	podatek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_	_
+
+3	iz	iz	ADP	Sg	Case=Gen	5	case	_	_	_
+
+4	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	5	nummod	_	_	_
+
+5	točke	točka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+6	prvega	prvi	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	7	amod	_	_	_
+
+7	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+8	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_	_
+
+9	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+10	obsega	obsegati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+11	poleg	poleg	ADP	Sg	Case=Gen	12	case	_	_	_
+
+12	podatkov	podatek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_	_
+
+13	iz	iz	ADP	Sg	Case=Gen	15	case	_	_	_
+
+14	prejšnjega	prejšnji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_	_
+
+15	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+16	še	še	PART	Q	_	10	advmod	_	_	_
+
+17	podatke	podatek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_	_
+
+18	o	o	ADP	Sl	Case=Loc	19	case	_	_	_
+
+19	napredovanju	napredovanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	17	nmod	_	_	_
+
+20	posameznega	posamezen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_	_
+
+21	udeleženca	udeleženca	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_	_
+
+22	izobraževanja	izobraževanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_	_
+
+23	in	in	CCONJ	Cc	_	26	cc	_	_	_
+
+24	o	o	ADP	Sl	Case=Loc	26	case	_	_	_
+
+25	izdanih	izdan	ADJ	Appnpl	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur|VerbForm=Part	26	amod	_	_	_
+
+26	spričevalih	spričevalo	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	19	conj	_	_	_
+
+27	in	in	CCONJ	Cc	_	29	cc	_	_	_
+
+28	drugih	drug	ADJ	Mlpfpl	Case=Loc|Gender=Fem|Number=Plur	29	amod	_	_	_
+
+29	listinah	listina	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	26	conj	_	_	_
+
+30	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = 52. člen( način zbiranja podatkov)
+1	52.	52.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	(	(	PUNCT	Z	_	4	punct	_	_	_
+
+4	način	način	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_	_
+
+5	zbiranja	zbiranje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+6	podatkov	podatek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_	_
+
+7	)	)	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = Za potrebe znanstvenoraziskovalnega dela in pri izdelavi statističnih analiz se smejo osebni podatki uporabljati in objavljati tako, da identiteta udeleženca izobraževanja ni razvidna.
+1	Za	za	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	potrebe	potreba	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	14	obl	_	_	_
+
+3	znanstvenoraziskovalnega	znanstvenorazorazovalen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_	_
+
+4	dela	delo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+5	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+6	pri	pri	ADP	Sl	Case=Loc	7	case	_	_	_
+
+7	izdelavi	izdelava	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	2	conj	_	_	_
+
+8	statističnih	statističen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_	_
+
+9	analiz	analiza	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_	_
+
+10	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	14	expl	_	_	_
+
+11	smejo	smeti	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+12	osebni	oseben	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_	_
+
+13	podatki	podatek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_	_
+
+14	uporabljati	uporabljati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	11	xcomp	_	_	_
+
+15	in	in	CCONJ	Cc	_	16	cc	_	_	_
+
+16	objavljati	objavljati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	14	conj	_	_	_
+
+17	tako	tako	ADV	Rgp	Degree=Pos	24	mark	_	_	_
+
+18	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+19	da	da	SCONJ	Cs	_	17	fixed	_	_	_
+
+20	identiteta	identiteta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_	_
+
+21	udeleženca	udeleženca	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_	_
+
+22	izobraževanja	izobraževanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_	_
+
+23	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	24	cop	_	_	_
+
+24	razvidna	razviden	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	advcl	_	_	_
+
+25	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = Organizacije za izobraževanje odraslih vodijo naslednjo dokumentacijo:
+1	Organizacije	organizacija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_	_
+
+2	za	za	ADP	Sa	Case=Acc	3	case	_	_	_
+
+3	izobraževanje	izobraževanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	1	nmod	_	_	_
+
+4	odraslih	odrasel	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	3	amod	_	_	_
+
+5	vodijo	voditi	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	naslednjo	naslednji	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	_
+
+7	dokumentacijo	dokumentacija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_	_
+
+8	:	:	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = - vpisuje odrasle v nasprotju z določbami tega zakona o vpisu v izobraževanje odraslih in
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	vpisuje	vpisovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	odrasle	odrasel	ADJ	Appmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	2	obj	_	_	_
+
+4	v	v	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	nasprotju	nasprotje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_	_
+
+6	z	z	ADP	Si	Case=Ins	7	case	_	_	_
+
+7	določbami	določba	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	5	nmod	_	_	_
+
+8	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_	_
+
+9	zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+10	o	o	ADP	Sl	Case=Loc	11	case	_	_	_
+
+11	vpisu	vpis	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+12	v	v	ADP	Sa	Case=Acc	13	case	_	_	_
+
+13	izobraževanje	izobraževanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	11	nmod	_	_	_
+
+14	odraslih	odrasel	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	13	amod	_	_	_
+
+15	in	in	CCONJ	Cc	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021444.txt
+# text = Z denarno kaznijo najmanj 50.000 tolarjev se kaznuje tudi odgovorna oseba pravne osebe, ki stori prekršek iz prejšnjega odstavka.
+1	Z	z	ADP	Si	Case=Ins	3	case	_	_	_
+
+2	denarno	denaren	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	kaznijo	kazen	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+4	najmanj	najmanj	ADV	Rgs	Degree=Sup	5	advmod	_	_	_
+
+5	50.000	50.000	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+6	tolarjev	tolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_	_
+
+7	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	8	expl	_	_	_
+
+8	kaznuje	kazno	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	tudi	tudi	PART	Q	_	8	advmod	_	_	_
+
+10	odgovorna	odgovoren	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_	_
+
+11	oseba	oseba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_	_
+
+12	pravne	praven	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_	_
+
+13	osebe	oseba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+14	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+15	ki	ki	SCONJ	Cs	_	16	mark	_	_	_
+
+16	stori	storiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	_	_
+
+17	prekršek	prekršek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_	_
+
+18	iz	iz	ADP	Sg	Case=Gen	20	case	_	_	_
+
+19	prejšnjega	prejšnji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_	_
+
+20	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_	_
+
+21	.	.	PUNCT	Z	_	8	punct	_	_	_
+

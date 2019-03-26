@@ -1,0 +1,201 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0011135.txt
+# text = Javno podjetje Slovenske železnice Ljubljana, p.o., poravnava dospele in neporavnane obveznosti do 31.1.
+1	Javno	javen	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_	_
+
+2	podjetje	podjetje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+3	Slovenske	slovenski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	železnice	železnica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+5	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	p.o.	p.o.	X	Y	Abbr=Yes	5	appos	_	_	_
+
+8	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+9	poravnava	poravnava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_	_
+
+10	dospele	dospeti	ADJ	Appfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	13	amod	_	_	_
+
+11	in	in	CCONJ	Cc	_	12	cc	_	_	_
+
+12	neporavnane	neporavnan	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	10	conj	_	_	_
+
+13	obveznosti	obveznost	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	9	conj	_	_	_
+
+14	do	do	ADP	Sg	Case=Gen	15	case	_	_	_
+
+15	31.1	31.1	NUM	Mdc	NumForm=Digit|NumType=Card	13	nummod	_	_	_
+
+16	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011135.txt
+# text = 1993 iz naslova davkov in prispevkov in obveznosti, ki bodo nastale do 30.6.
+1	1993	1993	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	iz	iz	ADP	Sg	Case=Gen	3	case	_	_	_
+
+3	naslova	naslov	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	davkov	davek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_	_
+
+5	in	in	CCONJ	Cc	_	6	cc	_	_	_
+
+6	prispevkov	prispevek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	conj	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	obveznosti	obveznost	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	conj	_	_	_
+
+9	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+10	ki	ki	SCONJ	Cs	_	12	mark	_	_	_
+
+11	bodo	biti	AUX	Va-f3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	12	aux	_	_	_
+
+12	nastale	nastati	VERB	Vmep-pf	Aspect=Perf|Gender=Fem|Number=Plur|VerbForm=Part	8	acl	_	_	_
+
+13	do	do	ADP	Sg	Case=Gen	14	case	_	_	_
+
+14	30.6	30.6	NUM	Mdc	NumForm=Digit|NumType=Card	12	advmod	_	_	_
+
+15	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011135.txt
+# text = 1993 do proračuna Republike Slovenije v skupni višini največ do 147 .200.000 tolarjev mesečno, do Zavoda za pokojninsko in invalidsko zavarovanje Slovenije v skupni višini največ do 267.800.000 tolarjev mesečno ter do Zavoda za zdravstveno zavarovanje Slovenije v skupni višini največ do 156.
+1	1993	1993	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	do	do	ADP	Sg	Case=Gen	3	case	_	_	_
+
+3	proračuna	proračun	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+5	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+6	v	v	ADP	Sl	Case=Loc	8	case	_	_	_
+
+7	skupni	skupen	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	višini	višina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+9	največ	največ	DET	Rgs	PronType=Ind	13	det	_	_	_
+
+10	do	do	ADP	Sg	Case=Gen	13	case	_	_	_
+
+11	147	147	NUM	Mdc	NumForm=Digit|NumType=Card	13	nummod	_	_	_
+
+12	.200.000	.200.000	NUM	Mdc	NumForm=Digit|NumType=Card	13	nummod	_	_	_
+
+13	tolarjev	tolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_	_
+
+14	mesečno	mesečno	ADV	Rgp	Degree=Pos	13	advmod	_	_	_
+
+15	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+16	do	do	ADP	Sg	Case=Gen	17	case	_	_	_
+
+17	Zavoda	zavod	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	appos	_	_	_
+
+18	za	za	ADP	Sa	Case=Acc	22	case	_	_	_
+
+19	pokojninsko	pokojninski	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_	_
+
+20	in	in	CCONJ	Cc	_	21	cc	_	_	_
+
+21	invalidsko	invalidski	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	19	conj	_	_	_
+
+22	zavarovanje	zavarovanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	17	nmod	_	_	_
+
+23	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_	_
+
+24	v	v	ADP	Sl	Case=Loc	26	case	_	_	_
+
+25	skupni	skupen	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_	_
+
+26	višini	višina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	17	nmod	_	_	_
+
+27	največ	največ	DET	Rgs	PronType=Ind	30	advmod	_	_	_
+
+28	do	do	ADP	Sg	Case=Gen	30	case	_	_	_
+
+29	267.800.000	267.800.000	NUM	Mdc	NumForm=Digit|NumType=Card	30	nummod	_	_	_
+
+30	tolarjev	tolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_	_
+
+31	mesečno	mesečno	ADV	Rgp	Degree=Pos	30	advmod	_	_	_
+
+32	ter	ter	CCONJ	Cc	_	34	cc	_	_	_
+
+33	do	do	ADP	Sg	Case=Gen	34	case	_	_	_
+
+34	Zavoda	zavod	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	30	conj	_	_	_
+
+35	za	za	ADP	Sa	Case=Acc	37	case	_	_	_
+
+36	zdravstveno	zdravstven	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	37	amod	_	_	_
+
+37	zavarovanje	zavarovanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	34	nmod	_	_	_
+
+38	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	_	_
+
+39	v	v	ADP	Sl	Case=Loc	41	case	_	_	_
+
+40	skupni	skupen	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	_	_
+
+41	višini	višina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	34	nmod	_	_	_
+
+42	največ	največ	DET	Rgs	PronType=Ind	44	advmod	_	_	_
+
+43	do	do	ADP	Sg	Case=Gen	44	case	_	_	_
+
+44	156	156	NUM	Mdc	NumForm=Digit|NumType=Card	41	nummod	_	_	_
+
+45	.	.	PUNCT	Z	_	27	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011135.txt
+# text = 100.000 tolarjev mesečno( v nadaljnjem besedilu: obveznosti) na način, ki je določen s tem zakonom.
+1	100.000	100.000	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	tolarjev	tolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur		root	_	_	_
+
+3	mesečno	mesečno	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+4	(	(	PUNCT	Z	_	7	punct	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+6	nadaljnjem	nadaljnji	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_	_
+
+7	besedilu	besedilo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	2	appos	_	_	_
+
+8	:	:	PUNCT	Z	_	7	punct	_	_	_
+
+9	obveznosti	obveznost	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	12	appos	_	_	_
+
+10	)	)	PUNCT	Z	_	7	punct	_	_	_
+
+11	na	na	ADP	Sa	Case=Acc	12	case	_	_	_
+
+12	način	način	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+13	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+14	ki	ki	SCONJ	Cs	_	16	mark	_	_	_
+
+15	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	cop	_	_	_
+
+16	določen	določen	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	12	acl	_	_	_
+
+17	s	z	ADP	Si	Case=Ins	19	case	_	_	_
+
+18	tem	ta	DET	Pd-msi	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_	_
+
+19	zakonom	zakon	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	16	obl	_	_	_
+
+20	.	.	PUNCT	Z	_	2	punct	_	_	_
+

@@ -1,0 +1,683 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0035331.txt
+# text = 26. marec 2010 Vlada RS je za direktorja Filmskega sklada Republike Slovenije–javnega sklada s 25.3 .2010 za mandatno dobo štirih let imenovala gospoda Igorja Kadunca.
+1	26.	26.	NUM	Mdo	NumForm=Digit|NumType=Ord	22	dep	_	_	_
+
+2	marec	marec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_	_
+
+3	2010	2010	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+4	Vlada	vlada	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+5	RS	RS	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	22	aux	_	_	_
+
+7	za	za	ADP	Sa	Case=Acc	8	case	_	_	_
+
+8	direktorja	direktor	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	22	xcomp	_	_	_
+
+9	Filmskega	filmski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	sklada	sklad	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+11	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_	_
+
+12	Slovenije–javnega	Slovenijegjaven	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_	_
+
+13	sklada	sklad	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+14	s	z	ADP	Si	Case=Ins	16	case	_	_	_
+
+15	25.3	25.3	NUM	Mdc	NumForm=Digit|NumType=Card	16	flat	_	_	_
+
+16	.2010	.2010	NUM	Mdc	NumForm=Digit|NumType=Card	19	nummod	_	_	_
+
+17	za	za	ADP	Sa	Case=Acc	19	case	_	_	_
+
+18	mandatno	mandaten	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_	_
+
+19	dobo	doba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	22	obl	_	_	_
+
+20	štirih	štirje	NUM	Mlcnpg	Case=Gen|Gender=Neut|NumForm=Word|NumType=Card|Number=Plur	21	nummod	_	_	_
+
+21	let	leto	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	_	_
+
+22	imenovala	imenovati	VERB	Vmbp-sf	Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+23	gospoda	gospod	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_	_
+
+24	Igorja	Igor	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	23	nmod	_	_	_
+
+25	Kadunca	Kadunca	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	24	flat:name	_	_	_
+
+26	.	.	PUNCT	Z	_	22	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035331.txt
+# text = več->
+1	več	več	DET	Rgc	PronType=Ind		root	_	_	_
+
+2	-	-	PUNCT	Z	_	1	punct	_	_	_
+
+3	>	>	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035331.txt
+# text = V studiih Viba filma so v sredo, 21. aprila začeli snemati film madžarskega režiserja in scenarista Endreja Hulesa Deviški ples smrti.
+1	V	v	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	studiih	studioh	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	12	obl	_	_	_
+
+3	Viba	viba	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	filma	film	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+5	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_	_
+
+6	v	v	ADP	Sa	Case=Acc	7	case	_	_	_
+
+7	sredo	sreda	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_	_
+
+8	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+9	21.	21.	NUM	Mdo	NumForm=Digit|NumType=Ord	10	nummod	_	_	_
+
+10	aprila	april	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	appos	_	_	_
+
+11	začeli	začeti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+12	snemati	snemati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	11	xcomp	_	_	_
+
+13	film	film	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_	_
+
+14	madžarskega	madžarski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_	_
+
+15	režiserja	režiser	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+16	in	in	CCONJ	Cc	_	17	cc	_	_	_
+
+17	scenarista	scenarist	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	15	conj	_	_	_
+
+18	Endreja	Endreja	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_	_
+
+19	Hulesa	Hules	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	18	flat:name	_	_	_
+
+20	Deviški	deviški	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_	_
+
+21	ples	ples	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	_	_
+
+22	smrti	smrt	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_	_
+
+23	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035331.txt
+# text = V filmu bosta v vlogi staršev glavnih junakov nastopila Minu Kjuder in Boris Cavazza.
+1	V	v	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	filmu	film	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+3	bosta	biti	AUX	Va-f3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	9	aux	_	_	_
+
+4	v	v	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	vlogi	vloga	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_	_
+
+6	staršev	starš	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_	_
+
+7	glavnih	glaven	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_	_
+
+8	junakov	junak	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_	_
+
+9	nastopila	nastopiti	VERB	Vmep-dm	Aspect=Perf|Gender=Masc|Number=Dual|VerbForm=Part		root	_	_	_
+
+10	Minu	minu	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_	_
+
+11	Kjuder	Kjuder	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	_	_
+
+12	in	in	CCONJ	Cc	_	13	cc	_	_	_
+
+13	Boris	Boris	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	_	_
+
+14	Cavazza	Cavazza	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	flat:name	_	_	_
+
+15	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035331.txt
+# text = Slovenski producent filma je Igor Pediček iz produkcijske hiše Casablanca.
+1	Slovenski	slovenski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	producent	producent	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	filma	film	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_	_
+
+5	Igor	Igor	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_	_
+
+6	Pediček	pediček	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_	_
+
+7	iz	iz	ADP	Sg	Case=Gen	9	case	_	_	_
+
+8	produkcijske	produkcijski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_	_
+
+9	hiše	hiša	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+10	Casablanca	Casablanca	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+11	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035331.txt
+# text = Mari skuša brata prepričati, da bi združila moči, kar Stevu sprva ne diši.
+1	Mari	Mara	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_	_
+
+2	skuša	skušati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	brata	brat	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_	_
+
+4	prepričati	prepričati	VERB	Vmen	Aspect=Perf|VerbForm=Inf	2	xcomp	_	_	_
+
+5	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+6	da	da	SCONJ	Cs	_	8	mark	_	_	_
+
+7	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	8	aux	_	_	_
+
+8	združila	združiti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	4	advcl	_	_	_
+
+9	moči	moč	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_	_
+
+10	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+11	kar	kar	PRON	Pr-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	15	nsubj	_	_	_
+
+12	Stevu	Stevo	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	15	obj	_	_	_
+
+13	sprva	sprva	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+
+14	ne	ne	PART	Q	Polarity=Neg	15	advmod	_	_	_
+
+15	diši	dišati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	_	_
+
+16	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035331.txt
+# text = Pozneje se na bratovo prigovarjanje, ta si želi, da bi Steve pozabil na preteklost, le omehča in privoli v to, da bo poskrbel za finančno plat predstave, njegov brat pa za plesno.
+1	Pozneje	pozno	ADV	Rgc	Degree=Cmp	19	advmod	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	19	expl	_	_	_
+
+3	na	na	ADP	Sa	Case=Acc	5	case	_	_	_
+
+4	bratovo	bratov	ADJ	Aspnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Poss=Yes	5	amod	_	_	_
+
+5	prigovarjanje	prigovarjanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	_	_
+
+6	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+7	ta	ta	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	_	_
+
+8	si	se	PRON	Px---d--y	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	9	expl	_	_	_
+
+9	želi	želeti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+11	da	da	SCONJ	Cs	_	14	mark	_	_	_
+
+12	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	14	aux	_	_	_
+
+13	Steve	Steve	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_	_
+
+14	pozabil	pozabiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	9	ccomp	_	_	_
+
+15	na	na	ADP	Sa	Case=Acc	16	case	_	_	_
+
+16	preteklost	preteklost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_	_
+
+17	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+18	le	le	PART	Q	_	19	advmod	_	_	_
+
+19	omehča	omehč	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_	_
+
+20	in	in	CCONJ	Cc	_	21	cc	_	_	_
+
+21	privoli	privoli	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_	_
+
+22	v	v	ADP	Sa	Case=Acc	23	case	_	_	_
+
+23	to	ta	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	21	obl	_	_	_
+
+24	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+25	da	da	SCONJ	Cs	_	27	mark	_	_	_
+
+26	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	27	aux	_	_	_
+
+27	poskrbel	poskrbeti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	23	acl	_	_	_
+
+28	za	za	ADP	Sa	Case=Acc	30	case	_	_	_
+
+29	finančno	finančen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_	_
+
+30	plat	plat	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	27	obl	_	_	_
+
+31	predstave	predstava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_	_
+
+32	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+33	njegov	njegov	DET	Ps3msnsm	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	34	det	_	_	_
+
+34	brat	brat	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	37	nsubj	_	_	_
+
+35	pa	pa	CCONJ	Cc	_	34	advmod	_	_	_
+
+36	za	za	ADP	Sa	Case=Acc	37	case	_	_	_
+
+37	plesno	plesno	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	30	conj	_	_	_
+
+38	.	.	PUNCT	Z	_	19	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035331.txt
+# text = Kmalu pa pride do zapletov, saj se Steve po mnenju plesalcev preveč vmešava v njihovo delo.
+1	Kmalu	kmalu	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+2	pa	pa	CCONJ	Cc	_	3	advmod	_	_	_
+
+3	pride	priti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	do	do	ADP	Sg	Case=Gen	5	case	_	_	_
+
+5	zapletov	zaplet	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_	_
+
+6	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+7	saj	saj	CCONJ	Cc	_	14	cc	_	_	_
+
+8	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	14	expl	_	_	_
+
+9	Steve	Steve	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_	_
+
+10	po	po	ADP	Sl	Case=Loc	11	case	_	_	_
+
+11	mnenju	mnenje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_	_
+
+12	plesalcev	plesalec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_	_
+
+13	preveč	preveč	DET	Rgp	PronType=Ind	14	advmod	_	_	_
+
+14	vmešava	vmešava	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_	_
+
+15	v	v	ADP	Sa	Case=Acc	17	case	_	_	_
+
+16	njihovo	njihov	DET	Ps3nsap	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	17	det	_	_	_
+
+17	delo	delo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_	_
+
+18	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035331.txt
+# text = Stvari gredo samo še na slabše zaradi Gyulinega odnosa z mlado plesalko in Marijinih znova prebujenih čustev do Steva.
+1	Stvari	stvar	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_	_
+
+2	gredo	iti	VERB	Vmbr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	samo	samo	PART	Q	_	2	advmod	_	_	_
+
+4	še	še	PART	Q	_	2	advmod	_	_	_
+
+5	na	na	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	slabše	slab	ADJ	Agcnsa	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	2	obl	_	_	_
+
+7	zaradi	zaradi	ADP	Sg	Case=Gen	9	case	_	_	_
+
+8	Gyulinega	Gyulin	ADJ	Aspmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	9	amod	_	_	_
+
+9	odnosa	odnos	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_	_
+
+10	z	z	ADP	Si	Case=Ins	12	case	_	_	_
+
+11	mlado	mlad	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_	_
+
+12	plesalko	plesalka	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+13	in	in	CCONJ	Cc	_	17	cc	_	_	_
+
+14	Marijinih	Marijin	ADJ	Aspfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Poss=Yes	17	amod	_	_	_
+
+15	znova	znova	ADV	Rgp	Degree=Pos	16	advmod	_	_	_
+
+16	prebujenih	prebujen	ADJ	Appnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|VerbForm=Part	17	amod	_	_	_
+
+17	čustev	čustvo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	12	conj	_	_	_
+
+18	do	do	ADP	Sg	Case=Gen	19	case	_	_	_
+
+19	Steva	steva	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_	_
+
+20	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035331.txt
+# text = Deviški ples smrti se s Slovenijo ne povezuje le z avtorsko zasedbo in vsebino.
+1	Deviški	deviški	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	ples	ples	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_	_
+
+3	smrti	smrt	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	8	expl	_	_	_
+
+5	s	z	ADP	Si	Case=Ins	6	case	_	_	_
+
+6	Slovenijo	Slovenija	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+7	ne	ne	PART	Q	Polarity=Neg	8	advmod	_	_	_
+
+8	povezuje	povezovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	le	le	PART	Q	_	8	advmod	_	_	_
+
+10	z	z	ADP	Si	Case=Ins	12	case	_	_	_
+
+11	avtorsko	avtorski	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_	_
+
+12	zasedbo	zasedba	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+13	in	in	CCONJ	Cc	_	14	cc	_	_	_
+
+14	vsebino	vsebina	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	12	conj	_	_	_
+
+15	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035331.txt
+# text = Poleg tega bodo vsi interierji, razen kanadskih, posneti v studiih Viba filma.
+1	Poleg	poleg	ADP	Sg	Case=Gen	2	case	_	_	_
+
+2	tega	ta	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	_	_
+
+3	bodo	biti	AUX	Va-f3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin		root	_	_	_
+
+4	vsi	ves	DET	Pg-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	5	det	_	_	_
+
+5	interierji	interier	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_	_
+
+6	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+7	razen	razen	ADP	Sg	Case=Gen	8	case	_	_	_
+
+8	kanadskih	kanadski	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_	_
+
+9	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+10	posneti	posnet	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	8	conj	_	_	_
+
+11	v	v	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	studiih	studioh	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	10	obl	_	_	_
+
+13	Viba	viba	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+14	filma	film	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+15	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035331.txt
+# text = Projekt sta med drugimi finančno podprla Filmski sklad in Euroimages.
+1	Projekt	projekt	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_	_
+
+2	sta	biti	AUX	Va-r3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
+
+3	med	med	ADP	Si	Case=Ins	4	case	_	_	_
+
+4	drugimi	drug	ADJ	Mlpfpi	Case=Ins|Gender=Fem|Number=Plur	6	obl	_	_	_
+
+5	finančno	finančen	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+6	podprla	podpreti	VERB	Vmep-dm	Aspect=Perf|Gender=Masc|Number=Dual|VerbForm=Part		root	_	_	_
+
+7	Filmski	filmski	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+8	sklad	sklad	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_	_
+
+9	in	in	CCONJ	Cc	_	10	cc	_	_	_
+
+10	Euroimages	Euroimages	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_	_
+
+11	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035331.txt
+# text = Filmski sklad Slovenije poziva strokovno javnost, da predlaga kandidate za člane strokovno programske komisije Filmskega sklada( v nadaljevanju SPK), kot to določa 28. člen novih Splošnih pogojev poslovanja.
+1	Filmski	filmski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	sklad	sklad	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+3	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	poziva	pozivati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	strokovno	strokoven	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	javnost	javnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_	_
+
+7	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+8	da	da	SCONJ	Cs	_	9	mark	_	_	_
+
+9	predlaga	predlagati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	_	_
+
+10	kandidate	kandidat	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_	_
+
+11	za	za	ADP	Sa	Case=Acc	12	case	_	_	_
+
+12	člane	član	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	10	nmod	_	_	_
+
+13	strokovno	strokovno	ADV	Rgp	Degree=Pos	14	advmod	_	_	_
+
+14	programske	programski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_	_
+
+15	komisije	komisija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+16	Filmskega	filmski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_	_
+
+17	sklada	sklad	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+18	(	(	PUNCT	Z	_	20	punct	_	_	_
+
+19	v	v	ADP	Sl	Case=Loc	20	case	_	_	_
+
+20	nadaljevanju	nadaljevanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	17	appos	_	_	_
+
+21	SPK	SPK	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	20	nmod	_	_	_
+
+22	)	)	PUNCT	Z	_	20	punct	_	_	_
+
+23	,	,	PUNCT	Z	_	26	punct	_	_	_
+
+24	kot	kot	SCONJ	Cs	_	26	mark	_	_	_
+
+25	to	ta	DET	Pd-nsn	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	26	obj	_	_	_
+
+26	določa	določati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_	_
+
+27	28.	28.	NUM	Mdo	NumForm=Digit|NumType=Ord	28	nummod	_	_	_
+
+28	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_	_
+
+29	novih	nov	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	31	amod	_	_	_
+
+30	Splošnih	splošen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	31	amod	_	_	_
+
+31	pogojev	pogoj	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_	_
+
+32	poslovanja	poslovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	_	_
+
+33	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035331.txt
+# text = Za člana strokovne komisije je lahko imenovan vsak, ki z rezultati dosedanjega ustvarjalnega dela, strokovnim ugledom in nepristranskostjo izkazuje zmožnost, prispevati h kakovostnemu odločanju pri oblikovanju programov sklada.
+1	Za	za	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	člana	član	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	24	obl	_	_	_
+
+3	strokovne	strokoven	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	komisije	komisija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	_	_
+
+6	lahko	lahko	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+7	imenovan	imenovan	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+8	vsak	vsak	DET	Pg-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	7	nsubj	_	_	_
+
+9	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+10	ki	ki	SCONJ	Cs	_	21	mark	_	_	_
+
+11	z	z	ADP	Si	Case=Ins	12	case	_	_	_
+
+12	rezultati	rezultat	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	24	obl	_	_	_
+
+13	dosedanjega	dosedanji	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_	_
+
+14	ustvarjalnega	ustvarjalen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_	_
+
+15	dela	delo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_	_
+
+16	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+17	strokovnim	strokoven	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_	_
+
+18	ugledom	ugled	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	15	conj	_	_	_
+
+19	in	in	CCONJ	Cc	_	20	cc	_	_	_
+
+20	nepristranskostjo	nepristranskost	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	15	conj	_	_	_
+
+21	izkazuje	izkazovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_	_
+
+22	zmožnost	zmožnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_	_
+
+23	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+24	prispevati	prispevati	VERB	Vmbn	VerbForm=Inf	7	ccomp	_	_	_
+
+25	h	k	ADP	Sd	Case=Dat	27	case	_	_	_
+
+26	kakovostnemu	kakovosten	ADJ	Agpnsd	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_	_
+
+27	odločanju	odločanje	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	24	obl	_	_	_
+
+28	pri	pri	ADP	Sl	Case=Loc	29	case	_	_	_
+
+29	oblikovanju	oblikovanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	27	nmod	_	_	_
+
+30	programov	program	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	_	_
+
+31	sklada	sklad	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_	_
+
+32	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035331.txt
+# text = Piše se leto 2147.
+1	Piše	pisati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	1	expl	_	_	_
+
+3	leto	leto	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_	_
+
+4	2147	2147	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+5	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035331.txt
+# text = Zemlja je ena sama puščava, Sonce roparica na nebu brez oblačka.
+1	Zemlja	Zemlja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+3	ena	en	NUM	Mlpfsn	Case=Nom|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing	5	nummod	_	_	_
+
+4	sama	sam	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	puščava	puščava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+6	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+7	Sonce	sonce	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_	_
+
+8	roparica	roparica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_	_
+
+9	na	na	ADP	Sl	Case=Loc	10	case	_	_	_
+
+10	nebu	nebo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	_	_
+
+11	brez	brez	ADP	Sg	Case=Gen	12	case	_	_	_
+
+12	oblačka	oblaček	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+13	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035331.txt
+# text = V Mestu rdeče puščave životari peščica starcev.
+1	V	v	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	Mestu	mesto	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_	_
+
+3	rdeče	rdeč	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	puščave	puščava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+5	životari	životar	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	peščica	peščica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_	_
+
+7	starcev	starec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_	_
+
+8	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035331.txt
+# text = Da gre za nekdanje poletno letovišče, pričajo pomoli, ki izginjajo v puščavo, kjer je nekoč bučalo morje.
+1	Da	da	SCONJ	Cs	_	2	mark	_	_	_
+
+2	gre	iti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_	_
+
+3	za	za	ADP	Sa	Case=Acc	6	case	_	_	_
+
+4	nekdanje	nekdanji	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_	_
+
+5	poletno	poleten	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_	_
+
+6	letovišče	letovišče	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_	_
+
+7	,	,	PUNCT	Z	_	2	punct	_	_	_
+
+8	pričajo	pričati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	pomoli	pomol	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_	_
+
+10	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+11	ki	ki	SCONJ	Cs	_	12	mark	_	_	_
+
+12	izginjajo	izginjati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	_	_
+
+13	v	v	ADP	Sa	Case=Acc	14	case	_	_	_
+
+14	puščavo	puščava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_	_
+
+15	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+16	kjer	kjer	SCONJ	Cs	_	19	mark	_	_	_
+
+17	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	aux	_	_	_
+
+18	nekoč	nekoč	ADV	Rgp	Degree=Pos	19	advmod	_	_	_
+
+19	bučalo	bučalo	VERB	Vmpp-sn	Aspect=Imp|Gender=Neut|Number=Sing|VerbForm=Part	14	acl	_	_	_
+
+20	morje	morje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_	_
+
+21	.	.	PUNCT	Z	_	8	punct	_	_	_
+

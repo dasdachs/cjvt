@@ -1,0 +1,579 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0022630.txt
+# text = LISTERIOZA PRI DROBNICI
+1	LISTERIOZA	listerioz	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	PRI	pri	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	DROBNICI	drobnica	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022630.txt
+# text = 70 9,3 145 19,3
+1	70	70	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	9,3	9,3	NUM	Mdc	NumForm=Digit|NumType=Card	1	flat	_	_	_
+
+3	145	145	NUM	Mdc	NumForm=Digit|NumType=Card	2	conj	_	_	_
+
+4	19,3	19,3	NUM	Mdc	NumForm=Digit|NumType=Card	2	flat	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022630.txt
+# text = - teorija in praksa prevešanja satja s pokrito zalego iz» plodišča« v» medišče«( določen čas je plodišče, dokler se ne poleže pokrita zalega, med tem časom pa čebele nimajo kam odlagati v panj prinesenega medu; ta teorija in praksa je bila povzeta po Emilu Preussu( 18481910), cesarsko pruskem finančniku in čebelarju.
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	teorija	teorija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_	_
+
+3	in	in	CCONJ	Cc	_	4	cc	_	_	_
+
+4	praksa	praks	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_	_
+
+5	prevešanja	prevešanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+6	satja	satje	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+7	s	z	ADP	Si	Case=Ins	9	case	_	_	_
+
+8	pokrito	pokrit	ADJ	Appfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	9	amod	_	_	_
+
+9	zalego	zalega	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+10	iz	iz	ADP	Sg	Case=Gen	12	case	_	_	_
+
+11	»	»	PUNCT	Z	_	12	punct	_	_	_
+
+12	plodišča	plodišče	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_	_
+
+13	«	«	PUNCT	Z	_	12	punct	_	_	_
+
+14	v	v	ADP	Sa	Case=Acc	16	case	_	_	_
+
+15	»	»	PUNCT	Z	_	16	punct	_	_	_
+
+16	medišče	medišče	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	12	nmod	_	_	_
+
+17	«	«	PUNCT	Z	_	16	punct	_	_	_
+
+18	(	(	PUNCT	Z	_	20	punct	_	_	_
+
+19	določen	določen	ADJ	Appmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	20	amod	_	_	_
+
+20	čas	čas	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	_	_
+
+21	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	22	cop	_	_	_
+
+22	plodišče	plodišče	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+23	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+24	dokler	dokler	SCONJ	Cs	_	27	mark	_	_	_
+
+25	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	27	expl	_	_	_
+
+26	ne	ne	PART	Q	Polarity=Neg	27	advmod	_	_	_
+
+27	poleže	poleč	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl	_	_	_
+
+28	pokrita	pokrit	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	29	amod	_	_	_
+
+29	zalega	zalega	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_	_
+
+30	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+31	med	med	ADP	Si	Case=Ins	33	case	_	_	_
+
+32	tem	ta	DET	Pd-msi	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	33	det	_	_	_
+
+33	časom	čas	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	38	obl	_	_	_
+
+34	pa	pa	CCONJ	Cc	_	36	advmod	_	_	_
+
+35	čebele	čebela	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	36	nsubj	_	_	_
+
+36	nimajo	imeti	VERB	Vmpr3p-y	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	22	parataxis	_	_	_
+
+37	kam	kam	ADV	Rgp	Degree=Pos	38	advmod	_	_	_
+
+38	odlagati	odlagati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	36	xcomp	_	_	_
+
+39	v	v	ADP	Sa	Case=Acc	40	case	_	_	_
+
+40	panj	pame	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	38	obl	_	_	_
+
+41	prinesenega	prinesen	ADJ	Appmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	42	amod	_	_	_
+
+42	medu	med	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	_	_
+
+43	;	;	PUNCT	Z	_	50	punct	_	_	_
+
+44	ta	ta	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	45	det	_	_	_
+
+45	teorija	teorija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	50	nsubj	_	_	_
+
+46	in	in	CCONJ	Cc	_	47	cc	_	_	_
+
+47	praksa	praks	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	45	conj	_	_	_
+
+48	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	50	aux	_	_	_
+
+49	bila	biti	AUX	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	50	cop	_	_	_
+
+50	povzeta	povzet	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	36	parataxis	_	_	_
+
+51	po	po	ADP	Sl	Case=Loc	52	case	_	_	_
+
+52	Emilu	Emilu	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	50	obl	_	_	_
+
+53	Preussu	Preusso	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	52	flat:name	_	_	_
+
+54	(	(	PUNCT	Z	_	55	punct	_	_	_
+
+55	18481910	18481910	NUM	Mdc	NumForm=Digit|NumType=Card	52	nummod	_	_	_
+
+56	)	)	PUNCT	Z	_	55	punct	_	_	_
+
+57	,	,	PUNCT	Z	_	60	punct	_	_	_
+
+58	cesarsko	cesarski	ADV	Rgp	Degree=Pos	59	advmod	_	_	_
+
+59	pruskem	pruski	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	60	amod	_	_	_
+
+60	finančniku	finančnik	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	52	conj	_	_	_
+
+61	in	in	CCONJ	Cc	_	62	cc	_	_	_
+
+62	čebelarju	čebelar	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	60	conj	_	_	_
+
+63	.	.	PUNCT	Z	_	36	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022630.txt
+# text = 15. R. Ocepek: OREH 2.940 SIT 1.800 SIT
+1	15.	15.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	R.	R.	X	Y	Abbr=Yes	9	nsubj	_	_	_
+
+3	Ocepek	ocepek	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	:	:	PUNCT	Z	_	2	punct	_	_	_
+
+5	OREH	oreh	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+6	2.940	2.940	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+7	SIT	SIT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+8	1.800	1.800	NUM	Mdc	NumForm=Digit|NumType=Card	9	nummod	_	_	_
+
+9	SIT	SIT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022630.txt
+# text = 9000 Murska Sobota
+1	9000	9000	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+2	Murska	murski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	Sobota	Sobota	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022630.txt
+# text = Skupina mladih ornitologov pri opazovanju ptic ob reki Sotli
+1	Skupina	skupina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	mladih	mlad	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_	_
+
+3	ornitologov	ornitolog	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_	_
+
+4	pri	pri	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	opazovanju	opazovanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	_	_
+
+6	ptic	ptica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_	_
+
+7	ob	ob	ADP	Sl	Case=Loc	8	case	_	_	_
+
+8	reki	reka	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+9	Sotli	Sotla	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022630.txt
+# text = J. P.
+1	J.	J.	X	Y	Abbr=Yes		root	_	_	_
+
+2	P.	P.	X	Y	Abbr=Yes	1	flat	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022630.txt
+# text = - zasebno: poročen, oče dveh otrok; vinogradnik, znan po vinih posebne kakovosti.
+1	-	-	PUNCT	Z	_	4	punct	_	_	_
+
+2	zasebno	zaseben	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+3	:	:	PUNCT	Z	_	2	punct	_	_	_
+
+4	poročen	poročen	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+6	oče	oče	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+7	dveh	dva	NUM	Mlcmdg	Case=Gen|Gender=Masc|NumForm=Word|NumType=Card|Number=Dual	8	nummod	_	_	_
+
+8	otrok	otrok	NOUN	Ncmdg	Case=Gen|Gender=Masc|Number=Dual	6	nmod	_	_	_
+
+9	;	;	PUNCT	Z	_	10	punct	_	_	_
+
+10	vinogradnik	vinogradnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	parataxis	_	_	_
+
+11	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+12	znan	znan	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	10	amod	_	_	_
+
+13	po	po	ADP	Sl	Case=Loc	14	case	_	_	_
+
+14	vinih	vino	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	12	obl	_	_	_
+
+15	posebne	poseben	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_	_
+
+16	kakovosti	kakovost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+17	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022630.txt
+# text = Različni pridelovalni pogoji ter pestrost pokrajine in ljudi pomeni, da mora politika prisluhniti različnim ljudem in jih le globalno usmerjati v okviru sprejetih strategij razvoja.
+1	Različni	različen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_	_
+
+2	pridelovalni	pridelovalen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_	_
+
+3	pogoji	pogoj	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_	_
+
+4	ter	ter	CCONJ	Cc	_	5	cc	_	_	_
+
+5	pestrost	pestrost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_	_
+
+6	pokrajine	pokrajina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	ljudi	človek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	conj	_	_	_
+
+9	pomeni	pomeniti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+11	da	da	SCONJ	Cs	_	12	mark	_	_	_
+
+12	mora	morati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_	_
+
+13	politika	politika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_	_
+
+14	prisluhniti	prisluhniti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	12	xcomp	_	_	_
+
+15	različnim	različen	ADJ	Agpmpd	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_	_
+
+16	ljudem	človek	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	14	iobj	_	_	_
+
+17	in	in	CCONJ	Cc	_	21	cc	_	_	_
+
+18	jih	on	PRON	Pp3fpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	21	obj	_	_	_
+
+19	le	le	PART	Q	_	21	advmod	_	_	_
+
+20	globalno	globalen	ADV	Rgp	Degree=Pos	21	advmod	_	_	_
+
+21	usmerjati	usmerjati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	14	conj	_	_	_
+
+22	v	v	ADP	Sl	Case=Loc	23	case	_	_	_
+
+23	okviru	okvir	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	21	obl	_	_	_
+
+24	sprejetih	sprejet	ADJ	Appfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	25	amod	_	_	_
+
+25	strategij	strategija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_	_
+
+26	razvoja	razvoj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_	_
+
+27	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022630.txt
+# text = Čimprej je potrebno sprejeti zakonodajo na področju kmetijstva in dopolnilnih dejavnosti in jo tudi uskladiti z evropsko.
+1	Čimprej	čimprej	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_	_
+
+3	potrebno	potreben	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing		root	_	_	_
+
+4	sprejeti	sprejeti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	3	csubj	_	_	_
+
+5	zakonodajo	zakonodaja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_	_
+
+6	na	na	ADP	Sl	Case=Loc	7	case	_	_	_
+
+7	področju	področje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	5	nmod	_	_	_
+
+8	kmetijstva	kmetijstvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_	_
+
+9	in	in	CCONJ	Cc	_	11	cc	_	_	_
+
+10	dopolnilnih	dopolnilen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_	_
+
+11	dejavnosti	dejavnost	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	8	conj	_	_	_
+
+12	in	in	CCONJ	Cc	_	15	cc	_	_	_
+
+13	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	15	obj	_	_	_
+
+14	tudi	tudi	PART	Q	_	15	advmod	_	_	_
+
+15	uskladiti	uskladiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	4	conj	_	_	_
+
+16	z	z	ADP	Si	Case=Ins	17	case	_	_	_
+
+17	evropsko	evropski	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	obl	_	_	_
+
+18	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022630.txt
+# text = Zakon o vinu je sprejet, nujno potrebujemo še ostale podzakonske akte, dokončati je treba tudi vinogradniški kataster.
+1	Zakon	zakon	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+2	o	o	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	vinu	vino	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+5	sprejet	sprejet	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+7	nujno	nujno	ADV	Rgp	Degree=Pos	8	advmod	_	_	_
+
+8	potrebujemo	potrebovati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	parataxis	_	_	_
+
+9	še	še	PART	Q	_	8	advmod	_	_	_
+
+10	ostale	ostal	ADJ	Appmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	12	amod	_	_	_
+
+11	podzakonske	podzakonski	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_	_
+
+12	akte	akta	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_	_
+
+13	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+14	dokončati	dokončati	VERB	Vmen	Aspect=Perf|VerbForm=Inf	15	csubj	_	_	_
+
+15	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	conj	_	_	_
+
+16	treba	treba	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+
+17	tudi	tudi	PART	Q	_	14	advmod	_	_	_
+
+18	vinogradniški	vinogradniški	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_	_
+
+19	kataster	kataster	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_	_
+
+20	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022630.txt
+# text = Zavzemal bi se in stimuliral trajnostni razvoj podeželja, kjer naj bi izvedbene projekte izvajali domači strokovnjaki, ne pa pisarniški strokovnjaki iz lobiranih podjetij.
+1	Zavzemal	zavzemati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	1	aux	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	1	expl	_	_	_
+
+4	in	in	CCONJ	Cc	_	5	cc	_	_	_
+
+5	stimuliral	stimulirati	VERB	Vmbp-sm	Gender=Masc|Number=Sing|VerbForm=Part	1	conj	_	_	_
+
+6	trajnostni	trajnosten	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	razvoj	razvoj	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_	_
+
+8	podeželja	podeželje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_	_
+
+9	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+10	kjer	kjer	SCONJ	Cs	_	15	mark	_	_	_
+
+11	naj	naj	PART	Q	_	15	advmod	_	_	_
+
+12	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	15	aux	_	_	_
+
+13	izvedbene	izvedben	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_	_
+
+14	projekte	projekt	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	15	obj	_	_	_
+
+15	izvajali	izvajati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	7	acl	_	_	_
+
+16	domači	domač	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	_	_
+
+17	strokovnjaki	strokovnjak	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_	_
+
+18	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+19	ne	ne	PART	Q	_	22	cc	_	_	_
+
+20	pa	pa	CCONJ	Cc	_	19	fixed	_	_	_
+
+21	pisarniški	pisarniški	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	_	_
+
+22	strokovnjaki	strokovnjak	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	17	conj	_	_	_
+
+23	iz	iz	ADP	Sg	Case=Gen	25	case	_	_	_
+
+24	lobiranih	lobiran	ADJ	Appnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|VerbForm=Part	25	amod	_	_	_
+
+25	podjetij	podjetje	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	22	nmod	_	_	_
+
+26	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022630.txt
+# text = Vzpodbujal bi nastajanje družinskih kmetij in njihovo ohranjanje ter povečeval učinkovitost Sklada kmetijskih zemljišč.
+1	Vzpodbujal	vzpodbujati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	1	aux	_	_	_
+
+3	nastajanje	nastajanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_	_
+
+4	družinskih	družinski	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_	_
+
+5	kmetij	kmetija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_	_
+
+6	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+7	njihovo	njihov	DET	Ps3nsap	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	8	det	_	_	_
+
+8	ohranjanje	ohranjanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	5	conj	_	_	_
+
+9	ter	ter	CCONJ	Cc	_	10	cc	_	_	_
+
+10	povečeval	povečevati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	1	conj	_	_	_
+
+11	učinkovitost	učinkovitost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_	_
+
+12	Sklada	sklad	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+13	kmetijskih	kmetijski	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	14	amod	_	_	_
+
+14	zemljišč	zemljišče	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	_	_
+
+15	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022630.txt
+# text = pljučna pečenka/ 1 kg 58 6.786
+1	pljučna	pljučen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	pečenka	pečenka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+3	/	/	PUNCT	Z	_	4	punct	_	_	_
+
+4	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+5	kg	kg	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+6	58	58	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+7	6.786	6.786	NUM	Mdc	NumForm=Digit|NumType=Card	6	flat	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022630.txt
+# text = Uroš Korbar
+1	Uroš	Uroš	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Korbar	Korbar	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022630.txt
+# text = Odgovor na vprašanje, ki je bilo zastavljeno pred časom, in sicer o nedorečenosti zakonodaje glede izdajanja odločb po šestem odstavku 4. člena Zakona o gospodarskih družbah, kar povzroča težave tudi pri registraciji dopolnilnih dejavnosti, smo prejšnji teden dobili od ministrstva za notranje zadeve.
+1	Odgovor	odgovor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	42	nsubj	_	_	_
+
+2	na	na	ADP	Sa	Case=Acc	3	case	_	_	_
+
+3	vprašanje	vprašanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	1	nmod	_	_	_
+
+4	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+5	ki	ki	SCONJ	Cs	_	8	mark	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_	_
+
+7	bilo	biti	AUX	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part	8	cop	_	_	_
+
+8	zastavljeno	zastavljen	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	3	acl	_	_	_
+
+9	pred	pred	ADP	Si	Case=Ins	10	case	_	_	_
+
+10	časom	čas	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_	_
+
+11	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+12	in	in	CCONJ	Cc	_	15	cc	_	_	_
+
+13	sicer	sicer	PART	Q	_	1	advmod	_	_	_
+
+14	o	o	ADP	Sl	Case=Loc	15	case	_	_	_
+
+15	nedorečenosti	nedorečenost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	10	conj	_	_	_
+
+16	zakonodaje	zakonodaja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_	_
+
+17	glede	glede	ADP	Sg	Case=Gen	18	case	_	_	_
+
+18	izdajanja	izdajanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_	_
+
+19	odločb	odločba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_	_
+
+20	po	po	ADP	Sl	Case=Loc	22	case	_	_	_
+
+21	šestem	šestem	ADJ	Mlomsl	Case=Loc|Gender=Masc|NumType=Ord|Number=Sing	22	amod	_	_	_
+
+22	odstavku	odstavek	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+23	4.	4.	NUM	Mdo	NumForm=Digit|NumType=Ord	24	nummod	_	_	_
+
+24	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_	_
+
+25	Zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_	_
+
+26	o	o	ADP	Sl	Case=Loc	28	case	_	_	_
+
+27	gospodarskih	gospodarski	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	_	_
+
+28	družbah	družba	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	25	nmod	_	_	_
+
+29	,	,	PUNCT	Z	_	31	punct	_	_	_
+
+30	kar	kar	PRON	Pr-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	31	nsubj	_	_	_
+
+31	povzroča	povzročati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_	_
+
+32	težave	težava	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	31	obj	_	_	_
+
+33	tudi	tudi	PART	Q	_	31	advmod	_	_	_
+
+34	pri	pri	ADP	Sl	Case=Loc	35	case	_	_	_
+
+35	registraciji	registracija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	31	obl	_	_	_
+
+36	dopolnilnih	dopolnilen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	37	amod	_	_	_
+
+37	dejavnosti	dejavnost	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	35	nmod	_	_	_
+
+38	,	,	PUNCT	Z	_	31	punct	_	_	_
+
+39	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	42	aux	_	_	_
+
+40	prejšnji	prejšnji	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	41	amod	_	_	_
+
+41	teden	teden	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	42	obl	_	_	_
+
+42	dobili	dobiti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+43	od	od	ADP	Sg	Case=Gen	44	case	_	_	_
+
+44	ministrstva	ministrstvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	42	obl	_	_	_
+
+45	za	za	ADP	Sa	Case=Acc	47	case	_	_	_
+
+46	notranje	notranji	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	47	amod	_	_	_
+
+47	zadeve	zadeva	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	44	nmod	_	_	_
+
+48	.	.	PUNCT	Z	_	42	punct	_	_	_
+

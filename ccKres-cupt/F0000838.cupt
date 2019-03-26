@@ -1,0 +1,715 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Moje prvo Sveto pismo
+1	Moje	moj	DET	Ps1nsns	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	_	_
+
+2	prvo	prvi	ADJ	Mlonsn	Case=Nom|Gender=Neut|NumType=Ord|Number=Sing	4	amod	_	_	_
+
+3	Sveto	svet	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_	_
+
+4	pismo	pismo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Str. 21
+1	Str.	str.	X	Y	Abbr=Yes		root	_	_	_
+
+2	21	21	NUM	Mdc	NumForm=Digit|NumType=Card	1	flat	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Noe je bil zbegan.
+1	Noe	Noe	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+3	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	4	cop	_	_	_
+
+4	zbegan	zbegan	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = » Hvala, o Bog, ker si nas obvaroval hudega,« je rekel Noe.
+1	»	»	PUNCT	Z	_	2	punct	_	_	_
+
+2	Hvala	hvala	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+3	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+4	o	o	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	Bog	bog	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_	_
+
+6	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+7	ker	ker	SCONJ	Cs	_	10	mark	_	_	_
+
+8	si	se	PRON	Px---d--y	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	10	expl	_	_	_
+
+9	nas	jaz	PRON	Pp1-pa	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	obj	_	_	_
+
+10	obvaroval	obvarovati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_	_
+
+11	hudega	hud	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	obj	_	_	_
+
+12	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+13	«	«	PUNCT	Z	_	2	punct	_	_	_
+
+14	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	aux	_	_	_
+
+15	rekel	reči	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	2	parataxis	_	_	_
+
+16	Noe.	noe.	X	Y	Abbr=Yes	15	nsubj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Imeli so ovce in koze in govedo in osliče in kamele.
+1	Imeli	imeti	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	ovce	ovca	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_	_
+
+4	in	in	CCONJ	Cc	_	5	cc	_	_	_
+
+5	koze	koza	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	3	conj	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	govedo	goveda	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	_	_
+
+8	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+9	osliče	oslica	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	conj	_	_	_
+
+10	in	in	CCONJ	Cc	_	11	cc	_	_	_
+
+11	kamele	kamela	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	9	conj	_	_	_
+
+12	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Izbral sem te za prapraprapraočeta narodov.
+1	Izbral	izbrati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	te	ti	PRON	Pp2-pa--y	Case=Acc|Number=Plur|Person=2|PronType=Prs|Variant=Short	1	obj	_	_	_
+
+4	za	za	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	prapraprapraočeta	prapraprapraoč	NOUN	Ncmda	Case=Acc|Gender=Masc|Number=Dual	1	obl	_	_	_
+
+6	narodov	narod	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_	_
+
+7	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Ti in tvoja družina bosta prinesla blagoslov vsemu svetu.
+1	Ti	ta	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_	_
+
+2	in	in	CCONJ	Cc	_	4	cc	_	_	_
+
+3	tvoja	tvoj	DET	Ps1fsns	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	_	_
+
+4	družina	družina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_	_
+
+5	bosta	biti	AUX	Va-f3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	6	aux	_	_	_
+
+6	prinesla	prinesti	VERB	Vmep-dm	Aspect=Perf|Gender=Masc|Number=Dual|VerbForm=Part		root	_	_	_
+
+7	blagoslov	blagosl	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_	_
+
+8	vsemu	ves	DET	Pg-msd	Case=Dat|Gender=Masc|Number=Sing|PronType=Tot	9	det	_	_	_
+
+9	svetu	svet	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	6	iobj	_	_	_
+
+10	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = «
+1	«	«	PUNCT	Z	_		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = » Bog me je tako osrečil, da se lahko spet smejim,« je rekla Sara.
+1	»	»	PUNCT	Z	_	6	punct	_	_	_
+
+2	Bog	bog	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	_
+
+3	me	jaz	PRON	Pp1-sa--y	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	6	obj	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
+
+5	tako	tako	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+6	osrečil	osrečiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+7	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+8	da	da	SCONJ	Cs	_	12	mark	_	_	_
+
+9	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	12	expl	_	_	_
+
+10	lahko	lahko	ADV	Rgp	Degree=Pos	12	advmod	_	_	_
+
+11	spet	spet	ADV	Rgp	Degree=Pos	12	advmod	_	_	_
+
+12	smejim	smej	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	ccomp	_	_	_
+
+13	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+14	«	«	PUNCT	Z	_	6	punct	_	_	_
+
+15	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	aux	_	_	_
+
+16	rekla	reči	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	6	parataxis	_	_	_
+
+17	Sara	Sara	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_	_
+
+18	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = In vedela je, da bo nekega dne prapraprapramati narodov.
+1	In	in	CCONJ	Cc	_	2	cc	_	_	_
+
+2	vedela	vedeti	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	aux	_	_	_
+
+4	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+5	da	da	SCONJ	Cs	_	6	mark	_	_	_
+
+6	bo	biti	VERB	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	2	ccomp	_	_	_
+
+7	nekega	nek	DET	Pi-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_	_
+
+8	dne	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+9	prapraprapramati	prapraprapramati	VERB	Vmen	Aspect=Perf|VerbForm=Inf	6	csubj	_	_	_
+
+10	narodov	narod	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	9	obj	_	_	_
+
+11	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Str. 59
+1	Str.	str.	X	Y	Abbr=Yes		root	_	_	_
+
+2	59	59	NUM	Mdc	NumForm=Digit|NumType=Card	1	flat	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Prišlo je cel kup strašnih nadlog.
+1	Prišlo	priti	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	cel	cel	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	kup	kup	NOUN	Ncmsn	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_	_
+
+5	strašnih	strašen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_	_
+
+6	nadlog	nadlog	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_	_
+
+7	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Str. 68
+1	Str.	str.	X	Y	Abbr=Yes		root	_	_	_
+
+2	68	68	NUM	Mdc	NumForm=Digit|NumType=Card	1	flat	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Vodila sta jih Mojzes in Aron.
+1	Vodila	voditi	VERB	Vmpp-dm	Aspect=Imp|Gender=Masc|Number=Dual|VerbForm=Part		root	_	_	_
+
+2	sta	biti	AUX	Va-r3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	1	obj	_	_	_
+
+4	Mojzes	Mojzes	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_	_
+
+5	in	in	CCONJ	Cc	_	6	cc	_	_	_
+
+6	Aron	Aron	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_	_
+
+7	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Jozue je naročil ljudem, naj korakajo okoli mesta.
+1	Jozue	Jozue	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	_	_
+
+3	naročil	naročiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+4	ljudem	človek	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	3	iobj	_	_	_
+
+5	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+6	naj	naj	SCONJ	Cs	_	7	mark	_	_	_
+
+7	korakajo	korakati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_	_
+
+8	okoli	okoli	ADP	Sg	Case=Gen	9	case	_	_	_
+
+9	mesta	mesto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_	_
+
+10	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Korakali so en dan.
+1	Korakali	korakati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	en	en	NUM	Mlpmsa	Case=Acc|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing	4	nummod	_	_	_
+
+4	dan	dan	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl	_	_	_
+
+5	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Korakali so dva dni.
+1	Korakali	korakati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	dva	dva	NUM	Mlcmda	Case=Nom|Gender=Masc|NumForm=Word|NumType=Card|Number=Dual	4	nummod	_	_	_
+
+4	dni	dan	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	1	obl	_	_	_
+
+5	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Korakali so tri dni.
+1	Korakali	korakati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	tri	trije	NUM	Mlcmpa	Case=Acc|Gender=Masc|NumForm=Word|NumType=Card|Number=Plur	4	nummod	_	_	_
+
+4	dni	dan	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	1	obl	_	_	_
+
+5	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Korakali so štiri dni.
+1	Korakali	korakati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	štiri	štirje	NUM	Mlcmpa	Case=Acc|Gender=Masc|NumForm=Word|NumType=Card|Number=Plur	4	nummod	_	_	_
+
+4	dni	dan	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	1	obl	_	_	_
+
+5	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Korakali so pet dni.
+1	Korakali	korakati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	pet	pet	NUM	Mlc-pa	Case=Acc|NumForm=Word|NumType=Card|Number=Plur	4	nummod	_	_	_
+
+4	dni	dan	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	obl	_	_	_
+
+5	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Korakali so šest dni.
+1	Korakali	korakati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	šest	šest	NUM	Mlc-pa	Case=Acc|NumForm=Word|NumType=Card|Number=Plur	4	nummod	_	_	_
+
+4	dni	dan	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	obl	_	_	_
+
+5	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Korakali so sedem dni, in potem…
+1	Korakali	korakati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	sedem	sedem	NUM	Mlc-pa	Case=Acc|NumForm=Word|NumType=Card|Number=Plur	4	nummod	_	_	_
+
+4	dni	dan	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	obl	_	_	_
+
+5	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	potem	potem	ADV	Rgp	Degree=Pos	1	advmod	_	_	_
+
+8	…	…	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Str. 119
+1	Str.	str.	X	Y	Abbr=Yes		root	_	_	_
+
+2	119	119	NUM	Mdc	NumForm=Digit|NumType=Card	1	flat	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = o njegovih prilikah, zgodbah iz življenja, čudežih.
+1	o	o	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	njegovih	njegov	DET	Ps3fplsm	Case=Loc|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_	_
+
+3	prilikah	prilika	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur		root	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	zgodbah	zgodba	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	3	conj	_	_	_
+
+6	iz	iz	ADP	Sg	Case=Gen	7	case	_	_	_
+
+7	življenja	življenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_	_
+
+8	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+9	čudežih	čudež	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	7	conj	_	_	_
+
+10	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Tam je Marija rodila otroka.
+1	Tam	tam	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+3	Marija	Marija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+4	rodila	roditi	VERB	Vmbp-sf	Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	otroka	otrok	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_	_
+
+6	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Povila ga je v plenice in položila spat v jasli.
+1	Povila	povilo	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	1	obj	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+4	v	v	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	plenice	plenica	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	1	obl	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	položila	položiti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	1	conj	_	_	_
+
+8	spat	spati	VERB	Vmpu	Aspect=Imp|VerbForm=Sup	7	xcomp	_	_	_
+
+9	v	v	ADP	Sa	Case=Acc	10	case	_	_	_
+
+10	jasli	jasti	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	_	_
+
+11	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Marija se je nasmehnila.
+1	Marija	Marija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+4	nasmehnila	nasmehniti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Darila za Jezusa so bila kraljevska.
+1	Darila	darilo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_	_
+
+2	za	za	ADP	Sa	Case=Acc	3	case	_	_	_
+
+3	Jezusa	Jezus	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
+
+5	bila	biti	AUX	Va-p-pn	Gender=Neut|Number=Plur|VerbForm=Part	6	cop	_	_	_
+
+6	kraljevska	kraljevski	ADJ	Agpnpn	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur		root	_	_	_
+
+7	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = tik pred Jezusa.
+1	tik	tik	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+2	pred	pred	ADP	Sa	Case=Acc	3	case	_	_	_
+
+3	Jezusa	Jezus	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing		root	_	_	_
+
+4	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = » Nekoč je živel moški.
+1	»	»	PUNCT	Z	_	4	punct	_	_	_
+
+2	Nekoč	nekoč	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+4	živel	živeti	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	moški	moški	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+6	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Nekega dne se je odpravil na pot.
+1	Nekega	nek	DET	Pi-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_	_
+
+2	dne	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	5	expl	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+5	odpravil	odpraviti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	na	na	ADP	Sa	Case=Acc	7	case	_	_	_
+
+7	pot	pot	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+8	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Vseh devetindevetdeset ovc pustite na pašniku.
+1	Vseh	ves	DET	Pg-mpg	Case=Gen|Gender=Fem|Number=Plur|PronType=Tot	3	det	_	_	_
+
+2	devetindevetdeset	devetindevetdeset	NUM	Mlc-pa	Case=Acc|NumForm=Word|NumType=Card|Number=Plur	3	nummod	_	_	_
+
+3	ovc	ovce	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	obj	_	_	_
+
+4	pustite	pustiti	VERB	Vmer2p	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	na	na	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	pašniku	pašnik	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+7	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = » Moramo se posloviti,« je rekel eden izmed njih.
+1	»	»	PUNCT	Z	_	2	punct	_	_	_
+
+2	Moramo	morati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+4	posloviti	posloviti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	2	xcomp	_	_	_
+
+5	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+6	«	«	PUNCT	Z	_	2	punct	_	_	_
+
+7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_	_
+
+8	rekel	reči	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	2	parataxis	_	_	_
+
+9	eden	eden	NUM	Mlpmsn	Case=Nom|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing	8	obl	_	_	_
+
+10	izmed	izmed	ADP	Sg	Case=Gen	11	case	_	_	_
+
+11	njih	on	PRON	Pp3mpg	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nmod	_	_	_
+
+12	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = » Prišel je, da bi nam povedal, kako nas Bog ljubi.
+1	»	»	PUNCT	Z	_	2	punct	_	_	_
+
+2	Prišel	priti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	aux	_	_	_
+
+4	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+5	da	da	SCONJ	Cs	_	8	mark	_	_	_
+
+6	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	8	aux	_	_	_
+
+7	nam	jaz	PRON	Pp1-pd	Case=Dat|Number=Plur|Person=1|PronType=Prs	8	iobj	_	_	_
+
+8	povedal	povedati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	2	ccomp	_	_	_
+
+9	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+10	kako	kako	ADV	Rgp	Degree=Pos	13	advmod	_	_	_
+
+11	nas	jaz	PRON	Pp1-pa	Case=Acc|Number=Plur|Person=1|PronType=Prs	13	obj	_	_	_
+
+12	Bog	bog	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_	_
+
+13	ljubi	ljubiti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_	_
+
+14	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Ljudje so mu hoteli to preprečiti, vendar se je njihov načrt izjalovil.
+1	Ljudje	človek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+3	mu	on	PRON	Pp3msd--y	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	6	iobj	_	_	_
+
+4	hoteli	hoteti	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+5	to	ta	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	6	obj	_	_	_
+
+6	preprečiti	preprečiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	4	xcomp	_	_	_
+
+7	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+8	vendar	vendar	CCONJ	Cc	_	13	cc	_	_	_
+
+9	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	13	expl	_	_	_
+
+10	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	_	_
+
+11	njihov	njihov	DET	Ps3msnp	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	12	det	_	_	_
+
+12	načrt	načrt	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_	_
+
+13	izjalovil	izjaloviti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	6	conj	_	_	_
+
+14	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Str. 251
+1	Str.	str.	X	Y	Abbr=Yes		root	_	_	_
+
+2	251	251	NUM	Mdc	NumForm=Digit|NumType=Card	1	flat	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = golob Noe je poslal z barke goloba, da je pogledal, ali voda že upada
+1	golob	golob	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+2	Noe	Noe	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+4	poslal	poslati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	z	z	ADP	Sg	Case=Gen	6	case	_	_	_
+
+6	barke	barka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+7	goloba	golob	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+8	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+9	da	da	SCONJ	Cs	_	11	mark	_	_	_
+
+10	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_	_
+
+11	pogledal	pogledati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	4	advcl	_	_	_
+
+12	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+13	ali	ali	ADV	Rgp	Degree=Pos	16	mark	_	_	_
+
+14	voda	voda	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_	_
+
+15	že	že	PART	Q	_	16	advmod	_	_	_
+
+16	upada	upad	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = N
+1	N	n	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = odpuščanje Bog hoče odpustiti ljudem in ljudje morajo odpuščati drug drugemu 46, 94, 118, 168, 204, 216, 240
+1	odpuščanje	odpuščanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_	_
+
+2	Bog	bog	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	hoče	hoteti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	odpustiti	odpustiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	3	xcomp	_	_	_
+
+5	ljudem	človek	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	4	iobj	_	_	_
+
+6	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+7	ljudje	človek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_	_
+
+8	morajo	morati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_	_
+
+9	odpuščati	odpuščati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	8	xcomp	_	_	_
+
+10	drug	drug	ADJ	Mlpmsnn	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+11	drugemu	drug	ADJ	Mlpmsd	Case=Dat|Gender=Masc|Number=Sing	9	obj	_	_	_
+
+12	46	46	NUM	Mdc	NumForm=Digit|NumType=Card	9	advmod	_	_	_
+
+13	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+14	94	94	NUM	Mdc	NumForm=Digit|NumType=Card	12	conj	_	_	_
+
+15	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+16	118	118	NUM	Mdc	NumForm=Digit|NumType=Card	12	conj	_	_	_
+
+17	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+18	168	168	NUM	Mdc	NumForm=Digit|NumType=Card	12	conj	_	_	_
+
+19	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+20	204	204	NUM	Mdc	NumForm=Digit|NumType=Card	12	conj	_	_	_
+
+21	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+22	216	216	NUM	Mdc	NumForm=Digit|NumType=Card	12	conj	_	_	_
+
+23	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+24	240	240	NUM	Mdc	NumForm=Digit|NumType=Card	22	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Jezus 144
+1	Jezus	Jezus	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	144	144	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = pasha praznik v spomin na Mojzesa in izhod iz Egipta 144
+1	pasha	pasha	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	praznik	praznik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	v	v	ADP	Sa	Case=Acc	4	case	_	_	_
+
+4	spomin	spomin	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	na	na	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	Mojzesa	Mojzesa	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	izhod	izhod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	conj	_	_	_
+
+9	iz	iz	ADP	Sg	Case=Gen	10	case	_	_	_
+
+10	Egipta	Egipta	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+11	144	144	NUM	Mdc	NumForm=Digit|NumType=Card	10	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000838.txt
+# text = Ž
+1	Ž	Ž	PUNCT	Z	_		root	_	_	_
+

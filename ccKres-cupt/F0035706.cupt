@@ -1,0 +1,101 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0035706.txt
+# text = NOVO- Klub XYZ
+1	NOVO	nov	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_	_
+
+2	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+3	Klub	klub	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+4	XYZ	XYZ	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035706.txt
+# text = Posebne akcije med letom
+1	Posebne	poseben	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_	_
+
+2	akcije	akcija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur		root	_	_	_
+
+3	med	med	ADP	Si	Case=Ins	4	case	_	_	_
+
+4	letom	leto	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035706.txt
+# text = **
+1	*	*	PUNCT	Z	_		root	_	_	_
+
+2	*	*	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035706.txt
+# text = Sportinina kartica ugodnosti ne velja za blagovne znamke Orsay, Tally Weijl, Xanaka, Tape a l'oeil in Six.
+1	Sportinina	sportinina	ADJ	Aspfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	2	amod	_	_	_
+
+2	kartica	kartica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_	_
+
+3	ugodnosti	ugodnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	ne	ne	PART	Q	Polarity=Neg	5	advmod	_	_	_
+
+5	velja	veljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	za	za	ADP	Sa	Case=Acc	8	case	_	_	_
+
+7	blagovne	blagoven	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_	_
+
+8	znamke	znamka	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	5	xcomp	_	_	_
+
+9	Orsay	Orsay	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+10	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+11	Tally	Tally	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_	_
+
+12	Weijl	Weijl	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_	_
+
+13	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+14	Xanaka	Xanaka	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_	_
+
+15	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+16	Tape	Tape	X	Xf	Foreign=Yes	14	appos	_	_	_
+
+17	a	a	X	Xf	Foreign=Yes	16	flat:foreign	_	_	_
+
+18	l'oeil	loeeiti	X	Xf	Foreign=Yes	16	flat:foreign	_	_	_
+
+19	in	in	CCONJ	Cc	_	20	cc	_	_	_
+
+20	Six	six	X	Xf	Foreign=Yes	16	conj	_	_	_
+
+21	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035706.txt
+# text = Znamka Bikkenbergs je na voljo v trgovini XYZ PREMIUM FASHION STORE v Cityparku.
+1	Znamka	znamka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+2	Bikkenbergs	Bikkenbergs	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	na	na	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	voljo	volja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_	_
+
+6	v	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+7	trgovini	trgovina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_	_
+
+8	XYZ	XYZ	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+9	PREMIUM	premium	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+10	FASHION	fashion	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+11	STORE	stora	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+12	v	v	ADP	Sl	Case=Loc	13	case	_	_	_
+
+13	Cityparku	Citypark	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+14	.	.	PUNCT	Z	_	3	punct	_	_	_
+

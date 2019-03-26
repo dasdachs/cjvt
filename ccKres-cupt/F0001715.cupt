@@ -1,0 +1,125 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0001715.txt
+# text = HANNOVER, 11.- 17. NOVEMBER 2001
+1	HANNOVER	hannover	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+3	11.	11.	NUM	Mdo	NumForm=Digit|NumType=Ord	1	conj	_	_	_
+
+4	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+5	17.	17.	NUM	Mdo	NumForm=Digit|NumType=Ord	6	nummod	_	_	_
+
+6	NOVEMBER	november	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	flat:foreign	_	_	_
+
+7	2001	2001	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001715.txt
+# text = ROK PRIJAVE: 1O. oktober 2001 Minimalno število udeležencev: 40
+1	ROK	rok	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	PRIJAVE	prijava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+4	1O.	1O.	NUM	Mdo	NumForm=Digit|NumType=Ord	5	nummod	_	_	_
+
+5	oktober	oktober	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_	_
+
+6	2001	2001	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+7	Minimalno	minimalen	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_	_
+
+8	število	število	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_	_
+
+9	udeležencev	udeleženec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_	_
+
+10	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+11	40	40	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001715.txt
+# text = nosilnih tleh
+1	nosilnih	nosilen	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	2	amod	_	_	_
+
+2	tleh	tla	NOUN	Ncnpl	Case=Gen|Gender=Neut|Number=Plur		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001715.txt
+# text = Iz rdečega zelja pripravljamo sirup, ki pomaga pri trdovratnem kašlju.
+1	Iz	iz	ADP	Sg	Case=Gen	3	case	_	_	_
+
+2	rdečega	rdeč	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_	_
+
+3	zelja	zelje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_	_
+
+4	pripravljamo	pripravljati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	sirup	sirup	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_	_
+
+6	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+7	ki	ki	SCONJ	Cs	_	8	mark	_	_	_
+
+8	pomaga	pomagati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_	_
+
+9	pri	pri	ADP	Sl	Case=Loc	11	case	_	_	_
+
+10	trdovratnem	trdovraten	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	kašlju	kašelj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_	_
+
+12	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001715.txt
+# text = Sveže in kislo zelje je dietna hrana za zniževanje telesne teže, tudi pri kroničnem zaprtju, ker poveča količino blata in olajša iztrebljanje.
+1	Sveže	sveže	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_	_
+
+2	in	in	CCONJ	Cc	_	3	cc	_	_	_
+
+3	kislo	kisel	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	1	conj	_	_	_
+
+4	zelje	zelje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	_	_
+
+6	dietna	dieten	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	_
+
+7	hrana	hrana	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+8	za	za	ADP	Sa	Case=Acc	9	case	_	_	_
+
+9	zniževanje	zniževanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	_	_
+
+10	telesne	telesen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_	_
+
+11	teže	teža	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+12	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+13	tudi	tudi	PART	Q	_	7	advmod	_	_	_
+
+14	pri	pri	ADP	Sl	Case=Loc	16	case	_	_	_
+
+15	kroničnem	kroničen	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_	_
+
+16	zaprtju	zaprtje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	9	conj	_	_	_
+
+17	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+18	ker	ker	SCONJ	Cs	_	19	mark	_	_	_
+
+19	poveča	povečati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_	_
+
+20	količino	količina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_	_
+
+21	blata	blato	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_	_
+
+22	in	in	CCONJ	Cc	_	23	cc	_	_	_
+
+23	olajša	olajšati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_	_
+
+24	iztrebljanje	iztrebljanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	23	obj	_	_	_
+
+25	.	.	PUNCT	Z	_	7	punct	_	_	_
+

@@ -1,0 +1,597 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0030451.txt
+# text = 2. člen
+1	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030451.txt
+# text = Prejšnji odstavek se ne nanaša na kolektivne znamke, katerih nosilci so ministrstva ali Vlada Republike Slovenije.
+1	Prejšnji	prejšnji	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	odstavek	odstavek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	5	expl	_	_	_
+
+4	ne	ne	PART	Q	Polarity=Neg	5	advmod	_	_	_
+
+5	nanaša	nanašati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	na	na	ADP	Sa	Case=Acc	8	case	_	_	_
+
+7	kolektivne	kolektiven	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_	_
+
+8	znamke	znamka	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	5	obl	_	_	_
+
+9	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+10	katerih	kateri	DET	Pq-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Int	11	nmod	_	_	_
+
+11	nosilci	nosilec	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_	_
+
+12	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	cop	_	_	_
+
+13	ministrstva	ministrstvo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	8	acl	_	_	_
+
+14	ali	ali	CCONJ	Cc	_	15	cc	_	_	_
+
+15	Vlada	vlada	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	13	conj	_	_	_
+
+16	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_	_
+
+17	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+18	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030451.txt
+# text = Zastava se izobesi: 1. ob praznikih Republike Slovenije, in sicer:
+1	Zastava	zastava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	3	expl	_	_	_
+
+3	izobesi	izobrs	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	:	:	PUNCT	Z	_	5	punct	_	_	_
+
+5	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	3	parataxis	_	_	_
+
+6	ob	ob	ADP	Sl	Case=Loc	7	case	_	_	_
+
+7	praznikih	praznik	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	5	nmod	_	_	_
+
+8	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+9	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+10	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+11	in	in	CCONJ	Cc	_	12	cc	_	_	_
+
+12	sicer	sicer	PART	Q	_	3	discourse	_	_	_
+
+13	:	:	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030451.txt
+# text = V primerih iz 1., 4. in 5. točke prejšnjega odstavka tega člena, je poleg zastave lahko izobešena tudi slovenska narodna zastava; na območjih, kjer živita italijanska in madžarska narodna skupnost, je izobešena tudi zastava narodne skupnosti.
+1	V	v	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	primerih	primer	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	19	obl	_	_	_
+
+3	iz	iz	ADP	Sg	Case=Gen	4	case	_	_	_
+
+4	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	9	nummod	_	_	_
+
+5	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+6	4.	4.	NUM	Mdo	NumForm=Digit|NumType=Ord	4	conj	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	5.	5.	NUM	Mdo	NumForm=Digit|NumType=Ord	4	conj	_	_	_
+
+9	točke	točka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+10	prejšnjega	prejšnji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+12	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_	_
+
+13	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+14	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+15	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	cop	_	_	_
+
+16	poleg	poleg	ADP	Sg	Case=Gen	17	case	_	_	_
+
+17	zastave	zastava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	19	obl	_	_	_
+
+18	lahko	lahko	ADV	Rgp	Degree=Pos	19	advmod	_	_	_
+
+19	izobešena	izobešen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+20	tudi	tudi	PART	Q	_	19	advmod	_	_	_
+
+21	slovenska	slovenski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_	_
+
+22	narodna	naroden	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_	_
+
+23	zastava	zastava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_	_
+
+24	;	;	PUNCT	Z	_	37	punct	_	_	_
+
+25	na	na	ADP	Sl	Case=Loc	26	case	_	_	_
+
+26	območjih	območje	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	37	obl	_	_	_
+
+27	,	,	PUNCT	Z	_	29	punct	_	_	_
+
+28	kjer	kjer	SCONJ	Cs	_	29	mark	_	_	_
+
+29	živita	živeti	VERB	Vmpr3d	Aspect=Imp|Mood=Ind|Number=Dual|Person=3|Tense=Pres|VerbForm=Fin	26	acl	_	_	_
+
+30	italijanska	italijanski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_	_
+
+31	in	in	CCONJ	Cc	_	32	cc	_	_	_
+
+32	madžarska	madžarski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	30	conj	_	_	_
+
+33	narodna	naroden	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_	_
+
+34	skupnost	skupnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	_	_
+
+35	,	,	PUNCT	Z	_	29	punct	_	_	_
+
+36	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	37	cop	_	_	_
+
+37	izobešena	izobešen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	19	parataxis	_	_	_
+
+38	tudi	tudi	PART	Q	_	37	advmod	_	_	_
+
+39	zastava	zastava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	37	nsubj	_	_	_
+
+40	narodne	naroden	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	_	_
+
+41	skupnosti	skupnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	_	_
+
+42	.	.	PUNCT	Z	_	19	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030451.txt
+# text = V primerih iz 2., 3. in 4. točke prvega odstavka tega člena, se poleg zastave lahko izobesi tudi slovenska narodna zastava; na območjih, kjer živita italijanska oziroma madžarska narodna skupnost, je izobešena tudi zastava narodne skupnosti.
+1	V	v	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	primerih	primer	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	19	obl	_	_	_
+
+3	iz	iz	ADP	Sg	Case=Gen	4	case	_	_	_
+
+4	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	9	nummod	_	_	_
+
+5	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+6	3.	3.	NUM	Mdo	NumForm=Digit|NumType=Ord	4	conj	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	4.	4.	NUM	Mdo	NumForm=Digit|NumType=Ord	4	conj	_	_	_
+
+9	točke	točka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	appos	_	_	_
+
+10	prvega	prvi	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	11	amod	_	_	_
+
+11	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+12	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_	_
+
+13	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+14	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+15	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	19	expl	_	_	_
+
+16	poleg	poleg	ADP	Sg	Case=Gen	17	case	_	_	_
+
+17	zastave	zastava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	19	obl	_	_	_
+
+18	lahko	lahko	ADV	Rgp	Degree=Pos	19	advmod	_	_	_
+
+19	izobesi	izobrs	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+20	tudi	tudi	PART	Q	_	19	advmod	_	_	_
+
+21	slovenska	slovenski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_	_
+
+22	narodna	naroden	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_	_
+
+23	zastava	zastava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_	_
+
+24	;	;	PUNCT	Z	_	37	punct	_	_	_
+
+25	na	na	ADP	Sl	Case=Loc	26	case	_	_	_
+
+26	območjih	območje	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	37	obl	_	_	_
+
+27	,	,	PUNCT	Z	_	29	punct	_	_	_
+
+28	kjer	kjer	SCONJ	Cs	_	29	mark	_	_	_
+
+29	živita	živeti	VERB	Vmpr3d	Aspect=Imp|Mood=Ind|Number=Dual|Person=3|Tense=Pres|VerbForm=Fin	26	acl	_	_	_
+
+30	italijanska	italijanski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_	_
+
+31	oziroma	oziroma	CCONJ	Cc	_	32	cc	_	_	_
+
+32	madžarska	madžarski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	30	conj	_	_	_
+
+33	narodna	naroden	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_	_
+
+34	skupnost	skupnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	_	_
+
+35	,	,	PUNCT	Z	_	29	punct	_	_	_
+
+36	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	37	cop	_	_	_
+
+37	izobešena	izobešen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	19	parataxis	_	_	_
+
+38	tudi	tudi	PART	Q	_	37	advmod	_	_	_
+
+39	zastava	zastava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	37	nsubj	_	_	_
+
+40	narodne	naroden	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	_	_
+
+41	skupnosti	skupnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	_	_
+
+42	.	.	PUNCT	Z	_	19	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030451.txt
+# text = IV. HIMNA
+1	IV	iv	NUM	Mrc	NumForm=Roman|NumType=Card	3	nummod	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+3	HIMNA	himna	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030451.txt
+# text = Himna se izvaja z glasbili, s petjem, ali z glasbili in s petjem.
+1	Himna	himna	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	3	expl	_	_	_
+
+3	izvaja	izvajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	z	z	ADP	Si	Case=Ins	5	case	_	_	_
+
+5	glasbili	glasbiti	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	3	obl	_	_	_
+
+6	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+7	s	z	ADP	Si	Case=Ins	8	case	_	_	_
+
+8	petjem	petje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	5	appos	_	_	_
+
+9	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+10	ali	ali	CCONJ	Cc	_	12	cc	_	_	_
+
+11	z	z	ADP	Si	Case=Ins	12	case	_	_	_
+
+12	glasbili	glasbiti	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	5	conj	_	_	_
+
+13	in	in	CCONJ	Cc	_	15	cc	_	_	_
+
+14	s	z	ADP	Si	Case=Ins	15	case	_	_	_
+
+15	petjem	petje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	5	conj	_	_	_
+
+16	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030451.txt
+# text = Če se himna izvaja skupaj s himno tuje države ali s slovesno pesmijo mednarodne ali druge organizacije, se izvede najprej himno tuje države oziroma slovesno pesem mednarodne ali druge tuje organizacije, nato pa himno Republike Slovenije.
+1	Če	če	SCONJ	Cs	_	4	mark	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+3	himna	himen	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+4	izvaja	izvajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_	_
+
+5	skupaj	skupaj	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+6	s	z	ADP	Si	Case=Ins	7	case	_	_	_
+
+7	himno	himna	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+8	tuje	tuj	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_	_
+
+9	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+10	ali	ali	CCONJ	Cc	_	13	cc	_	_	_
+
+11	s	z	ADP	Si	Case=Ins	13	case	_	_	_
+
+12	slovesno	slovesno	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_	_
+
+13	pesmijo	pesem	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	7	conj	_	_	_
+
+14	mednarodne	mednaroden	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_	_
+
+15	ali	ali	CCONJ	Cc	_	16	cc	_	_	_
+
+16	druge	drug	ADJ	Mlpfsg	Case=Gen|Gender=Fem|Number=Sing	14	conj	_	_	_
+
+17	organizacije	organizacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_	_
+
+18	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+19	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	20	expl	_	_	_
+
+20	izvede	izvedati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+21	najprej	najprej	ADV	Rgs	Degree=Sup	20	advmod	_	_	_
+
+22	himno	himna	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_	_
+
+23	tuje	tuj	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_	_
+
+24	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_	_
+
+25	oziroma	oziroma	CCONJ	Cc	_	27	cc	_	_	_
+
+26	slovesno	slovesno	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_	_
+
+27	pesem	pesem	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	22	conj	_	_	_
+
+28	mednarodne	mednaroden	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_	_
+
+29	ali	ali	CCONJ	Cc	_	30	cc	_	_	_
+
+30	druge	drug	ADJ	Mlpfsg	Case=Gen|Gender=Fem|Number=Sing	28	conj	_	_	_
+
+31	tuje	tuj	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_	_
+
+32	organizacije	organizacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_	_
+
+33	,	,	PUNCT	Z	_	36	punct	_	_	_
+
+34	nato	nato	ADV	Rgp	Degree=Pos	36	advmod	_	_	_
+
+35	pa	pa	CCONJ	Cc	_	36	cc	_	_	_
+
+36	himno	himna	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	20	parataxis	_	_	_
+
+37	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	_	_
+
+38	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	_	_
+
+39	.	.	PUNCT	Z	_	20	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030451.txt
+# text = 24. člen
+1	24.	24.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030451.txt
+# text = Z denarno kaznijo najmanj 20.000 tolarjev se kaznuje zasebnik, ki stori prekršek iz prvega odstavka tega člena.
+1	Z	z	ADP	Si	Case=Ins	3	case	_	_	_
+
+2	denarno	denaren	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	kaznijo	kazen	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+4	najmanj	najmanj	ADV	Rgs	Degree=Sup	5	advmod	_	_	_
+
+5	20.000	20.000	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+6	tolarjev	tolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_	_
+
+7	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	8	expl	_	_	_
+
+8	kaznuje	kazno	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	zasebnik	zasebnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_	_
+
+10	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+11	ki	ki	SCONJ	Cs	_	12	mark	_	_	_
+
+12	stori	storiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	_	_
+
+13	prekršek	prekršek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_	_
+
+14	iz	iz	ADP	Sg	Case=Gen	16	case	_	_	_
+
+15	prvega	prvi	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	16	amod	_	_	_
+
+16	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_	_
+
+17	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_	_
+
+18	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_	_
+
+19	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030451.txt
+# text = 27. člen
+1	27.	27.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030451.txt
+# text = VII.
+1	VII	viI	X	X	_		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030451.txt
+# text = PREHODNE IN KONČNE DOLOČBE
+1	PREHODNE	prehoden	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_	_
+
+2	IN	in	CCONJ	Cc	_	3	cc	_	_	_
+
+3	KONČNE	končen	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	conj	_	_	_
+
+4	DOLOČBE	določba	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030451.txt
+# text = Podrobnejše predpise izda: 1. minister, pristojen za obrambo- za uporabo grba in zastave v obrambnih silah; 2. minister, pristojen za promet in zveze- za uporabo grba in zastave na ladjah in drugih plovilih, na letalih ter na drugih javnih prevoznih sredstvih.
+1	Podrobnejše	podroben	ADJ	Agcmpa	Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur	2	amod	_	_	_
+
+2	predpise	predpis	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_	_
+
+3	izda	izdati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	:	:	PUNCT	Z	_	6	punct	_	_	_
+
+5	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	6	nummod	_	_	_
+
+6	minister	minister	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	pristojen	pristojen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+9	za	za	ADP	Sa	Case=Acc	10	case	_	_	_
+
+10	obrambo	obramba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+11	-	-	PUNCT	Z	_	8	punct	_	_	_
+
+12	za	za	ADP	Sa	Case=Acc	13	case	_	_	_
+
+13	uporabo	uporaba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+14	grba	grba	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+15	in	in	CCONJ	Cc	_	16	cc	_	_	_
+
+16	zastave	zastava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	conj	_	_	_
+
+17	v	v	ADP	Sl	Case=Loc	19	case	_	_	_
+
+18	obrambnih	obramben	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_	_
+
+19	silah	sila	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	16	nmod	_	_	_
+
+20	;	;	PUNCT	Z	_	22	punct	_	_	_
+
+21	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	22	nummod	_	_	_
+
+22	minister	minister	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_	_
+
+23	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+24	pristojen	pristojen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_	_
+
+25	za	za	ADP	Sa	Case=Acc	26	case	_	_	_
+
+26	promet	promet	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obl	_	_	_
+
+27	in	in	CCONJ	Cc	_	28	cc	_	_	_
+
+28	zveze	zveza	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	26	conj	_	_	_
+
+29	-	-	PUNCT	Z	_	24	punct	_	_	_
+
+30	za	za	ADP	Sa	Case=Acc	31	case	_	_	_
+
+31	uporabo	uporaba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	24	obl	_	_	_
+
+32	grba	grba	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_	_
+
+33	in	in	CCONJ	Cc	_	34	cc	_	_	_
+
+34	zastave	zastava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	32	conj	_	_	_
+
+35	na	na	ADP	Sl	Case=Loc	36	case	_	_	_
+
+36	ladjah	ladja	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	34	nmod	_	_	_
+
+37	in	in	CCONJ	Cc	_	39	cc	_	_	_
+
+38	drugih	drug	ADJ	Mlpnpl	Case=Loc|Gender=Neut|Number=Plur	39	amod	_	_	_
+
+39	plovilih	plovilo	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	36	conj	_	_	_
+
+40	,	,	PUNCT	Z	_	42	punct	_	_	_
+
+41	na	na	ADP	Sl	Case=Loc	42	case	_	_	_
+
+42	letalih	letalo	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	36	conj	_	_	_
+
+43	ter	ter	CCONJ	Cc	_	48	cc	_	_	_
+
+44	na	na	ADP	Sl	Case=Loc	48	case	_	_	_
+
+45	drugih	drug	ADJ	Mlpnpl	Case=Loc|Gender=Neut|Number=Plur	48	amod	_	_	_
+
+46	javnih	javen	ADJ	Agpnpl	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	48	amod	_	_	_
+
+47	prevoznih	prevozen	ADJ	Agpnpl	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	48	amod	_	_	_
+
+48	sredstvih	sredstvo	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	36	conj	_	_	_
+
+49	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030451.txt
+# text = Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+1	Ta	ta	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_	_
+
+2	zakon	zakon	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+3	začne	začeti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	veljati	veljati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	3	xcomp	_	_	_
+
+5	petnajsti	petnajsti	ADJ	Mlomsa	Case=Acc|Gender=Masc|NumType=Ord|Number=Sing	6	amod	_	_	_
+
+6	dan	dan	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+7	po	po	ADP	Sl	Case=Loc	8	case	_	_	_
+
+8	objavi	objava	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	11	case	_	_	_
+
+10	Uradnem	uraden	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	listu	list	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+12	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+13	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+14	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030451.txt
+# text = Št. 001- 06 /90- 1/ 10 Ljubljana, dne 20. oktobra 1994
+1	Št.	Št.	X	Y	Abbr=Yes		root	_	_	_
+
+2	001	001	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+3	-	-	PUNCT	Z	_	4	punct	_	_	_
+
+4	06	06	NUM	Mdc	NumForm=Digit|NumType=Card	2	conj	_	_	_
+
+5	/90	/90	NUM	Mdc	NumForm=Digit|NumType=Card	4	flat	_	_	_
+
+6	-	-	PUNCT	Z	_	7	punct	_	_	_
+
+7	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	5	conj	_	_	_
+
+8	/	/	PUNCT	Z	_	9	punct	_	_	_
+
+9	10	10	NUM	Mdc	NumForm=Digit|NumType=Card	7	conj	_	_	_
+
+10	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+11	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+12	dne	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	appos	_	_	_
+
+13	20.	20.	NUM	Mdo	NumForm=Digit|NumType=Ord	14	nummod	_	_	_
+
+14	oktobra	oktober	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+15	1994	1994	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+

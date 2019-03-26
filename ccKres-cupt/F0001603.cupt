@@ -1,0 +1,2121 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = 3.
+1	3	3	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Sandro Botticelli, Hora pomladi, detajl slike Rojstvo Venere( ok. leta 1485, Uffizi, Firence).
+1	Sandro	Sandro	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Botticelli	Botticell	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	Hora	hora	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_	_
+
+5	pomladi	pomlad	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	detajl	detaj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_	_
+
+8	slike	slika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+9	Rojstvo	rojstvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	8	nmod	_	_	_
+
+10	Venere	vener	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+11	(	(	PUNCT	Z	_	13	punct	_	_	_
+
+12	ok.	ok.	X	Y	Abbr=Yes	13	nummod	_	_	_
+
+13	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	9	appos	_	_	_
+
+14	1485	1485	NUM	Mdc	NumForm=Digit|NumType=Card	13	nummod	_	_	_
+
+15	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+16	Uffizi	Uffizi	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_	_
+
+17	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+18	Firence	Firence	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_	_
+
+19	)	)	PUNCT	Z	_	13	punct	_	_	_
+
+20	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Botticelli je na svoji znameniti sliki bolj kot katerikoli drugi renesančni slikar povzdignil marjetico v vlogi ljubezenske cvetlice rdeče ogrinjalo, ki ga Hora podaja goli boginji ljubezni, je namreč vse izvezeno z marjetkami.
+1	Botticelli	Botticell	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	_	_
+
+3	na	na	ADP	Sl	Case=Loc	6	case	_	_	_
+
+4	svoji	svoj	DET	Px-fsl	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	_	_
+
+5	znameniti	znamenit	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	sliki	slika	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_	_
+
+7	bolj	bolj	ADV	Rgc	Degree=Cmp	13	advmod	_	_	_
+
+8	kot	kot	SCONJ	Cs	_	12	case	_	_	_
+
+9	katerikoli	katerikoli	DET	Pq-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	12	det	_	_	_
+
+10	drugi	drug	ADJ	Mlpmsny	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	amod	_	_	_
+
+11	renesančni	renesančen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_	_
+
+12	slikar	slikar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	obl	_	_	_
+
+13	povzdignil	povzdigniti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+14	marjetico	marjetica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_	_
+
+15	v	v	ADP	Sl	Case=Loc	16	case	_	_	_
+
+16	vlogi	vloga	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+17	ljubezenske	ljubezenski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_	_
+
+18	cvetlice	cvetlica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+19	rdeče	rdeč	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_	_
+
+20	ogrinjalo	ogrinjalo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_	_
+
+21	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+22	ki	ki	SCONJ	Cs	_	25	mark	_	_	_
+
+23	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	25	obj	_	_	_
+
+24	Hora	hora	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_	_
+
+25	podaja	podajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl	_	_	_
+
+26	goli	gol	ADJ	Agpfsd	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_	_
+
+27	boginji	boginja	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	25	obj	_	_	_
+
+28	ljubezni	ljubezen	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_	_
+
+29	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+30	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	33	cop	_	_	_
+
+31	namreč	namreč	CCONJ	Cc	_	33	advmod	_	_	_
+
+32	vse	ves	DET	Pg-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	33	nsubj	_	_	_
+
+33	izvezeno	izvezen	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	13	parataxis	_	_	_
+
+34	z	z	ADP	Si	Case=Ins	35	case	_	_	_
+
+35	marjetkami	marjetka	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	33	obl	_	_	_
+
+36	.	.	PUNCT	Z	_	13	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Iris je kot vse pomladne cvetlice tudi simbol novega življenja in nesmrtnosti, zato je imelo sajenje na grobove dodaten simbolični pomen, ki izraža vero v ponovno rojstvo in večno življenje.
+1	Iris	Iris	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_	_
+
+3	kot	kot	SCONJ	Cs	_	6	case	_	_	_
+
+4	vse	ves	DET	Pg-fpn	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	6	det	_	_	_
+
+5	pomladne	pomladen	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_	_
+
+6	cvetlice	cvetlica	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	_	_
+
+7	tudi	tudi	PART	Q	_	8	advmod	_	_	_
+
+8	simbol	simbol	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+9	novega	nov	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_	_
+
+10	življenja	življenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_	_
+
+11	in	in	CCONJ	Cc	_	12	cc	_	_	_
+
+12	nesmrtnosti	nesmrtnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	conj	_	_	_
+
+13	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+14	zato	zato	CCONJ	Cc	_	16	cc	_	_	_
+
+15	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	aux	_	_	_
+
+16	imelo	imeti	VERB	Vmpp-sn	Aspect=Imp|Gender=Neut|Number=Sing|VerbForm=Part	8	conj	_	_	_
+
+17	sajenje	sajenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_	_
+
+18	na	na	ADP	Sa	Case=Acc	19	case	_	_	_
+
+19	grobove	grob	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	17	nmod	_	_	_
+
+20	dodaten	dodaten	ADJ	Agpmsnn	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_	_
+
+21	simbolični	simboličen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_	_
+
+22	pomen	pomen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_	_
+
+23	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+24	ki	ki	SCONJ	Cs	_	25	mark	_	_	_
+
+25	izraža	izražati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl	_	_	_
+
+26	vero	vera	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_	_
+
+27	v	v	ADP	Sa	Case=Acc	29	case	_	_	_
+
+28	ponovno	ponoven	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_	_
+
+29	rojstvo	rojstvo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	25	obl	_	_	_
+
+30	in	in	CCONJ	Cc	_	32	cc	_	_	_
+
+31	večno	večen	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_	_
+
+32	življenje	življenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	29	conj	_	_	_
+
+33	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Prav tako je znano, da so v Atenah ob praznovanju pomladi prebivalci nosili vence iz vijolic, hijacint in perunik.
+1	Prav	prav	PART	Q	_	2	advmod	_	_	_
+
+2	tako	tako	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_	_
+
+4	znano	znan	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+6	da	da	SCONJ	Cs	_	14	mark	_	_	_
+
+7	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	aux	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	Atenah	Atene	PROPN	Npfpl	Case=Loc|Gender=Fem|Number=Plur	14	obl	_	_	_
+
+10	ob	ob	ADP	Sl	Case=Loc	11	case	_	_	_
+
+11	praznovanju	praznovanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_	_
+
+12	pomladi	pomlad	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+13	prebivalci	prebivalec	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_	_
+
+14	nosili	nositi	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	4	csubj	_	_	_
+
+15	vence	vence	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_	_
+
+16	iz	iz	ADP	Sg	Case=Gen	17	case	_	_	_
+
+17	vijolic	vijolica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_	_
+
+18	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+19	hijacint	hijacint	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	17	conj	_	_	_
+
+20	in	in	CCONJ	Cc	_	21	cc	_	_	_
+
+21	perunik	perunik	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	17	conj	_	_	_
+
+22	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Perunika pa je bila v antiki priznana tudi kot pomembna zdravilna rastlina, ki jo je zaradi narkotičnih učinkovin v koreniki cenil že Hipokrat.
+1	Perunika	Perunika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+
+2	pa	pa	CCONJ	Cc	_	7	advmod	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_	_
+
+4	bila	biti	AUX	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	7	cop	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	antiki	antika	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_	_
+
+7	priznana	priznan	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+8	tudi	tudi	PART	Q	_	7	advmod	_	_	_
+
+9	kot	kot	SCONJ	Cs	_	12	case	_	_	_
+
+10	pomembna	pomemben	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_	_
+
+11	zdravilna	zdravilen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_	_
+
+12	rastlina	rastlina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	obl	_	_	_
+
+13	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+14	ki	ki	SCONJ	Cs	_	22	mark	_	_	_
+
+15	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	22	obj	_	_	_
+
+16	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	22	aux	_	_	_
+
+17	zaradi	zaradi	ADP	Sg	Case=Gen	19	case	_	_	_
+
+18	narkotičnih	narkotičen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_	_
+
+19	učinkovin	učinkovina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	22	obl	_	_	_
+
+20	v	v	ADP	Sl	Case=Loc	21	case	_	_	_
+
+21	koreniki	korenik	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	22	obl	_	_	_
+
+22	cenil	ceniti	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	12	acl	_	_	_
+
+23	že	že	PART	Q	_	22	advmod	_	_	_
+
+24	Hipokrat	hipokrat	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_	_
+
+25	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Zato jo velikokrat najdemo v medicinskih in farmakoloških priročnikih, ki so bili praviloma opremljeni z natančnimi slikami zdravilnih zeli.
+1	Zato	zato	CCONJ	Cc	_	4	cc	_	_	_
+
+2	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	4	obj	_	_	_
+
+3	velikokrat	velikokrat	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+4	najdemo	najti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	9	case	_	_	_
+
+6	medicinskih	medicinski	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	farmakoloških	farmakološki	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	6	conj	_	_	_
+
+9	priročnikih	priročnik	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_	_
+
+10	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+11	ki	ki	SCONJ	Cs	_	15	mark	_	_	_
+
+12	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	aux	_	_	_
+
+13	bili	biti	AUX	Va-p-pm	Gender=Masc|Number=Plur|VerbForm=Part	15	cop	_	_	_
+
+14	praviloma	praviloma	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+
+15	opremljeni	opremljen	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	9	acl	_	_	_
+
+16	z	z	ADP	Si	Case=Ins	18	case	_	_	_
+
+17	natančnimi	natančen	ADJ	Agpfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	_	_
+
+18	slikami	slika	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	15	obl	_	_	_
+
+19	zdravilnih	zdravilen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	20	amod	_	_	_
+
+20	zeli	zeleti	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_	_
+
+21	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = V krščanski ikonografiji ima iris nekoliko skromnejši obseg simbolnih pomenov kot bela lilija.
+1	V	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	krščanski	krščanski	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	ikonografiji	ikonografija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+4	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	iris	iris	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+6	nekoliko	nekoliko	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+7	skromnejši	skromen	ADJ	Agcmsay	Case=Acc|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+8	obseg	obseg	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_	_
+
+9	simbolnih	simbolen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_	_
+
+10	pomenov	pomen	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_	_
+
+11	kot	kot	SCONJ	Cs	_	13	case	_	_	_
+
+12	bela	bel	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_	_
+
+13	lilija	lilij	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	10	obl	_	_	_
+
+14	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Kakor večina cvetlic se povezuje z Marijo in največkrat simbolizira njeno bolečino.
+1	Kakor	kakor	SCONJ	Cs	_	2	case	_	_	_
+
+2	večina	večina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+3	cvetlic	cvetlica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_	_
+
+4	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	5	expl	_	_	_
+
+5	povezuje	povezovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	z	z	ADP	Si	Case=Ins	7	case	_	_	_
+
+7	Marijo	Marija	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+8	in	in	CCONJ	Cc	_	10	cc	_	_	_
+
+9	največkrat	največkrat	ADV	Rgs	Degree=Sup	10	advmod	_	_	_
+
+10	simbolizira	simbolizirati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_	_
+
+11	njeno	njen	DET	Ps3fsasf	Case=Acc|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_	_
+
+12	bolečino	bolečina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_	_
+
+13	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Listi perunike namreč po obliki spominjajo na ostro rezilo meča( od tod tudi nemško ime za peruniko Schwertlilie ali mečasta lilija) in simbolično predstavljajo meče, ki prebadajo Marijino srce ob misli na trpljenje njenega sina.
+1	Listi	Lista	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_	_
+
+2	perunike	perunik	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	1	nmod	_	_	_
+
+3	namreč	namreč	CCONJ	Cc	_	6	advmod	_	_	_
+
+4	po	po	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	obliki	oblika	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_	_
+
+6	spominjajo	spominjati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	na	na	ADP	Sa	Case=Acc	9	case	_	_	_
+
+8	ostro	ostro	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_	_
+
+9	rezilo	rezilo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_	_
+
+10	meča	meč	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+11	(	(	PUNCT	Z	_	16	punct	_	_	_
+
+12	od	od	ADP	Sg	Case=Gen	13	case	_	_	_
+
+13	tod	tod	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+14	tudi	tudi	PART	Q	_	6	advmod	_	_	_
+
+15	nemško	nemški	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_	_
+
+16	ime	ime	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_	_
+
+17	za	za	ADP	Sa	Case=Acc	18	case	_	_	_
+
+18	peruniko	perunika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+19	Schwertlilie	Schwertlilie	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	18	nmod	_	_	_
+
+20	ali	ali	CCONJ	Cc	_	22	cc	_	_	_
+
+21	mečasta	mečast	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_	_
+
+22	lilija	lilij	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	19	conj	_	_	_
+
+23	)	)	PUNCT	Z	_	16	punct	_	_	_
+
+24	in	in	CCONJ	Cc	_	26	cc	_	_	_
+
+25	simbolično	simbolično	ADV	Rgp	Degree=Pos	27	advmod	_	_	_
+
+26	predstavljajo	predstavljati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_	_
+
+27	meče	meči	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	xcomp	_	_	_
+
+28	,	,	PUNCT	Z	_	30	punct	_	_	_
+
+29	ki	ki	SCONJ	Cs	_	30	mark	_	_	_
+
+30	prebadajo	prebadati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp	_	_	_
+
+31	Marijino	Marijin	ADJ	Aspnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Poss=Yes	32	amod	_	_	_
+
+32	srce	srce	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	30	obj	_	_	_
+
+33	ob	ob	ADP	Sl	Case=Loc	34	case	_	_	_
+
+34	misli	misel	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	32	nmod	_	_	_
+
+35	na	na	ADP	Sa	Case=Acc	36	case	_	_	_
+
+36	trpljenje	trpljenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	34	nmod	_	_	_
+
+37	njenega	njen	DET	Ps3msgsf	Case=Gen|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	38	det	_	_	_
+
+38	sina	sin	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_	_
+
+39	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Sveta Brigita Švedska, ena največjih mističark poznega srednjega veka, pravi, da je Marija kot perunika čudoviti cvet ostrih listov, ki pomenijo bridko bolečino njenega srca.
+1	Sveta	svet	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	Brigita	Brigita	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_	_
+
+3	Švedska	Švedska	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	flat:name	_	_	_
+
+4	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+5	ena	en	NUM	Mlpfsn	Case=Nom|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing	7	nummod	_	_	_
+
+6	največjih	velik	ADJ	Agsfpg	Case=Gen|Degree=Sup|Gender=Fem|Number=Plur	7	amod	_	_	_
+
+7	mističark	mističarka	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	2	appos	_	_	_
+
+8	poznega	pozen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+9	srednjega	srednji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	veka	vek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+11	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+12	pravi	praviti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+13	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+14	da	da	SCONJ	Cs	_	20	mark	_	_	_
+
+15	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	cop	_	_	_
+
+16	Marija	Marija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_	_
+
+17	kot	kot	SCONJ	Cs	_	18	case	_	_	_
+
+18	perunika	perunika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	16	obl	_	_	_
+
+19	čudoviti	čudoviti	ADJ	Agpmsay	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_	_
+
+20	cvet	cvet	NOUN	Ncmsn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	ccomp	_	_	_
+
+21	ostrih	oster	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	_	_
+
+22	listov	list	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_	_
+
+23	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+24	ki	ki	SCONJ	Cs	_	25	mark	_	_	_
+
+25	pomenijo	pomeniti	VERB	Vmbr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	acl	_	_	_
+
+26	bridko	bridko	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_	_
+
+27	bolečino	bolečina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_	_
+
+28	njenega	njen	DET	Ps3nsgsf	Case=Gen|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	29	det	_	_	_
+
+29	srca	srce	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_	_
+
+30	.	.	PUNCT	Z	_	12	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Ker je bila po prepričanju srednjeveških teologov Jezusova usoda s pasijonom in smrtjo na križu Mariji znana že ob njegovem rojstvu, je perunika kot simbol trpljenja velikokrat upodobljena v prizoru Jezusovega rojstva ali Poklona kraljev.
+1	Ker	ker	SCONJ	Cs	_	17	mark	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	aux	_	_	_
+
+3	bila	biti	AUX	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	17	cop	_	_	_
+
+4	po	po	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	prepričanju	prepričanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_	_
+
+6	srednjeveških	srednjeveški	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_	_
+
+7	teologov	teolog	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_	_
+
+8	Jezusova	Jezusov	ADJ	Aspfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	9	amod	_	_	_
+
+9	usoda	usoda	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_	_
+
+10	s	z	ADP	Si	Case=Ins	11	case	_	_	_
+
+11	pasijonom	pasijon	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+12	in	in	CCONJ	Cc	_	13	cc	_	_	_
+
+13	smrtjo	smrtje	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	11	conj	_	_	_
+
+14	na	na	ADP	Sl	Case=Loc	15	case	_	_	_
+
+15	križu	križ	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_	_
+
+16	Mariji	Marija	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_	_
+
+17	znana	znan	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	29	advcl	_	_	_
+
+18	že	že	PART	Q	_	17	advmod	_	_	_
+
+19	ob	ob	ADP	Sl	Case=Loc	21	case	_	_	_
+
+20	njegovem	njegov	DET	Ps3nslsm	Case=Loc|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	_	_
+
+21	rojstvu	rojstvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_	_
+
+22	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+23	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	29	cop	_	_	_
+
+24	perunika	perunika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	_	_
+
+25	kot	kot	SCONJ	Cs	_	26	case	_	_	_
+
+26	simbol	simbol	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	24	obl	_	_	_
+
+27	trpljenja	trpljenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_	_
+
+28	velikokrat	velikokrat	ADV	Rgp	Degree=Pos	29	advmod	_	_	_
+
+29	upodobljena	upodobljen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+30	v	v	ADP	Sl	Case=Loc	31	case	_	_	_
+
+31	prizoru	prizor	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	29	obl	_	_	_
+
+32	Jezusovega	Jezusov	ADJ	Aspnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Poss=Yes	33	amod	_	_	_
+
+33	rojstva	rojstvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	_	_
+
+34	ali	ali	CCONJ	Cc	_	35	cc	_	_	_
+
+35	Poklona	Poklon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	33	conj	_	_	_
+
+36	kraljev	kralj	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	35	nmod	_	_	_
+
+37	.	.	PUNCT	Z	_	29	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Skupaj z belo lilijo najdemo peruniko tudi v motivu Oznanjenja.
+1	Skupaj	skupaj	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+2	z	z	ADP	Si	Case=Ins	4	case	_	_	_
+
+3	belo	bel	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	lilijo	lileti	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+5	najdemo	najti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	peruniko	perunika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_	_
+
+7	tudi	tudi	PART	Q	_	5	advmod	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	motivu	motiv	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_	_
+
+10	Oznanjenja	oznanjenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_	_
+
+11	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Oznanjenjska simbolika perunike je še posebej zanimiva, saj se v tem primeru krščanska ikonografija neposredno navezuje na klasično mitologijo, v kateri je iris cvet, ki razodeva voljo bogov.
+1	Oznanjenjska	oznanjenjski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	simbolika	simbolika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+
+3	perunike	perunik	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	_	_
+
+5	še	še	PART	Q	_	7	advmod	_	_	_
+
+6	posebej	posebej	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+7	zanimiva	zanimiv	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing		root	_	_	_
+
+8	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+9	saj	saj	CCONJ	Cc	_	17	cc	_	_	_
+
+10	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	17	expl	_	_	_
+
+11	v	v	ADP	Sl	Case=Loc	13	case	_	_	_
+
+12	tem	ta	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_	_
+
+13	primeru	primer	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_	_
+
+14	krščanska	krščanski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_	_
+
+15	ikonografija	ikonografija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_	_
+
+16	neposredno	neposredno	ADV	Rgp	Degree=Pos	17	advmod	_	_	_
+
+17	navezuje	navezovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_	_
+
+18	na	na	ADP	Sa	Case=Acc	20	case	_	_	_
+
+19	klasično	klasičen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_	_
+
+20	mitologijo	mitologija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_	_
+
+21	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+22	v	v	ADP	Sl	Case=Loc	23	case	_	_	_
+
+23	kateri	kateri	DET	Pq-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Int	24	obl	_	_	_
+
+24	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	acl	_	_	_
+
+25	iris	iris	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_	_
+
+26	cvet	cvet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	25	flat:name	_	_	_
+
+27	,	,	PUNCT	Z	_	29	punct	_	_	_
+
+28	ki	ki	SCONJ	Cs	_	29	mark	_	_	_
+
+29	razodeva	razodevati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl	_	_	_
+
+30	voljo	volja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	29	obj	_	_	_
+
+31	bogov	bog	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	_	_
+
+32	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Lahkonogo Iris je seveda zamenjal nadangel Gabrijel, ki Mariji oznani božjo voljo o rojstvu Deteta, perunika, ki v jeziku simbolov dopolnjuje dogajanje, pa kaže, da je simbolika cvetja vsaj tako prilagodljiva kot cvetlice same.
+1	Lahkonogo	Lahkonogo	PROPN	Npfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_	_
+
+2	Iris	Iris	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	flat:name	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+4	seveda	seveda	PART	Q	_	5	advmod	_	_	_
+
+5	zamenjal	zamenjati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	nadangel	nadanči	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+7	Gabrijel	Gabrijel	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+8	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+9	ki	ki	SCONJ	Cs	_	11	mark	_	_	_
+
+10	Mariji	Marija	PROPN	Npfsd	Case=Dat|Gender=Fem|Number=Sing	11	iobj	_	_	_
+
+11	oznani	oznan	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	_	_
+
+12	božjo	božji	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_	_
+
+13	voljo	volja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_	_
+
+14	o	o	ADP	Sl	Case=Loc	15	case	_	_	_
+
+15	rojstvu	rojstvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	13	nmod	_	_	_
+
+16	Deteta	deteti	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+17	,	,	PUNCT	Z	_	28	punct	_	_	_
+
+18	perunika	perunika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_	_
+
+19	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+20	ki	ki	SCONJ	Cs	_	24	mark	_	_	_
+
+21	v	v	ADP	Sl	Case=Loc	22	case	_	_	_
+
+22	jeziku	jezik	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	24	obl	_	_	_
+
+23	simbolov	simbol	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_	_
+
+24	dopolnjuje	dopolnjevati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl	_	_	_
+
+25	dogajanje	dogajanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_	_
+
+26	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+27	pa	pa	CCONJ	Cc	_	28	advmod	_	_	_
+
+28	kaže	kazati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_	_
+
+29	,	,	PUNCT	Z	_	36	punct	_	_	_
+
+30	da	da	SCONJ	Cs	_	36	mark	_	_	_
+
+31	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	36	cop	_	_	_
+
+32	simbolika	simbolika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	36	nsubj	_	_	_
+
+33	cvetja	cvetje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	_	_
+
+34	vsaj	vsaj	PART	Q	_	36	advmod	_	_	_
+
+35	tako	tako	ADV	Rgp	Degree=Pos	36	advmod	_	_	_
+
+36	prilagodljiva	prilagodljiv	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	28	csubj	_	_	_
+
+37	kot	kot	SCONJ	Cs	_	38	case	_	_	_
+
+38	cvetlice	cvetlica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	36	obl	_	_	_
+
+39	same	sam	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_	_
+
+40	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = V likovni umetnosti Zahoda srečamo prve spominčice šele v 15. stoletju, vendar zgodnejše upodobitve niso izključene.
+1	V	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	likovni	likoven	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	umetnosti	umetnost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+4	Zahoda	zahod	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+5	srečamo	srečati	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	prve	prvi	ADJ	Mlofpa	Case=Acc|Gender=Fem|NumType=Ord|Number=Plur	7	amod	_	_	_
+
+7	spominčice	spominčica	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_	_
+
+8	šele	šele	PART	Q	_	11	advmod	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	11	case	_	_	_
+
+10	15.	15.	NUM	Mdo	NumForm=Digit|NumType=Ord	11	nummod	_	_	_
+
+11	stoletju	stoletje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_	_
+
+12	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+13	vendar	vendar	CCONJ	Cc	_	17	cc	_	_	_
+
+14	zgodnejše	zgoden	ADJ	Agcfpn	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	15	amod	_	_	_
+
+15	upodobitve	upodobitev	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	_	_
+
+16	niso	biti	AUX	Va-r3p-y	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	17	cop	_	_	_
+
+17	izključene	izključen	ADJ	Appfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	5	conj	_	_	_
+
+18	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = V nekaterih spomenikih gotskega slikarstva s konca 14. stoletja najdemo upodobljene drobne modre cvetlice, ki bi utegnile biti spominčice, a je zaradi stilizirane oblike cvetov nemogoče z gotovostjo trditi, za katero vrsto rož gre.
+1	V	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	nekaterih	nekateri	DET	Pi-mpl	Case=Loc|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_	_
+
+3	spomenikih	spomenik	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	10	obl	_	_	_
+
+4	gotskega	gotski	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_	_
+
+5	slikarstva	slikarstvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_	_
+
+6	s	z	ADP	Sg	Case=Gen	7	case	_	_	_
+
+7	konca	konec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_	_
+
+8	14.	14.	NUM	Mdo	NumForm=Digit|NumType=Ord	9	nummod	_	_	_
+
+9	stoletja	stoletje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_	_
+
+10	najdemo	najti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+11	upodobljene	upodobljen	ADJ	Appfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	14	amod	_	_	_
+
+12	drobne	droben	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_	_
+
+13	modre	moder	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_	_
+
+14	cvetlice	cvetlica	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_	_
+
+15	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+16	ki	ki	SCONJ	Cs	_	18	mark	_	_	_
+
+17	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	18	aux	_	_	_
+
+18	utegnile	utegniti	VERB	Vmbp-pf	Gender=Fem|Number=Plur|VerbForm=Part	14	acl	_	_	_
+
+19	biti	biti	AUX	Va-n	VerbForm=Inf	20	cop	_	_	_
+
+20	spominčice	spominčica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	18	xcomp	_	_	_
+
+21	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+22	a	a	CCONJ	Cc	_	28	cc	_	_	_
+
+23	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	28	cop	_	_	_
+
+24	zaradi	zaradi	ADP	Sg	Case=Gen	26	case	_	_	_
+
+25	stilizirane	stiliziran	ADJ	Appfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	26	amod	_	_	_
+
+26	oblike	oblika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	31	obl	_	_	_
+
+27	cvetov	cvet	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_	_
+
+28	nemogoče	nemogoč	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	conj	_	_	_
+
+29	z	z	ADP	Si	Case=Ins	30	case	_	_	_
+
+30	gotovostjo	gotovost	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	31	obl	_	_	_
+
+31	trditi	trditi	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	28	csubj	_	_	_
+
+32	,	,	PUNCT	Z	_	37	punct	_	_	_
+
+33	za	za	ADP	Sa	Case=Acc	35	case	_	_	_
+
+34	katero	kateri	DET	Pq-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int	35	det	_	_	_
+
+35	vrsto	vrsta	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	37	obl	_	_	_
+
+36	rož	rož	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	35	nmod	_	_	_
+
+37	gre	iti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	ccomp	_	_	_
+
+38	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Umetniška svoboda srednjeveških mojstrov ali nezadostno poznanje rastlinskih vrst so v številnih primerih krivi za nerazpoznavnost cvetlic, ki sta jih ustvarila čopič ali dleto, in postavljajo sodobne raziskovalce cvetlične ikonografije pred nerešljive probleme.
+1	Umetniška	umetniški	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	svoboda	svoboda	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_	_
+
+3	srednjeveških	srednjeveški	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_	_
+
+4	mojstrov	mojster	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_	_
+
+5	ali	ali	CCONJ	Cc	_	7	cc	_	_	_
+
+6	nezadostno	nezadostno	ADJ	Agpnsa	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_	_
+
+7	poznanje	poznanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	_	_
+
+8	rastlinskih	rastlinski	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_	_
+
+9	vrst	vrsta	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_	_
+
+10	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	cop	_	_	_
+
+11	v	v	ADP	Sl	Case=Loc	13	case	_	_	_
+
+12	številnih	številen	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_	_
+
+13	primerih	primer	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	14	obl	_	_	_
+
+14	krivi	kriv	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur		root	_	_	_
+
+15	za	za	ADP	Sa	Case=Acc	16	case	_	_	_
+
+16	nerazpoznavnost	nerazpoznavnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_	_
+
+17	cvetlic	cvetlica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_	_
+
+18	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+19	ki	ki	SCONJ	Cs	_	22	mark	_	_	_
+
+20	sta	biti	AUX	Va-r3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	22	aux	_	_	_
+
+21	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	22	obj	_	_	_
+
+22	ustvarila	ustvariti	VERB	Vmep-dm	Aspect=Perf|Gender=Masc|Number=Dual|VerbForm=Part	17	acl	_	_	_
+
+23	čopič	čopič	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_	_
+
+24	ali	ali	CCONJ	Cc	_	25	cc	_	_	_
+
+25	dleto	dleto	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	23	conj	_	_	_
+
+26	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+27	in	in	CCONJ	Cc	_	28	cc	_	_	_
+
+28	postavljajo	postavljati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_	_
+
+29	sodobne	sodoben	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	30	amod	_	_	_
+
+30	raziskovalce	raziskovalec	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	28	obj	_	_	_
+
+31	cvetlične	cvetličen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_	_
+
+32	ikonografije	ikonografija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	30	nmod	_	_	_
+
+33	pred	pred	ADP	Sa	Case=Acc	35	case	_	_	_
+
+34	nerešljive	nerešljiv	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	35	amod	_	_	_
+
+35	probleme	problem	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	28	obl	_	_	_
+
+36	.	.	PUNCT	Z	_	14	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = V primeru spominčic je stvar dodatno otežena, saj so jih nekdaj radi zamenjevali z zdravilnim jetičnikom( Veronica officinalis L.), ki ima podobne modre cvetove kot spominčica.
+1	V	v	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	primeru	primer	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_	_
+
+3	spominčic	spominčica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	_	_
+
+5	stvar	stvar	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+
+6	dodatno	dodatno	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+7	otežena	otežen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+8	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+9	saj	saj	CCONJ	Cc	_	14	cc	_	_	_
+
+10	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	aux	_	_	_
+
+11	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	14	obj	_	_	_
+
+12	nekdaj	nekdaj	ADV	Rgp	Degree=Pos	14	advmod	_	_	_
+
+13	radi	rad	ADV	Rgp	Degree=Pos	14	advmod	_	_	_
+
+14	zamenjevali	zamenjevati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	7	conj	_	_	_
+
+15	z	z	ADP	Si	Case=Ins	17	case	_	_	_
+
+16	zdravilnim	zdravilen	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_	_
+
+17	jetičnikom	jetičnik	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	14	obl	_	_	_
+
+18	(	(	PUNCT	Z	_	19	punct	_	_	_
+
+19	Veronica	Veronica	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	17	appos	_	_	_
+
+20	officinalis	officinalis	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	19	nmod	_	_	_
+
+21	L.	L.	X	Y	Abbr=Yes	20	nmod	_	_	_
+
+22	)	)	PUNCT	Z	_	19	punct	_	_	_
+
+23	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+24	ki	ki	SCONJ	Cs	_	25	mark	_	_	_
+
+25	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	acl	_	_	_
+
+26	podobne	podoben	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	28	amod	_	_	_
+
+27	modre	moder	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	28	amod	_	_	_
+
+28	cvetove	cvet	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	25	obj	_	_	_
+
+29	kot	kot	SCONJ	Cs	_	30	case	_	_	_
+
+30	spominčica	spominčica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	28	obl	_	_	_
+
+31	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = ( Marsikje jetičnikom še danes zmotno rečejo spominčice!) Ker je bil jetičnik v srednjeveški ikonografiji uveljavljen simbol odrešenja in hkrati ena od priljubljenih Marijinih rož, je v likovni umetnosti poznega srednjega veka dokaj pogost.
+1	(	(	PUNCT	Z	_	7	punct	_	_	_
+
+2	Marsikje	marsikje	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+3	jetičnikom	jetičnik	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	7	obj	_	_	_
+
+4	še	še	PART	Q	_	7	advmod	_	_	_
+
+5	danes	danes	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+6	zmotno	zmoten	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+7	rečejo	reči	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+8	spominčice	spominčica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_	_
+
+9	!	!	PUNCT	Z	_	19	punct	_	_	_
+
+10	)	)	PUNCT	Z	_	7	punct	_	_	_
+
+11	Ker	ker	SCONJ	Cs	_	19	mark	_	_	_
+
+12	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	aux	_	_	_
+
+13	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	19	cop	_	_	_
+
+14	jetičnik	jetičnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_	_
+
+15	v	v	ADP	Sl	Case=Loc	17	case	_	_	_
+
+16	srednjeveški	srednjeveški	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_	_
+
+17	ikonografiji	ikonografija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+18	uveljavljen	uveljavljen	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	19	amod	_	_	_
+
+19	simbol	simbol	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	advcl	_	_	_
+
+20	odrešenja	odrešenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_	_
+
+21	in	in	CCONJ	Cc	_	27	cc	_	_	_
+
+22	hkrati	hkrati	ADV	Rgp	Degree=Pos	23	advmod	_	_	_
+
+23	ena	en	NUM	Mlpfsn	Case=Nom|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing	19	conj	_	_	_
+
+24	od	od	ADP	Sg	Case=Gen	27	case	_	_	_
+
+25	priljubljenih	priljubljen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	27	amod	_	_	_
+
+26	Marijinih	Marijin	ADJ	Aspfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Poss=Yes	27	amod	_	_	_
+
+27	rož	rož	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_	_
+
+28	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+29	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	37	cop	_	_	_
+
+30	v	v	ADP	Sl	Case=Loc	32	case	_	_	_
+
+31	likovni	likoven	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_	_
+
+32	umetnosti	umetnost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	37	obl	_	_	_
+
+33	poznega	pozen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_	_
+
+34	srednjega	srednji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_	_
+
+35	veka	vek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_	_
+
+36	dokaj	dokaj	ADV	Rgp	Degree=Pos	37	advmod	_	_	_
+
+37	pogost	pogost	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	7	parataxis	_	_	_
+
+38	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Zamenjave s spominčico so pri manj natančnih mojstrih povsem razumljive, toliko bolj, ker je spominčica prav tako ena od marijanskih cvetlic, ki lahko v okviru krščanske tradicije simbolizira tudi odrešenje.
+1	Zamenjave	zamenjava	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_	_
+
+2	s	z	ADP	Si	Case=Ins	3	case	_	_	_
+
+3	spominčico	spominčica	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	cop	_	_	_
+
+5	pri	pri	ADP	Sl	Case=Loc	8	case	_	_	_
+
+6	manj	manj	DET	Rgc	PronType=Ind	7	advmod	_	_	_
+
+7	natančnih	natančen	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_	_
+
+8	mojstrih	mojster	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	10	obl	_	_	_
+
+9	povsem	povsem	ADV	Rgp	Degree=Pos	10	advmod	_	_	_
+
+10	razumljive	razumljiv	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur		root	_	_	_
+
+11	,	,	PUNCT	Z	_	23	punct	_	_	_
+
+12	toliko	toliko	DET	Rgp	PronType=Dem	13	advmod	_	_	_
+
+13	bolj	bolj	ADV	Rgc	Degree=Cmp	23	advmod	_	_	_
+
+14	,	,	PUNCT	Z	_	23	punct	_	_	_
+
+15	ker	ker	SCONJ	Cs	_	23	mark	_	_	_
+
+16	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	23	cop	_	_	_
+
+17	spominčica	spominčica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_	_
+
+18	prav	prav	PART	Q	_	19	advmod	_	_	_
+
+19	tako	tako	ADV	Rgp	Degree=Pos	23	advmod	_	_	_
+
+20	ena	en	NUM	Mlpfsn	Case=Nom|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing	10	conj	_	_	_
+
+21	od	od	ADP	Sg	Case=Gen	23	case	_	_	_
+
+22	marijanskih	marijanski	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	_	_
+
+23	cvetlic	cvetlica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_	_
+
+24	,	,	PUNCT	Z	_	31	punct	_	_	_
+
+25	ki	ki	SCONJ	Cs	_	31	mark	_	_	_
+
+26	lahko	lahko	ADV	Rgp	Degree=Pos	31	advmod	_	_	_
+
+27	v	v	ADP	Sl	Case=Loc	28	case	_	_	_
+
+28	okviru	okvir	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	31	obl	_	_	_
+
+29	krščanske	krščanski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_	_
+
+30	tradicije	tradicija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	_	_
+
+31	simbolizira	simbolizirati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl	_	_	_
+
+32	tudi	tudi	PART	Q	_	31	advmod	_	_	_
+
+33	odrešenje	odrešenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	31	obj	_	_	_
+
+34	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Po drugi strani pa je jetičnik, ki so ga zmotno enačili s spominčico, prevzel njeno simboliko zveste ljubezni in spomina, tako da strogo ločevanje med obema rožama z ikonografskega vidika marsikdaj niti ni nujno potrebno.
+1	Po	po	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	drugi	drug	ADJ	Mlpfsl	Case=Loc|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	strani	stran	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_	_
+
+4	pa	pa	CCONJ	Cc	_	16	advmod	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	aux	_	_	_
+
+6	jetičnik	jetičnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_	_
+
+7	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+8	ki	ki	SCONJ	Cs	_	12	mark	_	_	_
+
+9	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	aux	_	_	_
+
+10	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	12	obj	_	_	_
+
+11	zmotno	zmoten	ADV	Rgp	Degree=Pos	12	advmod	_	_	_
+
+12	enačili	enačiti	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	6	acl	_	_	_
+
+13	s	z	ADP	Si	Case=Ins	14	case	_	_	_
+
+14	spominčico	spominčica	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	12	obl	_	_	_
+
+15	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+16	prevzel	prevzeti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+17	njeno	njen	DET	Ps3fsasf	Case=Acc|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	_	_	_
+
+18	simboliko	simboliko	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_	_
+
+19	zveste	zvest	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_	_
+
+20	ljubezni	ljubezen	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_	_
+
+21	in	in	CCONJ	Cc	_	22	cc	_	_	_
+
+22	spomina	spomin	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	20	conj	_	_	_
+
+23	,	,	PUNCT	Z	_	38	punct	_	_	_
+
+24	tako	tako	CCONJ	Cc	_	38	cc	_	_	_
+
+25	da	da	SCONJ	Cs	_	24	fixed	_	_	_
+
+26	strogo	stroga	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_	_
+
+27	ločevanje	ločevanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	38	nsubj	_	_	_
+
+28	med	med	ADP	Si	Case=Ins	30	case	_	_	_
+
+29	obema	oba	DET	Pg-fdi	Case=Ins|Gender=Fem|Number=Dual|PronType=Tot	30	det	_	_	_
+
+30	rožama	roža	NOUN	Ncfdi	Case=Ins|Gender=Fem|Number=Dual	27	nmod	_	_	_
+
+31	z	z	ADP	Sg	Case=Gen	33	case	_	_	_
+
+32	ikonografskega	ikonografski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_	_
+
+33	vidika	vidik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_	_
+
+34	marsikdaj	marsikdaj	ADV	Rgp	Degree=Pos	38	advmod	_	_	_
+
+35	niti	niti	PART	Q	_	38	advmod	_	_	_
+
+36	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	38	cop	_	_	_
+
+37	nujno	nujno	ADV	Rgp	Degree=Pos	38	advmod	_	_	_
+
+38	potrebno	potreben	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	conj	_	_	_
+
+39	.	.	PUNCT	Z	_	16	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Zmeda v zvezi z drobnimi modrimi cvetkami se je v veliki meri nadaljevala še v renesansi in šele mojstri baročnih tihožitij, ki so z izostrenim posluhom za življenje rastlin poskušali na svojih slikarskih platnih čim bolj zvesto slediti naravi, so dokončno razrešili dilemo.
+1	Zmeda	zmeda	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_	_
+
+2	v	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	zvezi	zveza	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	z	z	ADP	Si	Case=Ins	7	case	_	_	_
+
+5	drobnimi	droben	ADJ	Agpfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_	_
+
+6	modrimi	moder	ADJ	Agpfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_	_
+
+7	cvetkami	cvetka	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	3	nmod	_	_	_
+
+8	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	13	expl	_	_	_
+
+9	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	_	_
+
+10	v	v	ADP	Sl	Case=Loc	12	case	_	_	_
+
+11	veliki	velik	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_	_
+
+12	meri	mera	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_	_
+
+13	nadaljevala	nadaljevati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+14	še	še	PART	Q	_	13	advmod	_	_	_
+
+15	v	v	ADP	Sl	Case=Loc	16	case	_	_	_
+
+16	renesansi	renesansi	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_	_
+
+17	in	in	CCONJ	Cc	_	44	cc	_	_	_
+
+18	šele	šele	PART	Q	_	19	advmod	_	_	_
+
+19	mojstri	mojster	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	44	nsubj	_	_	_
+
+20	baročnih	baročen	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	21	amod	_	_	_
+
+21	tihožitij	tihožitje	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	_	_
+
+22	,	,	PUNCT	Z	_	31	punct	_	_	_
+
+23	ki	ki	SCONJ	Cs	_	31	mark	_	_	_
+
+24	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	31	aux	_	_	_
+
+25	z	z	ADP	Si	Case=Ins	27	case	_	_	_
+
+26	izostrenim	izostren	ADJ	Appmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	27	amod	_	_	_
+
+27	posluhom	posluh	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	39	obl	_	_	_
+
+28	za	za	ADP	Sa	Case=Acc	29	case	_	_	_
+
+29	življenje	življenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	27	nmod	_	_	_
+
+30	rastlin	rastlina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	_	_
+
+31	poskušali	poskušati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	21	acl	_	_	_
+
+32	na	na	ADP	Sl	Case=Loc	35	case	_	_	_
+
+33	svojih	svoj	DET	Px-npl	Case=Loc|Gender=Neut|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	35	det	_	_	_
+
+34	slikarskih	slikarski	ADJ	Agpnpl	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	35	amod	_	_	_
+
+35	platnih	platen	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	39	obl	_	_	_
+
+36	čim	čim	ADV	Rgp	Degree=Pos	37	advmod	_	_	_
+
+37	bolj	bolj	ADV	Rgc	Degree=Cmp	38	advmod	_	_	_
+
+38	zvesto	zvesto	ADV	Rgp	Degree=Pos	39	advmod	_	_	_
+
+39	slediti	slediti	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	31	xcomp	_	_	_
+
+40	naravi	narava	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	39	iobj	_	_	_
+
+41	,	,	PUNCT	Z	_	31	punct	_	_	_
+
+42	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	44	aux	_	_	_
+
+43	dokončno	dokončno	ADV	Rgp	Degree=Pos	44	advmod	_	_	_
+
+44	razrešili	razrešiti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	13	parataxis	_	_	_
+
+45	dilemo	dilema	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	44	obj	_	_	_
+
+46	.	.	PUNCT	Z	_	13	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Spominčice baročnih slikarjev se jasno ločijo od jetičnikov; zaradi naraščajoče priljubljenosti so jih sčasoma skoraj čisto izpodrinile in tako svoj literarni sloves uveljavile tudi v likovni umetnosti.
+1	Spominčice	spominčica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_	_
+
+2	baročnih	baročen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_	_
+
+3	slikarjev	slikar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_	_
+
+4	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	6	expl	_	_	_
+
+5	jasno	jasno	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+6	ločijo	loteti	VERB	Vmbr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	od	od	ADP	Sg	Case=Gen	8	case	_	_	_
+
+8	jetičnikov	jetičnik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_	_
+
+9	;	;	PUNCT	Z	_	18	punct	_	_	_
+
+10	zaradi	zaradi	ADP	Sg	Case=Gen	12	case	_	_	_
+
+11	naraščajoče	naraščajoč	ADJ	Appfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	12	amod	_	_	_
+
+12	priljubljenosti	priljubljenost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	18	obl	_	_	_
+
+13	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	aux	_	_	_
+
+14	jih	on	PRON	Pp3fpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	18	obj	_	_	_
+
+15	sčasoma	sčasoma	ADV	Rgp	Degree=Pos	18	advmod	_	_	_
+
+16	skoraj	skoraj	PART	Q	_	17	advmod	_	_	_
+
+17	čisto	čisto	ADV	Rgp	Degree=Pos	18	advmod	_	_	_
+
+18	izpodrinile	izpodriniti	VERB	Vmep-pf	Aspect=Perf|Gender=Fem|Number=Plur|VerbForm=Part	6	parataxis	_	_	_
+
+19	in	in	CCONJ	Cc	_	24	cc	_	_	_
+
+20	tako	tako	ADV	Rgp	Degree=Pos	24	advmod	_	_	_
+
+21	svoj	svoj	DET	Px-msa	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	23	det	_	_	_
+
+22	literarni	literaren	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_	_
+
+23	sloves	sloves	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_	_
+
+24	uveljavile	uveljaviti	VERB	Vmep-pf	Aspect=Perf|Gender=Fem|Number=Plur|VerbForm=Part	18	conj	_	_	_
+
+25	tudi	tudi	PART	Q	_	24	advmod	_	_	_
+
+26	v	v	ADP	Sl	Case=Loc	28	case	_	_	_
+
+27	likovni	likoven	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_	_
+
+28	umetnosti	umetnost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	24	obl	_	_	_
+
+29	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Tulipan ima v evropski ikonografiji manj opazno mesto kot druge znane rože, ki krasijo vrtove širom po stari celini.
+1	Tulipan	tulipan	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_	_
+
+2	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	v	v	ADP	Sl	Case=Loc	5	case	_	_	_
+
+4	evropski	evropski	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	ikonografiji	ikonografija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_	_
+
+6	manj	manj	DET	Rgc	PronType=Ind	7	advmod	_	_	_
+
+7	opazno	opazen	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_	_
+
+8	mesto	mesto	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_	_
+
+9	kot	kot	SCONJ	Cs	_	12	case	_	_	_
+
+10	druge	drug	ADJ	Mlpfpa	Case=Acc|Gender=Fem|Number=Plur	12	amod	_	_	_
+
+11	znane	znan	ADJ	Appfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	12	amod	_	_	_
+
+12	rože	roža	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	_	_
+
+13	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+14	ki	ki	SCONJ	Cs	_	15	mark	_	_	_
+
+15	krasijo	krasiti	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	_	_
+
+16	vrtove	vrt	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	15	obj	_	_	_
+
+17	širom	šir	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	16	nmod	_	_	_
+
+18	po	po	ADP	Sl	Case=Loc	20	case	_	_	_
+
+19	stari	star	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_	_
+
+20	celini	celina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_	_
+
+21	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Razlog za to, da je v nasprotju s široko priljubljenostjo njegova simbolika precej skromna, tiči v dejstvu, da je tulipan v evropsko kulturo in likovno umetnost vstopil zelo pozno.
+1	Razlog	razlog	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	za	za	ADP	Sa	Case=Acc	3	case	_	_	_
+
+3	to	ta	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	nmod	_	_	_
+
+4	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+5	da	da	SCONJ	Cs	_	15	mark	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	cop	_	_	_
+
+7	v	v	ADP	Sl	Case=Loc	8	case	_	_	_
+
+8	nasprotju	nasprotje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	15	obl	_	_	_
+
+9	s	z	ADP	Si	Case=Ins	11	case	_	_	_
+
+10	široko	širok	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_	_
+
+11	priljubljenostjo	priljubljenost	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+12	njegova	njegov	DET	Ps3fsnsm	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_	_
+
+13	simbolika	simbolika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_	_
+
+14	precej	precej	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+
+15	skromna	skromen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	acl	_	_	_
+
+16	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+17	tiči	tičati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_	_
+
+18	v	v	ADP	Sl	Case=Loc	19	case	_	_	_
+
+19	dejstvu	dejstvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_	_
+
+20	,	,	PUNCT	Z	_	30	punct	_	_	_
+
+21	da	da	SCONJ	Cs	_	30	mark	_	_	_
+
+22	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	30	aux	_	_	_
+
+23	tulipan	tulipan	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	_	_
+
+24	v	v	ADP	Sa	Case=Acc	26	case	_	_	_
+
+25	evropsko	evropski	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_	_
+
+26	kulturo	kultura	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	30	obl	_	_	_
+
+27	in	in	CCONJ	Cc	_	29	cc	_	_	_
+
+28	likovno	likoven	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_	_
+
+29	umetnost	umetnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	26	conj	_	_	_
+
+30	vstopil	vstopiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	19	acl	_	_	_
+
+31	zelo	zelo	ADV	Rgp	Degree=Pos	32	advmod	_	_	_
+
+32	pozno	pozno	ADV	Rgp	Degree=Pos	30	advmod	_	_	_
+
+33	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Podatki o tem, kdaj naj bi prišel v Evropo, si nekoliko nasprotujejo, vendar drži, da je bil še v začetku 16. stoletja v večini evropskih dežel neznan.
+1	Podatki	podatek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_	_
+
+2	o	o	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	tem	ta	DET	Pd-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	1	nmod	_	_	_
+
+4	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+5	kdaj	kdaj	ADV	Rgp	Degree=Pos	8	mark	_	_	_
+
+6	naj	naj	PART	Q	_	8	advmod	_	_	_
+
+7	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	8	aux	_	_	_
+
+8	prišel	priti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	3	acl	_	_	_
+
+9	v	v	ADP	Sa	Case=Acc	10	case	_	_	_
+
+10	Evropo	Evropa	PROPN	Npfsa	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+11	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+12	si	se	PRON	Px---d--y	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	14	expl	_	_	_
+
+13	nekoliko	nekoliko	ADV	Rgp	Degree=Pos	14	advmod	_	_	_
+
+14	nasprotujejo	nasprotovati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+15	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+16	vendar	vendar	CCONJ	Cc	_	17	cc	_	_	_
+
+17	drži	držati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_	_
+
+18	,	,	PUNCT	Z	_	31	punct	_	_	_
+
+19	da	da	SCONJ	Cs	_	31	mark	_	_	_
+
+20	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	31	aux	_	_	_
+
+21	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	31	cop	_	_	_
+
+22	še	še	PART	Q	_	31	advmod	_	_	_
+
+23	v	v	ADP	Sl	Case=Loc	24	case	_	_	_
+
+24	začetku	začetek	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	31	obl	_	_	_
+
+25	16.	16.	NUM	Mdo	NumForm=Digit|NumType=Ord	26	nummod	_	_	_
+
+26	stoletja	stoletje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_	_
+
+27	v	v	ADP	Sl	Case=Loc	28	case	_	_	_
+
+28	večini	večina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	31	obl	_	_	_
+
+29	evropskih	evropski	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	30	amod	_	_	_
+
+30	dežel	dežela	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	_	_
+
+31	neznan	neznan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	17	csubj	_	_	_
+
+32	.	.	PUNCT	Z	_	14	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Zato pa se je njegov prihod ob koncu istega stoletja sprevrgel v pravi triumf: med navdušenimi ljubitelji rož je čez noč postal simbol lepote, razkošja in pravljičnega bogastva.
+1	Zato	zato	CCONJ	Cc	_	11	cc	_	_	_
+
+2	pa	pa	CCONJ	Cc	_	11	advmod	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	11	expl	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_	_
+
+5	njegov	njegov	DET	Ps3msnsm	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_	_
+
+6	prihod	prihod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_	_
+
+7	ob	ob	ADP	Sl	Case=Loc	8	case	_	_	_
+
+8	koncu	konec	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_	_
+
+9	istega	isti	DET	Pi-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind	10	det	_	_	_
+
+10	stoletja	stoletje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_	_
+
+11	sprevrgel	sprevrči	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+12	v	v	ADP	Sa	Case=Acc	14	case	_	_	_
+
+13	pravi	pravi	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+14	triumf	triumf	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_	_
+
+15	:	:	PUNCT	Z	_	23	punct	_	_	_
+
+16	med	med	ADP	Si	Case=Ins	18	case	_	_	_
+
+17	navdušenimi	navdušen	ADJ	Appmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	18	amod	_	_	_
+
+18	ljubitelji	ljubitelj	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	23	obl	_	_	_
+
+19	rož	rož	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_	_
+
+20	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	23	aux	_	_	_
+
+21	čez	čez	ADP	Sa	Case=Acc	22	case	_	_	_
+
+22	noč	noč	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	23	obl	_	_	_
+
+23	postal	postati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	11	parataxis	_	_	_
+
+24	simbol	simbol	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_	_
+
+25	lepote	lepota	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_	_
+
+26	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+27	razkošja	razkošje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	25	conj	_	_	_
+
+28	in	in	CCONJ	Cc	_	30	cc	_	_	_
+
+29	pravljičnega	pravljičen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_	_
+
+30	bogastva	bogastvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	25	conj	_	_	_
+
+31	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Petični navdušenci so bili pripravljeni čebulice redkih vrst odtehtati v zlatu.
+1	Petični	petičen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_	_
+
+2	navdušenci	navdušenca	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_	_
+
+3	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+4	bili	biti	AUX	Va-p-pm	Gender=Masc|Number=Plur|VerbForm=Part	5	cop	_	_	_
+
+5	pripravljeni	pripravljen	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+6	čebulice	čebulica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_	_
+
+7	redkih	redek	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_	_
+
+8	vrst	vrsta	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_	_
+
+9	odtehtati	odtehtati	VERB	Vmen	Aspect=Perf|VerbForm=Inf	5	ccomp	_	_	_
+
+10	v	v	ADP	Sl	Case=Loc	11	case	_	_	_
+
+11	zlatu	zlat	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+12	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = In ne samo to; iz trgovskih zapisov izvemo, da so tulipani na holandski borzi dosegali vrtoglave cene.
+1	In	in	CCONJ	Cc	_	9	cc	_	_	_
+
+2	ne	ne	PART	Q	_	4	cc:preconj	_	_	_
+
+3	samo	samo	PART	Q	_	2	fixed	_	_	_
+
+4	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	_	_
+
+5	;	;	PUNCT	Z	_	9	punct	_	_	_
+
+6	iz	iz	ADP	Sg	Case=Gen	8	case	_	_	_
+
+7	trgovskih	trgovski	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_	_
+
+8	zapisov	zapis	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_	_
+
+9	izvemo	izvema	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+11	da	da	SCONJ	Cs	_	17	mark	_	_	_
+
+12	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	aux	_	_	_
+
+13	tulipani	tulipan	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	17	nsubj	_	_	_
+
+14	na	na	ADP	Sl	Case=Loc	16	case	_	_	_
+
+15	holandski	holandski	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_	_
+
+16	borzi	borz	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_	_
+
+17	dosegali	dosegati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	9	ccomp	_	_	_
+
+18	vrtoglave	vrtoglava	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_	_
+
+19	cene	cena	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_	_
+
+20	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = V posameznih primerih so zbiralci za nekaj čebulic odšteli toliko kot za meščansko hišo ali srednjeveliko jadrnico!
+1	V	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	posameznih	posamezen	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_	_
+
+3	primerih	primer	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	9	obl	_	_	_
+
+4	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	aux	_	_	_
+
+5	zbiralci	zbiralec	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_	_
+
+6	za	za	ADP	Sa	Case=Acc	8	case	_	_	_
+
+7	nekaj	nekaj	DET	Rgp	PronType=Ind	8	det	_	_	_
+
+8	čebulic	čebulica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_	_
+
+9	odšteli	odšteti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+10	toliko	toliko	DET	Rgp	PronType=Dem	9	advmod	_	_	_
+
+11	kot	kot	SCONJ	Cs	_	14	case	_	_	_
+
+12	za	za	ADP	Sa	Case=Acc	14	case	_	_	_
+
+13	meščansko	meščanski	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_	_
+
+14	hišo	hiša	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_	_
+
+15	ali	ali	CCONJ	Cc	_	16	cc	_	_	_
+
+16	srednjeveliko	srednjeveliko	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	conj	_	_	_
+
+17	jadrnico	jadrnica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+18	!	!	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Nič čudnega ni, da je tulipan postal simbol bogastva, a tudi napuha, nečimrnosti in ničevosti.
+1	Nič	nič	PRON	Pz-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	2	nmod	_	_	_
+
+2	čudnega	čuden	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	nsubj	_	_	_
+
+3	ni	biti	VERB	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+5	da	da	SCONJ	Cs	_	8	mark	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_	_
+
+7	tulipan	tulipan	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_	_
+
+8	postal	postati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	3	csubj	_	_	_
+
+9	simbol	simbol	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	xcomp	_	_	_
+
+10	bogastva	bogastvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_	_
+
+11	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+12	a	a	CCONJ	Cc	_	14	cc	_	_	_
+
+13	tudi	tudi	PART	Q	_	12	fixed	_	_	_
+
+14	napuha	napuh	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	conj	_	_	_
+
+15	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+16	nečimrnosti	nečimrnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	conj	_	_	_
+
+17	in	in	CCONJ	Cc	_	18	cc	_	_	_
+
+18	ničevosti	ničevost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	conj	_	_	_
+
+19	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Kot številni miti, ki govorijo o izvoru cvetlic, tudi mit o nastanku vijolice pripoveduje zgodbo tragične ljubezni.
+1	Kot	kot	SCONJ	Cs	_	3	case	_	_	_
+
+2	številni	številen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_	_
+
+3	miti	miti	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	16	obl	_	_	_
+
+4	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+5	ki	ki	SCONJ	Cs	_	6	mark	_	_	_
+
+6	govorijo	govoriti	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_	_
+
+7	o	o	ADP	Sl	Case=Loc	8	case	_	_	_
+
+8	izvoru	izvor	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_	_
+
+9	cvetlic	cvetlica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_	_
+
+10	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+11	tudi	tudi	PART	Q	_	16	advmod	_	_	_
+
+12	mit	mit	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_	_
+
+13	o	o	ADP	Sl	Case=Loc	14	case	_	_	_
+
+14	nastanku	nastanek	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_	_
+
+15	vijolice	vijolica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+16	pripoveduje	pripovedovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+17	zgodbo	zgodba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_	_
+
+18	tragične	tragičen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_	_
+
+19	ljubezni	ljubezen	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_	_
+
+20	.	.	PUNCT	Z	_	16	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Prve vijolice naj bi bile namreč zrasle iz krvi nesrečnega Atisa, ki ga je pogubila mogočna frigijska boginja Kibela.
+1	Prve	prvi	ADJ	Mlofpn	Case=Nom|Gender=Fem|NumType=Ord|Number=Plur	2	amod	_	_	_
+
+2	vijolice	vijolica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_	_
+
+3	naj	naj	PART	Q	_	7	advmod	_	_	_
+
+4	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	7	aux	_	_	_
+
+5	bile	biti	AUX	Va-p-pf	Gender=Fem|Number=Plur|VerbForm=Part	7	aux	_	_	_
+
+6	namreč	namreč	CCONJ	Cc	_	7	advmod	_	_	_
+
+7	zrasle	zrasti	VERB	Vmep-pf	Aspect=Perf|Gender=Fem|Number=Plur|VerbForm=Part		root	_	_	_
+
+8	iz	iz	ADP	Sg	Case=Gen	9	case	_	_	_
+
+9	krvi	kri	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_	_
+
+10	nesrečnega	nesrečen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	Atisa	Atis	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+12	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+13	ki	ki	SCONJ	Cs	_	16	mark	_	_	_
+
+14	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	16	obj	_	_	_
+
+15	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	aux	_	_	_
+
+16	pogubila	pogubiti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	9	acl	_	_	_
+
+17	mogočna	mogočen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_	_
+
+18	frigijska	frigijski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_	_
+
+19	boginja	boginja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_	_
+
+20	Kibela	kibeti	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_	_
+
+21	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Boginja se je zaljubila v lepega mladeniča, si ga izbrala za svojega svečenika in ga zavezala k vzdržnosti do vseh žena, nimf in boginj.
+1	Boginja	Boginja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+4	zaljubila	zaljubiti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	v	v	ADP	Sa	Case=Acc	7	case	_	_	_
+
+6	lepega	lep	ADJ	Agpmsa	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	mladeniča	mladenič	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+8	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+9	si	se	PRON	Px---d--y	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	11	expl	_	_	_
+
+10	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	11	obj	_	_	_
+
+11	izbrala	izbrati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	4	parataxis	_	_	_
+
+12	za	za	ADP	Sa	Case=Acc	14	case	_	_	_
+
+13	svojega	svoj	DET	Px-msa	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	14	det	_	_	_
+
+14	svečenika	svečenik	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_	_
+
+15	in	in	CCONJ	Cc	_	17	cc	_	_	_
+
+16	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	17	obj	_	_	_
+
+17	zavezala	zavezati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	11	conj	_	_	_
+
+18	k	k	ADP	Sd	Case=Dat	19	case	_	_	_
+
+19	vzdržnosti	vzdržnost	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	_	_
+
+20	do	do	ADP	Sg	Case=Gen	22	case	_	_	_
+
+21	vseh	ves	DET	Pg-fpg	Case=Gen|Gender=Fem|Number=Plur|PronType=Tot	22	det	_	_	_
+
+22	žena	žena	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_	_
+
+23	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+24	nimf	nimf	NOUN	Ncfpg	Case=Gen|Gender=Neut|Number=Plur	22	conj	_	_	_
+
+25	in	in	CCONJ	Cc	_	26	cc	_	_	_
+
+26	boginj	boginja	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	22	conj	_	_	_
+
+27	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Ko se je Atis zaljubil v prelepo hčer rečnega boga Sangarija in prekršil božansko zapoved, ga je Kibela udarila z blaznostjo, v kateri se je sam skopil.
+1	Ko	ko	SCONJ	Cs	_	5	mark	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	5	expl	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+4	Atis	Atis	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+5	zaljubil	zaljubiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	20	advcl	_	_	_
+
+6	v	v	ADP	Sa	Case=Acc	8	case	_	_	_
+
+7	prelepo	prelep	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	hčer	hči	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+9	rečnega	rečen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	boga	bog	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+11	Sangarija	Sangarija	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+12	in	in	CCONJ	Cc	_	13	cc	_	_	_
+
+13	prekršil	prekršiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	5	conj	_	_	_
+
+14	božansko	božanski	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_	_
+
+15	zapoved	zapoved	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_	_
+
+16	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+17	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	20	obj	_	_	_
+
+18	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	aux	_	_	_
+
+19	Kibela	kibeti	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_	_
+
+20	udarila	udariti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+21	z	z	ADP	Si	Case=Ins	22	case	_	_	_
+
+22	blaznostjo	blaznost	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	20	obl	_	_	_
+
+23	,	,	PUNCT	Z	_	29	punct	_	_	_
+
+24	v	v	ADP	Sl	Case=Loc	25	case	_	_	_
+
+25	kateri	kateri	DET	Pq-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Int	29	obl	_	_	_
+
+26	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	29	expl	_	_	_
+
+27	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	29	aux	_	_	_
+
+28	sam	sam	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	29	obl	_	_	_
+
+29	skopil	skopiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	22	acl	_	_	_
+
+30	.	.	PUNCT	Z	_	20	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Iz krvi, ki je brizgnila na zemljo, so zrasle vijolice, katerih cvetovi naj bi spominjali na strjene kapljice krvi.
+1	Iz	iz	ADP	Sg	Case=Gen	2	case	_	_	_
+
+2	krvi	kri	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_	_
+
+3	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+4	ki	ki	SCONJ	Cs	_	6	mark	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
+
+6	brizgnila	brizgniti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_	_
+
+7	na	na	ADP	Sa	Case=Acc	8	case	_	_	_
+
+8	zemljo	zemlja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_	_
+
+9	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+10	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_	_
+
+11	zrasle	zrasti	VERB	Vmep-pf	Aspect=Perf|Gender=Fem|Number=Plur|VerbForm=Part		root	_	_	_
+
+12	vijolice	vijolica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_	_
+
+13	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+14	katerih	kateri	DET	Pq-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Int	15	nmod	_	_	_
+
+15	cvetovi	cvetov	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_	_
+
+16	naj	naj	PART	Q	_	18	advmod	_	_	_
+
+17	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	18	aux	_	_	_
+
+18	spominjali	spominjati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	12	acl	_	_	_
+
+19	na	na	ADP	Sa	Case=Acc	21	case	_	_	_
+
+20	strjene	strjen	ADJ	Appfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	21	amod	_	_	_
+
+21	kapljice	kapljica	NOUN	Ncfpa	Case=Gen|Gender=Fem|Number=Plur	18	obl	_	_	_
+
+22	krvi	kri	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_	_
+
+23	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001603.txt
+# text = Herzog, Hans- Michael( izd.): The Art of the Flower: The Floral Still Life from 17th to the 20th Century, 1996 Bielefeld/ Zrich
+1	Herzog	Herzog	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	Hans	Hans	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+4	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+5	Michael	Michael	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_	_
+
+6	(	(	PUNCT	Z	_	7	punct	_	_	_
+
+7	izd	izd	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_	_
+
+8	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+9	)	)	PUNCT	Z	_	7	punct	_	_	_
+
+10	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+11	The	the	X	Xf	Foreign=Yes	3	conj	_	_	_
+
+12	Art	art	X	Xf	Foreign=Yes	11	flat:foreign	_	_	_
+
+13	of	of	X	Xf	Foreign=Yes	11	flat:foreign	_	_	_
+
+14	the	the	X	Xf	Foreign=Yes	11	flat:foreign	_	_	_
+
+15	Flower	Flower	X	Xf	Foreign=Yes	11	flat:foreign	_	_	_
+
+16	:	:	PUNCT	Z	_	17	punct	_	_	_
+
+17	The	the	X	Xf	Foreign=Yes	11	flat:foreign	_	_	_
+
+18	Floral	floral	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+19	Still	still	X	Xf	Foreign=Yes	11	flat:foreign	_	_	_
+
+20	Life	life	X	Xf	Foreign=Yes	11	flat:foreign	_	_	_
+
+21	from	fr	X	Xf	Foreign=Yes	11	flat:foreign	_	_	_
+
+22	17th	17th	X	Xf	Foreign=Yes	11	flat:foreign	_	_	_
+
+23	to	ta	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+24	the	the	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+25	20th	20th	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+26	Century	Century	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+27	,	,	PUNCT	Z	_	28	punct	_	_	_
+
+28	1996	1996	NUM	Mdc	NumForm=Digit|NumType=Card	26	nummod	_	_	_
+
+29	Bielefeld	Bielefeld	X	Xf	Foreign=Yes	28	flat:foreign	_	_	_
+
+30	/	/	PUNCT	Z	_	31	punct	_	_	_
+
+31	Zrich	Zrich	X	Xf	Foreign=Yes	29	conj	_	_	_
+

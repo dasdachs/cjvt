@@ -1,0 +1,129 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0012829.txt
+# text = Jesenice
+1	Jesenice	Jesenice	PROPN	Npfpn	Case=Nom|Gender=Fem|Number=Plur		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0012829.txt
+# text = Pišete tudi glasbo za filme, pravite pa, da bi si želeli napisati glasbeno podlago za kung- fu film.
+1	Pišete	pisati	VERB	Vmpr2p	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	tudi	tudi	PART	Q	_	1	advmod	_	_	_
+
+3	glasbo	glasba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_	_
+
+4	za	za	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	filme	film	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	nmod	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	pravite	praviti	VERB	Vmbr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	parataxis	_	_	_
+
+8	pa	pa	CCONJ	Cc	_	7	advmod	_	_	_
+
+9	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+10	da	da	SCONJ	Cs	_	13	mark	_	_	_
+
+11	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	13	aux	_	_	_
+
+12	si	se	PRON	Px---d--y	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	14	expl	_	_	_
+
+13	želeli	želeti	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	7	ccomp	_	_	_
+
+14	napisati	napisati	VERB	Vmen	Aspect=Perf|VerbForm=Inf	13	xcomp	_	_	_
+
+15	glasbeno	glasben	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_	_
+
+16	podlago	podlaga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_	_
+
+17	za	za	ADP	Sa	Case=Acc	21	case	_	_	_
+
+18	kung	kung	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	amod	_	_	_
+
+19	-	-	PUNCT	Z	_	20	punct	_	_	_
+
+20	fu	fu	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	18	conj	_	_	_
+
+21	film	film	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	_	_
+
+22	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0012829.txt
+# text = Je za to kaj možnosti ali je tisti Bruce Lee na ovitku plošče Čobane, vrati se za zdaj dovolj?
+1	Je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	za	za	ADP	Sa	Case=Acc	3	case	_	_	_
+
+3	to	ta	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	nmod	_	_	_
+
+4	kaj	kaj	PRON	Pq-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	1	obl	_	_	_
+
+5	možnosti	možnost	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_	_
+
+6	ali	ali	CCONJ	Cc	_	9	cc	_	_	_
+
+7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_	_
+
+8	tisti	tisti	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_	_
+
+9	Bruce	Bruce	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+10	Lee	lee	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_	_
+
+11	na	na	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	ovitku	ovitek	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+13	plošče	plošča	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+14	Čobane	čoban	PROPN	Npmpa	Case=Acc|Gender=Masc|Number=Plur	13	nmod	_	_	_
+
+15	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+16	vrati	vrata	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	13	conj	_	_	_
+
+17	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	20	expl	_	_	_
+
+18	za	za	ADP	Sa	Case=Acc	19	case	_	_	_
+
+19	zdaj	zdaj	ADV	Rgp	Degree=Pos	20	advmod	_	_	_
+
+20	dovolj	dovolj	DET	Rgp	PronType=Ind	1	advmod	_	_	_
+
+21	?	?	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0012829.txt
+# text = Tram 11: Tajna crne kutije( Menart)
+1	Tram	tram	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+2	11	11	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+3	:	:	PUNCT	Z	_	2	punct	_	_	_
+
+4	Tajna	Tajna	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+5	crne	crn	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	kutije	kutija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+7	(	(	PUNCT	Z	_	8	punct	_	_	_
+
+8	Menart	Menart	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_	_
+
+9	)	)	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0012829.txt
+# text = Šahovski turnir v Wijk aan Zeeju
+1	Šahovski	šahovski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	turnir	turnir	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	v	v	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	Wijk	Wijk	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	aan	aan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+6	Zeeju	zeej	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_	_
+

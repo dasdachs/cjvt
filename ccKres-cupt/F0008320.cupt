@@ -1,0 +1,471 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = Predilniška cesta 16, Tržič
+1	Predilniška	predilniški	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	cesta	cesta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+3	16	16	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	Tržič	tržič	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = 15.00 Ne mi težit- 15.30 Nora hiša- 16.00 Bogato dekle- 17.00 Maria Mercedes- 18.00 Oprah show- 19.00 Tretji kamen od sonca- 19.30 Zmenkarije- 20.00 Študentska leta, Čudna detektiva, Živa bomba, Rudniki kralja Salomona, filmi.
+1	15.00	15.00	NUM	Mdc	NumForm=Digit|NumType=Card	24	dep	_	_	_
+
+2	Ne	ne	PART	Q	Polarity=Neg	24	advmod	_	_	_
+
+3	mi	jaz	PRON	Pp1-sd--y	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	24	obj	_	_	_
+
+4	težit	težiti	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_	_
+
+5	-	-	PUNCT	Z	_	6	punct	_	_	_
+
+6	15.30	15.30	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+7	Nora	Nora	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	hiša	hiša	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_	_
+
+9	-	-	PUNCT	Z	_	10	punct	_	_	_
+
+10	16.00	16.00	NUM	Mdc	NumForm=Digit|NumType=Card	12	nummod	_	_	_
+
+11	Bogato	Bogato	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_	_
+
+12	dekle	dekle	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	24	nsubj	_	_	_
+
+13	-	-	PUNCT	Z	_	14	punct	_	_	_
+
+14	17.00	17.00	NUM	Mdc	NumForm=Digit|NumType=Card	15	nummod	_	_	_
+
+15	Maria	Maria	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+16	Mercedes	Mercedes	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	15	flat:name	_	_	_
+
+17	-	-	PUNCT	Z	_	18	punct	_	_	_
+
+18	18.00	18.00	NUM	Mdc	NumForm=Digit|NumType=Card	16	nummod	_	_	_
+
+19	Oprah	oprah	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	24	nmod	_	_	_
+
+20	show	show	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	24	nmod	_	_	_
+
+21	-	-	PUNCT	Z	_	24	punct	_	_	_
+
+22	19.00	19.00	NUM	Mdc	NumForm=Digit|NumType=Card	20	nummod	_	_	_
+
+23	Tretji	tretji	ADJ	Mlomsn	Case=Nom|Gender=Masc|NumType=Ord|Number=Sing	24	amod	_	_	_
+
+24	kamen	kamen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+25	od	od	ADP	Sg	Case=Gen	26	case	_	_	_
+
+26	sonca	sonce	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_	_
+
+27	-	-	PUNCT	Z	_	28	punct	_	_	_
+
+28	19.30	19.30	NUM	Mdc	NumForm=Digit|NumType=Card	26	conj	_	_	_
+
+29	Zmenkarije	zmenkarija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_	_
+
+30	-	-	PUNCT	Z	_	24	punct	_	_	_
+
+31	20.00	20.00	NUM	Mdc	NumForm=Digit|NumType=Card	33	nummod	_	_	_
+
+32	Študentska	študentski	ADJ	Agpnpn	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	33	amod	_	_	_
+
+33	leta	leto	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	24	nsubj	_	_	_
+
+34	,	,	PUNCT	Z	_	36	punct	_	_	_
+
+35	Čudna	čuden	ADJ	Agpmdn	Case=Nom|Degree=Pos|Gender=Masc|Number=Dual	36	amod	_	_	_
+
+36	detektiva	detektiv	NOUN	Ncmdn	Case=Nom|Gender=Masc|Number=Dual	33	conj	_	_	_
+
+37	,	,	PUNCT	Z	_	39	punct	_	_	_
+
+38	Živa	živ	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_	_
+
+39	bomba	bomba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	33	conj	_	_	_
+
+40	,	,	PUNCT	Z	_	41	punct	_	_	_
+
+41	Rudniki	rudnik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	33	conj	_	_	_
+
+42	kralja	kralj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	41	nmod	_	_	_
+
+43	Salomona	Salomon	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	_	_
+
+44	,	,	PUNCT	Z	_	45	punct	_	_	_
+
+45	filmi	film	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	43	conj	_	_	_
+
+46	.	.	PUNCT	Z	_	24	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = Vaša resnost bo povezana z vihravostjo in šaljivostjo, zato ljudje nikoli ne bodo predvideli vašega razpoloženja.
+1	Vaša	vaš	DET	Ps1fsnp	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	_	_
+
+2	resnost	resnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+3	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	4	cop	_	_	_
+
+4	povezana	povezan	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	z	z	ADP	Si	Case=Ins	6	case	_	_	_
+
+6	vihravostjo	vihravost	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	šaljivostjo	šaljivost	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	6	conj	_	_	_
+
+9	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+10	zato	zato	CCONJ	Cc	_	15	cc	_	_	_
+
+11	ljudje	človek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_	_
+
+12	nikoli	nikoli	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+
+13	ne	ne	PART	Q	Polarity=Neg	15	advmod	_	_	_
+
+14	bodo	biti	AUX	Va-f3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	15	aux	_	_	_
+
+15	predvideli	predvideti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	4	conj	_	_	_
+
+16	vašega	vaš	DET	Ps1nsgp	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	17	det	_	_	_
+
+17	razpoloženja	razpoloženje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	15	obj	_	_	_
+
+18	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = V olajšanje boste svoji družini in sodelavcem.
+1	V	v	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	olajšanje	olajšanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_	_
+
+3	boste	biti	AUX	Va-f2p-n	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin		root	_	_	_
+
+4	svoji	svoj	DET	Px-fsd	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	_	_
+
+5	družini	družina	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	3	obj	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	sodelavcem	sodelavec	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	5	conj	_	_	_
+
+8	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = Poslovno se ne obremenjujte preveč, saj trenutno stvari potekajo po ustaljenih poteh.
+1	Poslovno	posloven	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+3	ne	ne	PART	Q	Polarity=Neg	4	advmod	_	_	_
+
+4	obremenjujte	obremenjevati	VERB	Vmpm2p	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin		root	_	_	_
+
+5	preveč	preveč	DET	Rgp	PronType=Ind	4	advmod	_	_	_
+
+6	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+7	saj	saj	CCONJ	Cc	_	10	cc	_	_	_
+
+8	trenutno	trenutno	ADV	Rgp	Degree=Pos	10	advmod	_	_	_
+
+9	stvari	stvar	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_	_
+
+10	potekajo	potekati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_	_
+
+11	po	po	ADP	Sl	Case=Loc	13	case	_	_	_
+
+12	ustaljenih	ustaljen	ADJ	Appfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	13	amod	_	_	_
+
+13	poteh	pot	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	10	obl	_	_	_
+
+14	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = File: did 14 45
+1	File	file	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	did	did	X	Xf	Foreign=Yes		root	_	_	_
+
+4	14	14	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+5	45	45	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = dra4816
+1	dra4816	dra4816	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = U. K.
+1	U.	U.	X	Y	Abbr=Yes		root	_	_	_
+
+2	K.	K.	X	Y	Abbr=Yes	1	flat	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = ŠPANSKE IZKUŠNJE
+1	ŠPANSKE	španski	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_	_
+
+2	IZKUŠNJE	izkušnja	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = Vrsta opreme Cena( SIT)
+1	Vrsta	vrsta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	opreme	oprema	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	Cena	cena	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	(	(	PUNCT	Z	_	5	punct	_	_	_
+
+5	SIT	SIT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_	_
+
+6	)	)	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = PRAVILA PRIDOBIVANJA OKRASNIH DREVES IZ GOZDOV
+1	PRAVILA	pravilo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur		root	_	_	_
+
+2	PRIDOBIVANJA	pridobivanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_	_
+
+3	OKRASNIH	okrasen	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	_	_
+
+4	DREVES	dreves	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_	_
+
+5	IZ	iz	ADP	Sg	Case=Gen	6	case	_	_	_
+
+6	GOZDOV	gozd	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = DIA 43c Miklavž odloča, kdo je bil dovolj priden, da bo dobil darila; Goriča vas pri Ribnici( foto: Vito Čop, iz dokumentacije Inštituta za slovensko narodopisje ZRC SAZU)
+1	DIA	DIA	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+2	43c	43c	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+3	Miklavž	Miklavž	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	odloča	odločati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+6	kdo	kdo	PRON	Pq-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	10	nsubj	_	_	_
+
+7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	_	_
+
+8	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	10	cop	_	_	_
+
+9	dovolj	dovolj	DET	Rgp	PronType=Ind	10	advmod	_	_	_
+
+10	priden	priden	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	ccomp	_	_	_
+
+11	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+12	da	da	SCONJ	Cs	_	14	mark	_	_	_
+
+13	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	14	aux	_	_	_
+
+14	dobil	dobiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	10	advcl	_	_	_
+
+15	darila	darilo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	_	_
+
+16	;	;	PUNCT	Z	_	14	punct	_	_	_
+
+17	Goriča	Gorič	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_	_
+
+18	vas	vas	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	_	_
+
+19	pri	pri	ADP	Sl	Case=Loc	20	case	_	_	_
+
+20	Ribnici	Ribnica	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	18	nmod	_	_	_
+
+21	(	(	PUNCT	Z	_	22	punct	_	_	_
+
+22	foto	foto	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	20	appos	_	_	_
+
+23	:	:	PUNCT	Z	_	22	punct	_	_	_
+
+24	Vito	vito	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	17	conj	_	_	_
+
+25	Čop	čop	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	24	flat:name	_	_	_
+
+26	,	,	PUNCT	Z	_	28	punct	_	_	_
+
+27	iz	iz	ADP	Sg	Case=Gen	28	case	_	_	_
+
+28	dokumentacije	dokumentacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	24	appos	_	_	_
+
+29	Inštituta	inštitut	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_	_
+
+30	za	za	ADP	Sa	Case=Acc	32	case	_	_	_
+
+31	slovensko	slovenski	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_	_
+
+32	narodopisje	narodopisje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	29	nmod	_	_	_
+
+33	ZRC	ZRC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	32	nmod	_	_	_
+
+34	SAZU	SAZ	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	33	nmod	_	_	_
+
+35	)	)	PUNCT	Z	_	28	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = Koruza 55 33 29 20
+1	Koruza	Koruza	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	55	55	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+3	33	33	NUM	Mdc	NumForm=Digit|NumType=Card	2	flat	_	_	_
+
+4	29	29	NUM	Mdc	NumForm=Digit|NumType=Card	2	conj	_	_	_
+
+5	20	20	NUM	Mdc	NumForm=Digit|NumType=Card	4	flat	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = DRUGO 176. 291 21.084 11.214 37.
+1	DRUGO	drug	ADJ	Mlpnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+2	176.	176.	NUM	Mdo	NumForm=Digit|NumType=Ord	1	nummod	_	_	_
+
+3	291	291	NUM	Mdc	NumForm=Digit|NumType=Card	2	flat	_	_	_
+
+4	21.084	21.084	NUM	Mdc	NumForm=Digit|NumType=Card	2	flat	_	_	_
+
+5	11.214	11.214	NUM	Mdc	NumForm=Digit|NumType=Card	4	conj	_	_	_
+
+6	37	37	NUM	Mdc	NumForm=Digit|NumType=Card	4	flat	_	_	_
+
+7	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = 824
+1	824	824	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = POP TV
+1	POP	POP	X	X	_		root	_	_	_
+
+2	TV	TV	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = V vinogradniško- vinarskem inštitutu v Nelesu se trudijo tudi z embalažo in vinogradniškimi razstavami.
+1	V	v	ADP	Sl	Case=Loc	5	case	_	_	_
+
+2	vinogradniško	vinogradniški	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_	_
+
+3	-	-	PUNCT	Z	_	4	punct	_	_	_
+
+4	vinarskem	vinarski	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+5	inštitutu	inštitut	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+6	v	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+7	Nelesu	Neles	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+8	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	9	expl	_	_	_
+
+9	trudijo	truditi	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	tudi	tudi	PART	Q	_	9	advmod	_	_	_
+
+11	z	z	ADP	Si	Case=Ins	12	case	_	_	_
+
+12	embalažo	embalaža	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_	_
+
+13	in	in	CCONJ	Cc	_	15	cc	_	_	_
+
+14	vinogradniškimi	vinogradniški	ADJ	Agpfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_	_
+
+15	razstavami	razstava	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	12	conj	_	_	_
+
+16	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = kitajsko zelje 200250
+1	kitajsko	kitajski	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_	_
+
+2	zelje	zelje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+3	200250	200250	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = ČRNICA
+1	ČRNICA	črnica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = » Velja!«
+1	»	»	PUNCT	Z	_	2	punct	_	_	_
+
+2	Velja	veljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	!	!	PUNCT	Z	_	2	punct	_	_	_
+
+4	«	«	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = oranje( tribrazdni plug) 4.045 SIT/uro
+1	oranje	oranje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+2	(	(	PUNCT	Z	_	4	punct	_	_	_
+
+3	tribrazdni	tribrazden	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	plug	plug	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_	_
+
+5	)	)	PUNCT	Z	_	4	punct	_	_	_
+
+6	4.045	4.045	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+7	SIT/uro	siteura	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = Dobrodošlica domačinov vsem prišlekom v njihovo dolgo in razvejano vasico Medribnik
+1	Dobrodošlica	Dobrodošlica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	domačinov	domačin	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_	_
+
+3	vsem	ves	DET	Pg-mpd	Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	4	det	_	_	_
+
+4	prišlekom	prišlek	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	1	nmod	_	_	_
+
+5	v	v	ADP	Sa	Case=Acc	10	case	_	_	_
+
+6	njihovo	njihov	DET	Ps3fsap	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	10	det	_	_	_
+
+7	dolgo	dolg	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_	_
+
+8	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+9	razvejano	razvejan	ADJ	Appfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	7	conj	_	_	_
+
+10	vasico	vasica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+11	Medribnik	Medribnik	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = ZAHVALA
+1	ZAHVALA	zahvala	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008320.txt
+# text = PO IZREDNO UGODNIH IZVENSEZONSKIH CENAH
+1	PO	po	ADP	Sl	Case=Loc	5	case	_	_	_
+
+2	IZREDNO	izredno	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+3	UGODNIH	ugoden	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_	_
+
+4	IZVENSEZONSKIH	izvensezonski	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_	_
+
+5	CENAH	cena	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur		root	_	_	_
+

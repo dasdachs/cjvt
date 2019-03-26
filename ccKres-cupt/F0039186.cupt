@@ -1,0 +1,551 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0039186.txt
+# text = Nataša Matjašec Rošker je zavlogo Anne prejela Severjevo nagrado.
+1	Nataša	Nataša	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+
+2	Matjašec	Matjašec	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	flat:name	_	_	_
+
+3	Rošker	Rošker	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	flat:name	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_	_
+
+5	zavlogo	zavloga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_	_
+
+6	Anne	Anna	PROPN	Npfsa	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+7	prejela	prejeti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+8	Severjevo	Severjev	ADJ	Aspfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	9	amod	_	_	_
+
+9	nagrado	nagrada	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_	_
+
+10	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039186.txt
+# text = Novemu letu bomo nazdravili s kozarcem [...]
+1	Novemu	nov	ADJ	Agpnsd	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_	_
+
+2	letu	leto	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	4	obj	_	_	_
+
+3	bomo	biti	AUX	Va-f1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	4	aux	_	_	_
+
+4	nazdravili	nazdraviti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+5	s	z	ADP	Si	Case=Ins	6	case	_	_	_
+
+6	kozarcem	kozarec	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+7	[.	[.	X	Y	Abbr=Yes	6	nmod	_	_	_
+
+8	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+9	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+10	]	]	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039186.txt
+# text = Termine koncertov, ki bodo v okviru Festivala Maribor potekali v prostorih Slovenskega narodnega gledališča Maribor, najdete v našem koledarju dogodkov; podrobnejše informacije o Festivalu Maribor pa na spletni strani www.
+1	Termine	Termine	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	18	obj	_	_	_
+
+2	koncertov	koncert	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_	_
+
+3	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+4	ki	ki	SCONJ	Cs	_	10	mark	_	_	_
+
+5	bodo	biti	AUX	Va-f3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	10	aux	_	_	_
+
+6	v	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+7	okviru	okvir	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_	_
+
+8	Festivala	festivati	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+9	Maribor	Maribor	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+10	potekali	potekati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	1	acl	_	_	_
+
+11	v	v	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	prostorih	prostor	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	10	obl	_	_	_
+
+13	Slovenskega	slovenski	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_	_
+
+14	narodnega	naroden	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_	_
+
+15	gledališča	gledališče	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_	_
+
+16	Maribor	Maribor	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+17	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+18	najdete	najti	VERB	Vmer2p	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+19	v	v	ADP	Sl	Case=Loc	21	case	_	_	_
+
+20	našem	naš	DET	Ps1mslp	Case=Loc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	21	det	_	_	_
+
+21	koledarju	koledar	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_	_
+
+22	dogodkov	dogodek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_	_
+
+23	;	;	PUNCT	Z	_	18	punct	_	_	_
+
+24	podrobnejše	podroben	ADJ	Agcfpa	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	25	amod	_	_	_
+
+25	informacije	informacija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	18	obj	_	_	_
+
+26	o	o	ADP	Sl	Case=Loc	27	case	_	_	_
+
+27	Festivalu	festival	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	25	nmod	_	_	_
+
+28	Maribor	Maribor	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	27	nmod	_	_	_
+
+29	pa	pa	CCONJ	Cc	_	32	cc	_	_	_
+
+30	na	na	ADP	Sl	Case=Loc	32	case	_	_	_
+
+31	spletni	spleten	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_	_
+
+32	strani	stran	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	27	conj	_	_	_
+
+33	www	www	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	32	nmod	_	_	_
+
+34	.	.	PUNCT	Z	_	18	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039186.txt
+# text = festivalmaribor.si.
+1	festivalmaribor.si	festivariboribor.s	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039186.txt
+# text = Vstopnice so naprodaj pri blagajni Narodnega doma Maribor in uro pred predstavo na posameznih prizoriščih.
+1	Vstopnice	vstopnica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_	_
+
+3	naprodaj	naprodaj	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur		root	_	_	_
+
+4	pri	pri	ADP	Sl	Case=Loc	7	case	_	_	_
+
+5	blagajni	blagajen	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	_
+
+6	Narodnega	naroden	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	doma	dom	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_	_
+
+8	Maribor	Maribor	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+9	in	in	CCONJ	Cc	_	10	cc	_	_	_
+
+10	uro	ura	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	_	_
+
+11	pred	pred	ADP	Si	Case=Ins	12	case	_	_	_
+
+12	predstavo	predstava	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	10	nmod	_	_	_
+
+13	na	na	ADP	Sl	Case=Loc	15	case	_	_	_
+
+14	posameznih	posamezen	ADJ	Agpnpl	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	15	amod	_	_	_
+
+15	prizoriščih	prizorišče	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	12	nmod	_	_	_
+
+16	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039186.txt
+# text = Valentin Štolcer Rajske strune
+1	Valentin	Valentin	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Štolcer	Štolcer	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	Rajske	rajski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	strune	struna	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039186.txt
+# text = Tradicionalna z zahoda, prir. Arthur Warrel A Merry Christmas
+1	Tradicionalna	tradicionalen	ADJ	Agpmdn	Case=Nom|Degree=Pos|Gender=Masc|Number=Dual		root	_	_	_
+
+2	z	z	ADP	Sg	Case=Gen	3	case	_	_	_
+
+3	zahoda	zahod	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	prir.	prir.	X	Y	Abbr=Yes	3	appos	_	_	_
+
+6	Arthur	arthur	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+7	Warrel	Warrel	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	_	_
+
+8	A	a	X	Xf	Foreign=Yes	9	nmod	_	_	_
+
+9	Merry	Merry	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+10	Christmas	Christmas	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039186.txt
+# text = K omenjenemu cvetoberu božičnih pesmi se stežka izognemo nemški liturgični tradiciji, ki je v veliki meri prispevala tudi na razvoj slovenske protestantske pesmi.
+1	K	k	ADP	Sd	Case=Dat	3	case	_	_	_
+
+2	omenjenemu	omenjen	ADJ	Appmsd	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	3	amod	_	_	_
+
+3	cvetoberu	cvetober	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_	_
+
+4	božičnih	božičen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_	_
+
+5	pesmi	pesem	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_	_
+
+6	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	8	expl	_	_	_
+
+7	stežka	stežka	ADV	Rgp	Degree=Pos	8	advmod	_	_	_
+
+8	izognemo	izogniti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	nemški	nemški	ADJ	Agpfsd	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_	_
+
+10	liturgični	liturgičen	ADJ	Agpfsd	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_	_
+
+11	tradiciji	tradicija	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	8	obj	_	_	_
+
+12	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+13	ki	ki	SCONJ	Cs	_	18	mark	_	_	_
+
+14	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	aux	_	_	_
+
+15	v	v	ADP	Sl	Case=Loc	17	case	_	_	_
+
+16	veliki	velik	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_	_
+
+17	meri	mera	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	18	obl	_	_	_
+
+18	prispevala	prispevati	VERB	Vmbp-sf	Gender=Fem|Number=Sing|VerbForm=Part	11	acl	_	_	_
+
+19	tudi	tudi	PART	Q	_	18	advmod	_	_	_
+
+20	na	na	ADP	Sa	Case=Acc	21	case	_	_	_
+
+21	razvoj	razvoj	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_	_
+
+22	slovenske	slovenski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_	_
+
+23	protestantske	protestantski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_	_
+
+24	pesmi	pesem	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_	_
+
+25	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039186.txt
+# text = Ena takšnih je nemška pesem iz 15. stoletja Cvet je vzbrstel prelepi, izvirno naslovljena kot Es ist ein Ros entsprungen, ki jo nekateri pripisujejo Michaelu Praetoriusu( 1571– 1621), tokrat pa jo bomo poslušali v priredbi Roberta Mračka.
+1	Ena	en	NUM	Mlpfsn	Case=Nom|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing	5	nummod	_	_	_
+
+2	takšnih	takšen	DET	Pd-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_	_
+
+4	nemška	nemški	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	pesem	pesem	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_	_
+
+6	iz	iz	ADP	Sg	Case=Gen	8	case	_	_	_
+
+7	15.	15.	NUM	Mdo	NumForm=Digit|NumType=Ord	8	nummod	_	_	_
+
+8	stoletja	stoletje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_	_
+
+9	Cvet	cvet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+10	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_	_
+
+11	vzbrstel	vzbrsti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+12	prelepi	prelep	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_	_
+
+13	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+14	izvirno	izviren	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+
+15	naslovljena	naslovljen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	12	amod	_	_	_
+
+16	kot	kot	SCONJ	Cs	_	20	case	_	_	_
+
+17	Es	Es	X	Xf	Foreign=Yes	15	obl	_	_	_
+
+18	ist	ist	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+19	ein	ein	X	Xf	Foreign=Yes	20	nmod	_	_	_
+
+20	Ros	Ros	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	_	_
+
+21	entsprungen	entsprungen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	15	conj	_	_	_
+
+22	,	,	PUNCT	Z	_	26	punct	_	_	_
+
+23	ki	ki	SCONJ	Cs	_	26	mark	_	_	_
+
+24	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	26	obj	_	_	_
+
+25	nekateri	nekateri	DET	Pi-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	26	nsubj	_	_	_
+
+26	pripisujejo	pripisovati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	_	_
+
+27	Michaelu	Michael	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	26	obj	_	_	_
+
+28	Praetoriusu	Praetorius	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	27	flat:name	_	_	_
+
+29	(	(	PUNCT	Z	_	30	punct	_	_	_
+
+30	1571	1571	NUM	Mdc	NumForm=Digit|NumType=Card	27	nummod	_	_	_
+
+31	–	–	PUNCT	Z	_	32	punct	_	_	_
+
+32	1621	1621	NUM	Mdc	NumForm=Digit|NumType=Card	30	conj	_	_	_
+
+33	)	)	PUNCT	Z	_	30	punct	_	_	_
+
+34	,	,	PUNCT	Z	_	26	punct	_	_	_
+
+35	tokrat	tokrat	ADV	Rgp	Degree=Pos	39	advmod	_	_	_
+
+36	pa	pa	CCONJ	Cc	_	39	advmod	_	_	_
+
+37	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	39	obj	_	_	_
+
+38	bomo	biti	AUX	Va-f1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	39	aux	_	_	_
+
+39	poslušali	poslušati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	11	parataxis	_	_	_
+
+40	v	v	ADP	Sl	Case=Loc	41	case	_	_	_
+
+41	priredbi	priredba	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	39	obl	_	_	_
+
+42	Roberta	Robert	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	41	nmod	_	_	_
+
+43	Mračka	mračka	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	42	flat:name	_	_	_
+
+44	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039186.txt
+# text = Časovno popotovanje nadaljujemo s pesmijo Adeste fideles( Hitite kristjani), ki jo pripisujejo angleškemu skladatelju himen Johnu Francisu Wadu( 1711– 1786), in s koraloma velikega glasbenega virtuoza in poznobaročnega skladatelja Johanna Sebastiana Bacha( 1685– 1750), ki nosita naslov Das neugebor’ne Kindelein( Novorojeni otročiček) in O Jesulein süss( O sladki Jezušček). V polnem registru pa bo zazvenel tudi zbor And the Glory of the Lord iz svetovno znanega oratorija Mesija Georga Friedricha Händla( 1685– 1759).
+1	Časovno	časovno	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_	_
+
+2	popotovanje	popotovanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_	_
+
+3	nadaljujemo	nadaljevati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	s	z	ADP	Si	Case=Ins	5	case	_	_	_
+
+5	pesmijo	pesem	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_	_
+
+6	Adeste	Adesta	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+7	fideles	fideles	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+8	(	(	PUNCT	Z	_	9	punct	_	_	_
+
+9	Hitite	hiteti	VERB	Vmpr2p	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	parataxis	_	_	_
+
+10	kristjani	kristjan	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_	_
+
+11	)	)	PUNCT	Z	_	9	punct	_	_	_
+
+12	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+13	ki	ki	SCONJ	Cs	_	15	mark	_	_	_
+
+14	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	15	obj	_	_	_
+
+15	pripisujejo	pripisovati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_	_
+
+16	angleškemu	angleški	ADJ	Agpmsd	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_	_
+
+17	skladatelju	skladatelj	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	15	obj	_	_	_
+
+18	himen	himen	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_	_
+
+19	Johnu	John	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	18	nmod	_	_	_
+
+20	Francisu	Francis	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	19	flat:name	_	_	_
+
+21	Wadu	Wadu	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	19	flat:name	_	_	_
+
+22	(	(	PUNCT	Z	_	23	punct	_	_	_
+
+23	1711	1711	NUM	Mdc	NumForm=Digit|NumType=Card	17	nummod	_	_	_
+
+24	–	–	PUNCT	Z	_	25	punct	_	_	_
+
+25	1786	1786	NUM	Mdc	NumForm=Digit|NumType=Card	23	conj	_	_	_
+
+26	)	)	PUNCT	Z	_	23	punct	_	_	_
+
+27	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+28	in	in	CCONJ	Cc	_	30	cc	_	_	_
+
+29	s	z	ADP	Si	Case=Ins	30	case	_	_	_
+
+30	koraloma	koraloma	NOUN	Ncmdi	Case=Ins|Gender=Masc|Number=Dual	17	conj	_	_	_
+
+31	velikega	velik	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_	_
+
+32	glasbenega	glasben	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_	_
+
+33	virtuoza	virtuoza	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_	_
+
+34	in	in	CCONJ	Cc	_	36	cc	_	_	_
+
+35	poznobaročnega	poznobaročen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_	_
+
+36	skladatelja	skladatelj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	33	conj	_	_	_
+
+37	Johanna	Johanna	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_	_
+
+38	Sebastiana	sebastian	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	37	flat:name	_	_	_
+
+39	Bacha	Bach	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	38	flat:name	_	_	_
+
+40	(	(	PUNCT	Z	_	41	punct	_	_	_
+
+41	1685	1685	NUM	Mdc	NumForm=Digit|NumType=Card	36	nummod	_	_	_
+
+42	–	–	PUNCT	Z	_	43	punct	_	_	_
+
+43	1750	1750	NUM	Mdc	NumForm=Digit|NumType=Card	41	conj	_	_	_
+
+44	)	)	PUNCT	Z	_	41	punct	_	_	_
+
+45	,	,	PUNCT	Z	_	47	punct	_	_	_
+
+46	ki	ki	SCONJ	Cs	_	47	mark	_	_	_
+
+47	nosita	nositi	VERB	Vmpr3d	Aspect=Imp|Mood=Ind|Number=Dual|Person=3|Tense=Pres|VerbForm=Fin	36	acl	_	_	_
+
+48	naslov	naslov	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	47	obj	_	_	_
+
+49	Das	das	X	Xf	Foreign=Yes	51	nmod	_	_	_
+
+50	neugebor’ne	neugeboran	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	51	amod	_	_	_
+
+51	Kindelein	Kindelein	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	48	nmod	_	_	_
+
+52	(	(	PUNCT	Z	_	54	punct	_	_	_
+
+53	Novorojeni	novorojen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	54	amod	_	_	_
+
+54	otročiček	otročiček	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	51	appos	_	_	_
+
+55	)	)	PUNCT	Z	_	54	punct	_	_	_
+
+56	in	in	CCONJ	Cc	_	58	cc	_	_	_
+
+57	O	o	ADP	Sl	Case=Loc	58	case	_	_	_
+
+58	Jesulein	Jesulein	PROPN	Npmsl	Case=Nom|Gender=Masc|Number=Sing	51	conj	_	_	_
+
+59	süss	süss	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	58	flat:name	_	_	_
+
+60	(	(	PUNCT	Z	_	63	punct	_	_	_
+
+61	O	o	ADP	Sl	Case=Loc	63	case	_	_	_
+
+62	sladki	sladek	ADJ	Agpmsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	63	amod	_	_	_
+
+63	Jezušček	Jezušček	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	58	appos	_	_	_
+
+64	)	)	PUNCT	Z	_	63	punct	_	_	_
+
+65	.	.	PUNCT	Z	_	54	punct	_	_	_
+
+66	V	v	ADP	Sl	Case=Loc	68	case	_	_	_
+
+67	polnem	poln	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	68	amod	_	_	_
+
+68	registru	register	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	71	obl	_	_	_
+
+69	pa	pa	CCONJ	Cc	_	71	advmod	_	_	_
+
+70	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	71	aux	_	_	_
+
+71	zazvenel	zazveniti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	3	parataxis	_	_	_
+
+72	tudi	tudi	PART	Q	_	71	advmod	_	_	_
+
+73	zbor	zbor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	71	nsubj	_	_	_
+
+74	And	And	X	Xf	Foreign=Yes	73	nmod	_	_	_
+
+75	the	the	X	Xf	Foreign=Yes	74	nmod	_	_	_
+
+76	Glory	Glory	X	Xf	Foreign=Yes	74	flat:foreign	_	_	_
+
+77	of	of	X	Xf	Foreign=Yes	74	flat:foreign	_	_	_
+
+78	the	the	X	Xf	Foreign=Yes	76	nmod	_	_	_
+
+79	Lord	Lord	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	74	nmod	_	_	_
+
+80	iz	iz	ADP	Sg	Case=Gen	83	case	_	_	_
+
+81	svetovno	svetoven	ADV	Rgp	Degree=Pos	82	advmod	_	_	_
+
+82	znanega	znan	ADJ	Appmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	83	amod	_	_	_
+
+83	oratorija	oratorij	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	73	nmod	_	_	_
+
+84	Mesija	Mesija	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	83	nmod	_	_	_
+
+85	Georga	Georgo	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	84	flat:name	_	_	_
+
+86	Friedricha	Friedrich	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	84	flat:name	_	_	_
+
+87	Händla	Händla	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	84	flat:name	_	_	_
+
+88	(	(	PUNCT	Z	_	89	punct	_	_	_
+
+89	1685	1685	NUM	Mdc	NumForm=Digit|NumType=Card	86	nummod	_	_	_
+
+90	–	–	PUNCT	Z	_	91	punct	_	_	_
+
+91	1759	1759	NUM	Mdc	NumForm=Digit|NumType=Card	89	conj	_	_	_
+
+92	)	)	PUNCT	Z	_	89	punct	_	_	_
+
+93	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039186.txt
+# text = Pogovor o predstavi Kar hočete bo vodila dr. Vesna Vuk Godina
+1	Pogovor	pogovor	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_	_
+
+2	o	o	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	predstavi	predstava	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	Kar	kar	PRON	Pr-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	5	obj	_	_	_
+
+5	hočete	hoteti	VERB	Vmpr2p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	5	aux	_	_	_
+
+7	vodila	voditi	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	5	parataxis	_	_	_
+
+8	dr.	dr.	X	Y	Abbr=Yes	9	nmod	_	_	_
+
+9	Vesna	Vesna	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+
+10	Vuk	vuk	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_	_
+
+11	Godina	Godina	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039186.txt
+# text = Stara dvorana SNG Maribor
+1	Stara	star	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	dvorana	dvorana	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+3	SNG	SNG	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+4	Maribor	Maribor	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+

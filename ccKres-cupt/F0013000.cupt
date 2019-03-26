@@ -1,0 +1,63 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0013000.txt
+# text = 40 g maščobe za peko
+1	40	40	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+2	g	g	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	maščobe	maščoba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	za	za	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	peko	peka	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0013000.txt
+# text = Čas priprave: približno 45 minut
+1	Čas	čas	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	priprave	priprava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+4	približno	približno	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+5	45	45	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+6	minut	minuta	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	1	nsubj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0013000.txt
+# text = 5 Kako se soočate s samovšečnimi ljudmi?
+1	5	5	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Kako	kako	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+4	soočate	soočati	VERB	Vmpr2p	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	s	z	ADP	Si	Case=Ins	7	case	_	_	_
+
+6	samovšečnimi	samovšečen	ADJ	Agpmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_	_
+
+7	ljudmi	človek	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	4	obl	_	_	_
+
+8	?	?	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0013000.txt
+# text = ( stran 4 je nemška stran 6)
+1	(	(	PUNCT	Z	_	6	punct	_	_	_
+
+2	stran	stran	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_	_
+
+3	4	4	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_	_
+
+5	nemška	nemški	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	stran	stran	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+7	6	6	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+8	)	)	PUNCT	Z	_	6	punct	_	_	_
+

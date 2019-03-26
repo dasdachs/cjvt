@@ -1,0 +1,311 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0023620.txt
+# text = Nokiin slikovni telefon nokia 6680 je novost v paleti pametnih telefonov, ki podpirajo tehnologijo 3G.
+1	Nokiin	Nokiin	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_	_
+
+2	slikovni	slikoven	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	telefon	telefon	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	nokia	nokia	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+5	6680	6680	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	_	_
+
+7	novost	novost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	paleti	palet	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+10	pametnih	pameten	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_	_
+
+11	telefonov	telefon	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_	_
+
+12	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+13	ki	ki	SCONJ	Cs	_	14	mark	_	_	_
+
+14	podpirajo	podpirati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	_	_
+
+15	tehnologijo	tehnologija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_	_
+
+16	3G	3G	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+17	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023620.txt
+# text = Mobilnik omogoča širok nabor funkcij in storitev, kot so pretakanje videa, spletni brskalnik in podobno, hkrati pa uporabniku ponuja dodatne funkcije, ki jih omogoča tehnologija 3G: dvosmerni videoklic, delitev videovsebin in neprestani dostop do elektronske pošte.
+1	Mobilnik	Mobilnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_	_
+
+2	omogoča	omogočati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	širok	širok	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	nabor	nabor	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_	_
+
+5	funkcij	funkcija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	storitev	storitev	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	5	conj	_	_	_
+
+8	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+9	kot	kot	SCONJ	Cs	_	11	mark	_	_	_
+
+10	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	cop	_	_	_
+
+11	pretakanje	pretakanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	4	acl	_	_	_
+
+12	videa	video	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+13	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+14	spletni	spleten	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_	_
+
+15	brskalnik	brskalnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_	_
+
+16	in	in	CCONJ	Cc	_	17	cc	_	_	_
+
+17	podobno	podoben	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	conj	_	_	_
+
+18	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+19	hkrati	hkrati	ADV	Rgp	Degree=Pos	22	advmod	_	_	_
+
+20	pa	pa	CCONJ	Cc	_	22	advmod	_	_	_
+
+21	uporabniku	uporabnik	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	22	iobj	_	_	_
+
+22	ponuja	ponujati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_	_
+
+23	dodatne	dodaten	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	24	amod	_	_	_
+
+24	funkcije	funkcija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	22	obj	_	_	_
+
+25	,	,	PUNCT	Z	_	28	punct	_	_	_
+
+26	ki	ki	SCONJ	Cs	_	28	mark	_	_	_
+
+27	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	28	obj	_	_	_
+
+28	omogoča	omogočati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl	_	_	_
+
+29	tehnologija	tehnologija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_	_
+
+30	3G	3G	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	29	nmod	_	_	_
+
+31	:	:	PUNCT	Z	_	33	punct	_	_	_
+
+32	dvosmerni	dvosmeren	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_	_
+
+33	videoklic	videoklica	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	29	conj	_	_	_
+
+34	,	,	PUNCT	Z	_	35	punct	_	_	_
+
+35	delitev	delitev	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	33	conj	_	_	_
+
+36	videovsebin	videovsebina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	35	nmod	_	_	_
+
+37	in	in	CCONJ	Cc	_	39	cc	_	_	_
+
+38	neprestani	neprestan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	_	_
+
+39	dostop	dostop	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	33	conj	_	_	_
+
+40	do	do	ADP	Sg	Case=Gen	42	case	_	_	_
+
+41	elektronske	elektronski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	_	_
+
+42	pošte	pošta	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	_	_
+
+43	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023620.txt
+# text = Delitev videovsebin je nova večpredstavna storitev, ki omogoča uporabnikom, da si s sogovorniki na drugi strani med običajnim klicem delijo posnetke v živo ali videoizrezke.
+1	Delitev	delitev	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_	_
+
+2	videovsebin	videovsebina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_	_
+
+4	nova	nov	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+5	večpredstavna	večpredstaven	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	storitev	storitev	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+7	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+8	ki	ki	SCONJ	Cs	_	9	mark	_	_	_
+
+9	omogoča	omogočati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	_	_
+
+10	uporabnikom	uporabnik	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	9	iobj	_	_	_
+
+11	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+12	da	da	SCONJ	Cs	_	22	mark	_	_	_
+
+13	si	se	PRON	Px---d--y	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	22	expl	_	_	_
+
+14	s	z	ADP	Si	Case=Ins	15	case	_	_	_
+
+15	sogovorniki	sogovornik	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	22	obl	_	_	_
+
+16	na	na	ADP	Sl	Case=Loc	18	case	_	_	_
+
+17	drugi	drug	ADJ	Mlpfsl	Case=Loc|Gender=Fem|Number=Sing	18	amod	_	_	_
+
+18	strani	stran	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	22	obl	_	_	_
+
+19	med	med	ADP	Si	Case=Ins	21	case	_	_	_
+
+20	običajnim	običajen	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_	_
+
+21	klicem	klic	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	22	obl	_	_	_
+
+22	delijo	deliti	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_	_
+
+23	posnetke	posnetek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	22	obj	_	_	_
+
+24	v	v	ADP	Sa	Case=Acc	25	case	_	_	_
+
+25	živo	živo	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	23	nmod	_	_	_
+
+26	ali	ali	CCONJ	Cc	_	27	cc	_	_	_
+
+27	videoizrezke	videoizrezka	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	25	conj	_	_	_
+
+28	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023620.txt
+# text = Različica telefona nokia 6680 nokia 6681 podpira tehnologijo EDGE.
+1	Različica	različica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+
+2	telefona	telefon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	nokia	nokia	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	6680	6680	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+5	nokia	nokia	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+6	6681	6681	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+7	podpira	podpirati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+8	tehnologijo	tehnologija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_	_
+
+9	EDGE	EDGE	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+10	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023620.txt
+# text = Poleg številnih funkcij, kot so elektronska pošta, organizator in sinhronizacija z osebnim računalnikom, ponuja nokia 6681 še učinkovito brskanje po svetovnem spletu in pretakanje videa prek tehnologije EDGE s hitrostjo do 236,8 kilobita na sekundo.
+1	Poleg	poleg	ADP	Sg	Case=Gen	3	case	_	_	_
+
+2	številnih	številen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_	_
+
+3	funkcij	funkcija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	17	obl	_	_	_
+
+4	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+5	kot	kot	SCONJ	Cs	_	8	mark	_	_	_
+
+6	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_	_
+
+7	elektronska	elektronski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	pošta	pošta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	acl	_	_	_
+
+9	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+10	organizator	organizator	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_	_
+
+11	in	in	CCONJ	Cc	_	12	cc	_	_	_
+
+12	sinhronizacija	sinhronizacija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	conj	_	_	_
+
+13	z	z	ADP	Si	Case=Ins	15	case	_	_	_
+
+14	osebnim	oseben	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_	_
+
+15	računalnikom	računalnik	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+16	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+17	ponuja	ponujati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+18	nokia	nokia	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_	_
+
+19	6681	6681	NUM	Mdc	NumForm=Digit|NumType=Card	18	nummod	_	_	_
+
+20	še	še	PART	Q	_	17	advmod	_	_	_
+
+21	učinkovito	učinkovit	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_	_
+
+22	brskanje	brskanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_	_
+
+23	po	po	ADP	Sl	Case=Loc	25	case	_	_	_
+
+24	svetovnem	svetoven	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_	_
+
+25	spletu	splet	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	22	nmod	_	_	_
+
+26	in	in	CCONJ	Cc	_	27	cc	_	_	_
+
+27	pretakanje	pretakanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	25	conj	_	_	_
+
+28	videa	video	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_	_
+
+29	prek	prek	ADP	Sg	Case=Gen	30	case	_	_	_
+
+30	tehnologije	tehnologija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_	_
+
+31	EDGE	EDGE	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	30	nmod	_	_	_
+
+32	s	z	ADP	Si	Case=Ins	33	case	_	_	_
+
+33	hitrostjo	hitrost	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	30	nmod	_	_	_
+
+34	do	do	ADP	Sg	Case=Gen	36	case	_	_	_
+
+35	236,8	236,8	NUM	Mdc	NumForm=Digit|NumType=Card	36	nummod	_	_	_
+
+36	kilobita	kilobit	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_	_
+
+37	na	na	ADP	Sa	Case=Acc	38	case	_	_	_
+
+38	sekundo	sekunda	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	36	nmod	_	_	_
+
+39	.	.	PUNCT	Z	_	17	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023620.txt
+# text = Foto: Nokia
+1	Foto	foto	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Nokia	Nokia	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023620.txt
+# text = D 4:2,-
+1	D	D	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	4:2	4:2	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+3	,	,	PUNCT	Z	_	2	punct	_	_	_
+
+4	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023620.txt
+# text = 19.30 Potovalni hrošč
+1	19.30	19.30	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+2	Potovalni	potovalen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	hrošč	hrošč	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+

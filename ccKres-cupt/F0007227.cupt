@@ -1,0 +1,107 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0007227.txt
+# text = festival
+1	festival	festival	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007227.txt
+# text = IZJ BOJAN GROM, v Magu, o tem, kdo je po novem najmočnejši v Sloveniji.
+1	IZJ	IZJ	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	BOJAN	Bojan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	GROM	GROM	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_	_
+
+4	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	Magu	Magu	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	2	appos	_	_	_
+
+7	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+8	o	o	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	tem	ta	DET	Pd-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	1	nmod	_	_	_
+
+10	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+11	kdo	kdo	PRON	Pq-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	12	nsubj	_	_	_
+
+12	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	acl	_	_	_
+
+13	po	po	ADP	Sl	Case=Loc	15	case	_	_	_
+
+14	novem	nov	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_	_
+
+15	najmočnejši	močen	ADJ	Agsmsn	Case=Loc|Degree=Sup|Gender=Masc|Number=Sing	12	obl	_	_	_
+
+16	v	v	ADP	Sl	Case=Loc	17	case	_	_	_
+
+17	Sloveniji	Slovenija	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_	_
+
+18	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007227.txt
+# text = VPR Kako ste pa vi pripravljeni na posebneže?
+1	VPR	VPR	PUNCT	Z	_	6	punct	_	_	_
+
+2	Kako	kako	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+3	ste	biti	AUX	Va-r2p-n	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_	_
+
+4	pa	pa	CCONJ	Cc	_	6	advmod	_	_	_
+
+5	vi	ti	PRON	Pp2mpn	Case=Nom|Gender=Masc|Number=Plur|Person=2|PronType=Prs	6	nsubj	_	_	_
+
+6	pripravljeni	pripravljen	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+7	na	na	ADP	Sa	Case=Acc	8	case	_	_	_
+
+8	posebneže	posebnež	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	6	obl	_	_	_
+
+9	?	?	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007227.txt
+# text = Kot klubski trener rešujete probleme vsak dan sproti, toda v reprezentanci se s posebnežem srečate le petkrat na leto.
+1	Kot	kot	SCONJ	Cs	_	3	case	_	_	_
+
+2	klubski	klubski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	trener	trener	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+4	rešujete	reševati	VERB	Vmpr2p	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	probleme	problem	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_	_
+
+6	vsak	vsak	DET	Pg-msa	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	7	det	_	_	_
+
+7	dan	dan	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+8	sproti	sproti	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+9	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+10	toda	toda	CCONJ	Cc	_	16	cc	_	_	_
+
+11	v	v	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	reprezentanci	reprezentanca	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_	_
+
+13	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	16	expl	_	_	_
+
+14	s	z	ADP	Si	Case=Ins	15	case	_	_	_
+
+15	posebnežem	posebnež	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	16	obl	_	_	_
+
+16	srečate	srečati	VERB	Vmer2p	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	conj	_	_	_
+
+17	le	le	PART	Q	_	16	advmod	_	_	_
+
+18	petkrat	petkrat	ADV	Rgp	Degree=Pos	20	advmod	_	_	_
+
+19	na	na	ADP	Sa	Case=Acc	20	case	_	_	_
+
+20	leto	leto	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	16	obl	_	_	_
+
+21	.	.	PUNCT	Z	_	4	punct	_	_	_
+

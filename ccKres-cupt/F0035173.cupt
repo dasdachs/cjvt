@@ -1,0 +1,105 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0035173.txt
+# text = Esprit, Qlandia, Cesta 1. maja 77, Kranj
+1	Esprit	esprit	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	Qlandia	Qlandia	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+4	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+5	Cesta	Cesta	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_	_
+
+6	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	7	nummod	_	_	_
+
+7	maja	maj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+8	77	77	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+9	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+10	Kranj	Kranj	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035173.txt
+# text = YAMAMAY
+1	YAMAMAY	Yamamay	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035173.txt
+# text = *
+1	*	*	PUNCT	Z	_		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035173.txt
+# text = V poslovalnici* IN Sportina vas od 15. do 25. aprila 2010 čaka do- 30% popust na označene izdelke, v vseh ostalih navedenih poslovalnicah pa je popust na označene izdelke do- 40%.
+1	V	v	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	poslovalnici	poslovalnica	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_	_
+
+3	*	*	PUNCT	Z	_	5	punct	_	_	_
+
+4	IN	in	CCONJ	Cc	_	5	cc	_	_	_
+
+5	Sportina	sportina	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_	_
+
+6	vas	ti	PRON	Pp2-pa	Case=Acc|Number=Plur|Person=2|PronType=Prs	13	obj	_	_	_
+
+7	od	od	ADP	Sg	Case=Gen	8	case	_	_	_
+
+8	15.	15.	NUM	Mdo	NumForm=Digit|NumType=Ord	11	nummod	_	_	_
+
+9	do	do	ADP	Sg	Case=Gen	10	case	_	_	_
+
+10	25.	25.	NUM	Mdo	NumForm=Digit|NumType=Ord	11	nummod	_	_	_
+
+11	aprila	april	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_	_
+
+12	2010	2010	NUM	Mdc	NumForm=Digit|NumType=Card	11	nummod	_	_	_
+
+13	čaka	čakati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+14	do	do	ADP	Sg	Case=Gen	17	case	_	_	_
+
+15	-	-	PUNCT	Z	_	16	punct	_	_	_
+
+16	30%	30%	NUM	Mdc	NumForm=Digit|NumType=Card	17	nummod	_	_	_
+
+17	popust	popust	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_	_
+
+18	na	na	ADP	Sa	Case=Acc	20	case	_	_	_
+
+19	označene	označen	ADJ	Appmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	20	amod	_	_	_
+
+20	izdelke	izdelek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	17	nmod	_	_	_
+
+21	,	,	PUNCT	Z	_	28	punct	_	_	_
+
+22	v	v	ADP	Sl	Case=Loc	26	case	_	_	_
+
+23	vseh	ves	DET	Pg-fpl	Case=Loc|Gender=Fem|Number=Plur|PronType=Tot	26	det	_	_	_
+
+24	ostalih	ostal	ADJ	Appfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	26	amod	_	_	_
+
+25	navedenih	naveden	ADJ	Appfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	26	amod	_	_	_
+
+26	poslovalnicah	poslovalnica	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	28	obl	_	_	_
+
+27	pa	pa	CCONJ	Cc	_	28	advmod	_	_	_
+
+28	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	parataxis	_	_	_
+
+29	popust	popust	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_	_
+
+30	na	na	ADP	Sa	Case=Acc	32	case	_	_	_
+
+31	označene	označen	ADJ	Appmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	32	amod	_	_	_
+
+32	izdelke	izdelek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	29	nmod	_	_	_
+
+33	do	do	ADP	Sg	Case=Gen	35	case	_	_	_
+
+34	-	-	PUNCT	Z	_	35	punct	_	_	_
+
+35	40%	40%	NUM	Mdc	NumForm=Digit|NumType=Card	32	nummod	_	_	_
+
+36	.	.	PUNCT	Z	_	13	punct	_	_	_
+

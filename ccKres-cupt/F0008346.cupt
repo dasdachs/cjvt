@@ -1,0 +1,787 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = VOLITVE V DRŽAVNI SVET
+1	VOLITVE	volitev	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur		root	_	_	_
+
+2	V	v	ADP	Sa	Case=Acc	4	case	_	_	_
+
+3	DRŽAVNI	državen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	SVET	svet	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = I. SPLOŠNE DOLOČBE
+1	I.	I.	X	Y	Abbr=Yes	3	amod	_	_	_
+
+2	SPLOŠNE	splošen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	DOLOČBE	določba	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = 4. člen
+1	4.	4.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = Nadomestne volitve razpiše najkasneje petnajst dni po prenehanju mandata člana državnega sveta.
+1	Nadomestne	nadomesten	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_	_
+
+2	volitve	volitev	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_	_
+
+3	razpiše	razpis	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	najkasneje	kasno	ADV	Rgs	Degree=Sup	5	advmod	_	_	_
+
+5	petnajst	petnajst	NUM	Mlc-pa	Case=Acc|NumForm=Word|NumType=Card|Number=Plur	6	nummod	_	_	_
+
+6	dni	dan	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_	_
+
+7	po	po	ADP	Sl	Case=Loc	8	case	_	_	_
+
+8	prenehanju	prenehanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_	_
+
+9	mandata	mandat	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+10	člana	član	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+11	državnega	državen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_	_
+
+12	sveta	svet	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+13	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = Od dneva razpisa volitev do dneva glasovanja ne sme preteči več kot šestdeset dni in ne manj kot štirideset dni.
+1	Od	od	ADP	Sg	Case=Gen	2	case	_	_	_
+
+2	dneva	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_	_
+
+3	razpisa	razpis	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	volitev	volitev	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_	_
+
+5	do	do	ADP	Sg	Case=Gen	6	case	_	_	_
+
+6	dneva	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_	_
+
+7	glasovanja	glasovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_	_
+
+8	ne	ne	PART	Q	Polarity=Neg	9	advmod	_	_	_
+
+9	sme	smeti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	preteči	preteči	VERB	Vmen	Aspect=Perf|VerbForm=Inf	9	xcomp	_	_	_
+
+11	več	več	DET	Rgc	PronType=Ind	14	advmod	_	_	_
+
+12	kot	kot	SCONJ	Cs	_	11	fixed	_	_	_
+
+13	šestdeset	šestdeset	NUM	Mlc-pa	Case=Acc|NumForm=Word|NumType=Card|Number=Plur	14	nummod	_	_	_
+
+14	dni	dan	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_	_
+
+15	in	in	CCONJ	Cc	_	20	cc	_	_	_
+
+16	ne	ne	PART	Q	Polarity=Neg	17	advmod	_	_	_
+
+17	manj	manj	DET	Rgc	PronType=Ind	20	advmod	_	_	_
+
+18	kot	kot	SCONJ	Cs	_	17	fixed	_	_	_
+
+19	štirideset	štirideset	NUM	Mlc-pa	Case=Acc|NumForm=Word|NumType=Card|Number=Plur	20	nummod	_	_	_
+
+20	dni	dan	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	14	conj	_	_	_
+
+21	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = Volitve v državni svet vodijo in izvajajo volilni organi, imenovani po zakonu o volitvah v državni zbor, kolikor ni s tem zakonom drugače določeno.
+1	Volitve	volitev	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_	_
+
+2	v	v	ADP	Sa	Case=Acc	4	case	_	_	_
+
+3	državni	državen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	svet	svet	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_	_
+
+5	vodijo	voditi	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	izvajajo	izvajati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_	_
+
+8	volilni	volilen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_	_
+
+9	organi	organ	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_	_
+
+10	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+11	imenovani	imenovan	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	9	amod	_	_	_
+
+12	po	po	ADP	Sl	Case=Loc	13	case	_	_	_
+
+13	zakonu	zakon	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_	_
+
+14	o	o	ADP	Sl	Case=Loc	15	case	_	_	_
+
+15	volitvah	volitev	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	13	nmod	_	_	_
+
+16	v	v	ADP	Sa	Case=Acc	18	case	_	_	_
+
+17	državni	državen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_	_
+
+18	zbor	zbor	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+19	,	,	PUNCT	Z	_	26	punct	_	_	_
+
+20	kolikor	kolikor	SCONJ	Cs	_	26	mark	_	_	_
+
+21	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	26	cop	_	_	_
+
+22	s	z	ADP	Si	Case=Ins	24	case	_	_	_
+
+23	tem	ta	DET	Pd-msi	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	24	det	_	_	_
+
+24	zakonom	zakon	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	26	obl	_	_	_
+
+25	drugače	drugače	ADV	Rgp	Degree=Pos	26	advmod	_	_	_
+
+26	določeno	določen	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	18	acl	_	_	_
+
+27	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = 11. člen
+1	11.	11.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = Pristojna volilna komisija sestavi na podlagi potrjenih kandidatur seznam kandidatov po abecednem redu priimkov kandidatov, začenši s črko, ki se določi z žrebom.
+1	Pristojna	Pristojna	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+2	volilna	volilen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	komisija	komisija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+4	sestavi	sestaviti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	na	na	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	podlagi	podlaga	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+7	potrjenih	potrjen	ADJ	Appfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	8	amod	_	_	_
+
+8	kandidatur	kandidatura	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_	_
+
+9	seznam	seznam	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_	_
+
+10	kandidatov	kandidat	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_	_
+
+11	po	po	ADP	Sl	Case=Loc	13	case	_	_	_
+
+12	abecednem	abeceden	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_	_
+
+13	redu	red	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+14	priimkov	priimek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_	_
+
+15	kandidatov	kandidat	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_	_
+
+16	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+17	začenši	začen	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_	_
+
+18	s	z	ADP	Si	Case=Ins	19	case	_	_	_
+
+19	črko	črka	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	17	obl	_	_	_
+
+20	,	,	PUNCT	Z	_	23	punct	_	_	_
+
+21	ki	ki	SCONJ	Cs	_	23	mark	_	_	_
+
+22	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	23	expl	_	_	_
+
+23	določi	določiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl	_	_	_
+
+24	z	z	ADP	Si	Case=Ins	25	case	_	_	_
+
+25	žrebom	žreb	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	23	obl	_	_	_
+
+26	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = 17. člen
+1	17.	17.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = Če volilni zbor ni sklepčen, se nov volilni zbor skliče v nadaljnih sedmih dneh.
+1	Če	če	SCONJ	Cs	_	5	mark	_	_	_
+
+2	volilni	volilen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	zbor	zbor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+4	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+5	sklepčen	sklepčen	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	11	advcl	_	_	_
+
+6	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+7	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	11	expl	_	_	_
+
+8	nov	nov	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+9	volilni	volilen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	zbor	zbor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_	_
+
+11	skliče	sklica	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+12	v	v	ADP	Sl	Case=Loc	15	case	_	_	_
+
+13	nadaljnih	nadaljni	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_	_
+
+14	sedmih	sedem	NUM	Mlc-pl	Case=Loc|NumForm=Word|NumType=Card|Number=Plur	15	nummod	_	_	_
+
+15	dneh	dan	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	11	obl	_	_	_
+
+16	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = Na novem volilnem zboru se volitve opravijo ne glede na število navzočih članov volilnega telesa.
+1	Na	na	ADP	Sl	Case=Loc	4	case	_	_	_
+
+2	novem	nov	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+3	volilnem	volilen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	zboru	zbor	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_	_
+
+5	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	7	expl	_	_	_
+
+6	volitve	volitev	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_	_
+
+7	opravijo	opraviti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+8	ne	ne	PART	Q	_	11	advmod	_	_	_
+
+9	glede	glede	ADV	Rgp	Degree=Pos	8	fixed	_	_	_
+
+10	na	na	ADP	Sa	Case=Acc	11	case	_	_	_
+
+11	število	število	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_	_
+
+12	navzočih	navzoč	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_	_
+
+13	članov	član	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_	_
+
+14	volilnega	volilen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_	_
+
+15	telesa	telo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_	_
+
+16	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = Volilni zbor volilnega telesa, ki ga sestavljajo člani predstavniškega organa interesne organizacije oziroma lokalne skupnosti, skliče predsednik predstavniškega organa najkasneje deset dni pred dnem glasovanja.
+1	Volilni	volilen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	zbor	zbor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_	_
+
+3	volilnega	volilen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_	_
+
+4	telesa	telo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+5	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+6	ki	ki	SCONJ	Cs	_	8	mark	_	_	_
+
+7	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	8	obj	_	_	_
+
+8	sestavljajo	sestavljati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_	_
+
+9	člani	član	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_	_
+
+10	predstavniškega	predstavniški	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	organa	organ	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+12	interesne	interesen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_	_
+
+13	organizacije	organizacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+14	oziroma	oziroma	CCONJ	Cc	_	16	cc	_	_	_
+
+15	lokalne	lokalen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_	_
+
+16	skupnosti	skupnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	13	conj	_	_	_
+
+17	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+18	skliče	sklica	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+19	predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_	_
+
+20	predstavniškega	predstavniški	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_	_
+
+21	organa	organ	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_	_
+
+22	najkasneje	kasno	ADV	Rgs	Degree=Sup	23	advmod	_	_	_
+
+23	deset	deset	NUM	Mlc-pa	Case=Acc|NumForm=Word|NumType=Card|Number=Plur	24	nummod	_	_	_
+
+24	dni	dan	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	18	obl	_	_	_
+
+25	pred	pred	ADP	Si	Case=Ins	26	case	_	_	_
+
+26	dnem	dan	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	18	obl	_	_	_
+
+27	glasovanja	glasovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_	_
+
+28	.	.	PUNCT	Z	_	18	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = Vabilu priloži seznam kandidatov.
+1	Vabilu	vabilo	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	2	iobj	_	_	_
+
+2	priloži	priložiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	seznam	seznam	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_	_
+
+4	kandidatov	kandidat	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_	_
+
+5	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = Vabilu oziroma obvestilu priloži seznam izvoljenih predstavnikov v volilnem telesu in seznam kandidatov.
+1	Vabilu	vabilo	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	4	iobj	_	_	_
+
+2	oziroma	oziroma	CCONJ	Cc	_	3	cc	_	_	_
+
+3	obvestilu	obvestilo	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	1	conj	_	_	_
+
+4	priloži	priložiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	seznam	seznam	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_	_
+
+6	izvoljenih	izvoljen	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	7	amod	_	_	_
+
+7	predstavnikov	predstavnik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	10	case	_	_	_
+
+9	volilnem	volilen	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_	_
+
+10	telesu	telo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_	_
+
+11	in	in	CCONJ	Cc	_	12	cc	_	_	_
+
+12	seznam	seznam	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_	_
+
+13	kandidatov	kandidat	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_	_
+
+14	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = Vsak član volilnega telesa lahko glasuje največ za toliko kandidatov, kolikor članov državnega sveta se voli v volilnem telesu.
+1	Vsak	vsak	DET	Pg-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	2	det	_	_	_
+
+2	član	član	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	_
+
+3	volilnega	volilen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_	_
+
+4	telesa	telo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+5	lahko	lahko	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+6	glasuje	glasovati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	največ	največ	DET	Rgs	PronType=Ind	10	det	_	_	_
+
+8	za	za	ADP	Sa	Case=Acc	10	case	_	_	_
+
+9	toliko	toliko	DET	Rgp	PronType=Dem	10	det	_	_	_
+
+10	kandidatov	kandidat	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_	_
+
+11	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+12	kolikor	kolikor	SCONJ	Cs	_	17	mark	_	_	_
+
+13	članov	član	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	17	nsubj	_	_	_
+
+14	državnega	državen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_	_
+
+15	sveta	svet	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+16	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	17	expl	_	_	_
+
+17	voli	voliti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	_	_
+
+18	v	v	ADP	Sl	Case=Loc	20	case	_	_	_
+
+19	volilnem	volilen	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_	_
+
+20	telesu	telo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_	_
+
+21	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = 33. člen
+1	33.	33.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = Šest članov državnega sveta- predstavnikov negospodarskih dejavnosti volijo:
+1	Šest	šest	NUM	Mlc-pn	Case=Nom|NumForm=Word|NumType=Card|Number=Plur	2	nummod	_	_	_
+
+2	članov	član	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	9	obj	_	_	_
+
+3	državnega	državen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	sveta	svet	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	-	-	PUNCT	Z	_	9	punct	_	_	_
+
+6	predstavnikov	predstavnik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	9	obj	_	_	_
+
+7	negospodarskih	negospodarski	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_	_
+
+8	dejavnosti	dejavnost	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_	_
+
+9	volijo	voliti	VERB	Vmbr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	:	:	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = - enega predstavnika univerz, visokih in višjih šol volijo univerze, visoke in višje šole,
+1	-	-	PUNCT	Z	_	10	punct	_	_	_
+
+2	enega	en	NUM	Mlpmsa	Case=Acc|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing	3	nummod	_	_	_
+
+3	predstavnika	predstavnik	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_	_
+
+4	univerz	univerza	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_	_
+
+5	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+6	visokih	visok	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	višjih	visok	ADJ	Agcfpg	Case=Gen|Degree=Cmp|Gender=Fem|Number=Plur	6	conj	_	_	_
+
+9	šol	šola	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	conj	_	_	_
+
+10	volijo	voliti	VERB	Vmbr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+11	univerze	univerza	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_	_
+
+12	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+13	visoke	visok	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_	_
+
+14	in	in	CCONJ	Cc	_	15	cc	_	_	_
+
+15	višje	visok	ADJ	Agcfpa	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	16	amod	_	_	_
+
+16	šole	šola	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	11	conj	_	_	_
+
+17	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = - enega predstavnika za področje socialnega varstva volijo poklicne organizacije strokovnih delavcev na področju socialnega varstva.
+1	-	-	PUNCT	Z	_	8	punct	_	_	_
+
+2	enega	en	NUM	Mlpmsa	Case=Acc|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing	3	nummod	_	_	_
+
+3	predstavnika	predstavnik	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_	_
+
+4	za	za	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	področje	področje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	_	_
+
+6	socialnega	socialen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_	_
+
+7	varstva	varstvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_	_
+
+8	volijo	voliti	VERB	Vmbr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	poklicne	poklicen	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_	_
+
+10	organizacije	organizacija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_	_
+
+11	strokovnih	strokoven	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_	_
+
+12	delavcev	delavec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_	_
+
+13	na	na	ADP	Sl	Case=Loc	14	case	_	_	_
+
+14	področju	področje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	_	_
+
+15	socialnega	socialen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_	_
+
+16	varstva	varstvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_	_
+
+17	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = Za poklicne organizacije v smislu druge do šeste alinee prejšnjega odstavka se štejejo poklicne zbornice, združenja, društva, zveze in druge poklicne organizacije, organizirane za območje države.
+1	Za	za	ADP	Sa	Case=Acc	3	case	_	_	_
+
+2	poklicne	poklicen	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_	_
+
+3	organizacije	organizacija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	13	obl	_	_	_
+
+4	v	v	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	smislu	smisel	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+6	druge	drug	ADJ	Mlpfsg	Case=Gen|Gender=Fem|Number=Sing	9	amod	_	_	_
+
+7	do	do	ADP	Sg	Case=Gen	9	case	_	_	_
+
+8	šeste	šesti	ADJ	Mlofsg	Case=Gen|Gender=Fem|NumType=Ord|Number=Sing	9	amod	_	_	_
+
+9	alinee	alinee	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+10	prejšnjega	prejšnji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+12	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	13	expl	_	_	_
+
+13	štejejo	šteti	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+14	poklicne	poklicen	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_	_
+
+15	zbornice	zbornica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_	_
+
+16	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+17	združenja	združenje	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	15	conj	_	_	_
+
+18	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+19	društva	društvo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	15	conj	_	_	_
+
+20	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+21	zveze	zveza	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	15	conj	_	_	_
+
+22	in	in	CCONJ	Cc	_	25	cc	_	_	_
+
+23	druge	drug	ADJ	Mlpfpn	Case=Nom|Gender=Fem|Number=Plur	25	amod	_	_	_
+
+24	poklicne	poklicen	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	_	_
+
+25	organizacije	organizacija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	15	conj	_	_	_
+
+26	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+27	organizirane	organiziran	ADJ	Appfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	25	amod	_	_	_
+
+28	za	za	ADP	Sa	Case=Acc	29	case	_	_	_
+
+29	območje	območje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	27	obl	_	_	_
+
+30	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_	_
+
+31	.	.	PUNCT	Z	_	13	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = Drugi del
+1	Drugi	drug	ADJ	Mlpmsny	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	del	del	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = Državni svet ima predsednika in podpredsednika, ki ju izvoli z večino glasov vseh članov.
+1	Državni	državen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	svet	svet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+3	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	predsednika	predsednik	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_	_
+
+5	in	in	CCONJ	Cc	_	6	cc	_	_	_
+
+6	podpredsednika	podpredsednik	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	conj	_	_	_
+
+7	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+8	ki	ki	SCONJ	Cs	_	10	mark	_	_	_
+
+9	ju	on	PRON	Pp3mda--y	Case=Acc|Gender=Masc|Number=Dual|Person=3|PronType=Prs|Variant=Short	10	obj	_	_	_
+
+10	izvoli	izvoleti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	_	_
+
+11	z	z	ADP	Si	Case=Ins	12	case	_	_	_
+
+12	večino	večina	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_	_
+
+13	glasov	glas	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_	_
+
+14	vseh	ves	DET	Pg-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	15	det	_	_	_
+
+15	članov	član	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_	_
+
+16	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = 49. člen
+1	49.	49.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = 57. člen
+1	57.	57.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = Članu državnega sveta ne preneha mandat v primeru iz tretje alinee prvega odstavka tega člena, če državni svet sklene, da lahko opravlja funkcijo.
+1	Članu	član	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	5	obj	_	_	_
+
+2	državnega	državen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	sveta	svet	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	ne	ne	PART	Q	Polarity=Neg	5	advmod	_	_	_
+
+5	preneha	prenehati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	mandat	mandat	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+7	v	v	ADP	Sl	Case=Loc	8	case	_	_	_
+
+8	primeru	primer	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_	_
+
+9	iz	iz	ADP	Sg	Case=Gen	11	case	_	_	_
+
+10	tretje	tretji	ADJ	Mlofsg	Case=Gen|Gender=Fem|NumType=Ord|Number=Sing	11	amod	_	_	_
+
+11	alinee	alinee	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+12	prvega	prvi	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	13	amod	_	_	_
+
+13	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+14	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_	_
+
+15	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+16	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+17	če	če	SCONJ	Cs	_	20	mark	_	_	_
+
+18	državni	državen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_	_
+
+19	svet	svet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_	_
+
+20	sklene	skleniti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_	_
+
+21	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+22	da	da	SCONJ	Cs	_	24	mark	_	_	_
+
+23	lahko	lahko	ADV	Rgp	Degree=Pos	24	advmod	_	_	_
+
+24	opravlja	opravljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_	_
+
+25	funkcijo	funkcija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_	_
+
+26	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = Člane državnega sveta- predstavnike lokalnih interesov volijo volivci v volilnih enotah na neposrednih volitvah s tajnim glasovanjem.
+1	Člane	član	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_	_
+
+2	državnega	državen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	sveta	svet	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	-	-	PUNCT	Z	_	1	punct	_	_	_
+
+5	predstavnike	predstavnik	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_	_
+
+6	lokalnih	lokalen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_	_
+
+7	interesov	interes	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_	_
+
+8	volijo	voliti	VERB	Vmbr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	volivci	volivec	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_	_
+
+10	v	v	ADP	Sl	Case=Loc	12	case	_	_	_
+
+11	volilnih	volilen	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	_	_
+
+12	enotah	enota	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	8	obl	_	_	_
+
+13	na	na	ADP	Sl	Case=Loc	15	case	_	_	_
+
+14	neposrednih	neposreden	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_	_
+
+15	volitvah	volitev	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	12	nmod	_	_	_
+
+16	s	z	ADP	Si	Case=Ins	18	case	_	_	_
+
+17	tajnim	tajen	ADJ	Agpnsi	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_	_
+
+18	glasovanjem	glasovanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	15	nmod	_	_	_
+
+19	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008346.txt
+# text = Prve volitve državnega sveta razpiše predsednik Skupščine Republike Slovenije, ki skliče tudi prvo sejo na teh volitvah izvoljenega državnega sveta.
+1	Prve	prvi	ADJ	Mlofpa	Case=Acc|Gender=Fem|NumType=Ord|Number=Plur	2	amod	_	_	_
+
+2	volitve	volitev	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_	_
+
+3	državnega	državen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	sveta	svet	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	razpiše	razpis	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+7	Skupščine	Skupščina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+8	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+9	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+10	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+11	ki	ki	SCONJ	Cs	_	12	mark	_	_	_
+
+12	skliče	sklica	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	_	_
+
+13	tudi	tudi	PART	Q	_	12	advmod	_	_	_
+
+14	prvo	prvi	ADJ	Mlofsa	Case=Acc|Gender=Fem|NumType=Ord|Number=Sing	15	amod	_	_	_
+
+15	sejo	seja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_	_
+
+16	na	na	ADP	Sl	Case=Loc	18	case	_	_	_
+
+17	teh	ta	DET	Pd-fpl	Case=Loc|Gender=Fem|Number=Plur|PronType=Dem	18	det	_	_	_
+
+18	volitvah	volitev	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	15	nmod	_	_	_
+
+19	izvoljenega	izvoljen	ADJ	Appmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	21	amod	_	_	_
+
+20	državnega	državen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_	_
+
+21	sveta	svet	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_	_
+
+22	.	.	PUNCT	Z	_	5	punct	_	_	_
+

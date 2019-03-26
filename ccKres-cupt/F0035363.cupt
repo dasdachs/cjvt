@@ -1,0 +1,525 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0035363.txt
+# text = 20- odstotni, če izberete od 6 do 10, in
+1	20	20	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+2	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+3	odstotni	odstoten	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur		root	_	_	_
+
+4	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+5	če	če	SCONJ	Cs	_	6	mark	_	_	_
+
+6	izberete	izbreti	VERB	Vmer2p	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	advcl	_	_	_
+
+7	od	od	ADP	Sg	Case=Gen	8	case	_	_	_
+
+8	6	6	NUM	Mdc	NumForm=Digit|NumType=Card	6	advmod	_	_	_
+
+9	do	do	ADP	Sg	Case=Gen	10	case	_	_	_
+
+10	10	10	NUM	Mdc	NumForm=Digit|NumType=Card	8	conj	_	_	_
+
+11	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+12	in	in	CCONJ	Cc	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035363.txt
+# text = LAST MINUTE CENTER Celje
+1	LAST	last	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+2	MINUTE	minuta	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing		root	_	_	_
+
+3	CENTER	center	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	Celje	Celje	PROPN	Npnsn	Case=Nom|Gender=Neut|Number=Sing	3	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035363.txt
+# text = Delpinova 7a, 5000 Nova Gorica
+1	Delpinova	delpinov	ADJ	Aspfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	2	amod	_	_	_
+
+2	7a	7a	PROPN	Npmsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+3	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+4	5000	5000	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+5	Nova	nov	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	Gorica	Gorica	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035363.txt
+# text = » Srečal sem živinorejca in povedal mi je, da smo se včasih bali Sovjetske zveze.
+1	»	»	PUNCT	Z	_	2	punct	_	_	_
+
+2	Srečal	srečati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+3	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	aux	_	_	_
+
+4	živinorejca	živinorejca	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_	_
+
+5	in	in	CCONJ	Cc	_	6	cc	_	_	_
+
+6	povedal	povedati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	2	conj	_	_	_
+
+7	mi	jaz	PRON	Pp1-sd--y	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	6	iobj	_	_	_
+
+8	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
+
+9	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+10	da	da	SCONJ	Cs	_	14	mark	_	_	_
+
+11	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	aux	_	_	_
+
+12	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	14	expl	_	_	_
+
+13	včasih	včasih	ADV	Rgp	Degree=Pos	14	advmod	_	_	_
+
+14	bali	bati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	6	ccomp	_	_	_
+
+15	Sovjetske	sovjetski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_	_
+
+16	zveze	zveza	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	obj	_	_	_
+
+17	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035363.txt
+# text = Mislili smo, da smo veliko boljši od nje, saj je bilo pri nas hrano mogoče kupiti v številnih trgovinah.
+1	Mislili	misliti	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+2	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+4	da	da	SCONJ	Cs	_	7	mark	_	_	_
+
+5	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	_	_
+
+6	veliko	veliko	DET	Rgp	PronType=Ind	7	advmod	_	_	_
+
+7	boljši	dober	ADJ	Agcmpn	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	1	ccomp	_	_	_
+
+8	od	od	ADP	Sg	Case=Gen	9	case	_	_	_
+
+9	nje	on	PRON	Pp3fsg	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nmod	_	_	_
+
+10	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+11	saj	saj	CCONJ	Cc	_	17	cc	_	_	_
+
+12	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	aux	_	_	_
+
+13	bilo	biti	AUX	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part	17	cop	_	_	_
+
+14	pri	pri	ADP	Sl	Case=Loc	15	case	_	_	_
+
+15	nas	jaz	PRON	Pp1-pl	Case=Loc|Number=Plur|Person=1|PronType=Prs	18	obl	_	_	_
+
+16	hrano	hrana	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_	_
+
+17	mogoče	mogoč	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	conj	_	_	_
+
+18	kupiti	kupiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	17	csubj	_	_	_
+
+19	v	v	ADP	Sl	Case=Loc	21	case	_	_	_
+
+20	številnih	številen	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	_	_
+
+21	trgovinah	trgovina	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	18	obl	_	_	_
+
+22	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035363.txt
+# text = Bilo je veliko izbire.
+1	Bilo	biti	VERB	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	veliko	veliko	DET	Rgp	PronType=Ind	4	det	_	_	_
+
+4	izbire	izbira	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nsubj	_	_	_
+
+5	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035363.txt
+# text = Menili smo, da bi nas prevzem tuje sile prisilil v nakup določene stvari od določenega podjetja, kar ni v skladu z ameriško miselnostjo.
+1	Menili	meniti	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+2	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+4	da	da	SCONJ	Cs	_	10	mark	_	_	_
+
+5	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	10	aux	_	_	_
+
+6	nas	jaz	PRON	Pp1-pa	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	obj	_	_	_
+
+7	prevzem	prevzem	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_	_
+
+8	tuje	tuj	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_	_
+
+9	sile	sila	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+10	prisilil	prisiliti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	1	ccomp	_	_	_
+
+11	v	v	ADP	Sa	Case=Acc	12	case	_	_	_
+
+12	nakup	nakup	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_	_
+
+13	določene	določen	ADJ	Appfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	14	amod	_	_	_
+
+14	stvari	stvar	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+15	od	od	ADP	Sg	Case=Gen	17	case	_	_	_
+
+16	določenega	določen	ADJ	Appnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	17	amod	_	_	_
+
+17	podjetja	podjetje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_	_
+
+18	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+19	kar	kar	PRON	Pr-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	20	nsubj	_	_	_
+
+20	ni	biti	VERB	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	1	parataxis	_	_	_
+
+21	v	v	ADP	Sl	Case=Loc	22	case	_	_	_
+
+22	skladu	sklad	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_	_
+
+23	z	z	ADP	Si	Case=Ins	25	case	_	_	_
+
+24	ameriško	ameriški	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_	_
+
+25	miselnostjo	miselnost	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	22	nmod	_	_	_
+
+26	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035363.txt
+# text = Če se sedaj ozremo, ugotovimo, da prehrambno industrijo obvladujeta podjetje ali dve.
+1	Če	če	SCONJ	Cs	_	4	mark	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+3	sedaj	sedaj	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+4	ozremo	ozrema	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	advcl	_	_	_
+
+5	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+6	ugotovimo	ugotoviti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+8	da	da	SCONJ	Cs	_	11	mark	_	_	_
+
+9	prehrambno	prehramben	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_	_
+
+10	industrijo	industrija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_	_
+
+11	obvladujeta	obvladovati	VERB	Vmpr3d	Aspect=Imp|Mood=Ind|Number=Dual|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_	_
+
+12	podjetje	podjetje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_	_
+
+13	ali	ali	CCONJ	Cc	_	14	cc	_	_	_
+
+14	dve	dva	NUM	Mlcfda	Case=Nom|Gender=Fem|NumForm=Word|NumType=Card|Number=Dual	12	conj	_	_	_
+
+15	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035363.txt
+# text = Postali smo tisto, česar smo se najbolj bali.
+1	Postali	postati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+2	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	tisto	tisti	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	obj	_	_	_
+
+4	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+5	česar	kar	PRON	Pr-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Rel	9	obj	_	_	_
+
+6	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	aux	_	_	_
+
+7	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	9	expl	_	_	_
+
+8	najbolj	najbolj	ADV	Rgs	Degree=Sup	9	advmod	_	_	_
+
+9	bali	bati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	3	acl	_	_	_
+
+10	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035363.txt
+# text = «( Robert Kenner)
+1	«	«	PUNCT	Z	_	3	punct	_	_	_
+
+2	(	(	PUNCT	Z	_	3	punct	_	_	_
+
+3	Robert	Robert	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+4	Kenner	Kenner	X	X	_	3	flat:foreign	_	_	_
+
+5	)	)	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035363.txt
+# text = Glasba: Nemanja Mosurović
+1	Glasba	glasba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Nemanja	nemanje	PROPN	Npfsn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_	_
+
+4	Mosurović	Mosurović	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035363.txt
+# text = Fotografija: Martin Ruhe
+1	Fotografija	fotografija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Martin	Martin	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_	_
+
+4	Ruhe	Ruhe	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035363.txt
+# text = Glasba: Hanno Höfer, Laco Jimi
+1	Glasba	glasba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Hanno	hanen	PROPN	Npfsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+4	Höfer	Höfer	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	_	_
+
+5	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+6	Laco	Laca	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_	_
+
+7	Jimi	on	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035363.txt
+# text = Festivali, nagrade( izbor): Cannes 2009, Transilvanija 2009, Toronto 2009, Helsinki 2009, Pusan 2009
+1	Festivali	festivati	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur		root	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	nagrade	nagrada	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	_	_
+
+4	(	(	PUNCT	Z	_	5	punct	_	_	_
+
+5	izbor	izbor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_	_
+
+6	)	)	PUNCT	Z	_	5	punct	_	_	_
+
+7	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+8	Cannes	cannes	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_	_
+
+9	2009	2009	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+10	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+11	Transilvanija	Transilvanija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	8	conj	_	_	_
+
+12	2009	2009	NUM	Mdc	NumForm=Digit|NumType=Card	11	nummod	_	_	_
+
+13	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+14	Toronto	Toronto	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_	_
+
+15	2009	2009	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+
+16	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+17	Helsinki	helsinki	PROPN	Npmpn	Case=Nom|Gender=Masc|Number=Plur	14	conj	_	_	_
+
+18	2009	2009	NUM	Mdc	NumForm=Digit|NumType=Card	17	nummod	_	_	_
+
+19	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+20	Pusan	Pusan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	17	appos	_	_	_
+
+21	2009	2009	NUM	Mdc	NumForm=Digit|NumType=Card	20	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035363.txt
+# text = Igrajo: Penélope Cruz( Lena), José Luis Gómez( Ernesto Martel), Lluís Homar( Mateo Blanco/
+1	Igrajo	Igraja	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Penélope	Penjlop	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_	_
+
+4	Cruz	cruz	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	flat:name	_	_	_
+
+5	(	(	PUNCT	Z	_	6	punct	_	_	_
+
+6	Lena	lena	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	_	_
+
+7	)	)	PUNCT	Z	_	6	punct	_	_	_
+
+8	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+9	José	José	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_	_
+
+10	Luis	Luis	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_	_
+
+11	Gómez	Gómez	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_	_
+
+12	(	(	PUNCT	Z	_	13	punct	_	_	_
+
+13	Ernesto	ernesto	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_	_
+
+14	Martel	Martel	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+15	)	)	PUNCT	Z	_	13	punct	_	_	_
+
+16	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+17	Lluís	Lluís	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_	_
+
+18	Homar	homar	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	17	flat:name	_	_	_
+
+19	(	(	PUNCT	Z	_	20	punct	_	_	_
+
+20	Mateo	Mateo	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	17	appos	_	_	_
+
+21	Blanco	Blanco	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	20	flat:name	_	_	_
+
+22	/	/	PUNCT	Z	_	20	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035363.txt
+# text = Harry Caine), Tamar Novas( Diego), Rubén Ochandiano( Ray X), Blanca Portillo( Judit Garcia)
+1	Harry	Harry	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Caine	Caine	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	)	)	PUNCT	Z	_	5	punct	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	Tamar	tamar	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+6	Novas	Novas	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_	_
+
+7	(	(	PUNCT	Z	_	8	punct	_	_	_
+
+8	Diego	Diego	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_	_
+
+9	)	)	PUNCT	Z	_	8	punct	_	_	_
+
+10	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+11	Rubén	Rubén	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_	_
+
+12	Ochandiano	ochandiano	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	_	_
+
+13	(	(	PUNCT	Z	_	15	punct	_	_	_
+
+14	Ray	Ray	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_	_
+
+15	X	X	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	flat:foreign	_	_	_
+
+16	)	)	PUNCT	Z	_	15	punct	_	_	_
+
+17	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+18	Blanca	Blanc	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_	_
+
+19	Portillo	portillo	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	18	flat:name	_	_	_
+
+20	(	(	PUNCT	Z	_	21	punct	_	_	_
+
+21	Judit	Judit	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	18	appos	_	_	_
+
+22	Garcia	Garcia	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	21	nmod	_	_	_
+
+23	)	)	PUNCT	Z	_	21	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035363.txt
+# text = Akvarij( Fish Tank)
+1	Akvarij	Akvarij	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	(	(	PUNCT	Z	_	3	punct	_	_	_
+
+3	Fish	Fish	X	Xf	Foreign=Yes	1	appos	_	_	_
+
+4	Tank	Tank	X	Xf	Foreign=Yes	3	flat:foreign	_	_	_
+
+5	)	)	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035363.txt
+# text = Igrajo: Isabelle Huppert( Maria), Isaach De Bankolé( boksar/ Boxer), Christophe Lambert( André Vial), Nicolas Duvauchelle( Manuel Vial), William Nadylam, David Gozlan
+1	Igrajo	Igraja	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Isabelle	Isabelle	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_	_
+
+4	Huppert	huppert	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	flat:name	_	_	_
+
+5	(	(	PUNCT	Z	_	6	punct	_	_	_
+
+6	Maria	Maria	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	_	_
+
+7	)	)	PUNCT	Z	_	6	punct	_	_	_
+
+8	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+9	Isaach	Isaach	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_	_
+
+10	De	de	X	Xf	Foreign=Yes	11	nmod	_	_	_
+
+11	Bankolé	Bankolé	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_	_
+
+12	(	(	PUNCT	Z	_	13	punct	_	_	_
+
+13	boksar	boksar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_	_
+
+14	/	/	PUNCT	Z	_	15	punct	_	_	_
+
+15	Boxer	Boxer	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_	_
+
+16	)	)	PUNCT	Z	_	13	punct	_	_	_
+
+17	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+18	Christophe	christopha	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_	_
+
+19	Lambert	Lambert	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	18	flat:name	_	_	_
+
+20	(	(	PUNCT	Z	_	21	punct	_	_	_
+
+21	André	André	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	18	appos	_	_	_
+
+22	Vial	Vial	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	21	flat:name	_	_	_
+
+23	)	)	PUNCT	Z	_	21	punct	_	_	_
+
+24	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+25	Nicolas	nicolas	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_	_
+
+26	Duvauchelle	Duvauchelle	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	25	flat:name	_	_	_
+
+27	(	(	PUNCT	Z	_	28	punct	_	_	_
+
+28	Manuel	Manuel	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	25	appos	_	_	_
+
+29	Vial	Vial	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	28	flat:name	_	_	_
+
+30	)	)	PUNCT	Z	_	28	punct	_	_	_
+
+31	,	,	PUNCT	Z	_	32	punct	_	_	_
+
+32	William	William	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_	_
+
+33	Nadylam	nadylam	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	32	flat:name	_	_	_
+
+34	,	,	PUNCT	Z	_	35	punct	_	_	_
+
+35	David	David	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_	_
+
+36	Gozlan	Gozlan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	35	flat:name	_	_	_
+

@@ -1,0 +1,105 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0032045.txt
+# text = EKSPRES EKSPRES
+1	EKSPRES	ekspres	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	EKSPRES	ekspres	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0032045.txt
+# text = Raël, zadnji prerok.
+1	Raël	Raël	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+2	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+3	zadnji	zadnji	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	prerok	prerok	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+5	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0032045.txt
+# text = Elohimi so leta 1973 vzpostavili stik z mladim francoskim novinarjem Claudom Vorilhonom, ki se je kasneje poimenoval v Raël.
+1	Elohimi	eloh	PROPN	Npmpn	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+3	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_	_
+
+4	1973	1973	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+5	vzpostavili	vzpostaviti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+6	stik	stik	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_	_
+
+7	z	z	ADP	Si	Case=Ins	10	case	_	_	_
+
+8	mladim	mlad	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+9	francoskim	francoski	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	novinarjem	novinar	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+11	Claudom	Claud	PROPN	Npmsi	Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+12	Vorilhonom	Vorilhon	PROPN	Npmsi	Case=Ins|Gender=Masc|Number=Sing	11	flat:name	_	_	_
+
+13	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+14	ki	ki	SCONJ	Cs	_	18	mark	_	_	_
+
+15	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	18	expl	_	_	_
+
+16	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	aux	_	_	_
+
+17	kasneje	kasno	ADV	Rgc	Degree=Cmp	18	advmod	_	_	_
+
+18	poimenoval	poimenovati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	10	acl	_	_	_
+
+19	v	v	ADP	Sl	Case=Loc	20	case	_	_	_
+
+20	Raël	Raël	PROPN	Npfsl	Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_	_
+
+21	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0032045.txt
+# text = V šestih zaporednih srečanjih so mu predali izjemno sporočilo o našem izvoru in nastanku človeštva( tako Raelijanci).
+1	V	v	ADP	Sl	Case=Loc	4	case	_	_	_
+
+2	šestih	šest	NUM	Mlc-pl	Case=Loc|NumForm=Word|NumType=Card|Number=Plur	4	nummod	_	_	_
+
+3	zaporednih	zaporeden	ADJ	Agpnpl	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	_	_
+
+4	srečanjih	srečanje	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	7	obl	_	_	_
+
+5	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_	_
+
+6	mu	on	PRON	Pp3msd--y	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	7	iobj	_	_	_
+
+7	predali	predati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+8	izjemno	izjemen	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_	_
+
+9	sporočilo	sporočilo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_	_
+
+10	o	o	ADP	Sl	Case=Loc	12	case	_	_	_
+
+11	našem	naš	DET	Ps1mslp	Case=Loc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	12	det	_	_	_
+
+12	izvoru	izvor	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+13	in	in	CCONJ	Cc	_	14	cc	_	_	_
+
+14	nastanku	nastanek	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	12	conj	_	_	_
+
+15	človeštva	človeštvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_	_
+
+16	(	(	PUNCT	Z	_	18	punct	_	_	_
+
+17	tako	tako	ADV	Rgp	Degree=Pos	18	advmod	_	_	_
+
+18	Raelijanci	raelijanec	PROPN	Npmpn	Case=Nom|Gender=Masc|Number=Plur	15	appos	_	_	_
+
+19	)	)	PUNCT	Z	_	18	punct	_	_	_
+
+20	.	.	PUNCT	Z	_	7	punct	_	_	_
+

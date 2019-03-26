@@ -1,0 +1,531 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = ( str.
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	str.	str.	X	Y	Abbr=Yes		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = 2, 3, 4)
+1	2	2	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	1	conj	_	_	_
+
+4	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+5	4)	4)	X	X	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = Piščančje meso
+1	Piščančje	piščančje	NOUN	Ncfpa	Case=Nom|Gender=Fem|Number=Plur		root	_	_	_
+
+2	meso	meso	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = 1 korenček
+1	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	korenček	korenček	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = 1 velik pečen piščanec
+1	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+2	velik	velik	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	pečen	pečen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+4	piščanec	piščanec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = solata
+1	solata	solata	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = 4 tanko narezane mlade čebule
+1	4	4	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+2	tanko	tanko	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+3	narezane	narezan	ADJ	Appfpn	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	5	amod	_	_	_
+
+4	mlade	mlad	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_	_
+
+5	čebule	čebula	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = 1 Štručko narežemo na cm debele rezine.
+1	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	3	dep	_	_	_
+
+2	Štručko	Štručko	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_	_
+
+3	narežemo	narezati	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	na	na	ADP	Sa	Case=Acc	7	case	_	_	_
+
+5	cm	cm	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+6	debele	debel	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_	_
+
+7	rezine	rezina	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	_	_
+
+8	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = Česen primešamo olju in z mešanico namažemo rezine.
+1	Česen	česen	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_	_
+
+2	primešamo	primešati	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	olju	olje	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	2	iobj	_	_	_
+
+4	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+5	z	z	ADP	Si	Case=Ins	6	case	_	_	_
+
+6	mešanico	mešanica	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_	_
+
+7	namažemo	namazati	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_	_
+
+8	rezine	rezina	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_	_
+
+9	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = Zložimo jih na pekač in jih hrustljavo opečemo v pečici, segreti na 170 C.
+1	Zložimo	zložiti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	1	obj	_	_	_
+
+3	na	na	ADP	Sa	Case=Acc	4	case	_	_	_
+
+4	pekač	pekač	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl	_	_	_
+
+5	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+6	jih	on	PRON	Pp3fpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	8	obj	_	_	_
+
+7	hrustljavo	hrustljava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_	_
+
+8	opečemo	opeči	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	10	case	_	_	_
+
+10	pečici	pečica	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+11	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+12	segreti	segreti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	8	conj	_	_	_
+
+13	na	na	ADP	Sa	Case=Acc	15	case	_	_	_
+
+14	170	170	NUM	Mdc	NumForm=Digit|NumType=Card	15	nummod	_	_	_
+
+15	C.	C.	X	Y	Abbr=Yes	12	obl	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = Endivijo raztrgamo na 5 cm velike kose ter zmešamo s čebulo in fileji mandarine.
+1	Endivijo	Endivija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_	_
+
+2	raztrgamo	raztrgati	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	na	na	ADP	Sa	Case=Acc	5	case	_	_	_
+
+4	5	5	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+5	cm	cm	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	obl	_	_	_
+
+6	velike	velik	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_	_
+
+7	kose	kosati	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_	_
+
+8	ter	ter	CCONJ	Cc	_	9	cc	_	_	_
+
+9	zmešamo	zmešati	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_	_
+
+10	s	z	ADP	Si	Case=Ins	11	case	_	_	_
+
+11	čebulo	čebula	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_	_
+
+12	in	in	CCONJ	Cc	_	13	cc	_	_	_
+
+13	fileji	filej	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	11	conj	_	_	_
+
+14	mandarine	mandarina	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+15	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = 80 g opraženih na palčke narezanih mandljev
+1	80	80	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	g	g	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+3	opraženih	opražen	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+4	na	na	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	palčke	palček	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	_	_
+
+6	narezanih	narezan	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	7	amod	_	_	_
+
+7	mandljev	mandlji	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = 2 Vse sestavine za preliv stepemo z metlico in polijemo po solati.
+1	2	2	NUM	Mdc	NumForm=Digit|NumType=Card	6	dep	_	_	_
+
+2	Vse	ves	DET	Pg-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	3	det	_	_	_
+
+3	sestavine	sestavina	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_	_
+
+4	za	za	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	preliv	preliv	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+6	stepemo	stepi	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	z	z	ADP	Si	Case=Ins	8	case	_	_	_
+
+8	metlico	metlica	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_	_
+
+9	in	in	CCONJ	Cc	_	10	cc	_	_	_
+
+10	polijemo	politi	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_	_
+
+11	po	po	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	solati	solata	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_	_
+
+13	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = Dodamo polovico mandljev in temeljito zmešamo.
+1	Dodamo	dodati	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	polovico	polovica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_	_
+
+3	mandljev	mandlji	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_	_
+
+4	in	in	CCONJ	Cc	_	6	cc	_	_	_
+
+5	temeljito	temeljito	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+6	zmešamo	zmešati	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_	_
+
+7	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = Potresemo s preostalimi mandlji in takoj postavimo na mizo.
+1	Potresemo	potresti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	s	z	ADP	Si	Case=Ins	4	case	_	_	_
+
+3	preostalimi	preostal	ADJ	Appmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	4	amod	_	_	_
+
+4	mandlji	mandlji	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	1	obl	_	_	_
+
+5	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+6	takoj	takoj	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+7	postavimo	postaviti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_	_
+
+8	na	na	ADP	Sa	Case=Acc	9	case	_	_	_
+
+9	mizo	miza	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_	_
+
+10	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = Poleg ponudimo hrustljav kruh.
+1	Poleg	poleg	ADP	Sg	Case=Gen	2	nsubj	_	_	_
+
+2	ponudimo	ponuditi	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	hrustljav	hrustljav	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_	_
+
+4	kruh	kruh	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_	_
+
+5	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = 2 Ž belega vinskega kisa
+1	2	2	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Ž	Ž	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	belega	bel	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+4	vinskega	vinski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+5	kisa	kiso	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = 1 Ž limoninega soka
+1	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Ž	Ž	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	limoninega	limonin	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	soka	sok	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = 400- gramska pločevinka marelic
+1	400	400	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+2	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+3	gramska	gramski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	pločevinka	pločevinka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+5	marelic	marelica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = 3 Tortilje tanko namažemo z majonezo.
+1	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	4	dep	_	_	_
+
+2	Tortilje	Tortilja	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_	_
+
+3	tanko	tanko	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+4	namažemo	namazati	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	z	z	ADP	Si	Case=Ins	6	case	_	_	_
+
+6	majonezo	majoneza	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+7	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = Solato narežemo na ozke rezance in jih razdelimo na tortilje.
+1	Solato	Solata	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_	_
+
+2	narežemo	narezati	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	na	na	ADP	Sa	Case=Acc	5	case	_	_	_
+
+4	ozke	ozek	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_	_
+
+5	rezance	rezanca	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	2	obl	_	_	_
+
+6	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+7	jih	on	PRON	Pp3fpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	8	obj	_	_	_
+
+8	razdelimo	razdeliti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_	_
+
+9	na	na	ADP	Sa	Case=Acc	10	case	_	_	_
+
+10	tortilje	tortilja	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	_	_
+
+11	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = Po solati potresemo mlado čebulo, nanjo pa naložimo rezine paradižnika.
+1	Po	po	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	solati	solata	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_	_
+
+3	potresemo	potresti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	mlado	mlad	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	čebulo	čebula	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_	_
+
+6	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+7	nanjo	name	PRON	Pp3fsa--b	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Bound	9	obl	_	_	_
+
+8	pa	pa	CCONJ	Cc	_	9	advmod	_	_	_
+
+9	naložimo	naložiti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	_	_
+
+10	rezine	rezina	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_	_
+
+11	paradižnika	paradižnik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+12	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = Na sredino vsake tortilje položimo nekaj kosov mesa.
+1	Na	na	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	sredino	sredina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+3	vsake	vsak	DET	Pg-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Tot	4	det	_	_	_
+
+4	tortilje	tortilja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+5	položimo	položiti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	nekaj	nekaj	DET	Rgp	PronType=Ind	7	det	_	_	_
+
+7	kosov	kos	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	obj	_	_	_
+
+8	mesa	meso	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_	_
+
+9	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = Posolimo in popopramo.
+1	Posolimo	posoliti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	in	in	CCONJ	Cc	_	3	cc	_	_	_
+
+3	popopramo	popoprati	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_	_
+
+4	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = ( str.
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	str.	str.	X	Y	Abbr=Yes		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = 24)
+1	24	24	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	)	)	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = 4 Hrustljavo pečeno zelenjavo preložimo v veliko skledo.
+1	4	4	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Hrustljavo	Hrustljavo	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_	_
+
+3	pečeno	pečen	ADJ	Appfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	4	amod	_	_	_
+
+4	zelenjavo	zelenjava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_	_
+
+5	preložimo	preložiti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	v	v	ADP	Sa	Case=Acc	8	case	_	_	_
+
+7	veliko	velik	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	skledo	skleda	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+9	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = Dodamo pečeno meso in zmešamo.
+1	Dodamo	dodati	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	pečeno	pečen	ADJ	Appnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	3	amod	_	_	_
+
+3	meso	meso	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_	_
+
+4	in	in	CCONJ	Cc	_	5	cc	_	_	_
+
+5	zmešamo	zmešati	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_	_
+
+6	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = Ponudimo s česnovim kruhom.
+1	Ponudimo	ponuditi	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	s	z	ADP	Si	Case=Ins	4	case	_	_	_
+
+3	česnovim	česnov	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	kruhom	kruh	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	1	obl	_	_	_
+
+5	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = 1 strt strok česna
+1	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	strt	strt	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	strok	strok	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	česna	česen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = 500 g olupljene, očiščene in narezane buče
+1	500	500	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+2	g	g	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+3	olupljene	olupljen	ADJ	Appfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	8	amod	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	očiščene	očiščen	ADJ	Appfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	3	conj	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	narezane	narezan	ADJ	Appfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	3	conj	_	_	_
+
+8	buče	buč	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = 1 očiščena in na rezance narezana rdeča paprika
+1	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	očiščena	očiščen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+3	in	in	CCONJ	Cc	_	6	cc	_	_	_
+
+4	na	na	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	rezance	rezanca	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	_	_
+
+6	narezana	narezan	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	2	conj	_	_	_
+
+7	rdeča	rdeč	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	paprika	paprika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = 3 Ž drobno sesekljane mete
+1	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Ž	Ž	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	drobno	drobno	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+4	sesekljane	sesekljan	ADJ	Appfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	5	amod	_	_	_
+
+5	mete	met	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = po želji 1 Ž ruma
+1	po	po	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	želji	želja	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing		root	_	_	_
+
+3	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+4	Ž	Ž	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	ruma	rum	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0031249.txt
+# text = 3 Ponudimo vroče, skupaj s hrustljavim kruhom.
+1	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	2	dep	_	_	_
+
+2	Ponudimo	ponuditi	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	vroče	vroč	ADJ	Agpnpa	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	2	advmod	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	skupaj	skupaj	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+6	s	z	ADP	Si	Case=Ins	8	case	_	_	_
+
+7	hrustljavim	hrustljav	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+8	kruhom	kruh	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_	_
+
+9	.	.	PUNCT	Z	_	2	punct	_	_	_
+

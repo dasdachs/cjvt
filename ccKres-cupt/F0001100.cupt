@@ -1,0 +1,639 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0001100.txt
+# text = HYUNDAI MATRIX
+1	HYUNDAI	Hlundai	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	MATRIX	Matrix	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001100.txt
+# text = 30 PORSCHE 1 0,02 3 0,06 200 3 0,03 8 0,08 166,67
+1	30	30	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	PORSCHE	porsche	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+4	0,02	0,02	NUM	Mdc	NumForm=Digit|NumType=Card	3	conj	_	_	_
+
+5	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	3	conj	_	_	_
+
+6	0,06	0,06	NUM	Mdc	NumForm=Digit|NumType=Card	5	flat	_	_	_
+
+7	200	200	NUM	Mdc	NumForm=Digit|NumType=Card	6	flat	_	_	_
+
+8	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	7	flat	_	_	_
+
+9	0,03	0,03	NUM	Mdc	NumForm=Digit|NumType=Card	8	flat	_	_	_
+
+10	8	8	NUM	Mdc	NumForm=Digit|NumType=Card	9	flat	_	_	_
+
+11	0,08	0,08	NUM	Mdc	NumForm=Digit|NumType=Card	10	conj	_	_	_
+
+12	166,67	166,67	NUM	Mdc	NumForm=Digit|NumType=Card	11	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001100.txt
+# text = 175 FIAT SCUDO 0 1 0,01
+1	175	175	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	FIAT	fiat	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	SCUDO	SCUDO	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	0	0	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+5	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+6	0,01	0,01	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001100.txt
+# text = Skupina MG- ROVER 4.736 0,5- 26,4 16.333 13.049 0,6- 20,1
+1	Skupina	skupina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	MG	MG	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	-	-	PUNCT	Z	_	4	punct	_	_	_
+
+4	ROVER	rover	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+5	4.736	4.736	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+6	0,5	0,5	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+7	-	-	PUNCT	Z	_	8	punct	_	_	_
+
+8	26,4	26,4	NUM	Mdc	NumForm=Digit|NumType=Card	6	conj	_	_	_
+
+9	16.333	16.333	NUM	Mdc	NumForm=Digit|NumType=Card	8	flat	_	_	_
+
+10	13.049	13.049	NUM	Mdc	NumForm=Digit|NumType=Card	11	conj	_	_	_
+
+11	0,6	0,6	NUM	Mdc	NumForm=Digit|NumType=Card	9	conj	_	_	_
+
+12	-	-	PUNCT	Z	_	13	punct	_	_	_
+
+13	20,1	20,1	NUM	Mdc	NumForm=Digit|NumType=Card	11	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001100.txt
+# text = Če vam žep dopušča, da mlademu vozniku lahko kupite nov in sodoben avto, imate srečo, saj je večina takšnih avtomobilov že serijsko opremljena s standardnimi varnostnimi elementi, ali pa jih lahko dokupite.
+1	Če	če	SCONJ	Cs	_	4	mark	_	_	_
+
+2	vam	ti	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	4	iobj	_	_	_
+
+3	žep	žep	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+4	dopušča	dopuščati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_	_
+
+5	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+6	da	da	SCONJ	Cs	_	10	mark	_	_	_
+
+7	mlademu	mlad	ADJ	Agpmsd	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+8	vozniku	voznik	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	10	iobj	_	_	_
+
+9	lahko	lahko	ADV	Rgp	Degree=Pos	10	advmod	_	_	_
+
+10	kupite	kupiti	VERB	Vmer2p	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	ccomp	_	_	_
+
+11	nov	nov	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+12	in	in	CCONJ	Cc	_	13	cc	_	_	_
+
+13	sodoben	sodoben	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	11	conj	_	_	_
+
+14	avto	avto	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_	_
+
+15	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+16	imate	imeti	VERB	Vmpr2p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+17	srečo	sreča	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_	_
+
+18	,	,	PUNCT	Z	_	26	punct	_	_	_
+
+19	saj	saj	CCONJ	Cc	_	26	cc	_	_	_
+
+20	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	26	cop	_	_	_
+
+21	večina	večina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_	_
+
+22	takšnih	takšen	DET	Pd-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	23	det	_	_	_
+
+23	avtomobilov	avtomobil	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_	_
+
+24	že	že	PART	Q	_	26	advmod	_	_	_
+
+25	serijsko	serijsko	ADV	Rgp	Degree=Pos	26	advmod	_	_	_
+
+26	opremljena	opremljen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	16	conj	_	_	_
+
+27	s	z	ADP	Si	Case=Ins	30	case	_	_	_
+
+28	standardnimi	standarden	ADJ	Agpmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	30	amod	_	_	_
+
+29	varnostnimi	varnosten	ADJ	Agpmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	30	amod	_	_	_
+
+30	elementi	element	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	26	obl	_	_	_
+
+31	,	,	PUNCT	Z	_	26	punct	_	_	_
+
+32	ali	ali	CCONJ	Cc	_	36	cc	_	_	_
+
+33	pa	pa	CCONJ	Cc	_	36	advmod	_	_	_
+
+34	jih	on	PRON	Pp3fpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	36	obj	_	_	_
+
+35	lahko	lahko	ADV	Rgp	Degree=Pos	36	advmod	_	_	_
+
+36	dokupite	dokupiti	VERB	Vmem2p	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	26	conj	_	_	_
+
+37	.	.	PUNCT	Z	_	16	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001100.txt
+# text = Vaša največja dilema se bo tako lahko bolj ali manj vrtela le okoli izbire njegove barve in notranje opreme.
+1	Vaša	vaš	DET	Ps1fsnp	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	3	det	_	_	_
+
+2	največja	velik	ADJ	Agsfsn	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	dilema	dilem	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_	_
+
+4	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	11	expl	_	_	_
+
+5	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	11	aux	_	_	_
+
+6	tako	tako	ADV	Rgp	Degree=Pos	11	advmod	_	_	_
+
+7	lahko	lahko	ADV	Rgp	Degree=Pos	11	advmod	_	_	_
+
+8	bolj	bolj	ADV	Rgc	Degree=Cmp	11	advmod	_	_	_
+
+9	ali	ali	CCONJ	Cc	_	10	cc	_	_	_
+
+10	manj	manj	DET	Rgc	PronType=Ind	8	conj	_	_	_
+
+11	vrtela	vrteti	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+12	le	le	PART	Q	_	11	advmod	_	_	_
+
+13	okoli	okoli	ADP	Sg	Case=Gen	14	case	_	_	_
+
+14	izbire	izbira	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_	_
+
+15	njegove	njegov	DET	Ps3fsgsm	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	_	_
+
+16	barve	barva	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+17	in	in	CCONJ	Cc	_	19	cc	_	_	_
+
+18	notranje	notranji	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_	_
+
+19	opreme	oprema	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	conj	_	_	_
+
+20	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001100.txt
+# text = Če pa boste iskali rabljeni avto, boste morali malo bolje proučiti ponudbo na trgu, da boste našli ustrezno varnega.
+1	Če	če	SCONJ	Cs	_	4	mark	_	_	_
+
+2	pa	pa	CCONJ	Cc	_	4	advmod	_	_	_
+
+3	boste	biti	AUX	Va-f2p-n	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin	4	aux	_	_	_
+
+4	iskali	iskati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	12	advcl	_	_	_
+
+5	rabljeni	rabljen	ADJ	Appmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	6	amod	_	_	_
+
+6	avto	avto	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_	_
+
+7	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+8	boste	biti	AUX	Va-f2p-n	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin	9	aux	_	_	_
+
+9	morali	morati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+10	malo	malo	DET	Rgp	PronType=Ind	11	advmod	_	_	_
+
+11	bolje	dobro	ADV	Rgc	Degree=Cmp	12	advmod	_	_	_
+
+12	proučiti	proučiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	9	xcomp	_	_	_
+
+13	ponudbo	ponudba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_	_
+
+14	na	na	ADP	Sl	Case=Loc	15	case	_	_	_
+
+15	trgu	trg	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+16	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+17	da	da	SCONJ	Cs	_	19	mark	_	_	_
+
+18	boste	biti	AUX	Va-f2p-n	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin	19	aux	_	_	_
+
+19	našli	najti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	12	advcl	_	_	_
+
+20	ustrezno	ustrezno	ADV	Rgp	Degree=Pos	21	advmod	_	_	_
+
+21	varnega	varen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	obj	_	_	_
+
+22	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001100.txt
+# text = Vsekakor pa naj vam bo jasno, da mlajši, ko bo model avta, varnejši bo, saj so novejši modeli zaradi» crash testov« in številnih konstrukcijskih ter mehanskih inovacij mnogo bolj varni kot pa tisti, izpred šestih ali celo desetih let.
+1	Vsekakor	vsekakor	PART	Q	_	6	advmod	_	_	_
+
+2	pa	pa	CCONJ	Cc	_	6	advmod	_	_	_
+
+3	naj	naj	PART	Q	_	6	advmod	_	_	_
+
+4	vam	ti	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	6	obj	_	_	_
+
+5	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	6	cop	_	_	_
+
+6	jasno	jasen	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing		root	_	_	_
+
+7	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+8	da	da	SCONJ	Cs	_	16	mark	_	_	_
+
+9	mlajši	mlad	ADJ	Agcmpn	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	16	nsubj	_	_	_
+
+10	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+11	ko	ko	SCONJ	Cs	_	16	mark	_	_	_
+
+12	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	16	cop	_	_	_
+
+13	model	model	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_	_
+
+14	avta	avto	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+15	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+16	varnejši	varen	ADJ	Agcmsny	Case=Nom|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	6	csubj	_	_	_
+
+17	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	16	cop	_	_	_
+
+18	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+19	saj	saj	CCONJ	Cc	_	36	cc	_	_	_
+
+20	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	36	cop	_	_	_
+
+21	novejši	nov	ADJ	Agcmpn	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	22	amod	_	_	_
+
+22	modeli	model	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	36	nsubj	_	_	_
+
+23	zaradi	zaradi	ADP	Sg	Case=Gen	25	case	_	_	_
+
+24	»	»	PUNCT	Z	_	25	punct	_	_	_
+
+25	crash	cra	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	36	obl	_	_	_
+
+26	testov	test	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_	_
+
+27	«	«	PUNCT	Z	_	25	punct	_	_	_
+
+28	in	in	CCONJ	Cc	_	33	cc	_	_	_
+
+29	številnih	številen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	33	amod	_	_	_
+
+30	konstrukcijskih	konstrukcijski	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	33	amod	_	_	_
+
+31	ter	ter	CCONJ	Cc	_	32	cc	_	_	_
+
+32	mehanskih	mehanski	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	30	conj	_	_	_
+
+33	inovacij	inovacija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	26	conj	_	_	_
+
+34	mnogo	mnogo	DET	Rgp	PronType=Ind	35	advmod	_	_	_
+
+35	bolj	bolj	ADV	Rgc	Degree=Cmp	36	advmod	_	_	_
+
+36	varni	varen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	parataxis	_	_	_
+
+37	kot	kot	SCONJ	Cs	_	39	case	_	_	_
+
+38	pa	pa	CCONJ	Cc	_	36	advmod	_	_	_
+
+39	tisti	tisti	DET	Pd-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	36	obl	_	_	_
+
+40	,	,	PUNCT	Z	_	46	punct	_	_	_
+
+41	izpred	izpred	ADP	Sg	Case=Gen	46	case	_	_	_
+
+42	šestih	šest	NUM	Mlc-pg	Case=Gen|NumForm=Word|NumType=Card|Number=Plur	46	nummod	_	_	_
+
+43	ali	ali	CCONJ	Cc	_	45	cc	_	_	_
+
+44	celo	celo	PART	Q	_	36	advmod	_	_	_
+
+45	desetih	deset	NUM	Mlc-pg	Case=Gen|NumForm=Word|NumType=Card|Number=Plur	42	conj	_	_	_
+
+46	let	leto	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	39	nmod	_	_	_
+
+47	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001100.txt
+# text = - neterenskost; preobčutljivost stabilnostnega sistema; smer odpiranja zadnjih vrat; zgolj dvosmerna prilagodljivost volanskega obroča; cena.
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	neterenskost	neterenskost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	parataxis	_	_	_
+
+3	;	;	PUNCT	Z	_	2	punct	_	_	_
+
+4	preobčutljivost	preobčutljivost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+5	stabilnostnega	stabilnosten	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+6	sistema	sistem	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+7	;	;	PUNCT	Z	_	8	punct	_	_	_
+
+8	smer	smer	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	appos	_	_	_
+
+9	odpiranja	odpiranje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_	_
+
+10	zadnjih	zadnji	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	11	amod	_	_	_
+
+11	vrat	vrata	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_	_
+
+12	;	;	PUNCT	Z	_	15	punct	_	_	_
+
+13	zgolj	zgolj	PART	Q	_	15	advmod	_	_	_
+
+14	dvosmerna	dvosmeren	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_	_
+
+15	prilagodljivost	prilagodljivost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	conj	_	_	_
+
+16	volanskega	volanski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_	_
+
+17	obroča	obroč	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+18	;	;	PUNCT	Z	_	19	punct	_	_	_
+
+19	cena	cena	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	15	conj	_	_	_
+
+20	.	.	PUNCT	Z	_	15	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001100.txt
+# text = Vremenski pogoji
+1	Vremenski	vremenski	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_	_
+
+2	pogoji	pogoj	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001100.txt
+# text = - zavorna pot; peti zglavnik za doplačilo; glasen motor; cena testnega avtomobila.
+1	-	-	PUNCT	Z	_	6	punct	_	_	_
+
+2	zavorna	zavoren	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	pot	pot	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	parataxis	_	_	_
+
+4	;	;	PUNCT	Z	_	3	punct	_	_	_
+
+5	peti	peti	ADJ	Mlomsn	Case=Nom|Gender=Masc|NumType=Ord|Number=Sing	6	amod	_	_	_
+
+6	zglavnik	zglavnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+7	za	za	ADP	Sa	Case=Acc	8	case	_	_	_
+
+8	doplačilo	doplačilo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	_	_
+
+9	;	;	PUNCT	Z	_	11	punct	_	_	_
+
+10	glasen	glasen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	motor	motor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	parataxis	_	_	_
+
+12	;	;	PUNCT	Z	_	13	punct	_	_	_
+
+13	cena	cena	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	11	appos	_	_	_
+
+14	testnega	testen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_	_
+
+15	avtomobila	avtomobil	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+16	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001100.txt
+# text = Napake testnega avta: brez napak.
+1	Napake	napaka	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur		root	_	_	_
+
+2	testnega	testen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	avta	avto	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+5	brez	brez	ADP	Sg	Case=Gen	6	case	_	_	_
+
+6	napak	napaka	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_	_
+
+7	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001100.txt
+# text = Čistilo vetrobranskega stekla( 2l) 998,00 SIT
+1	Čistilo	čistiti	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+2	vetrobranskega	vetrobranski	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_	_
+
+3	stekla	steklo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_	_
+
+4	(	(	PUNCT	Z	_	5	punct	_	_	_
+
+5	2l	2l	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_	_
+
+6	)	)	PUNCT	Z	_	5	punct	_	_	_
+
+7	998,00	998,00	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+8	SIT	SIT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001100.txt
+# text = Opel Meriva 1,4 16V…………………………………54
+1	Opel	opela	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+2	Meriva	Meriv	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+3	1,4	1,4	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+4	16V…	16V…	NUM	Mdc	NumForm=Digit|NumType=Card	3	conj	_	_	_
+
+5	…	…	PUNCT	Z	_	2	punct	_	_	_
+
+6	…	…	PUNCT	Z	_	2	punct	_	_	_
+
+7	…	…	PUNCT	Z	_	2	punct	_	_	_
+
+8	…	…	PUNCT	Z	_	2	punct	_	_	_
+
+9	…	…	PUNCT	Z	_	2	punct	_	_	_
+
+10	…	…	PUNCT	Z	_	2	punct	_	_	_
+
+11	…	…	PUNCT	Z	_	2	punct	_	_	_
+
+12	…	…	PUNCT	Z	_	2	punct	_	_	_
+
+13	…	…	PUNCT	Z	_	2	punct	_	_	_
+
+14	…	…	PUNCT	Z	_	2	punct	_	_	_
+
+15	…	…	PUNCT	Z	_	2	punct	_	_	_
+
+16	…54	…54	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001100.txt
+# text = BAR
+1	BAR	bar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001100.txt
+# text = 3 McLaren 115
+1	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	McLaren	McLaren	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	115	115	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001100.txt
+# text = Nova letna guma Fulda Carat Exelero je razvita posebej za športna oziroma zmogljivejša ter predelana vozila.
+1	Nova	nov	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+2	letna	leten	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	guma	guma	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_	_
+
+4	Fulda	fulda	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+5	Carat	Carat	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+6	Exelero	Exelero	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_	_
+
+8	razvita	razvit	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing		root	_	_	_
+
+9	posebej	posebej	ADV	Rgp	Degree=Pos	11	advmod	_	_	_
+
+10	za	za	ADP	Sa	Case=Acc	16	case	_	_	_
+
+11	športna	športen	ADJ	Agpnpa	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	16	amod	_	_	_
+
+12	oziroma	oziroma	CCONJ	Cc	_	13	cc	_	_	_
+
+13	zmogljivejša	zmogljiv	ADJ	Agcnpa	Case=Acc|Degree=Cmp|Gender=Neut|Number=Plur	11	conj	_	_	_
+
+14	ter	ter	CCONJ	Cc	_	15	cc	_	_	_
+
+15	predelana	predelan	ADJ	Appnpa	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|VerbForm=Part	11	conj	_	_	_
+
+16	vozila	vozilo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	_	_
+
+17	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001100.txt
+# text = Carat Exelero naj bi izpolnjevala zahteve dinamičnih voznikov, in zagotavljala varnejše vodenje in nižjo raven hrupa.
+1	Carat	Carat	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+2	Exelero	Exelero	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	naj	naj	PART	Q	_	5	advmod	_	_	_
+
+4	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	5	aux	_	_	_
+
+5	izpolnjevala	izpolnjevati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	zahteve	zahteva	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_	_
+
+7	dinamičnih	dinamičen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_	_
+
+8	voznikov	voznik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_	_
+
+9	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+10	in	in	CCONJ	Cc	_	11	cc	_	_	_
+
+11	zagotavljala	zagotavljati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	5	conj	_	_	_
+
+12	varnejše	varen	ADJ	Agcnsa	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	13	amod	_	_	_
+
+13	vodenje	vodenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_	_
+
+14	in	in	CCONJ	Cc	_	16	cc	_	_	_
+
+15	nižjo	nizek	ADJ	Agcfsa	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	16	amod	_	_	_
+
+16	raven	raven	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	conj	_	_	_
+
+17	hrupa	hrup	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_	_
+
+18	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001100.txt
+# text = Je pa tudi prva guma, ki ima uradni certifikat TÜV- za zmogljivost in proizvodni proces.
+1	Je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	pa	pa	CCONJ	Cc	_	1	advmod	_	_	_
+
+3	tudi	tudi	PART	Q	_	1	advmod	_	_	_
+
+4	prva	prvi	ADJ	Mlofsn	Case=Nom|Gender=Fem|NumType=Ord|Number=Sing	5	amod	_	_	_
+
+5	guma	guma	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_	_
+
+6	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+7	ki	ki	SCONJ	Cs	_	8	mark	_	_	_
+
+8	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	acl	_	_	_
+
+9	uradni	uraden	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	certifikat	certifikat	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_	_
+
+11	TÜV	TÜV	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+12	-	-	PUNCT	Z	_	14	punct	_	_	_
+
+13	za	za	ADP	Sa	Case=Acc	14	case	_	_	_
+
+14	zmogljivost	zmogljivost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	10	appos	_	_	_
+
+15	in	in	CCONJ	Cc	_	17	cc	_	_	_
+
+16	proizvodni	proizvoden	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_	_
+
+17	proces	proces	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	conj	_	_	_
+
+18	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001100.txt
+# text = Škoda Octavia Combi
+1	Škoda	škoda	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	Octavia	Octavia	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	Combi	combi	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001100.txt
+# text = 0- 120 km/h 13,6
+1	0	0	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+2	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+3	120	120	NUM	Mdc	NumForm=Digit|NumType=Card	1	conj	_	_	_
+
+4	km/h	kmer	NOUN	Ncmsg	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+5	13,6	13,6	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001100.txt
+# text = zgodovina DVE OBLETNICI ŠKODE
+1	zgodovina	zgodovina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	DVE	dva	NUM	Mlcfda	Case=Nom|Gender=Fem|NumForm=Word|NumType=Card|Number=Dual	3	nummod	_	_	_
+
+3	OBLETNICI	obletnica	NOUN	Ncfda	Case=Acc|Gender=Fem|Number=Dual	1	nmod	_	_	_
+
+4	ŠKODE	škoda	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+

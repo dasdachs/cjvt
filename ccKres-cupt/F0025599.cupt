@@ -1,0 +1,367 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0025599.txt
+# text = KAKO POŽIVITI' ZIMSKO' KOŽO?
+1	KAKO	kako	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+2	POŽIVITI	poživiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf		root	_	_	_
+
+3	'	'	PUNCT	Z	_	2	punct	_	_	_
+
+4	ZIMSKO'	ZImSKO	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	KOŽO?	kožo?	PROPN	Npfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0025599.txt
+# text = ZA OŽJI PAS
+1	ZA	za	ADP	Sa	Case=Acc	3	case	_	_	_
+
+2	OŽJI	ozek	ADJ	Agcmsay	Case=Acc|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	PAS	PAS	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0025599.txt
+# text = * Alkohol upočasni porabo maščob.
+1	*	*	PUNCT	Z	_	3	punct	_	_	_
+
+2	Alkohol	alkohol	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+3	upočasni	upočasen	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	porabo	poraba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_	_
+
+5	maščob	maščoba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_	_
+
+6	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0025599.txt
+# text = Raziskava je pokazala, da je pri ljudeh, ki so zaužili 100 gramov alkohola( približno šest pijač), sposobnost porabljanja maščob padla za več kot 30 odstotkov.
+1	Raziskava	raziskava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	_	_
+
+3	pokazala	pokazati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+4	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+5	da	da	SCONJ	Cs	_	25	mark	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	25	aux	_	_	_
+
+7	pri	pri	ADP	Sl	Case=Loc	8	case	_	_	_
+
+8	ljudeh	človek	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	25	obl	_	_	_
+
+9	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+10	ki	ki	SCONJ	Cs	_	12	mark	_	_	_
+
+11	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	aux	_	_	_
+
+12	zaužili	zaužiti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	8	acl	_	_	_
+
+13	100	100	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+
+14	gramov	gram	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	12	obj	_	_	_
+
+15	alkohola	alkohol	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+16	(	(	PUNCT	Z	_	19	punct	_	_	_
+
+17	približno	približno	ADV	Rgp	Degree=Pos	18	advmod	_	_	_
+
+18	šest	šest	NUM	Mlc-pa	Case=Acc|NumForm=Word|NumType=Card|Number=Plur	19	nummod	_	_	_
+
+19	pijač	pijača	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	14	appos	_	_	_
+
+20	)	)	PUNCT	Z	_	19	punct	_	_	_
+
+21	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+22	sposobnost	sposobnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_	_
+
+23	porabljanja	porabljanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_	_
+
+24	maščob	maščoba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_	_
+
+25	padla	pasti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	3	parataxis	_	_	_
+
+26	za	za	ADP	Sa	Case=Acc	30	case	_	_	_
+
+27	več	več	DET	Rgc	PronType=Ind	30	advmod	_	_	_
+
+28	kot	kot	SCONJ	Cs	_	27	fixed	_	_	_
+
+29	30	30	NUM	Mdc	NumForm=Digit|NumType=Card	30	nummod	_	_	_
+
+30	odstotkov	odstotek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	25	obl	_	_	_
+
+31	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0025599.txt
+# text = šampanjec( 170 g) 121 kalorij
+1	šampanjec	šampanjec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	(	(	PUNCT	Z	_	4	punct	_	_	_
+
+3	170	170	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+4	g	g	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_	_
+
+5	)	)	PUNCT	Z	_	4	punct	_	_	_
+
+6	121	121	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+7	kalorij	kalorija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0025599.txt
+# text = Imena svoje najljubše dišave ne bom izdala.
+1	Imena	ime	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_	_
+
+2	svoje	svoj	DET	Px-fsg	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	4	det	_	_	_
+
+3	najljubše	uljub	ADJ	Agsfsg	Case=Gen|Degree=Sup|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	dišave	dišava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+5	ne	ne	PART	Q	Polarity=Neg	7	advmod	_	_	_
+
+6	bom	biti	AUX	Va-f1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	7	aux	_	_	_
+
+7	izdala	izdati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+8	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0025599.txt
+# text = Naj pa povem, da zelo rada uporabljam moške dišave, vendar le tiste, ki dišijo sveže.
+1	Naj	naj	PART	Q	_	3	advmod	_	_	_
+
+2	pa	pa	CCONJ	Cc	_	3	advmod	_	_	_
+
+3	povem	povedati	VERB	Vmer1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+5	da	da	SCONJ	Cs	_	8	mark	_	_	_
+
+6	zelo	zelo	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+7	rada	rad	ADV	Rgp	Degree=Pos	8	advmod	_	_	_
+
+8	uporabljam	uporabljati	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	ccomp	_	_	_
+
+9	moške	moški	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_	_
+
+10	dišave	dišava	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_	_
+
+11	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+12	vendar	vendar	CCONJ	Cc	_	14	cc	_	_	_
+
+13	le	le	PART	Q	_	12	fixed	_	_	_
+
+14	tiste	tisti	DET	Pd-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	8	conj	_	_	_
+
+15	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+16	ki	ki	SCONJ	Cs	_	17	mark	_	_	_
+
+17	dišijo	dišati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	_	_
+
+18	sveže	sveže	ADV	Rgp	Degree=Pos	17	advmod	_	_	_
+
+19	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0025599.txt
+# text = V zadnjem času so tako ali tako vse bolj modne dišave, namenjene obema spoloma.
+1	V	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	zadnjem	zadnji	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	času	čas	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+4	so	biti	VERB	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	tako	tako	ADV	Rgp	Degree=Pos	11	advmod	_	_	_
+
+6	ali	ali	CCONJ	Cc	_	7	cc	_	_	_
+
+7	tako	tako	ADV	Rgp	Degree=Pos	5	conj	_	_	_
+
+8	vse	vse	ADV	Rgp	Degree=Pos	9	advmod	_	_	_
+
+9	bolj	bolj	ADV	Rgc	Degree=Cmp	10	advmod	_	_	_
+
+10	modne	moden	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_	_
+
+11	dišave	dišava	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_	_
+
+12	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+13	namenjene	namenjen	ADJ	Appfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	11	amod	_	_	_
+
+14	obema	oba	DET	Pg-mdd	Case=Dat|Gender=Masc|Number=Dual|PronType=Tot	15	det	_	_	_
+
+15	spoloma	spolom	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	13	obj	_	_	_
+
+16	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0025599.txt
+# text = Ta čas uporabljam dišavo Roberto Cavalli pa Escadine parfume.
+1	Ta	ta	DET	Pd-msa	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_	_
+
+2	čas	čas	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_	_
+
+3	uporabljam	uporabljati	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	dišavo	dišava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_	_
+
+5	Roberto	Roberto	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+6	Cavalli	Cavalli	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	flat:name	_	_	_
+
+7	pa	pa	CCONJ	Cc	_	9	cc	_	_	_
+
+8	Escadine	Escadina	ADJ	Aspmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Poss=Yes	9	amod	_	_	_
+
+9	parfume	parfum	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	4	conj	_	_	_
+
+10	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0025599.txt
+# text = Parfume zelo pogosto menjam, zato pravzaprav ne bi nobene dišave omenjala posebej, razen moje neimenovane stalnice, ki jo uporabljam že štiri leta.
+1	Parfume	Parfume	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_	_
+
+2	zelo	zelo	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+3	pogosto	pogosto	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+4	menjam	menja	VERB	Vmer1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+6	zato	zato	CCONJ	Cc	_	12	cc	_	_	_
+
+7	pravzaprav	pravzaprav	PART	Q	_	12	advmod	_	_	_
+
+8	ne	ne	PART	Q	Polarity=Neg	12	advmod	_	_	_
+
+9	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	12	aux	_	_	_
+
+10	nobene	noben	DET	Pz-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Neg	11	det	_	_	_
+
+11	dišave	dišava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	obj	_	_	_
+
+12	omenjala	omenjati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	4	conj	_	_	_
+
+13	posebej	posebej	ADV	Rgp	Degree=Pos	12	advmod	_	_	_
+
+14	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+15	razen	razen	ADP	Sg	Case=Gen	18	case	_	_	_
+
+16	moje	moj	DET	Ps1fsgs	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	18	det	_	_	_
+
+17	neimenovane	neimenovan	ADJ	Appfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	18	amod	_	_	_
+
+18	stalnice	stalnica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_	_
+
+19	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+20	ki	ki	SCONJ	Cs	_	22	mark	_	_	_
+
+21	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	22	obj	_	_	_
+
+22	uporabljam	uporabljati	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	acl	_	_	_
+
+23	že	že	PART	Q	_	22	advmod	_	_	_
+
+24	štiri	štirje	NUM	Mlcnpa	Case=Acc|Gender=Neut|NumForm=Word|NumType=Card|Number=Plur	25	nummod	_	_	_
+
+25	leta	leto	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	22	obl	_	_	_
+
+26	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0025599.txt
+# text = Prvič sem jo kupila v tujini, zdaj pa se na žalost dobi tudi pri nas.
+1	Prvič	prvič	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+2	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+3	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	4	obj	_	_	_
+
+4	kupila	kupiti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	tujini	tujina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+7	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+8	zdaj	zdaj	ADV	Rgp	Degree=Pos	13	advmod	_	_	_
+
+9	pa	pa	CCONJ	Cc	_	13	advmod	_	_	_
+
+10	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	13	expl	_	_	_
+
+11	na	na	ADP	Sa	Case=Acc	12	case	_	_	_
+
+12	žalost	žalost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_	_
+
+13	dobi	dobiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_	_
+
+14	tudi	tudi	PART	Q	_	13	advmod	_	_	_
+
+15	pri	pri	ADP	Sl	Case=Loc	16	case	_	_	_
+
+16	nas	jaz	PRON	Pp1-pl	Case=Loc|Number=Plur|Person=1|PronType=Prs	13	obl	_	_	_
+
+17	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0025599.txt
+# text = Ličenje in pričeske: Milan Gačanovič
+1	Ličenje	Ličenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing		root	_	_	_
+
+2	in	in	CCONJ	Cc	_	3	cc	_	_	_
+
+3	pričeske	pričesek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_	_
+
+4	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+5	Milan	Milan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+6	Gačanovič	Gačanovič	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0025599.txt
+# text = V SLUŽBI SEM VES ČAS POD STRESOM.
+1	V	v	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	SLUŽBI	služba	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_	_
+
+3	SEM	biti	VERB	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	VES	vedeti	DET	Pg-msa	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	5	det	_	_	_
+
+5	ČAS	čas	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_	_
+
+6	POD	pod	ADP	Si	Case=Ins	7	case	_	_	_
+
+7	STRESOM	stres	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_	_
+
+8	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0025599.txt
+# text = KAKO STRES VPLIVA NA MOJE ZDRAVJE?
+1	KAKO	kako	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+2	STRES	STRES	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+3	VPLIVA	vplivati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	NA	na	ADP	Sa	Case=Acc	6	case	_	_	_
+
+5	MOJE	moj	DET	Ps1nsas	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	_	_
+
+6	ZDRAVJE	zdravje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_	_
+
+7	?	?	PUNCT	Z	_	3	punct	_	_	_
+

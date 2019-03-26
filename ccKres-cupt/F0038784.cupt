@@ -1,0 +1,433 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0038784.txt
+# text = [urednica vodnika,
+1	[urednica	[urednica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	vodnika	vodnik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	,	,	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038784.txt
+# text = katalog razstavljenih del Helena Pogačnik Grobelšek; predgovor Zdenka Badovinac; esedila Igor Zabel... [et al.]; prevodi Amidas; fotografije fotoarhiv Moderne galerije... et al.].
+1	katalog	kataloga	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	razstavljenih	razstavljen	ADJ	Appnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|VerbForm=Part	3	amod	_	_	_
+
+3	del	del	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_	_
+
+4	Helena	Helena	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+5	Pogačnik	Pogačnik	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	_	_
+
+6	Grobelšek	Grobelšek	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	_	_
+
+7	;	;	PUNCT	Z	_	1	punct	_	_	_
+
+8	predgovor	predgovor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_	_
+
+9	Zdenka	Zdenka	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+10	Badovinac	Badovinac	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	9	flat:name	_	_	_
+
+11	;	;	PUNCT	Z	_	12	punct	_	_	_
+
+12	esedila	esedilo	VERB	Vmpp-dm	Aspect=Imp|Gender=Masc|Number=Dual|VerbForm=Part	1	parataxis	_	_	_
+
+13	Igor	Igor	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_	_
+
+14	Zabel	zabeti	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	flat:name	_	_	_
+
+15	.	.	PUNCT	Z	_	12	punct	_	_	_
+
+16	.	.	PUNCT	Z	_	12	punct	_	_	_
+
+17	.	.	PUNCT	Z	_	18	punct	_	_	_
+
+18	[et	eeto	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_	_
+
+19	al.	al.	X	Y	Abbr=Yes	18	flat	_	_	_
+
+20	]	]	PUNCT	Z	_	18	punct	_	_	_
+
+21	;	;	PUNCT	Z	_	22	punct	_	_	_
+
+22	prevodi	prevod	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	13	appos	_	_	_
+
+23	Amidas	Amidas	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	22	nmod	_	_	_
+
+24	;	;	PUNCT	Z	_	25	punct	_	_	_
+
+25	fotografije	fotografija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	22	conj	_	_	_
+
+26	fotoarhiv	fotoarhiv	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	25	nmod	_	_	_
+
+27	Moderne	moderna	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_	_
+
+28	galerije	galerija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_	_
+
+29	.	.	PUNCT	Z	_	22	punct	_	_	_
+
+30	.	.	PUNCT	Z	_	25	punct	_	_	_
+
+31	.	.	PUNCT	Z	_	32	punct	_	_	_
+
+32	et	et	X	Xf	Foreign=Yes	28	appos	_	_	_
+
+33	al.	al.	X	Y	Abbr=Yes	32	flat:foreign	_	_	_
+
+34	]	]	PUNCT	Z	_	32	punct	_	_	_
+
+35	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038784.txt
+# text = - Ljubljana: Moderna galerija, 2002( Kranj: Gorenjski tisk).
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	parataxis	_	_	_
+
+3	:	:	PUNCT	Z	_	2	punct	_	_	_
+
+4	Moderna	Moderna	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	galerija	galerija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	2002	2002	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+8	(	(	PUNCT	Z	_	9	punct	_	_	_
+
+9	Kranj	Kranj	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_	_
+
+10	:	:	PUNCT	Z	_	12	punct	_	_	_
+
+11	Gorenjski	gorenjski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_	_
+
+12	tisk	tisk	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_	_
+
+13	)	)	PUNCT	Z	_	12	punct	_	_	_
+
+14	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038784.txt
+# text = - 239 str.: ilustr.
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	239	239	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+3	str.	str.	X	Y	Abbr=Yes		root	_	_	_
+
+4	:	:	PUNCT	Z	_	5	punct	_	_	_
+
+5	ilustr	ilustr	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_	_
+
+6	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038784.txt
+# text = ; 30 cm.-( Zbirke Moderne galerije)
+1	;	;	PUNCT	Z	_	2	punct	_	_	_
+
+2	30	30	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+3	cm.	cm.	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+4	-	-	PUNCT	Z	_	6	punct	_	_	_
+
+5	(	(	PUNCT	Z	_	6	punct	_	_	_
+
+6	Zbirke	zbirka	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur		root	_	_	_
+
+7	Moderne	moderna	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	galerije	galerija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+9	)	)	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038784.txt
+# text = Mize in omizja: dela iz zbirk Moderne galerije = Tables and people around them: Works from the Museum of Modern Art Collections
+1	Mize	Mize	NOUN	Ncfpn	Case=Acc|Gender=Fem|Number=Plur	5	nmod	_	_	_
+
+2	in	in	CCONJ	Cc	_	3	cc	_	_	_
+
+3	omizja	omizje	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	1	conj	_	_	_
+
+4	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+5	dela	delo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur		root	_	_	_
+
+6	iz	iz	ADP	Sg	Case=Gen	7	case	_	_	_
+
+7	zbirk	zbirka	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_	_
+
+8	Moderne	moderna	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_	_
+
+9	galerije	galerija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+10	=	=	X	Xf	Foreign=Yes	9	nmod	_	_	_
+
+11	Tables	Tables	X	Xf	Foreign=Yes	10	flat:foreign	_	_	_
+
+12	and	and	X	Xf	Foreign=Yes	10	flat:foreign	_	_	_
+
+13	people	peopel	X	Xf	Foreign=Yes	10	flat:foreign	_	_	_
+
+14	around	arounda	X	Xf	Foreign=Yes	10	flat:foreign	_	_	_
+
+15	them	thema	X	Xf	Foreign=Yes	10	flat:foreign	_	_	_
+
+16	:	:	PUNCT	Z	_	17	punct	_	_	_
+
+17	Works	Works	X	Xf	Foreign=Yes	10	flat:foreign	_	_	_
+
+18	from	fr	X	Xf	Foreign=Yes	10	flat:foreign	_	_	_
+
+19	the	the	X	Xf	Foreign=Yes	10	flat:foreign	_	_	_
+
+20	Museum	Museum	X	Xf	Foreign=Yes	10	flat:foreign	_	_	_
+
+21	of	of	X	Xf	Foreign=Yes	10	flat:foreign	_	_	_
+
+22	Modern	Modern	X	Xf	Foreign=Yes	10	flat:foreign	_	_	_
+
+23	Art	art	X	Xf	Foreign=Yes	10	flat:foreign	_	_	_
+
+24	Collections	collections	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038784.txt
+# text = [besedilo Sam Gathercole; prevodi Tadej Reissner, Tamara Soban; foto Dejan Habicht, Patrick Ward].
+1	[besedilo	rbesedilo	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	Sam	sam	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	1	obl	_	_	_
+
+3	Gathercole	Gathercole	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_	_
+
+4	;	;	PUNCT	Z	_	5	punct	_	_	_
+
+5	prevodi	prevod	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	1	parataxis	_	_	_
+
+6	Tadej	Tadej	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+7	Reissner	reissner	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	_	_
+
+8	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+9	Tamara	Tamara	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_	_
+
+10	Soban	Soban	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	9	flat:name	_	_	_
+
+11	;	;	PUNCT	Z	_	12	punct	_	_	_
+
+12	foto	foto	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+13	Dejan	Dejan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+14	Habicht	Habicht	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	flat:name	_	_	_
+
+15	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+16	Patrick	Patrick	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_	_
+
+17	Ward]	Ward]	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	16	flat:name	_	_	_
+
+18	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038784.txt
+# text = - Ljubljana: Moderna galerija, 2007( Ljubljana: Studio print).
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	parataxis	_	_	_
+
+3	:	:	PUNCT	Z	_	2	punct	_	_	_
+
+4	Moderna	Moderna	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	galerija	galerija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	2007	2007	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+8	(	(	PUNCT	Z	_	9	punct	_	_	_
+
+9	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	_	_
+
+10	:	:	PUNCT	Z	_	9	punct	_	_	_
+
+11	Studio	studio	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+12	print	print	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_	_
+
+13	)	)	PUNCT	Z	_	12	punct	_	_	_
+
+14	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038784.txt
+# text = - [10] str.: ilustr.
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	[10]	[10]	X	Y	_		root	_	_	_
+
+3	str.	str.	X	Y	Abbr=Yes	2	flat:foreign	_	_	_
+
+4	:	:	PUNCT	Z	_	2	punct	_	_	_
+
+5	ilustr	ilustr	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_	_
+
+6	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038784.txt
+# text = ; 24 cm
+1	;	;	PUNCT	Z	_	3	punct	_	_	_
+
+2	24	24	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+3	cm	cm	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038784.txt
+# text = Silvia Kolbowski: Po filmu Hiroshima mon amour = After Hiroshima Mon Amour
+1	Silvia	Silvia	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	Kolbowski	kolbowski	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	flat:name	_	_	_
+
+3	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+4	Po	po	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	filmu	film	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+6	Hiroshima	Hiroshima	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+7	mon	mon	X	Xf	Foreign=Yes	6	flat:foreign	_	_	_
+
+8	amour	amour	X	Xf	Foreign=Yes	7	flat:foreign	_	_	_
+
+9	=	=	X	Xf	Foreign=Yes	7	flat:foreign	_	_	_
+
+10	After	After	X	Xf	Foreign=Yes	7	flat:foreign	_	_	_
+
+11	Hiroshima	Hiroshima	X	Xf	Foreign=Yes	7	flat:foreign	_	_	_
+
+12	Mon	mon	X	Xf	Foreign=Yes	7	flat:foreign	_	_	_
+
+13	Amour	amour	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	flat:foreign	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038784.txt
+# text = TEHNIČNA SREDNJA ŠOLA, PROFESOR, 1926- 45, LJUBLJANA, SLOVENIJA
+1	TEHNIČNA	tehničen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+2	SREDNJA	srednja	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	ŠOLA	šola	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	PROFESOR	profesor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	1926	1926	NUM	Mdc	NumForm=Digit|NumType=Card	5	conj	_	_	_
+
+8	-	-	PUNCT	Z	_	9	punct	_	_	_
+
+9	45	45	NUM	Mdc	NumForm=Digit|NumType=Card	5	conj	_	_	_
+
+10	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+11	LJUBLJANA	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_	_
+
+12	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+13	SLOVENIJA	slovenija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	11	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038784.txt
+# text = MUZEJ, DIREKTOR, MODERNA GAL.
+1	MUZEJ	muzej	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	DIREKTOR	direktor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+4	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+5	MODERNA	Moderna	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	GAL	GAL	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_	_
+
+7	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038784.txt
+# text = 1948- 49, LJUBLJANA, SLOVENIJA
+1	1948	1948	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+3	49	49	NUM	Mdc	NumForm=Digit|NumType=Card	1	conj	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	LJUBLJANA	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	SLOVENIJA	slovenija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038784.txt
+# text = PREŠERNOVA NAGRADA, 1950- ZA OLJE AVTOPORTRET, SLOVENIJA
+1	PREŠERNOVA	prešernova	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	NAGRADA	nagrada	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	1950	1950	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+5	-	-	PUNCT	Z	_	4	punct	_	_	_
+
+6	ZA	za	ADP	Sa	Case=Acc	7	case	_	_	_
+
+7	OLJE	olje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+8	AVTOPORTRET	avtoportret	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+9	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+10	SLOVENIJA	slovenija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	8	appos	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038784.txt
+# text = NATEČAJ, 2002: VEL. NGR.2.
+1	NATEČAJ	natečaj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	2002	2002	NUM	Mdc	NumForm=Digit|NumType=Card	1	conj	_	_	_
+
+4	:	:	PUNCT	Z	_	3	punct	_	_	_
+
+5	VEL	vel	X	X	_	1	appos	_	_	_
+
+6	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+7	NGR.2	NGR.2	X	Y	Abbr=Yes	5	flat:foreign	_	_	_
+
+8	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038784.txt
+# text = BIEN.
+1	BIEN	bien	X	Xf	Foreign=Yes		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038784.txt
+# text = MALE SLIKE, LJUTOMER, SLOVENIJA
+1	MALE	mali	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_	_
+
+2	SLIKE	slika	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur		root	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	LJUTOMER	ljutomer	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+5	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+6	SLOVENIJA	slovenija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_	_
+

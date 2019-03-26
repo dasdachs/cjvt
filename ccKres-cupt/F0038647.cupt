@@ -1,0 +1,345 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0038647.txt
+# text = 12. mar.
+1	12.	12.	NUM	Mdo	NumForm=Digit|NumType=Ord		root	_	_	_
+
+2	mar	mar	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+3	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038647.txt
+# text = — 13. mar., 09.00, Konferenčne dvorane M
+1	—	—	PUNCT	Z	_	2	punct	_	_	_
+
+2	13.	13.	NUM	Mdo	NumForm=Digit|NumType=Ord		root	_	_	_
+
+3	mar.	mar.	X	Y	Abbr=Yes	2	punct	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	09.00	09.00	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+6	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+7	Konferenčne	konferenčen	ADJ	Agpfsn	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	conj	_	_	_
+
+8	dvorane	dvorana	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	2	appos	_	_	_
+
+9	M	m	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038647.txt
+# text = Lokacija: Linhartova, Kosovelova dvorana
+1	Lokacija	Lokacija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	parataxis	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Linhartova	Linhartov	ADJ	Aspfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	6	amod	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	Kosovelova	Kosovelov	ADJ	Aspfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	3	conj	_	_	_
+
+6	dvorana	dvorana	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038647.txt
+# text = Prireja: Mestna občina Ljubljana, Javna agencija za knjigo RS, Cankarjev dom
+1	Prireja	Prirej	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Mestna	mesten	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	občina	občina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_	_
+
+5	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+6	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+7	Javna	Javna	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	agencija	agencija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	appos	_	_	_
+
+9	za	za	ADP	Sa	Case=Acc	10	case	_	_	_
+
+10	knjigo	knjiga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+11	RS	RS	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	10	nmod	_	_	_
+
+12	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+13	Cankarjev	Cankarjev	ADJ	Aspmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	14	amod	_	_	_
+
+14	dom	dom	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038647.txt
+# text = Debate o demokraciji se ponavadi začnejo z navdušenostjo nad Grki, se zmračijo z meditacijo o Tocquevillu in se na horizontu končajo s čemerno Churchillovo ugotovitvijo(« Democracy is the worst form of government, except of all the others that have been tried from time to time»).
+1	Debate	debati	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_	_
+
+2	o	o	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	demokraciji	demokracija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	6	expl	_	_	_
+
+5	ponavadi	ponavadi	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+6	začnejo	začeti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	z	z	ADP	Si	Case=Ins	8	case	_	_	_
+
+8	navdušenostjo	navdušenost	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_	_
+
+9	nad	nad	ADP	Si	Case=Ins	10	case	_	_	_
+
+10	Grki	Grki	PROPN	Npmpi	Case=Ins|Gender=Masc|Number=Plur	8	nmod	_	_	_
+
+11	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+12	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	13	expl	_	_	_
+
+13	zmračijo	zmračiti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_	_
+
+14	z	z	ADP	Si	Case=Ins	15	case	_	_	_
+
+15	meditacijo	meditacija	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	13	obl	_	_	_
+
+16	o	o	ADP	Sl	Case=Loc	17	case	_	_	_
+
+17	Tocquevillu	Tocquevill	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+18	in	in	CCONJ	Cc	_	22	cc	_	_	_
+
+19	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	22	expl	_	_	_
+
+20	na	na	ADP	Sl	Case=Loc	21	case	_	_	_
+
+21	horizontu	horizont	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	22	obl	_	_	_
+
+22	končajo	končati	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_	_
+
+23	s	z	ADP	Si	Case=Ins	26	case	_	_	_
+
+24	čemerno	čemerno	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_	_
+
+25	Churchillovo	Churchillov	ADJ	Aspfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	26	amod	_	_	_
+
+26	ugotovitvijo	ugotovitev	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	22	obl	_	_	_
+
+27	(	(	PUNCT	Z	_	29	punct	_	_	_
+
+28	«	«	PUNCT	Z	_	29	punct	_	_	_
+
+29	Democracy	Democracy	X	Xf	Foreign=Yes	26	appos	_	_	_
+
+30	is	is	X	Xf	Foreign=Yes	29	flat:foreign	_	_	_
+
+31	the	the	X	Xf	Foreign=Yes	29	flat:foreign	_	_	_
+
+32	worst	worst	X	Xf	Foreign=Yes	29	flat:foreign	_	_	_
+
+33	form	forma	X	Xf	Foreign=Yes	29	flat:foreign	_	_	_
+
+34	of	of	X	Xf	Foreign=Yes	29	flat:foreign	_	_	_
+
+35	government	government	X	Xf	Foreign=Yes	29	flat:foreign	_	_	_
+
+36	,	,	PUNCT	Z	_	37	punct	_	_	_
+
+37	except	except	X	Xf	Foreign=Yes	34	flat:foreign	_	_	_
+
+38	of	of	X	Xf	Foreign=Yes	37	flat:foreign	_	_	_
+
+39	all	all	X	Xf	Foreign=Yes	37	flat:foreign	_	_	_
+
+40	the	the	X	Xf	Foreign=Yes	37	flat:foreign	_	_	_
+
+41	others	others	X	Xf	Foreign=Yes	37	flat:foreign	_	_	_
+
+42	that	that	X	Xf	Foreign=Yes	37	flat:foreign	_	_	_
+
+43	have	hava	X	Xf	Foreign=Yes	37	flat:foreign	_	_	_
+
+44	been	been	X	Xf	Foreign=Yes	37	flat:foreign	_	_	_
+
+45	tried	tried	X	Xf	Foreign=Yes	37	flat:foreign	_	_	_
+
+46	from	fr	X	Xf	Foreign=Yes	47	nmod	_	_	_
+
+47	time	tim	X	Xf	Foreign=Yes	45	nmod	_	_	_
+
+48	to	ta	X	Xf	Foreign=Yes	47	nmod	_	_	_
+
+49	time	tim	X	Xf	Foreign=Yes	47	nmod	_	_	_
+
+50	»	»	PUNCT	Z	_	49	punct	_	_	_
+
+51	)	)	PUNCT	Z	_	49	punct	_	_	_
+
+52	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038647.txt
+# text = Zakaj demokracija?
+1	Zakaj	zakaj	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+2	demokracija	demokracija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+3	?	?	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038647.txt
+# text = Enostavno zato, ker medtem ko razmišljamo o bilanci dvajsetega stoletja o njegovih diktaturah in totalitarizmih, včasih pozabimo, da je življenje Evropejca enaindvajsetega stoletja življenje demokratičnega državljana z demokratičnimi vrednotami, ki ga okvirjajo demokratična načela.
+1	Enostavno	enostavno	ADV	Rgp	Degree=Pos	19	advmod	_	_	_
+
+2	zato	zato	ADV	Rgp	Degree=Pos	7	mark	_	_	_
+
+3	,	,	PUNCT	Z	_	2	punct	_	_	_
+
+4	ker	ker	SCONJ	Cs	_	2	fixed	_	_	_
+
+5	medtem	medtem	ADV	Rgp	Degree=Pos	7	mark	_	_	_
+
+6	ko	ko	SCONJ	Cs	_	5	fixed	_	_	_
+
+7	razmišljamo	razmišljati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	advcl	_	_	_
+
+8	o	o	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	bilanci	bilanec	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_	_
+
+10	dvajsetega	dvajset	ADJ	Mlonsg	Case=Gen|Gender=Neut|NumType=Ord|Number=Sing	11	amod	_	_	_
+
+11	stoletja	stoletje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_	_
+
+12	o	o	ADP	Sl	Case=Loc	14	case	_	_	_
+
+13	njegovih	njegov	DET	Ps3fplsm	Case=Loc|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_	_
+
+14	diktaturah	diktatura	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	11	nmod	_	_	_
+
+15	in	in	CCONJ	Cc	_	16	cc	_	_	_
+
+16	totalitarizmih	totalitarizem	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	14	conj	_	_	_
+
+17	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+18	včasih	včasih	ADV	Rgp	Degree=Pos	19	advmod	_	_	_
+
+19	pozabimo	pozabiti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+20	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+21	da	da	SCONJ	Cs	_	27	mark	_	_	_
+
+22	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	27	cop	_	_	_
+
+23	življenje	življenje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	27	nsubj	_	_	_
+
+24	Evropejca	Evropejec	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_	_
+
+25	enaindvajsetega	enaindvajseg	ADJ	Mlonsg	Case=Gen|Gender=Neut|NumType=Ord|Number=Sing	26	amod	_	_	_
+
+26	stoletja	stoletje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_	_
+
+27	življenje	življenje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	19	ccomp	_	_	_
+
+28	demokratičnega	demokratičen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_	_
+
+29	državljana	državljan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_	_
+
+30	z	z	ADP	Si	Case=Ins	32	case	_	_	_
+
+31	demokratičnimi	demokratičen	ADJ	Agpfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	32	amod	_	_	_
+
+32	vrednotami	vrednota	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	29	nmod	_	_	_
+
+33	,	,	PUNCT	Z	_	36	punct	_	_	_
+
+34	ki	ki	SCONJ	Cs	_	36	mark	_	_	_
+
+35	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	36	obj	_	_	_
+
+36	okvirjajo	okvirjati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	acl	_	_	_
+
+37	demokratična	demokratičen	ADJ	Agpnpn	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	38	amod	_	_	_
+
+38	načela	načelo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	36	nsubj	_	_	_
+
+39	.	.	PUNCT	Z	_	19	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038647.txt
+# text = Dovolj je, da se vprašamo o njeni navidezni samoumevnosti, da ideja demokracije postane prizma, kjer se lomijo bistvene teme kot so talilni lonec evropskih republik, evropska politika priseljevanja ali pa prihodnost Bližjega Vzhoda.
+1	Dovolj	dovolj	DET	Rgp	PronType=Ind	2	advmod	_	_	_
+
+2	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+4	da	da	SCONJ	Cs	_	6	mark	_	_	_
+
+5	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	6	expl	_	_	_
+
+6	vprašamo	vprašati	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	csubj	_	_	_
+
+7	o	o	ADP	Sl	Case=Loc	10	case	_	_	_
+
+8	njeni	njen	DET	Ps3fslsf	Case=Loc|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_	_
+
+9	navidezni	navidezen	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_	_
+
+10	samoumevnosti	samoumevnost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_	_
+
+11	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+12	da	da	SCONJ	Cs	_	15	mark	_	_	_
+
+13	ideja	ideja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_	_
+
+14	demokracije	demokracija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_	_
+
+15	postane	postati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_	_
+
+16	prizma	prizma	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	15	xcomp	_	_	_
+
+17	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+18	kjer	kjer	SCONJ	Cs	_	20	mark	_	_	_
+
+19	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	20	expl	_	_	_
+
+20	lomijo	lomiti	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl	_	_	_
+
+21	bistvene	bistven	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	_	_
+
+22	teme	tema	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	20	nsubj	_	_	_
+
+23	kot	kot	SCONJ	Cs	_	26	mark	_	_	_
+
+24	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	26	cop	_	_	_
+
+25	talilni	talilen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_	_
+
+26	lonec	lonec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	22	acl	_	_	_
+
+27	evropskih	evropski	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	_	_
+
+28	republik	republika	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	_	_
+
+29	,	,	PUNCT	Z	_	31	punct	_	_	_
+
+30	evropska	evropski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_	_
+
+31	politika	politika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	26	conj	_	_	_
+
+32	priseljevanja	priseljevanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	_	_
+
+33	ali	ali	CCONJ	Cc	_	35	cc	_	_	_
+
+34	pa	pa	CCONJ	Cc	_	26	advmod	_	_	_
+
+35	prihodnost	prihodnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	26	conj	_	_	_
+
+36	Bližjega	blizek	ADJ	Agcmsg	Case=Gen|Degree=Cmp|Gender=Masc|Number=Sing	37	amod	_	_	_
+
+37	Vzhoda	vzhod	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	_	_
+
+38	.	.	PUNCT	Z	_	2	punct	_	_	_
+

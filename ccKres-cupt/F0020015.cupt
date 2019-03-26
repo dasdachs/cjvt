@@ -1,0 +1,131 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0020015.txt
+# text = Zagreb( od našega sodelavca)
+1	Zagreb	Zagreb	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	(	(	PUNCT	Z	_	5	punct	_	_	_
+
+3	od	od	ADP	Sg	Case=Gen	5	case	_	_	_
+
+4	našega	naš	DET	Ps1msgp	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det	_	_	_
+
+5	sodelavca	sodelavec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	appos	_	_	_
+
+6	)	)	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0020015.txt
+# text = Ogled železnice: ZPM organizira obisk mariborske železniške postaje, kjer si bodo mladostniki ogledali lokomotive in se spoznali z delovanjem kretnic.
+1	Ogled	ogled	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	parataxis	_	_	_
+
+2	železnice	železnica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+4	ZPM	ZPM	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+5	organizira	organizirati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	obisk	obisk	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_	_
+
+7	mariborske	mariborski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_	_
+
+8	železniške	železniški	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_	_
+
+9	postaje	postaja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+10	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+11	kjer	kjer	SCONJ	Cs	_	15	mark	_	_	_
+
+12	si	se	PRON	Px---d--y	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	15	expl	_	_	_
+
+13	bodo	biti	AUX	Va-f3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	15	aux	_	_	_
+
+14	mladostniki	mladostnik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_	_
+
+15	ogledali	ogledati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	9	acl	_	_	_
+
+16	lokomotive	lokomotiv	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_	_
+
+17	in	in	CCONJ	Cc	_	19	cc	_	_	_
+
+18	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	19	expl	_	_	_
+
+19	spoznali	spoznati	VERB	Vmbp-pm	Gender=Masc|Number=Plur|VerbForm=Part	15	conj	_	_	_
+
+20	z	z	ADP	Si	Case=Ins	21	case	_	_	_
+
+21	delovanjem	delovanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	19	obl	_	_	_
+
+22	kretnic	kretnica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	_	_
+
+23	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0020015.txt
+# text = Odhod bo ob 9.45 izpred OŠ Martina Konšaka.
+1	Odhod	odhod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	1	cop	_	_	_
+
+3	ob	ob	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	9.45	9.45	NUM	Mdc	NumForm=Digit|NumType=Card	1	advmod	_	_	_
+
+5	izpred	izpred	ADP	Sg	Case=Gen	6	case	_	_	_
+
+6	OŠ	OŠ	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	1	obl	_	_	_
+
+7	Martina	Martin	PROPN	Npmsg	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+8	Konšaka	Konšak	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	flat:name	_	_	_
+
+9	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0020015.txt
+# text = - To pa zveni zelo primorsko.
+1	-	-	PUNCT	Z	_	4	punct	_	_	_
+
+2	To	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_	_
+
+3	pa	pa	CCONJ	Cc	_	4	advmod	_	_	_
+
+4	zveni	zveneti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	zelo	zelo	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+6	primorsko	primorski	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	xcomp	_	_	_
+
+7	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0020015.txt
+# text = Se boste srečali kje ob morju ali spet na Pohorju?
+1	Se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	3	expl	_	_	_
+
+2	boste	biti	AUX	Va-f2p-n	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin	3	aux	_	_	_
+
+3	srečali	srečati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+4	kje	kje	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+5	ob	ob	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	morju	morje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_	_
+
+7	ali	ali	CCONJ	Cc	_	10	cc	_	_	_
+
+8	spet	spet	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+9	na	na	ADP	Sl	Case=Loc	10	case	_	_	_
+
+10	Pohorju	Pohorje	PROPN	Npnsl	Case=Loc|Gender=Neut|Number=Sing	6	conj	_	_	_
+
+11	?	?	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0020015.txt
+# text = 10.00 TV prodaja
+1	10.00	10.00	NUM	Mdc	NumForm=Digit|NumType=Card	3	dep	_	_	_
+
+2	TV	TV	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+3	prodaja	prodajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+

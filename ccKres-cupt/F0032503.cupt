@@ -1,0 +1,79 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0032503.txt
+# text = Seattle( 2)- Houston( 3) 1:2
+1	Seattle	Seattle	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	(	(	PUNCT	Z	_	3	punct	_	_	_
+
+3	2	2	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+4	)	)	PUNCT	Z	_	3	punct	_	_	_
+
+5	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+6	Houston	Houston	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+7	(	(	PUNCT	Z	_	8	punct	_	_	_
+
+8	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+9	)	)	PUNCT	Z	_	8	punct	_	_	_
+
+10	1:2	1:2	NUM	Mdc	NumForm=Digit|NumType=Card	8	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0032503.txt
+# text = Petkratni svetovni prvaki Brazilci so se komaj izognili porazu s Sevillo, saj jim je šele avtogol branilca Pabla Alfara na štadionu Sanchez Pizjuan prinesel remi.
+1	Petkratni	petkraten	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_	_
+
+2	svetovni	svetoven	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_	_
+
+3	prvaki	prvak	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_	_
+
+4	Brazilci	Brazilec	PROPN	Npmpn	Case=Nom|Gender=Masc|Number=Plur	3	nmod	_	_	_
+
+5	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_	_
+
+6	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	8	expl	_	_	_
+
+7	komaj	komaj	ADV	Rgp	Degree=Pos	8	advmod	_	_	_
+
+8	izognili	izogniti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+9	porazu	poraz	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	8	iobj	_	_	_
+
+10	s	z	ADP	Si	Case=Ins	11	case	_	_	_
+
+11	Sevillo	sevillo	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+12	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+13	saj	saj	CCONJ	Cc	_	25	cc	_	_	_
+
+14	jim	on	PRON	Pp3mpd--y	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	25	iobj	_	_	_
+
+15	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	25	aux	_	_	_
+
+16	šele	šele	PART	Q	_	25	advmod	_	_	_
+
+17	avtogol	avtogol	NOUN	Ncmsn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_	_
+
+18	branilca	branilec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_	_
+
+19	Pabla	Pabel	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_	_
+
+20	Alfara	Alfara	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	19	flat:name	_	_	_
+
+21	na	na	ADP	Sl	Case=Loc	22	case	_	_	_
+
+22	štadionu	štadion	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	25	obl	_	_	_
+
+23	Sanchez	Sanchez	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_	_
+
+24	Pizjuan	Pizjuan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	23	flat:name	_	_	_
+
+25	prinesel	prinesti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	8	conj	_	_	_
+
+26	remi	rema	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_	_
+
+27	.	.	PUNCT	Z	_	8	punct	_	_	_
+

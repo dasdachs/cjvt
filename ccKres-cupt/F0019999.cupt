@@ -1,0 +1,185 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0019999.txt
+# text = 1. člen
+1	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0019999.txt
+# text = Organi, pristojni za uresničevanje sporazuma so:
+1	Organi	Organi	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	pristojni	pristojen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	1	amod	_	_	_
+
+4	za	za	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	uresničevanje	uresničevanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_	_
+
+6	sporazuma	sporazum	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+7	so	biti	VERB	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+8	:	:	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0019999.txt
+# text = Ministrstvo za promet in zveze Prešernova 23 61000 Ljubljana Slovenija Tel:( 386) 61 125 62 56 Fax:( 386) 61 125 73 28
+1	Ministrstvo	ministrstvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_	_
+
+2	za	za	ADP	Sa	Case=Acc	3	case	_	_	_
+
+3	promet	promet	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	in	in	CCONJ	Cc	_	5	cc	_	_	_
+
+5	zveze	zveza	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	3	conj	_	_	_
+
+6	Prešernova	prešernova	ADJ	Aspfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	9	amod	_	_	_
+
+7	23	23	NUM	Mdc	NumForm=Digit|NumType=Card	9	nummod	_	_	_
+
+8	61000	61000	NUM	Mdc	NumForm=Digit|NumType=Card	7	flat	_	_	_
+
+9	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+10	Slovenija	Slovenija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+11	Tel	Tel	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+12	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+13	(	(	PUNCT	Z	_	14	punct	_	_	_
+
+14	386	386	NUM	Mdc	NumForm=Digit|NumType=Card	10	nummod	_	_	_
+
+15	)	)	PUNCT	Z	_	14	punct	_	_	_
+
+16	61	61	NUM	Mdc	NumForm=Digit|NumType=Card	14	conj	_	_	_
+
+17	125	125	NUM	Mdc	NumForm=Digit|NumType=Card	18	flat	_	_	_
+
+18	62	62	NUM	Mdc	NumForm=Digit|NumType=Card	16	flat	_	_	_
+
+19	56	56	NUM	Mdc	NumForm=Digit|NumType=Card	20	nummod	_	_	_
+
+20	Fax	Fax	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	18	nmod	_	_	_
+
+21	:	:	PUNCT	Z	_	20	punct	_	_	_
+
+22	(	(	PUNCT	Z	_	23	punct	_	_	_
+
+23	386	386	NUM	Mdc	NumForm=Digit|NumType=Card	20	nummod	_	_	_
+
+24	)	)	PUNCT	Z	_	23	punct	_	_	_
+
+25	61	61	NUM	Mdc	NumForm=Digit|NumType=Card	23	conj	_	_	_
+
+26	125	125	NUM	Mdc	NumForm=Digit|NumType=Card	23	conj	_	_	_
+
+27	73	73	NUM	Mdc	NumForm=Digit|NumType=Card	26	conj	_	_	_
+
+28	28	28	NUM	Mdc	NumForm=Digit|NumType=Card	27	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0019999.txt
+# text = PROTOCOL
+1	PROTOCOL	protocol	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0019999.txt
+# text = a) according to Article 2, 4, 7, 12 and 14:
+1	a	a	X	Xf	Foreign=Yes		root	_	_	_
+
+2	)	)	PUNCT	Z	_	1	punct	_	_	_
+
+3	according	according	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+4	to	ta	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+5	Article	Article	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+6	2	2	NUM	Mdc	NumForm=Digit|NumType=Card	1	flat:foreign	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	4	4	NUM	Mdc	NumForm=Digit|NumType=Card	6	conj	_	_	_
+
+9	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+10	7	7	NUM	Mdc	NumForm=Digit|NumType=Card	8	conj	_	_	_
+
+11	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+12	12	12	NUM	Mdc	NumForm=Digit|NumType=Card	8	conj	_	_	_
+
+13	and	and	X	Xf	Foreign=Yes	12	punct	_	_	_
+
+14	14:	14:	NUM	Mdc	NumForm=Digit|NumType=Card	12	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0019999.txt
+# text = Ministrstvo za promet in zveze Prešernova 23 61000 Ljubljana Slovenija Tel:( 386) 61 125 62 56 Fax:( 386) 61 125 73 28
+1	Ministrstvo	ministrstvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_	_
+
+2	za	za	ADP	Sa	Case=Acc	3	case	_	_	_
+
+3	promet	promet	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	in	in	CCONJ	Cc	_	5	cc	_	_	_
+
+5	zveze	zveza	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	3	conj	_	_	_
+
+6	Prešernova	prešernova	ADJ	Aspfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	9	amod	_	_	_
+
+7	23	23	NUM	Mdc	NumForm=Digit|NumType=Card	9	nummod	_	_	_
+
+8	61000	61000	NUM	Mdc	NumForm=Digit|NumType=Card	7	flat	_	_	_
+
+9	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+10	Slovenija	Slovenija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+11	Tel	Tel	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+12	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+13	(	(	PUNCT	Z	_	14	punct	_	_	_
+
+14	386	386	NUM	Mdc	NumForm=Digit|NumType=Card	10	nummod	_	_	_
+
+15	)	)	PUNCT	Z	_	14	punct	_	_	_
+
+16	61	61	NUM	Mdc	NumForm=Digit|NumType=Card	14	conj	_	_	_
+
+17	125	125	NUM	Mdc	NumForm=Digit|NumType=Card	18	flat	_	_	_
+
+18	62	62	NUM	Mdc	NumForm=Digit|NumType=Card	16	flat	_	_	_
+
+19	56	56	NUM	Mdc	NumForm=Digit|NumType=Card	20	nummod	_	_	_
+
+20	Fax	Fax	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	18	nmod	_	_	_
+
+21	:	:	PUNCT	Z	_	20	punct	_	_	_
+
+22	(	(	PUNCT	Z	_	23	punct	_	_	_
+
+23	386	386	NUM	Mdc	NumForm=Digit|NumType=Card	20	nummod	_	_	_
+
+24	)	)	PUNCT	Z	_	23	punct	_	_	_
+
+25	61	61	NUM	Mdc	NumForm=Digit|NumType=Card	23	conj	_	_	_
+
+26	125	125	NUM	Mdc	NumForm=Digit|NumType=Card	23	conj	_	_	_
+
+27	73	73	NUM	Mdc	NumForm=Digit|NumType=Card	26	conj	_	_	_
+
+28	28	28	NUM	Mdc	NumForm=Digit|NumType=Card	27	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0019999.txt
+# text = for the Danish side
+1	for	for	X	Xf	Foreign=Yes		root	_	_	_
+
+2	the	the	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+3	Danish	Danish	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+4	side	sideti	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+

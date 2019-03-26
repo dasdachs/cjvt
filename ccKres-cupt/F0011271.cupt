@@ -1,0 +1,245 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0011271.txt
+# text = Milan Pekič
+1	Milan	Milan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Pekič	Pekič	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011271.txt
+# text = Pokopališče Pobrežje: Štefan Stožer- ob 13.45; Marija Kopač- ob 14.30; Marija Rakuša- ob 15.
+1	Pokopališče	pokopališče	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+2	Pobrežje	pobrežje	PROPN	Npnsn	Case=Nom|Gender=Neut|Number=Sing	1	nmod	_	_	_
+
+3	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+4	Štefan	Štefan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+5	Stožer	Stožer	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	_	_
+
+6	-	-	PUNCT	Z	_	1	punct	_	_	_
+
+7	ob	ob	ADP	Sl	Case=Loc	8	case	_	_	_
+
+8	13.45	13.45	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+9	;	;	PUNCT	Z	_	1	punct	_	_	_
+
+10	Marija	Marija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+11	Kopač	Kopač	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	10	flat:name	_	_	_
+
+12	-	-	PUNCT	Z	_	10	punct	_	_	_
+
+13	ob	ob	ADP	Sl	Case=Loc	14	case	_	_	_
+
+14	14.30	14.30	NUM	Mdc	NumForm=Digit|NumType=Card	10	nummod	_	_	_
+
+15	;	;	PUNCT	Z	_	14	punct	_	_	_
+
+16	Marija	Marija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	10	conj	_	_	_
+
+17	Rakuša	Rakuša	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	16	flat:name	_	_	_
+
+18	-	-	PUNCT	Z	_	20	punct	_	_	_
+
+19	ob	ob	ADP	Sl	Case=Loc	20	case	_	_	_
+
+20	15	15	NUM	Mdc	NumForm=Digit|NumType=Card	16	nummod	_	_	_
+
+21	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011271.txt
+# text = 15.
+1	15	15	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011271.txt
+# text = Pogrebi v Mariboru, v četrtek, 16. maja:
+1	Pogrebi	Pogrebi	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur		root	_	_	_
+
+2	v	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	Mariboru	Maribor	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+5	v	v	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	četrtek	četrtek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	appos	_	_	_
+
+7	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+8	16.	16.	NUM	Mdo	NumForm=Digit|NumType=Ord	9	nummod	_	_	_
+
+9	maja	maj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	appos	_	_	_
+
+10	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011271.txt
+# text = Jernej Miločinski, poslovni tajnik iz Celja:" Prav gotovo ne bi šel nikoli na dopust z letalskim prevoznikom iz katere od afriških držav, saj menim, da so letala iz teh držav slabša in veliko manj varna, kot so denimo ameriška ali evropska letala.
+1	Jernej	Jernej	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	14	parataxis	_	_	_
+
+2	Miločinski	miločinski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	poslovni	posloven	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+5	tajnik	tajnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_	_
+
+6	iz	iz	ADP	Sg	Case=Gen	7	case	_	_	_
+
+7	Celja	celja	PROPN	Npnsg	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_	_
+
+8	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+9	"	"	PUNCT	Z	_	14	punct	_	_	_
+
+10	Prav	prav	PART	Q	_	11	advmod	_	_	_
+
+11	gotovo	gotovo	ADV	Rgp	Degree=Pos	14	advmod	_	_	_
+
+12	ne	ne	PART	Q	Polarity=Neg	14	advmod	_	_	_
+
+13	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	14	aux	_	_	_
+
+14	šel	iti	VERB	Vmbp-sm	Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+15	nikoli	nikoli	ADV	Rgp	Degree=Pos	14	advmod	_	_	_
+
+16	na	na	ADP	Sa	Case=Acc	17	case	_	_	_
+
+17	dopust	dopust	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_	_
+
+18	z	z	ADP	Si	Case=Ins	20	case	_	_	_
+
+19	letalskim	letalski	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_	_
+
+20	prevoznikom	prevoznik	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	17	nmod	_	_	_
+
+21	iz	iz	ADP	Sg	Case=Gen	22	case	_	_	_
+
+22	katere	kateri	DET	Pq-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Int	20	nmod	_	_	_
+
+23	od	od	ADP	Sg	Case=Gen	25	case	_	_	_
+
+24	afriških	afriški	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	_	_
+
+25	držav	država	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_	_
+
+26	,	,	PUNCT	Z	_	28	punct	_	_	_
+
+27	saj	saj	CCONJ	Cc	_	28	cc	_	_	_
+
+28	menim	meniti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	conj	_	_	_
+
+29	,	,	PUNCT	Z	_	36	punct	_	_	_
+
+30	da	da	SCONJ	Cs	_	36	mark	_	_	_
+
+31	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	36	cop	_	_	_
+
+32	letala	letalo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	36	nsubj	_	_	_
+
+33	iz	iz	ADP	Sg	Case=Gen	35	case	_	_	_
+
+34	teh	ta	DET	Pd-fpg	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	35	det	_	_	_
+
+35	držav	država	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	36	obl	_	_	_
+
+36	slabša	slabš	ADJ	Agcnpn	Case=Nom|Degree=Cmp|Gender=Neut|Number=Plur	28	ccomp	_	_	_
+
+37	in	in	CCONJ	Cc	_	40	cc	_	_	_
+
+38	veliko	veliko	DET	Rgp	PronType=Ind	39	advmod	_	_	_
+
+39	manj	manj	DET	Rgc	PronType=Ind	40	advmod	_	_	_
+
+40	varna	varen	ADJ	Agpnpn	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	36	conj	_	_	_
+
+41	,	,	PUNCT	Z	_	44	punct	_	_	_
+
+42	kot	kot	SCONJ	Cs	_	44	mark	_	_	_
+
+43	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	44	aux	_	_	_
+
+44	denimo	deti	VERB	Vmem1p	Aspect=Perf|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	40	advcl	_	_	_
+
+45	ameriška	ameriški	ADJ	Agpnpn	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	48	amod	_	_	_
+
+46	ali	ali	CCONJ	Cc	_	47	cc	_	_	_
+
+47	evropska	evropski	ADJ	Agpnpn	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	45	conj	_	_	_
+
+48	letala	letalo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	44	nsubj	_	_	_
+
+49	.	.	PUNCT	Z	_	14	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011271.txt
+# text = "
+1	"	"	PUNCT	Z	_		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011271.txt
+# text = 17.00 Dosežki, ponovitev
+1	17.00	17.00	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Dosežki	dosežek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur		root	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	ponovitev	ponovitev	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011271.txt
+# text = ARD
+1	ARD	ARD	PUNCT	Z	_		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011271.txt
+# text = 1830- Umrl je Jean- Baptiste Joseph Fourier, francoski matematik in fizik.
+1	1830	1830	NUM	Mdc	NumForm=Digit|NumType=Card	3	dep	_	_	_
+
+2	-	-	PUNCT	Z	_	1	punct	_	_	_
+
+3	Umrl	umreti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	_	_
+
+5	Jean	Jean	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+6	-	-	PUNCT	Z	_	7	punct	_	_	_
+
+7	Baptiste	baptist	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_	_
+
+8	Joseph	Joseph	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	_	_
+
+9	Fourier	Fourier	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	_	_
+
+10	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+11	francoski	francoski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_	_
+
+12	matematik	matematik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_	_
+
+13	in	in	CCONJ	Cc	_	14	cc	_	_	_
+
+14	fizik	fizik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_	_
+
+15	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011271.txt
+# text = Utemeljil je računanje s trigonometričnimi funkcijami.
+1	Utemeljil	utemeljiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	računanje	računanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_	_
+
+4	s	z	ADP	Si	Case=Ins	6	case	_	_	_
+
+5	trigonometričnimi	trigonometričen	ADJ	Agpfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_	_
+
+6	funkcijami	funkcija	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	3	nmod	_	_	_
+
+7	.	.	PUNCT	Z	_	1	punct	_	_	_
+

@@ -1,0 +1,701 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0010016.txt
+# text = ZAKON O USTANOVAH
+1	ZAKON	zakon	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	O	o	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	USTANOVAH	ustanova	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010016.txt
+# text = 1. člen( pojem)
+1	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	(	(	PUNCT	Z	_	4	punct	_	_	_
+
+4	pojem	pojem	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_	_
+
+5	)	)	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010016.txt
+# text = Ustanova po tem zakonu je pravna oseba zasebnega prava.
+1	Ustanova	ustanova	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+
+2	po	po	ADP	Sl	Case=Loc	4	case	_	_	_
+
+3	tem	ta	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_	_
+
+4	zakonu	zakon	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	_	_
+
+6	pravna	praven	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	_
+
+7	oseba	oseba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+8	zasebnega	zaseben	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_	_
+
+9	prava	pravo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_	_
+
+10	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010016.txt
+# text = Namen ustanove je dobrodelen, če je ustanova ustanovljena z namenom pomagati osebam, ki so pomoči potrebne.
+1	Namen	namen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+2	ustanove	ustanova	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_	_
+
+4	dobrodelen	dobrodelen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing		root	_	_	_
+
+5	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+6	če	če	SCONJ	Cs	_	9	mark	_	_	_
+
+7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	cop	_	_	_
+
+8	ustanova	ustanova	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_	_
+
+9	ustanovljena	ustanovljen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	4	advcl	_	_	_
+
+10	z	z	ADP	Si	Case=Ins	11	case	_	_	_
+
+11	namenom	namen	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_	_
+
+12	pomagati	pomagati	VERB	Vmbn	VerbForm=Inf	9	ccomp	_	_	_
+
+13	osebam	oseba	NOUN	Ncfpd	Case=Dat|Gender=Fem|Number=Plur	12	iobj	_	_	_
+
+14	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+15	ki	ki	SCONJ	Cs	_	18	mark	_	_	_
+
+16	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	cop	_	_	_
+
+17	pomoči	pomoč	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	18	obj	_	_	_
+
+18	potrebne	potreben	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	13	acl	_	_	_
+
+19	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010016.txt
+# text = Če akt o ustanovitvi ne vsebuje določb o načinu in postopku imenovanja članov uprave, se to določi s pravili ustanove.
+1	Če	če	SCONJ	Cs	_	6	mark	_	_	_
+
+2	akt	akt	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	_
+
+3	o	o	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	ustanovitvi	ustanovitev	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+5	ne	ne	PART	Q	Polarity=Neg	6	advmod	_	_	_
+
+6	vsebuje	vsebovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_	_
+
+7	določb	določba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	6	obj	_	_	_
+
+8	o	o	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	načinu	način	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+10	in	in	CCONJ	Cc	_	11	cc	_	_	_
+
+11	postopku	postopek	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	9	conj	_	_	_
+
+12	imenovanja	imenovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_	_
+
+13	članov	član	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_	_
+
+14	uprave	uprava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_	_
+
+15	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+16	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	18	expl	_	_	_
+
+17	to	ta	DET	Pd-nsn	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	18	obj	_	_	_
+
+18	določi	določiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+19	s	z	ADP	Si	Case=Ins	20	case	_	_	_
+
+20	pravili	pravilo	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	18	obl	_	_	_
+
+21	ustanove	ustanova	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_	_
+
+22	.	.	PUNCT	Z	_	18	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010016.txt
+# text = 7. člen( pravni posel med živimi)
+1	7.	7.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	(	(	PUNCT	Z	_	5	punct	_	_	_
+
+4	pravni	praven	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+5	posel	posel	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_	_
+
+6	med	med	ADP	Si	Case=Ins	7	case	_	_	_
+
+7	živimi	živ	ADJ	Agpmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_	_
+
+8	)	)	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010016.txt
+# text = Akt o ustanovitvi kot pravni posel med živimi se sestavi v obliki notarskega zapisa.
+1	Akt	akt	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_	_
+
+2	o	o	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	ustanovitvi	ustanovitev	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	kot	kot	SCONJ	Cs	_	6	case	_	_	_
+
+5	pravni	praven	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+6	posel	posel	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	_	_
+
+7	med	med	ADP	Si	Case=Ins	8	case	_	_	_
+
+8	živimi	živ	ADJ	Agpfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_	_
+
+9	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	10	expl	_	_	_
+
+10	sestavi	sestaviti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+11	v	v	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	obliki	oblika	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_	_
+
+13	notarskega	notarski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+14	zapisa	zapis	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+15	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010016.txt
+# text = 8. člen( pravni posel za primer smrti)
+1	8.	8.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	(	(	PUNCT	Z	_	5	punct	_	_	_
+
+4	pravni	praven	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+5	posel	posel	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_	_
+
+6	za	za	ADP	Sa	Case=Acc	8	case	_	_	_
+
+7	primer	primer	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+8	smrti	smrt	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+9	)	)	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010016.txt
+# text = Soglasje k aktu o ustanovitvi izda organ, pristojen za ustanove, v 30 dneh od prejema akta o ustanovitvi.
+1	Soglasje	soglasje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_	_
+
+2	k	k	ADP	Sd	Case=Dat	3	case	_	_	_
+
+3	aktu	akt	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	o	o	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	ustanovitvi	ustanovitev	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+6	izda	izdati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	organ	organ	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	_
+
+8	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+9	pristojen	pristojen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+10	za	za	ADP	Sa	Case=Acc	11	case	_	_	_
+
+11	ustanove	ustanova	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	9	obl	_	_	_
+
+12	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+13	v	v	ADP	Sl	Case=Loc	15	case	_	_	_
+
+14	30	30	NUM	Mdc	NumForm=Digit|NumType=Card	15	nummod	_	_	_
+
+15	dneh	dan	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	17	obl	_	_	_
+
+16	od	od	ADP	Sg	Case=Gen	15	case	_	_	_
+
+17	prejema	prejem	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_	_
+
+18	akta	akto	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	17	obj	_	_	_
+
+19	o	o	ADP	Sl	Case=Loc	20	case	_	_	_
+
+20	ustanovitvi	ustanovitev	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	18	nmod	_	_	_
+
+21	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010016.txt
+# text = Ustanova ima pravila oziroma statut( v nadaljnjem besedilu: pravila), ki jih sprejme ustanovitelj v 30 dneh po izdaji soglasja k aktu o ustanovitvi.
+1	Ustanova	ustanova	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_	_
+
+2	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	pravila	pravilo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_	_
+
+4	oziroma	oziroma	CCONJ	Cc	_	5	cc	_	_	_
+
+5	statut	statut	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	conj	_	_	_
+
+6	(	(	PUNCT	Z	_	9	punct	_	_	_
+
+7	v	v	ADP	Sl	Case=Loc	9	case	_	_	_
+
+8	nadaljnjem	nadaljnji	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_	_
+
+9	besedilu	besedilo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	5	appos	_	_	_
+
+10	:	:	PUNCT	Z	_	11	punct	_	_	_
+
+11	pravila	pravilo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	2	parataxis	_	_	_
+
+12	)	)	PUNCT	Z	_	11	punct	_	_	_
+
+13	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+14	ki	ki	SCONJ	Cs	_	16	mark	_	_	_
+
+15	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	16	obj	_	_	_
+
+16	sprejme	sprejeti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	_	_
+
+17	ustanovitelj	ustanovitelj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_	_
+
+18	v	v	ADP	Sl	Case=Loc	20	case	_	_	_
+
+19	30	30	NUM	Mdc	NumForm=Digit|NumType=Card	20	nummod	_	_	_
+
+20	dneh	dan	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	16	obl	_	_	_
+
+21	po	po	ADP	Sl	Case=Loc	22	case	_	_	_
+
+22	izdaji	izdaja	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_	_
+
+23	soglasja	soglasje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_	_
+
+24	k	k	ADP	Sd	Case=Dat	25	case	_	_	_
+
+25	aktu	akt	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	23	nmod	_	_	_
+
+26	o	o	ADP	Sl	Case=Loc	27	case	_	_	_
+
+27	ustanovitvi	ustanovitev	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	25	nmod	_	_	_
+
+28	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010016.txt
+# text = Če organ, pristojen za ustanove, ugotovi, da je sprememba pravil v nasprotju z aktom o ustanovitvi ali z zakonom, pozove upravo, da v 30 dneh popravi spremembo pravil.
+1	Če	če	SCONJ	Cs	_	8	mark	_	_	_
+
+2	organ	organ	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	pristojen	pristojen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+5	za	za	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	ustanove	ustanova	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	4	obl	_	_	_
+
+7	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+8	ugotovi	ugotov	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+10	da	da	SCONJ	Cs	_	24	mark	_	_	_
+
+11	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	24	aux	_	_	_
+
+12	sprememba	sprememba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_	_
+
+13	pravil	pravilo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	_	_
+
+14	v	v	ADP	Sl	Case=Loc	15	case	_	_	_
+
+15	nasprotju	nasprotje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	13	nmod	_	_	_
+
+16	z	z	ADP	Si	Case=Ins	17	case	_	_	_
+
+17	aktom	akt	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+18	o	o	ADP	Sl	Case=Loc	19	case	_	_	_
+
+19	ustanovitvi	ustanovitev	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	17	nmod	_	_	_
+
+20	ali	ali	CCONJ	Cc	_	22	cc	_	_	_
+
+21	z	z	ADP	Si	Case=Ins	22	case	_	_	_
+
+22	zakonom	zakon	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	19	conj	_	_	_
+
+23	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+24	pozove	pozovati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_	_
+
+25	upravo	uprava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_	_
+
+26	,	,	PUNCT	Z	_	31	punct	_	_	_
+
+27	da	da	SCONJ	Cs	_	31	mark	_	_	_
+
+28	v	v	ADP	Sl	Case=Loc	30	case	_	_	_
+
+29	30	30	NUM	Mdc	NumForm=Digit|NumType=Card	30	nummod	_	_	_
+
+30	dneh	dan	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	31	obl	_	_	_
+
+31	popravi	popraviti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl	_	_	_
+
+32	spremembo	sprememba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_	_
+
+33	pravil	pravilo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	32	nmod	_	_	_
+
+34	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010016.txt
+# text = Če uprava ne spremeni pravil v skladu s prejšnjim odstavkom, jo lahko organ, pristojen za ustanove, razreši.
+1	Če	če	SCONJ	Cs	_	4	mark	_	_	_
+
+2	uprava	uprava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+3	ne	ne	PART	Q	Polarity=Neg	4	advmod	_	_	_
+
+4	spremeni	spremeniti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_	_
+
+5	pravil	pravilo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	4	obj	_	_	_
+
+6	v	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+7	skladu	sklad	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+8	s	z	ADP	Si	Case=Ins	10	case	_	_	_
+
+9	prejšnjim	prejšnji	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	odstavkom	odstavek	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+11	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+12	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	20	obj	_	_	_
+
+13	lahko	lahko	ADV	Rgp	Degree=Pos	20	advmod	_	_	_
+
+14	organ	organ	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_	_
+
+15	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+16	pristojen	pristojen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+17	za	za	ADP	Sa	Case=Acc	18	case	_	_	_
+
+18	ustanove	ustanova	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	16	obl	_	_	_
+
+19	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+20	razreši	razrešiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+21	.	.	PUNCT	Z	_	20	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010016.txt
+# text = Organ, pristojen za ustanove, lahko v primeru neizpolnjevanja nalog iz prvega odstavka tega člena upravo po uradni dolžnosti razreši.
+1	Organ	Organ	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	pristojen	pristojen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	_	_
+
+4	za	za	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	ustanove	ustanova	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	_	_
+
+6	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+7	lahko	lahko	ADV	Rgp	Degree=Pos	21	advmod	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	primeru	primer	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	21	obl	_	_	_
+
+10	neizpolnjevanja	neizpolnjevanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_	_
+
+11	nalog	naloga	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_	_
+
+12	iz	iz	ADP	Sg	Case=Gen	14	case	_	_	_
+
+13	prvega	prvi	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	14	amod	_	_	_
+
+14	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+15	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_	_
+
+16	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+17	upravo	uprava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_	_
+
+18	po	po	ADP	Sl	Case=Loc	20	case	_	_	_
+
+19	uradni	uraden	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_	_
+
+20	dolžnosti	dolžnost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	21	obl	_	_	_
+
+21	razreši	razrešiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+22	.	.	PUNCT	Z	_	21	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010016.txt
+# text = Uprava ima predsednika uprave, ki ga izvolijo člani izmed sebe.
+1	Uprava	uprava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_	_
+
+2	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	predsednika	predsednik	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_	_
+
+4	uprave	uprava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+5	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+6	ki	ki	SCONJ	Cs	_	8	mark	_	_	_
+
+7	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	8	obj	_	_	_
+
+8	izvolijo	izvoliti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_	_
+
+9	člani	član	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_	_
+
+10	izmed	izmed	ADP	Sg	Case=Gen	11	case	_	_	_
+
+11	sebe	se	PRON	Px---g	Case=Gen|PronType=Prs|Reflex=Yes	9	nmod	_	_	_
+
+12	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010016.txt
+# text = 27. člen( prihodki ustanove)
+1	27.	27.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	(	(	PUNCT	Z	_	4	punct	_	_	_
+
+4	prihodki	prihodek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	2	appos	_	_	_
+
+5	ustanove	ustanova	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+6	)	)	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010016.txt
+# text = Uprava ustanove je dolžna organu, pristojnemu za ustanove, letno do konca marca predložiti poročilo o delu in finančnem poslovanju v preteklem koledarskem letu.
+1	Uprava	uprava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+2	ustanove	ustanova	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_	_
+
+4	dolžna	dolžen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing		root	_	_	_
+
+5	organu	organ	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	4	obj	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	pristojnemu	pristojen	ADJ	Agpmsd	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+8	za	za	ADP	Sa	Case=Acc	9	case	_	_	_
+
+9	ustanove	ustanova	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	7	obl	_	_	_
+
+10	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+11	letno	letno	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+
+12	do	do	ADP	Sg	Case=Gen	13	case	_	_	_
+
+13	konca	konec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_	_
+
+14	marca	marec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+15	predložiti	predložiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	4	ccomp	_	_	_
+
+16	poročilo	poročilo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_	_
+
+17	o	o	ADP	Sl	Case=Loc	18	case	_	_	_
+
+18	delu	del	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	16	nmod	_	_	_
+
+19	in	in	CCONJ	Cc	_	21	cc	_	_	_
+
+20	finančnem	finančen	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_	_
+
+21	poslovanju	poslovanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	18	conj	_	_	_
+
+22	v	v	ADP	Sl	Case=Loc	25	case	_	_	_
+
+23	preteklem	pretekel	ADJ	Appnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	25	amod	_	_	_
+
+24	koledarskem	koledarski	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_	_
+
+25	letu	leto	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	21	nmod	_	_	_
+
+26	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010016.txt
+# text = - če namen ustanove postane nemogoč,
+1	-	-	PUNCT	Z	_	5	punct	_	_	_
+
+2	če	če	SCONJ	Cs	_	5	mark	_	_	_
+
+3	namen	namen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+4	ustanove	ustanova	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+5	postane	postati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	nemogoč	nemogoč	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	xcomp	_	_	_
+
+7	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010016.txt
+# text = Ostanek premoženja likvidacijske oziroma stečajne mase se v skladu z voljo in namenom ustanovitelja dodeli drugi ustanovi, ki izvaja enak namen.
+1	Ostanek	ostanek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_	_
+
+2	premoženja	premoženje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_	_
+
+3	likvidacijske	likvidacijski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+4	oziroma	oziroma	CCONJ	Cc	_	5	cc	_	_	_
+
+5	stečajne	stečajen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	_	_
+
+6	mase	masa	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+7	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	15	expl	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	skladu	sklad	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_	_
+
+10	z	z	ADP	Si	Case=Ins	11	case	_	_	_
+
+11	voljo	volja	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+12	in	in	CCONJ	Cc	_	13	cc	_	_	_
+
+13	namenom	namen	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	9	conj	_	_	_
+
+14	ustanovitelja	ustanovitelj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+15	dodeli	dodeti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+16	drugi	drug	ADJ	Mlpfsd	Case=Dat|Gender=Fem|Number=Sing	17	amod	_	_	_
+
+17	ustanovi	ustanova	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	15	iobj	_	_	_
+
+18	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+19	ki	ki	SCONJ	Cs	_	20	mark	_	_	_
+
+20	izvaja	izvajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl	_	_	_
+
+21	enak	enak	DET	Pi-msa	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	22	det	_	_	_
+
+22	namen	namen	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_	_
+
+23	.	.	PUNCT	Z	_	15	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010016.txt
+# text = Če taka ustanova ne obstaja, se premoženje dodeli ustanovi, ki izvaja podoben namen.
+1	Če	če	SCONJ	Cs	_	5	mark	_	_	_
+
+2	taka	tak	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_	_
+
+3	ustanova	ustanova	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_	_
+
+4	ne	ne	PART	Q	Polarity=Neg	5	advmod	_	_	_
+
+5	obstaja	obstajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_	_
+
+6	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+7	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	10	expl	_	_	_
+
+8	premoženje	premoženje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_	_
+
+9	dodeli	dodeti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	ustanovi	ustanova	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	xcomp	_	_	_
+
+11	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+12	ki	ki	SCONJ	Cs	_	13	mark	_	_	_
+
+13	izvaja	izvajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_	_
+
+14	podoben	podoben	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_	_
+
+15	namen	namen	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_	_
+
+16	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010016.txt
+# text = Skrbnik mora biti strokovnjak za navedeno področje in je lahko izven sestave organa, pristojnega za ustanove.
+1	Skrbnik	skrbnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_	_
+
+2	mora	morati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	biti	biti	AUX	Va-n	VerbForm=Inf	4	cop	_	_	_
+
+4	strokovnjak	strokovnjak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	xcomp	_	_	_
+
+5	za	za	ADP	Sa	Case=Acc	7	case	_	_	_
+
+6	navedeno	naveden	ADJ	Appnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	7	amod	_	_	_
+
+7	področje	področje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+8	in	in	CCONJ	Cc	_	12	cc	_	_	_
+
+9	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_	_
+
+10	lahko	lahko	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+11	izven	izven	ADP	Sg	Case=Gen	12	case	_	_	_
+
+12	sestave	sestava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+13	organa	organ	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+14	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+15	pristojnega	pristojen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_	_
+
+16	za	za	ADP	Sa	Case=Acc	17	case	_	_	_
+
+17	ustanove	ustanova	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	15	obl	_	_	_
+
+18	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010016.txt
+# text = XI. KAZENSKE DOLOČBE
+1	XI	XI	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+3	KAZENSKE	kazenski	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_	_
+
+4	DOLOČBE	določba	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	_	_
+

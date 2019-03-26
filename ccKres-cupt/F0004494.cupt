@@ -1,0 +1,213 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0004494.txt
+# text = Kopač in Skakač
+1	Kopač	Kopač	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	in	in	CCONJ	Cc	_	3	cc	_	_	_
+
+3	Skakač	skakač	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0004494.txt
+# text = A Quarto Group Company
+1	A	a	CCONJ	Cc	_		root	_	_	_
+
+2	Quarto	Quarto	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	Group	Group	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+4	Company	Company	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0004494.txt
+# text = Tiskano in vezano na Kitajskem
+1	Tiskano	Tiskano	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing		root	_	_	_
+
+2	in	in	CCONJ	Cc	_	3	cc	_	_	_
+
+3	vezano	vezan	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	1	conj	_	_	_
+
+4	na	na	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	Kitajskem	Kitajsko	PROPN	Npnsl	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0004494.txt
+# text = » In če boš čez pol ure še tukaj, ti bom to dokazal.
+1	»	»	PUNCT	Z	_	4	punct	_	_	_
+
+2	In	in	CCONJ	Cc	_	4	cc	_	_	_
+
+3	če	če	SCONJ	Cs	_	4	mark	_	_	_
+
+4	boš	biti	VERB	Va-f2s-n	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin	14	advcl	_	_	_
+
+5	čez	čez	ADP	Sa	Case=Acc	7	case	_	_	_
+
+6	pol	pol	DET	Rgp	PronType=Ind	7	det	_	_	_
+
+7	ure	ura	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+8	še	še	PART	Q	_	4	advmod	_	_	_
+
+9	tukaj	tukaj	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+10	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+11	ti	ti	PRON	Pp2-sd--y	Case=Dat|Number=Sing|Person=2|PronType=Prs|Variant=Short	14	iobj	_	_	_
+
+12	bom	biti	AUX	Va-f1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	14	aux	_	_	_
+
+13	to	ta	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	14	obj	_	_	_
+
+14	dokazal	dokazati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+15	.	.	PUNCT	Z	_	14	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0004494.txt
+# text = «
+1	«	«	PUNCT	Z	_		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0004494.txt
+# text = /8/
+1	/8	/8	X	X	_		root	_	_	_
+
+2	/	/	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0004494.txt
+# text = » Greva: 1, 2, 3, zdaj!«
+1	»	»	PUNCT	Z	_	2	punct	_	_	_
+
+2	Greva	Greva	VERB	Vmbr1d	Mood=Ind|Number=Dual|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	:	:	PUNCT	Z	_	4	punct	_	_	_
+
+4	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	2	advmod	_	_	_
+
+5	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+6	2	2	NUM	Mdc	NumForm=Digit|NumType=Card	4	conj	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	4	conj	_	_	_
+
+9	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+10	zdaj	zdaj	ADV	Rgp	Degree=Pos	4	conj	_	_	_
+
+11	!	!	PUNCT	Z	_	10	punct	_	_	_
+
+12	«	«	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0004494.txt
+# text = » Deliva si jo,«
+1	»	»	PUNCT	Z	_	2	punct	_	_	_
+
+2	Deliva	deliv	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	si	se	PRON	Px---d--y	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	2	expl	_	_	_
+
+4	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	2	obj	_	_	_
+
+5	,	,	PUNCT	Z	_	2	punct	_	_	_
+
+6	«	«	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0004494.txt
+# text = Pogovarjajte se z otroki o zgodbi.
+1	Pogovarjajte	pogovarjati	VERB	Vmpm2p	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin		root	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	1	expl	_	_	_
+
+3	z	z	ADP	Si	Case=Ins	4	case	_	_	_
+
+4	otroki	otrok	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	1	obl	_	_	_
+
+5	o	o	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	zgodbi	zgodba	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+7	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0004494.txt
+# text = Zakaj zajec ni hotel deliti njive s krtom?
+1	Zakaj	zakaj	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+2	zajec	zajec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+3	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+4	hotel	hoteti	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	deliti	deliti	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	4	xcomp	_	_	_
+
+6	njive	njiva	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	obj	_	_	_
+
+7	s	z	ADP	Si	Case=Ins	8	case	_	_	_
+
+8	krtom	krt	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_	_
+
+9	?	?	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0004494.txt
+# text = Zakaj sta ga Kopač in gospa Kopač sklenila naučiti kozjih molitvic?
+1	Zakaj	zakaj	ADV	Rgp	Degree=Pos	8	advmod	_	_	_
+
+2	sta	biti	AUX	Va-r3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_	_
+
+3	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	9	iobj	_	_	_
+
+4	Kopač	Kopač	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_	_
+
+5	in	in	CCONJ	Cc	_	6	cc	_	_	_
+
+6	gospa	gospa	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	_	_
+
+7	Kopač	Kopač	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+8	sklenila	skleniti	VERB	Vmep-dm	Aspect=Perf|Gender=Masc|Number=Dual|VerbForm=Part		root	_	_	_
+
+9	naučiti	naučiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	8	xcomp	_	_	_
+
+10	kozjih	kozj	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_	_
+
+11	molitvic	molitvica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	9	obj	_	_	_
+
+12	?	?	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0004494.txt
+# text = Kaj sta se odločila storiti?
+1	Kaj	kaj	PRON	Pq-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	obj	_	_	_
+
+2	sta	biti	AUX	Va-r3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	5	expl	_	_	_
+
+4	odločila	odločiti	VERB	Vmep-dm	Aspect=Perf|Gender=Masc|Number=Dual|VerbForm=Part		root	_	_	_
+
+5	storiti	storiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	4	xcomp	_	_	_
+
+6	?	?	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0004494.txt
+# text = Kako da Skakač ni vedel, da sta krta dva?
+1	Kako	kako	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+2	da	da	SCONJ	Cs	_	1	fixed	_	_	_
+
+3	Skakač	skakač	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+4	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+5	vedel	vedeti	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+7	da	da	SCONJ	Cs	_	9	mark	_	_	_
+
+8	sta	biti	AUX	Va-r3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	cop	_	_	_
+
+9	krta	krt	NOUN	Ncmdn	Case=Nom|Gender=Masc|Number=Dual	5	ccomp	_	_	_
+
+10	dva	dva	NUM	Mlcmdn	Case=Nom|Gender=Masc|NumForm=Word|NumType=Card|Number=Dual	9	nummod	_	_	_
+
+11	?	?	PUNCT	Z	_	5	punct	_	_	_
+

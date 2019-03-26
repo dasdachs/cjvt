@@ -1,0 +1,157 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0009060.txt
+# text = DAN ČETRTEK, 4. 9.
+1	DAN	dan	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	ČETRTEK	četrtek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	4.	4.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+5	9.	9.	NUM	Mdo	NumForm=Digit|NumType=Ord	4	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009060.txt
+# text = Zmago Jelinčič, 1. 7. 1997
+1	Zmago	Zmago	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	Jelinčič	Jelinčič	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+5	7.	7.	NUM	Mdo	NumForm=Digit|NumType=Ord	4	conj	_	_	_
+
+6	1997	1997	NUM	Mdc	NumForm=Digit|NumType=Card	4	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009060.txt
+# text = Včasih, pred leti, se je zdelo, da se filozofski nazori nikoli ne uresničijo.
+1	Včasih	včasih	ADV	Rgp	Degree=Pos	8	advmod	_	_	_
+
+2	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+3	pred	pred	ADP	Si	Case=Ins	4	case	_	_	_
+
+4	leti	leto	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	1	nmod	_	_	_
+
+5	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+6	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	8	expl	_	_	_
+
+7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_	_
+
+8	zdelo	zdeti	VERB	Vmpp-sn	Aspect=Imp|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+9	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+10	da	da	SCONJ	Cs	_	16	mark	_	_	_
+
+11	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	16	expl	_	_	_
+
+12	filozofski	filozofski	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_	_
+
+13	nazori	nazor	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_	_
+
+14	nikoli	nikoli	ADV	Rgp	Degree=Pos	16	advmod	_	_	_
+
+15	ne	ne	PART	Q	Polarity=Neg	16	advmod	_	_	_
+
+16	uresničijo	uresničiti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	csubj	_	_	_
+
+17	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009060.txt
+# text = Tudi ižkovi ne.
+1	Tudi	tudi	PART	Q	_	2	advmod	_	_	_
+
+2	ižkovi	ižkov	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	ne	ne	PART	Q	_	2	advmod	_	_	_
+
+4	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009060.txt
+# text = Da so jih napisali in o njih razpravljali za vse večne čase, ampak tako, da bodo vselej lebdeli nad resničnostjo kot oblaki, kot sanje in kot travme vseh slabosti tistega, kar se dogaja tu in zdaj.
+1	Da	da	SCONJ	Cs	_	4	mark	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+3	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	4	obj	_	_	_
+
+4	napisali	napisati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+5	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+6	o	o	ADP	Sl	Case=Loc	7	case	_	_	_
+
+7	njih	on	PRON	Pp3mpl	Case=Loc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	obl	_	_	_
+
+8	razpravljali	razpravljati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	4	conj	_	_	_
+
+9	za	za	ADP	Sa	Case=Acc	12	case	_	_	_
+
+10	vse	ves	DET	Pg-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	12	det	_	_	_
+
+11	večne	večen	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_	_
+
+12	čase	čas	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	8	obl	_	_	_
+
+13	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+14	ampak	ampak	CCONJ	Cc	_	20	cc	_	_	_
+
+15	tako	tako	ADV	Rgp	Degree=Pos	20	mark	_	_	_
+
+16	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+17	da	da	SCONJ	Cs	_	15	fixed	_	_	_
+
+18	bodo	biti	AUX	Va-f3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	20	cop	_	_	_
+
+19	vselej	vselej	ADV	Rgp	Degree=Pos	20	advmod	_	_	_
+
+20	lebdeli	lebdeti	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	advcl	_	_	_
+
+21	nad	nad	ADP	Si	Case=Ins	22	case	_	_	_
+
+22	resničnostjo	resničnost	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	20	obl	_	_	_
+
+23	kot	kot	SCONJ	Cs	_	24	case	_	_	_
+
+24	oblaki	oblak	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	22	obl	_	_	_
+
+25	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+26	kot	kot	SCONJ	Cs	_	27	case	_	_	_
+
+27	sanje	sanja	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	24	conj	_	_	_
+
+28	in	in	CCONJ	Cc	_	30	cc	_	_	_
+
+29	kot	kot	SCONJ	Cs	_	30	case	_	_	_
+
+30	travme	travme	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	27	conj	_	_	_
+
+31	vseh	ves	DET	Pg-fpg	Case=Gen|Gender=Fem|Number=Plur|PronType=Tot	32	det	_	_	_
+
+32	slabosti	slabost	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	30	nmod	_	_	_
+
+33	tistega	tisti	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	32	nmod	_	_	_
+
+34	,	,	PUNCT	Z	_	37	punct	_	_	_
+
+35	kar	kar	PRON	Pr-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	37	nsubj	_	_	_
+
+36	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	37	expl	_	_	_
+
+37	dogaja	dogajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl	_	_	_
+
+38	tu	tu	ADV	Rgp	Degree=Pos	37	advmod	_	_	_
+
+39	in	in	CCONJ	Cc	_	40	cc	_	_	_
+
+40	zdaj	zdaj	ADV	Rgp	Degree=Pos	38	conj	_	_	_
+
+41	.	.	PUNCT	Z	_	4	punct	_	_	_
+

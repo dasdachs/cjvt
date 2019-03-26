@@ -1,0 +1,695 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0022872.txt
+# text = Izkušeni Carlos Jimenez( 201 cm, 1976) je podpisal za kraljevski Real iz Madrida, ki je vedno močnejši pred prihodnjo sezono.
+1	Izkušeni	izkušen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	Carlos	Carlos	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_	_
+
+3	Jimenez	Jimenez	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_	_
+
+4	(	(	PUNCT	Z	_	6	punct	_	_	_
+
+5	201	201	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+6	cm	cm	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	1976	1976	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+9	)	)	PUNCT	Z	_	6	punct	_	_	_
+
+10	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_	_
+
+11	podpisal	podpisati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+12	za	za	ADP	Sa	Case=Acc	14	case	_	_	_
+
+13	kraljevski	kraljevski	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+14	Real	Real	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_	_
+
+15	iz	iz	ADP	Sg	Case=Gen	16	case	_	_	_
+
+16	Madrida	Madrid	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+17	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+18	ki	ki	SCONJ	Cs	_	21	mark	_	_	_
+
+19	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	21	cop	_	_	_
+
+20	vedno	vedno	ADV	Rgp	Degree=Pos	21	advmod	_	_	_
+
+21	močnejši	močen	ADJ	Agcmsny	Case=Nom|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	14	acl	_	_	_
+
+22	pred	pred	ADP	Si	Case=Ins	24	case	_	_	_
+
+23	prihodnjo	prihodnji	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_	_
+
+24	sezono	sezona	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	21	obl	_	_	_
+
+25	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022872.txt
+# text = Vedno močnejši so tudi v Gironi, kjer so se po velikanu Duenasu in“ našem” McDonaldu okrepili z Raymondom Tuttom( 194 cm, 1975), ki je v minuli sezoni igral za Sicc Jesi, in s Tyronom Grantom( 201 cm, 1977).
+1	Vedno	vedno	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+2	močnejši	močen	ADJ	Agcmpn	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur		root	_	_	_
+
+3	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_	_
+
+4	tudi	tudi	PART	Q	_	2	advmod	_	_	_
+
+5	v	v	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	Gironi	Gironi	PROPN	Npmsa	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_	_
+
+7	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+8	kjer	kjer	SCONJ	Cs	_	19	mark	_	_	_
+
+9	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	aux	_	_	_
+
+10	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	19	expl	_	_	_
+
+11	po	po	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	velikanu	velikan	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_	_
+
+13	Duenasu	Duenas	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+14	in	in	CCONJ	Cc	_	18	cc	_	_	_
+
+15	“	“	PUNCT	Z	_	18	punct	_	_	_
+
+16	našem	naš	DET	Ps1mslp	Case=Loc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	18	det	_	_	_
+
+17	”	”	PUNCT	Z	_	18	punct	_	_	_
+
+18	McDonaldu	Mcdonald	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	13	conj	_	_	_
+
+19	okrepili	okrepiti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	6	acl	_	_	_
+
+20	z	z	ADP	Si	Case=Ins	21	case	_	_	_
+
+21	Raymondom	Raymond	PROPN	Npmsi	Case=Ins|Gender=Masc|Number=Sing	19	obl	_	_	_
+
+22	Tuttom	Tutt	PROPN	Npmsi	Case=Ins|Gender=Masc|Number=Sing	21	flat:name	_	_	_
+
+23	(	(	PUNCT	Z	_	25	punct	_	_	_
+
+24	194	194	NUM	Mdc	NumForm=Digit|NumType=Card	25	nummod	_	_	_
+
+25	cm	cm	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	21	appos	_	_	_
+
+26	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+27	1975	1975	NUM	Mdc	NumForm=Digit|NumType=Card	25	nummod	_	_	_
+
+28	)	)	PUNCT	Z	_	25	punct	_	_	_
+
+29	,	,	PUNCT	Z	_	35	punct	_	_	_
+
+30	ki	ki	SCONJ	Cs	_	35	mark	_	_	_
+
+31	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	35	aux	_	_	_
+
+32	v	v	ADP	Sl	Case=Loc	34	case	_	_	_
+
+33	minuli	minul	ADJ	Appfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	34	amod	_	_	_
+
+34	sezoni	sezona	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	35	obl	_	_	_
+
+35	igral	igrati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	21	acl	_	_	_
+
+36	za	za	ADP	Sa	Case=Acc	37	case	_	_	_
+
+37	Sicc	Sicc	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	35	obl	_	_	_
+
+38	Jesi	Jesi	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	37	flat:name	_	_	_
+
+39	,	,	PUNCT	Z	_	35	punct	_	_	_
+
+40	in	in	CCONJ	Cc	_	42	cc	_	_	_
+
+41	s	z	ADP	Si	Case=Ins	42	case	_	_	_
+
+42	Tyronom	Tyron	PROPN	Npmsi	Case=Ins|Gender=Masc|Number=Sing	37	conj	_	_	_
+
+43	Grantom	Grant	PROPN	Npmsi	Case=Ins|Gender=Masc|Number=Sing	42	flat:name	_	_	_
+
+44	(	(	PUNCT	Z	_	46	punct	_	_	_
+
+45	201	201	NUM	Mdc	NumForm=Digit|NumType=Card	46	nummod	_	_	_
+
+46	cm	cm	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	42	appos	_	_	_
+
+47	,	,	PUNCT	Z	_	48	punct	_	_	_
+
+48	1977	1977	NUM	Mdc	NumForm=Digit|NumType=Card	46	nummod	_	_	_
+
+49	)	)	PUNCT	Z	_	46	punct	_	_	_
+
+50	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022872.txt
+# text = Podpisala sta tudi mlada zvezdnika Raul Lopez in Fran Vazquez.
+1	Podpisala	podpisati	VERB	Vmep-dm	Aspect=Perf|Gender=Masc|Number=Dual|VerbForm=Part		root	_	_	_
+
+2	sta	biti	AUX	Va-r3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	tudi	tudi	PART	Q	_	1	advmod	_	_	_
+
+4	mlada	mlad	ADJ	Agpmdn	Case=Nom|Degree=Pos|Gender=Masc|Number=Dual	5	amod	_	_	_
+
+5	zvezdnika	zvezdnik	NOUN	Ncmdn	Case=Nom|Gender=Masc|Number=Dual	1	nsubj	_	_	_
+
+6	Raul	Raul	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+7	Lopez	Lopez	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	6	flat:name	_	_	_
+
+8	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+9	Fran	Fran	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_	_
+
+10	Vazquez	vazquez	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_	_
+
+11	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022872.txt
+# text = Lopez je v prejšnjih treh sezonah igral za Utah Jazz, a je imel težave s poškodbami.
+1	Lopez	Lopez	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_	_
+
+3	v	v	ADP	Sl	Case=Loc	6	case	_	_	_
+
+4	prejšnjih	prejšnji	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_	_
+
+5	treh	trije	NUM	Mlcfpl	Case=Loc|Gender=Fem|NumForm=Word|NumType=Card|Number=Plur	6	nummod	_	_	_
+
+6	sezonah	sezona	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	7	obl	_	_	_
+
+7	igral	igrati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+8	za	za	ADP	Sa	Case=Acc	10	case	_	_	_
+
+9	Utah	Utah	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+10	Jazz	Jazz	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_	_
+
+11	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+12	a	a	CCONJ	Cc	_	14	cc	_	_	_
+
+13	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	aux	_	_	_
+
+14	imel	imeti	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	7	conj	_	_	_
+
+15	težave	težava	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_	_
+
+16	s	z	ADP	Si	Case=Ins	17	case	_	_	_
+
+17	poškodbami	poškodba	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	15	nmod	_	_	_
+
+18	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022872.txt
+# text = Fran Vazquez je bil najvišje izbrani Evropejec v minuli sezoni in prvi izbor Orlando Magica, ki ga je izbral kot enajstega.
+1	Fran	Fran	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_	_
+
+2	Vazquez	vazquez	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_	_
+
+4	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	7	cop	_	_	_
+
+5	najvišje	visok	ADV	Rgs	Degree=Sup	6	advmod	_	_	_
+
+6	izbrani	izbran	ADJ	Appmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	7	amod	_	_	_
+
+7	Evropejec	Evropejec	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	10	case	_	_	_
+
+9	minuli	minul	ADJ	Appfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	10	amod	_	_	_
+
+10	sezoni	sezona	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+11	in	in	CCONJ	Cc	_	13	cc	_	_	_
+
+12	prvi	prvi	ADJ	Mlomsn	Case=Nom|Gender=Masc|NumType=Ord|Number=Sing	13	amod	_	_	_
+
+13	izbor	izbor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_	_
+
+14	Orlando	Orlanda	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+15	Magica	magica	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	14	flat:name	_	_	_
+
+16	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+17	ki	ki	SCONJ	Cs	_	20	mark	_	_	_
+
+18	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	20	obj	_	_	_
+
+19	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	aux	_	_	_
+
+20	izbral	izbrati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	13	acl	_	_	_
+
+21	kot	kot	SCONJ	Cs	_	22	case	_	_	_
+
+22	enajstega	enovst	ADJ	Mlomsa	Case=Acc|Gender=Masc|NumType=Ord|Number=Sing	20	obl	_	_	_
+
+23	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022872.txt
+# text = Lani je igral za Unicajo, in čeprav ga je Orlando želel takoj, je njihovo ponudbo odbil.
+1	Lani	lani	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	_	_
+
+3	igral	igrati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+4	za	za	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	Unicajo	unicati	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_	_
+
+6	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+7	in	in	CCONJ	Cc	_	12	cc	_	_	_
+
+8	čeprav	čeprav	SCONJ	Cs	_	12	mark	_	_	_
+
+9	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	12	obj	_	_	_
+
+10	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	aux	_	_	_
+
+11	Orlando	Orlanda	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_	_
+
+12	želel	želeti	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	18	advcl	_	_	_
+
+13	takoj	takoj	ADV	Rgp	Degree=Pos	12	advmod	_	_	_
+
+14	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+15	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	aux	_	_	_
+
+16	njihovo	njihov	DET	Ps3fsap	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	17	det	_	_	_
+
+17	ponudbo	ponudba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_	_
+
+18	odbil	odbiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	3	parataxis	_	_	_
+
+19	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022872.txt
+# text = Nekdanji dirkač Johnny Herbert se po petih letih vrača v formulo ena in sicer kot Jordanov predstavnik za odnose z mediji, sponzorji in dirkači.
+1	Nekdanji	nekdanji	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	dirkač	dirkač	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_	_
+
+3	Johnny	Johnny	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	Herbert	Herbert	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	_	_
+
+5	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	9	expl	_	_	_
+
+6	po	po	ADP	Sl	Case=Loc	8	case	_	_	_
+
+7	petih	pet	NUM	Mlc-pl	Case=Loc|NumForm=Word|NumType=Card|Number=Plur	8	nummod	_	_	_
+
+8	letih	leto	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	9	obl	_	_	_
+
+9	vrača	vračati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	v	v	ADP	Sa	Case=Acc	11	case	_	_	_
+
+11	formulo	formula	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_	_
+
+12	ena	en	NUM	Mlpfsn	Case=Nom|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing	9	advmod	_	_	_
+
+13	in	in	CCONJ	Cc	_	17	cc	_	_	_
+
+14	sicer	sicer	PART	Q	_	9	advmod	_	_	_
+
+15	kot	kot	SCONJ	Cs	_	17	case	_	_	_
+
+16	Jordanov	Jordano	ADJ	Aspmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	17	amod	_	_	_
+
+17	predstavnik	predstavnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+18	za	za	ADP	Sa	Case=Acc	19	case	_	_	_
+
+19	odnose	odnos	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	17	nmod	_	_	_
+
+20	z	z	ADP	Si	Case=Ins	21	case	_	_	_
+
+21	mediji	medij	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	19	nmod	_	_	_
+
+22	,	,	PUNCT	Z	_	23	punct	_	_	_
+
+23	sponzorji	sponzor	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	21	conj	_	_	_
+
+24	in	in	CCONJ	Cc	_	25	cc	_	_	_
+
+25	dirkači	dirkač	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	21	conj	_	_	_
+
+26	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022872.txt
+# text = Moštvo se bo v prihodnji sezoni preimenovalo v Midland, Herbert pa jim bo skušal priskrbeti predvsem kakšnega novega sponzorja.
+1	Moštvo	moštvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	7	expl	_	_	_
+
+3	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	7	aux	_	_	_
+
+4	v	v	ADP	Sl	Case=Loc	6	case	_	_	_
+
+5	prihodnji	prihodnji	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	sezoni	sezona	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_	_
+
+7	preimenovalo	preimenovati	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+8	v	v	ADP	Sa	Case=Acc	9	case	_	_	_
+
+9	Midland	Midland	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_	_
+
+10	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+11	Herbert	Herbert	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_	_
+
+12	pa	pa	CCONJ	Cc	_	15	advmod	_	_	_
+
+13	jim	on	PRON	Pp3mpd--y	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	16	iobj	_	_	_
+
+14	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	15	aux	_	_	_
+
+15	skušal	skušati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	7	parataxis	_	_	_
+
+16	priskrbeti	priskrbeti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	15	xcomp	_	_	_
+
+17	predvsem	predvsem	PART	Q	_	16	advmod	_	_	_
+
+18	kakšnega	kakšen	DET	Pq-msa	Case=Acc|Gender=Masc|Number=Sing|PronType=Int	20	det	_	_	_
+
+19	novega	nov	ADJ	Agpmsa	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_	_
+
+20	sponzorja	sponzor	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_	_
+
+21	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022872.txt
+# text = “ V čast mi je, da lahko sodelujem z moštvom, v katerem se počutim zelo domače, čeprav za Jordan v formuli ena nisem nikdar dirkal.
+1	“	“	PUNCT	Z	_	9	punct	_	_	_
+
+2	V	v	ADP	Sa	Case=Acc	3	case	_	_	_
+
+3	čast	čast	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+4	mi	jaz	PRON	Pp1-sd--y	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	5	obj	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+7	da	da	SCONJ	Cs	_	9	mark	_	_	_
+
+8	lahko	lahko	ADV	Rgp	Degree=Pos	9	advmod	_	_	_
+
+9	sodelujem	sodelovati	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl	_	_	_
+
+10	z	z	ADP	Si	Case=Ins	11	case	_	_	_
+
+11	moštvom	moštvo	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_	_
+
+12	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+13	v	v	ADP	Sl	Case=Loc	14	case	_	_	_
+
+14	katerem	kateri	DET	Pq-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Int	16	obl	_	_	_
+
+15	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	16	expl	_	_	_
+
+16	počutim	počutiti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	acl	_	_	_
+
+17	zelo	zelo	ADV	Rgp	Degree=Pos	18	advmod	_	_	_
+
+18	domače	domače	ADV	Rgp	Degree=Pos	16	advmod	_	_	_
+
+19	,	,	PUNCT	Z	_	28	punct	_	_	_
+
+20	čeprav	čeprav	SCONJ	Cs	_	28	mark	_	_	_
+
+21	za	za	ADP	Sa	Case=Acc	22	case	_	_	_
+
+22	Jordan	Jordan	PROPN	Npfsa	Case=Acc|Gender=Fem|Number=Sing	28	obl	_	_	_
+
+23	v	v	ADP	Sl	Case=Loc	24	case	_	_	_
+
+24	formuli	formuti	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	28	obl	_	_	_
+
+25	ena	en	NUM	Mlpfsn	Case=Nom|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing	28	advmod	_	_	_
+
+26	nisem	biti	AUX	Va-r1s-y	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	28	aux	_	_	_
+
+27	nikdar	nikdar	ADV	Rgp	Degree=Pos	28	advmod	_	_	_
+
+28	dirkal	dirkati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	16	advcl	_	_	_
+
+29	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022872.txt
+# text = Novo vlogo sprejemam z navdušenjem in veseli me, da bom sodeloval pri preoblikovanju moštva v Midland,” pravi Herbert, ki je za Jordan dirkal v formuli 3 in formuli 3000.
+1	Novo	nov	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	vlogo	vloga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_	_
+
+3	sprejemam	sprejemati	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	z	z	ADP	Si	Case=Ins	5	case	_	_	_
+
+5	navdušenjem	navdušenje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	veseli	vesel	ADJ	Agpmsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	_	_
+
+8	me	jaz	PRON	Pp1-sa--y	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	7	obj	_	_	_
+
+9	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+10	da	da	SCONJ	Cs	_	12	mark	_	_	_
+
+11	bom	biti	AUX	Va-f1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	12	aux	_	_	_
+
+12	sodeloval	sodelovati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	7	ccomp	_	_	_
+
+13	pri	pri	ADP	Sl	Case=Loc	14	case	_	_	_
+
+14	preoblikovanju	preoblikovanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_	_
+
+15	moštva	moštvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_	_
+
+16	v	v	ADP	Sa	Case=Acc	17	case	_	_	_
+
+17	Midland	Midland	PROPN	Npmsl	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+18	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+19	”	”	PUNCT	Z	_	20	punct	_	_	_
+
+20	pravi	praviti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_	_
+
+21	Herbert	Herbert	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_	_
+
+22	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+23	ki	ki	SCONJ	Cs	_	27	mark	_	_	_
+
+24	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	27	aux	_	_	_
+
+25	za	za	ADP	Sa	Case=Acc	26	case	_	_	_
+
+26	Jordan	Jordan	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	27	obl	_	_	_
+
+27	dirkal	dirkati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	21	acl	_	_	_
+
+28	v	v	ADP	Sl	Case=Loc	29	case	_	_	_
+
+29	formuli	formuti	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	27	obl	_	_	_
+
+30	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	29	nummod	_	_	_
+
+31	in	in	CCONJ	Cc	_	32	cc	_	_	_
+
+32	formuli	formuti	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	29	conj	_	_	_
+
+33	3000	3000	NUM	Mdc	NumForm=Digit|NumType=Card	32	nummod	_	_	_
+
+34	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022872.txt
+# text = V formuli ena je dirkal kar dvanajst let, osvojil pa je tri zmage, dve z Benettonom in eno s Stewartom.
+1	V	v	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	formuli	formuti	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+3	ena	en	NUM	Mlpfsn	Case=Nom|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing	2	nummod	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+5	dirkal	dirkati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	kar	kar	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+7	dvanajst	dvanajst	NUM	Mlc-pa	Case=Acc|NumForm=Word|NumType=Card|Number=Plur	8	nummod	_	_	_
+
+8	let	leto	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	5	obl	_	_	_
+
+9	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+10	osvojil	osvojiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	5	parataxis	_	_	_
+
+11	pa	pa	CCONJ	Cc	_	10	advmod	_	_	_
+
+12	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	_	_
+
+13	tri	trije	NUM	Mlcfpa	Case=Acc|Gender=Fem|NumForm=Word|NumType=Card|Number=Plur	14	nummod	_	_	_
+
+14	zmage	zmaga	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_	_
+
+15	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+16	dve	dva	NUM	Mlcmda	Case=Acc|Gender=Masc|NumForm=Word|NumType=Card|Number=Dual	14	nummod	_	_	_
+
+17	z	z	ADP	Si	Case=Ins	18	case	_	_	_
+
+18	Benettonom	Benetton	PROPN	Npmsi	Case=Ins|Gender=Masc|Number=Sing	16	obl	_	_	_
+
+19	in	in	CCONJ	Cc	_	20	cc	_	_	_
+
+20	eno	en	NUM	Mlpfsi	Case=Ins|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing	18	conj	_	_	_
+
+21	s	z	ADP	Si	Case=Ins	22	case	_	_	_
+
+22	Stewartom	stewart	PROPN	Npmsi	Case=Ins|Gender=Masc|Number=Sing	20	nmod	_	_	_
+
+23	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022872.txt
+# text = “ Veseli me, da se nam je pridružil.
+1	“	“	PUNCT	Z	_	2	punct	_	_	_
+
+2	Veseli	vesel	ADJ	Agpmsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing		root	_	_	_
+
+3	me	jaz	PRON	Pp1-sa--y	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	2	obj	_	_	_
+
+4	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+5	da	da	SCONJ	Cs	_	9	mark	_	_	_
+
+6	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	9	expl	_	_	_
+
+7	nam	jaz	PRON	Pp1-pd	Case=Dat|Number=Plur|Person=1|PronType=Prs	9	obj	_	_	_
+
+8	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	aux	_	_	_
+
+9	pridružil	pridružiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	2	ccomp	_	_	_
+
+10	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022872.txt
+# text = S svojimi izkušnjami in poznavanjem motošporta bo zelo pomemben člen moštva.
+1	S	z	ADP	Si	Case=Ins	3	case	_	_	_
+
+2	svojimi	svoj	DET	Px-fpi	Case=Ins|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	3	det	_	_	_
+
+3	izkušnjami	izkušnja	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	10	obl	_	_	_
+
+4	in	in	CCONJ	Cc	_	5	cc	_	_	_
+
+5	poznavanjem	poznavanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	3	conj	_	_	_
+
+6	motošporta	mototorto	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+7	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	10	cop	_	_	_
+
+8	zelo	zelo	ADV	Rgp	Degree=Pos	9	advmod	_	_	_
+
+9	pomemben	pomemben	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+11	moštva	moštvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_	_
+
+12	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022872.txt
+# text = Tudi sicer je zelo prijeten človek in ponosni smo, da bo zastopal naše moštvo,” je navdušen tudi Jordanov upravni direktor Colin Kolles.
+1	Tudi	tudi	PART	Q	_	6	advmod	_	_	_
+
+2	sicer	sicer	PART	Q	_	6	advmod	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_	_
+
+4	zelo	zelo	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+5	prijeten	prijeten	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+6	človek	človek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	ponosni	ponosen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	conj	_	_	_
+
+9	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_	_
+
+10	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+11	da	da	SCONJ	Cs	_	13	mark	_	_	_
+
+12	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	13	aux	_	_	_
+
+13	zastopal	zastopati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	8	ccomp	_	_	_
+
+14	naše	naš	DET	Ps2nsap	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	15	det	_	_	_
+
+15	moštvo	moštvo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_	_
+
+16	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+17	”	”	PUNCT	Z	_	6	punct	_	_	_
+
+18	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	cop	_	_	_
+
+19	navdušen	navdušen	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	6	parataxis	_	_	_
+
+20	tudi	tudi	PART	Q	_	19	advmod	_	_	_
+
+21	Jordanov	Jordano	ADJ	Aspmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	23	amod	_	_	_
+
+22	upravni	upraven	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_	_
+
+23	direktor	direktor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_	_
+
+24	Colin	Colin	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	23	nmod	_	_	_
+
+25	Kolles	Kolles	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	24	flat:name	_	_	_
+
+26	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022872.txt
+# text = 7. Goran JOLIČ Primorje 40
+1	7.	7.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	Goran	Goran	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	JOLIČ	JOLIČ	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_	_
+
+4	Primorje	Primorje	PROPN	Npnsn	Case=Nom|Gender=Neut|Number=Sing	2	flat:name	_	_	_
+
+5	40	40	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+

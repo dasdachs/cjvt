@@ -1,0 +1,121 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0021877.txt
+# text = KRA:ZIOOZP
+1	KRA	KRA	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	ZIOOZP	zioozp	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021877.txt
+# text = ZAKON O IZDAJI OBVEZNIC ZA PLAČILO ODŠKODNINE ZA ZAPLENJENO PREMOŽENJE ZARADI RAZVELJAVITVE KAZNI ZAPLEMBE PREMOŽENJA( ZIOOZP)
+1	ZAKON	zakon	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	O	o	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	IZDAJI	Izdaja	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	OBVEZNIC	obveznica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_	_
+
+5	ZA	za	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	PLAČILO	plačilo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+7	ODŠKODNINE	odškodnina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+8	ZA	za	ADP	Sa	Case=Acc	10	case	_	_	_
+
+9	ZAPLENJENO	zaplenjen	ADJ	Appnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	10	amod	_	_	_
+
+10	PREMOŽENJE	premoženje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	_	_
+
+11	ZARADI	zaradi	ADP	Sg	Case=Gen	12	case	_	_	_
+
+12	RAZVELJAVITVE	razveljavitev	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+13	KAZNI	kazen	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+14	ZAPLEMBE	zaplemba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_	_
+
+15	PREMOŽENJA	premoženje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_	_
+
+16	(	(	PUNCT	Z	_	17	punct	_	_	_
+
+17	ZIOOZP	zioozp	X	X	_	15	appos	_	_	_
+
+18	)	)	PUNCT	Z	_	17	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021877.txt
+# text = 2. člen
+1	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021877.txt
+# text = Obveznice se izdajo v eni ali več serijah.
+1	Obveznice	obveznica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	3	expl	_	_	_
+
+3	izdajo	izdaja	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	v	v	ADP	Sl	Case=Loc	8	case	_	_	_
+
+5	eni	en	NUM	Mlpfsl	Case=Loc|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing	8	nummod	_	_	_
+
+6	ali	ali	CCONJ	Cc	_	7	cc	_	_	_
+
+7	več	več	DET	Rgc	PronType=Ind	5	conj	_	_	_
+
+8	serijah	serija	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	3	obl	_	_	_
+
+9	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021877.txt
+# text = Republika Slovenija zagotavlja sredstva za poravnavo obveznosti po tem zakonu iz sredstev, s katerimi upravlja Slovenski odškodninski sklad.
+1	Republika	republika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+2	Slovenija	Slovenija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	zagotavlja	zagotavljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	sredstva	sredstvo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_	_
+
+5	za	za	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	poravnavo	poravnava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+7	obveznosti	obveznost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+8	po	po	ADP	Sl	Case=Loc	10	case	_	_	_
+
+9	tem	ta	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_	_
+
+10	zakonu	zakon	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+11	iz	iz	ADP	Sg	Case=Gen	12	case	_	_	_
+
+12	sredstev	sredstvo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	_	_
+
+13	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+14	s	z	ADP	Si	Case=Ins	15	case	_	_	_
+
+15	katerimi	kateri	DET	Pq-mpi	Case=Ins|Gender=Masc|Number=Plur|PronType=Int	16	obl	_	_	_
+
+16	upravlja	upravljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	_	_
+
+17	Slovenski	slovenski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_	_
+
+18	odškodninski	odškodninski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_	_
+
+19	sklad	sklad	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_	_
+
+20	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021877.txt
+# text = 7. člen
+1	7.	7.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+

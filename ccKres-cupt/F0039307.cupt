@@ -1,0 +1,279 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0039307.txt
+# text = Predpremiera projekta A Taste of Europe/
+1	Predpremiera	predpremier	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	projekta	projekt	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	A	a	X	Xf	Foreign=Yes	2	nmod	_	_	_
+
+4	Taste	tasti	X	Xf	Foreign=Yes	2	nmod	_	_	_
+
+5	of	of	X	Xf	Foreign=Yes	6	flat:foreign	_	_	_
+
+6	Europe	europe	X	Xf	Foreign=Yes	4	flat:foreign	_	_	_
+
+7	/	/	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039307.txt
+# text = Okus Evrope se je odvijala v Restavraciji 1906 Bled Hotela Triglav Bled v četrtek, 24. 2. 2011.
+1	Okus	okus	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+2	Evrope	Evropa	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	5	expl	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+5	odvijala	odvijati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	v	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+7	Restavraciji	restavracija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+8	1906	1906	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+9	Bled	Bled	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+10	Hotela	hoteti	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	5	parataxis	_	_	_
+
+11	Triglav	Triglav	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_	_
+
+12	Bled	Bled	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	_	_
+
+13	v	v	ADP	Sa	Case=Acc	14	case	_	_	_
+
+14	četrtek	četrtek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_	_
+
+15	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+16	24.	24.	NUM	Mdo	NumForm=Digit|NumType=Ord	14	nummod	_	_	_
+
+17	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	16	flat	_	_	_
+
+18	2011	2011	NUM	Mdc	NumForm=Digit|NumType=Card	16	conj	_	_	_
+
+19	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039307.txt
+# text = Projekt smo predstavili na tiskovni konferenci, nato smo s hišnimi kuharji kuhali Triglavov medeni jedilnik.
+1	Projekt	projekt	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_	_
+
+2	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	_	_
+
+3	predstavili	predstaviti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+4	na	na	ADP	Sl	Case=Loc	6	case	_	_	_
+
+5	tiskovni	tiskoven	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	konferenci	konferenca	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_	_
+
+7	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+8	nato	nato	ADV	Rgp	Degree=Pos	13	advmod	_	_	_
+
+9	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	_	_
+
+10	s	z	ADP	Si	Case=Ins	12	case	_	_	_
+
+11	hišnimi	hišen	ADJ	Agpmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_	_
+
+12	kuharji	kuhar	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	13	obl	_	_	_
+
+13	kuhali	kuhati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	3	parataxis	_	_	_
+
+14	Triglavov	Triglavo	ADJ	Aspmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	16	amod	_	_	_
+
+15	medeni	meden	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_	_
+
+16	jedilnik	jedilnik	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_	_
+
+17	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039307.txt
+# text = V marcu pa bo vodstvo potekalo v nedeljo, 6. 3. 2011 ob 15. uri
+1	V	v	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	marcu	marec	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_	_
+
+3	pa	pa	CCONJ	Cc	_	6	advmod	_	_	_
+
+4	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	6	aux	_	_	_
+
+5	vodstvo	vodstvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_	_
+
+6	potekalo	potekati	VERB	Vmpp-sn	Aspect=Imp|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+7	v	v	ADP	Sa	Case=Acc	8	case	_	_	_
+
+8	nedeljo	nedelja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_	_
+
+9	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+10	6.	6.	NUM	Mdo	NumForm=Digit|NumType=Ord	8	nummod	_	_	_
+
+11	3.	3.	NUM	Mdo	NumForm=Digit|NumType=Ord	10	flat	_	_	_
+
+12	2011	2011	NUM	Mdc	NumForm=Digit|NumType=Card	10	flat	_	_	_
+
+13	ob	ob	ADP	Sl	Case=Loc	15	case	_	_	_
+
+14	15.	15.	NUM	Mdo	NumForm=Digit|NumType=Ord	15	nummod	_	_	_
+
+15	uri	ura	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039307.txt
+# text = Cena je 50,00 EUR na osebo.
+1	Cena	cena	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_	_
+
+3	50,00	50,00	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+4	EUR	EUR	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_	_
+
+5	na	na	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	osebo	oseba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+7	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039307.txt
+# text = Odprtje Znanstvene pustolovščine v Brnu
+1	Odprtje	odprtje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+2	Znanstvene	znanstven	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	pustolovščine	pustolovščina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	v	v	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	Brnu	Brno	PROPN	Npnsl	Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039307.txt
+# text = V nedeljo, 20. 3. 2011, vas ob 14. uri vabimo na strokovno vodstvo po razstavi.
+1	V	v	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	nedeljo	nedelja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	20.	20.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+5	3.	3.	NUM	Mdo	NumForm=Digit|NumType=Ord	4	conj	_	_	_
+
+6	2011	2011	NUM	Mdc	NumForm=Digit|NumType=Card	4	conj	_	_	_
+
+7	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+8	vas	ti	PRON	Pp2-pa	Case=Acc|Number=Plur|Person=2|PronType=Prs	12	obj	_	_	_
+
+9	ob	ob	ADP	Sl	Case=Loc	11	case	_	_	_
+
+10	14.	14.	NUM	Mdo	NumForm=Digit|NumType=Ord	11	nummod	_	_	_
+
+11	uri	ura	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_	_
+
+12	vabimo	vabiti	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+13	na	na	ADP	Sa	Case=Acc	15	case	_	_	_
+
+14	strokovno	strokoven	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_	_
+
+15	vodstvo	vodstvo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	_	_
+
+16	po	po	ADP	Sl	Case=Loc	17	case	_	_	_
+
+17	razstavi	razstava	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_	_
+
+18	.	.	PUNCT	Z	_	12	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039307.txt
+# text = Vodila bo vodja projekta Romana Erhatič Širnik, vodja ribiškega oddelka in Lovskega muzeja Slovenije.
+1	Vodila	voditi	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	1	aux	_	_	_
+
+3	vodja	vodja	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_	_
+
+4	projekta	projekt	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+5	Romana	Roman	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+6	Erhatič	Erhatič	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_	_
+
+7	Širnik	Širnik	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	_	_
+
+8	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+9	vodja	vodja	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_	_
+
+10	ribiškega	ribiški	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	oddelka	oddelek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+12	in	in	CCONJ	Cc	_	14	cc	_	_	_
+
+13	Lovskega	lovski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+14	muzeja	muzej	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	conj	_	_	_
+
+15	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+16	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039307.txt
+# text = Cena: delovni list 0,50 EUR oz. brezplačen, če vam ga posredujemo po elektronski pošti, poleg vstopnine je potrebno še doplačilo za vodenje.
+1	Cena	cena	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	parataxis	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	delovni	deloven	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	list	list	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	_
+
+5	0,50	0,50	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+6	EUR	EUR	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+7	oz.	oz.	X	Y	Abbr=Yes	8	cc	_	_	_
+
+8	brezplačen	brezplačen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	conj	_	_	_
+
+9	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+10	če	če	SCONJ	Cs	_	13	mark	_	_	_
+
+11	vam	ti	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	13	iobj	_	_	_
+
+12	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	13	obj	_	_	_
+
+13	posredujemo	posredovati	VERB	Vmbr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	advcl	_	_	_
+
+14	po	po	ADP	Sl	Case=Loc	16	case	_	_	_
+
+15	elektronski	elektronski	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_	_
+
+16	pošti	pošta	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_	_
+
+17	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+18	poleg	poleg	ADP	Sg	Case=Gen	19	case	_	_	_
+
+19	vstopnine	vstopnina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	21	obl	_	_	_
+
+20	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	21	cop	_	_	_
+
+21	potrebno	potreben	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	parataxis	_	_	_
+
+22	še	še	PART	Q	_	21	advmod	_	_	_
+
+23	doplačilo	doplačilo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_	_
+
+24	za	za	ADP	Sa	Case=Acc	25	case	_	_	_
+
+25	vodenje	vodenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	23	nmod	_	_	_
+
+26	.	.	PUNCT	Z	_	6	punct	_	_	_
+

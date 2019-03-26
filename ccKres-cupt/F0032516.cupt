@@ -1,0 +1,733 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0032516.txt
+# text = 8.
+1	8.	8.	NUM	Mdo	NumForm=Digit|NumType=Ord		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0032516.txt
+# text = 20 Hugo- 8.55 Springfield Rifle, am. western( p)- 10.35 Zorro, črni maščevalec- 10.55 Beli očnjak- 11.20 Kralj Arthur- 11.50 Pustolovščine s Sindbadom- 12. 15 Bim Bam Bino- 12.25 Centurionci- 12.45 Bim Bam Bino- 12.55 Astro dinozavri- 13.
+1	20	20	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Hugo	Hugo	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	44	parataxis	_	_	_
+
+3	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+4	8.55	8.55	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+5	Springfield	Springfield	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+6	Rifle	Rifle	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	am.	am.	X	Y	Abbr=Yes	6	appos	_	_	_
+
+9	western	western	X	Xf	Foreign=Yes	8	flat:foreign	_	_	_
+
+10	(	(	PUNCT	Z	_	11	punct	_	_	_
+
+11	p	p	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_	_
+
+12	)	)	PUNCT	Z	_	11	punct	_	_	_
+
+13	-	-	PUNCT	Z	_	14	punct	_	_	_
+
+14	10.35	10.35	NUM	Mdc	NumForm=Digit|NumType=Card	11	nummod	_	_	_
+
+15	Zorro	Zorro	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	14	punct	_	_	_
+
+16	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+17	črni	črn	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_	_
+
+18	maščevalec	maščevalec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	15	appos	_	_	_
+
+19	-	-	PUNCT	Z	_	20	punct	_	_	_
+
+20	10.55	10.55	NUM	Mdc	NumForm=Digit|NumType=Card	18	nummod	_	_	_
+
+21	Beli	bel	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_	_
+
+22	očnjak	očnjak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	18	nmod	_	_	_
+
+23	-	-	PUNCT	Z	_	24	punct	_	_	_
+
+24	11.20	11.20	NUM	Mdc	NumForm=Digit|NumType=Card	22	nummod	_	_	_
+
+25	Kralj	Kralj	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	18	nmod	_	_	_
+
+26	Arthur	arthur	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	25	flat:name	_	_	_
+
+27	-	-	PUNCT	Z	_	28	punct	_	_	_
+
+28	11.50	11.50	NUM	Mdc	NumForm=Digit|NumType=Card	26	nummod	_	_	_
+
+29	Pustolovščine	pustolovščina	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	25	flat:name	_	_	_
+
+30	s	z	ADP	Si	Case=Ins	31	case	_	_	_
+
+31	Sindbadom	Sindbad	PROPN	Npmsi	Case=Ins|Gender=Masc|Number=Sing	25	nmod	_	_	_
+
+32	-	-	PUNCT	Z	_	33	punct	_	_	_
+
+33	12	12	NUM	Mdc	NumForm=Digit|NumType=Card	31	nummod	_	_	_
+
+34	.	.	PUNCT	Z	_	36	punct	_	_	_
+
+35	15	15	NUM	Mdc	NumForm=Digit|NumType=Card	36	nummod	_	_	_
+
+36	Bim	biti	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	44	nsubj	_	_	_
+
+37	Bam	bati	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	36	nmod	_	_	_
+
+38	Bino	Bino	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	37	nmod	_	_	_
+
+39	-	-	PUNCT	Z	_	40	punct	_	_	_
+
+40	12.25	12.25	NUM	Mdc	NumForm=Digit|NumType=Card	38	nummod	_	_	_
+
+41	Centurionci	centurionca	PROPN	Npmpi	Case=Nom|Gender=Masc|Number=Plur	37	nmod	_	_	_
+
+42	-	-	PUNCT	Z	_	43	punct	_	_	_
+
+43	12.45	12.45	NUM	Mdc	NumForm=Digit|NumType=Card	45	nummod	_	_	_
+
+44	Bim	biti	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+45	Bam	bati	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	44	nmod	_	_	_
+
+46	Bino	Bino	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	45	flat:name	_	_	_
+
+47	-	-	PUNCT	Z	_	48	punct	_	_	_
+
+48	12.55	12.55	NUM	Mdc	NumForm=Digit|NumType=Card	46	nummod	_	_	_
+
+49	Astro	astro	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	50	nmod	_	_	_
+
+50	dinozavri	dinozavra	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	45	conj	_	_	_
+
+51	-	-	PUNCT	Z	_	52	punct	_	_	_
+
+52	13	13	NUM	Mdc	NumForm=Digit|NumType=Card	50	conj	_	_	_
+
+53	.	.	PUNCT	Z	_	44	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0032516.txt
+# text = 15 Bim Bam Bino- 13.
+1	15	15	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Bim	biti	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	Bam	bati	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	Bino	Bino	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	_	_
+
+5	-	-	PUNCT	Z	_	6	punct	_	_	_
+
+6	13	13	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+7	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0032516.txt
+# text = 25 Galaxy Ranger- 13.45 Bim Bam Bino- 13.55 Thundercats, mačke iz vesolja- 14.20 Bim Bam Bino- 14.30 Superhuman Samurai Syber- squad- 14.55 Hongkong- 16. 15 Carambola, it. film, 1974; R: Ferdinando Baldi; I: Paul Smith, Michael Coby, Horst Frank- 18.
+1	25	25	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+2	Galaxy	Galaxy	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+3	Ranger	Ranger	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	parataxis	_	_	_
+
+4	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+5	13.45	13.45	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+6	Bim	biti	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+7	Bam	bati	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+8	Bino	Bino	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+9	-	-	PUNCT	Z	_	10	punct	_	_	_
+
+10	13.55	13.55	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+11	Thundercats	thundercats	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+12	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+13	mačke	mačka	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	7	conj	_	_	_
+
+14	iz	iz	ADP	Sg	Case=Gen	15	case	_	_	_
+
+15	vesolja	vesolje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_	_
+
+16	-	-	PUNCT	Z	_	17	punct	_	_	_
+
+17	14.20	14.20	NUM	Mdc	NumForm=Digit|NumType=Card	15	nummod	_	_	_
+
+18	Bim	biti	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+19	Bam	bati	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	18	nmod	_	_	_
+
+20	Bino	Bino	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	19	nmod	_	_	_
+
+21	-	-	PUNCT	Z	_	22	punct	_	_	_
+
+22	14.30	14.30	NUM	Mdc	NumForm=Digit|NumType=Card	20	nummod	_	_	_
+
+23	Superhuman	Superhuman	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	25	nmod	_	_	_
+
+24	Samurai	Samurai	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	25	nmod	_	_	_
+
+25	Syber	syber	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	19	nmod	_	_	_
+
+26	-	-	PUNCT	Z	_	27	punct	_	_	_
+
+27	squad	squad	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	25	nmod	_	_	_
+
+28	-	-	PUNCT	Z	_	29	punct	_	_	_
+
+29	14.55	14.55	NUM	Mdc	NumForm=Digit|NumType=Card	27	nummod	_	_	_
+
+30	Hongkong	hongkong	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	25	nmod	_	_	_
+
+31	-	-	PUNCT	Z	_	32	punct	_	_	_
+
+32	16	16	NUM	Mdc	NumForm=Digit|NumType=Card	30	nummod	_	_	_
+
+33	.	.	PUNCT	Z	_	34	punct	_	_	_
+
+34	15	15	NUM	Mdc	NumForm=Digit|NumType=Card	35	nummod	_	_	_
+
+35	Carambola	Carambola	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	30	conj	_	_	_
+
+36	,	,	PUNCT	Z	_	37	punct	_	_	_
+
+37	it.	it.	X	Y	Abbr=Yes	38	nmod	_	_	_
+
+38	film	film	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	35	appos	_	_	_
+
+39	,	,	PUNCT	Z	_	40	punct	_	_	_
+
+40	1974	1974	NUM	Mdc	NumForm=Digit|NumType=Card	38	nummod	_	_	_
+
+41	;	;	PUNCT	Z	_	42	punct	_	_	_
+
+42	R:	R:	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	38	conj	_	_	_
+
+43	Ferdinando	Ferdinando	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	42	flat:name	_	_	_
+
+44	Baldi	Balda	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	42	flat:name	_	_	_
+
+45	;	;	PUNCT	Z	_	46	punct	_	_	_
+
+46	I:	I:	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	42	conj	_	_	_
+
+47	Paul	Paul	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	46	flat:name	_	_	_
+
+48	Smith	Smith	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	46	flat:name	_	_	_
+
+49	,	,	PUNCT	Z	_	50	punct	_	_	_
+
+50	Michael	Michael	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	46	conj	_	_	_
+
+51	Coby	Coby	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	50	flat:name	_	_	_
+
+52	,	,	PUNCT	Z	_	53	punct	_	_	_
+
+53	Horst	Horst	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	37	conj	_	_	_
+
+54	Frank	Frank	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	53	flat:name	_	_	_
+
+55	-	-	PUNCT	Z	_	56	punct	_	_	_
+
+56	18	18	NUM	Mdc	NumForm=Digit|NumType=Card	54	conj	_	_	_
+
+57	.	.	PUNCT	Z	_	37	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0032516.txt
+# text = 10 Srčna kap življenja- 19.00 Dr. Kulani, zdravnik na Havajih- 20.00 Edgar Wallace: Mrtveci iz Temze, nem. film, 1971; R: Harrald Phillip; I: Uschi Glass, Hansjvrg Felmi, Werner Peters- 22.30 Twin Peaks, am. film, 1992; R: David Lynch; I: Kyle McLachlan, Sheryl Lee, David Bowie, Kiefer Sutherland- 0.30 Osamljenost in umor( The Kill- Off), am. film, 1989; R: Maggiee Greenwald; I: Loretta Gross, Andrew Lee Barrett, Jackson Sims
+1	10	10	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+2	Srčna	srčen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	kap	kap	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_	_
+
+4	življenja	življenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_	_
+
+5	-	-	PUNCT	Z	_	6	punct	_	_	_
+
+6	19.00	19.00	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+7	Dr.	dr.	X	Y	Abbr=Yes	8	nmod	_	_	_
+
+8	Kulani	Kulan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_	_
+
+9	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+10	zdravnik	zdravnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_	_
+
+11	na	na	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	Havajih	havaj	PROPN	Npmpl	Case=Loc|Gender=Masc|Number=Plur	10	nmod	_	_	_
+
+13	-	-	PUNCT	Z	_	14	punct	_	_	_
+
+14	20.00	20.00	NUM	Mdc	NumForm=Digit|NumType=Card	12	nummod	_	_	_
+
+15	Edgar	edgar	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+16	Wallace	Wallace	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+17	:	:	PUNCT	Z	_	16	punct	_	_	_
+
+18	Mrtveci	Mrtvec	PROPN	Npmpn	Case=Nom|Gender=Masc|Number=Plur	15	nmod	_	_	_
+
+19	iz	iz	ADP	Sg	Case=Gen	20	case	_	_	_
+
+20	Temze	Temze	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_	_
+
+21	,	,	PUNCT	Z	_	23	punct	_	_	_
+
+22	nem.	nem.	X	Y	Abbr=Yes	20	appos	_	_	_
+
+23	film	film	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	22	conj	_	_	_
+
+24	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+25	1971	1971	NUM	Mdc	NumForm=Digit|NumType=Card	23	nummod	_	_	_
+
+26	;	;	PUNCT	Z	_	27	punct	_	_	_
+
+27	R	R	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	25	nmod	_	_	_
+
+28	:	:	PUNCT	Z	_	27	punct	_	_	_
+
+29	Harrald	Harrald	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	27	nmod	_	_	_
+
+30	Phillip	Phillip	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	29	flat:name	_	_	_
+
+31	;	;	PUNCT	Z	_	27	punct	_	_	_
+
+32	I:	I:	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	29	conj	_	_	_
+
+33	Uschi	usch	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	32	flat:name	_	_	_
+
+34	Glass	glass	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	32	flat:name	_	_	_
+
+35	,	,	PUNCT	Z	_	36	punct	_	_	_
+
+36	Hansjvrg	Hansjvrg	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	34	conj	_	_	_
+
+37	Felmi	felma	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	36	flat:name	_	_	_
+
+38	,	,	PUNCT	Z	_	39	punct	_	_	_
+
+39	Werner	Werner	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	36	conj	_	_	_
+
+40	Peters	Peters	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	39	flat:name	_	_	_
+
+41	-	-	PUNCT	Z	_	42	punct	_	_	_
+
+42	22.30	22.30	NUM	Mdc	NumForm=Digit|NumType=Card	40	nummod	_	_	_
+
+43	Twin	Twin	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	44	nmod	_	_	_
+
+44	Peaks	Peaks	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	39	conj	_	_	_
+
+45	,	,	PUNCT	Z	_	46	punct	_	_	_
+
+46	am.	am.	X	Y	Abbr=Yes	44	nmod	_	_	_
+
+47	film	film	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	46	conj	_	_	_
+
+48	,	,	PUNCT	Z	_	49	punct	_	_	_
+
+49	1992	1992	NUM	Mdc	NumForm=Digit|NumType=Card	47	conj	_	_	_
+
+50	;	;	PUNCT	Z	_	51	punct	_	_	_
+
+51	R	R	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	47	conj	_	_	_
+
+52	:	:	PUNCT	Z	_	51	punct	_	_	_
+
+53	David	David	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	46	nmod	_	_	_
+
+54	Lynch	Lynch	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	53	flat:name	_	_	_
+
+55	;	;	PUNCT	Z	_	56	punct	_	_	_
+
+56	I:	I:	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	53	conj	_	_	_
+
+57	Kyle	Kyle	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	56	flat:name	_	_	_
+
+58	McLachlan	McLachlan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	56	flat:name	_	_	_
+
+59	,	,	PUNCT	Z	_	60	punct	_	_	_
+
+60	Sheryl	Shery	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	53	conj	_	_	_
+
+61	Lee	lee	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	60	flat:name	_	_	_
+
+62	,	,	PUNCT	Z	_	63	punct	_	_	_
+
+63	David	David	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	56	conj	_	_	_
+
+64	Bowie	Bowie	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	63	flat:name	_	_	_
+
+65	,	,	PUNCT	Z	_	66	punct	_	_	_
+
+66	Kiefer	Kiefer	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	57	conj	_	_	_
+
+67	Sutherland	Sutherland	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	66	flat:name	_	_	_
+
+68	-	-	PUNCT	Z	_	69	punct	_	_	_
+
+69	0.30	0.30	NUM	Mdc	NumForm=Digit|NumType=Card	67	nummod	_	_	_
+
+70	Osamljenost	osamljenost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	63	appos	_	_	_
+
+71	in	in	CCONJ	Cc	_	72	cc	_	_	_
+
+72	umor	umor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	66	conj	_	_	_
+
+73	(	(	PUNCT	Z	_	74	punct	_	_	_
+
+74	The	the	X	Xf	Foreign=Yes	72	appos	_	_	_
+
+75	Kill	Kill	X	Xf	Foreign=Yes	74	flat:foreign	_	_	_
+
+76	-	-	PUNCT	Z	_	77	punct	_	_	_
+
+77	Off	Off	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	74	conj	_	_	_
+
+78	)	)	PUNCT	Z	_	74	punct	_	_	_
+
+79	,	,	PUNCT	Z	_	80	punct	_	_	_
+
+80	am.	am.	X	Y	Abbr=Yes	74	flat:foreign	_	_	_
+
+81	film	film	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	80	nmod	_	_	_
+
+82	,	,	PUNCT	Z	_	83	punct	_	_	_
+
+83	1989	1989	NUM	Mdc	NumForm=Digit|NumType=Card	81	nummod	_	_	_
+
+84	;	;	PUNCT	Z	_	85	punct	_	_	_
+
+85	R:	R:	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	81	conj	_	_	_
+
+86	Maggiee	Maggiee	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	85	flat:name	_	_	_
+
+87	Greenwald	Greenwald	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	85	flat:name	_	_	_
+
+88	;	;	PUNCT	Z	_	89	punct	_	_	_
+
+89	I:	I:	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	85	conj	_	_	_
+
+90	Loretta	Lorett	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	89	flat:name	_	_	_
+
+91	Gross	Gross	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	89	flat:name	_	_	_
+
+92	,	,	PUNCT	Z	_	93	punct	_	_	_
+
+93	Andrew	Andrew	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	89	conj	_	_	_
+
+94	Lee	lee	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	93	flat:name	_	_	_
+
+95	Barrett	Barrett	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	93	flat:name	_	_	_
+
+96	,	,	PUNCT	Z	_	97	punct	_	_	_
+
+97	Jackson	Jackson	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	90	conj	_	_	_
+
+98	Sims	Sims	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	97	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0032516.txt
+# text = Servisiranje porabniške mrzlice
+1	Servisiranje	servisiranje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+2	porabniške	porabniški	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	mrzlice	mrzlica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0032516.txt
+# text = V takih okoliščinah se Microsoft pripravlja na novo tehniko trženja in obračunavanja storitev.
+1	V	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	takih	tak	DET	Pd-fpl	Case=Loc|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_	_
+
+3	okoliščinah	okoliščina	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	6	obl	_	_	_
+
+4	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	6	expl	_	_	_
+
+5	Microsoft	Microsoft	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	_
+
+6	pripravlja	pripravljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	na	na	ADP	Sa	Case=Acc	9	case	_	_	_
+
+8	novo	nov	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_	_
+
+9	tehniko	tehnika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_	_
+
+10	trženja	trženje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_	_
+
+11	in	in	CCONJ	Cc	_	12	cc	_	_	_
+
+12	obračunavanja	obračunavanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	10	conj	_	_	_
+
+13	storitev	storitev	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_	_
+
+14	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0032516.txt
+# text = Gatesov argument je, da podjetje želi ostati v stalnem stiku s svojimi strankami.
+1	Gatesov	Gatesov	ADJ	Aspmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	2	amod	_	_	_
+
+2	argument	argument	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_	_
+
+4	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+5	da	da	SCONJ	Cs	_	7	mark	_	_	_
+
+6	podjetje	podjetje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_	_
+
+7	želi	želeti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	_	_
+
+8	ostati	ostati	VERB	Vmen	Aspect=Perf|VerbForm=Inf	7	xcomp	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	11	case	_	_	_
+
+10	stalnem	stalen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	stiku	stik	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_	_
+
+12	s	z	ADP	Si	Case=Ins	14	case	_	_	_
+
+13	svojimi	svoj	DET	Px-fpi	Case=Ins|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	14	det	_	_	_
+
+14	strankami	stranka	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	11	nmod	_	_	_
+
+15	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0032516.txt
+# text = Svetovno omrežje bo omogočalo, da bo lahko Microsoft v stiku s strankami pregledoval njihove osebne računalnike in predlagal, kaj bi bilo pametno še uporabiti ali dokupiti in tako izboljšati uporabnikovo produktivnost.
+1	Svetovno	svetoven	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_	_
+
+2	omrežje	omrežje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_	_
+
+3	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	4	aux	_	_	_
+
+4	omogočalo	omogočati	VERB	Vmpp-sn	Aspect=Imp|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+6	da	da	SCONJ	Cs	_	14	mark	_	_	_
+
+7	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	14	aux	_	_	_
+
+8	lahko	lahko	ADV	Rgp	Degree=Pos	14	advmod	_	_	_
+
+9	Microsoft	Microsoft	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_	_
+
+10	v	v	ADP	Sl	Case=Loc	11	case	_	_	_
+
+11	stiku	stik	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_	_
+
+12	s	z	ADP	Si	Case=Ins	13	case	_	_	_
+
+13	strankami	stranka	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	11	nmod	_	_	_
+
+14	pregledoval	pregledovati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	4	ccomp	_	_	_
+
+15	njihove	njihov	DET	Ps3mpap	Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	17	det	_	_	_
+
+16	osebne	oseben	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	_	_
+
+17	računalnike	računalnik	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_	_
+
+18	in	in	CCONJ	Cc	_	19	cc	_	_	_
+
+19	predlagal	predlagati	VERB	Vmbp-sm	Gender=Masc|Number=Sing|VerbForm=Part	14	conj	_	_	_
+
+20	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+21	kaj	kaj	PRON	Pq-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	24	obj	_	_	_
+
+22	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	24	aux	_	_	_
+
+23	bilo	biti	AUX	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part	24	cop	_	_	_
+
+24	pametno	pameten	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	ccomp	_	_	_
+
+25	še	še	PART	Q	_	24	advmod	_	_	_
+
+26	uporabiti	uporabiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	24	csubj	_	_	_
+
+27	ali	ali	CCONJ	Cc	_	28	cc	_	_	_
+
+28	dokupiti	dokupiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	26	conj	_	_	_
+
+29	in	in	CCONJ	Cc	_	31	cc	_	_	_
+
+30	tako	tako	ADV	Rgp	Degree=Pos	31	advmod	_	_	_
+
+31	izboljšati	izboljšati	VERB	Vmen	Aspect=Perf|VerbForm=Inf	28	conj	_	_	_
+
+32	uporabnikovo	uporabnikov	ADJ	Aspfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	33	amod	_	_	_
+
+33	produktivnost	produktivnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_	_
+
+34	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0032516.txt
+# text = Naslednji hip ga je eksplozija raznesla na koščke.
+1	Naslednji	naslednji	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	hip	hip	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_	_
+
+3	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	6	obj	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
+
+5	eksplozija	eksplozija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_	_
+
+6	raznesla	raznesti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+7	na	na	ADP	Sa	Case=Acc	8	case	_	_	_
+
+8	koščke	košček	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	6	obl	_	_	_
+
+9	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0032516.txt
+# text = Dr. Krunislav Olujić sodi v novi hrvaški državi v sam vrh strankarske in državne hierarhije.
+1	Dr.	dr.	X	Y	Abbr=Yes	2	nmod	_	_	_
+
+2	Krunislav	Krunislav	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+3	Olujić	Olujić	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_	_
+
+4	sodi	soditi	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	8	case	_	_	_
+
+6	novi	nov	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+7	hrvaški	hrvaški	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	državi	država	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+9	v	v	ADP	Sa	Case=Acc	11	case	_	_	_
+
+10	sam	sam	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	vrh	vrh	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+12	strankarske	strankarski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_	_
+
+13	in	in	CCONJ	Cc	_	14	cc	_	_	_
+
+14	državne	državen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	conj	_	_	_
+
+15	hierarhije	hierarhija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+16	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0032516.txt
+# text = Kot ugledni član Hrvaške demokratske skupnosti je bil poslanec, državni tožilec, predsednik državne volilne komisije.
+1	Kot	kot	SCONJ	Cs	_	3	case	_	_	_
+
+2	ugledni	ugleden	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	član	član	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+4	Hrvaške	Hrvaška	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+5	demokratske	demokratski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	skupnosti	skupnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	aux	_	_	_
+
+8	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	9	cop	_	_	_
+
+9	poslanec	poslanec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+10	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+11	državni	državen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_	_
+
+12	tožilec	tožilec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_	_
+
+13	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+14	predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_	_
+
+15	državne	državen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_	_
+
+16	volilne	volilen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_	_
+
+17	komisije	komisija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+18	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0032516.txt
+# text = Pred izvolitvijo za predsednika vrhovnega sodišča ga je državni poglavar imenoval za predstojnika urada za državno varnost, torej za prvega moža vseh tajnih služb na Hrvaškem.
+1	Pred	pred	ADP	Si	Case=Ins	2	case	_	_	_
+
+2	izvolitvijo	izvolitev	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_	_
+
+3	za	za	ADP	Sa	Case=Acc	4	case	_	_	_
+
+4	predsednika	predsednik	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	vrhovnega	vrhoven	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_	_
+
+6	sodišča	sodišče	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+7	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	11	obj	_	_	_
+
+8	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_	_
+
+9	državni	državen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	poglavar	poglavar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_	_
+
+11	imenoval	imenovati	VERB	Vmbp-sm	Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+12	za	za	ADP	Sa	Case=Acc	13	case	_	_	_
+
+13	predstojnika	predstojnik	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_	_
+
+14	urada	urad	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+15	za	za	ADP	Sa	Case=Acc	17	case	_	_	_
+
+16	državno	državen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_	_
+
+17	varnost	varnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+18	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+19	torej	torej	ADV	Rgp	Degree=Pos	22	advmod	_	_	_
+
+20	za	za	ADP	Sa	Case=Acc	22	case	_	_	_
+
+21	prvega	prvi	ADJ	Mlomsa	Case=Acc|Gender=Masc|NumType=Ord|Number=Sing	22	amod	_	_	_
+
+22	moža	mož	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	conj	_	_	_
+
+23	vseh	ves	DET	Pg-fpg	Case=Gen|Gender=Fem|Number=Plur|PronType=Tot	25	det	_	_	_
+
+24	tajnih	tajen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	_	_
+
+25	služb	služba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_	_
+
+26	na	na	ADP	Sl	Case=Loc	27	case	_	_	_
+
+27	Hrvaškem	Hrvaško	PROPN	Npnsl	Case=Loc|Gender=Neut|Number=Sing	25	nmod	_	_	_
+
+28	.	.	PUNCT	Z	_	11	punct	_	_	_
+

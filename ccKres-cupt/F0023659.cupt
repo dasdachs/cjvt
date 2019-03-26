@@ -1,0 +1,453 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0023659.txt
+# text = Nokia 8910i( in 3510i)
+1	Nokia	Nokia	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	8910i	8910i	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+3	(	(	PUNCT	Z	_	5	punct	_	_	_
+
+4	in	in	CCONJ	Cc	_	5	cc	_	_	_
+
+5	3510i	3510	NUM	Mdc	NumForm=Digit|NumType=Card	2	conj	_	_	_
+
+6	)	)	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023659.txt
+# text = NIČ NOVEGA; LE KONEC RECESIJE
+1	NIČ	nič	PRON	Pz-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	2	nmod	_	_	_
+
+2	NOVEGA	nov	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing		root	_	_	_
+
+3	;	;	PUNCT	Z	_	2	punct	_	_	_
+
+4	LE	le	PART	Q	_	2	advmod	_	_	_
+
+5	KONEC	konec	ADP	Sg	Case=Gen	6	case	_	_	_
+
+6	RECESIJE	recesija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	obl	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023659.txt
+# text = Namenjen: Razširjena tipkovnica za ročne računalnike z nameščenim operacijskim sistemom MS Windows CE.
+1	Namenjen	namenjen	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Razširjena	razširjen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	4	amod	_	_	_
+
+4	tipkovnica	tipkovnica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_	_
+
+5	za	za	ADP	Sa	Case=Acc	7	case	_	_	_
+
+6	ročne	ročen	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_	_
+
+7	računalnike	računalnik	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	_	_
+
+8	z	z	ADP	Si	Case=Ins	11	case	_	_	_
+
+9	nameščenim	nameščen	ADJ	Appmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	11	amod	_	_	_
+
+10	operacijskim	operacijski	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	sistemom	sistem	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+12	MS	MS	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+13	Windows	Windows	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+14	CE	ce	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+15	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023659.txt
+# text = Za: Zasnova programske rešitve, uporabniško oblikovanje posebnih znakov, možnost dodelitve dveh znakov izbrani tipki, uporabniška navodila.
+1	Za	za	ADV	Rgp	Degree=Pos	17	discourse	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Zasnova	zasnova	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_	_
+
+4	programske	programski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	rešitve	rešitev	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+6	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+7	uporabniško	uporabniški	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_	_
+
+8	oblikovanje	oblikovanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	3	appos	_	_	_
+
+9	posebnih	poseben	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_	_
+
+10	znakov	znak	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_	_
+
+11	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+12	možnost	možnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_	_
+
+13	dodelitve	dodelitev	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+14	dveh	dva	NUM	Mlcmdg	Case=Gen|Gender=Masc|NumForm=Word|NumType=Card|Number=Dual	15	nummod	_	_	_
+
+15	znakov	znak	NOUN	Ncmdg	Case=Gen|Gender=Masc|Number=Dual	13	nmod	_	_	_
+
+16	izbrani	izbran	ADJ	Appfda	Case=Nom|Degree=Pos|Gender=Fem|Number=Dual|VerbForm=Part	17	amod	_	_	_
+
+17	tipki	tipek	NOUN	Ncfdn	Case=Nom|Gender=Fem|Number=Dual		root	_	_	_
+
+18	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+19	uporabniška	uporabniški	ADJ	Agpnpn	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	20	amod	_	_	_
+
+20	navodila	navodilo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	17	conj	_	_	_
+
+21	.	.	PUNCT	Z	_	17	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023659.txt
+# text = Proti: Zamudno oblikovanje in vnos posebnih znakov.
+1	Proti	proti	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Zamudno	zamudno	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_	_
+
+4	oblikovanje	oblikovanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+5	in	in	CCONJ	Cc	_	6	cc	_	_	_
+
+6	vnos	vnos	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_	_
+
+7	posebnih	poseben	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_	_
+
+8	znakov	znak	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_	_
+
+9	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023659.txt
+# text = Velikost: 1800 KBCena :9,95 USDElektronski naslov:www.
+1	Velikost	velikost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	parataxis	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	1800	1800	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+4	KBCena	kbcen	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	7	nsubj	_	_	_
+
+5	:9,95	:9,95	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+6	USDElektronski	usdelektronski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	naslov:www	naslovlww1yeaasl	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+8	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023659.txt
+# text = softspb.comOcena Moj Mikro
+1	softspb.comOcena	softspbc.cocen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+2	Moj	moj	DET	Ps1msns	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	_	_
+
+3	Mikro	Mikro	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023659.txt
+# text = Posebno poglavje je samo pošiljanje elektronske pošte.
+1	Posebno	poseben	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_	_
+
+2	poglavje	poglavje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+4	samo	samo	PART	Q	_	5	advmod	_	_	_
+
+5	pošiljanje	pošiljanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+6	elektronske	elektronski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	_
+
+7	pošte	pošta	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+8	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023659.txt
+# text = Tukaj se program še posebej izkaže.
+1	Tukaj	tukaj	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	6	expl	_	_	_
+
+3	program	program	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	_
+
+4	še	še	PART	Q	_	6	advmod	_	_	_
+
+5	posebej	posebej	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+6	izkaže	izkazati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023659.txt
+# text = Med klasičnimi možnostmi je tudi možnost pošiljanja pošte preko IrDa vmesnika.
+1	Med	med	ADP	Si	Case=Ins	3	case	_	_	_
+
+2	klasičnimi	klasičen	ADJ	Agpfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_	_
+
+3	možnostmi	možnost	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	4	obl	_	_	_
+
+4	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	tudi	tudi	PART	Q	_	4	advmod	_	_	_
+
+6	možnost	možnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+7	pošiljanja	pošiljanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_	_
+
+8	pošte	pošta	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+9	preko	preko	ADP	Sg	Case=Gen	10	case	_	_	_
+
+10	IrDa	IrDa	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+11	vmesnika	vmesnik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+12	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023659.txt
+# text = Tako bodo vaša sporočila tudi po tej poti prišla do bližnjega naslovnika na mesto, kjer se bo sporočilo tudi ohranilo.
+1	Tako	tako	ADV	Rgp	Degree=Pos	9	mark	_	_	_
+
+2	bodo	biti	AUX	Va-f3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	9	aux	_	_	_
+
+3	vaša	vaš	DET	Ps1npnp	Case=Nom|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	_	_	_
+
+4	sporočila	sporočilo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	_	_
+
+5	tudi	tudi	PART	Q	_	9	advmod	_	_	_
+
+6	po	po	ADP	Sl	Case=Loc	8	case	_	_	_
+
+7	tej	ta	DET	Pd-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_	_
+
+8	poti	pot	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_	_
+
+9	prišla	priti	VERB	Vmep-pn	Aspect=Perf|Gender=Neut|Number=Plur|VerbForm=Part		root	_	_	_
+
+10	do	do	ADP	Sg	Case=Gen	12	case	_	_	_
+
+11	bližnjega	bližnji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_	_
+
+12	naslovnika	naslovnik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+13	na	na	ADP	Sa	Case=Acc	14	case	_	_	_
+
+14	mesto	mesto	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	12	nmod	_	_	_
+
+15	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+16	kjer	kjer	SCONJ	Cs	_	21	mark	_	_	_
+
+17	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	21	expl	_	_	_
+
+18	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	21	aux	_	_	_
+
+19	sporočilo	sporočilo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_	_
+
+20	tudi	tudi	PART	Q	_	21	advmod	_	_	_
+
+21	ohranilo	ohraniti	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part	14	acl	_	_	_
+
+22	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023659.txt
+# text = Nekateri pomnilniki imajo na sebi stikalo, s katerim lahko preprečimo brisanje posameznih datotek oz. pisanje v pomnilnik, podobno, kot je to bilo možno pri disketah.
+1	Nekateri	nekateri	DET	Pi-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_	_
+
+2	pomnilniki	pomnilnik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_	_
+
+3	imajo	imeti	VERB	Vmpr3p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	na	na	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	sebi	se	PRON	Px---l	Case=Loc|PronType=Prs|Reflex=Yes	3	obl	_	_	_
+
+6	stikalo	stikalo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_	_
+
+7	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+8	s	z	ADP	Si	Case=Ins	9	case	_	_	_
+
+9	katerim	kateri	DET	Pq-msi	Case=Ins|Gender=Masc|Number=Sing|PronType=Int	11	obl	_	_	_
+
+10	lahko	lahko	ADV	Rgp	Degree=Pos	11	advmod	_	_	_
+
+11	preprečimo	preprečiti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	acl	_	_	_
+
+12	brisanje	brisanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_	_
+
+13	posameznih	posamezen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_	_
+
+14	datotek	datoteka	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_	_
+
+15	oz.	oz.	X	Y	Abbr=Yes	16	cc	_	_	_
+
+16	pisanje	pisanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	14	conj	_	_	_
+
+17	v	v	ADP	Sa	Case=Acc	18	case	_	_	_
+
+18	pomnilnik	pomnilnik	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	_	_
+
+19	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+20	podobno	podobno	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+21	,	,	PUNCT	Z	_	26	punct	_	_	_
+
+22	kot	kot	SCONJ	Cs	_	26	mark	_	_	_
+
+23	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	26	aux	_	_	_
+
+24	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	26	nsubj	_	_	_
+
+25	bilo	biti	AUX	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part	26	cop	_	_	_
+
+26	možno	možen	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	advcl	_	_	_
+
+27	pri	pri	ADP	Sl	Case=Loc	28	case	_	_	_
+
+28	disketah	disketa	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	26	obl	_	_	_
+
+29	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023659.txt
+# text = Ob nekaterih pomnilnikih je priložena tudi programska oprema, ki omogoča ščitenje in skrivanje( nekaterih ali vseh) podatkov z geslom.
+1	Ob	ob	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	nekaterih	nekateri	DET	Pi-mpl	Case=Loc|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_	_
+
+3	pomnilnikih	pomnilnik	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+5	priložena	priložen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	tudi	tudi	PART	Q	_	5	advmod	_	_	_
+
+7	programska	programski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	oprema	oprema	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_	_
+
+9	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+10	ki	ki	SCONJ	Cs	_	11	mark	_	_	_
+
+11	omogoča	omogočati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_	_
+
+12	ščitenje	ščitenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_	_
+
+13	in	in	CCONJ	Cc	_	14	cc	_	_	_
+
+14	skrivanje	skrivanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	12	conj	_	_	_
+
+15	(	(	PUNCT	Z	_	16	punct	_	_	_
+
+16	nekaterih	nekateri	DET	Pi-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	20	det	_	_	_
+
+17	ali	ali	CCONJ	Cc	_	18	cc	_	_	_
+
+18	vseh	ves	DET	Pg-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	16	conj	_	_	_
+
+19	)	)	PUNCT	Z	_	16	punct	_	_	_
+
+20	podatkov	podatek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_	_
+
+21	z	z	ADP	Si	Case=Ins	22	case	_	_	_
+
+22	geslom	geslo	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	20	nmod	_	_	_
+
+23	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023659.txt
+# text = Pri tem je možno z geslom zaščiteni del obravnavati kot ločen del pomnilnika, podobno, kot to počnemo s particijami na disku.
+1	Pri	pri	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	tem	ta	DET	Pd-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	9	obl	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_	_
+
+4	možno	možen	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing		root	_	_	_
+
+5	z	z	ADP	Si	Case=Ins	6	case	_	_	_
+
+6	geslom	geslo	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_	_
+
+7	zaščiteni	zaščiten	ADJ	Appmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	8	amod	_	_	_
+
+8	del	del	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+9	obravnavati	obravnavati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	4	csubj	_	_	_
+
+10	kot	kot	SCONJ	Cs	_	12	case	_	_	_
+
+11	ločen	ločen	ADJ	Appmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	12	amod	_	_	_
+
+12	del	del	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+13	pomnilnika	pomnilnik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+14	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+15	podobno	podoben	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	conj	_	_	_
+
+16	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+17	kot	kot	SCONJ	Cs	_	19	mark	_	_	_
+
+18	to	ta	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	19	obj	_	_	_
+
+19	počnemo	početi	VERB	Vmbr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	advcl	_	_	_
+
+20	s	z	ADP	Si	Case=Ins	21	case	_	_	_
+
+21	particijami	particija	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	19	obl	_	_	_
+
+22	na	na	ADP	Sl	Case=Loc	23	case	_	_	_
+
+23	disku	disk	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	21	nmod	_	_	_
+
+24	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023659.txt
+# text = Tako je en del pomnilnika lahko na voljo vsem, en del pa je zaščiten z geslom.
+1	Tako	tako	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	en	en	NUM	Mlpmsn	Case=Nom|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing	4	nummod	_	_	_
+
+4	del	del	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_	_
+
+5	pomnilnika	pomnilnik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+6	lahko	lahko	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+7	na	na	ADP	Sa	Case=Acc	8	case	_	_	_
+
+8	voljo	volja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_	_
+
+9	vsem	ves	DET	Pg-npd	Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	2	obj	_	_	_
+
+10	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+11	en	en	NUM	Mlpmsn	Case=Nom|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing	12	nummod	_	_	_
+
+12	del	del	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_	_
+
+13	pa	pa	CCONJ	Cc	_	15	advmod	_	_	_
+
+14	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	cop	_	_	_
+
+15	zaščiten	zaščiten	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	2	parataxis	_	_	_
+
+16	z	z	ADP	Si	Case=Ins	17	case	_	_	_
+
+17	geslom	geslo	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	15	obl	_	_	_
+
+18	.	.	PUNCT	Z	_	2	punct	_	_	_
+

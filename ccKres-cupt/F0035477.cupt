@@ -1,0 +1,207 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0035477.txt
+# text = 2. Ruky Abdulai( Kan) 666
+1	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord		root	_	_	_
+
+2	Ruky	Ruky	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+3	Abdulai	Abdulai	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:foreign	_	_	_
+
+4	(	(	PUNCT	Z	_	5	punct	_	_	_
+
+5	Kan	kan	X	Xf	Foreign=Yes	3	nummod	_	_	_
+
+6	)	)	PUNCT	Z	_	5	punct	_	_	_
+
+7	666	666	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035477.txt
+# text = Bertone pohvalil slovensko vlado
+1	Bertone	Bertone	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_	_
+
+2	pohvalil	pohvaliti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+3	slovensko	slovenski	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	vlado	vlada	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035477.txt
+# text = Slovenija proti Alžiriji na SP
+1	Slovenija	Slovenija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	proti	proti	ADP	Sd	Case=Dat	3	case	_	_	_
+
+3	Alžiriji	Alžirija	PROPN	Npfsd	Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	na	na	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	SP	SP	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035477.txt
+# text = 12. Rubens Barrichello 7
+1	12.	12.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	Rubens	Rubens	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	Barrichello	Barrichello	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_	_
+
+4	7	7	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035477.txt
+# text = Darila, prejeta v nagradnem kvizu, so predmet obdavčitve v skladu z določili Zakona o dohodnini( drugi prejemki, med katere spadajo tudi nagrade).
+1	Darila	darilo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	prejeta	prejet	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	1	appos	_	_	_
+
+4	v	v	ADP	Sl	Case=Loc	6	case	_	_	_
+
+5	nagradnem	nagraden	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+6	kvizu	kviz	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+7	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+8	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	cop	_	_	_
+
+9	predmet	predmet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+10	obdavčitve	obdavčitev	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+11	v	v	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	skladu	sklad	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+13	z	z	ADP	Si	Case=Ins	14	case	_	_	_
+
+14	določili	določiti	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	12	nmod	_	_	_
+
+15	Zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+16	o	o	ADP	Sl	Case=Loc	17	case	_	_	_
+
+17	dohodnini	dohodnina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_	_
+
+18	(	(	PUNCT	Z	_	20	punct	_	_	_
+
+19	drugi	drug	ADJ	Mlpmpn	Case=Nom|Gender=Masc|Number=Plur	20	amod	_	_	_
+
+20	prejemki	prejemek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	15	appos	_	_	_
+
+21	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+22	med	med	ADP	Sa	Case=Acc	23	case	_	_	_
+
+23	katere	kateri	DET	Pq-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Int	24	obl	_	_	_
+
+24	spadajo	spadati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl	_	_	_
+
+25	tudi	tudi	PART	Q	_	24	advmod	_	_	_
+
+26	nagrade	nagrada	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	24	nsubj	_	_	_
+
+27	)	)	PUNCT	Z	_	24	punct	_	_	_
+
+28	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035477.txt
+# text = Za prevzem nagrade mora nagrajenec predložiti:
+1	Za	za	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	prevzem	prevzem	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_	_
+
+3	nagrade	nagrada	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	mora	morati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	nagrajenec	nagrajenec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+6	predložiti	predložiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	4	xcomp	_	_	_
+
+7	:	:	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035477.txt
+# text = Tolikšno število vernikov pa je na kongres gotovo pritegnil tudi zgodovinski dogodek, beatifikacija Lojzeta Grozdeta.
+1	Tolikšno	Tolikšen	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_	_
+
+2	število	število	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_	_
+
+3	vernikov	vernik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_	_
+
+4	pa	pa	CCONJ	Cc	_	9	advmod	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	aux	_	_	_
+
+6	na	na	ADP	Sa	Case=Acc	7	case	_	_	_
+
+7	kongres	kongres	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+8	gotovo	gotovo	ADV	Rgp	Degree=Pos	9	advmod	_	_	_
+
+9	pritegnil	pritegniti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+10	tudi	tudi	PART	Q	_	9	advmod	_	_	_
+
+11	zgodovinski	zgodovinski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_	_
+
+12	dogodek	dogodek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_	_
+
+13	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+14	beatifikacija	beatifikacija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	12	appos	_	_	_
+
+15	Lojzeta	Lojze	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+16	Grozdeta	Grozde	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	15	flat:name	_	_	_
+
+17	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035477.txt
+# text = Slovenija bo dobila prvega blaženega mučenca, ki ga bo med mašno slovesnostjo razglasil državni tajnik Svetega sedeža, kardinal Tarcisio Bertone.
+1	Slovenija	Slovenija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+2	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	3	aux	_	_	_
+
+3	dobila	dobiti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+4	prvega	prvi	ADJ	Mlomsa	Case=Acc|Gender=Masc|NumType=Ord|Number=Sing	6	amod	_	_	_
+
+5	blaženega	blažen	ADJ	Appmsa	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	6	amod	_	_	_
+
+6	mučenca	mučenca	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_	_
+
+7	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+8	ki	ki	SCONJ	Cs	_	14	mark	_	_	_
+
+9	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	14	obj	_	_	_
+
+10	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	14	aux	_	_	_
+
+11	med	med	ADP	Si	Case=Ins	13	case	_	_	_
+
+12	mašno	mašen	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_	_
+
+13	slovesnostjo	slovesnost	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_	_
+
+14	razglasil	razglasiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	6	acl	_	_	_
+
+15	državni	državen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_	_
+
+16	tajnik	tajnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_	_
+
+17	Svetega	svet	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_	_
+
+18	sedeža	sedež	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_	_
+
+19	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+20	kardinal	kardinal	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	16	appos	_	_	_
+
+21	Tarcisio	Tarcisio	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	20	nmod	_	_	_
+
+22	Bertone	Bertone	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	21	flat:name	_	_	_
+
+23	.	.	PUNCT	Z	_	3	punct	_	_	_
+

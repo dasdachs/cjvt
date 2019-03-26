@@ -1,0 +1,271 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0018657.txt
+# text = 2. člen
+1	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0018657.txt
+# text = Prejmite, Ekscelenca, izraze mojega najglobljega spoštovanja.
+1	Prejmite	prejmeti	VERB	Vmem2p	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin		root	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	Ekscelenca	Ekscelenca	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	parataxis	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	izraze	izraz	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	conj	_	_	_
+
+6	mojega	moj	DET	Ps1nsgs	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det	_	_	_
+
+7	najglobljega	globok	ADJ	Agsnsg	Case=Gen|Degree=Sup|Gender=Neut|Number=Sing	8	amod	_	_	_
+
+8	spoštovanja	spoštovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_	_
+
+9	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0018657.txt
+# text = Ljubljana, 22. avgust 1997
+1	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	,	,	PUNCT	Z	_	1	punct	_	_	_
+
+3	22.	22.	NUM	Mdo	NumForm=Digit|NumType=Ord	1	conj	_	_	_
+
+4	avgust	avgust	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_	_
+
+5	1997	1997	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0018657.txt
+# text = Ekscelenca,
+1	Ekscelenca	Ekscelenca	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	,	,	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0018657.txt
+# text = " Minister,
+1	"	"	PUNCT	Z	_	2	punct	_	_	_
+
+2	Minister	minister	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	,	,	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0018657.txt
+# text = Namen tega predloga za spremembo je prilagoditi sporazum novi politični stvarnosti, ki je nastala z nastankom novih držav, ki so naslednice nekdanje Socialistične federativne republike Jugoslavije, iz katere so nastale, med drugimi tudi Republike Slovenije in tudi osnovnim načelom, ki vladajo v Evropski uniji, katere država članica je Portugalska, in sicer določbam Uredbe Evropske gospodarske skupnosti št. 4055/ 86 z dne 22.
+1	Namen	namen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_	_
+
+3	predloga	predlog	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	za	za	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	spremembo	sprememba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_	_
+
+7	prilagoditi	prilagoditi	VERB	Vmen	Aspect=Perf|VerbForm=Inf	1	csubj	_	_	_
+
+8	sporazum	sporazum	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_	_
+
+9	novi	nov	ADJ	Agpfsd	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_	_
+
+10	politični	političen	ADJ	Agpfsd	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_	_
+
+11	stvarnosti	stvarnost	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	7	obj	_	_	_
+
+12	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+13	ki	ki	SCONJ	Cs	_	15	mark	_	_	_
+
+14	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	aux	_	_	_
+
+15	nastala	nastati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	8	acl	_	_	_
+
+16	z	z	ADP	Si	Case=Ins	17	case	_	_	_
+
+17	nastankom	nastanek	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	15	obl	_	_	_
+
+18	novih	nov	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_	_
+
+19	držav	država	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_	_
+
+20	,	,	PUNCT	Z	_	23	punct	_	_	_
+
+21	ki	ki	SCONJ	Cs	_	23	mark	_	_	_
+
+22	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	23	cop	_	_	_
+
+23	naslednice	naslednica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	19	acl	_	_	_
+
+24	nekdanje	nekdanji	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_	_
+
+25	Socialistične	socialističen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_	_
+
+26	federativne	federativen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_	_
+
+27	republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_	_
+
+28	Jugoslavije	Jugoslavija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_	_
+
+29	,	,	PUNCT	Z	_	33	punct	_	_	_
+
+30	iz	iz	ADP	Sg	Case=Gen	31	case	_	_	_
+
+31	katere	kateri	DET	Pq-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Int	33	obl	_	_	_
+
+32	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	33	aux	_	_	_
+
+33	nastale	nastati	VERB	Vmep-pf	Aspect=Perf|Gender=Fem|Number=Plur|VerbForm=Part	27	acl	_	_	_
+
+34	,	,	PUNCT	Z	_	33	punct	_	_	_
+
+35	med	med	ADP	Si	Case=Ins	36	case	_	_	_
+
+36	drugimi	drug	ADJ	Mlpfpi	Case=Ins|Gender=Fem|Number=Plur	7	obl	_	_	_
+
+37	tudi	tudi	PART	Q	_	33	advmod	_	_	_
+
+38	Republike	republika	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	23	nsubj	_	_	_
+
+39	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	38	nmod	_	_	_
+
+40	in	in	CCONJ	Cc	_	43	cc	_	_	_
+
+41	tudi	tudi	PART	Q	_	33	advmod	_	_	_
+
+42	osnovnim	osnoven	ADJ	Agpnsi	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	43	amod	_	_	_
+
+43	načelom	načelo	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	38	conj	_	_	_
+
+44	,	,	PUNCT	Z	_	46	punct	_	_	_
+
+45	ki	ki	SCONJ	Cs	_	46	mark	_	_	_
+
+46	vladajo	vladati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	43	acl	_	_	_
+
+47	v	v	ADP	Sl	Case=Loc	49	case	_	_	_
+
+48	Evropski	evropski	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	49	amod	_	_	_
+
+49	uniji	unija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	46	obl	_	_	_
+
+50	,	,	PUNCT	Z	_	53	punct	_	_	_
+
+51	katere	kateri	DET	Pq-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Int	52	nmod	_	_	_
+
+52	država	država	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	53	nsubj	_	_	_
+
+53	članica	članica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	49	acl	_	_	_
+
+54	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	53	cop	_	_	_
+
+55	Portugalska	Portugalska	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	53	nsubj	_	_	_
+
+56	,	,	PUNCT	Z	_	55	punct	_	_	_
+
+57	in	in	CCONJ	Cc	_	59	cc	_	_	_
+
+58	sicer	sicer	PART	Q	_	53	advmod	_	_	_
+
+59	določbam	določba	NOUN	Ncfpd	Case=Dat|Gender=Fem|Number=Plur	49	conj	_	_	_
+
+60	Uredbe	uredba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	59	nmod	_	_	_
+
+61	Evropske	evropski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	63	amod	_	_	_
+
+62	gospodarske	gospodarski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	63	amod	_	_	_
+
+63	skupnosti	skupnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	60	nmod	_	_	_
+
+64	št.	št.	X	Y	Abbr=Yes	65	nmod	_	_	_
+
+65	4055	4055	NUM	Mdc	NumForm=Digit|NumType=Card	63	nummod	_	_	_
+
+66	/	/	PUNCT	Z	_	67	punct	_	_	_
+
+67	86	86	NUM	Mdc	NumForm=Digit|NumType=Card	65	conj	_	_	_
+
+68	z	z	ADP	Sg	Case=Gen	69	case	_	_	_
+
+69	dne	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	59	nmod	_	_	_
+
+70	22	22	NUM	Mdc	NumForm=Digit|NumType=Card	69	nummod	_	_	_
+
+71	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0018657.txt
+# text = 12.
+1	12	12	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0018657.txt
+# text = 1986, ki določa načelo prostega pretoka storitev v pomorskem prometu med državami članicami in tretjimi državami.
+1	1986	1986	NUM	Mdc	NumForm=Digit|NumType=Card	4	dep	_	_	_
+
+2	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+3	ki	ki	SCONJ	Cs	_	4	mark	_	_	_
+
+4	določa	določati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	načelo	načelo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_	_
+
+6	prostega	prost	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	pretoka	pretok	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+8	storitev	storitev	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	11	case	_	_	_
+
+10	pomorskem	pomorski	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	prometu	promet	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+12	med	med	ADP	Si	Case=Ins	13	case	_	_	_
+
+13	državami	država	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	11	nmod	_	_	_
+
+14	članicami	članica	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	13	nmod	_	_	_
+
+15	in	in	CCONJ	Cc	_	17	cc	_	_	_
+
+16	tretjimi	tretji	NUM	Mlc-pi	Case=Ins|NumForm=Word|NumType=Card|Number=Plur	17	nummod	_	_	_
+
+17	državami	država	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	14	conj	_	_	_
+
+18	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0018657.txt
+# text = Prejmite, Ekscelenca, izraze mojega najglobljega spoštovanja.
+1	Prejmite	prejmeti	VERB	Vmem2p	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin		root	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	Ekscelenca	Ekscelenca	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	parataxis	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	izraze	izraz	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	conj	_	_	_
+
+6	mojega	moj	DET	Ps1nsgs	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det	_	_	_
+
+7	najglobljega	globok	ADJ	Agsnsg	Case=Gen|Degree=Sup|Gender=Neut|Number=Sing	8	amod	_	_	_
+
+8	spoštovanja	spoštovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_	_
+
+9	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0018657.txt
+# text = "
+1	"	"	PUNCT	Z	_		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0018657.txt
+# text = 4. člen
+1	4.	4.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+

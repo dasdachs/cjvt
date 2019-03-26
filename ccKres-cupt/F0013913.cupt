@@ -1,0 +1,223 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0013913.txt
+# text = ZVEZDICE 3
+1	ZVEZDICE	zvezdica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur		root	_	_	_
+
+2	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0013913.txt
+# text = The Hobbit( PC; PS2; GC; xbox), Vivendi Universal, 2003.
+1	The	the	X	Xf	Foreign=Yes		root	_	_	_
+
+2	Hobbit	Hobbit	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+3	(	(	PUNCT	Z	_	4	punct	_	_	_
+
+4	PC	PC	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+5	;	;	PUNCT	Z	_	4	punct	_	_	_
+
+6	PS2	PS2	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+7	;	;	PUNCT	Z	_	8	punct	_	_	_
+
+8	GC	GC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_	_
+
+9	;	;	PUNCT	Z	_	10	punct	_	_	_
+
+10	xbox	xbox	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_	_
+
+11	)	)	PUNCT	Z	_	10	punct	_	_	_
+
+12	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+13	Vivendi	Vivenda	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	_	_
+
+14	Universal	universati	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	flat:name	_	_	_
+
+15	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+16	2003	2003	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+
+17	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0013913.txt
+# text = Uvod
+1	Uvod	uvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0013913.txt
+# text = Maša in njena Iza
+1	Maša	Maša	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	in	in	CCONJ	Cc	_	4	cc	_	_	_
+
+3	njena	njen	DET	Ps3fsnsf	Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	_	_
+
+4	Iza	Iza	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0013913.txt
+# text = SO, 14.05, HTV1
+1	SO	biti	VERB	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	14.05	14.05	NUM	Mdc	NumForm=Digit|NumType=Card	1	parataxis	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	HTV1	HTV1	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0013913.txt
+# text = Raimi pa je poleg akcije in čustev v zgodbo vnesel tudi ironijo.
+1	Raimi	Raimi	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_	_
+
+2	pa	pa	CCONJ	Cc	_	10	advmod	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	_	_
+
+4	poleg	poleg	ADP	Sg	Case=Gen	5	case	_	_	_
+
+5	akcije	akcija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	čustev	čustvo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	5	conj	_	_	_
+
+8	v	v	ADP	Sa	Case=Acc	9	case	_	_	_
+
+9	zgodbo	zgodba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_	_
+
+10	vnesel	vnesti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+11	tudi	tudi	PART	Q	_	10	advmod	_	_	_
+
+12	ironijo	ironija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_	_
+
+13	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0013913.txt
+# text = Ko človeku pajku v 30. nadstropju odpovejo moči in se mora z dvigalom spustiti v pritličje, se z njim pelje tip, ki ga naprej začuden ogleduje in potem reče:
+1	Ko	ko	SCONJ	Cs	_	7	mark	_	_	_
+
+2	človeku	človek	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	_	_
+
+3	pajku	pajek	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	_	_
+
+4	v	v	ADP	Sl	Case=Loc	6	case	_	_	_
+
+5	30.	30.	NUM	Mdo	NumForm=Digit|NumType=Ord	6	nummod	_	_	_
+
+6	nadstropju	nadstropje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_	_
+
+7	odpovejo	odpovedati	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_	_
+
+8	moči	moč	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_	_
+
+9	in	in	CCONJ	Cc	_	11	cc	_	_	_
+
+10	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	14	expl	_	_	_
+
+11	mora	morati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_	_
+
+12	z	z	ADP	Si	Case=Ins	13	case	_	_	_
+
+13	dvigalom	dvigal	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	14	obl	_	_	_
+
+14	spustiti	spustiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	11	xcomp	_	_	_
+
+15	v	v	ADP	Sa	Case=Acc	16	case	_	_	_
+
+16	pritličje	pritličje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_	_
+
+17	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+18	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	21	expl	_	_	_
+
+19	z	z	ADP	Si	Case=Ins	20	case	_	_	_
+
+20	njim	on	PRON	Pp3msi	Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	_	_
+
+21	pelje	peljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+22	tip	tip	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_	_
+
+23	,	,	PUNCT	Z	_	28	punct	_	_	_
+
+24	ki	ki	SCONJ	Cs	_	28	mark	_	_	_
+
+25	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	28	obj	_	_	_
+
+26	naprej	naprej	ADV	Rgp	Degree=Pos	28	advmod	_	_	_
+
+27	začuden	začuden	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	28	advcl	_	_	_
+
+28	ogleduje	ogledovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl	_	_	_
+
+29	in	in	CCONJ	Cc	_	31	cc	_	_	_
+
+30	potem	potem	ADV	Rgp	Degree=Pos	31	advmod	_	_	_
+
+31	reče	reči	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	_	_
+
+32	:	:	PUNCT	Z	_	21	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0013913.txt
+# text = " Ta obleka ni preveč udobna?
+1	"	"	PUNCT	Z	_	6	punct	_	_	_
+
+2	Ta	ta	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_	_
+
+3	obleka	obleka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_	_
+
+4	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	cop	_	_	_
+
+5	preveč	preveč	DET	Rgp	PronType=Ind	6	advmod	_	_	_
+
+6	udobna	udoben	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing		root	_	_	_
+
+7	?	?	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0013913.txt
+# text = " Spidey, ki mu je zelo nerodno, pokima in rdeče:" Da, včasih ščipa.
+1	"	"	PUNCT	Z	_	8	punct	_	_	_
+
+2	Spidey	spidey	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_	_
+
+3	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+4	ki	ki	SCONJ	Cs	_	8	mark	_	_	_
+
+5	mu	on	PRON	Pp3msd--y	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	8	obj	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_	_
+
+7	zelo	zelo	ADV	Rgp	Degree=Pos	8	advmod	_	_	_
+
+8	nerodno	neroden	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	acl	_	_	_
+
+9	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+10	pokima	pokimati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+11	in	in	CCONJ	Cc	_	12	cc	_	_	_
+
+12	rdeče	rdeč	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	10	conj	_	_	_
+
+13	:	:	PUNCT	Z	_	18	punct	_	_	_
+
+14	"	"	PUNCT	Z	_	10	punct	_	_	_
+
+15	Da	da	SCONJ	Cs	_	18	mark	_	_	_
+
+16	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+17	včasih	včasih	ADV	Rgp	Degree=Pos	18	advmod	_	_	_
+
+18	ščipa	ščipa	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_	_
+
+19	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0013913.txt
+# text = "
+1	"	"	PUNCT	Z	_		root	_	_	_
+

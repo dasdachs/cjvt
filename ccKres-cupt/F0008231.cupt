@@ -1,0 +1,909 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = TEHNIČNI PODATKI: FIAT PANDA CROSS
+1	TEHNIČNI	tehničen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_	_
+
+2	PODATKI	podatek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur		root	_	_	_
+
+3	:	:	PUNCT	Z	_	2	punct	_	_	_
+
+4	FIAT	fiat	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	PANDA	panda	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+6	CROSS	CROSS	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = Suzukijev Swift preseneča, čeprav se, privlačen in povsem nov, za zdaj pri kupcih še ni prijel.
+1	Suzukijev	Suzukijev	ADJ	Aspmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	2	amod	_	_	_
+
+2	Swift	Swift	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+3	preseneča	preseneč	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+5	čeprav	čeprav	SCONJ	Cs	_	8	mark	_	_	_
+
+6	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	8	expl	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	privlačen	privlačen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	parataxis	_	_	_
+
+9	in	in	CCONJ	Cc	_	11	cc	_	_	_
+
+10	povsem	povsem	ADV	Rgp	Degree=Pos	11	advmod	_	_	_
+
+11	nov	nov	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	8	conj	_	_	_
+
+12	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+13	za	za	ADP	Sa	Case=Acc	14	case	_	_	_
+
+14	zdaj	zdaj	ADV	Rgp	Degree=Pos	19	advmod	_	_	_
+
+15	pri	pri	ADP	Sl	Case=Loc	16	case	_	_	_
+
+16	kupcih	kupec	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	19	obl	_	_	_
+
+17	še	še	PART	Q	_	19	advmod	_	_	_
+
+18	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	19	aux	_	_	_
+
+19	prijel	prijeti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	3	parataxis	_	_	_
+
+20	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = 2 VOLKSWAGEN 493 11,29 536 12,00 8,72 5796 10,66 5997 11,47 3,47
+1	2	2	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	VOLKSWAGEN	volkswagen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	493	493	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+4	11,29	11,29	NUM	Mdc	NumForm=Digit|NumType=Card	3	conj	_	_	_
+
+5	536	536	NUM	Mdc	NumForm=Digit|NumType=Card	3	conj	_	_	_
+
+6	12,00	12,00	NUM	Mdc	NumForm=Digit|NumType=Card	5	flat	_	_	_
+
+7	8,72	8,72	NUM	Mdc	NumForm=Digit|NumType=Card	6	flat	_	_	_
+
+8	5796	5796	NUM	Mdc	NumForm=Digit|NumType=Card	7	flat	_	_	_
+
+9	10,66	10,66	NUM	Mdc	NumForm=Digit|NumType=Card	8	flat	_	_	_
+
+10	5997	5997	NUM	Mdc	NumForm=Digit|NumType=Card	9	flat	_	_	_
+
+11	11,47	11,47	NUM	Mdc	NumForm=Digit|NumType=Card	10	conj	_	_	_
+
+12	3,47	3,47	NUM	Mdc	NumForm=Digit|NumType=Card	11	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = 45 MG 0 0,00 0 0,00 0 0 0,00 1 0,00 100
+1	45	45	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	MG	MG	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+3	0	0	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+4	0,00	0,00	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+5	0	0	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+6	0,00	0,00	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+7	0	0	NUM	Mdc	NumForm=Digit|NumType=Card	6	flat	_	_	_
+
+8	0	0	NUM	Mdc	NumForm=Digit|NumType=Card	6	flat	_	_	_
+
+9	0,00	0,00	NUM	Mdc	NumForm=Digit|NumType=Card	8	flat	_	_	_
+
+10	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	9	flat	_	_	_
+
+11	0,00	0,00	NUM	Mdc	NumForm=Digit|NumType=Card	10	conj	_	_	_
+
+12	100	100	NUM	Mdc	NumForm=Digit|NumType=Card	11	flat	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = 226 BMW ALPINA 0 1 0,00
+1	226	226	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	BMW	BMW	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	ALPINA	alpina	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	0	0	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+5	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+6	0,00	0,00	NUM	Mdc	NumForm=Digit|NumType=Card	5	flat	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = 67 TOYOTA RAV 4 15 144 0,28
+1	67	67	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	TOYOTA	towota	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+3	RAV	rav	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	4	4	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+5	15	15	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+6	144	144	NUM	Mdc	NumForm=Digit|NumType=Card	5	conj	_	_	_
+
+7	0,28	0,28	NUM	Mdc	NumForm=Digit|NumType=Card	6	flat	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = 5 PEUGEOT 206 116 2063 3,94
+1	5	5	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	PEUGEOT	peugeot	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	206	206	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+4	116	116	NUM	Mdc	NumForm=Digit|NumType=Card	3	flat	_	_	_
+
+5	2063	2063	NUM	Mdc	NumForm=Digit|NumType=Card	3	conj	_	_	_
+
+6	3,94	3,94	NUM	Mdc	NumForm=Digit|NumType=Card	5	flat	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = GM( ZDA) 353 288- 18,4 4.881 3.
+1	GM	GM	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	(	(	PUNCT	Z	_	3	punct	_	_	_
+
+3	ZDA	ZDA	PROPN	Npfpn	Case=Nom|Gender=Fem|Number=Plur	1	appos	_	_	_
+
+4	)	)	PUNCT	Z	_	3	punct	_	_	_
+
+5	353	353	NUM	Mdc	NumForm=Digit|NumType=Card	6	conj	_	_	_
+
+6	288	288	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+7	-	-	PUNCT	Z	_	8	punct	_	_	_
+
+8	18,4	18,4	NUM	Mdc	NumForm=Digit|NumType=Card	6	conj	_	_	_
+
+9	4.881	4.881	NUM	Mdc	NumForm=Digit|NumType=Card	8	flat	_	_	_
+
+10	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	9	nummod	_	_	_
+
+11	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = 108 +57,0
+1	108	108	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	+57,0	+57,0	NUM	Mdc	NumForm=Digit|NumType=Card	1	flat	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = Citroën C3 je namreč za to priložnost najavil nekaj minimalnih oblikovalskih sprememb.
+1	Citroën	Citroën	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_	_
+
+2	C3	C3	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_	_
+
+4	namreč	namreč	CCONJ	Cc	_	8	advmod	_	_	_
+
+5	za	za	ADP	Sa	Case=Acc	7	case	_	_	_
+
+6	to	ta	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_	_
+
+7	priložnost	priložnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+8	najavil	najaviti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+9	nekaj	nekaj	DET	Rgp	PronType=Ind	12	det	_	_	_
+
+10	minimalnih	minimalen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	_	_
+
+11	oblikovalskih	oblikovalski	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	_	_
+
+12	sprememb	sprememba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	8	obj	_	_	_
+
+13	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = Nov je prednji odbijač, še najbolj opazna je vsekakor nova vzdolžna reža.
+1	Nov	nov	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing		root	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_	_
+
+3	prednji	prednji	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	odbijač	odbijač	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_	_
+
+5	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+6	še	še	PART	Q	_	8	advmod	_	_	_
+
+7	najbolj	najbolj	ADV	Rgs	Degree=Sup	8	advmod	_	_	_
+
+8	opazna	opazen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	parataxis	_	_	_
+
+9	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_	_
+
+10	vsekakor	vsekakor	PART	Q	_	8	advmod	_	_	_
+
+11	nova	nov	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_	_
+
+12	vzdolžna	vzdolžen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_	_
+
+13	reža	reža	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_	_
+
+14	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = Od zadaj ga boste prepoznali po belih vsadkih v zadnjih lučeh.
+1	Od	od	ADP	Sg	Case=Gen	2	case	_	_	_
+
+2	zadaj	zadaj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_	_
+
+3	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	5	obj	_	_	_
+
+4	boste	biti	AUX	Va-f2p-n	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin	5	aux	_	_	_
+
+5	prepoznali	prepoznati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+6	po	po	ADP	Sl	Case=Loc	8	case	_	_	_
+
+7	belih	bel	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_	_
+
+8	vsadkih	vsadek	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	11	case	_	_	_
+
+10	zadnjih	zadnji	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_	_
+
+11	lučeh	luč	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	8	nmod	_	_	_
+
+12	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = In če boste iskali še kaj, se boste pošteno namučili.
+1	In	in	CCONJ	Cc	_	4	cc	_	_	_
+
+2	če	če	SCONJ	Cs	_	4	mark	_	_	_
+
+3	boste	biti	AUX	Va-f2p-n	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin	4	aux	_	_	_
+
+4	iskali	iskati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	11	advcl	_	_	_
+
+5	še	še	PART	Q	_	4	advmod	_	_	_
+
+6	kaj	kaj	PRON	Pq-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	obj	_	_	_
+
+7	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+8	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	11	expl	_	_	_
+
+9	boste	biti	AUX	Va-f2p-n	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin	11	aux	_	_	_
+
+10	pošteno	pošteno	ADV	Rgp	Degree=Pos	11	advmod	_	_	_
+
+11	namučili	namučiti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+12	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = Najbrž zaman.
+1	Najbrž	najbrž	PART	Q	_	2	advmod	_	_	_
+
+2	zaman	zaman	ADV	Rgp	Degree=Pos		root	_	_	_
+
+3	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = Seveda so mu namenili nekaj novih materialov in barv v notranjosti.
+1	Seveda	seveda	PART	Q	_	4	advmod	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+3	mu	on	PRON	Pp3msd--y	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	4	iobj	_	_	_
+
+4	namenili	nameniti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+5	nekaj	nekaj	DET	Rgp	PronType=Ind	7	det	_	_	_
+
+6	novih	nov	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_	_
+
+7	materialov	material	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	obj	_	_	_
+
+8	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+9	barv	barva	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	7	conj	_	_	_
+
+10	v	v	ADP	Sl	Case=Loc	11	case	_	_	_
+
+11	notranjosti	notranjost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+12	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = Nove so obrobe zračnikov in sredinska konzole kovinskega videza, nekaj sprememb pa so doživeli tudi merilniki, ki naj bi bili sedaj še bolj pregledni.
+1	Nove	nov	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	nsubj	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_	_
+
+3	obrobe	obroba	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur		root	_	_	_
+
+4	zračnikov	zračnik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_	_
+
+5	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+6	sredinska	sredinski	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_	_
+
+7	konzole	konzola	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	4	conj	_	_	_
+
+8	kovinskega	kovinski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_	_
+
+9	videza	videz	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+10	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+11	nekaj	nekaj	DET	Rgp	PronType=Ind	12	det	_	_	_
+
+12	sprememb	sprememba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	15	obj	_	_	_
+
+13	pa	pa	CCONJ	Cc	_	15	advmod	_	_	_
+
+14	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	aux	_	_	_
+
+15	doživeli	doživeti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	3	parataxis	_	_	_
+
+16	tudi	tudi	PART	Q	_	15	advmod	_	_	_
+
+17	merilniki	merilnik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_	_
+
+18	,	,	PUNCT	Z	_	26	punct	_	_	_
+
+19	ki	ki	SCONJ	Cs	_	26	mark	_	_	_
+
+20	naj	naj	PART	Q	_	26	advmod	_	_	_
+
+21	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	26	aux	_	_	_
+
+22	bili	biti	AUX	Va-p-pm	Gender=Masc|Number=Plur|VerbForm=Part	26	cop	_	_	_
+
+23	sedaj	sedaj	ADV	Rgp	Degree=Pos	26	advmod	_	_	_
+
+24	še	še	PART	Q	_	26	advmod	_	_	_
+
+25	bolj	bolj	ADV	Rgc	Degree=Cmp	26	advmod	_	_	_
+
+26	pregledni	pregleden	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	17	acl	_	_	_
+
+27	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = Še najbolj novo je to, da bodo paketi opreme že v osnovi malo bogatejši, tako si lahko omislite na primer samodejno zlaganje zunanjih ogledal( pri zaklepanju in odklepanju), bluetooth komunikacijske dodatke ali opomnik za prekoračeno hitrost…
+1	Še	še	PART	Q	_	3	advmod	_	_	_
+
+2	najbolj	najbolj	ADV	Rgs	Degree=Sup	3	advmod	_	_	_
+
+3	novo	nov	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing		root	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_	_
+
+5	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_	_
+
+6	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+7	da	da	SCONJ	Cs	_	15	mark	_	_	_
+
+8	bodo	biti	AUX	Va-f3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	15	cop	_	_	_
+
+9	paketi	paketi	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_	_
+
+10	opreme	oprema	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+11	že	že	PART	Q	_	15	advmod	_	_	_
+
+12	v	v	ADP	Sl	Case=Loc	13	case	_	_	_
+
+13	osnovi	osnova	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_	_
+
+14	malo	malo	DET	Rgp	PronType=Ind	15	advmod	_	_	_
+
+15	bogatejši	bogat	ADJ	Agcmpn	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	5	acl	_	_	_
+
+16	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+17	tako	tako	CCONJ	Cc	_	20	cc	_	_	_
+
+18	si	se	PRON	Px---d--y	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	20	expl	_	_	_
+
+19	lahko	lahko	ADV	Rgp	Degree=Pos	20	advmod	_	_	_
+
+20	omislite	omisliti	VERB	Vmem2p	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	15	conj	_	_	_
+
+21	na	na	ADP	Sa	Case=Acc	20	nmod	_	_	_
+
+22	primer	primer	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	fixed	_	_	_
+
+23	samodejno	samodejno	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_	_
+
+24	zlaganje	zlaganje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_	_
+
+25	zunanjih	zunanji	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	26	amod	_	_	_
+
+26	ogledal	ogledati	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	24	nmod	_	_	_
+
+27	(	(	PUNCT	Z	_	29	punct	_	_	_
+
+28	pri	pri	ADP	Sl	Case=Loc	29	case	_	_	_
+
+29	zaklepanju	zaklepanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	26	appos	_	_	_
+
+30	in	in	CCONJ	Cc	_	31	cc	_	_	_
+
+31	odklepanju	odklepanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	29	conj	_	_	_
+
+32	)	)	PUNCT	Z	_	29	punct	_	_	_
+
+33	,	,	PUNCT	Z	_	34	punct	_	_	_
+
+34	bluetooth	bluetooth	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	24	conj	_	_	_
+
+35	komunikacijske	komunikacijski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_	_
+
+36	dodatke	dodatek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	_	_
+
+37	ali	ali	CCONJ	Cc	_	38	cc	_	_	_
+
+38	opomnik	opomnik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	36	conj	_	_	_
+
+39	za	za	ADP	Sa	Case=Acc	41	case	_	_	_
+
+40	prekoračeno	prekoračen	ADJ	Appfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	41	amod	_	_	_
+
+41	hitrost…	hitrost…	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	38	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = 0- 140 km/h 20,9
+1	0	0	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+2	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+3	140	140	NUM	Mdc	NumForm=Digit|NumType=Card	1	conj	_	_	_
+
+4	km/h	kmer	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+5	20,9	20,9	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = 24 Ford Focus ST
+1	24	24	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Ford	ford	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	Focus	Focus	X	Xf	Foreign=Yes	2	flat:foreign	_	_	_
+
+4	ST	ST	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = 154 Trg
+1	154	154	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Trg	Trg	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = vozili smo FORD MONDEO TITANIUM X 2,2 TDCi
+1	vozili	voziti	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+2	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	FORD	ford	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_	_
+
+4	MONDEO	monde	NOUN	Ncmsnn	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_	_
+
+5	TITANIUM	titanium	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+6	X	X	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+7	2,2	2,2	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+8	TDCi	tdci	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = tekst MARTIN ČESENJ/ foto ŽARE MODLIC
+1	tekst	tekst	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	MARTIN	MARTIN	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	ČESENJ	česenj	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_	_
+
+4	/	/	PUNCT	Z	_	5	punct	_	_	_
+
+5	foto	foto	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_	_
+
+6	ŽARE	žare	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+7	MODLIC	modlica	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = Medosna razdalja( m) 2,730
+1	Medosna	Medosna	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	razdalja	razdaljati	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+3	(	(	PUNCT	Z	_	4	punct	_	_	_
+
+4	m	m	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_	_
+
+5	)	)	PUNCT	Z	_	4	punct	_	_	_
+
+6	2,730	2,730	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = C3 1,4 HDi 2.870.000 SIT
+1	C3	C3	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	1,4	1,4	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+3	HDi	hdi	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+4	2.870.000	2.870.000	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+5	SIT	SIT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = ASTRA KARAVAN CL. 1,7 DTI 3.
+1	ASTRA	ASTRA	X	Xf	Foreign=Yes		root	_	_	_
+
+2	KARAVAN	Karavan	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+3	CL.	CL.	X	Y	Abbr=Yes	1	flat:foreign	_	_	_
+
+4	1,7	1,7	NUM	Mdc	NumForm=Digit|NumType=Card	1	flat:foreign	_	_	_
+
+5	DTI	DTI	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:foreign	_	_	_
+
+6	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+7	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = 169.000 SIT
+1	169.000	169.000	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	SIT	SIT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = 407 1,8 4.880.000 SIT
+1	407	407	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	1,8	1,8	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+3	4.880.000	4.880.000	NUM	Mdc	NumForm=Digit|NumType=Card	1	conj	_	_	_
+
+4	SIT	SIT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = MEGANE CC 1,9 dCi 6.026.000 SIT
+1	MEGANE	Megane	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	CC	CC	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	1,9	1,9	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+4	dCi	dCi	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+5	6.026.000	6.026.000	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+6	SIT	SIT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = FORTWO CABRIO 45 kW 3.
+1	FORTWO	fortwo	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+2	CABRIO	Cabria	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	45	45	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+4	kW	kW	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+6	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = 140.000 SIT
+1	140.000	140.000	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	SIT	SIT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = V70 T5 11.052.000 SIT
+1	V70	V70	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	T5	T5	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	11.052.000	11.052.000	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+4	SIT	SIT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = V70 R 15.090.000 SIT
+1	V70	V70	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	R	R	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+3	15.090.000	15.090.000	NUM	Mdc	NumForm=Digit|NumType=Card	1	conj	_	_	_
+
+4	SIT	SIT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = Škoda Octavia RS 24 oktober
+1	Škoda	škoda	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	Octavia	Octavia	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	RS	RS	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	flat:name	_	_	_
+
+4	24	24	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+5	oktober	oktober	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = Fiat Panda 4x4 52 januar
+1	Fiat	Fiat	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+2	Panda	Panda	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+3	4x4	4x4	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+4	52	52	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+5	januar	januar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = tehnika HONDA 1,8 i- VTEC IN IMA HYBRID
+1	tehnika	tehnika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	HONDA	Honda	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	1,8	1,8	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+4	i	i	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	-	-	PUNCT	Z	_	6	punct	_	_	_
+
+6	VTEC	vtec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_	_
+
+7	IN	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	IMA	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_	_
+
+9	HYBRID	hybrid	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = V novem Doblò bo po novem namreč deloval le en bencinski motor.
+1	V	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	novem	nov	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_	_
+
+3	Doblò	dobel	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_	_
+
+4	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	8	aux	_	_	_
+
+5	po	po	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	novem	nov	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	8	obl	_	_	_
+
+7	namreč	namreč	CCONJ	Cc	_	8	advmod	_	_	_
+
+8	deloval	delovati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+9	le	le	PART	Q	_	8	advmod	_	_	_
+
+10	en	en	NUM	Mlpmsn	Case=Nom|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing	12	nummod	_	_	_
+
+11	bencinski	bencinski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_	_
+
+12	motor	motor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_	_
+
+13	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = Pravzaprav en in pol, saj bo, poleg bencinske različice z sorazmerno živahnim 1,4- litrskim, 77- konjskim motorjem, na voljo tudi različica z 1,6- litrskim motorjem, ki ga lahko poganjata bencin ali plin.
+1	Pravzaprav	pravzaprav	PART	Q	_	7	advmod	_	_	_
+
+2	en	en	NUM	Mlpmsn	Case=Nom|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing	1	nummod	_	_	_
+
+3	in	in	CCONJ	Cc	_	4	cc	_	_	_
+
+4	pol	pol	DET	Rgp	PronType=Ind	2	conj	_	_	_
+
+5	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+6	saj	saj	CCONJ	Cc	_	7	cc	_	_	_
+
+7	bo	biti	VERB	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin		root	_	_	_
+
+8	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+9	poleg	poleg	ADP	Sg	Case=Gen	11	case	_	_	_
+
+10	bencinske	bencinski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_	_
+
+11	različice	različica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_	_
+
+12	z	z	ADP	Si	Case=Ins	22	case	_	_	_
+
+13	sorazmerno	sorazmerno	ADV	Rgp	Degree=Pos	14	advmod	_	_	_
+
+14	živahnim	živahen	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_	_
+
+15	1,4	1,4	NUM	Mdc	NumForm=Digit|NumType=Card	17	nummod	_	_	_
+
+16	-	-	PUNCT	Z	_	17	punct	_	_	_
+
+17	litrskim	litrski	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_	_
+
+18	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+19	77	77	NUM	Mdc	NumForm=Digit|NumType=Card	21	nummod	_	_	_
+
+20	-	-	PUNCT	Z	_	21	punct	_	_	_
+
+21	konjskim	konjski	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	conj	_	_	_
+
+22	motorjem	motor	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+23	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+24	na	na	ADP	Sa	Case=Acc	25	case	_	_	_
+
+25	voljo	volja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	22	conj	_	_	_
+
+26	tudi	tudi	PART	Q	_	27	advmod	_	_	_
+
+27	različica	različica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	22	appos	_	_	_
+
+28	z	z	ADP	Si	Case=Ins	32	case	_	_	_
+
+29	1,6	1,6	NUM	Mdc	NumForm=Digit|NumType=Card	31	nummod	_	_	_
+
+30	-	-	PUNCT	Z	_	31	punct	_	_	_
+
+31	litrskim	litrski	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_	_
+
+32	motorjem	motor	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	27	nmod	_	_	_
+
+33	,	,	PUNCT	Z	_	37	punct	_	_	_
+
+34	ki	ki	SCONJ	Cs	_	37	mark	_	_	_
+
+35	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	37	obj	_	_	_
+
+36	lahko	lahko	ADV	Rgp	Degree=Pos	37	advmod	_	_	_
+
+37	poganjata	poganjati	VERB	Vmpr3d	Aspect=Imp|Mood=Ind|Number=Dual|Person=3|Tense=Pres|VerbForm=Fin	32	acl	_	_	_
+
+38	bencin	bencin	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	37	nsubj	_	_	_
+
+39	ali	ali	CCONJ	Cc	_	40	cc	_	_	_
+
+40	plin	plin	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	38	conj	_	_	_
+
+41	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = Karakteristike motorja pri delovanju na različni gorivi se sicer razlikujejo, vendar ne tako zelo, da bi to med preskusno vožnjo lahko opazili.
+1	Karakteristike	karakteristika	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_	_
+
+2	motorja	motor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	pri	pri	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	delovanju	delovanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+5	na	na	ADP	Sl	Case=Loc	7	case	_	_	_
+
+6	različni	različen	ADJ	Agpnpl	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	_	_
+
+7	gorivi	gorivo	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+8	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	10	expl	_	_	_
+
+9	sicer	sicer	PART	Q	_	10	advmod	_	_	_
+
+10	razlikujejo	razlikovati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+11	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+12	vendar	vendar	CCONJ	Cc	_	15	cc	_	_	_
+
+13	ne	ne	PART	Q	Polarity=Neg	14	advmod	_	_	_
+
+14	tako	tako	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+
+15	zelo	zelo	ADV	Rgp	Degree=Pos	10	advmod	_	_	_
+
+16	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+17	da	da	SCONJ	Cs	_	24	mark	_	_	_
+
+18	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	24	aux	_	_	_
+
+19	to	ta	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	24	obj	_	_	_
+
+20	med	med	ADP	Si	Case=Ins	22	case	_	_	_
+
+21	preskusno	preskusno	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_	_
+
+22	vožnjo	vožnja	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	24	obl	_	_	_
+
+23	lahko	lahko	ADV	Rgp	Degree=Pos	24	advmod	_	_	_
+
+24	opazili	opaziti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	10	advcl	_	_	_
+
+25	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = Bolj nerodno dejstvo je, da v osebni različici Doblà posode za plin zavzamejo večino prtljažnika, tako da avtomobil izgubi nekaj uporabnosti.
+1	Bolj	bolj	ADV	Rgc	Degree=Cmp	2	advmod	_	_	_
+
+2	nerodno	neroden	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_	_
+
+3	dejstvo	dejstvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_	_
+
+5	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+6	da	da	SCONJ	Cs	_	14	mark	_	_	_
+
+7	v	v	ADP	Sl	Case=Loc	9	case	_	_	_
+
+8	osebni	oseben	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_	_
+
+9	različici	različica	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	14	obl	_	_	_
+
+10	Doblà	dobel	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_	_
+
+11	posode	posoda	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_	_
+
+12	za	za	ADP	Sa	Case=Acc	13	case	_	_	_
+
+13	plin	plin	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+14	zavzamejo	zavzeti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	_	_
+
+15	večino	večina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_	_
+
+16	prtljažnika	prtljažnik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+17	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+18	tako	tako	CCONJ	Cc	_	21	cc	_	_	_
+
+19	da	da	SCONJ	Cs	_	18	fixed	_	_	_
+
+20	avtomobil	avtomobil	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_	_
+
+21	izgubi	izgubiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_	_
+
+22	nekaj	nekaj	DET	Rgp	PronType=Ind	23	det	_	_	_
+
+23	uporabnosti	uporabnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	21	obj	_	_	_
+
+24	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0008231.txt
+# text = Uglajenost in prikrita brutalnost
+1	Uglajenost	uglajenost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	in	in	CCONJ	Cc	_	4	cc	_	_	_
+
+3	prikrita	prikrit	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	4	amod	_	_	_
+
+4	brutalnost	brutalnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_	_
+

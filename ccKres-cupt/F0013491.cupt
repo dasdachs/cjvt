@@ -1,0 +1,103 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0013491.txt
+# text = 1949- V Ljubljani je umrl slovenski skladatelj Josip Pavčič, avtor zelo priljubljenih samospevov, zlasti pa mladinskih pesmi na besedila iz Župančičevega Cicibana.
+1	1949	1949	NUM	Mdc	NumForm=Digit|NumType=Card	6	dep	_	_	_
+
+2	-	-	PUNCT	Z	_	1	punct	_	_	_
+
+3	V	v	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	Ljubljani	Ljubljana	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
+
+6	umrl	umreti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+7	slovenski	slovenski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+8	skladatelj	skladatelj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	_
+
+9	Josip	josip	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+10	Pavčič	Pavčič	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_	_
+
+11	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+12	avtor	avtor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_	_
+
+13	zelo	zelo	ADV	Rgp	Degree=Pos	14	advmod	_	_	_
+
+14	priljubljenih	priljubljen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_	_
+
+15	samospevov	samospev	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_	_
+
+16	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+17	zlasti	zlasti	PART	Q	_	6	advmod	_	_	_
+
+18	pa	pa	CCONJ	Cc	_	17	fixed	_	_	_
+
+19	mladinskih	mladinski	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	_	_
+
+20	pesmi	pesem	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	15	conj	_	_	_
+
+21	na	na	ADP	Sa	Case=Acc	22	case	_	_	_
+
+22	besedila	besedilo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	20	nmod	_	_	_
+
+23	iz	iz	ADP	Sg	Case=Gen	25	case	_	_	_
+
+24	Župančičevega	Župančičev	ADJ	Aspmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	25	amod	_	_	_
+
+25	Cicibana	ciciban	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_	_
+
+26	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0013491.txt
+# text = V sklopu izdaj Europa, ki izhaja v okviru Evropske poštne zveze, bo izšla znamka na temo Narodni prazniki in festivali.
+1	V	v	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	sklopu	sklop	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_	_
+
+3	izdaj	izdaja	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_	_
+
+4	Europa	Europa	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+5	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+6	ki	ki	SCONJ	Cs	_	7	mark	_	_	_
+
+7	izhaja	izhajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	okviru	okvir	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_	_
+
+10	Evropske	evropski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_	_
+
+11	poštne	pošten	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_	_
+
+12	zveze	zveza	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+13	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+14	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	15	aux	_	_	_
+
+15	izšla	iziti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+16	znamka	znamka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_	_
+
+17	na	na	ADP	Sa	Case=Acc	18	case	_	_	_
+
+18	temo	tema	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	_	_
+
+19	Narodni	naroden	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	20	amod	_	_	_
+
+20	prazniki	praznik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	18	nmod	_	_	_
+
+21	in	in	CCONJ	Cc	_	22	cc	_	_	_
+
+22	festivali	festivati	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	20	conj	_	_	_
+
+23	.	.	PUNCT	Z	_	15	punct	_	_	_
+

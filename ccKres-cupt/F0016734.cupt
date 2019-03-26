@@ -1,0 +1,157 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0016734.txt
+# text = - EIB- B, Luksemburg, pogodba št. 1.7024, z dne 13.
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	EIB	EIB	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	-	-	PUNCT	Z	_	4	punct	_	_	_
+
+4	B	B	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+5	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+6	Luksemburg	Luksemburg	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	pogodba	pogodba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_	_
+
+9	št.	št.	NUM	Mdo	NumForm=Digit|NumType=Ord	8	nummod	_	_	_
+
+10	1.7024	1.7024	NUM	Mdc	NumForm=Digit|NumType=Card	9	flat	_	_	_
+
+11	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+12	z	z	ADP	Sg	Case=Gen	13	case	_	_	_
+
+13	dne	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+14	13	13	NUM	Mdc	NumForm=Digit|NumType=Card	13	nummod	_	_	_
+
+15	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0016734.txt
+# text = 12. 1993 v skupnem znesku 9.000.000,00ECU;
+1	12.	12.	NUM	Mdo	NumForm=Digit|NumType=Ord		root	_	_	_
+
+2	1993	1993	NUM	Mdc	NumForm=Digit|NumType=Card	1	flat	_	_	_
+
+3	v	v	ADP	Sl	Case=Loc	5	case	_	_	_
+
+4	skupnem	skupen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+5	znesku	znesek	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+6	9.000.000,00	9.000.000,00	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+7	ECU;	ECU;	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0016734.txt
+# text = - rok odplačila kredita je 4 leta z vključenim enoletnim odlogom na plačilo glavnice,
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	rok	rok	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	odplačila	odplačilo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+4	kredita	kredita	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_	_
+
+6	4	4	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+7	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	obl	_	_	_
+
+8	z	z	ADP	Si	Case=Ins	11	case	_	_	_
+
+9	vključenim	vključen	ADJ	Appmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	11	amod	_	_	_
+
+10	enoletnim	enoleten	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	odlogom	odlog	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_	_
+
+12	na	na	ADP	Sa	Case=Acc	13	case	_	_	_
+
+13	plačilo	plačilo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	11	nmod	_	_	_
+
+14	glavnice	glavnica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_	_
+
+15	,	,	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0016734.txt
+# text = - vsi stroški, povezani s pripravo in odobritvijo posameznega kredita ne smejo presegati 0,5 % vrednosti tega kredita,
+1	-	-	PUNCT	Z	_	13	punct	_	_	_
+
+2	vsi	ves	DET	Pg-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_	_
+
+3	stroški	strošek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	povezani	povezan	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	3	amod	_	_	_
+
+6	s	z	ADP	Si	Case=Ins	7	case	_	_	_
+
+7	pripravo	priprava	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+8	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+9	odobritvijo	odobritev	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	7	conj	_	_	_
+
+10	posameznega	posamezen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	kredita	kredita	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+12	ne	ne	PART	Q	Polarity=Neg	13	advmod	_	_	_
+
+13	smejo	smeti	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+14	presegati	presegati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	13	xcomp	_	_	_
+
+15	0,5	0,5	NUM	Mdc	NumForm=Digit|NumType=Card	16	nummod	_	_	_
+
+16	%	%	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	14	obj	_	_	_
+
+17	vrednosti	vrednost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+18	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_	_
+
+19	kredita	kredita	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_	_
+
+20	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0016734.txt
+# text = 2. člen
+1	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0016734.txt
+# text = Št. 440- 03 /96- 60/1 Ljubljana, dne 14. marca 1996
+1	Št.	Št.	X	Y	Abbr=Yes	2	case	_	_	_
+
+2	440	440	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+3	-	-	PUNCT	Z	_	4	punct	_	_	_
+
+4	03	03	NUM	Mdc	NumForm=Digit|NumType=Card	2	conj	_	_	_
+
+5	/96	/96	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+6	-	-	PUNCT	Z	_	7	punct	_	_	_
+
+7	60/1	60/1	NUM	Mdc	NumForm=Digit|NumType=Card	5	conj	_	_	_
+
+8	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+9	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+10	dne	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	appos	_	_	_
+
+11	14.	14.	NUM	Mdo	NumForm=Digit|NumType=Ord	12	nummod	_	_	_
+
+12	marca	marec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+13	1996	1996	NUM	Mdc	NumForm=Digit|NumType=Card	12	nummod	_	_	_
+

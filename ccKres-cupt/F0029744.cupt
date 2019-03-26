@@ -1,0 +1,139 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0029744.txt
+# text = 2. člen
+1	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0029744.txt
+# text = Poroštvene pogodbe s kreditodajalci sklepa minister, pristojen za finance.
+1	Poroštvene	poroštven	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_	_
+
+2	pogodbe	pogodba	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur		root	_	_	_
+
+3	s	z	ADP	Si	Case=Ins	4	case	_	_	_
+
+4	kreditodajalci	kreditodajalec	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	2	nmod	_	_	_
+
+5	sklepa	sklep	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+6	minister	minister	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	pristojen	pristojen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+9	za	za	ADP	Sa	Case=Acc	10	case	_	_	_
+
+10	finance	finance	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	_	_
+
+11	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0029744.txt
+# text = V primeru, če Republika Slovenija izpolni katerokoli poroštveno obveznost po tem zakonu, SID preneha s financiranjem novih poslov iz virov sredstev, katerih vračilo je bilo zavarovano z državnimi poroštvi in z izdajanjem novih serij vrednostnih papirjev, vse do končnega in celotnega poplačila terjatev Republike Slovenije iz plačanih poroštev.
+1	V	v	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	primeru	primer	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_	_
+
+3	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+4	če	če	SCONJ	Cs	_	7	mark	_	_	_
+
+5	Republika	republika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+
+6	Slovenija	Slovenija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+
+7	izpolni	izpolniti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_	_
+
+8	katerokoli	katerolol	DET	Pq-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int	10	det	_	_	_
+
+9	poroštveno	poroštven	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_	_
+
+10	obveznost	obveznost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_	_
+
+11	po	po	ADP	Sl	Case=Loc	13	case	_	_	_
+
+12	tem	ta	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_	_
+
+13	zakonu	zakon	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+14	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+15	SID	SID	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_	_
+
+16	preneha	prenehati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+17	s	z	ADP	Si	Case=Ins	18	case	_	_	_
+
+18	financiranjem	financiranje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	16	obl	_	_	_
+
+19	novih	nov	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	20	amod	_	_	_
+
+20	poslov	posel	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_	_
+
+21	iz	iz	ADP	Sg	Case=Gen	22	case	_	_	_
+
+22	virov	vir	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_	_
+
+23	sredstev	sredstvo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	22	nmod	_	_	_
+
+24	,	,	PUNCT	Z	_	29	punct	_	_	_
+
+25	katerih	kateri	DET	Pq-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Int	26	nmod	_	_	_
+
+26	vračilo	vračilo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	29	nsubj	_	_	_
+
+27	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	29	aux	_	_	_
+
+28	bilo	biti	AUX	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part	29	cop	_	_	_
+
+29	zavarovano	zavarovan	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	23	acl	_	_	_
+
+30	z	z	ADP	Si	Case=Ins	32	case	_	_	_
+
+31	državnimi	državen	ADJ	Agpnpi	Case=Ins|Degree=Pos|Gender=Neut|Number=Plur	32	amod	_	_	_
+
+32	poroštvi	poroštvo	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	29	obl	_	_	_
+
+33	in	in	CCONJ	Cc	_	35	cc	_	_	_
+
+34	z	z	ADP	Si	Case=Ins	35	case	_	_	_
+
+35	izdajanjem	izdajanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	32	conj	_	_	_
+
+36	novih	nov	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	37	amod	_	_	_
+
+37	serij	serija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	35	nmod	_	_	_
+
+38	vrednostnih	vrednosten	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	39	amod	_	_	_
+
+39	papirjev	papir	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	37	nmod	_	_	_
+
+40	,	,	PUNCT	Z	_	46	punct	_	_	_
+
+41	vse	vse	ADV	Rgp	Degree=Pos	46	advmod	_	_	_
+
+42	do	do	ADP	Sg	Case=Gen	46	case	_	_	_
+
+43	končnega	končen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	46	amod	_	_	_
+
+44	in	in	CCONJ	Cc	_	45	cc	_	_	_
+
+45	celotnega	celoten	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	43	conj	_	_	_
+
+46	poplačila	poplačilo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	32	conj	_	_	_
+
+47	terjatev	terjatev	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	46	nmod	_	_	_
+
+48	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	47	nmod	_	_	_
+
+49	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	48	nmod	_	_	_
+
+50	iz	iz	ADP	Sg	Case=Gen	52	case	_	_	_
+
+51	plačanih	plačan	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	52	amod	_	_	_
+
+52	poroštev	poroštvo	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	48	nmod	_	_	_
+
+53	.	.	PUNCT	Z	_	16	punct	_	_	_
+

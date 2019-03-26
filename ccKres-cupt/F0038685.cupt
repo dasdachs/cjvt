@@ -1,0 +1,255 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0038685.txt
+# text = nedelja, 4. julij, ob 11. uri, Prešernova 24
+1	nedelja	nedeljati	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+3	4.	4.	NUM	Mdo	NumForm=Digit|NumType=Ord	1	conj	_	_	_
+
+4	julij	julij	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+5	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+6	ob	ob	ADP	Sl	Case=Loc	8	case	_	_	_
+
+7	11.	11.	NUM	Mdo	NumForm=Digit|NumType=Ord	8	nummod	_	_	_
+
+8	uri	ura	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+9	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+10	Prešernova	prešernova	ADJ	Aspfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	11	amod	_	_	_
+
+11	24	24	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038685.txt
+# text = » Čisto preprosto in naivno skušam prenesti tisto, kar občutim z živci in vidim z očmi; v tem je vsa moja umetniška teorija,« piše Rops Fortunéju Calmelsu leta 1864.
+1	»	»	PUNCT	Z	_	6	punct	_	_	_
+
+2	Čisto	čisto	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+3	preprosto	preprosto	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+4	in	in	CCONJ	Cc	_	5	cc	_	_	_
+
+5	naivno	naiven	ADV	Rgp	Degree=Pos	3	conj	_	_	_
+
+6	skušam	skušati	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	prenesti	prenesti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	6	xcomp	_	_	_
+
+8	tisto	tisti	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	obj	_	_	_
+
+9	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+10	kar	kar	PRON	Pr-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	11	obj	_	_	_
+
+11	občutim	občutiti	VERB	Vmer1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	acl	_	_	_
+
+12	z	z	ADP	Si	Case=Ins	13	case	_	_	_
+
+13	živci	živec	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	11	obl	_	_	_
+
+14	in	in	CCONJ	Cc	_	15	cc	_	_	_
+
+15	vidim	videti	VERB	Vmbr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	conj	_	_	_
+
+16	z	z	ADP	Si	Case=Ins	17	case	_	_	_
+
+17	očmi	oči	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	15	obl	_	_	_
+
+18	;	;	PUNCT	Z	_	21	punct	_	_	_
+
+19	v	v	ADP	Sl	Case=Loc	20	case	_	_	_
+
+20	tem	ta	DET	Pd-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	21	obl	_	_	_
+
+21	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	parataxis	_	_	_
+
+22	vsa	ves	DET	Pg-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	25	det	_	_	_
+
+23	moja	moj	DET	Ps1fsns	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	25	det	_	_	_
+
+24	umetniška	umetniški	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_	_
+
+25	teorija	teorija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_	_
+
+26	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+27	«	«	PUNCT	Z	_	28	punct	_	_	_
+
+28	piše	pisati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_	_
+
+29	Rops	Rops	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_	_
+
+30	Fortunéju	Fortunžj	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	28	obj	_	_	_
+
+31	Calmelsu	Calmels	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	30	flat:name	_	_	_
+
+32	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	28	obl	_	_	_
+
+33	1864	1864	NUM	Mdc	NumForm=Digit|NumType=Card	32	nummod	_	_	_
+
+34	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038685.txt
+# text = K simbolizmu in alegoriji
+1	K	k	ADP	Sd	Case=Dat	2	case	_	_	_
+
+2	simbolizmu	simbolizem	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing		root	_	_	_
+
+3	in	in	CCONJ	Cc	_	4	cc	_	_	_
+
+4	alegoriji	alegorija	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	2	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038685.txt
+# text = Razstavo 80 izbranih slik, grafik in risb belgijskega slikarja, grafika, ilustratorja in karikaturista Féliciena Ropsa( 1833–
+1	Razstavo	razstava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing		root	_	_	_
+
+2	80	80	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+3	izbranih	izbran	ADJ	Appfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	4	amod	_	_	_
+
+4	slik	slika	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_	_
+
+5	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+6	grafik	grafik	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	conj	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	risb	risba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	conj	_	_	_
+
+9	belgijskega	belgijski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	slikarja	slikar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+11	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+12	grafika	grafik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	conj	_	_	_
+
+13	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+14	ilustratorja	ilustrator	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	conj	_	_	_
+
+15	in	in	CCONJ	Cc	_	16	cc	_	_	_
+
+16	karikaturista	karikaturist	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	conj	_	_	_
+
+17	Féliciena	Félicien	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_	_
+
+18	Ropsa	Rops	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	17	flat:name	_	_	_
+
+19	(	(	PUNCT	Z	_	20	punct	_	_	_
+
+20	1833	1833	NUM	Mdc	NumForm=Digit|NumType=Card	16	nummod	_	_	_
+
+21	–	–	PUNCT	Z	_	20	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038685.txt
+# text = 1898) p...
+1	1898	1898	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	)	)	PUNCT	Z	_	1	punct	_	_	_
+
+3	p.	p.	X	Y	Abbr=Yes	1	flat:foreign	_	_	_
+
+4	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+5	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038685.txt
+# text = Otroke, od 6. leta starost naprej, vabimo k vpisu v Galov klub in na počitniške delavnice.
+1	Otroke	otrok	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_	_
+
+2	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+3	od	od	ADP	Sg	Case=Gen	5	case	_	_	_
+
+4	6.	6.	NUM	Mdo	NumForm=Digit|NumType=Ord	5	nummod	_	_	_
+
+5	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	1	appos	_	_	_
+
+6	starost	starost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+7	naprej	naprej	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+8	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+9	vabimo	vabiti	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	k	k	ADP	Sd	Case=Dat	11	case	_	_	_
+
+11	vpisu	vpis	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+12	v	v	ADP	Sa	Case=Acc	14	case	_	_	_
+
+13	Galov	gal	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+14	klub	klub	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+15	in	in	CCONJ	Cc	_	18	cc	_	_	_
+
+16	na	na	ADP	Sa	Case=Acc	18	case	_	_	_
+
+17	počitniške	počitniški	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	_	_
+
+18	delavnice	delavnica	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	14	conj	_	_	_
+
+19	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038685.txt
+# text = Odrasle vabimo k vpisu v Tečaj grafičnih tehnik. Pri vplačilu kotizacije za Tečaj grafičnih tehnik globokega tiska na Poletno muzejsko noč nudimo 10% popust.
+1	Odrasle	odrasel	ADJ	Appmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	2	obj	_	_	_
+
+2	vabimo	vabiti	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	k	k	ADP	Sd	Case=Dat	4	case	_	_	_
+
+4	vpisu	vpis	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_	_
+
+5	v	v	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	Tečaj	tečaj	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+7	grafičnih	grafičen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_	_
+
+8	tehnik	tehnika	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_	_
+
+9	.	.	PUNCT	Z	_	23	punct	_	_	_
+
+10	Pri	pri	ADP	Sl	Case=Loc	11	case	_	_	_
+
+11	vplačilu	vplačilo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	23	obl	_	_	_
+
+12	kotizacije	kotizacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+13	za	za	ADP	Sa	Case=Acc	14	case	_	_	_
+
+14	Tečaj	tečaj	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+15	grafičnih	grafičen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	_	_
+
+16	tehnik	tehnika	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_	_
+
+17	globokega	globok	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_	_
+
+18	tiska	tisk	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_	_
+
+19	na	na	ADP	Sa	Case=Acc	22	case	_	_	_
+
+20	Poletno	poleten	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_	_
+
+21	muzejsko	muzejski	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_	_
+
+22	noč	noč	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	23	obl	_	_	_
+
+23	nudimo	nuditi	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_	_
+
+24	10%	10%	NUM	Mdc	NumForm=Digit|NumType=Card	25	nummod	_	_	_
+
+25	popust	popust	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	23	obj	_	_	_
+
+26	.	.	PUNCT	Z	_	2	punct	_	_	_
+

@@ -1,0 +1,325 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0007642.txt
+# text = Cena oglasa: 58.000 SIT
+1	Cena	cena	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	oglasa	oglas	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+4	58.000	58.000	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+5	SIT	SIT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007642.txt
+# text = Silvo Jaš
+1	Silvo	silvo	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Jaš	Jaš	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007642.txt
+# text = vsem ljudem.
+1	vsem	ves	DET	Pg-mpd	Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	2	det	_	_	_
+
+2	ljudem	človek	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur		root	_	_	_
+
+3	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007642.txt
+# text = I. program
+1	I.	I.	X	Y	Abbr=Yes	2	amod	_	_	_
+
+2	program	program	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007642.txt
+# text = • Ridomil gold MZ 68 WP je treba vedno uporabljati preventivno.
+1	•	•	PUNCT	Z	_	7	punct	_	_	_
+
+2	Ridomil	Ridomil	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	parataxis	_	_	_
+
+3	gold	gold	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+4	MZ	MZ	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+5	68	68	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+6	WP	WP	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+7	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+8	treba	treba	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+9	vedno	vedno	ADV	Rgp	Degree=Pos	10	advmod	_	_	_
+
+10	uporabljati	uporabljati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	7	csubj	_	_	_
+
+11	preventivno	preventivno	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	obj	_	_	_
+
+12	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007642.txt
+# text = Otočec
+1	Otočec	otočec	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007642.txt
+# text = Plesni živalim ne škodujejo le neposredno, škodljivi so tudi toksini, ki nastajajo med rastjo plesni.
+1	Plesni	plesen	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_	_
+
+2	živalim	žival	NOUN	Ncfpd	Case=Dat|Gender=Fem|Number=Plur	4	obj	_	_	_
+
+3	ne	ne	PART	Q	Polarity=Neg	4	advmod	_	_	_
+
+4	škodujejo	škodovati	VERB	Vmbr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	le	le	PART	Q	_	4	advmod	_	_	_
+
+6	neposredno	neposredno	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	škodljivi	škodljiv	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	parataxis	_	_	_
+
+9	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_	_
+
+10	tudi	tudi	PART	Q	_	8	advmod	_	_	_
+
+11	toksini	toksin	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_	_
+
+12	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+13	ki	ki	SCONJ	Cs	_	14	mark	_	_	_
+
+14	nastajajo	nastajati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	_	_
+
+15	med	med	ADP	Si	Case=Ins	16	case	_	_	_
+
+16	rastjo	rast	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_	_
+
+17	plesni	plesen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_	_
+
+18	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007642.txt
+# text = Povzročajo tako imenovane mikotoksikoze.
+1	Povzročajo	povzročati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	tako	tako	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+3	imenovane	imenovan	ADJ	Appfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	2	fixed	_	_	_
+
+4	mikotoksikoze	mikotoksikoza	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_	_
+
+5	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007642.txt
+# text = Bolezen se kaže v izgubi teka, pojavijo se tudi driske.
+1	Bolezen	Bolezen	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	3	expl	_	_	_
+
+3	kaže	kazati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	v	v	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	izgubi	izgubiti	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_	_
+
+6	teka	tek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	pojavijo	pojaviti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_	_
+
+9	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	8	expl	_	_	_
+
+10	tudi	tudi	PART	Q	_	8	advmod	_	_	_
+
+11	driske	driski	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_	_
+
+12	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007642.txt
+# text = Še posebej so občutljive mlajše živali, ki še nimajo v celoti razvitega vampa.
+1	Še	še	PART	Q	_	3	advmod	_	_	_
+
+2	posebej	posebej	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+3	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	občutljive	občutljiv	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_	_
+
+5	mlajše	mlad	ADJ	Agcfpn	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	6	amod	_	_	_
+
+6	živali	žival	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_	_
+
+7	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+8	ki	ki	SCONJ	Cs	_	10	mark	_	_	_
+
+9	še	še	PART	Q	_	10	advmod	_	_	_
+
+10	nimajo	imeti	VERB	Vmpr3p-y	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	acl	_	_	_
+
+11	v	v	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	celoti	celota	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_	_
+
+13	razvitega	razvit	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+14	vampa	vampa	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+15	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007642.txt
+# text = Zaradi mikotoksinov pride do oslabitev imunskega sistema, zaradi česar so živali bolj dovzetne za razne okužbe.
+1	Zaradi	zaradi	ADP	Sg	Case=Gen	2	case	_	_	_
+
+2	mikotoksinov	mikotoksin	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_	_
+
+3	pride	priti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	do	do	ADP	Sg	Case=Gen	5	case	_	_	_
+
+5	oslabitev	oslabitev	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_	_
+
+6	imunskega	imunski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	sistema	sistem	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+8	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+9	zaradi	zaradi	ADP	Sg	Case=Gen	10	case	_	_	_
+
+10	česar	kar	PRON	Pr-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Rel	14	obl	_	_	_
+
+11	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	cop	_	_	_
+
+12	živali	žival	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_	_
+
+13	bolj	bolj	ADV	Rgc	Degree=Cmp	14	advmod	_	_	_
+
+14	dovzetne	dovzeten	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	parataxis	_	_	_
+
+15	za	za	ADP	Sa	Case=Acc	17	case	_	_	_
+
+16	razne	razen	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_	_
+
+17	okužbe	okužba	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	14	obl	_	_	_
+
+18	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007642.txt
+# text = Nekateri mikotoksini so strupeni za vampne mikroorganizme in lahko povzročijo motnje v delovanju vampa, zmanjša se prebavljivost krme.
+1	Nekateri	nekateri	DET	Pi-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_	_
+
+2	mikotoksini	mikotoksina	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_	_
+
+3	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_	_
+
+4	strupeni	strupen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur		root	_	_	_
+
+5	za	za	ADP	Sa	Case=Acc	7	case	_	_	_
+
+6	vampne	vampen	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_	_
+
+7	mikroorganizme	mikroorganizem	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	4	obl	_	_	_
+
+8	in	in	CCONJ	Cc	_	10	cc	_	_	_
+
+9	lahko	lahko	ADV	Rgp	Degree=Pos	10	advmod	_	_	_
+
+10	povzročijo	povzročiti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_	_
+
+11	motnje	motnja	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_	_
+
+12	v	v	ADP	Sl	Case=Loc	13	case	_	_	_
+
+13	delovanju	delovanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	11	nmod	_	_	_
+
+14	vampa	vampa	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+15	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+16	zmanjša	zmanjšati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_	_
+
+17	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	16	expl	_	_	_
+
+18	prebavljivost	prebavljivost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_	_
+
+19	krme	krma	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_	_
+
+20	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007642.txt
+# text = Nekateri mikotoksini imajo estrogeno delovanje, vplivajo na spolni ciklus in s tem poslabšajo plodnost črede.
+1	Nekateri	nekateri	DET	Pi-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_	_
+
+2	mikotoksini	mikotoksina	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_	_
+
+3	imajo	imeti	VERB	Vmpr3p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	estrogeno	estrogen	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_	_
+
+5	delovanje	delovanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	vplivajo	vplivati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_	_
+
+8	na	na	ADP	Sa	Case=Acc	10	case	_	_	_
+
+9	spolni	spolen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	ciklus	ciklus	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_	_
+
+11	in	in	CCONJ	Cc	_	14	cc	_	_	_
+
+12	s	z	ADP	Si	Case=Ins	13	case	_	_	_
+
+13	tem	ta	DET	Pd-nsi	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	14	obl	_	_	_
+
+14	poslabšajo	poslabšati	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_	_
+
+15	plodnost	plodnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_	_
+
+16	črede	čred	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_	_
+
+17	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007642.txt
+# text = Posredno, zaradi vnetij črevesna sluznice, se vsled krmljenja plesnive krme poslabša tudi izkoriščanje rudninskih snovi.
+1	Posredno	posredno	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	nsubj	_	_	_
+
+2	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+3	zaradi	zaradi	ADP	Sg	Case=Gen	4	case	_	_	_
+
+4	vnetij	vnetija	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_	_
+
+5	črevesna	črevesen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	sluznice	sluznica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+7	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+8	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	13	expl	_	_	_
+
+9	vsled	vsled	ADP	Sg	Case=Gen	10	case	_	_	_
+
+10	krmljenja	krmljenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	13	obl	_	_	_
+
+11	plesnive	plesniv	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_	_
+
+12	krme	krma	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_	_
+
+13	poslabša	poslabšati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+14	tudi	tudi	PART	Q	_	13	advmod	_	_	_
+
+15	izkoriščanje	izkoriščanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_	_
+
+16	rudninskih	rudninski	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_	_
+
+17	snovi	snov	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_	_
+
+18	.	.	PUNCT	Z	_	13	punct	_	_	_
+

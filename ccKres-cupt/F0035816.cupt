@@ -1,0 +1,169 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0035816.txt
+# text = dva PPPoE računa
+1	dva	dva	NUM	Mlcmdn	Case=Nom|Gender=Masc|NumForm=Word|NumType=Card|Number=Dual	3	nummod	_	_	_
+
+2	PPPoE	pppoe	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+3	računa	račun	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035816.txt
+# text = Nekateri sklepi omenjene raziskave so bili predstavljeni reviji Slovenska vojska.
+1	Nekateri	nekateri	DET	Pi-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_	_
+
+2	sklepi	sklep	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_	_
+
+3	omenjene	omenjen	ADJ	Appfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	4	amod	_	_	_
+
+4	raziskave	raziskava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+5	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_	_
+
+6	bili	biti	AUX	Va-p-pm	Gender=Masc|Number=Plur|VerbForm=Part	7	cop	_	_	_
+
+7	predstavljeni	predstavljen	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+8	reviji	revija	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	7	obj	_	_	_
+
+9	Slovenska	slovenski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_	_
+
+10	vojska	vojska	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+11	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035816.txt
+# text = Drago Čepar, ki je med letoma 1997 in 2000 na ministrstvu za obrambo uvajal duhovno oskrbo v Slovensko vojsko, je v prispevku med drugim zapisal, da imajo vojaški ordinariat za katoličane vse dovolj velike članice Nata z večinsko katoliškim prebivalstvom.
+1	Drago	Drago	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_	_
+
+2	Čepar	Čepar	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+4	ki	ki	SCONJ	Cs	_	15	mark	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	aux	_	_	_
+
+6	med	med	ADP	Si	Case=Ins	7	case	_	_	_
+
+7	letoma	leto	NOUN	Ncndi	Case=Ins|Gender=Neut|Number=Dual	15	obl	_	_	_
+
+8	1997	1997	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+9	in	in	CCONJ	Cc	_	10	cc	_	_	_
+
+10	2000	2000	NUM	Mdc	NumForm=Digit|NumType=Card	8	conj	_	_	_
+
+11	na	na	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	ministrstvu	ministrstvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	15	obl	_	_	_
+
+13	za	za	ADP	Sa	Case=Acc	14	case	_	_	_
+
+14	obrambo	obramba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+15	uvajal	uvajati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_	_
+
+16	duhovno	duhoven	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_	_
+
+17	oskrbo	oskrba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_	_
+
+18	v	v	ADP	Sa	Case=Acc	20	case	_	_	_
+
+19	Slovensko	slovenski	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_	_
+
+20	vojsko	vojska	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	_	_
+
+21	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+22	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	27	aux	_	_	_
+
+23	v	v	ADP	Sl	Case=Loc	24	case	_	_	_
+
+24	prispevku	prispevek	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	27	obl	_	_	_
+
+25	med	med	ADP	Si	Case=Ins	26	case	_	_	_
+
+26	drugim	drug	ADJ	Mlpnsi	Case=Ins|Gender=Masc|Number=Sing	24	amod	_	_	_
+
+27	zapisal	zapisati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+28	,	,	PUNCT	Z	_	30	punct	_	_	_
+
+29	da	da	SCONJ	Cs	_	30	mark	_	_	_
+
+30	imajo	imeti	VERB	Vmpr3p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	27	ccomp	_	_	_
+
+31	vojaški	vojaški	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_	_
+
+32	ordinariat	ordinariat	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	_	_
+
+33	za	za	ADP	Sa	Case=Acc	34	case	_	_	_
+
+34	katoličane	katoličan	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	32	nmod	_	_	_
+
+35	vse	vse	ADV	Rgp	Degree=Pos	36	advmod	_	_	_
+
+36	dovolj	dovolj	DET	Rgp	PronType=Ind	38	det	_	_	_
+
+37	velike	velik	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_	_
+
+38	članice	članica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	30	obj	_	_	_
+
+39	Nata	Nato	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	_	_
+
+40	z	z	ADP	Si	Case=Ins	43	case	_	_	_
+
+41	večinsko	večinsko	ADV	Rgp	Degree=Pos	42	advmod	_	_	_
+
+42	katoliškim	katoliški	ADJ	Agpnsi	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	43	amod	_	_	_
+
+43	prebivalstvom	prebivalstvo	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	38	nmod	_	_	_
+
+44	.	.	PUNCT	Z	_	27	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035816.txt
+# text = Rumena,bela in modra so barve Celjskih grofov, ki so edina zares državotvorna rodbina tistih časov- davno pred pomladjo narodov.
+1	Rumena,bela	rumena,bel	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+2	in	in	CCONJ	Cc	_	3	cc	_	_	_
+
+3	modra	moder	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	conj	_	_	_
+
+4	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+5	barve	barva	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+6	Celjskih	celjski	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_	_
+
+7	grofov	grof	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_	_
+
+8	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+9	ki	ki	SCONJ	Cs	_	14	mark	_	_	_
+
+10	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	cop	_	_	_
+
+11	edina	edin	ADJ	Agpnpn	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	14	amod	_	_	_
+
+12	zares	zares	ADV	Rgp	Degree=Pos	13	advmod	_	_	_
+
+13	državotvorna	državotvoren	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_	_
+
+14	rodbina	rodbina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	acl	_	_	_
+
+15	tistih	tisti	DET	Pd-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	16	det	_	_	_
+
+16	časov	čas	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_	_
+
+17	-	-	PUNCT	Z	_	18	punct	_	_	_
+
+18	davno	davno	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_	_
+
+19	pred	pred	ADP	Si	Case=Ins	20	case	_	_	_
+
+20	pomladjo	pomlad	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	18	obl	_	_	_
+
+21	narodov	narod	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_	_
+
+22	.	.	PUNCT	Z	_	5	punct	_	_	_
+

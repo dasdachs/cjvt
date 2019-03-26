@@ -1,0 +1,605 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0015787.txt
+# text = In kaj odlikuje gorski traktor Ferrari System MT?
+1	In	in	CCONJ	Cc	_	3	cc	_	_	_
+
+2	kaj	kaj	PRON	Pq-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	3	obj	_	_	_
+
+3	odlikuje	odlikovati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	gorski	gorski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+5	traktor	traktor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+6	Ferrari	Ferrari	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+7	System	system	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+8	MT	MT	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+9	?	?	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015787.txt
+# text = Nizko težišče, širok kolotek, toga izvedba, štiri enako velika kolesa, štirikolesni pogon, majhen obračalni krog, statični razpored mase sprednja/zadnja kolesa cca 65/35( pri delu s priključki cca 50/50) ter obrnljiv volan z armaturno ploščo in sedež za vožnjo v nasprotno smer.
+1	Nizko	Nizko	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_	_
+
+2	težišče	težišče	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+3	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+4	širok	širok	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+5	kolotek	kolotek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_	_
+
+6	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+7	toga	tog	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	izvedba	izvedba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_	_
+
+9	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+10	štiri	štirje	NUM	Mlcnpn	Case=Acc|Gender=Neut|NumForm=Word|NumType=Card|Number=Plur	13	nummod	_	_	_
+
+11	enako	enako	ADV	Rgp	Degree=Pos	12	advmod	_	_	_
+
+12	velika	velik	ADJ	Agpnpn	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	13	amod	_	_	_
+
+13	kolesa	koleso	NOUN	Ncnpa	Case=Nom|Gender=Neut|Number=Plur	2	appos	_	_	_
+
+14	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+15	štirikolesni	štirikolesen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_	_
+
+16	pogon	pogon	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+17	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+18	majhen	majhen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_	_
+
+19	obračalni	obračalen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_	_
+
+20	krog	krog	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_	_
+
+21	,	,	PUNCT	Z	_	23	punct	_	_	_
+
+22	statični	statičen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_	_
+
+23	razpored	razpored	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+24	mase	masa	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_	_
+
+25	sprednja/zadnja	sprednja/zadnja	ADJ	Agpnpn	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	26	amod	_	_	_
+
+26	kolesa	koleso	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	23	conj	_	_	_
+
+27	cca	cca	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	26	nmod	_	_	_
+
+28	65/35	65/35	NUM	Mdc	NumForm=Digit|NumType=Card	27	nummod	_	_	_
+
+29	(	(	PUNCT	Z	_	31	punct	_	_	_
+
+30	pri	pri	ADP	Sl	Case=Loc	31	case	_	_	_
+
+31	delu	del	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	26	appos	_	_	_
+
+32	s	z	ADP	Si	Case=Ins	33	case	_	_	_
+
+33	priključki	priključek	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	31	nmod	_	_	_
+
+34	cca	cca	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	33	nmod	_	_	_
+
+35	50/50	50/50	NUM	Mdc	NumForm=Digit|NumType=Card	34	nummod	_	_	_
+
+36	)	)	PUNCT	Z	_	31	punct	_	_	_
+
+37	ter	ter	CCONJ	Cc	_	39	cc	_	_	_
+
+38	obrnljiv	obrnljiv	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	_	_
+
+39	volan	volan	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+40	z	z	ADP	Si	Case=Ins	42	case	_	_	_
+
+41	armaturno	armaturen	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	_	_
+
+42	ploščo	plošča	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	39	nmod	_	_	_
+
+43	in	in	CCONJ	Cc	_	44	cc	_	_	_
+
+44	sedež	sedež	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	39	conj	_	_	_
+
+45	za	za	ADP	Sa	Case=Acc	46	case	_	_	_
+
+46	vožnjo	vožnja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	44	nmod	_	_	_
+
+47	v	v	ADP	Sa	Case=Acc	49	case	_	_	_
+
+48	nasprotno	nasproten	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	49	amod	_	_	_
+
+49	smer	smer	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	44	nmod	_	_	_
+
+50	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015787.txt
+# text = Slednje omogoča uporabo priključkov za sprednji priklop oz. za potiskanje( kosilnica, tračni obračalnikitn.) ne da bi potrebovali sprednje hidravlično dvigalo.
+1	Slednje	slednji	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+2	omogoča	omogočati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	uporabo	uporaba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_	_
+
+4	priključkov	priključek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_	_
+
+5	za	za	ADP	Sa	Case=Acc	7	case	_	_	_
+
+6	sprednji	sprednji	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	priklop	priklop	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+8	oz.	oz.	X	Y	Abbr=Yes	10	cc	_	_	_
+
+9	za	za	ADP	Sa	Case=Acc	10	case	_	_	_
+
+10	potiskanje	potiskanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	7	conj	_	_	_
+
+11	(	(	PUNCT	Z	_	12	punct	_	_	_
+
+12	kosilnica	kosilnica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	10	appos	_	_	_
+
+13	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+14	tračni	tračen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_	_
+
+15	obračalnik	obračalnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_	_
+
+16	itn	itn	PUNCT	Z	_	12	punct	_	_	_
+
+17	.	.	PUNCT	Z	_	12	punct	_	_	_
+
+18	)	)	PUNCT	Z	_	12	punct	_	_	_
+
+19	ne	ne	PART	Q	_	22	mark	_	_	_
+
+20	da	da	SCONJ	Cs	_	19	fixed	_	_	_
+
+21	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	22	aux	_	_	_
+
+22	potrebovali	potrebovati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	2	advcl	_	_	_
+
+23	sprednje	sprednji	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_	_
+
+24	hidravlično	hidravlično	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_	_
+
+25	dvigalo	dvigati	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	22	obj	_	_	_
+
+26	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015787.txt
+# text = Preskušani model je bil z njim sicer opremljen, vendar je le omejeno uporabno.
+1	Preskušani	preskušan	ADJ	Appmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	2	amod	_	_	_
+
+2	model	model	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_	_
+
+4	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	8	cop	_	_	_
+
+5	z	z	ADP	Si	Case=Ins	6	case	_	_	_
+
+6	njim	on	PRON	Pp3msi	Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	_	_
+
+7	sicer	sicer	PART	Q	_	8	advmod	_	_	_
+
+8	opremljen	opremljen	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+9	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+10	vendar	vendar	CCONJ	Cc	_	13	cc	_	_	_
+
+11	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	cop	_	_	_
+
+12	le	le	PART	Q	_	13	advmod	_	_	_
+
+13	omejeno	omejen	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	8	conj	_	_	_
+
+14	uporabno	uporaben	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	_	_
+
+15	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015787.txt
+# text = V celoti je traktor nizek, sega nam do pasu.
+1	V	v	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	celoti	celota	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+4	traktor	traktor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+5	nizek	nizek	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing		root	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	sega	biti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_	_
+
+8	nam	jaz	PRON	Pp1-pd	Case=Dat|Number=Plur|Person=1|PronType=Prs	7	obj	_	_	_
+
+9	do	do	ADP	Sg	Case=Gen	10	case	_	_	_
+
+10	pasu	pas	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_	_
+
+11	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015787.txt
+# text = Ima stalen štirikolesni pogon, preko njega pa tudi zaviranje.
+1	Ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	stalen	stalen	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+3	štirikolesni	štirikolesen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	pogon	pogon	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_	_
+
+5	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+6	preko	preko	ADP	Sg	Case=Gen	7	case	_	_	_
+
+7	njega	on	PRON	Pp3msg	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nmod	_	_	_
+
+8	pa	pa	CCONJ	Cc	_	10	cc	_	_	_
+
+9	tudi	tudi	PART	Q	_	1	advmod	_	_	_
+
+10	zaviranje	zaviranje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	conj	_	_	_
+
+11	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015787.txt
+# text = Zavore so sicer na zadnjih polgredeh, celoploščne v oljni kopeli, upravljane mehansko.
+1	Zavore	zavora	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	sicer	sicer	PART	Q	_	13	advmod	_	_	_
+
+4	na	na	ADP	Sl	Case=Loc	6	case	_	_	_
+
+5	zadnjih	zadnji	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_	_
+
+6	polgredeh	polgred	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	2	obl	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	celoploščne	celoploščen	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	11	case	_	_	_
+
+10	oljni	oljen	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_	_
+
+11	kopeli	kopela	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+12	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+13	upravljane	upravljan	ADJ	Appfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	8	conj	_	_	_
+
+14	mehansko	mehanski	ADV	Rgp	Degree=Pos	13	advmod	_	_	_
+
+15	.	.	PUNCT	Z	_	13	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015787.txt
+# text = Obe diferencialni zapori se vklapljata elektrohidravlično, lahko sočasno ali pa samo zadnja( preklop s hidravličnim ventilom).
+1	Obe	oba	DET	Pg-fdn	Case=Nom|Gender=Fem|Number=Dual|PronType=Tot	3	det	_	_	_
+
+2	diferencialni	diferencialen	ADJ	Agpfdn	Case=Nom|Degree=Pos|Gender=Fem|Number=Dual	3	amod	_	_	_
+
+3	zapori	zapor	NOUN	Ncfdn	Case=Nom|Gender=Fem|Number=Dual	5	nsubj	_	_	_
+
+4	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	5	expl	_	_	_
+
+5	vklapljata	vklapljati	VERB	Vmpr3d	Aspect=Imp|Mood=Ind|Number=Dual|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	elektrohidravlično	elektrohidravlično	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+7	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+8	lahko	lahko	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+9	sočasno	sočasno	ADV	Rgp	Degree=Pos	6	conj	_	_	_
+
+10	ali	ali	CCONJ	Cc	_	13	cc	_	_	_
+
+11	pa	pa	CCONJ	Cc	_	5	advmod	_	_	_
+
+12	samo	samo	PART	Q	_	5	advmod	_	_	_
+
+13	zadnja	zadnji	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	9	conj	_	_	_
+
+14	(	(	PUNCT	Z	_	15	punct	_	_	_
+
+15	preklop	preklop	NOUN	Ncmsa	Case=Acc|Gender=Masc|Number=Sing	13	appos	_	_	_
+
+16	s	z	ADP	Si	Case=Ins	18	case	_	_	_
+
+17	hidravličnim	hidravličen	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_	_
+
+18	ventilom	ventilo	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+19	)	)	PUNCT	Z	_	15	punct	_	_	_
+
+20	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015787.txt
+# text = Obe premi sta togo vpeti na blok traktorja, blok pa je v sredini gibljivo vpet( pod volanom) in se nagiba za 15 o( sprednji proti zadnjemu delu).
+1	Obe	oba	DET	Pg-fdn	Case=Nom|Gender=Fem|Number=Dual|PronType=Tot	2	det	_	_	_
+
+2	premi	premi	NOUN	Ncfdn	Case=Nom|Gender=Fem|Number=Dual	5	nsubj	_	_	_
+
+3	sta	biti	AUX	Va-r3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+4	togo	tog	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+5	vpeti	vpeti	ADJ	Appmdn	Case=Nom|Degree=Pos|Gender=Masc|Number=Dual|VerbForm=Part		root	_	_	_
+
+6	na	na	ADP	Sa	Case=Acc	7	case	_	_	_
+
+7	blok	blok	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_	_
+
+8	traktorja	traktor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+9	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+10	blok	blok	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_	_
+
+11	pa	pa	CCONJ	Cc	_	16	advmod	_	_	_
+
+12	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	cop	_	_	_
+
+13	v	v	ADP	Sl	Case=Loc	14	case	_	_	_
+
+14	sredini	sredina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_	_
+
+15	gibljivo	gibljivo	ADV	Rgp	Degree=Pos	16	advmod	_	_	_
+
+16	vpet	vpet	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	5	parataxis	_	_	_
+
+17	(	(	PUNCT	Z	_	19	punct	_	_	_
+
+18	pod	pod	ADP	Si	Case=Ins	19	case	_	_	_
+
+19	volanom	volan	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	16	obl	_	_	_
+
+20	)	)	PUNCT	Z	_	19	punct	_	_	_
+
+21	in	in	CCONJ	Cc	_	23	cc	_	_	_
+
+22	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	23	expl	_	_	_
+
+23	nagiba	nagibati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_	_
+
+24	za	za	ADP	Sa	Case=Acc	25	case	_	_	_
+
+25	15	15	NUM	Mdc	NumForm=Digit|NumType=Card	23	advmod	_	_	_
+
+26	o	o	ADP	Sl	Case=Loc	28	case	_	_	_
+
+27	(	(	PUNCT	Z	_	28	punct	_	_	_
+
+28	sprednji	sprednji	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_	_
+
+29	proti	proti	ADP	Sd	Case=Dat	31	case	_	_	_
+
+30	zadnjemu	zadnji	ADJ	Agpnsd	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	31	amod	_	_	_
+
+31	delu	del	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	28	obl	_	_	_
+
+32	)	)	PUNCT	Z	_	28	punct	_	_	_
+
+33	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015787.txt
+# text = Vse to utrjuje v prepričanju, da s Systemom MT lahko varno in učinkovito delamo v hribovitih terenih.
+1	Vse	ves	DET	Pg-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	2	nmod	_	_	_
+
+2	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_	_
+
+3	utrjuje	utrjevati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	v	v	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	prepričanju	prepričanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_	_
+
+6	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+7	da	da	SCONJ	Cs	_	15	mark	_	_	_
+
+8	s	z	ADP	Si	Case=Ins	9	case	_	_	_
+
+9	Systemom	System	PROPN	Npmsi	Case=Ins|Gender=Masc|Number=Sing	15	obl	_	_	_
+
+10	MT	MT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_	_
+
+11	lahko	lahko	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+
+12	varno	varno	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+
+13	in	in	CCONJ	Cc	_	14	cc	_	_	_
+
+14	učinkovito	učinkovito	ADV	Rgp	Degree=Pos	12	conj	_	_	_
+
+15	delamo	delati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	acl	_	_	_
+
+16	v	v	ADP	Sl	Case=Loc	18	case	_	_	_
+
+17	hribovitih	hribovit	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	_	_
+
+18	terenih	teren	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	15	obl	_	_	_
+
+19	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015787.txt
+# text = - kadar želimo živalim zagotoviti vir živih in naravnih mikroorganizmov,
+1	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+2	kadar	kadar	SCONJ	Cs	_	3	mark	_	_	_
+
+3	želimo	želeti	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	živalim	žival	NOUN	Ncfpd	Case=Dat|Gender=Fem|Number=Plur	5	iobj	_	_	_
+
+5	zagotoviti	zagotoviti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	3	xcomp	_	_	_
+
+6	vir	vir	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_	_
+
+7	živih	živ	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_	_
+
+8	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+9	naravnih	naraven	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	7	conj	_	_	_
+
+10	mikroorganizmov	mikroorganizem	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_	_
+
+11	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015787.txt
+# text = Z obžalovanjem ugotavljamo, da dr. Janez Drnovšek očitno meni, da nerešena problematika odkupa žit tik pred žetvijo ni zadosten razlog za pogovor s predstavniki omenjenih organizacij.
+1	Z	z	ADP	Si	Case=Ins	2	case	_	_	_
+
+2	obžalovanjem	obžalovanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_	_
+
+3	ugotavljamo	ugotavljati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+5	da	da	SCONJ	Cs	_	10	mark	_	_	_
+
+6	dr.	dr.	X	Y	Abbr=Yes	7	nmod	_	_	_
+
+7	Janez	Janez	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_	_
+
+8	Drnovšek	Drnovšek	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	_	_
+
+9	očitno	očitno	ADV	Rgp	Degree=Pos	10	advmod	_	_	_
+
+10	meni	meniti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_	_
+
+11	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+12	da	da	SCONJ	Cs	_	22	mark	_	_	_
+
+13	nerešena	nerešen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_	_
+
+14	problematika	problematika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_	_
+
+15	odkupa	odkup	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+16	žit	žit	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_	_
+
+17	tik	tik	ADV	Rgp	Degree=Pos	19	advmod	_	_	_
+
+18	pred	pred	ADP	Si	Case=Ins	19	case	_	_	_
+
+19	žetvijo	žetev	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	22	obl	_	_	_
+
+20	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	22	cop	_	_	_
+
+21	zadosten	zadosten	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_	_
+
+22	razlog	razlog	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	ccomp	_	_	_
+
+23	za	za	ADP	Sa	Case=Acc	24	case	_	_	_
+
+24	pogovor	pogovor	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	nmod	_	_	_
+
+25	s	z	ADP	Si	Case=Ins	26	case	_	_	_
+
+26	predstavniki	predstavnik	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	24	nmod	_	_	_
+
+27	omenjenih	omenjen	ADJ	Appfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	28	amod	_	_	_
+
+28	organizacij	organizacija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	_	_
+
+29	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015787.txt
+# text = Rastne razmere
+1	Rastne	rasten	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_	_
+
+2	razmere	razmera	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015787.txt
+# text = 4 Kopetz Pelzmann, 1984: Gemsebau- Praxis im Freiland und unter Folien.
+1	4	4	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Kopetz	Kopetz	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	Pelzmann	Pelzmann	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	1984	1984	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+6	:	:	PUNCT	Z	_	5	punct	_	_	_
+
+7	Gemsebau	Gemsebao	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_	_
+
+8	-	-	PUNCT	Z	_	9	punct	_	_	_
+
+9	Praxis	Praxis	X	Xf	Foreign=Yes	7	conj	_	_	_
+
+10	im	im	X	Xf	Foreign=Yes	7	punct	_	_	_
+
+11	Freiland	Freiland	X	Xf	Foreign=Yes	7	nmod	_	_	_
+
+12	und	und	X	Xf	Foreign=Yes	7	flat:foreign	_	_	_
+
+13	unter	unter	X	Xf	Foreign=Yes	14	nmod	_	_	_
+
+14	Folien	Folien	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+15	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015787.txt
+# text = Österreichischer Agrarverlag, Wien, s. 120, sorte za siljenje
+1	Österreichischer	Österreichischer	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Agrarverlag	Agrarverlag	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	Wien	Wien	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+5	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+6	s.	s.	X	Y	Abbr=Yes	2	conj	_	_	_
+
+7	120	120	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+8	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+9	sorte	sorta	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	_	_
+
+10	za	za	ADP	Sa	Case=Acc	11	case	_	_	_
+
+11	siljenje	siljenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	9	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015787.txt
+# text = 3 žlice ribezovega želeja
+1	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	žlice	žlica	NOUN	Ncfpn	Case=Acc|Gender=Fem|Number=Plur		root	_	_	_
+
+3	ribezovega	ribezov	ADJ	Aspnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Poss=Yes	4	amod	_	_	_
+
+4	želeja	želej	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015787.txt
+# text = Uspešno žetev želim,
+1	Uspešno	uspešno	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	žetev	žetev	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_	_
+
+3	želim	želeti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	,	,	PUNCT	Z	_	3	punct	_	_	_
+

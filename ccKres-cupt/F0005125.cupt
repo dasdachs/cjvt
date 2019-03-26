@@ -1,0 +1,661 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = - pogonom na vsa štiri kolesa
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	pogonom	pogon	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur		root	_	_	_
+
+3	na	na	ADP	Sa	Case=Acc	6	case	_	_	_
+
+4	vsa	ves	DET	Pg-npa	Case=Acc|Gender=Neut|Number=Plur|PronType=Tot	6	det	_	_	_
+
+5	štiri	štirje	NUM	Mlcnpa	Case=Acc|Gender=Neut|NumForm=Word|NumType=Card|Number=Plur	6	nummod	_	_	_
+
+6	kolesa	koleso	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	2	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = Odgovor nama, prosiva, pošljite na naslov: ČZD Kmečki glas, Železna cesta 14, Ljubljana.
+1	Odgovor	odgovor	NOUN	Ncmsn	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_	_
+
+2	nama	jaz	PRON	Pp1-dd	Case=Dat|Number=Dual|Person=1|PronType=Prs	4	obj	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	prosiva	prosivo	VERB	Vmpr1d	Aspect=Imp|Mood=Ind|Number=Dual|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+6	pošljite	pošlati	VERB	Vmem2p	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	4	parataxis	_	_	_
+
+7	na	na	ADP	Sa	Case=Acc	8	case	_	_	_
+
+8	naslov	naslov	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_	_
+
+9	:	:	PUNCT	Z	_	6	punct	_	_	_
+
+10	ČZD	ČZD	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_	_
+
+11	Kmečki	kmečki	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_	_
+
+12	glas	glas	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	_
+
+13	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+14	Železna	železen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_	_
+
+15	cesta	cesta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	12	conj	_	_	_
+
+16	14	14	NUM	Mdc	NumForm=Digit|NumType=Card	15	nummod	_	_	_
+
+17	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+18	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+19	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = KAKO NAGOVORITI GOZDNEGA POSESTNIKA IN MU SVETOVATI
+1	KAKO	kako	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+2	NAGOVORITI	nagovoriti	VERB	Vmen	Aspect=Perf|VerbForm=Inf		root	_	_	_
+
+3	GOZDNEGA	gozden	ADJ	Agpmsa	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	POSESTNIKA	posestnik	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_	_
+
+5	IN	in	CCONJ	Cc	_	7	cc	_	_	_
+
+6	MU	on	PRON	Pp3msd--y	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	7	obj	_	_	_
+
+7	SVETOVATI	svetovati	VERB	Vmbn	VerbForm=Inf	2	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = - Jože Rupnik, roj. 04.03.
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	Jože	Jože	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	Rupnik	Rupnik	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	roj.	roj.	X	Y	Abbr=Yes	2	appos	_	_	_
+
+6	04.03	04.03	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+7	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = 1963, Godovič 61
+1	1963	1963	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	Godovič	Godovič	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+4	61	61	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = - Marino Glavina, roj. 20. 11.
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	Marino	Marino	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	Glavina	glavina	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	flat:name	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	roj.	roj.	X	Y	Abbr=Yes	2	nummod	_	_	_
+
+6	20	20	NUM	Mdc	NumForm=Digit|NumType=Card	5	flat	_	_	_
+
+7	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+8	11	11	NUM	Mdc	NumForm=Digit|NumType=Card	5	conj	_	_	_
+
+9	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = 1953, Levstikova 2, Izola
+1	1953	1953	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	Levstikova	Levstikov	ADJ	Aspfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	1	conj	_	_	_
+
+4	2	2	NUM	Mdc	NumForm=Digit|NumType=Card	1	conj	_	_	_
+
+5	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+6	Izola	izola	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = - Jurij Rozman, roj. 18.01.
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	Jurij	Jurij	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	Rozman	Rozman	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	roj.	roj.	X	Y	Abbr=Yes	2	appos	_	_	_
+
+6	18.01	18.01	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+7	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = 1934, Lom pod Storžičem 45, Tržič
+1	1934	1934	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	Lom	lom	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+4	pod	pod	ADP	Si	Case=Ins	5	case	_	_	_
+
+5	Storžičem	Storžič	PROPN	Npmsi	Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+6	45	45	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	Tržič	tržič	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = - Ivan Gregorc, roj. 19.
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	Ivan	Ivan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	Gregorc	Gregorc	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	roj.	roj.	X	Y	Abbr=Yes	2	nummod	_	_	_
+
+6	19	19	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+7	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = 12.
+1	12	12	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = 1952, Sneberska 144a, Ljubljana
+1	1952	1952	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	Sneberska	sneberski	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_	_
+
+4	144a	144a	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+5	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+6	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = V seznam so vpisane 3 liste kandidatov.
+1	V	v	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	seznam	seznam	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+3	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_	_
+
+4	vpisane	vpisan	ADJ	Appfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part		root	_	_	_
+
+5	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+6	liste	list	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_	_
+
+7	kandidatov	kandidat	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_	_
+
+8	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = 3.
+1	3	3	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = DRUŠTVO SOCIALDEMOKRATSKE KMEČKE ZVEZE GIBANJE ZA RAZVOJ PODEŽELJA
+1	DRUŠTVO	društvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+2	SOCIALDEMOKRATSKE	socialdemokratski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+3	KMEČKE	kmečki	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	ZVEZE	zveza	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+5	GIBANJE	gibanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+6	ZA	za	ADP	Sa	Case=Acc	7	case	_	_	_
+
+7	RAZVOJ	razvoj	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+8	PODEŽELJA	podeželje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = - Jožef Zupančič, roj.
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	Jožef	Jožef	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	Zupančič	Zupančič	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	roj	roj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_	_
+
+6	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = 1940, Podlipa 7, Raka
+1	1940	1940	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	Podlipa	podlipa	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+4	7	7	NUM	Mdc	NumForm=Digit|NumType=Card	1	conj	_	_	_
+
+5	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+6	Raka	rak	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = &-; Franc Gorinšek, roj. 27.10.
+1	&	&	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+2	-	-	PUNCT	Z	_	1	punct	_	_	_
+
+3	;	;	PUNCT	Z	_	1	punct	_	_	_
+
+4	Franc	Franc	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+5	Gorinšek	Gorinšek	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	roj.	roj.	X	Y	Abbr=Yes	4	nummod	_	_	_
+
+8	27.10	27.10	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+9	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = 1947, Drobež 9, Slovenske Konjice
+1	1947	1947	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	Drobež	Drobež	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+4	9	9	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+5	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+6	Slovenske	slovenski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	_
+
+7	Konjice	Konjice	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	3	appos	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = Šmarje pri Jelšah, Bistrica ob Sotli, Kozje, Podčetrtek, Rogatec in Rogaška Slatina
+1	Šmarje	Šmarje	PROPN	Npfpn	Case=Nom|Gender=Fem|Number=Plur		root	_	_	_
+
+2	pri	pri	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	Jelšah	jelša	PROPN	Npfpl	Case=Loc|Gender=Fem|Number=Plur	1	nmod	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	Bistrica	bistrica	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_	_
+
+6	ob	ob	ADP	Sl	Case=Loc	7	case	_	_	_
+
+7	Sotli	Sotla	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+8	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+9	Kozje	Kozje	PROPN	Npnsn	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	_	_
+
+10	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+11	Podčetrtek	Podčetrtek	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_	_
+
+12	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+13	Rogatec	Rogatec	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_	_
+
+14	in	in	CCONJ	Cc	_	16	cc	_	_	_
+
+15	Rogaška	Rogaška	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_	_
+
+16	Slatina	Slatina	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = - Jožef Škrlec, roj. 29.02.
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	Jožef	Jožef	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	Škrlec	Škrlec	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	roj.	roj.	X	Y	Abbr=Yes	2	appos	_	_	_
+
+6	29.02	29.02	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+7	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = 1940, Zgornje Partinje 38, Lenart
+1	1940	1940	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	Zgornje	zgornji	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	Partinje	Partinje	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_	_
+
+5	38	38	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	Lenart	lenart	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = - Jože Slavič, roj. 26.02.
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	Jože	Jože	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	Slavič	Slavič	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	roj.	roj.	X	Y	Abbr=Yes	2	appos	_	_	_
+
+6	26.02	26.02	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+7	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = 1964, Grabe 1
+1	1964	1964	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	Grabe	Grabe	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+4	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = Cike imajo v njihovem hlevu rezerviran najboljši prostor.
+1	Cike	cik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_	_
+
+2	imajo	imeti	VERB	Vmpr3p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	v	v	ADP	Sl	Case=Loc	5	case	_	_	_
+
+4	njihovem	njihov	DET	Ps3mslp	Case=Loc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	5	det	_	_	_
+
+5	hlevu	hlev	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+6	rezerviran	rezerviran	ADJ	Appmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	8	acl	_	_	_
+
+7	najboljši	dober	ADJ	Agsmsay	Case=Acc|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+8	prostor	prostor	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_	_
+
+9	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = - kako bi si sami pomagali?
+1	-	-	PUNCT	Z	_	6	punct	_	_	_
+
+2	kako	kako	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+3	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	6	aux	_	_	_
+
+4	si	se	PRON	Px---d--y	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	6	expl	_	_	_
+
+5	sami	sam	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	obl	_	_	_
+
+6	pomagali	pomagati	VERB	Vmbp-pm	Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+7	?	?	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = -
+1	-	-	PUNCT	Z	_		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = Cenik velja 540 470 348 310
+1	Cenik	Cenik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_	_
+
+2	velja	veljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	540	540	NUM	Mdc	NumForm=Digit|NumType=Card	2	advmod	_	_	_
+
+4	470	470	NUM	Mdc	NumForm=Digit|NumType=Card	3	flat	_	_	_
+
+5	348	348	NUM	Mdc	NumForm=Digit|NumType=Card	3	flat	_	_	_
+
+6	310	310	NUM	Mdc	NumForm=Digit|NumType=Card	4	flat	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = 11.50 Šport v sliki- 12.00 Izgubljeni svet- 12.45 Predrznež v koruzi, amer. film- 14. 10 Dirka s časom, amer. film- 15.45 Imel sem srečo- 16.
+1	11.50	11.50	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Šport	Šport	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	28	parataxis	_	_	_
+
+3	v	v	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	sliki	slika	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+5	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+6	12.00	12.00	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+7	Izgubljeni	izgubljen	ADJ	Appmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	8	amod	_	_	_
+
+8	svet	svet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_	_
+
+9	-	-	PUNCT	Z	_	10	punct	_	_	_
+
+10	12.45	12.45	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+11	Predrznež	predrznež	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+12	v	v	ADP	Sl	Case=Loc	13	case	_	_	_
+
+13	koruzi	koruz	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	28	obl	_	_	_
+
+14	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+15	amer.	amer.	X	Y	Abbr=Yes	16	amod	_	_	_
+
+16	film	film	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_	_
+
+17	-	-	PUNCT	Z	_	20	punct	_	_	_
+
+18	14.	14.	NUM	Mdo	NumForm=Digit|NumType=Ord	20	nummod	_	_	_
+
+19	10	10	NUM	Mdc	NumForm=Digit|NumType=Card	20	nummod	_	_	_
+
+20	Dirka	dirka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	16	appos	_	_	_
+
+21	s	z	ADP	Si	Case=Ins	22	case	_	_	_
+
+22	časom	čas	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	20	nmod	_	_	_
+
+23	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+24	amer.	amer.	X	Y	Abbr=Yes	25	nmod	_	_	_
+
+25	film	film	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_	_
+
+26	-	-	PUNCT	Z	_	27	punct	_	_	_
+
+27	15.45	15.45	NUM	Mdc	NumForm=Digit|NumType=Card	25	nummod	_	_	_
+
+28	Imel	imeti	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+29	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	28	aux	_	_	_
+
+30	srečo	sreča	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	28	obj	_	_	_
+
+31	-	-	PUNCT	Z	_	32	punct	_	_	_
+
+32	16	16	NUM	Mdc	NumForm=Digit|NumType=Card	30	nummod	_	_	_
+
+33	.	.	PUNCT	Z	_	28	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = 15 Nogomet, zvezna liga- 18.30 Šport ob nedeljah- 19.00 Alpsko smučanje, superveleslalom( m)- 19.30 Čas v sliki in kultura- 20. 15 Arabske noči- pustolovščine iz 1001 noči, amer. film- 23.
+1	15	15	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Nogomet	nogomet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	22	parataxis	_	_	_
+
+3	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+4	zvezna	zvezen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	liga	liga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_	_
+
+6	-	-	PUNCT	Z	_	7	punct	_	_	_
+
+7	18.30	18.30	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+8	Šport	Šport	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_	_
+
+9	ob	ob	ADP	Sl	Case=Loc	10	case	_	_	_
+
+10	nedeljah	nedelja	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	8	nmod	_	_	_
+
+11	-	-	PUNCT	Z	_	12	punct	_	_	_
+
+12	19.00	19.00	NUM	Mdc	NumForm=Digit|NumType=Card	10	nummod	_	_	_
+
+13	Alpsko	Alpsko	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_	_
+
+14	smučanje	smučanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	_	_
+
+15	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+16	superveleslalom	superverveslati	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	14	conj	_	_	_
+
+17	(	(	PUNCT	Z	_	18	punct	_	_	_
+
+18	m	m	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_	_
+
+19	)	)	PUNCT	Z	_	18	punct	_	_	_
+
+20	-	-	PUNCT	Z	_	21	punct	_	_	_
+
+21	19.30	19.30	NUM	Mdc	NumForm=Digit|NumType=Card	18	nummod	_	_	_
+
+22	Čas	čas	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+23	v	v	ADP	Sl	Case=Loc	24	case	_	_	_
+
+24	sliki	slika	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	22	nmod	_	_	_
+
+25	in	in	CCONJ	Cc	_	26	cc	_	_	_
+
+26	kultura	kultura	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	24	conj	_	_	_
+
+27	-	-	PUNCT	Z	_	22	punct	_	_	_
+
+28	20.	20.	NUM	Mdo	NumForm=Digit|NumType=Ord	31	nummod	_	_	_
+
+29	15	15	NUM	Mdc	NumForm=Digit|NumType=Card	31	nummod	_	_	_
+
+30	Arabske	arabski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_	_
+
+31	noči	noč	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_	_
+
+32	-	-	PUNCT	Z	_	33	punct	_	_	_
+
+33	pustolovščine	pustolovščina	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	_	_
+
+34	iz	iz	ADP	Sg	Case=Gen	36	case	_	_	_
+
+35	1001	1001	NUM	Mdc	NumForm=Digit|NumType=Card	36	nummod	_	_	_
+
+36	noči	noč	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Plur	33	nmod	_	_	_
+
+37	,	,	PUNCT	Z	_	39	punct	_	_	_
+
+38	amer.	amer.	X	Y	Abbr=Yes	39	nmod	_	_	_
+
+39	film	film	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	36	appos	_	_	_
+
+40	-	-	PUNCT	Z	_	41	punct	_	_	_
+
+41	23	23	NUM	Mdc	NumForm=Digit|NumType=Card	39	nummod	_	_	_
+
+42	.	.	PUNCT	Z	_	22	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = 15 Columbo.
+1	15	15	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Columbo	Columba	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = obrazov
+1	obrazov	obraz	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = Povprečni nakup. 107,50( +0,13) 15,20( +0,02) 10,80( +0,02)
+1	Povprečni	povprečen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	nakup	nakup	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+4	107,50	107,50	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+5	(	(	PUNCT	Z	_	6	punct	_	_	_
+
+6	+0,13	+0,13	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+7	)	)	PUNCT	Z	_	6	punct	_	_	_
+
+8	15,20	15,20	NUM	Mdc	NumForm=Digit|NumType=Card	6	conj	_	_	_
+
+9	(	(	PUNCT	Z	_	10	punct	_	_	_
+
+10	+0,02	+0,02	NUM	Mdc	NumForm=Digit|NumType=Card	8	conj	_	_	_
+
+11	)	)	PUNCT	Z	_	10	punct	_	_	_
+
+12	10,80	10,80	NUM	Mdc	NumForm=Digit|NumType=Card	10	conj	_	_	_
+
+13	(	(	PUNCT	Z	_	14	punct	_	_	_
+
+14	+0,02	+0,02	NUM	Mdc	NumForm=Digit|NumType=Card	10	conj	_	_	_
+
+15	)	)	PUNCT	Z	_	14	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005125.txt
+# text = Probanka 108,26 15,39 10,93
+1	Probanka	Probanka	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	108,26	108,26	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+3	15,39	15,39	NUM	Mdc	NumForm=Digit|NumType=Card	2	conj	_	_	_
+
+4	10,93	10,93	NUM	Mdc	NumForm=Digit|NumType=Card	2	conj	_	_	_
+

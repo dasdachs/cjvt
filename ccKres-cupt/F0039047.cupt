@@ -1,0 +1,775 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = V okviru mednarodnega cikla Mladi virtuozi je Festival Ljubljana v torek, 19. oktobra organiziral glasbeno delavnico za študentke Akademije za glasbo.
+1	V	v	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	okviru	okvir	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_	_
+
+3	mednarodnega	mednaroden	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	cikla	cikla	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	Mladi	mlad	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_	_
+
+6	virtuozi	virtuoza	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_	_
+
+7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_	_
+
+8	Festival	festival	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+9	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+10	v	v	ADP	Sa	Case=Acc	11	case	_	_	_
+
+11	torek	torek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+12	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+13	19.	19.	NUM	Mdo	NumForm=Digit|NumType=Ord	14	nummod	_	_	_
+
+14	oktobra	oktober	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	appos	_	_	_
+
+15	organiziral	organizirati	VERB	Vmbp-sm	Gender=Masc|Number=Sing|VerbForm=Part	8	parataxis	_	_	_
+
+16	glasbeno	glasben	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_	_
+
+17	delavnico	delavnica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_	_
+
+18	za	za	ADP	Sa	Case=Acc	19	case	_	_	_
+
+19	študentke	študentka	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	17	nmod	_	_	_
+
+20	Akademije	akademija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_	_
+
+21	za	za	ADP	Sa	Case=Acc	22	case	_	_	_
+
+22	glasbo	glasba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	20	nmod	_	_	_
+
+23	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Aktivni udeleženec je bil godalni kvartet Accademia, ki ga sestavljajo Mojca Fortin, 1.violina, beti Bratina, 2. Violina, Gea Pantner Volfand, viola in Zoran Bičanin, violončelo.
+1	Aktivni	aktiven	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	udeleženec	udeleženec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	aux	_	_	_
+
+4	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	2	cop	_	_	_
+
+5	godalni	godalen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+6	kvartet	kvartet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_	_
+
+7	Accademia	Accademia	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+8	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+9	ki	ki	SCONJ	Cs	_	11	mark	_	_	_
+
+10	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	11	obj	_	_	_
+
+11	sestavljajo	sestavljati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	_	_
+
+12	Mojca	Mojca	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_	_
+
+13	Fortin	Fortin	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	12	flat:name	_	_	_
+
+14	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+15	1.violina	1.violina	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	12	conj	_	_	_
+
+16	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+17	beti	beti	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	12	conj	_	_	_
+
+18	Bratina	Bratina	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	17	flat:name	_	_	_
+
+19	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+20	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	21	nummod	_	_	_
+
+21	Violina	Violina	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	12	conj	_	_	_
+
+22	,	,	PUNCT	Z	_	23	punct	_	_	_
+
+23	Gea	Gea	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	12	conj	_	_	_
+
+24	Pantner	pantner	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	23	flat:name	_	_	_
+
+25	Volfand	Volfand	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	12	flat:name	_	_	_
+
+26	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+27	viola	viol	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	12	conj	_	_	_
+
+28	in	in	CCONJ	Cc	_	29	cc	_	_	_
+
+29	Zoran	Zoran	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_	_
+
+30	Bičanin	Bičanin	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	29	flat:name	_	_	_
+
+31	,	,	PUNCT	Z	_	32	punct	_	_	_
+
+32	violončelo	violončel	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	12	conj	_	_	_
+
+33	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Kvartet je pod mentorskim vodstvom prof.
+1	Kvartet	Kvartet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_	_
+
+2	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	pod	pod	ADP	Si	Case=Ins	5	case	_	_	_
+
+4	mentorskim	mentorski	ADJ	Agpnsi	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_	_
+
+5	vodstvom	vodstvo	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	2	obl	_	_	_
+
+6	prof	profa	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+7	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Tomaža Lorenza za glasbeno delavnico pripravil zahtevno Beethovnovo delo.
+1	Tomaža	Tomaž	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	iobj	_	_	_
+
+2	Lorenza	Lorenz	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	za	za	ADP	Sa	Case=Acc	5	case	_	_	_
+
+4	glasbeno	glasben	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	delavnico	delavnica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_	_
+
+6	pripravil	pripraviti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+7	zahtevno	zahteven	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_	_
+
+8	Beethovnovo	Beethovnov	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_	_
+
+9	delo	delo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_	_
+
+10	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Članice nizozemskega godalnega kvarteta Ragazze, ki prihajajo iz edine šole godalnih kvartetov v Amsterdamu, so mladim slovenskim glasbenikom posredovale svoje izkušnje, jih s» pozornim ušesom« opozarjale na čeri, presenečenja in radosti Beethovnove glasbe.
+1	Članice	članica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	31	nsubj	_	_	_
+
+2	nizozemskega	nizozemski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+3	godalnega	godalen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	kvarteta	kvartat	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+5	Ragazze	ragazza	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+6	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+7	ki	ki	SCONJ	Cs	_	8	mark	_	_	_
+
+8	prihajajo	prihajati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	_	_
+
+9	iz	iz	ADP	Sg	Case=Gen	11	case	_	_	_
+
+10	edine	edin	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_	_
+
+11	šole	šola	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+12	godalnih	godalen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_	_
+
+13	kvartetov	kvartet	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_	_
+
+14	v	v	ADP	Sl	Case=Loc	15	case	_	_	_
+
+15	Amsterdamu	Amsterdam	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+16	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+17	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	21	aux	_	_	_
+
+18	mladim	mlad	ADJ	Agpmpd	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	20	amod	_	_	_
+
+19	slovenskim	slovenski	ADJ	Agpmpd	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	20	amod	_	_	_
+
+20	glasbenikom	glasbenik	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	21	iobj	_	_	_
+
+21	posredovale	posredovati	VERB	Vmbp-pf	Gender=Fem|Number=Plur|VerbForm=Part		root	_	_	_
+
+22	svoje	svoj	DET	Px-fpa	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	23	det	_	_	_
+
+23	izkušnje	izkušnja	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	21	obj	_	_	_
+
+24	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+25	jih	on	PRON	Pp3fpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	31	obj	_	_	_
+
+26	s	z	ADP	Si	Case=Ins	29	case	_	_	_
+
+27	»	»	PUNCT	Z	_	29	punct	_	_	_
+
+28	pozornim	pozoren	ADJ	Agpnsi	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_	_
+
+29	ušesom	ušes	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	31	obl	_	_	_
+
+30	«	«	PUNCT	Z	_	29	punct	_	_	_
+
+31	opozarjale	opozarjati	VERB	Vmpp-pf	Aspect=Imp|Gender=Fem|Number=Plur|VerbForm=Part	21	parataxis	_	_	_
+
+32	na	na	ADP	Sl	Case=Loc	33	case	_	_	_
+
+33	čeri	čer	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	31	obl	_	_	_
+
+34	,	,	PUNCT	Z	_	35	punct	_	_	_
+
+35	presenečenja	presenečenje	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	33	conj	_	_	_
+
+36	in	in	CCONJ	Cc	_	37	cc	_	_	_
+
+37	radosti	radost	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	33	conj	_	_	_
+
+38	Beethovnove	Beethovnov	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_	_
+
+39	glasbe	glasba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	_	_
+
+40	.	.	PUNCT	Z	_	31	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Želja po komornem muziciranju je bila po triurnem aktivnem in napornem delu še večja.
+1	Želja	želja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_	_
+
+2	po	po	ADP	Sl	Case=Loc	4	case	_	_	_
+
+3	komornem	komoren	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_	_
+
+4	muziciranju	muziciranje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	aux	_	_	_
+
+6	bila	biti	AUX	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	14	cop	_	_	_
+
+7	po	po	ADP	Sl	Case=Loc	12	case	_	_	_
+
+8	triurnem	triuren	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_	_
+
+9	aktivnem	aktiven	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_	_
+
+10	in	in	CCONJ	Cc	_	11	cc	_	_	_
+
+11	napornem	naporen	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	9	conj	_	_	_
+
+12	delu	del	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_	_
+
+13	še	še	PART	Q	_	14	advmod	_	_	_
+
+14	večja	velik	ADJ	Agcfsn	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing		root	_	_	_
+
+15	.	.	PUNCT	Z	_	14	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Mlade glasbenike je s svojim obiskom sredi dela počastil tudi veleposlanik Kraljevine Nizozemske, njegova ekselenca Jos Douma.
+1	Mlade	mlad	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_	_
+
+2	glasbenike	glasbenik	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	aux	_	_	_
+
+4	s	z	ADP	Si	Case=Ins	6	case	_	_	_
+
+5	svojim	svoj	DET	Px-msi	Case=Ins|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	_	_
+
+6	obiskom	obisk	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+7	sredi	sredi	ADP	Sg	Case=Gen	8	case	_	_	_
+
+8	dela	delo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_	_
+
+9	počastil	počastiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+10	tudi	tudi	PART	Q	_	9	advmod	_	_	_
+
+11	veleposlanik	veleposlanik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_	_
+
+12	Kraljevine	kraljevina	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+13	Nizozemske	nizozemski	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	12	flat:name	_	_	_
+
+14	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+15	njegova	njegov	DET	Ps3fsnsm	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	_	_
+
+16	ekselenca	ekselenca	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	11	appos	_	_	_
+
+17	Jos	Jos	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+18	Douma	douma	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	17	flat:name	_	_	_
+
+19	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = 1.
+1	1	1	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Predmet javnega naročila: Storitve tiska promocijskega in drugega gradiva
+1	Predmet	predmet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	javnega	javen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_	_
+
+3	naročila	naročilo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_	_
+
+4	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+5	Storitve	storitev	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	_	_
+
+6	tiska	tisk	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+7	promocijskega	promocijski	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_	_
+
+8	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+9	drugega	drug	ADJ	Mlpnsg	Case=Gen|Gender=Neut|Number=Sing	7	conj	_	_	_
+
+10	gradiva	gradivo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Presto agitato
+1	Presto	presto	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+2	agitato	agitati	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Kompozicije za klavir sodobnih amariških komponistov
+1	Kompozicije	kompozicija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur		root	_	_	_
+
+2	za	za	ADP	Sa	Case=Acc	3	case	_	_	_
+
+3	klavir	klavir	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	sodobnih	sodoben	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_	_
+
+5	amariških	amariški	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_	_
+
+6	komponistov	komponist	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Anton Lajovic: Pesem deklice
+1	Anton	Anton	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	parataxis	_	_	_
+
+2	Lajovic	Lajovic	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+4	Pesem	pesem	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+5	deklice	deklica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Michael Süssmann, violina/ Natalia Strelchenko, klavir: Festival Spectrum
+1	Michael	Michael	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Süssmann	Süssmann	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	violina	violina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_	_
+
+5	/	/	PUNCT	Z	_	6	punct	_	_	_
+
+6	Natalia	Natalia	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	_	_
+
+7	Strelchenko	strelchenko	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	6	flat:name	_	_	_
+
+8	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+9	klavir	klavir	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_	_
+
+10	:	:	PUNCT	Z	_	9	punct	_	_	_
+
+11	Festival	festival	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_	_
+
+12	Spectrum	spectrum	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Joseph Haydn: Sonata v g- molu, Hob. XVI:44
+1	Joseph	Joseph	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+2	Haydn	Haydn	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+4	Sonata	Sonat	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	8	case	_	_	_
+
+6	g	g	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+7	-	-	PUNCT	Z	_	8	punct	_	_	_
+
+8	molu	mol	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+9	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+10	Hob.	Hob.	X	Y	Abbr=Yes	8	appos	_	_	_
+
+11	XVI:44	XVI:44	NUM	Mdc	NumForm=Digit|NumType=Card	10	flat	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Vzpon in propad civilizacije Majev
+1	Vzpon	vzpon	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	in	in	CCONJ	Cc	_	3	cc	_	_	_
+
+3	propad	propad	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+4	civilizacije	civilizacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+5	Majev	Majev	PROPN	Npfpg	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Gustav Mahler: 10. simfonija( Adagio)
+1	Gustav	Gustav	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Mahler	Mahler	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+4	10.	10.	NUM	Mdo	NumForm=Digit|NumType=Ord	5	nummod	_	_	_
+
+5	simfonija	simfonija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_	_
+
+6	(	(	PUNCT	Z	_	7	punct	_	_	_
+
+7	Adagio	Adagio	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_	_
+
+8	)	)	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = deutschen Himmel
+1	deutschen	deutschen	X	Xf	Foreign=Yes		root	_	_	_
+
+2	Himmel	Himmel	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Blagoje Bersa: Klavirski trio v klasičnem slogu( 1895)
+1	Blagoje	Blagoje	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+2	Bersa	Bersa	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+4	Klavirski	klavirski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+5	trio	trio	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+6	v	v	ADP	Sl	Case=Loc	8	case	_	_	_
+
+7	klasičnem	klasičen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+8	slogu	slog	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+9	(	(	PUNCT	Z	_	10	punct	_	_	_
+
+10	1895	1895	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+11	)	)	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Gustav Mahler: Žalostinka
+1	Gustav	Gustav	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Mahler	Mahler	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+4	Žalostinka	žalostinka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Godalni trio Bochmann( Velika Britanija)
+1	Godalni	godalen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	trio	trio	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	Bochmann	Bochmann	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	(	(	PUNCT	Z	_	6	punct	_	_	_
+
+5	Velika	velik	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	Britanija	Britanija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_	_
+
+7	)	)	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Adagio con espressione
+1	Adagio	Adagio	X	Xf	Foreign=Yes		root	_	_	_
+
+2	con	cona	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+3	espressione	espressine	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Finale- Presto
+1	Finale	Finale	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+3	Presto	presto	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = VSTOPNICA: 15€/ osebo
+1	VSTOPNICA	vstopnica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	parataxis	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	15€	15€	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+4	/	/	PUNCT	Z	_	5	punct	_	_	_
+
+5	osebo	oseba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Program 24. oktober:
+1	Program	program	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	24.	24.	NUM	Mdo	NumForm=Digit|NumType=Ord	3	nummod	_	_	_
+
+3	oktober	oktober	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Božena Hrup- klavir
+1	Božena	Božen	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	Hrup	hrup	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	-	-	PUNCT	Z	_	4	punct	_	_	_
+
+4	klavir	klavir	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Na sporedu: E. Grieg- Klavirski trio v c- molu
+1	Na	na	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	sporedu	spored	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+3	:	:	PUNCT	Z	_	2	punct	_	_	_
+
+4	E.	E.	X	Y	Abbr=Yes		root	_	_	_
+
+5	Grieg	Grieg	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	_	_
+
+6	-	-	PUNCT	Z	_	8	punct	_	_	_
+
+7	Klavirski	klavirski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+8	trio	trio	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	12	case	_	_	_
+
+10	c	c	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+11	-	-	PUNCT	Z	_	12	punct	_	_	_
+
+12	molu	mol	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Do sedaj je Senzorium ponujal individualno obravnavo, izkušnjo in dotik.
+1	Do	do	ADP	Sg	Case=Gen	2	case	_	_	_
+
+2	sedaj	sedaj	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+4	Senzorium	Senzorium	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+5	ponujal	ponujati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	individualno	individualno	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	_
+
+7	obravnavo	obravnava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_	_
+
+8	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+9	izkušnjo	izkušnja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	_	_
+
+10	in	in	CCONJ	Cc	_	11	cc	_	_	_
+
+11	dotik	dotik	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	conj	_	_	_
+
+12	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Včasih fizičen, velikokrat metaforičen.
+1	Včasih	včasih	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+2	fizičen	fizičen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing		root	_	_	_
+
+3	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+4	velikokrat	velikokrat	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+5	metaforičen	metaforičen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+6	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Tokrat se podajamo v kraljestvo zvoka.
+1	Tokrat	tokrat	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	3	expl	_	_	_
+
+3	podajamo	podajati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	v	v	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	kraljestvo	kraljestvo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_	_
+
+6	zvoka	zvok	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+7	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = “ Zvočna kulisa za Barbarino predstavo je zame kratek pogled nazaj, proti filmu, a se tega dogodka zelo veselim.
+1	“	“	PUNCT	Z	_	10	punct	_	_	_
+
+2	Zvočna	zvočen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	kulisa	kulis	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_	_
+
+4	za	za	ADP	Sa	Case=Acc	6	case	_	_	_
+
+5	Barbarino	Barbarina	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	predstavo	predstava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	cop	_	_	_
+
+8	zame	zame	PRON	Pp1-sa--b	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Bound	10	obl	_	_	_
+
+9	kratek	kratek	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	pogled	pogled	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+11	nazaj	nazaj	ADV	Rgp	Degree=Pos	10	advmod	_	_	_
+
+12	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+13	proti	proti	ADP	Sd	Case=Dat	14	case	_	_	_
+
+14	filmu	film	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+15	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+16	a	a	CCONJ	Cc	_	21	cc	_	_	_
+
+17	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	21	expl	_	_	_
+
+18	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_	_
+
+19	dogodka	dogodek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	21	obj	_	_	_
+
+20	zelo	zelo	ADV	Rgp	Degree=Pos	21	advmod	_	_	_
+
+21	veselim	vesel	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	conj	_	_	_
+
+22	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Filmski zvok je res nekaj, kar mi gre z lahkoto od rok, a tokrat bo zvenel v gledališču.
+1	Filmski	filmski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	zvok	zvok	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+3	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	res	res	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+5	nekaj	nekaj	PRON	Pi-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	3	obj	_	_	_
+
+6	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+7	kar	kar	PRON	Pr-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	9	nsubj	_	_	_
+
+8	mi	jaz	PRON	Pp1-sd--y	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	9	obj	_	_	_
+
+9	gre	iti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_	_
+
+10	z	z	ADP	Si	Case=Ins	11	case	_	_	_
+
+11	lahkoto	lahkota	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_	_
+
+12	od	od	ADP	Sg	Case=Gen	13	case	_	_	_
+
+13	rok	rok	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_	_
+
+14	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+15	a	a	CCONJ	Cc	_	18	cc	_	_	_
+
+16	tokrat	tokrat	ADV	Rgp	Degree=Pos	18	advmod	_	_	_
+
+17	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	18	aux	_	_	_
+
+18	zvenel	zveneti	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	9	conj	_	_	_
+
+19	v	v	ADP	Sl	Case=Loc	20	case	_	_	_
+
+20	gledališču	gledališče	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	18	obl	_	_	_
+
+21	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = Dobra ideja”, pravi Hanna Preuss, oblikovalka zvočnih efektov.
+1	Dobra	Dobra	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	ideja	ideja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+3	”	”	PUNCT	Z	_	2	punct	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	pravi	praviti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_	_
+
+6	Hanna	Hanna	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_	_
+
+7	Preuss	Preuss	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	6	flat:name	_	_	_
+
+8	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+9	oblikovalka	oblikovalka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	_	_
+
+10	zvočnih	zvočen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_	_
+
+11	efektov	efekt	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_	_
+
+12	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = video: Dmitry Semenov
+1	video	video	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Dmitry	Dmitry	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+4	Semenov	Semenov	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039047.txt
+# text = tehnika: tehnična ekipa Festivala Ljubljana
+1	tehnika	tehnika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	parataxis	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	tehnična	tehničen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	ekipa	ekipa	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+5	Festivala	festivati	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+6	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_	_
+

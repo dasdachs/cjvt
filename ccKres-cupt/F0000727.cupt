@@ -1,0 +1,119 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0000727.txt
+# text = 1834- Rodil se je nemški izumitelj avtomobila Gottlieb Wilhelm Daimler( umrl leta 1990).
+1	1834	1834	NUM	Mdc	NumForm=Digit|NumType=Card	3	dep	_	_	_
+
+2	-	-	PUNCT	Z	_	1	punct	_	_	_
+
+3	Rodil	roditi	VERB	Vmbp-sm	Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+4	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	3	expl	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	_	_
+
+6	nemški	nemški	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	izumitelj	izumitelj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+8	avtomobila	avtomobil	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+9	Gottlieb	Gottlieb	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+10	Wilhelm	Wilhelm	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_	_
+
+11	Daimler	Daimler	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_	_
+
+12	(	(	PUNCT	Z	_	13	punct	_	_	_
+
+13	umrl	umreti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	3	parataxis	_	_	_
+
+14	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	13	obl	_	_	_
+
+15	1990	1990	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+
+16	)	)	PUNCT	Z	_	13	punct	_	_	_
+
+17	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000727.txt
+# text = Neodvisno od K.
+1	Neodvisno	neodvisno	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing		root	_	_	_
+
+2	od	od	ADP	Sg	Case=Gen	3	case	_	_	_
+
+3	K.	K.	X	Y	Abbr=Yes	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000727.txt
+# text = Benza je izumil avtomobilski bencinski motor in postal eden izmed utemeljiteljev avtomobilske industrije.
+1	Benza	Benza	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	_	_
+
+3	izumil	izumiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+4	avtomobilski	avtomobilski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+5	bencinski	bencinski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+6	motor	motor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	postal	postati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	3	conj	_	_	_
+
+9	eden	eden	NUM	Mlpmsn	Case=Nom|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing	8	xcomp	_	_	_
+
+10	izmed	izmed	ADP	Sg	Case=Gen	11	case	_	_	_
+
+11	utemeljiteljev	utemeljitelj	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_	_
+
+12	avtomobilske	avtomobilski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_	_
+
+13	industrije	industrija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+14	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000727.txt
+# text = Njegov motor iz leta 1883 je imel moč 1,5 KM in je vozilu omogočal hitrost do 18 kilometrov na uro.
+1	Njegov	njegov	DET	Ps3msnsm	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_	_
+
+2	motor	motor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_	_
+
+3	iz	iz	ADP	Sg	Case=Gen	4	case	_	_	_
+
+4	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+5	1883	1883	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_	_
+
+7	imel	imeti	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+8	moč	moč	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_	_
+
+9	1,5	1,5	NUM	Mdc	NumForm=Digit|NumType=Card	10	nummod	_	_	_
+
+10	KM	KM	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_	_
+
+11	in	in	CCONJ	Cc	_	14	cc	_	_	_
+
+12	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	aux	_	_	_
+
+13	vozilu	vozilo	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	14	iobj	_	_	_
+
+14	omogočal	omogočati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	7	conj	_	_	_
+
+15	hitrost	hitrost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_	_
+
+16	do	do	ADP	Sg	Case=Gen	18	case	_	_	_
+
+17	18	18	NUM	Mdc	NumForm=Digit|NumType=Card	18	nummod	_	_	_
+
+18	kilometrov	kilometer	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_	_
+
+19	na	na	ADP	Sa	Case=Acc	20	case	_	_	_
+
+20	uro	ura	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	_	_
+
+21	.	.	PUNCT	Z	_	7	punct	_	_	_
+

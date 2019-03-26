@@ -1,0 +1,155 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0005320.txt
+# text = 1. člen
+1	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005320.txt
+# text = Republika Slovenija refundira prispevke za socialno zavarovanje v skladu s tem zakonom za obdobje, za katerega bi bila brezposelna oseba, če se ne bi zaposlila, še upravičena do denarnega nadomestila ali denarne pomoči.
+1	Republika	republika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+2	Slovenija	Slovenija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	refundira	refundirati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	prispevke	prispevek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_	_
+
+5	za	za	ADP	Sa	Case=Acc	7	case	_	_	_
+
+6	socialno	socialen	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_	_
+
+7	zavarovanje	zavarovanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	skladu	sklad	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+10	s	z	ADP	Si	Case=Ins	12	case	_	_	_
+
+11	tem	ta	DET	Pd-msi	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_	_
+
+12	zakonom	zakon	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+13	za	za	ADP	Sa	Case=Acc	14	case	_	_	_
+
+14	obdobje	obdobje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	12	nmod	_	_	_
+
+15	,	,	PUNCT	Z	_	30	punct	_	_	_
+
+16	za	za	ADP	Sa	Case=Acc	17	case	_	_	_
+
+17	katerega	kateri	DET	Pq-msa	Case=Acc|Gender=Masc|Number=Sing|PronType=Int	30	obl	_	_	_
+
+18	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	30	aux	_	_	_
+
+19	bila	biti	AUX	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	30	cop	_	_	_
+
+20	brezposelna	brezposeln	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_	_
+
+21	oseba	oseba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	30	nsubj	_	_	_
+
+22	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+23	če	če	SCONJ	Cs	_	27	mark	_	_	_
+
+24	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	27	expl	_	_	_
+
+25	ne	ne	PART	Q	Polarity=Neg	27	advmod	_	_	_
+
+26	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	27	aux	_	_	_
+
+27	zaposlila	zaposliti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	30	advcl	_	_	_
+
+28	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+29	še	še	PART	Q	_	30	advmod	_	_	_
+
+30	upravičena	upravičen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	3	parataxis	_	_	_
+
+31	do	do	ADP	Sg	Case=Gen	33	case	_	_	_
+
+32	denarnega	denaren	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	33	amod	_	_	_
+
+33	nadomestila	nadomestilo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	30	obl	_	_	_
+
+34	ali	ali	CCONJ	Cc	_	36	cc	_	_	_
+
+35	denarne	denaren	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_	_
+
+36	pomoči	pomoč	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	33	conj	_	_	_
+
+37	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005320.txt
+# text = Pobudi iz prejšnjega odstavka mora delodajalec priložiti pisno izjavo, da bo brezposelno osebo iz 2. člena tega zakona zaposlil za nedoločen čas.
+1	Pobudi	pobuditi	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	7	iobj	_	_	_
+
+2	iz	iz	ADP	Sg	Case=Gen	4	case	_	_	_
+
+3	prejšnjega	prejšnji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+5	mora	morati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	delodajalec	delodajalec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+7	priložiti	priložiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	5	xcomp	_	_	_
+
+8	pisno	pisno	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_	_
+
+9	izjavo	izjava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_	_
+
+10	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+11	da	da	SCONJ	Cs	_	20	mark	_	_	_
+
+12	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	20	aux	_	_	_
+
+13	brezposelno	brezposelno	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_	_
+
+14	osebo	oseba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_	_
+
+15	iz	iz	ADP	Sg	Case=Gen	17	case	_	_	_
+
+16	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	17	nummod	_	_	_
+
+17	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+18	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_	_
+
+19	zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_	_
+
+20	zaposlil	zaposliti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	9	acl	_	_	_
+
+21	za	za	ADP	Sa	Case=Acc	23	case	_	_	_
+
+22	nedoločen	nedoločen	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_	_
+
+23	čas	čas	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_	_
+
+24	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005320.txt
+# text = Predsednik Državnega zbora Republike Slovenije mag.
+1	Predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Državnega	državen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	zbora	zbor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+5	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+6	mag	maga	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+7	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005320.txt
+# text = Herman Rigelnik
+1	Herman	Herman	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Rigelnik	Rigelnik	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+

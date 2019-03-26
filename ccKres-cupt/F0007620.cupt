@@ -1,0 +1,505 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0007620.txt
+# text = Prodaja: JAE, www .jae.si,( 01) 589 62 00, Grafo,( 01) 433 73 92
+1	Prodaja	prodaja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	JAE	JAE	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	www	www	NOUN	Ncmsn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+6	.jae.si	.jae.si	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+7	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+8	(	(	PUNCT	Z	_	9	punct	_	_	_
+
+9	01	01	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+10	)	)	PUNCT	Z	_	9	punct	_	_	_
+
+11	589	589	NUM	Mdc	NumForm=Digit|NumType=Card	9	conj	_	_	_
+
+12	62	62	NUM	Mdc	NumForm=Digit|NumType=Card	11	flat	_	_	_
+
+13	00	00	NUM	Mdc	NumForm=Digit|NumType=Card	11	flat	_	_	_
+
+14	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+15	Grafo	Grafo	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+16	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+17	(	(	PUNCT	Z	_	18	punct	_	_	_
+
+18	01	01	NUM	Mdc	NumForm=Digit|NumType=Card	15	nummod	_	_	_
+
+19	)	)	PUNCT	Z	_	18	punct	_	_	_
+
+20	433	433	NUM	Mdc	NumForm=Digit|NumType=Card	18	conj	_	_	_
+
+21	73	73	NUM	Mdc	NumForm=Digit|NumType=Card	18	conj	_	_	_
+
+22	92	92	NUM	Mdc	NumForm=Digit|NumType=Card	18	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007620.txt
+# text = stran 28
+1	stran	stran	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	28	28	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007620.txt
+# text = Lotus Notes/ Domino je najbolj uspešen sistem za podporo skupinskemu delu, Microsoft Office pa najbolj priljubljena zbirka programov za namizno delo.
+1	Lotus	Lotus	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_	_
+
+2	Notes	Notes	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_	_
+
+3	/	/	PUNCT	Z	_	4	punct	_	_	_
+
+4	Domino	domina	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_	_
+
+6	najbolj	najbolj	ADV	Rgs	Degree=Sup	7	advmod	_	_	_
+
+7	uspešen	uspešen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+8	sistem	sistem	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+9	za	za	ADP	Sa	Case=Acc	10	case	_	_	_
+
+10	podporo	podpora	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+11	skupinskemu	skupinski	ADJ	Agpmsd	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_	_
+
+12	delu	del	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	_	_
+
+13	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+14	Microsoft	Microsoft	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_	_
+
+15	Office	Office	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+16	pa	pa	CCONJ	Cc	_	19	advmod	_	_	_
+
+17	najbolj	najbolj	ADV	Rgs	Degree=Sup	18	advmod	_	_	_
+
+18	priljubljena	priljubljen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_	_
+
+19	zbirka	zbirka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	parataxis	_	_	_
+
+20	programov	program	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_	_
+
+21	za	za	ADP	Sa	Case=Acc	23	case	_	_	_
+
+22	namizno	namizen	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_	_
+
+23	delo	delo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	20	nmod	_	_	_
+
+24	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007620.txt
+# text = Doslej so programerji v glavnem povezovali oba izdelka prek priponk( angl.
+1	Doslej	doslej	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
+
+3	programerji	programer	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_	_
+
+4	v	v	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	glavnem	glaven	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	6	obl	_	_	_
+
+6	povezovali	povezovati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+7	oba	oba	DET	Pg-mda	Case=Acc|Gender=Masc|Number=Dual|PronType=Tot	8	det	_	_	_
+
+8	izdelka	izdelek	NOUN	Ncmda	Case=Acc|Gender=Masc|Number=Dual	6	obj	_	_	_
+
+9	prek	prek	ADP	Sg	Case=Gen	10	case	_	_	_
+
+10	priponk	priponka	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	6	obl	_	_	_
+
+11	(	(	PUNCT	Z	_	12	punct	_	_	_
+
+12	angl	angl	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_	_
+
+13	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007620.txt
+# text = attachment) ali predmetov OLE.
+1	attachment	attachment	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	)	)	PUNCT	Z	_	1	punct	_	_	_
+
+3	ali	ali	CCONJ	Cc	_	4	cc	_	_	_
+
+4	predmetov	predmet	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	conj	_	_	_
+
+5	OLE	OLE	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+6	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007620.txt
+# text = O povezanosti lahko govorimo tudi v primeru uporabe izdelka Lotus Domino.
+1	O	o	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	povezanosti	povezanost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+3	lahko	lahko	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+4	govorimo	govoriti	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	tudi	tudi	PART	Q	_	4	advmod	_	_	_
+
+6	v	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+7	primeru	primer	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+8	uporabe	uporaba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+9	izdelka	izdelek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+10	Lotus	Lotus	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+11	Domino	domina	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+12	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007620.txt
+# text = Doc kot sistema za upravljanje dokumentov in standarda ODMA( Open Document Management Architecture).
+1	Doc	doc	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	kot	kot	SCONJ	Cs	_	3	case	_	_	_
+
+3	sistema	sistem	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	obl	_	_	_
+
+4	za	za	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	upravljanje	upravljanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	_	_
+
+6	dokumentov	dokument	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	standarda	standard	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	conj	_	_	_
+
+9	ODMA	odema	X	Xf	Foreign=Yes	8	nmod	_	_	_
+
+10	(	(	PUNCT	Z	_	11	punct	_	_	_
+
+11	Open	open	X	Xf	Foreign=Yes	8	appos	_	_	_
+
+12	Document	Document	X	Xf	Foreign=Yes	11	flat:foreign	_	_	_
+
+13	Management	management	X	Xf	Foreign=Yes	11	flat:foreign	_	_	_
+
+14	Architecture	architectura	X	Xf	Foreign=Yes	11	flat:foreign	_	_	_
+
+15	)	)	PUNCT	Z	_	11	punct	_	_	_
+
+16	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007620.txt
+# text = Namen članka je predstaviti programersko povezovanje in izkoriščanje prednosti obeh sistemov prek vmesnika COM( Common Object Model).
+1	Namen	namen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	članka	članek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_	_
+
+4	predstaviti	predstaviti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	1	csubj	_	_	_
+
+5	programersko	programerski	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_	_
+
+6	povezovanje	povezovanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	izkoriščanje	izkoriščanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	6	conj	_	_	_
+
+9	prednosti	prednost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+10	obeh	oba	DET	Pg-mdg	Case=Gen|Gender=Masc|Number=Dual|PronType=Tot	11	det	_	_	_
+
+11	sistemov	sistem	NOUN	Ncmdg	Case=Gen|Gender=Masc|Number=Dual	9	nmod	_	_	_
+
+12	prek	prek	ADP	Sg	Case=Gen	13	case	_	_	_
+
+13	vmesnika	vmesnik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+14	COM	COM	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+15	(	(	PUNCT	Z	_	18	punct	_	_	_
+
+16	Common	common	X	Xf	Foreign=Yes	18	nmod	_	_	_
+
+17	Object	object	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	16	flat:foreign	_	_	_
+
+18	Model	model	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_	_
+
+19	)	)	PUNCT	Z	_	18	punct	_	_	_
+
+20	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007620.txt
+# text = Računalnik Apple PowerMac G4 in programa Final Cut Pro 2 ter DVD Studio Pro je posodilo podjetje E. P. L. iz Ljubljane.
+1	Računalnik	računalnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_	_
+
+2	Apple	Apple	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	PowerMac	powermac	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	G4	G4	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	in	in	CCONJ	Cc	_	6	cc	_	_	_
+
+6	programa	program	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+7	Final	Final	X	Xf	Foreign=Yes	6	nmod	_	_	_
+
+8	Cut	Cut	X	Xf	Foreign=Yes	7	flat:foreign	_	_	_
+
+9	Pro	pro	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	flat:foreign	_	_	_
+
+10	2	2	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+11	ter	ter	CCONJ	Cc	_	13	cc	_	_	_
+
+12	DVD	DVD	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+13	Studio	studio	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+14	Pro	pro	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+15	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	aux	_	_	_
+
+16	posodilo	posodilo	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+17	podjetje	podjetje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_	_
+
+18	E.	E.	X	Y	Abbr=Yes	17	nmod	_	_	_
+
+19	P.	P.	X	Y	Abbr=Yes	18	nmod	_	_	_
+
+20	L.	L.	X	Y	Abbr=Yes	19	nmod	_	_	_
+
+21	iz	iz	ADP	Sg	Case=Gen	22	case	_	_	_
+
+22	Ljubljane	Ljubljana	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	16	obl	_	_	_
+
+23	.	.	PUNCT	Z	_	16	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007620.txt
+# text = Ob tem je bilo evidentirano 3320 računalniških programov, ki so jih uporabniki pri svojem delu uporabljali.
+1	Ob	ob	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	tem	ta	DET	Pd-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+4	bilo	biti	AUX	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part	5	cop	_	_	_
+
+5	evidentirano	evidentirano	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	3320	3320	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+7	računalniških	računalniški	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_	_
+
+8	programov	program	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	_	_
+
+9	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+10	ki	ki	SCONJ	Cs	_	17	mark	_	_	_
+
+11	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	aux	_	_	_
+
+12	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	17	obj	_	_	_
+
+13	uporabniki	uporabnik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_	_
+
+14	pri	pri	ADP	Sl	Case=Loc	16	case	_	_	_
+
+15	svojem	svoj	DET	Px-nsl	Case=Loc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	_	_
+
+16	delu	del	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_	_
+
+17	uporabljali	uporabljati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	8	acl	_	_	_
+
+18	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007620.txt
+# text = Od vseh evidentiranih programov so posamezni subjekti dokazali zakonito uporabo za 2755( 83,0 %) programov, medtem ko za 565( 17,0 %) programov niso mogli predložiti ustreznih dokazil o njihovi zakoniti uporabi.
+1	Od	od	ADP	Sg	Case=Gen	4	case	_	_	_
+
+2	vseh	ves	DET	Pg-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	4	det	_	_	_
+
+3	evidentiranih	evidentiran	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	4	amod	_	_	_
+
+4	programov	program	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_	_
+
+5	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_	_
+
+6	posamezni	posamezen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_	_
+
+7	subjekti	subjekt	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_	_
+
+8	dokazali	dokazati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+9	zakonito	zakonit	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_	_
+
+10	uporabo	uporaba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_	_
+
+11	za	za	ADP	Sa	Case=Acc	12	case	_	_	_
+
+12	2755	2755	NUM	Mdc	NumForm=Digit|NumType=Card	10	nummod	_	_	_
+
+13	(	(	PUNCT	Z	_	15	punct	_	_	_
+
+14	83,0	83,0	NUM	Mdc	NumForm=Digit|NumType=Card	15	nummod	_	_	_
+
+15	%	%	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_	_
+
+16	)	)	PUNCT	Z	_	15	punct	_	_	_
+
+17	programov	program	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_	_
+
+18	,	,	PUNCT	Z	_	29	punct	_	_	_
+
+19	medtem	medtem	ADV	Rgp	Degree=Pos	29	mark	_	_	_
+
+20	ko	ko	SCONJ	Cs	_	19	fixed	_	_	_
+
+21	za	za	ADP	Sa	Case=Acc	22	case	_	_	_
+
+22	565	565	NUM	Mdc	NumForm=Digit|NumType=Card	30	advmod	_	_	_
+
+23	(	(	PUNCT	Z	_	25	punct	_	_	_
+
+24	17,0	17,0	NUM	Mdc	NumForm=Digit|NumType=Card	25	nummod	_	_	_
+
+25	%	%	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	22	appos	_	_	_
+
+26	)	)	PUNCT	Z	_	25	punct	_	_	_
+
+27	programov	program	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_	_
+
+28	niso	biti	AUX	Va-r3p-y	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	29	aux	_	_	_
+
+29	mogli	moči	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	8	parataxis	_	_	_
+
+30	predložiti	predložiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	29	xcomp	_	_	_
+
+31	ustreznih	ustrezen	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	32	amod	_	_	_
+
+32	dokazil	dokazilo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	30	obj	_	_	_
+
+33	o	o	ADP	Sl	Case=Loc	36	case	_	_	_
+
+34	njihovi	njihov	DET	Ps3fslp	Case=Loc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	36	det	_	_	_
+
+35	zakoniti	zakoniti	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_	_
+
+36	uporabi	uporaba	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	32	nmod	_	_	_
+
+37	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007620.txt
+# text = Toda od 64 pregledanih subjektov je bila pri 48 subjektih( 75,0 %) ugotovljena nezakonita uporaba vsaj enega računalniškega programa.
+1	Toda	toda	CCONJ	Cc	_	15	cc	_	_	_
+
+2	od	od	ADP	Sg	Case=Gen	5	case	_	_	_
+
+3	64	64	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+4	pregledanih	pregledan	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	5	amod	_	_	_
+
+5	subjektov	subjekt	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	15	obl	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	aux	_	_	_
+
+7	bila	biti	AUX	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	15	cop	_	_	_
+
+8	pri	pri	ADP	Sl	Case=Loc	10	case	_	_	_
+
+9	48	48	NUM	Mdc	NumForm=Digit|NumType=Card	10	nummod	_	_	_
+
+10	subjektih	subjekt	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	15	obl	_	_	_
+
+11	(	(	PUNCT	Z	_	13	punct	_	_	_
+
+12	75,0	75,0	NUM	Mdc	NumForm=Digit|NumType=Card	13	nummod	_	_	_
+
+13	%	%	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_	_
+
+14	)	)	PUNCT	Z	_	13	punct	_	_	_
+
+15	ugotovljena	ugotovljen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+16	nezakonita	nezakonit	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_	_
+
+17	uporaba	uporaba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_	_
+
+18	vsaj	vsaj	PART	Q	_	15	advmod	_	_	_
+
+19	enega	en	NUM	Mlpmsg	Case=Gen|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing	21	nummod	_	_	_
+
+20	računalniškega	računalniški	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_	_
+
+21	programa	program	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_	_
+
+22	.	.	PUNCT	Z	_	15	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007620.txt
+# text = Za: Fotoaparat, priključek USB, bogata oprema, na voljo so skoraj vsi priključki, velik zaslon LCD in svetlo iskalo.
+1	Za	za	ADV	Rgp	Degree=Pos	23	discourse	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Fotoaparat	fotoaparat	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	priključek	priključek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_	_
+
+6	USB	USB	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+7	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+8	bogata	bogat	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_	_
+
+9	oprema	oprema	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_	_
+
+10	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+11	na	na	ADP	Sa	Case=Acc	12	case	_	_	_
+
+12	voljo	volja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_	_
+
+13	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	cop	_	_	_
+
+14	skoraj	skoraj	PART	Q	_	15	advmod	_	_	_
+
+15	vsi	ves	DET	Pg-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	16	det	_	_	_
+
+16	priključki	priključek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur		root	_	_	_
+
+17	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+18	velik	velik	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_	_
+
+19	zaslon	zaslon	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	16	conj	_	_	_
+
+20	LCD	LCD	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	19	nmod	_	_	_
+
+21	in	in	CCONJ	Cc	_	22	cc	_	_	_
+
+22	svetlo	svetlo	ADV	Rgp	Degree=Pos	23	advmod	_	_	_
+
+23	iskalo	iskati	VERB	Vmpp-sn	Aspect=Imp|Gender=Neut|Number=Sing|VerbForm=Part	16	conj	_	_	_
+
+24	.	.	PUNCT	Z	_	16	punct	_	_	_
+

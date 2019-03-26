@@ -1,0 +1,119 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0023080.txt
+# text = 19. O pojmih" izpopolnjevanje"*/ supplementarit supplier, supplication/ gl.: Jacques Derrida, De la grammatologie, ditions de Minuit, Pariz, 1967, str. 203 in passim.
+1	19	19	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+3	O	o	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	pojmih	pojem	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	1	obl	_	_	_
+
+5	"	"	PUNCT	Z	_	6	punct	_	_	_
+
+6	izpopolnjevanje	izpopolnjevanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+7	"	"	PUNCT	Z	_	6	punct	_	_	_
+
+8	*	*	PUNCT	Z	_	10	punct	_	_	_
+
+9	/	/	PUNCT	Z	_	10	punct	_	_	_
+
+10	supplementarit	supplementarit	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_	_
+
+11	supplier	supplier	X	Xf	Foreign=Yes	10	nmod	_	_	_
+
+12	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+13	supplication	supplication	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_	_
+
+14	/	/	PUNCT	Z	_	15	punct	_	_	_
+
+15	gl	gl	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_	_
+
+16	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+17	:	:	PUNCT	Z	_	18	punct	_	_	_
+
+18	Jacques	Jacques	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_	_
+
+19	Derrida	Derrid	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	18	flat:name	_	_	_
+
+20	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+21	De	de	X	Xf	Foreign=Yes	18	appos	_	_	_
+
+22	la	la	X	Xf	Foreign=Yes	21	flat:foreign	_	_	_
+
+23	grammatologie	grammatologie	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	18	flat:name	_	_	_
+
+24	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+25	ditions	ditions	X	Xf	Foreign=Yes	18	appos	_	_	_
+
+26	de	de	X	Xf	Foreign=Yes	25	flat:foreign	_	_	_
+
+27	Minuit	Minuit	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	25	flat:foreign	_	_	_
+
+28	,	,	PUNCT	Z	_	29	punct	_	_	_
+
+29	Pariz	Pariz	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	18	appos	_	_	_
+
+30	,	,	PUNCT	Z	_	31	punct	_	_	_
+
+31	1967	1967	NUM	Mdc	NumForm=Digit|NumType=Card	29	conj	_	_	_
+
+32	,	,	PUNCT	Z	_	33	punct	_	_	_
+
+33	str.	str.	X	Y	Abbr=Yes	31	conj	_	_	_
+
+34	203	203	NUM	Mdc	NumForm=Digit|NumType=Card	33	nummod	_	_	_
+
+35	in	in	CCONJ	Cc	_	36	cc	_	_	_
+
+36	passim	passi	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	34	conj	_	_	_
+
+37	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023080.txt
+# text = enciklopedičnem( in izjemno dragocenem) kvazi dnevniku Julesa Mohla Vingt- sept ans d'histoire des tudes orientales: Rapports
+1	enciklopedičnem	enciklopedičen	ADJ	Agpmsd	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	7	obj	_	_	_
+
+2	(	(	PUNCT	Z	_	5	punct	_	_	_
+
+3	in	in	CCONJ	Cc	_	5	cc	_	_	_
+
+4	izjemno	izjemno	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+5	dragocenem	dragocen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+6	)	)	PUNCT	Z	_	5	punct	_	_	_
+
+7	kvazi	kvazi	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+8	dnevniku	dnevnik	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	7	obj	_	_	_
+
+9	Julesa	Jules	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+10	Mohla	mohla	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	9	flat:name	_	_	_
+
+11	Vingt	Vingt	X	Xf	Foreign=Yes	9	flat:foreign	_	_	_
+
+12	-	-	PUNCT	Z	_	13	punct	_	_	_
+
+13	sept	sept	X	Xf	Foreign=Yes	11	flat:foreign	_	_	_
+
+14	ans	ans	X	Xf	Foreign=Yes	13	flat:foreign	_	_	_
+
+15	d'histoire	dohistoira	X	Xf	Foreign=Yes	11	flat:foreign	_	_	_
+
+16	des	des	X	Xf	Foreign=Yes	11	flat:foreign	_	_	_
+
+17	tudes	tudes	X	Xf	Foreign=Yes	13	flat:foreign	_	_	_
+
+18	orientales	orientales	X	Xf	Foreign=Yes	11	flat:foreign	_	_	_
+
+19	:	:	PUNCT	Z	_	20	punct	_	_	_
+
+20	Rapports	Rapports	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	18	conj	_	_	_
+

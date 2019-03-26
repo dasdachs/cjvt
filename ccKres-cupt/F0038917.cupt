@@ -1,0 +1,67 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0038917.txt
+# text = Nakup petega letala CRJ 200. Adria Airways izgradi novi hangar in razširi vzdrževalna dela na družino letal A320.
+1	Nakup	nakup	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_	_
+
+2	petega	pet	ADJ	Mlonsg	Case=Gen|Gender=Neut|NumType=Ord|Number=Sing	3	amod	_	_	_
+
+3	letala	letalo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_	_
+
+4	CRJ	CRJ	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+5	200.	200.	NUM	Mdo	NumForm=Digit|NumType=Ord	6	nummod	_	_	_
+
+6	Adria	Adria	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+7	Airways	Airways	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+8	izgradi	izgraditi	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	novi	nov	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	hangar	hangar	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_	_
+
+11	in	in	CCONJ	Cc	_	12	cc	_	_	_
+
+12	razširi	razšir	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_	_
+
+13	vzdrževalna	vzdrževalen	ADJ	Agpnpa	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	14	amod	_	_	_
+
+14	dela	delo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	12	obj	_	_	_
+
+15	na	na	ADP	Sa	Case=Acc	16	case	_	_	_
+
+16	družino	družina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+17	letal	letalo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	_	_
+
+18	A320	A320	NUM	Mdc	NumForm=Digit|NumType=Card	17	nummod	_	_	_
+
+19	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038917.txt
+# text = Tip potovanja: For Return travel
+1	Tip	tip	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	potovanja	potovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_	_
+
+3	:	:	PUNCT	Z	_	4	punct	_	_	_
+
+4	For	for	X	Xf	Foreign=Yes	1	nsubj	_	_	_
+
+5	Return	Return	X	Xf	Foreign=Yes	4	flat:foreign	_	_	_
+
+6	travel	travel	X	Xf	Foreign=Yes	4	flat:foreign	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038917.txt
+# text = Sprememba rezervacije: not permitted
+1	Sprememba	sprememba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	rezervacije	rezervacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	:	:	PUNCT	Z	_	4	punct	_	_	_
+
+4	not	not	X	Xf	Foreign=Yes	1	appos	_	_	_
+
+5	permitted	permitted	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	flat:foreign	_	_	_
+

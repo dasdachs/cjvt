@@ -1,0 +1,975 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = 3. člen
+1	3.	3.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = Davčni zavezanec je tudi predstavništvo tuje osebe za agencijske posle v zračnem in drugem prometu, ki dosega prihodke s prodajo lastnih prevoznih listin na območju Republike Slovenije.
+1	Davčni	davčen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	zavezanec	zavezanec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+4	tudi	tudi	PART	Q	_	5	advmod	_	_	_
+
+5	predstavništvo	predstavništvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+6	tuje	tuj	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	_
+
+7	osebe	oseba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+8	za	za	ADP	Sa	Case=Acc	10	case	_	_	_
+
+9	agencijske	agencijski	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_	_
+
+10	posle	posel	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	_	_
+
+11	v	v	ADP	Sl	Case=Loc	15	case	_	_	_
+
+12	zračnem	zračen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_	_
+
+13	in	in	CCONJ	Cc	_	14	cc	_	_	_
+
+14	drugem	drug	ADJ	Mlpmsl	Case=Loc|Gender=Masc|Number=Sing	12	conj	_	_	_
+
+15	prometu	promet	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+16	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+17	ki	ki	SCONJ	Cs	_	18	mark	_	_	_
+
+18	dosega	doseg	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	_	_
+
+19	prihodke	prihodek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	18	obj	_	_	_
+
+20	s	z	ADP	Si	Case=Ins	21	case	_	_	_
+
+21	prodajo	prodaja	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	19	nmod	_	_	_
+
+22	lastnih	lasten	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	24	amod	_	_	_
+
+23	prevoznih	prevozen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	24	amod	_	_	_
+
+24	listin	listina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	_	_
+
+25	na	na	ADP	Sl	Case=Loc	26	case	_	_	_
+
+26	območju	območje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	21	nmod	_	_	_
+
+27	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_	_
+
+28	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_	_
+
+29	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = Za ugotavljanje dobička se priznavajo prihodki in odhodki v zneskih, ugotovljenih v izkazu uspeha, na podlagi predpisov ali računovodskih standardov, razen prihodkov in odhodkov, ki so določeni s tem zakonom.
+1	Za	za	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	ugotavljanje	ugotavljanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_	_
+
+3	dobička	dobička	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	5	expl	_	_	_
+
+5	priznavajo	priznavati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	prihodki	prihodek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	odhodki	odhodek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	6	conj	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	10	case	_	_	_
+
+10	zneskih	znesek	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	8	nmod	_	_	_
+
+11	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+12	ugotovljenih	ugotovljen	ADJ	Appmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	10	amod	_	_	_
+
+13	v	v	ADP	Sl	Case=Loc	14	case	_	_	_
+
+14	izkazu	izkaz	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_	_
+
+15	uspeha	uspeh	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+16	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+17	na	na	ADP	Sl	Case=Loc	18	case	_	_	_
+
+18	podlagi	podlaga	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	10	conj	_	_	_
+
+19	predpisov	predpis	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_	_
+
+20	ali	ali	CCONJ	Cc	_	22	cc	_	_	_
+
+21	računovodskih	računovodski	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	_	_
+
+22	standardov	standard	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	19	conj	_	_	_
+
+23	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+24	razen	razen	ADP	Sg	Case=Gen	25	case	_	_	_
+
+25	prihodkov	prihodek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	10	conj	_	_	_
+
+26	in	in	CCONJ	Cc	_	27	cc	_	_	_
+
+27	odhodkov	odhodek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	25	conj	_	_	_
+
+28	,	,	PUNCT	Z	_	31	punct	_	_	_
+
+29	ki	ki	SCONJ	Cs	_	31	mark	_	_	_
+
+30	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	31	cop	_	_	_
+
+31	določeni	določen	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	27	acl	_	_	_
+
+32	s	z	ADP	Si	Case=Ins	34	case	_	_	_
+
+33	tem	ta	DET	Pd-msi	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	34	det	_	_	_
+
+34	zakonom	zakon	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	31	obl	_	_	_
+
+35	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = Pri ugotavljanju odhodkov davčnega zavezanca se upoštevajo transferne cene s povezanimi osebami, vendar največ do višine povprečnih cen, ki veljajo za določeno vrsto blaga ali storitev na domačem ali primerljivem tujem trgu.
+1	Pri	pri	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	ugotavljanju	ugotavljanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_	_
+
+3	odhodkov	odhodek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_	_
+
+4	davčnega	davčen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+5	zavezanca	zavezanec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+6	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	7	expl	_	_	_
+
+7	upoštevajo	upoštevati	VERB	Vmbr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+8	transferne	transferen	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_	_
+
+9	cene	cena	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_	_
+
+10	s	z	ADP	Si	Case=Ins	12	case	_	_	_
+
+11	povezanimi	povezan	ADJ	Appfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	12	amod	_	_	_
+
+12	osebami	oseba	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	9	nmod	_	_	_
+
+13	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+14	vendar	vendar	CCONJ	Cc	_	17	cc	_	_	_
+
+15	največ	največ	DET	Rgs	PronType=Ind	17	advmod	_	_	_
+
+16	do	do	ADP	Sg	Case=Gen	17	case	_	_	_
+
+17	višine	višina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	appos	_	_	_
+
+18	povprečnih	povprečen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_	_
+
+19	cen	cena	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_	_
+
+20	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+21	ki	ki	SCONJ	Cs	_	22	mark	_	_	_
+
+22	veljajo	veljati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl	_	_	_
+
+23	za	za	ADP	Sa	Case=Acc	25	case	_	_	_
+
+24	določeno	določen	ADJ	Appfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	25	amod	_	_	_
+
+25	vrsto	vrsta	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	22	xcomp	_	_	_
+
+26	blaga	blago	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_	_
+
+27	ali	ali	CCONJ	Cc	_	28	cc	_	_	_
+
+28	storitev	storitev	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	26	conj	_	_	_
+
+29	na	na	ADP	Sl	Case=Loc	34	case	_	_	_
+
+30	domačem	domač	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_	_
+
+31	ali	ali	CCONJ	Cc	_	32	cc	_	_	_
+
+32	primerljivem	primerljiv	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	30	conj	_	_	_
+
+33	tujem	tuj	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_	_
+
+34	trgu	trg	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	28	nmod	_	_	_
+
+35	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = Dolgoročne rezervacije stroškov se priznajo v obračunanih zneskih vendar največ do 70% teh stroškov, razen dolgoročnih rezervacij iz naslova dotacij iz proračunov za osnovna sredstva.
+1	Dolgoročne	dolgoročen	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_	_
+
+2	rezervacije	rezervacija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_	_
+
+3	stroškov	strošek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_	_
+
+4	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	5	expl	_	_	_
+
+5	priznajo	priznati	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	v	v	ADP	Sl	Case=Loc	8	case	_	_	_
+
+7	obračunanih	obračunan	ADJ	Appmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	8	amod	_	_	_
+
+8	zneskih	znesek	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_	_
+
+9	vendar	vendar	CCONJ	Cc	_	14	cc	_	_	_
+
+10	največ	največ	DET	Rgs	PronType=Ind	14	det	_	_	_
+
+11	do	do	ADP	Sg	Case=Gen	14	case	_	_	_
+
+12	70%	70%	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+
+13	teh	ta	DET	Pd-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	14	det	_	_	_
+
+14	stroškov	strošek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	appos	_	_	_
+
+15	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+16	razen	razen	ADP	Sg	Case=Gen	18	case	_	_	_
+
+17	dolgoročnih	dolgoročen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	_	_
+
+18	rezervacij	rezervacija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	14	appos	_	_	_
+
+19	iz	iz	ADP	Sg	Case=Gen	20	case	_	_	_
+
+20	naslova	naslov	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_	_
+
+21	dotacij	dotacija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_	_
+
+22	iz	iz	ADP	Sg	Case=Gen	23	case	_	_	_
+
+23	proračunov	proračun	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_	_
+
+24	za	za	ADP	Sa	Case=Acc	26	case	_	_	_
+
+25	osnovna	osnoven	ADJ	Agpnpa	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	26	amod	_	_	_
+
+26	sredstva	sredstvo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	23	nmod	_	_	_
+
+27	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = Davčni zavezanci, iz zadnje alinee 6. člena, pripravijo davčni izkaz brez prihodkov in dejanskih oziroma sorazmernih stroškov, ki izvirajo iz opravljanja dejavnosti, za katere so ustanovljeni.
+1	Davčni	davčen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_	_
+
+2	zavezanci	zavezanec	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_	_
+
+3	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+4	iz	iz	ADP	Sg	Case=Gen	6	case	_	_	_
+
+5	zadnje	zadnji	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	alinee	alinee	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	appos	_	_	_
+
+7	6.	6.	NUM	Mdo	NumForm=Digit|NumType=Ord	8	nummod	_	_	_
+
+8	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+9	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+10	pripravijo	pripraviti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+11	davčni	davčen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_	_
+
+12	izkaz	izkaz	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_	_
+
+13	brez	brez	ADP	Sg	Case=Gen	14	case	_	_	_
+
+14	prihodkov	prihodek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_	_
+
+15	in	in	CCONJ	Cc	_	19	cc	_	_	_
+
+16	dejanskih	dejanski	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	19	amod	_	_	_
+
+17	oziroma	oziroma	CCONJ	Cc	_	18	cc	_	_	_
+
+18	sorazmernih	sorazmeren	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	16	conj	_	_	_
+
+19	stroškov	strošek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	14	conj	_	_	_
+
+20	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+21	ki	ki	SCONJ	Cs	_	22	mark	_	_	_
+
+22	izvirajo	izvirati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl	_	_	_
+
+23	iz	iz	ADP	Sg	Case=Gen	24	case	_	_	_
+
+24	opravljanja	opravljanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	22	obl	_	_	_
+
+25	dejavnosti	dejavnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_	_
+
+26	,	,	PUNCT	Z	_	30	punct	_	_	_
+
+27	za	za	ADP	Sa	Case=Acc	28	case	_	_	_
+
+28	katere	kateri	DET	Pq-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Int	30	obl	_	_	_
+
+29	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	30	cop	_	_	_
+
+30	ustanovljeni	ustanovljen	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	25	acl	_	_	_
+
+31	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = 30. člen
+1	30.	30.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = 32. člen
+1	32.	32.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = Če je razlika med prihodki vključno s povečanjem davčne osnove in odhodki vključno z zmanjšanjem davčne osnove po tem zakonu negativna, izkaže davčni zavezanec izgubo v davčnem izkazu.
+1	Če	če	SCONJ	Cs	_	21	mark	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	21	cop	_	_	_
+
+3	razlika	razlika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_	_
+
+4	med	med	ADP	Si	Case=Ins	5	case	_	_	_
+
+5	prihodki	prihodek	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	3	nmod	_	_	_
+
+6	vključno	vključno	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+7	s	z	ADP	Si	Case=Ins	8	case	_	_	_
+
+8	povečanjem	povečanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	21	obl	_	_	_
+
+9	davčne	davčen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_	_
+
+10	osnove	osnova	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+11	in	in	CCONJ	Cc	_	12	cc	_	_	_
+
+12	odhodki	odhodek	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	10	conj	_	_	_
+
+13	vključno	vključno	ADV	Rgp	Degree=Pos	21	advmod	_	_	_
+
+14	z	z	ADP	Si	Case=Ins	15	case	_	_	_
+
+15	zmanjšanjem	zmanjšanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	21	obl	_	_	_
+
+16	davčne	davčen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_	_
+
+17	osnove	osnova	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_	_
+
+18	po	po	ADP	Sl	Case=Loc	20	case	_	_	_
+
+19	tem	ta	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_	_
+
+20	zakonu	zakon	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	21	obl	_	_	_
+
+21	negativna	negativen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	advcl	_	_	_
+
+22	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+23	izkaže	izkazati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+24	davčni	davčen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_	_
+
+25	zavezanec	zavezanec	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_	_
+
+26	izgubo	izguba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_	_
+
+27	v	v	ADP	Sl	Case=Loc	29	case	_	_	_
+
+28	davčnem	davčen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_	_
+
+29	izkazu	izkaz	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	26	nmod	_	_	_
+
+30	.	.	PUNCT	Z	_	23	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = Pokrivanje izgube po prejšnjem členu ne sme presegati višino tekoče ugotovljene davčne osnove.
+1	Pokrivanje	pokrivanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_	_
+
+2	izgube	izguba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	po	po	ADP	Sl	Case=Loc	5	case	_	_	_
+
+4	prejšnjem	prejšnji	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+5	členu	člen	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_	_
+
+6	ne	ne	PART	Q	Polarity=Neg	7	advmod	_	_	_
+
+7	sme	smeti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+8	presegati	presegati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	7	xcomp	_	_	_
+
+9	višino	višina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_	_
+
+10	tekoče	tekoče	ADV	Rgp	Degree=Pos	11	advmod	_	_	_
+
+11	ugotovljene	ugotovljen	ADJ	Appfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	13	amod	_	_	_
+
+12	davčne	davčen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_	_
+
+13	osnove	osnova	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+14	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = Davčnemu zavezancu se prizna davčna olajšava v višini 20% investiranega zneska v opredmetena osnovna sredstva( razen v osebna motorna vozila) in neopredmetena dolgoročna sredstva, vendar največ v višini davčne osnove.
+1	Davčnemu	davčen	ADJ	Agpmsd	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	zavezancu	zavezanec	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	4	obj	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+4	prizna	prizno	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	davčna	davčen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	olajšava	olajšava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+7	v	v	ADP	Sl	Case=Loc	8	case	_	_	_
+
+8	višini	višina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+9	20%	20%	NUM	Mdc	NumForm=Digit|NumType=Card	11	nummod	_	_	_
+
+10	investiranega	investiran	ADJ	Appmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	11	amod	_	_	_
+
+11	zneska	znesek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+12	v	v	ADP	Sa	Case=Acc	15	case	_	_	_
+
+13	opredmetena	opredmeten	ADJ	Appnpa	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|VerbForm=Part	15	amod	_	_	_
+
+14	osnovna	osnoven	ADJ	Agpnpa	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	15	amod	_	_	_
+
+15	sredstva	sredstvo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	11	nmod	_	_	_
+
+16	(	(	PUNCT	Z	_	21	punct	_	_	_
+
+17	razen	razen	ADV	Rgp	Degree=Pos	21	advmod	_	_	_
+
+18	v	v	ADP	Sa	Case=Acc	21	case	_	_	_
+
+19	osebna	oseben	ADJ	Agpnpa	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	21	amod	_	_	_
+
+20	motorna	motoren	ADJ	Agpnpa	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	21	amod	_	_	_
+
+21	vozila	vozilo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	15	appos	_	_	_
+
+22	)	)	PUNCT	Z	_	21	punct	_	_	_
+
+23	in	in	CCONJ	Cc	_	26	cc	_	_	_
+
+24	neopredmetena	neopredmeten	ADJ	Agpnpa	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	26	amod	_	_	_
+
+25	dolgoročna	dolgoročen	ADJ	Agpnpa	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	26	amod	_	_	_
+
+26	sredstva	sredstvo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	8	conj	_	_	_
+
+27	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+28	vendar	vendar	CCONJ	Cc	_	31	cc	_	_	_
+
+29	največ	največ	DET	Rgs	PronType=Ind	31	advmod	_	_	_
+
+30	v	v	ADP	Sl	Case=Loc	31	case	_	_	_
+
+31	višini	višina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	26	appos	_	_	_
+
+32	davčne	davčen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_	_
+
+33	osnove	osnova	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_	_
+
+34	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = 45. člen
+1	45.	45.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = Davčni zavezanec predloži davčni izkaz davčnemu organu.
+1	Davčni	davčen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	zavezanec	zavezanec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+3	predloži	predložiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	davčni	davčen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+5	izkaz	izkaz	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_	_
+
+6	davčnemu	davčen	ADJ	Agpmsd	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	organu	organ	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	_	_
+
+8	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = Davčni izkaz se predloži na obrazcu, ki ga predpiše minister za finance.
+1	Davčni	davčen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	izkaz	izkaz	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+4	predloži	predložiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	na	na	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	obrazcu	obrazec	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+7	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+8	ki	ki	SCONJ	Cs	_	10	mark	_	_	_
+
+9	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	10	obj	_	_	_
+
+10	predpiše	predpis	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	_	_
+
+11	minister	minister	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_	_
+
+12	za	za	ADP	Sa	Case=Acc	13	case	_	_	_
+
+13	finance	finance	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	11	nmod	_	_	_
+
+14	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = Minister za finance predpiše obliko in način priprave skupinskega davčnega izkaza.
+1	Minister	minister	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+2	za	za	ADP	Sa	Case=Acc	3	case	_	_	_
+
+3	finance	finance	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	1	nmod	_	_	_
+
+4	predpiše	predpis	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	obliko	oblika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	način	način	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	conj	_	_	_
+
+8	priprave	priprava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+9	skupinskega	skupinski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+10	davčnega	davčen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	izkaza	izkaz	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+12	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = Davčni zavezanec lahko zahteva vračilo preveč plačanih akontacij hkrati s predložitvijo obračuna davka.
+1	Davčni	davčen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	zavezanec	zavezanec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+3	lahko	lahko	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+4	zahteva	zahtevati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	vračilo	vračilo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_	_
+
+6	preveč	preveč	DET	Rgp	PronType=Ind	7	advmod	_	_	_
+
+7	plačanih	plačan	ADJ	Appfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	8	amod	_	_	_
+
+8	akontacij	akontacija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_	_
+
+9	hkrati	hkrati	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+10	s	z	ADP	Si	Case=Ins	11	case	_	_	_
+
+11	predložitvijo	predložitev	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+12	obračuna	obračunati	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+13	davka	davek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+14	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = Če davčni organ ali davčni zavezanec ugotovi, da je bila davčna obveznost preveč obračunana in plačana, davčni zavezanec lahko zahteva vračilo preveč plačanega davka.
+1	Če	če	SCONJ	Cs	_	7	mark	_	_	_
+
+2	davčni	davčen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	organ	organ	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_	_
+
+4	ali	ali	CCONJ	Cc	_	6	cc	_	_	_
+
+5	davčni	davčen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+6	zavezanec	zavezanec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_	_
+
+7	ugotovi	ugotov	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_	_
+
+8	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+9	da	da	SCONJ	Cs	_	15	mark	_	_	_
+
+10	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	aux	_	_	_
+
+11	bila	biti	AUX	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	15	cop	_	_	_
+
+12	davčna	davčen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_	_
+
+13	obveznost	obveznost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_	_
+
+14	preveč	preveč	DET	Rgp	PronType=Ind	15	advmod	_	_	_
+
+15	obračunana	obračunan	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	7	ccomp	_	_	_
+
+16	in	in	CCONJ	Cc	_	17	cc	_	_	_
+
+17	plačana	plačan	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	15	conj	_	_	_
+
+18	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+19	davčni	davčen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_	_
+
+20	zavezanec	zavezanec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_	_
+
+21	lahko	lahko	ADV	Rgp	Degree=Pos	22	advmod	_	_	_
+
+22	zahteva	zahtevati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+23	vračilo	vračilo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	22	obj	_	_	_
+
+24	preveč	preveč	DET	Rgp	PronType=Ind	25	advmod	_	_	_
+
+25	plačanega	plačan	ADJ	Appmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	26	amod	_	_	_
+
+26	davka	davek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_	_
+
+27	.	.	PUNCT	Z	_	22	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = 50. člen
+1	50.	50.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = Akontacije se plačujejo mesečno najpozneje do desetega dne v mesecu za pretekli mesec.
+1	Akontacije	akontacija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	3	expl	_	_	_
+
+3	plačujejo	plačevati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	mesečno	mesečno	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+5	najpozneje	pozno	ADV	Rgs	Degree=Sup	8	advmod	_	_	_
+
+6	do	do	ADP	Sg	Case=Gen	8	case	_	_	_
+
+7	desetega	deseti	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	8	amod	_	_	_
+
+8	dne	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	10	case	_	_	_
+
+10	mesecu	mesec	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_	_
+
+11	za	za	ADP	Sa	Case=Acc	13	case	_	_	_
+
+12	pretekli	pretekel	ADJ	Appmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	13	amod	_	_	_
+
+13	mesec	mesec	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+14	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = Po vsakem pretrganju zastaranja začne teči zastaralni rok znova.
+1	Po	po	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	vsakem	vsak	DET	Pg-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Tot	3	det	_	_	_
+
+3	pretrganju	pretrganje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_	_
+
+4	zastaranja	zastaranje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_	_
+
+5	začne	začeti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	teči	teči	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	5	xcomp	_	_	_
+
+7	zastaralni	zastaralen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+8	rok	rok	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	_
+
+9	znova	znova	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+10	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = Z denarno kaznijo do petkratnega zneska utajenega davka, najmanj pa 1.500.000 tolarjev se kaznuje za gospodarski prestopek davčni zavezanec, če v nasprotju z določbami tega zakona o ugotavljanju davčne osnove( 7. do 36. člen in 47. člen) in davčnih olajšav( 39. do 44. člen) navede v obračunu davka napačne podatke in je zaradi tega prišlo do znižanja davčne osnove oziroma višine obračunanega davka.
+1	Z	z	ADP	Si	Case=Ins	3	case	_	_	_
+
+2	denarno	denaren	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	kaznijo	kazen	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	15	obl	_	_	_
+
+4	do	do	ADP	Sg	Case=Gen	6	case	_	_	_
+
+5	petkratnega	petkraten	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+6	zneska	znesek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+7	utajenega	utajen	ADJ	Appmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	8	amod	_	_	_
+
+8	davka	davek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+9	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+10	najmanj	najmanj	ADV	Rgs	Degree=Sup	13	advmod	_	_	_
+
+11	pa	pa	CCONJ	Cc	_	15	advmod	_	_	_
+
+12	1.500.000	1.500.000	NUM	Mdc	NumForm=Digit|NumType=Card	13	nummod	_	_	_
+
+13	tolarjev	tolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	conj	_	_	_
+
+14	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	15	expl	_	_	_
+
+15	kaznuje	kazno	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+16	za	za	ADP	Sa	Case=Acc	18	case	_	_	_
+
+17	gospodarski	gospodarski	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_	_
+
+18	prestopek	prestopek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_	_
+
+19	davčni	davčen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_	_
+
+20	zavezanec	zavezanec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_	_
+
+21	,	,	PUNCT	Z	_	51	punct	_	_	_
+
+22	če	če	SCONJ	Cs	_	51	mark	_	_	_
+
+23	v	v	ADP	Sl	Case=Loc	24	case	_	_	_
+
+24	nasprotju	nasprotje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	51	obl	_	_	_
+
+25	z	z	ADP	Si	Case=Ins	26	case	_	_	_
+
+26	določbami	določba	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	24	nmod	_	_	_
+
+27	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	28	det	_	_	_
+
+28	zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_	_
+
+29	o	o	ADP	Sl	Case=Loc	30	case	_	_	_
+
+30	ugotavljanju	ugotavljanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	26	nmod	_	_	_
+
+31	davčne	davčen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_	_
+
+32	osnove	osnova	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_	_
+
+33	(	(	PUNCT	Z	_	37	punct	_	_	_
+
+34	7.	7.	NUM	Mdo	NumForm=Digit|NumType=Ord	37	nummod	_	_	_
+
+35	do	do	ADP	Sg	Case=Gen	36	case	_	_	_
+
+36	36.	36.	NUM	Mdo	NumForm=Digit|NumType=Ord	37	nummod	_	_	_
+
+37	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	32	appos	_	_	_
+
+38	in	in	CCONJ	Cc	_	40	cc	_	_	_
+
+39	47.	47.	NUM	Mdo	NumForm=Digit|NumType=Ord	40	nummod	_	_	_
+
+40	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	37	conj	_	_	_
+
+41	)	)	PUNCT	Z	_	37	punct	_	_	_
+
+42	in	in	CCONJ	Cc	_	44	cc	_	_	_
+
+43	davčnih	davčen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	44	amod	_	_	_
+
+44	olajšav	olajšava	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	37	conj	_	_	_
+
+45	(	(	PUNCT	Z	_	49	punct	_	_	_
+
+46	39.	39.	NUM	Mdo	NumForm=Digit|NumType=Ord	49	nummod	_	_	_
+
+47	do	do	ADP	Sg	Case=Gen	48	case	_	_	_
+
+48	44.	44.	NUM	Mdo	NumForm=Digit|NumType=Ord	49	nummod	_	_	_
+
+49	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	44	appos	_	_	_
+
+50	)	)	PUNCT	Z	_	49	punct	_	_	_
+
+51	navede	navesti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	_	_
+
+52	v	v	ADP	Sl	Case=Loc	53	case	_	_	_
+
+53	obračunu	obračun	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	51	obl	_	_	_
+
+54	davka	davek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	53	nmod	_	_	_
+
+55	napačne	napačen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	56	amod	_	_	_
+
+56	podatke	podatek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	54	nmod	_	_	_
+
+57	in	in	CCONJ	Cc	_	61	cc	_	_	_
+
+58	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	61	aux	_	_	_
+
+59	zaradi	zaradi	ADP	Sg	Case=Gen	60	case	_	_	_
+
+60	tega	ta	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	61	obl	_	_	_
+
+61	prišlo	priti	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part	51	conj	_	_	_
+
+62	do	do	ADP	Sg	Case=Gen	63	case	_	_	_
+
+63	znižanja	znižanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	61	obl	_	_	_
+
+64	davčne	davčen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	65	amod	_	_	_
+
+65	osnove	osnova	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	63	nmod	_	_	_
+
+66	oziroma	oziroma	CCONJ	Cc	_	67	cc	_	_	_
+
+67	višine	višina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	65	conj	_	_	_
+
+68	obračunanega	obračunan	ADJ	Appmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	69	amod	_	_	_
+
+69	davka	davek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	67	nmod	_	_	_
+
+70	.	.	PUNCT	Z	_	15	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = Pristojen organ, pri katerem morajo tuje pravne osebe vpisati v register svoje poslovne enote, in organ, ki izdaja dovoljenja za opravljanje dejavnosti, sta dolžna davčnemu organu dostavljati podatke o ustanovitvi poslovnih enot tujih pravnih oseb.
+1	Pristojen	Pristojen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	organ	organ	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_	_
+
+3	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+4	pri	pri	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	katerem	kateri	DET	Pq-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Int	6	obl	_	_	_
+
+6	morajo	morati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_	_
+
+7	tuje	tuj	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_	_
+
+8	pravne	praven	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_	_
+
+9	osebe	oseba	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_	_
+
+10	vpisati	vpisati	VERB	Vmen	Aspect=Perf|VerbForm=Inf	6	xcomp	_	_	_
+
+11	v	v	ADP	Sa	Case=Acc	12	case	_	_	_
+
+12	register	register	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_	_
+
+13	svoje	svoj	DET	Px-fsg	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	15	det	_	_	_
+
+14	poslovne	posloven	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_	_
+
+15	enote	enota	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+16	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+17	in	in	CCONJ	Cc	_	18	cc	_	_	_
+
+18	organ	organ	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+19	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+20	ki	ki	SCONJ	Cs	_	21	mark	_	_	_
+
+21	izdaja	izdajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl	_	_	_
+
+22	dovoljenja	dovoljenje	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	21	obj	_	_	_
+
+23	za	za	ADP	Sa	Case=Acc	24	case	_	_	_
+
+24	opravljanje	opravljanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	22	nmod	_	_	_
+
+25	dejavnosti	dejavnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_	_
+
+26	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+27	sta	biti	AUX	Va-r3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	28	cop	_	_	_
+
+28	dolžna	dolžen	ADJ	Agpmdn	Case=Nom|Degree=Pos|Gender=Masc|Number=Dual		root	_	_	_
+
+29	davčnemu	davčen	ADJ	Agpmsd	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_	_
+
+30	organu	organ	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	31	iobj	_	_	_
+
+31	dostavljati	dostavljati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	28	ccomp	_	_	_
+
+32	podatke	podatek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	31	obj	_	_	_
+
+33	o	o	ADP	Sl	Case=Loc	34	case	_	_	_
+
+34	ustanovitvi	ustanovitev	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	32	nmod	_	_	_
+
+35	poslovnih	posloven	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	36	amod	_	_	_
+
+36	enot	enota	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	34	nmod	_	_	_
+
+37	tujih	tuj	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	39	amod	_	_	_
+
+38	pravnih	praven	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	39	amod	_	_	_
+
+39	oseb	oseba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	36	nmod	_	_	_
+
+40	.	.	PUNCT	Z	_	28	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = Predsednik Državnega zbora Republike Slovenije mag.
+1	Predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Državnega	državen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	zbora	zbor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+5	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+6	mag	maga	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+7	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010157.txt
+# text = Herman Rigelnik
+1	Herman	Herman	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Rigelnik	Rigelnik	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+

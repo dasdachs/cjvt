@@ -1,0 +1,89 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0034869.txt
+# text = 5 Canadair Regional Jet 200,( 48/50 sedežev),
+1	5	5	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Canadair	Canadair	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	Regional	Regional	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	Jet	jet	X	Xf	Foreign=Yes	3	flat:foreign	_	_	_
+
+5	200	200	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+6	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+7	(	(	PUNCT	Z	_	9	punct	_	_	_
+
+8	48/50	48/50	NUM	Mdc	NumForm=Digit|NumType=Card	9	nummod	_	_	_
+
+9	sedežev	sedež	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	appos	_	_	_
+
+10	)	)	PUNCT	Z	_	9	punct	_	_	_
+
+11	,	,	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034869.txt
+# text = V soboto( 17.4.
+1	V	v	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	soboto	sobota	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing		root	_	_	_
+
+3	(	(	PUNCT	Z	_	4	punct	_	_	_
+
+4	17.4	17.4	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+5	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034869.txt
+# text = 2010) in nedeljo( 18 .4.
+1	2010	2010	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	)	)	PUNCT	Z	_	1	punct	_	_	_
+
+3	in	in	CCONJ	Cc	_	4	cc	_	_	_
+
+4	nedeljo	nedelja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	conj	_	_	_
+
+5	(	(	PUNCT	Z	_	6	punct	_	_	_
+
+6	18	18	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+7	.4	.4	NUM	Mdc	NumForm=Digit|NumType=Card	6	conj	_	_	_
+
+8	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034869.txt
+# text = 2010) bo od 08.00 do 19.00 ure izjemoma organizirana dežurna služba na sledečih številkah:
+1	2010	2010	NUM	Mdc	NumForm=Digit|NumType=Card	10	advmod	_	_	_
+
+2	)	)	PUNCT	Z	_	1	punct	_	_	_
+
+3	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	10	cop	_	_	_
+
+4	od	od	ADP	Sg	Case=Gen	5	case	_	_	_
+
+5	08.00	08.00	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+6	do	do	ADP	Sg	Case=Gen	7	case	_	_	_
+
+7	19.00	19.00	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+8	ure	ura	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_	_
+
+9	izjemoma	izjemoma	ADV	Rgp	Degree=Pos	10	advmod	_	_	_
+
+10	organizirana	organiziran	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+11	dežurna	dežuren	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_	_
+
+12	služba	služba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_	_
+
+13	na	na	ADP	Sl	Case=Loc	15	case	_	_	_
+
+14	sledečih	sledeč	ADJ	Appfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	15	amod	_	_	_
+
+15	številkah	številka	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	12	nmod	_	_	_
+
+16	:	:	PUNCT	Z	_	10	punct	_	_	_
+

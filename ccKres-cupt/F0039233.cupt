@@ -1,0 +1,463 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0039233.txt
+# text = Dušan Benko, Barbara Jaki, Ranko Novak, Petra Černe Oven, Peter Skalar
+1	Dušan	Dušan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Benko	Benko	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	Barbara	Barbara	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_	_
+
+5	Jaki	Jaka	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	flat:name	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	Ranko	Ranko	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_	_
+
+8	Novak	Novak	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	_	_
+
+9	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+10	Petra	Peter	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	_	_
+
+11	Černe	Černe	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	10	flat:name	_	_	_
+
+12	Oven	oven	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	11	flat:name	_	_	_
+
+13	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+14	Peter	Peter	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_	_
+
+15	Skalar	skalar	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	14	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039233.txt
+# text = Leta 1918 je bilo ustanovljeno društvo Narodne galerije, toda prizadevanja za dom( 'akropolo', kot so jo imenovali ob ustanovitvi) slovenske umetnosti so se porajala že proti koncu 19. stoletja, ko so se za ustanovitev Narodne galerije zavzemali polihistor in časnikar pl. Peter Radics, pa župan dr. Ivan Hribar, nato Društvo za krščansko umetnost, ki je leta 1907 postavilo zbirko starejše slovenske umetnosti.
+1	Leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_	_
+
+2	1918	1918	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+4	bilo	biti	AUX	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part	5	cop	_	_	_
+
+5	ustanovljeno	ustanovljen	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	društvo	društvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_	_
+
+7	Narodne	naroden	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	galerije	galerija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+9	,	,	PUNCT	Z	_	28	punct	_	_	_
+
+10	toda	toda	CCONJ	Cc	_	28	cc	_	_	_
+
+11	prizadevanja	prizadevanje	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	28	nsubj	_	_	_
+
+12	za	za	ADP	Sa	Case=Acc	13	case	_	_	_
+
+13	dom	dom	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+14	(	(	PUNCT	Z	_	15	punct	_	_	_
+
+15	'akropolo'	3akropol	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_	_
+
+16	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+17	kot	kot	SCONJ	Cs	_	20	mark	_	_	_
+
+18	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	aux	_	_	_
+
+19	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	20	obj	_	_	_
+
+20	imenovali	imenovati	VERB	Vmbp-pm	Gender=Masc|Number=Plur|VerbForm=Part	11	acl	_	_	_
+
+21	ob	ob	ADP	Sl	Case=Loc	22	case	_	_	_
+
+22	ustanovitvi	ustanovitev	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_	_
+
+23	)	)	PUNCT	Z	_	20	punct	_	_	_
+
+24	slovenske	slovenski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_	_
+
+25	umetnosti	umetnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_	_
+
+26	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	28	aux	_	_	_
+
+27	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	28	expl	_	_	_
+
+28	porajala	porajati	VERB	Vmpp-pn	Aspect=Imp|Gender=Neut|Number=Plur|VerbForm=Part	5	parataxis	_	_	_
+
+29	že	že	PART	Q	_	28	advmod	_	_	_
+
+30	proti	proti	ADP	Sd	Case=Dat	31	case	_	_	_
+
+31	koncu	konec	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	28	obl	_	_	_
+
+32	19.	19.	NUM	Mdo	NumForm=Digit|NumType=Ord	33	nummod	_	_	_
+
+33	stoletja	stoletje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	_	_
+
+34	,	,	PUNCT	Z	_	42	punct	_	_	_
+
+35	ko	ko	SCONJ	Cs	_	42	mark	_	_	_
+
+36	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	42	aux	_	_	_
+
+37	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	42	expl	_	_	_
+
+38	za	za	ADP	Sa	Case=Acc	39	case	_	_	_
+
+39	ustanovitev	ustanovitev	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	42	obl	_	_	_
+
+40	Narodne	naroden	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	_	_
+
+41	galerije	galerija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	_	_
+
+42	zavzemali	zavzemati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	33	acl	_	_	_
+
+43	polihistor	polihistor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	42	nsubj	_	_	_
+
+44	in	in	CCONJ	Cc	_	45	cc	_	_	_
+
+45	časnikar	časnikar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	43	conj	_	_	_
+
+46	pl.	pl.	X	Y	Abbr=Yes	47	nmod	_	_	_
+
+47	Peter	Peter	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	43	nmod	_	_	_
+
+48	Radics	Radics	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	47	flat:name	_	_	_
+
+49	,	,	PUNCT	Z	_	42	punct	_	_	_
+
+50	pa	pa	CCONJ	Cc	_	42	advmod	_	_	_
+
+51	župan	župan	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	43	appos	_	_	_
+
+52	dr.	dr.	X	Y	Abbr=Yes	53	nmod	_	_	_
+
+53	Ivan	Ivan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	51	nmod	_	_	_
+
+54	Hribar	Hribar	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	53	flat:name	_	_	_
+
+55	,	,	PUNCT	Z	_	57	punct	_	_	_
+
+56	nato	nato	ADV	Rgp	Degree=Pos	57	advmod	_	_	_
+
+57	Društvo	društvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	51	conj	_	_	_
+
+58	za	za	ADP	Sa	Case=Acc	60	case	_	_	_
+
+59	krščansko	krščanski	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	60	amod	_	_	_
+
+60	umetnost	umetnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	57	nmod	_	_	_
+
+61	,	,	PUNCT	Z	_	66	punct	_	_	_
+
+62	ki	ki	SCONJ	Cs	_	66	mark	_	_	_
+
+63	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	66	aux	_	_	_
+
+64	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	66	obl	_	_	_
+
+65	1907	1907	NUM	Mdc	NumForm=Digit|NumType=Card	64	nummod	_	_	_
+
+66	postavilo	postaviti	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part	60	acl	_	_	_
+
+67	zbirko	zbirka	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	66	obj	_	_	_
+
+68	starejše	star	ADJ	Agcfsg	Case=Gen|Degree=Cmp|Gender=Fem|Number=Sing	70	amod	_	_	_
+
+69	slovenske	slovenski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	70	amod	_	_	_
+
+70	umetnosti	umetnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	67	nmod	_	_	_
+
+71	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039233.txt
+# text = Skratka, skozi desetletja je živela neustavljiva želja Slovencev po lastni umetniški ustanovi- želja, ki se je ob prevzemu poslopja Narodnega doma v letu 1928 končno uresničila.
+1	Skratka	skratka	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing		root	_	_	_
+
+2	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+3	skozi	skozi	ADP	Sa	Case=Acc	4	case	_	_	_
+
+4	desetletja	desetletje	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
+
+6	živela	živeti	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	1	parataxis	_	_	_
+
+7	neustavljiva	neustavljiv	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	želja	želja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_	_
+
+9	Slovencev	Slovenec	PROPN	Npmpg	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_	_
+
+10	po	po	ADP	Sl	Case=Loc	13	case	_	_	_
+
+11	lastni	lasten	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_	_
+
+12	umetniški	umetniški	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_	_
+
+13	ustanovi	ustanova	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_	_
+
+14	-	-	PUNCT	Z	_	15	punct	_	_	_
+
+15	želja	želja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_	_
+
+16	,	,	PUNCT	Z	_	29	punct	_	_	_
+
+17	ki	ki	SCONJ	Cs	_	29	mark	_	_	_
+
+18	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	29	expl	_	_	_
+
+19	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	29	aux	_	_	_
+
+20	ob	ob	ADP	Sl	Case=Loc	21	case	_	_	_
+
+21	prevzemu	prevzem	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	29	obl	_	_	_
+
+22	poslopja	poslopje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_	_
+
+23	Narodnega	naroden	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_	_
+
+24	doma	dom	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_	_
+
+25	v	v	ADP	Sl	Case=Loc	26	case	_	_	_
+
+26	letu	leto	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	29	obl	_	_	_
+
+27	1928	1928	NUM	Mdc	NumForm=Digit|NumType=Card	26	nummod	_	_	_
+
+28	končno	končno	ADV	Rgp	Degree=Pos	29	advmod	_	_	_
+
+29	uresničila	uresničiti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	15	acl	_	_	_
+
+30	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039233.txt
+# text = Pomembna je bila tudi že vsaka letnica pridobitve umetnin: s Strahlovo oporoko leta 1929, denimo, je Narodna galerija pridobila mogočen fond domačih in evropskih slikarjev, ki ga je leta 1930 na razstavi prvič pokazala javnosti.
+1	Pomembna	pomemben	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing		root	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	bila	biti	AUX	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	1	cop	_	_	_
+
+4	tudi	tudi	PART	Q	_	1	advmod	_	_	_
+
+5	že	že	PART	Q	_	1	advmod	_	_	_
+
+6	vsaka	vsak	DET	Pg-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	7	det	_	_	_
+
+7	letnica	letnica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_	_
+
+8	pridobitve	pridobitev	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+9	umetnin	umetnina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_	_
+
+10	:	:	PUNCT	Z	_	22	punct	_	_	_
+
+11	s	z	ADP	Si	Case=Ins	13	case	_	_	_
+
+12	Strahlovo	strahlov	ADJ	Aspfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	13	amod	_	_	_
+
+13	oporoko	oporoka	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	22	obl	_	_	_
+
+14	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_	_
+
+15	1929	1929	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+
+16	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+17	denimo	deti	VERB	Vmem1p	Aspect=Perf|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	22	parataxis	_	_	_
+
+18	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+19	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	22	aux	_	_	_
+
+20	Narodna	naroden	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_	_
+
+21	galerija	galerija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_	_
+
+22	pridobila	pridobiti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	1	parataxis	_	_	_
+
+23	mogočen	mogočen	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_	_
+
+24	fond	fond	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_	_
+
+25	domačih	domač	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	28	amod	_	_	_
+
+26	in	in	CCONJ	Cc	_	27	cc	_	_	_
+
+27	evropskih	evropski	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	25	conj	_	_	_
+
+28	slikarjev	slikar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_	_
+
+29	,	,	PUNCT	Z	_	38	punct	_	_	_
+
+30	ki	ki	SCONJ	Cs	_	38	mark	_	_	_
+
+31	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	38	obj	_	_	_
+
+32	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	38	aux	_	_	_
+
+33	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	38	obl	_	_	_
+
+34	1930	1930	NUM	Mdc	NumForm=Digit|NumType=Card	33	nummod	_	_	_
+
+35	na	na	ADP	Sl	Case=Loc	36	case	_	_	_
+
+36	razstavi	razstava	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	38	obl	_	_	_
+
+37	prvič	prvič	ADV	Rgp	Degree=Pos	38	advmod	_	_	_
+
+38	pokazala	pokazati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	28	acl	_	_	_
+
+39	javnosti	javnost	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	38	iobj	_	_	_
+
+40	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039233.txt
+# text = Isto leto so iz Pariza pripeljali v Ljubljano naročene louvrske odlitke, ki so jih veličastno postavili v" slovenski Louvre".
+1	Isto	Ista	DET	Pi-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	2	det	_	_	_
+
+2	leto	leto	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_	_
+
+3	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
+
+4	iz	iz	ADP	Sg	Case=Gen	5	case	_	_	_
+
+5	Pariza	Pariza	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_	_
+
+6	pripeljali	pripeljati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+7	v	v	ADP	Sa	Case=Acc	8	case	_	_	_
+
+8	Ljubljano	Ljubljana	PROPN	Npfsa	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+9	naročene	naročen	ADJ	Appmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	11	amod	_	_	_
+
+10	louvrske	louvrski	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_	_
+
+11	odlitke	odlitek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_	_
+
+12	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+13	ki	ki	SCONJ	Cs	_	17	mark	_	_	_
+
+14	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	aux	_	_	_
+
+15	jih	on	PRON	Pp3fpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	17	obj	_	_	_
+
+16	veličastno	veličasten	ADV	Rgp	Degree=Pos	17	advmod	_	_	_
+
+17	postavili	postaviti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	11	acl	_	_	_
+
+18	v	v	ADP	Sa	Case=Acc	21	case	_	_	_
+
+19	"	"	PUNCT	Z	_	21	punct	_	_	_
+
+20	slovenski	slovenski	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_	_
+
+21	Louvre	Louvre	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_	_
+
+22	"	"	PUNCT	Z	_	21	punct	_	_	_
+
+23	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039233.txt
+# text = Fond donacije dr. Frana Windischerja, ki je bil hkrati mecen in od leta 1929 tudi predsednik društva Narodne galerije, pa je prispeval izjemno vrednost k umetnostni zbirki; Windischerjev fond- prvo volilo v zgodovini ustanove- je še danes temelj galerijske zbirke.
+1	Fond	Fond	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_	_
+
+2	donacije	donacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	dr.	dr.	X	Y	Abbr=Yes	4	nmod	_	_	_
+
+4	Frana	Frana	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	Windischerja	Windischer	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	4	flat:name	_	_	_
+
+6	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+7	ki	ki	SCONJ	Cs	_	11	mark	_	_	_
+
+8	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_	_
+
+9	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	11	cop	_	_	_
+
+10	hkrati	hkrati	ADV	Rgp	Degree=Pos	11	advmod	_	_	_
+
+11	mecen	mecen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	acl	_	_	_
+
+12	in	in	CCONJ	Cc	_	17	cc	_	_	_
+
+13	od	od	ADP	Sg	Case=Gen	14	case	_	_	_
+
+14	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_	_
+
+15	1929	1929	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+
+16	tudi	tudi	PART	Q	_	11	advmod	_	_	_
+
+17	predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_	_
+
+18	društva	društvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_	_
+
+19	Narodne	naroden	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_	_
+
+20	galerije	galerija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_	_
+
+21	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+22	pa	pa	CCONJ	Cc	_	24	advmod	_	_	_
+
+23	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	24	aux	_	_	_
+
+24	prispeval	prispevati	VERB	Vmbp-sm	Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+25	izjemno	izjemen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_	_
+
+26	vrednost	vrednost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_	_
+
+27	k	k	ADP	Sd	Case=Dat	29	case	_	_	_
+
+28	umetnostni	umetnosten	ADJ	Agpfsd	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_	_
+
+29	zbirki	zbirka	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	26	nmod	_	_	_
+
+30	;	;	PUNCT	Z	_	35	punct	_	_	_
+
+31	Windischerjev	Windischer	ADJ	Aspmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	32	amod	_	_	_
+
+32	fond	fond	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_	_
+
+33	-	-	PUNCT	Z	_	34	punct	_	_	_
+
+34	prvo	prvi	ADJ	Mlonsa	Case=Acc|Gender=Neut|NumType=Ord|Number=Sing	32	amod	_	_	_
+
+35	volilo	voliti	VERB	Vmbp-sn	Gender=Neut|Number=Sing|VerbForm=Part	24	parataxis	_	_	_
+
+36	v	v	ADP	Sl	Case=Loc	37	case	_	_	_
+
+37	zgodovini	zgodovina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	35	obl	_	_	_
+
+38	ustanove	ustanova	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	_	_
+
+39	-	-	PUNCT	Z	_	43	punct	_	_	_
+
+40	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	43	cop	_	_	_
+
+41	še	še	PART	Q	_	43	advmod	_	_	_
+
+42	danes	danes	ADV	Rgp	Degree=Pos	43	advmod	_	_	_
+
+43	temelj	temelj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	24	parataxis	_	_	_
+
+44	galerijske	galerijski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	45	amod	_	_	_
+
+45	zbirke	zbirka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	43	nmod	_	_	_
+
+46	.	.	PUNCT	Z	_	24	punct	_	_	_
+

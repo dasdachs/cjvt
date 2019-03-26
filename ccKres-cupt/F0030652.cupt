@@ -1,0 +1,303 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0030652.txt
+# text = ALENKA VILFAN
+1	ALENKA	Alenko	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	VILFAN	Vilfan	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030652.txt
+# text = D 0:1, 2:0
+1	D	D	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	0:1	0:1	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	2:0	2:0	NUM	Mdc	NumForm=Digit|NumType=Card	2	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030652.txt
+# text = 23.
+1	23	23	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030652.txt
+# text = 30Bolezni našega časa: Droge( VPS 23 .25)
+1	30Bolezni	3tbolezen	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	našega	naš	DET	Ps1msgp	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	3	det	_	_	_
+
+3	časa	čas	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+5	Droge	Droge	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	_	_
+
+6	(	(	PUNCT	Z	_	7	punct	_	_	_
+
+7	VPS	VPS	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_	_
+
+8	23	23	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+9	.25	.25	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+10	)	)	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030652.txt
+# text = 6.
+1	6	6	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0030652.txt
+# text = 10 SAM- 6.55 Taff- 7.25 Simpsonovi- 7.50 Kdo je tukaj glavni- 8.20 Roseanne- 8.50 Cybill- 9.20 Nori pobeg, am. drama- 11. 10 Matlock- 12.05 Roseanne- 12.30 Oh, Baby- 13.00 SAM- 14.00 Arabella Kiesbauer- 15.00 Andreas Türck- 16.00 Nicole, talkshow- 17.00 Taff, magazin- 17.30 Cybill- 18.00 Simpsonovi- 18.30 Simpsonovi- 19.00 Družina za umret- 19.30 Galileo- 19.55 Poročila- 20.08 PRO 7- Šport- 20.09 PRO 7- Vreme- 20. 15 Božični čudež, nem. komedija, 1999- 22. 10 Show Inge Appelt- 22.45 Reportaža- 23.40 Debeluh in lepotica, am. komedija, 1989- 1.00 Blago ljubezen
+1	10	10	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	SAM	sam	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+3	-	-	PUNCT	Z	_	4	punct	_	_	_
+
+4	6.55	6.55	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+5	Taff	Taff	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_	_
+
+6	-	-	PUNCT	Z	_	5	punct	_	_	_
+
+7	7.25	7.25	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+8	Simpsonovi	Simpsonov	ADJ	Aspmsnn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	5	amod	_	_	_
+
+9	-	-	PUNCT	Z	_	10	punct	_	_	_
+
+10	7.50	7.50	NUM	Mdc	NumForm=Digit|NumType=Card	14	conj	_	_	_
+
+11	Kdo	kdo	PRON	Pq-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	14	nsubj	_	_	_
+
+12	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	24	cop	_	_	_
+
+13	tukaj	tukaj	ADV	Rgp	Degree=Pos	14	advmod	_	_	_
+
+14	glavni	glaven	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_	_
+
+15	-	-	PUNCT	Z	_	16	punct	_	_	_
+
+16	8.20	8.20	NUM	Mdc	NumForm=Digit|NumType=Card	14	conj	_	_	_
+
+17	Roseanne	Roseanna	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	24	nmod	_	_	_
+
+18	-	-	PUNCT	Z	_	19	punct	_	_	_
+
+19	8.50	8.50	NUM	Mdc	NumForm=Digit|NumType=Card	17	nummod	_	_	_
+
+20	Cybill	Cybill	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	17	conj	_	_	_
+
+21	-	-	PUNCT	Z	_	24	punct	_	_	_
+
+22	9.20	9.20	NUM	Mdc	NumForm=Digit|NumType=Card	20	nummod	_	_	_
+
+23	Nori	nori	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_	_
+
+24	pobeg	pobeg	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+25	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+26	am.	am.	X	Y	Abbr=Yes	27	amod	_	_	_
+
+27	drama	drama	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	24	appos	_	_	_
+
+28	-	-	PUNCT	Z	_	31	punct	_	_	_
+
+29	11.	11.	NUM	Mdo	NumForm=Digit|NumType=Ord	31	nummod	_	_	_
+
+30	10	10	NUM	Mdc	NumForm=Digit|NumType=Card	29	flat	_	_	_
+
+31	Matlock	Matlock	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	24	conj	_	_	_
+
+32	-	-	PUNCT	Z	_	33	punct	_	_	_
+
+33	12.05	12.05	NUM	Mdc	NumForm=Digit|NumType=Card	34	nummod	_	_	_
+
+34	Roseanne	Roseanna	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	31	nmod	_	_	_
+
+35	-	-	PUNCT	Z	_	36	punct	_	_	_
+
+36	12.30	12.30	NUM	Mdc	NumForm=Digit|NumType=Card	34	nummod	_	_	_
+
+37	Oh	oh	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	36	nmod	_	_	_
+
+38	,	,	PUNCT	Z	_	39	punct	_	_	_
+
+39	Baby	Baby	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	42	conj	_	_	_
+
+40	-	-	PUNCT	Z	_	41	punct	_	_	_
+
+41	13.00	13.00	NUM	Mdc	NumForm=Digit|NumType=Card	39	conj	_	_	_
+
+42	SAM	sam	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_	_
+
+43	-	-	PUNCT	Z	_	44	punct	_	_	_
+
+44	14.00	14.00	NUM	Mdc	NumForm=Digit|NumType=Card	42	conj	_	_	_
+
+45	Arabella	Arabell	PROPN	Npfsn	Case=Nom|Gender=Masc|Number=Sing	50	nmod	_	_	_
+
+46	Kiesbauer	Kiesbauer	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	42	conj	_	_	_
+
+47	-	-	PUNCT	Z	_	48	punct	_	_	_
+
+48	15.00	15.00	NUM	Mdc	NumForm=Digit|NumType=Card	46	nummod	_	_	_
+
+49	Andreas	Andreas	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	45	nmod	_	_	_
+
+50	Türck	Türck	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	46	conj	_	_	_
+
+51	-	-	PUNCT	Z	_	52	punct	_	_	_
+
+52	16.00	16.00	NUM	Mdc	NumForm=Digit|NumType=Card	50	nummod	_	_	_
+
+53	Nicole	Nicole	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	46	conj	_	_	_
+
+54	,	,	PUNCT	Z	_	55	punct	_	_	_
+
+55	talkshow	talkshow	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	50	conj	_	_	_
+
+56	-	-	PUNCT	Z	_	57	punct	_	_	_
+
+57	17.00	17.00	NUM	Mdc	NumForm=Digit|NumType=Card	55	conj	_	_	_
+
+58	Taff	Taff	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	50	conj	_	_	_
+
+59	,	,	PUNCT	Z	_	60	punct	_	_	_
+
+60	magazin	magazin	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	55	conj	_	_	_
+
+61	-	-	PUNCT	Z	_	62	punct	_	_	_
+
+62	17.30	17.30	NUM	Mdc	NumForm=Digit|NumType=Card	60	conj	_	_	_
+
+63	Cybill	Cybill	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	60	conj	_	_	_
+
+64	-	-	PUNCT	Z	_	65	punct	_	_	_
+
+65	18.00	18.00	NUM	Mdc	NumForm=Digit|NumType=Card	63	nummod	_	_	_
+
+66	Simpsonovi	Simpsonov	ADJ	Aspmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Poss=Yes	72	amod	_	_	_
+
+67	-	-	PUNCT	Z	_	68	punct	_	_	_
+
+68	18.30	18.30	NUM	Mdc	NumForm=Digit|NumType=Card	66	conj	_	_	_
+
+69	Simpsonovi	Simpsonov	ADJ	Aspmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	72	amod	_	_	_
+
+70	-	-	PUNCT	Z	_	71	punct	_	_	_
+
+71	19.00	19.00	NUM	Mdc	NumForm=Digit|NumType=Card	69	conj	_	_	_
+
+72	Družina	Družina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	63	conj	_	_	_
+
+73	za	za	ADP	Sa	Case=Acc	74	case	_	_	_
+
+74	umret	umret	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	72	nmod	_	_	_
+
+75	-	-	PUNCT	Z	_	76	punct	_	_	_
+
+76	19.30	19.30	NUM	Mdc	NumForm=Digit|NumType=Card	74	conj	_	_	_
+
+77	Galileo	galileo	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	72	nmod	_	_	_
+
+78	-	-	PUNCT	Z	_	79	punct	_	_	_
+
+79	19.55	19.55	NUM	Mdc	NumForm=Digit|NumType=Card	77	nummod	_	_	_
+
+80	Poročila	poročilo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	72	nmod	_	_	_
+
+81	-	-	PUNCT	Z	_	82	punct	_	_	_
+
+82	20.08	20.08	NUM	Mdc	NumForm=Digit|NumType=Card	86	nummod	_	_	_
+
+83	PRO	pro	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	86	nmod	_	_	_
+
+84	7	7	NUM	Mdc	NumForm=Digit|NumType=Card	82	conj	_	_	_
+
+85	-	-	PUNCT	Z	_	86	punct	_	_	_
+
+86	Šport	Šport	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	80	conj	_	_	_
+
+87	-	-	PUNCT	Z	_	88	punct	_	_	_
+
+88	20.09	20.09	NUM	Mdc	NumForm=Digit|NumType=Card	84	conj	_	_	_
+
+89	PRO	pro	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	92	nmod	_	_	_
+
+90	7	7	NUM	Mdc	NumForm=Digit|NumType=Card	86	nummod	_	_	_
+
+91	-	-	PUNCT	Z	_	92	punct	_	_	_
+
+92	Vreme	vreme	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	86	conj	_	_	_
+
+93	-	-	PUNCT	Z	_	94	punct	_	_	_
+
+94	20.	20.	NUM	Mdo	NumForm=Digit|NumType=Ord	92	nummod	_	_	_
+
+95	15	15	NUM	Mdc	NumForm=Digit|NumType=Card	94	flat	_	_	_
+
+96	Božični	Božičen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	97	amod	_	_	_
+
+97	čudež	čudež	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	86	conj	_	_	_
+
+98	,	,	PUNCT	Z	_	99	punct	_	_	_
+
+99	nem.	nem.	X	Y	Abbr=Yes	97	nmod	_	_	_
+
+100	komedija	komedija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	99	conj	_	_	_
+
+101	,	,	PUNCT	Z	_	102	punct	_	_	_
+
+102	1999	1999	NUM	Mdc	NumForm=Digit|NumType=Card	99	conj	_	_	_
+
+103	-	-	PUNCT	Z	_	104	punct	_	_	_
+
+104	22.	22.	NUM	Mdo	NumForm=Digit|NumType=Ord	107	nummod	_	_	_
+
+105	10	10	NUM	Mdc	NumForm=Digit|NumType=Card	107	nummod	_	_	_
+
+106	Show	show	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	107	nmod	_	_	_
+
+107	Inge	Inga	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	99	conj	_	_	_
+
+108	Appelt	Appelt	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	107	flat:name	_	_	_
+
+109	-	-	PUNCT	Z	_	110	punct	_	_	_
+
+110	22.45	22.45	NUM	Mdc	NumForm=Digit|NumType=Card	108	nummod	_	_	_
+
+111	Reportaža	reportaža	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	107	conj	_	_	_
+
+112	-	-	PUNCT	Z	_	113	punct	_	_	_
+
+113	23.40	23.40	NUM	Mdc	NumForm=Digit|NumType=Card	111	nummod	_	_	_
+
+114	Debeluh	debeluh	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	107	conj	_	_	_
+
+115	in	in	CCONJ	Cc	_	116	cc	_	_	_
+
+116	lepotica	lepotica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	107	conj	_	_	_
+
+117	,	,	PUNCT	Z	_	118	punct	_	_	_
+
+118	am.	am.	X	Y	Abbr=Yes	116	appos	_	_	_
+
+119	komedija	komedija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	118	nmod	_	_	_
+
+120	,	,	PUNCT	Z	_	121	punct	_	_	_
+
+121	1989	1989	NUM	Mdc	NumForm=Digit|NumType=Card	118	nummod	_	_	_
+
+122	-	-	PUNCT	Z	_	123	punct	_	_	_
+
+123	1.00	1.00	NUM	Mdc	NumForm=Digit|NumType=Card	121	conj	_	_	_
+
+124	Blago	Blago	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	118	nsubj	_	_	_
+
+125	ljubezen	ljubezen	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	124	nmod	_	_	_
+

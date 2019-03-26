@@ -1,0 +1,657 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0039241.txt
+# text = Kako do darilnega bona?
+1	Kako	kako	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+2	do	do	ADP	Sg	Case=Gen	4	case	_	_	_
+
+3	darilnega	darilen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	bona	bon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing		root	_	_	_
+
+5	?	?	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039241.txt
+# text = Brez vezave pa lahko bon unovčite tako, da vam bomo vrednost bona odšteli od cene mobilnega telefona v prosti prodaji.
+1	Brez	brez	ADP	Sg	Case=Gen	2	case	_	_	_
+
+2	vezave	vezava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_	_
+
+3	pa	pa	CCONJ	Cc	_	6	advmod	_	_	_
+
+4	lahko	lahko	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+5	bon	bon	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_	_
+
+6	unovčite	unovčiti	VERB	Vmem2p	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin		root	_	_	_
+
+7	tako	tako	ADV	Rgp	Degree=Pos	14	mark	_	_	_
+
+8	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+9	da	da	SCONJ	Cs	_	7	fixed	_	_	_
+
+10	vam	ti	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	14	iobj	_	_	_
+
+11	bomo	biti	AUX	Va-f1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	14	aux	_	_	_
+
+12	vrednost	vrednost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_	_
+
+13	bona	bon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+14	odšteli	odšteti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	6	advcl	_	_	_
+
+15	od	od	ADP	Sg	Case=Gen	16	case	_	_	_
+
+16	cene	cena	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_	_
+
+17	mobilnega	mobilen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_	_
+
+18	telefona	telefon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_	_
+
+19	v	v	ADP	Sl	Case=Loc	21	case	_	_	_
+
+20	prosti	prost	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_	_
+
+21	prodaji	prodaja	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+22	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039241.txt
+# text = 1x HDMI, 3x USB, 1X VGA, 1x LAN, 2x Audio
+1	1x	1x	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	HDMI	hDMI	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+4	3x	3x	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+5	USB	USB	NOUN	Ncmsn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+6	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+7	1X	1X	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+8	VGA	VGA	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_	_
+
+9	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+10	1x	1x	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+11	LAN	LAN	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+12	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+13	2x	2x	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+14	Audio	Audio	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039241.txt
+# text = Menjava telefonskega aparata po nakupu, če funkcionalnosti sedanjega telefonskega aparata ustrezajo standardom proizvajalca( to pomeni, da telefonski aparat deluje brezhibno), ni možna.
+1	Menjava	Menjava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_	_
+
+2	telefonskega	telefonski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	aparata	aparat	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	po	po	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	nakupu	nakup	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+6	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+7	če	če	SCONJ	Cs	_	12	mark	_	_	_
+
+8	funkcionalnosti	funkcionalnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	obj	_	_	_
+
+9	sedanjega	sedanji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+10	telefonskega	telefonski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	aparata	aparat	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+12	ustrezajo	ustrezati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_	_
+
+13	standardom	standard	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	12	obj	_	_	_
+
+14	proizvajalca	proizvajalec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+15	(	(	PUNCT	Z	_	17	punct	_	_	_
+
+16	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	17	nsubj	_	_	_
+
+17	pomeni	pomeniti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+18	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+19	da	da	SCONJ	Cs	_	22	mark	_	_	_
+
+20	telefonski	telefonski	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_	_
+
+21	aparat	aparat	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_	_
+
+22	deluje	delovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_	_
+
+23	brezhibno	brezhibno	ADV	Rgp	Degree=Pos	22	advmod	_	_	_
+
+24	)	)	PUNCT	Z	_	22	punct	_	_	_
+
+25	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+26	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	27	cop	_	_	_
+
+27	možna	možen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	ccomp	_	_	_
+
+28	.	.	PUNCT	Z	_	17	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039241.txt
+# text = ste pred kratkim postali naš nov uporabnik. V tem primeru sta ali kartica SIM ali telefon še zmeraj konfigurirana za prejšnjega operaterja in utegneta potrebovati ponovno konfiguracijo.
+1	ste	biti	AUX	Va-r2p-n	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+2	pred	pred	ADP	Si	Case=Ins	3	case	_	_	_
+
+3	kratkim	kratek	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+4	postali	postati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+5	naš	naš	DET	Ps1msnp	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	det	_	_	_
+
+6	nov	nov	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	uporabnik	uporabnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	xcomp	_	_	_
+
+8	.	.	PUNCT	Z	_	20	punct	_	_	_
+
+9	V	v	ADP	Sl	Case=Loc	11	case	_	_	_
+
+10	tem	ta	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_	_
+
+11	primeru	primer	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_	_
+
+12	sta	biti	AUX	Va-r3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	cop	_	_	_
+
+13	ali	ali	CCONJ	Cc	_	14	cc	_	_	_
+
+14	kartica	kartica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_	_
+
+15	SIM	SIM	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+16	ali	ali	CCONJ	Cc	_	17	cc	_	_	_
+
+17	telefon	telefon	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	15	conj	_	_	_
+
+18	še	še	PART	Q	_	20	advmod	_	_	_
+
+19	zmeraj	zmeraj	ADV	Rgp	Degree=Pos	20	advmod	_	_	_
+
+20	konfigurirana	konfiguriran	ADJ	Appmdn	Case=Nom|Degree=Pos|Gender=Masc|Number=Dual|VerbForm=Part	4	parataxis	_	_	_
+
+21	za	za	ADP	Sa	Case=Acc	23	case	_	_	_
+
+22	prejšnjega	prejšnji	ADJ	Agpmsa	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_	_
+
+23	operaterja	operater	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_	_
+
+24	in	in	CCONJ	Cc	_	25	cc	_	_	_
+
+25	utegneta	utegniti	VERB	Vmbr3d	Mood=Ind|Number=Dual|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_	_
+
+26	potrebovati	potrebovati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	25	xcomp	_	_	_
+
+27	ponovno	ponoven	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_	_
+
+28	konfiguracijo	konfiguracija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_	_
+
+29	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039241.txt
+# text = Za pomoč se obrnite na brezplačno številko 080 40 40 40 ali se oglasite na najbližjem Si.mobilovem prodajnem mestu.
+1	Za	za	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	pomoč	pomoč	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+4	obrnite	obrniti	VERB	Vmem2p	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin		root	_	_	_
+
+5	na	na	ADP	Sa	Case=Acc	7	case	_	_	_
+
+6	brezplačno	brezplačen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	_
+
+7	številko	številka	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+8	080	080	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+9	40	40	NUM	Mdc	NumForm=Digit|NumType=Card	8	flat	_	_	_
+
+10	40	40	NUM	Mdc	NumForm=Digit|NumType=Card	9	flat	_	_	_
+
+11	40	40	NUM	Mdc	NumForm=Digit|NumType=Card	9	flat	_	_	_
+
+12	ali	ali	CCONJ	Cc	_	14	cc	_	_	_
+
+13	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	14	expl	_	_	_
+
+14	oglasite	oglasiti	VERB	Vmem2p	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	4	conj	_	_	_
+
+15	na	na	ADP	Sl	Case=Loc	19	case	_	_	_
+
+16	najbližjem	blizek	ADJ	Agsnsl	Case=Loc|Degree=Sup|Gender=Neut|Number=Sing	19	amod	_	_	_
+
+17	Si.mobilovem	Si.mobilov	ADJ	Aspnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Poss=Yes	19	amod	_	_	_
+
+18	prodajnem	prodajen	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_	_
+
+19	mestu	mesto	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_	_
+
+20	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039241.txt
+# text = Če kartica SIM še ni aktivirana.
+1	Če	če	SCONJ	Cs	_	6	mark	_	_	_
+
+2	kartica	kartica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_	_
+
+3	SIM	SIM	NOUN	Ncfsg	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	še	še	PART	Q	_	6	advmod	_	_	_
+
+5	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	cop	_	_	_
+
+6	aktivirana	aktiviran	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+7	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039241.txt
+# text = Kontaktirajte nas na brezplačno telefonsko številko 080 40 40 40 in nam sporočite številko kartice SIM in telefonsko številko.
+1	Kontaktirajte	kontaktirati	VERB	Vmbm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin		root	_	_	_
+
+2	nas	jaz	PRON	Pp1-pa	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	_	_
+
+3	na	na	ADP	Sa	Case=Acc	6	case	_	_	_
+
+4	brezplačno	brezplačen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+5	telefonsko	telefonsko	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	številko	številka	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_	_
+
+7	080	080	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+8	40	40	NUM	Mdc	NumForm=Digit|NumType=Card	7	flat	_	_	_
+
+9	40	40	NUM	Mdc	NumForm=Digit|NumType=Card	8	flat	_	_	_
+
+10	40	40	NUM	Mdc	NumForm=Digit|NumType=Card	8	flat	_	_	_
+
+11	in	in	CCONJ	Cc	_	13	cc	_	_	_
+
+12	nam	jaz	PRON	Pp1-pd	Case=Dat|Number=Plur|Person=1|PronType=Prs	13	iobj	_	_	_
+
+13	sporočite	sporočiti	VERB	Vmem2p	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	1	conj	_	_	_
+
+14	številko	številka	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_	_
+
+15	kartice	kartica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+16	SIM	SIM	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+17	in	in	CCONJ	Cc	_	19	cc	_	_	_
+
+18	telefonsko	telefonsko	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_	_
+
+19	številko	številka	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	conj	_	_	_
+
+20	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039241.txt
+# text = Uporabo mobilnega interneta( prenos podatkov) in uporabo MMS- ov je mogoča v Si.mobilovem omrežju tudi z napačnimi nastavitvami telefona.
+1	Uporabo	uporaba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_	_
+
+2	mobilnega	mobilen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	interneta	internet	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	(	(	PUNCT	Z	_	5	punct	_	_	_
+
+5	prenos	prenos	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_	_
+
+6	podatkov	podatek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_	_
+
+7	)	)	PUNCT	Z	_	5	punct	_	_	_
+
+8	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+9	uporabo	uporaba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	_	_
+
+10	MMS	MMS	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+11	-	-	PUNCT	Z	_	14	punct	_	_	_
+
+12	ov	ov	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+13	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	cop	_	_	_
+
+14	mogoča	mogoč	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing		root	_	_	_
+
+15	v	v	ADP	Sl	Case=Loc	17	case	_	_	_
+
+16	Si.mobilovem	Si.mobilov	ADJ	Aspnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Poss=Yes	17	amod	_	_	_
+
+17	omrežju	omrežje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_	_
+
+18	tudi	tudi	PART	Q	_	14	advmod	_	_	_
+
+19	z	z	ADP	Si	Case=Ins	21	case	_	_	_
+
+20	napačnimi	napačen	ADJ	Agpfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	_	_
+
+21	nastavitvami	nastavitev	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	14	obl	_	_	_
+
+22	telefona	telefon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_	_
+
+23	.	.	PUNCT	Z	_	14	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039241.txt
+# text = Za uporabo teh storitev v gostovanju je potrebno nastaviti pravilne nastavitve.
+1	Za	za	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	uporabo	uporaba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_	_
+
+3	teh	ta	DET	Pd-fpg	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_	_
+
+4	storitev	storitev	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	gostovanju	gostovanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_	_
+
+8	potrebno	potreben	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing		root	_	_	_
+
+9	nastaviti	nastaviti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	8	csubj	_	_	_
+
+10	pravilne	pravilen	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_	_
+
+11	nastavitve	nastavitev	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_	_
+
+12	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039241.txt
+# text = za prehod med paketi Mobilni internet in prehodu med opcijami Mobilni internet.
+1	za	za	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	prehod	prehod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing		root	_	_	_
+
+3	med	med	ADP	Si	Case=Ins	4	case	_	_	_
+
+4	paketi	paketi	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	2	nmod	_	_	_
+
+5	Mobilni	mobilen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+6	internet	internet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	prehodu	prehod	NOUN	Ncmsd	Case=Loc|Gender=Masc|Number=Sing	6	conj	_	_	_
+
+9	med	med	ADP	Si	Case=Ins	10	case	_	_	_
+
+10	opcijami	opcija	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	8	nmod	_	_	_
+
+11	Mobilni	mobilen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_	_
+
+12	internet	internet	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+13	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039241.txt
+# text = Dohodni klici so vsi klici, ki ste jih prejeli na svoj telefon od drugih oseb, vključno s klici preusmerjenimi na vaš odzivnik.
+1	Dohodni	dohoden	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_	_
+
+2	klici	klica	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_	_
+
+3	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+4	vsi	ves	DET	Pg-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	5	det	_	_	_
+
+5	klici	klica	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur		root	_	_	_
+
+6	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+7	ki	ki	SCONJ	Cs	_	10	mark	_	_	_
+
+8	ste	biti	AUX	Va-r2p-n	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	_	_
+
+9	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	10	obj	_	_	_
+
+10	prejeli	prejeti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	5	acl	_	_	_
+
+11	na	na	ADP	Sa	Case=Acc	13	case	_	_	_
+
+12	svoj	svoj	DET	Px-msa	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	13	det	_	_	_
+
+13	telefon	telefon	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_	_
+
+14	od	od	ADP	Sg	Case=Gen	16	case	_	_	_
+
+15	drugih	drug	ADJ	Mlpfpg	Case=Gen|Gender=Fem|Number=Plur	16	amod	_	_	_
+
+16	oseb	oseba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_	_
+
+17	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+18	vključno	vključno	ADV	Rgp	Degree=Pos	20	advmod	_	_	_
+
+19	s	z	ADP	Si	Case=Ins	20	case	_	_	_
+
+20	klici	klica	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	21	obl	_	_	_
+
+21	preusmerjenimi	preusmerjen	ADJ	Appmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	16	amod	_	_	_
+
+22	na	na	ADP	Sa	Case=Acc	24	case	_	_	_
+
+23	vaš	vaš	DET	Ps1msap	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	24	det	_	_	_
+
+24	odzivnik	odzivnik	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obl	_	_	_
+
+25	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039241.txt
+# text = Kaj je skrita številka?
+1	Kaj	kaj	PRON	Pq-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	3	nsubj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_	_
+
+3	skrita	skrit	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+4	številka	številka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+5	?	?	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039241.txt
+# text = preko spletne strani http:// www.
+1	preko	preko	ADP	Sg	Case=Gen	3	case	_	_	_
+
+2	spletne	spleten	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	strani	stran	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing		root	_	_	_
+
+4	http:	http:	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+5	/	/	PUNCT	Z	_	7	punct	_	_	_
+
+6	/	/	PUNCT	Z	_	7	punct	_	_	_
+
+7	www	www	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_	_
+
+8	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039241.txt
+# text = simobil.
+1	simobil	simobiti	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039241.txt
+# text = si/live, > Zvonjenja in slike > Prijava > Moj Račun > Nastavitve Predigre.
+1	si/live	sizliv	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_	_
+
+2	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+3	>	>	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+4	Zvonjenja	zvonjenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	1	conj	_	_	_
+
+5	in	in	CCONJ	Cc	_	6	cc	_	_	_
+
+6	slike	slika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	conj	_	_	_
+
+7	>	>	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+8	Prijava	prijava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+9	>	>	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+10	Moj	moj	DET	Ps1msns	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	11	det	_	_	_
+
+11	Račun	račun	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+12	>	>	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+13	Nastavitve	nastavitev	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+14	Predigre	predigra	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_	_
+
+15	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039241.txt
+# text = Si.mobil je pripravil posebno XL ugodnost za stranke Osebnega bančništva v UniCredit Bank.
+1	Si.mobil	Si.mobil	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	_	_
+
+3	pripravil	pripraviti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+4	posebno	poseben	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+5	XL	XL	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+6	ugodnost	ugodnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_	_
+
+7	za	za	ADP	Sa	Case=Acc	8	case	_	_	_
+
+8	stranke	stranka	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	6	nmod	_	_	_
+
+9	Osebnega	oseben	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_	_
+
+10	bančništva	bančništvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_	_
+
+11	v	v	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	UniCredit	unicredit	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_	_
+
+13	Bank	Bank	PROPN	Npfpg	Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_	_
+
+14	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039241.txt
+# text = Pri Si.mobilu smo pripravili ekskluzivno ponudbo posebej za člane Obrtno- podjetniške zbornice.
+1	Pri	pri	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	Si.mobilu	Si.mobil	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+3	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+4	pripravili	pripraviti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+5	ekskluzivno	ekskluzivno	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	ponudbo	ponudba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_	_
+
+7	posebej	posebej	ADV	Rgp	Degree=Pos	9	advmod	_	_	_
+
+8	za	za	ADP	Sa	Case=Acc	9	case	_	_	_
+
+9	člane	član	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	4	obl	_	_	_
+
+10	Obrtno	obrtno	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_	_
+
+11	-	-	PUNCT	Z	_	12	punct	_	_	_
+
+12	podjetniške	podjetniški	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	conj	_	_	_
+
+13	zbornice	zbornica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+14	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039241.txt
+# text = Kaj vključujejo paketiORTO?
+1	Kaj	kaj	PRON	Pq-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	2	obj	_	_	_
+
+2	vključujejo	vključevati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	paketi	paketi	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_	_
+
+4	ORTO?	orto?	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0039241.txt
+# text = Ob koncu leta 2010 je imela družba Si.mobil 352 zaposlenih, ki so skrbeli za zagotavljanje storitev 605.300 uporabnikom in tako dosegli 28,8- odstotni tržni delež.
+1	Ob	ob	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	koncu	konec	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_	_
+
+3	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+4	2010	2010	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
+
+6	imela	imeti	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+7	družba	družba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_	_
+
+8	Si.mobil	Si.mobil	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+9	352	352	NUM	Mdc	NumForm=Digit|NumType=Card	10	nummod	_	_	_
+
+10	zaposlenih	zaposlen	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	7	amod	_	_	_
+
+11	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+12	ki	ki	SCONJ	Cs	_	14	mark	_	_	_
+
+13	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	aux	_	_	_
+
+14	skrbeli	skrbeti	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	7	acl	_	_	_
+
+15	za	za	ADP	Sa	Case=Acc	16	case	_	_	_
+
+16	zagotavljanje	zagotavljanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_	_
+
+17	storitev	storitev	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_	_
+
+18	605.300	605.300	NUM	Mdc	NumForm=Digit|NumType=Card	19	nummod	_	_	_
+
+19	uporabnikom	uporabnik	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	16	nmod	_	_	_
+
+20	in	in	CCONJ	Cc	_	22	cc	_	_	_
+
+21	tako	tako	ADV	Rgp	Degree=Pos	22	advmod	_	_	_
+
+22	dosegli	doseči	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	14	conj	_	_	_
+
+23	28,8	28,8	NUM	Mdc	NumForm=Digit|NumType=Card	25	nummod	_	_	_
+
+24	-	-	PUNCT	Z	_	25	punct	_	_	_
+
+25	odstotni	odstoten	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_	_
+
+26	tržni	tržen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_	_
+
+27	delež	delež	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_	_
+
+28	.	.	PUNCT	Z	_	6	punct	_	_	_
+

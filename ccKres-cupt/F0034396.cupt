@@ -1,0 +1,293 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0034396.txt
+# text = JOŽE ŽVEGLIČ, Rudarska 9, 8281 Senovo
+1	JOŽE	Jože	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	ŽVEGLIČ	žveglič	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	Rudarska	rudarski	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_	_
+
+5	9	9	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	8281	8281	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+8	Senovo	Senova	PROPN	Npnsn	Case=Nom|Gender=Neut|Number=Sing	4	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034396.txt
+# text = Filmska uspešnica Podli fantje je vnetljiva mešanica med Smrtonosnim orožjem in Policajem z Beverly Hillsa.
+1	Filmska	filmski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	uspešnica	uspešnica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+
+3	Podli	podel	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_	_
+
+4	fantje	fant	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	2	nmod	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	_	_
+
+6	vnetljiva	vnetljiv	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	_
+
+7	mešanica	mešanica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+8	med	med	ADP	Si	Case=Ins	10	case	_	_	_
+
+9	Smrtonosnim	smrtonosen	ADJ	Agpnsi	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_	_
+
+10	orožjem	orožje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	7	nmod	_	_	_
+
+11	in	in	CCONJ	Cc	_	12	cc	_	_	_
+
+12	Policajem	policaj	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	10	conj	_	_	_
+
+13	z	z	ADP	Si	Case=Ins	15	case	_	_	_
+
+14	Beverly	Beverly	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+15	Hillsa	Hills	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+16	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034396.txt
+# text = V glavnih vlogah se nam bosta predstavila Will Smith in Martin Lawrence.
+1	V	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	glavnih	glaven	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_	_
+
+3	vlogah	vloga	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	7	obl	_	_	_
+
+4	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	7	expl	_	_	_
+
+5	nam	jaz	PRON	Pp1-pd	Case=Dat|Number=Plur|Person=1|PronType=Prs	7	obj	_	_	_
+
+6	bosta	biti	AUX	Va-f3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	7	aux	_	_	_
+
+7	predstavila	predstaviti	VERB	Vmep-dm	Aspect=Perf|Gender=Masc|Number=Dual|VerbForm=Part		root	_	_	_
+
+8	Will	Will	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+9	Smith	Smith	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_	_
+
+10	in	in	CCONJ	Cc	_	11	cc	_	_	_
+
+11	Martin	Martin	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_	_
+
+12	Lawrence	Lawrence	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	_	_
+
+13	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034396.txt
+# text = Spoznali ju bomo kot prijatelja in partnerja v službi policije.
+1	Spoznali	spoznati	VERB	Vmbp-pm	Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+2	ju	on	PRON	Pp3mda--y	Case=Acc|Gender=Masc|Number=Dual|Person=3|PronType=Prs|Variant=Short	1	obj	_	_	_
+
+3	bomo	biti	AUX	Va-f1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	1	aux	_	_	_
+
+4	kot	kot	SCONJ	Cs	_	5	case	_	_	_
+
+5	prijatelja	prijatelj	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	obl	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	partnerja	partner	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	conj	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	službi	služba	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+10	policije	policija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+11	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034396.txt
+# text = Če je gregorjevo čas, ko se ženijo ptiči, je bil včasih najbolj primeren čas za ženitve ljudi okoli pusta, torej v pustnem času, za katerega so dejali, da so o pustu zrele neveste, o postu pa preste!
+1	Če	če	SCONJ	Cs	_	16	mark	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	cop	_	_	_
+
+3	gregorjevo	gregorjev	ADJ	Aspnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Poss=Yes	4	amod	_	_	_
+
+4	čas	čas	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_	_
+
+5	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+6	ko	ko	SCONJ	Cs	_	8	mark	_	_	_
+
+7	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	8	expl	_	_	_
+
+8	ženijo	ženeti	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_	_
+
+9	ptiči	ptič	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_	_
+
+10	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+11	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	aux	_	_	_
+
+12	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	16	cop	_	_	_
+
+13	včasih	včasih	ADV	Rgp	Degree=Pos	16	advmod	_	_	_
+
+14	najbolj	najbolj	ADV	Rgs	Degree=Sup	15	advmod	_	_	_
+
+15	primeren	primeren	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_	_
+
+16	čas	čas	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+17	za	za	ADP	Sa	Case=Acc	18	case	_	_	_
+
+18	ženitve	ženitev	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	16	nmod	_	_	_
+
+19	ljudi	človek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_	_
+
+20	okoli	okoli	ADP	Sg	Case=Gen	21	case	_	_	_
+
+21	pusta	pust	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_	_
+
+22	,	,	PUNCT	Z	_	26	punct	_	_	_
+
+23	torej	torej	ADV	Rgp	Degree=Pos	16	advmod	_	_	_
+
+24	v	v	ADP	Sl	Case=Loc	26	case	_	_	_
+
+25	pustnem	pusten	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_	_
+
+26	času	čas	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	18	appos	_	_	_
+
+27	,	,	PUNCT	Z	_	31	punct	_	_	_
+
+28	za	za	ADP	Sa	Case=Acc	29	case	_	_	_
+
+29	katerega	kateri	DET	Pq-msa	Case=Acc|Gender=Masc|Number=Sing|PronType=Int	31	obl	_	_	_
+
+30	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	31	aux	_	_	_
+
+31	dejali	dejati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	26	acl	_	_	_
+
+32	,	,	PUNCT	Z	_	37	punct	_	_	_
+
+33	da	da	SCONJ	Cs	_	37	mark	_	_	_
+
+34	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	37	aux	_	_	_
+
+35	o	o	ADP	Sl	Case=Loc	36	case	_	_	_
+
+36	pustu	pust	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	37	obl	_	_	_
+
+37	zrele	zreti	VERB	Vmpp-pf	Aspect=Imp|Gender=Fem|Number=Plur|VerbForm=Part	31	ccomp	_	_	_
+
+38	neveste	nevest	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	37	nsubj	_	_	_
+
+39	,	,	PUNCT	Z	_	41	punct	_	_	_
+
+40	o	o	ADP	Sl	Case=Loc	41	case	_	_	_
+
+41	postu	post	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	37	obl	_	_	_
+
+42	pa	pa	CCONJ	Cc	_	43	cc	_	_	_
+
+43	preste	prest	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	41	conj	_	_	_
+
+44	!	!	PUNCT	Z	_	16	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034396.txt
+# text = Kakor koli že, jedi v tem času so značilno praznične.
+1	Kakor	kakor	SCONJ	Cs	_	3	case	_	_	_
+
+2	koli	koli	PART	Q	_	1	fixed	_	_	_
+
+3	že	že	PART	Q	_	11	advmod	_	_	_
+
+4	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+5	jedi	jed	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_	_
+
+6	v	v	ADP	Sl	Case=Loc	8	case	_	_	_
+
+7	tem	ta	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_	_
+
+8	času	čas	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_	_
+
+9	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	cop	_	_	_
+
+10	značilno	značilno	ADV	Rgp	Degree=Pos	11	advmod	_	_	_
+
+11	praznične	prazničen	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur		root	_	_	_
+
+12	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034396.txt
+# text = Med tako imenovanimi tradicionalnimi prevladujejo mesnine, zlasti svinjina, klobase, pogače in cvrtje.
+1	Med	med	ADP	Si	Case=Ins	4	case	_	_	_
+
+2	tako	tako	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+3	imenovanimi	imenovan	ADJ	Appfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	2	fixed	_	_	_
+
+4	tradicionalnimi	tradicionalen	ADJ	Agpfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	5	obl	_	_	_
+
+5	prevladujejo	prevladovati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	mesnine	mesnina	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_	_
+
+7	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+8	zlasti	zlasti	PART	Q	_	5	advmod	_	_	_
+
+9	svinjina	svinjina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	_	_
+
+10	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+11	klobase	klobasa	NOUN	Ncfpa	Case=Nom|Gender=Fem|Number=Plur	9	conj	_	_	_
+
+12	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+13	pogače	pogača	NOUN	Ncmpa	Case=Nom|Gender=Masc|Number=Plur	9	conj	_	_	_
+
+14	in	in	CCONJ	Cc	_	15	cc	_	_	_
+
+15	cvrtje	cvrtev	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	6	conj	_	_	_
+
+16	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034396.txt
+# text = Jedi so pretežno mastne in težke.
+1	Jedi	jed	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_	_
+
+3	pretežno	pretežno	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+4	mastne	masten	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur		root	_	_	_
+
+5	in	in	CCONJ	Cc	_	6	cc	_	_	_
+
+6	težke	težek	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	conj	_	_	_
+
+7	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034396.txt
+# text = Od tod tudi pregovor: Pust je masten okrogust!
+1	Od	od	ADP	Sg	Case=Gen	2	case	_	_	_
+
+2	tod	tod	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+3	tudi	tudi	PART	Q	_	4	advmod	_	_	_
+
+4	pregovor	pregovor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+5	:	:	PUNCT	Z	_	8	punct	_	_	_
+
+6	Pust	Pust	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_	_
+
+7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_	_
+
+8	masten	masten	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	parataxis	_	_	_
+
+9	okrog	okrog	ADV	Rgp	Degree=Pos	8	advmod	_	_	_
+
+10	ust!	ust!	PUNCT	Z	_	4	punct	_	_	_
+

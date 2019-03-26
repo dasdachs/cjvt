@@ -1,0 +1,229 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0022992.txt
+# text = Copyright © QED Publishing 2008
+1	Copyright	Copyright	X	Xf	Foreign=Yes		root	_	_	_
+
+2	©	©	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+3	QED	qed	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:foreign	_	_	_
+
+4	Publishing	Publishing	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:foreign	_	_	_
+
+5	2008	2008	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022992.txt
+# text = Za založbo Borut Premzel
+1	Za	za	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	založbo	založba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing		root	_	_	_
+
+3	Borut	Borut	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	Premzel	premzeti	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022992.txt
+# text = Ampak svetilničar je pozabil nekaj pomembnega: da Srečko ne zna brati!
+1	Ampak	ampak	CCONJ	Cc	_	4	cc	_	_	_
+
+2	svetilničar	svetilničar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+4	pozabil	pozabiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	nekaj	nekaj	PRON	Pi-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	4	obj	_	_	_
+
+6	pomembnega	pomemben	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_	_
+
+7	:	:	PUNCT	Z	_	11	punct	_	_	_
+
+8	da	da	SCONJ	Cs	_	11	mark	_	_	_
+
+9	Srečko	srečko	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_	_
+
+10	ne	ne	PART	Q	Polarity=Neg	11	advmod	_	_	_
+
+11	zna	znati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_	_
+
+12	brati	brat	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	11	xcomp	_	_	_
+
+13	!	!	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022992.txt
+# text = Otroci naj poskusijo drug za drugim na glas prebrati zgodbo.
+1	Otroci	otrok	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_	_
+
+2	naj	naj	PART	Q	_	3	advmod	_	_	_
+
+3	poskusijo	poskusiti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	drug	drug	ADJ	Mlpmsnn	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	_	_
+
+5	za	za	ADP	Si	Case=Ins	6	case	_	_	_
+
+6	drugim	drug	ADJ	Mlpmsi	Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+7	na	na	ADP	Sa	Case=Acc	8	case	_	_	_
+
+8	glas	glas	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+9	prebrati	prebrati	VERB	Vmen	Aspect=Perf|VerbForm=Inf	3	xcomp	_	_	_
+
+10	zgodbo	zgodba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_	_
+
+11	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022992.txt
+# text = Pri težjih besedah jim pomagajte, pa ne pozabite jih pohvaliti za trud!
+1	Pri	pri	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	težjih	težek	ADJ	Agcfpl	Case=Loc|Degree=Cmp|Gender=Fem|Number=Plur	3	amod	_	_	_
+
+3	besedah	beseda	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	5	obl	_	_	_
+
+4	jim	on	PRON	Pp3mpd--y	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	5	obj	_	_	_
+
+5	pomagajte	pomagati	VERB	Vmbm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin		root	_	_	_
+
+6	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+7	pa	pa	CCONJ	Cc	_	9	advmod	_	_	_
+
+8	ne	ne	PART	Q	Polarity=Neg	9	advmod	_	_	_
+
+9	pozabite	pozabiti	VERB	Vmem2p	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	5	conj	_	_	_
+
+10	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	11	obj	_	_	_
+
+11	pohvaliti	pohvaliti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	9	xcomp	_	_	_
+
+12	za	za	ADP	Sa	Case=Acc	13	case	_	_	_
+
+13	trud	trud	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_	_
+
+14	!	!	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022992.txt
+# text = Otroci se lahko lotijo skupnega 'projekta ': izdelave svetilnika.
+1	Otroci	otrok	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+3	lahko	lahko	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+4	lotijo	loteti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	skupnega	skupen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+6	'projekta	'projekt	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	obj	_	_	_
+
+7	'	'	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+8	:	:	PUNCT	Z	_	9	punct	_	_	_
+
+9	izdelave	izdelava	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	parataxis	_	_	_
+
+10	svetilnika	svetilnik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+11	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022992.txt
+# text = Najprej naj naredijo načrt.
+1	Najprej	najprej	ADV	Rgs	Degree=Sup	3	advmod	_	_	_
+
+2	naj	naj	PART	Q	_	3	advmod	_	_	_
+
+3	naredijo	narediti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	načrt	načrt	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_	_
+
+5	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022992.txt
+# text = Pogovorite se, kakšna zgradba je to, kje naj bi stala…
+1	Pogovorite	pogovoriti	VERB	Vmem2p	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin		root	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	1	expl	_	_	_
+
+3	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+4	kakšna	kakšen	DET	Pq-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Int	5	det	_	_	_
+
+5	zgradba	zgradba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	ccomp	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+7	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_	_
+
+8	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+9	kje	kje	ADV	Rgp	Degree=Pos	12	advmod	_	_	_
+
+10	naj	naj	PART	Q	_	12	advmod	_	_	_
+
+11	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	12	aux	_	_	_
+
+12	stala	stati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	7	acl	_	_	_
+
+13	…	…	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022992.txt
+# text = Biti mora dobro vidna.
+1	Biti	biti	AUX	Va-n	VerbForm=Inf	4	cop	_	_	_
+
+2	mora	morati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	dobro	dobro	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+4	vidna	viden	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	xcomp	_	_	_
+
+5	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022992.txt
+# text = Imeti mora svetilko.
+1	Imeti	Imeti	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	2	xcomp	_	_	_
+
+2	mora	morati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	svetilko	svetilka	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_	_
+
+4	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022992.txt
+# text = Kakšne barve naj bo?
+1	Kakšne	kakšen	DET	Pq-fsn	Case=Gen|Gender=Fem|Number=Sing|PronType=Int	2	det	_	_	_
+
+2	barve	barva	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_	_
+
+3	naj	naj	PART	Q	_	4	advmod	_	_	_
+
+4	bo	biti	VERB	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin		root	_	_	_
+
+5	?	?	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0022992.txt
+# text = Bi morala biti zelo svetla, da bi bila bolje vidna?
+1	Bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	2	aux	_	_	_
+
+2	morala	morati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+3	biti	biti	AUX	Va-n	VerbForm=Inf	5	cop	_	_	_
+
+4	zelo	zelo	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+5	svetla	svetel	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	xcomp	_	_	_
+
+6	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+7	da	da	SCONJ	Cs	_	11	mark	_	_	_
+
+8	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	11	aux	_	_	_
+
+9	bila	biti	AUX	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	11	cop	_	_	_
+
+10	bolje	dobro	ADV	Rgc	Degree=Cmp	11	advmod	_	_	_
+
+11	vidna	viden	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	advcl	_	_	_
+
+12	?	?	PUNCT	Z	_	2	punct	_	_	_
+

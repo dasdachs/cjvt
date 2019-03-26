@@ -1,0 +1,281 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = Milan Cilenšek
+1	Milan	Milan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Cilenšek	Cilenšek	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 5.00- 8.30 Jutro.
+1	5.00	5.00	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+2	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+3	8.30	8.30	NUM	Mdc	NumForm=Digit|NumType=Card	1	conj	_	_	_
+
+4	Jutro	Jutro	NOUN	Ncmsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+5	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 6.50 Črna kronika.
+1	6.50	6.50	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+2	Črna	črn	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	kronika	kronika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+4	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 8.30- 13.00 Dopoldne na Valu 202. 9.35 Popevki tedna.
+1	8.30	8.30	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+3	13.00	13.00	NUM	Mdc	NumForm=Digit|NumType=Card	1	conj	_	_	_
+
+4	Dopoldne	dopoldne	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+5	na	na	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	Valu	val	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+7	202.	202.	NUM	Mdo	NumForm=Digit|NumType=Ord	9	nummod	_	_	_
+
+8	9.35	9.35	NUM	Mdc	NumForm=Digit|NumType=Card	7	flat	_	_	_
+
+9	Popevki	Popevki	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+10	tedna	teden	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+11	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 10.00 Strokovnjak svetuje.
+1	10.00	10.00	NUM	Mdc	NumForm=Digit|NumType=Card	3	dep	_	_	_
+
+2	Strokovnjak	strokovnjak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+3	svetuje	svetovati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 12.00 Ponedeljkova poljubna pomenkovanja.
+1	12.00	12.00	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+2	Ponedeljkova	Ponedeljkov	ADJ	Aspnpn	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Poss=Yes	4	amod	_	_	_
+
+3	poljubna	poljuben	ADJ	Agpnpn	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	_	_
+
+4	pomenkovanja	pomenkovanje	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur		root	_	_	_
+
+5	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 13.00- 19.00 Val 202 popoldan: 13.00 Danes do 13- ih.
+1	13.00	13.00	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+2	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+3	19.00	19.00	NUM	Mdc	NumForm=Digit|NumType=Card	1	conj	_	_	_
+
+4	Val	val	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+5	202	202	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+6	popoldan	popoldan	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+7	:	:	PUNCT	Z	_	8	punct	_	_	_
+
+8	13.00	13.00	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+9	Danes	danes	ADV	Rgp	Degree=Pos	13	advmod	_	_	_
+
+10	do	do	ADP	Sg	Case=Gen	13	case	_	_	_
+
+11	13	13	NUM	Mdc	NumForm=Digit|NumType=Card	13	nummod	_	_	_
+
+12	-	-	PUNCT	Z	_	13	punct	_	_	_
+
+13	ih	ih	NOUN	Ncfpg	Case=Gen|Gender=Masc|Number=Plur	8	conj	_	_	_
+
+14	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 13.45 Gost izbira glasbo.
+1	13.45	13.45	NUM	Mdc	NumForm=Digit|NumType=Card	3	dep	_	_	_
+
+2	Gost	gost	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+3	izbira	izbirati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	glasbo	glasba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_	_
+
+5	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 14.00 Kulturne drobtinice.
+1	14.00	14.00	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+2	Kulturne	kulturen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_	_
+
+3	drobtinice	drobtinica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur		root	_	_	_
+
+4	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 14.20 Obvestila.
+1	14.20	14.20	NUM	Mdc	NumForm=Digit|NumType=Card	2	advmod	_	_	_
+
+2	Obvestila	obvestiti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+3	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 15.30 Dogodki in odmevi.
+1	15.30	15.30	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Dogodki	dogodek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur		root	_	_	_
+
+3	in	in	CCONJ	Cc	_	4	cc	_	_	_
+
+4	odmevi	odmeva	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	_	_
+
+5	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 16. 15 Popevki tedna.
+1	16	16	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+2	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+3	15	15	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+4	Popevki	Popevki	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Dual		root	_	_	_
+
+5	tedna	teden	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+6	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 17.00 Hip hop galerija.
+1	17.00	17.00	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+2	Hip	hip	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+3	hop	hop	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+4	galerija	galerija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+5	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 17.35 Obvestila 18.45 Črna kronika.
+1	17.35	17.35	NUM	Mdc	NumForm=Digit|NumType=Card	2	dep	_	_	_
+
+2	Obvestila	obvestiti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+3	18.45	18.45	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+4	Črna	črn	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	kronika	kronika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_	_
+
+6	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 19.00 Radijski dnevnik.
+1	19.00	19.00	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+2	Radijski	radijski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	dnevnik	dnevnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+4	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 19.30 Od jazza do jazza.
+1	19.30	19.30	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	Od	od	ADP	Sg	Case=Gen	3	case	_	_	_
+
+3	jazza	jazza	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	do	do	ADP	Sg	Case=Gen	5	case	_	_	_
+
+5	jazza	jazza	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+6	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 20.00 Šepetanja življenja.
+1	20.00	20.00	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Šepetanja	šepetanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing		root	_	_	_
+
+3	življenja	življenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+4	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 21.00 Telstar.
+1	21.00	21.00	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Telstar	Telstar	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 22.00 Zrcalo dneva.
+1	22.00	22.00	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Zrcalo	zrcalo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+3	dneva	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 22.30 V soju žarometov.
+1	22.30	22.30	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	V	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	soju	soj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	žarometov	žaromet	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_	_
+
+5	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 23.
+1	23	23	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 15 Mala nočna filmska.
+1	15	15	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+2	Mala	mala	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+3	nočna	nočen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	filmska	filmski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing		root	_	_	_
+
+5	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 19.
+1	19.	19.	NUM	Mdo	NumForm=Digit|NumType=Ord		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0024128.txt
+# text = 15 24 ur
+1	15	15	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+2	24	24	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+3	ur	ura	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur		root	_	_	_
+

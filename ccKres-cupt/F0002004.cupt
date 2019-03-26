@@ -1,0 +1,353 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0002004.txt
+# text = my DA = new SqlDataAdapter( strQuery, strConn);
+1	my	my	X	Xf	Foreign=Yes		root	_	_	_
+
+2	DA	da	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+3	=	=	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+4	new	new	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:foreign	_	_	_
+
+5	SqlDataAdapter	sqldataadapter	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+6	(	(	PUNCT	Z	_	7	punct	_	_	_
+
+7	strQuery	strQuery	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_	_
+
+8	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+9	strConn	strconen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_	_
+
+10	)	)	PUNCT	Z	_	7	punct	_	_	_
+
+11	;	;	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0002004.txt
+# text = http:/ /www.intel.com
+1	http:	http:	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	/	/	PUNCT	Z	_	3	punct	_	_	_
+
+3	/www.intel.com	zwww.intel.c	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0002004.txt
+# text = Pomanjkljiva varnostna politika je globalni pojav in tudi najbolj napredni na tem področju niso nič boljši od drugih.
+1	Pomanjkljiva	pomanjkljiv	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+2	varnostna	varnosten	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	politika	politika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_	_
+
+5	globalni	globalen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+6	pojav	pojav	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+7	in	in	CCONJ	Cc	_	16	cc	_	_	_
+
+8	tudi	tudi	PART	Q	_	6	advmod	_	_	_
+
+9	najbolj	najbolj	ADV	Rgs	Degree=Sup	10	advmod	_	_	_
+
+10	napredni	napreden	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_	_
+
+11	na	na	ADP	Sl	Case=Loc	13	case	_	_	_
+
+12	tem	ta	DET	Pd-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	13	det	_	_	_
+
+13	področju	področje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	_	_
+
+14	niso	biti	AUX	Va-r3p-y	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	16	cop	_	_	_
+
+15	nič	nič	PRON	Pz-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	16	nmod	_	_	_
+
+16	boljši	dober	ADJ	Agcmpn	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	6	conj	_	_	_
+
+17	od	od	ADP	Sg	Case=Gen	18	case	_	_	_
+
+18	drugih	drug	ADJ	Mlpmpg	Case=Gen|Gender=Masc|Number=Plur	16	amod	_	_	_
+
+19	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0002004.txt
+# text = Nedavna raziskava v ZDA je pokazala, da ima pri njih kar 80 odstotkov podjetij pomanjkljivo varnostno politiko in vsaj na en način( pogosto pa kar na cel niz načinov) ogrožajo svojo varnost in navadno tudi varnost drugih.
+1	Nedavna	nedaven	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	raziskava	raziskava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_	_
+
+3	v	v	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	ZDA	ZDA	PROPN	Npfpl	Case=Loc|Gender=Fem|Number=Plur	2	nmod	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
+
+6	pokazala	pokazati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+7	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+8	da	da	SCONJ	Cs	_	9	mark	_	_	_
+
+9	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	ccomp	_	_	_
+
+10	pri	pri	ADP	Sl	Case=Loc	11	case	_	_	_
+
+11	njih	on	PRON	Pp3mpl	Case=Loc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obl	_	_	_
+
+12	kar	kar	ADV	Rgp	Degree=Pos	13	advmod	_	_	_
+
+13	80	80	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+
+14	odstotkov	odstotek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	9	obj	_	_	_
+
+15	podjetij	podjetje	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	_	_
+
+16	pomanjkljivo	pomanjkljiv	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_	_
+
+17	varnostno	varnosten	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_	_
+
+18	politiko	politika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_	_
+
+19	in	in	CCONJ	Cc	_	33	cc	_	_	_
+
+20	vsaj	vsaj	PART	Q	_	33	advmod	_	_	_
+
+21	na	na	ADP	Sa	Case=Acc	23	case	_	_	_
+
+22	en	en	NUM	Mlpmsa	Case=Acc|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing	23	nummod	_	_	_
+
+23	način	način	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	obl	_	_	_
+
+24	(	(	PUNCT	Z	_	30	punct	_	_	_
+
+25	pogosto	pogosto	ADV	Rgp	Degree=Pos	33	advmod	_	_	_
+
+26	pa	pa	CCONJ	Cc	_	33	advmod	_	_	_
+
+27	kar	kar	ADV	Rgp	Degree=Pos	30	advmod	_	_	_
+
+28	na	na	ADP	Sa	Case=Acc	30	case	_	_	_
+
+29	cel	cel	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_	_
+
+30	niz	niz	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	obl	_	_	_
+
+31	načinov	način	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	_	_
+
+32	)	)	PUNCT	Z	_	30	punct	_	_	_
+
+33	ogrožajo	ogrožati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_	_
+
+34	svojo	svoj	DET	Px-fsa	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	35	det	_	_	_
+
+35	varnost	varnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	33	obj	_	_	_
+
+36	in	in	CCONJ	Cc	_	39	cc	_	_	_
+
+37	navadno	navadno	ADV	Rgp	Degree=Pos	33	advmod	_	_	_
+
+38	tudi	tudi	PART	Q	_	33	advmod	_	_	_
+
+39	varnost	varnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	35	conj	_	_	_
+
+40	drugih	drug	ADJ	Mlpmpg	Case=Gen|Gender=Masc|Number=Plur	39	amod	_	_	_
+
+41	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0002004.txt
+# text = Podatek je presenetljiv zlasti ob dejstvu, da so Američani zaradi lanskoletnih terorističnih napadov prav na tem področju vpregli vse sile in v to vložili velikanska sredstva.
+1	Podatek	podatek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_	_
+
+3	presenetljiv	presenetljiv	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing		root	_	_	_
+
+4	zlasti	zlasti	PART	Q	_	3	advmod	_	_	_
+
+5	ob	ob	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	dejstvu	dejstvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_	_
+
+7	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+8	da	da	SCONJ	Cs	_	19	mark	_	_	_
+
+9	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	aux	_	_	_
+
+10	Američani	Američan	PROPN	Npmpn	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_	_
+
+11	zaradi	zaradi	ADP	Sg	Case=Gen	14	case	_	_	_
+
+12	lanskoletnih	lanskoleten	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_	_
+
+13	terorističnih	terorističen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_	_
+
+14	napadov	napad	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	19	obl	_	_	_
+
+15	prav	prav	PART	Q	_	18	advmod	_	_	_
+
+16	na	na	ADP	Sl	Case=Loc	18	case	_	_	_
+
+17	tem	ta	DET	Pd-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	18	det	_	_	_
+
+18	področju	področje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	19	obl	_	_	_
+
+19	vpregli	vpreči	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	6	acl	_	_	_
+
+20	vse	ves	DET	Pg-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	21	det	_	_	_
+
+21	sile	sila	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_	_
+
+22	in	in	CCONJ	Cc	_	25	cc	_	_	_
+
+23	v	v	ADP	Sa	Case=Acc	24	case	_	_	_
+
+24	to	ta	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	25	obl	_	_	_
+
+25	vložili	vložiti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	19	conj	_	_	_
+
+26	velikanska	velikanski	ADJ	Agpnpa	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	27	amod	_	_	_
+
+27	sredstva	sredstvo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	25	obj	_	_	_
+
+28	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0002004.txt
+# text = Kakor kaže, je to kljub vsemu premalo.
+1	Kakor	kakor	SCONJ	Cs	_	2	mark	_	_	_
+
+2	kaže	kazati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_	_
+
+3	,	,	PUNCT	Z	_	2	punct	_	_	_
+
+4	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	_	_
+
+6	kljub	kljub	ADP	Sd	Case=Dat	7	case	_	_	_
+
+7	vsemu	ves	DET	Pg-nsd	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	8	obl	_	_	_
+
+8	premalo	premalo	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	_	_
+
+9	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0002004.txt
+# text = Zgolj 20 % varnih računalniških okolij dobro prikazuje, kako kompleksen je pojav.
+1	Zgolj	zgolj	PART	Q	_	8	advmod	_	_	_
+
+2	20	20	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+3	%	%	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	nsubj	_	_	_
+
+4	varnih	varen	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	6	amod	_	_	_
+
+5	računalniških	računalniški	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	6	amod	_	_	_
+
+6	okolij	okolje	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_	_
+
+7	dobro	dobro	ADV	Rgp	Degree=Pos	8	advmod	_	_	_
+
+8	prikazuje	prikazovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+10	kako	kako	ADV	Rgp	Degree=Pos	11	advmod	_	_	_
+
+11	kompleksen	kompleksen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	8	ccomp	_	_	_
+
+12	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	cop	_	_	_
+
+13	pojav	pojav	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_	_
+
+14	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0002004.txt
+# text = Prepričan sem, da tudi v Sloveniji ni nič bolje, čeprav v javnosti le redko slišimo o računalniških katastrofah pri nas.
+1	Prepričan	prepričan	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_	_
+
+3	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+4	da	da	SCONJ	Cs	_	8	mark	_	_	_
+
+5	tudi	tudi	PART	Q	_	8	advmod	_	_	_
+
+6	v	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+7	Sloveniji	Slovenija	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+8	ni	biti	VERB	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	1	ccomp	_	_	_
+
+9	nič	nič	PRON	Pz-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	8	nsubj	_	_	_
+
+10	bolje	dobro	ADV	Rgc	Degree=Cmp	8	advmod	_	_	_
+
+11	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+12	čeprav	čeprav	SCONJ	Cs	_	17	mark	_	_	_
+
+13	v	v	ADP	Sl	Case=Loc	14	case	_	_	_
+
+14	javnosti	javnost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_	_
+
+15	le	le	PART	Q	_	17	advmod	_	_	_
+
+16	redko	redko	ADV	Rgp	Degree=Pos	17	advmod	_	_	_
+
+17	slišimo	slišati	VERB	Vmbr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	advcl	_	_	_
+
+18	o	o	ADP	Sl	Case=Loc	20	case	_	_	_
+
+19	računalniških	računalniški	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	_	_
+
+20	katastrofah	katastrofa	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	17	obl	_	_	_
+
+21	pri	pri	ADP	Sl	Case=Loc	22	case	_	_	_
+
+22	nas	jaz	PRON	Pp1-pl	Case=Loc|Number=Plur|Person=1|PronType=Prs	20	nmod	_	_	_
+
+23	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0002004.txt
+# text = Najbrž tudi zato, ker se prizadeti nadvse trudijo, da bi vse skupaj prikrili ali zmanjšali pomen.
+1	Najbrž	najbrž	PART	Q	_	9	advmod	_	_	_
+
+2	tudi	tudi	PART	Q	_	3	fixed	_	_	_
+
+3	zato	zato	ADV	Rgp	Degree=Pos	9	mark	_	_	_
+
+4	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+5	ker	ker	SCONJ	Cs	_	3	fixed	_	_	_
+
+6	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	9	expl	_	_	_
+
+7	prizadeti	prizadeti	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	9	nsubj	_	_	_
+
+8	nadvse	nadvse	ADV	Rgp	Degree=Pos	9	advmod	_	_	_
+
+9	trudijo	truditi	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+11	da	da	SCONJ	Cs	_	15	mark	_	_	_
+
+12	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	15	aux	_	_	_
+
+13	vse	ves	DET	Pg-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	15	obj	_	_	_
+
+14	skupaj	skupaj	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+
+15	prikrili	prikriti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	9	ccomp	_	_	_
+
+16	ali	ali	CCONJ	Cc	_	17	cc	_	_	_
+
+17	zmanjšali	zmanjšati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	15	conj	_	_	_
+
+18	pomen	pomen	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_	_
+
+19	.	.	PUNCT	Z	_	9	punct	_	_	_
+

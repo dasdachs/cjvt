@@ -1,0 +1,613 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = NA KATERIH DELIH SLIKE MANJKAJO TI KOŠČKI?
+1	NA	na	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	KATERIH	kateri	DET	Pq-npl	Case=Loc|Gender=Neut|Number=Plur|PronType=Int	3	det	_	_	_
+
+3	DELIH	delo	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	5	obl	_	_	_
+
+4	SLIKE	slika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+5	MANJKAJO	manjkati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	TI	ta	DET	Pd-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_	_
+
+7	KOŠČKI	košček	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_	_
+
+8	?	?	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = POVEŽI.
+1	POVEŽI.	poveži	X	Y	Abbr=Yes		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = JOPICA SPLETENA.
+1	JOPICA	Jopica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_	_
+
+2	SPLETENA	spleten	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+3	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = PRI MENI SE USTAVI!«
+1	PRI	pri	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	MENI	jaz	PRON	Pp1-sl	Case=Loc|Number=Sing|Person=1|PronType=Prs	4	obl	_	_	_
+
+3	SE	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+4	USTAVI	ustava	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	!	!	PUNCT	Z	_	4	punct	_	_	_
+
+6	«	«	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = 2. fotografija, velika, vse štiri urednice sedimo okrog mize, pred nami tipkopisi kupi, kupi, kupi, in knjige ….
+1	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	fotografija	fotografija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	velika	velik	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+5	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+6	vse	ves	DET	Pg-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	8	det	_	_	_
+
+7	štiri	štirje	NUM	Mlcfpa	Case=Acc|Gender=Fem|NumForm=Word|NumType=Card|Number=Plur	8	nummod	_	_	_
+
+8	urednice	urednica	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_	_
+
+9	sedimo	sedeti	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	okrog	okrog	ADP	Sg	Case=Gen	11	case	_	_	_
+
+11	mize	miza	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_	_
+
+12	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+13	pred	pred	ADP	Si	Case=Ins	14	case	_	_	_
+
+14	nami	jaz	PRON	Pp1-pi	Case=Ins|Number=Plur|Person=1|PronType=Prs	16	obl	_	_	_
+
+15	tipkopisi	tipkopis	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	16	obj	_	_	_
+
+16	kupi	kupa	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_	_
+
+17	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+18	kupi	kupa	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	parataxis	_	_	_
+
+19	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+20	kupi	kupa	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_	_
+
+21	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+22	in	in	CCONJ	Cc	_	23	cc	_	_	_
+
+23	knjige	knjiga	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	20	obj	_	_	_
+
+24	….	….	X	Y	Abbr=Yes	23	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = 5. fotografija, velika: Jelka med svojimi tremi vnuki, dela slika prav rešitve Anjinih ugank.
+1	5.	5.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	fotografija	fotografija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	12	parataxis	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	velika	velik	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+5	:	:	PUNCT	Z	_	2	punct	_	_	_
+
+6	Jelka	Jelka	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_	_
+
+7	med	med	ADP	Si	Case=Ins	10	case	_	_	_
+
+8	svojimi	svoj	DET	Px-mpi	Case=Ins|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	_	_
+
+9	tremi	trije	NUM	Mlcmpi	Case=Ins|Gender=Masc|NumForm=Word|NumType=Card|Number=Plur	10	nummod	_	_	_
+
+10	vnuki	vnuk	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	12	obl	_	_	_
+
+11	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+12	dela	delati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+13	slika	slika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_	_
+
+14	prav	prav	PART	Q	_	15	advmod	_	_	_
+
+15	rešitve	rešitev	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_	_
+
+16	Anjinih	Anjin	ADJ	Aspfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Poss=Yes	17	amod	_	_	_
+
+17	ugank	uganka	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_	_
+
+18	.	.	PUNCT	Z	_	12	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = Tokratna umetnija je zelo velika, naravnost velikanska.
+1	Tokratna	tokraten	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	umetnija	umetnija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+4	zelo	zelo	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+5	velika	velik	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing		root	_	_	_
+
+6	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+7	naravnost	naravnost	ADV	Rgp	Degree=Pos	8	advmod	_	_	_
+
+8	velikanska	velikanski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	conj	_	_	_
+
+9	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = Na rjavem ovojnem papirju so jo naslikali otroci iz skupine Polžki, ki obiskujejo vrtec v Renčah.
+1	Na	na	ADP	Sl	Case=Loc	4	case	_	_	_
+
+2	rjavem	rjav	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+3	ovojnem	ovojen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	papirju	papir	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_	_
+
+5	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_	_
+
+6	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	7	obj	_	_	_
+
+7	naslikali	naslikati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+8	otroci	otrok	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_	_
+
+9	iz	iz	ADP	Sg	Case=Gen	10	case	_	_	_
+
+10	skupine	skupina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+11	Polžki	Polžka	PROPN	Npmpn	Case=Nom|Gender=Masc|Number=Plur	10	nmod	_	_	_
+
+12	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+13	ki	ki	SCONJ	Cs	_	14	mark	_	_	_
+
+14	obiskujejo	obiskovati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	_	_
+
+15	vrtec	vrtec	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_	_
+
+16	v	v	ADP	Sl	Case=Loc	17	case	_	_	_
+
+17	Renčah	renča	PROPN	Npfpl	Case=Loc|Gender=Fem|Number=Plur	15	nmod	_	_	_
+
+18	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = Slovenska ljudska
+1	Slovenska	slovenski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	ljudska	ljudski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = Očka je zazehal.
+1	Očka	očka	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	_	_
+
+3	zazehal	zazehati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+4	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = Fotografiji: Arhiv Tehničnega muzeja Slovenije, Nada Žgank
+1	Fotografiji	fotografija	NOUN	Ncfdn	Case=Nom|Gender=Fem|Number=Dual	3	parataxis	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Arhiv	arhiv	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+4	Tehničnega	tehničen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+5	muzeja	muzej	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+6	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	Nada	nada	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+9	Žgank	Žgank	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	8	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = Fotografiji: staro in novo motorno kolo
+1	Fotografiji	fotografija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	staro	star	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_	_
+
+4	in	in	CCONJ	Cc	_	5	cc	_	_	_
+
+5	novo	nov	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	conj	_	_	_
+
+6	motorno	motoren	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_	_
+
+7	kolo	kolo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = Gospodična s čelado vespa( mestno motorno kolo)
+1	Gospodična	gospodična	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing		root	_	_	_
+
+2	s	z	ADP	Si	Case=Ins	3	case	_	_	_
+
+3	čelado	čelada	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	vespa	vespa	X	Xf	Foreign=Yes	3	nmod	_	_	_
+
+5	(	(	PUNCT	Z	_	8	punct	_	_	_
+
+6	mestno	mesten	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_	_
+
+7	motorno	motoren	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_	_
+
+8	kolo	kolo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	4	appos	_	_	_
+
+9	)	)	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = Mladenič je ubogal.
+1	Mladenič	mladenič	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	_	_
+
+3	ubogal	ubogati	VERB	Vmbp-sm	Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+4	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = Nato je dejala Matuja:» Ta škatlica naj se spremeni v gosli, naj ljudi razveseli ali užalosti, kakor boš hotel.
+1	Nato	nato	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	_	_
+
+3	dejala	dejati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+4	Matuja	Matuja	PROPN	Npmsa	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_	_
+
+5	:	:	PUNCT	Z	_	11	punct	_	_	_
+
+6	»	»	PUNCT	Z	_	3	punct	_	_	_
+
+7	Ta	ta	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_	_
+
+8	škatlica	škatlica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_	_
+
+9	naj	naj	PART	Q	_	11	advmod	_	_	_
+
+10	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	11	expl	_	_	_
+
+11	spremeni	spremeniti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_	_
+
+12	v	v	ADP	Sa	Case=Acc	13	case	_	_	_
+
+13	gosli	gosel	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	11	obl	_	_	_
+
+14	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+15	naj	naj	SCONJ	Cs	_	17	mark	_	_	_
+
+16	ljudi	človek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_	_
+
+17	razveseli	razvesti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	11	advcl	_	_	_
+
+18	ali	ali	CCONJ	Cc	_	19	cc	_	_	_
+
+19	užalosti	užalost	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	17	obj	_	_	_
+
+20	,	,	PUNCT	Z	_	23	punct	_	_	_
+
+21	kakor	kakor	SCONJ	Cs	_	23	mark	_	_	_
+
+22	boš	biti	AUX	Va-f2s-n	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin	23	aux	_	_	_
+
+23	hotel	hoteti	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	19	acl	_	_	_
+
+24	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = «
+1	«	«	PUNCT	Z	_		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = » Kaj je pa v tej skledi?
+1	»	»	PUNCT	Z	_	3	punct	_	_	_
+
+2	Kaj	kaj	PRON	Pq-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	3	nsubj	_	_	_
+
+3	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	pa	pa	CCONJ	Cc	_	3	advmod	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+6	tej	ta	DET	Pd-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_	_
+
+7	skledi	skleda	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_	_
+
+8	?	?	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = « vpraša Karelček.
+1	«	«	PUNCT	Z	_	2	punct	_	_	_
+
+2	vpraša	vpraša	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	Karelček	karelček	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_	_
+
+4	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = ( merjasec, Rdeča kapica, veverica in volk bosta na nalepkah)
+1	(	(	PUNCT	Z	_	5	punct	_	_	_
+
+2	merjasec	merjasec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+4	Rdeča	rdeč	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	kapica	kapica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	veverica	veverica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_	_
+
+8	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+9	volk	volk	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+10	bosta	biti	AUX	Va-f3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	5	cop	_	_	_
+
+11	na	na	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	nalepkah	nalepka	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	9	nmod	_	_	_
+
+13	)	)	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = TOLARČKENABRALE,
+1	TOLARČKE	tolarček	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur		root	_	_	_
+
+2	NABRALE,	nabrale,	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = ZIMA BO S TOLARČKI
+1	ZIMA	ZIMA	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_	_
+
+2	BO	biti	VERB	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin		root	_	_	_
+
+3	S	z	ADP	Si	Case=Ins	4	case	_	_	_
+
+4	TOLARČKI	tolarček	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	2	obl	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = LEJLALEJLALAJLA,
+1	LEJLALEJLA	lejlalejlo	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	LAJLA,	lajla,	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = PIKIJEVE SANJE
+1	PIKIJEVE	pikijeva	ADJ	Aspfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Poss=Yes	2	amod	_	_	_
+
+2	SANJE	SANjE	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = Kaj potrebujemo za izdelavo brklje:
+1	Kaj	kaj	PRON	Pq-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	2	obj	_	_	_
+
+2	potrebujemo	potrebovati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	za	za	ADP	Sa	Case=Acc	4	case	_	_	_
+
+4	izdelavo	izdelava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_	_
+
+5	brklje	brkljati	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+6	:	:	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = Vrvico pretaknemo skozi luknjici v gumbu in jo zavozlamo.
+1	Vrvico	vrvica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_	_
+
+2	pretaknemo	pretakniti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	skozi	skozi	ADP	Sa	Case=Acc	4	case	_	_	_
+
+4	luknjici	luknjica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	gumbu	gumb	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+7	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+8	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	9	obj	_	_	_
+
+9	zavozlamo	zavozlati	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_	_
+
+10	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = Pri gumbu s štirimi luknjicami moramo pretakniti vrvico skozi luknjici, ki si stojita nasproti po diagonali.
+1	Pri	pri	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	gumbu	gumb	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_	_
+
+3	s	z	ADP	Si	Case=Ins	5	case	_	_	_
+
+4	štirimi	štirje	NUM	Mlcfpi	Case=Ins|Gender=Fem|NumForm=Word|NumType=Card|Number=Plur	5	nummod	_	_	_
+
+5	luknjicami	luknjica	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	2	nmod	_	_	_
+
+6	moramo	morati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	pretakniti	pretakniti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	6	xcomp	_	_	_
+
+8	vrvico	vrvica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_	_
+
+9	skozi	skozi	ADP	Sa	Case=Acc	10	case	_	_	_
+
+10	luknjici	luknjica	NOUN	Ncfda	Case=Acc|Gender=Fem|Number=Dual	8	nmod	_	_	_
+
+11	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+12	ki	ki	SCONJ	Cs	_	14	mark	_	_	_
+
+13	si	se	PRON	Px---d--y	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	14	expl	_	_	_
+
+14	stojita	stati	VERB	Vmpr3d	Aspect=Imp|Mood=Ind|Number=Dual|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	_	_
+
+15	nasproti	nasproti	ADV	Rgp	Degree=Pos	17	advmod	_	_	_
+
+16	po	po	ADP	Sl	Case=Loc	17	case	_	_	_
+
+17	diagonali	diagonal	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	14	obl	_	_	_
+
+18	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = KMEČKO PRAZNOVANJE
+1	KMEČKO	kmečki	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_	_
+
+2	PRAZNOVANJE	praznovanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = Vir umetniške reprodukcije: Mojstrovine v muzejih sveta.
+1	Vir	vir	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	umetniške	umetniški	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	reprodukcije	reprodukcija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	:	:	PUNCT	Z	_	5	punct	_	_	_
+
+5	Mojstrovine	mojstrovina	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	_	_
+
+6	v	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+7	muzejih	muzej	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	5	nmod	_	_	_
+
+8	sveta	svet	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+9	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = Ljubljana: Mladinska knjiga 1994, str. 213.
+1	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Mladinska	mladinski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+5	1994	1994	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	str.	str.	X	Y	Abbr=Yes	5	conj	_	_	_
+
+8	213	213	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+9	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = zvezdice na svetilki
+1	zvezdice	zvezdica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur		root	_	_	_
+
+2	na	na	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	svetilki	svetilka	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = Pripravila: Tereza Žerdin
+1	Pripravila	pripraviti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Tereza	Terez	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_	_
+
+4	Žerdin	Žerdin	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = Ilustriral: Peter Škerl
+1	Ilustriral	ilustriral	VERB	Vmbp-sm	Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Peter	Peter	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_	_
+
+4	Škerl	Škerl	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = Majo poveži z mehkimi igračami, Borisa s trdimi.
+1	Majo	Maja	VERB	Vmpr3p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	poveži	povežiti	VERB	Vmer2s	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	xcomp	_	_	_
+
+3	z	z	ADP	Si	Case=Ins	5	case	_	_	_
+
+4	mehkimi	mehek	ADJ	Agpfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_	_
+
+5	igračami	igrača	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	2	obl	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	Borisa	Boris	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	appos	_	_	_
+
+8	s	z	ADP	Si	Case=Ins	9	case	_	_	_
+
+9	trdimi	trd	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	7	nmod	_	_	_
+
+10	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = Katere igrače imaš ti najraje?
+1	Katere	kateri	DET	Pq-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Int	2	det	_	_	_
+
+2	igrače	igrac	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_	_
+
+3	imaš	imeti	VERB	Vmpr2s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	ti	ti	PRON	Pp2-sd--y	Case=Dat|Number=Sing|Person=2|PronType=Prs|Variant=Short	3	obj	_	_	_
+
+5	najraje	najraje	ADV	Rgs	Degree=Sup	3	advmod	_	_	_
+
+6	?	?	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = Igrajmo se:
+1	Igrajmo	igrati	VERB	Vmpm1p	Aspect=Imp|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin		root	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	1	expl	_	_	_
+
+3	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023554.txt
+# text = Ilustrirala: Ana Zavadlav
+1	Ilustrirala	ilustrirati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Ana	Ana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_	_
+
+4	Zavadlav	zavadlav	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	flat:name	_	_	_
+

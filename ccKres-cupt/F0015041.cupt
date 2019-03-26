@@ -1,0 +1,359 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0015041.txt
+# text = 1. člen
+1	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015041.txt
+# text = " 49.
+1	"	"	PUNCT	Z	_	2	punct	_	_	_
+
+2	49	49	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+3	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015041.txt
+# text = a člen Lastniki oziroma uporabniki nepremičnin v območjih, za katera je predvidena izdelava prostorskega izvedbenega načrta, morajo dopustiti dostop do teh nepremičnin ter izvedbo geodetskih, geoloških in drugih del, potrebnih za izdelavo prostorskega izvedbenega načrta, kakor tudi zaradi razlastitve ali omejitve drugih pravic na njih v javno korist.
+1	a	a	CCONJ	Cc	_	19	cc	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_	_
+
+3	Lastniki	lastnik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	2	nmod	_	_	_
+
+4	oziroma	oziroma	CCONJ	Cc	_	5	cc	_	_	_
+
+5	uporabniki	uporabnik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	_	_
+
+6	nepremičnin	nepremičnina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_	_
+
+7	v	v	ADP	Sl	Case=Loc	8	case	_	_	_
+
+8	območjih	območje	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	6	nmod	_	_	_
+
+9	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+10	za	za	ADP	Sa	Case=Acc	11	case	_	_	_
+
+11	katera	kateri	DET	Pq-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int	13	obl	_	_	_
+
+12	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	cop	_	_	_
+
+13	predvidena	predviden	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_	_
+
+14	izdelava	izdelava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_	_
+
+15	prostorskega	prostorski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_	_
+
+16	izvedbenega	izvedben	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_	_
+
+17	načrta	načrt	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+18	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+19	morajo	morati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+20	dopustiti	dopustiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	19	xcomp	_	_	_
+
+21	dostop	dostop	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_	_
+
+22	do	do	ADP	Sg	Case=Gen	24	case	_	_	_
+
+23	teh	ta	DET	Pd-fpg	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	24	det	_	_	_
+
+24	nepremičnin	nepremičnina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	_	_
+
+25	ter	ter	CCONJ	Cc	_	26	cc	_	_	_
+
+26	izvedbo	izvedba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	21	conj	_	_	_
+
+27	geodetskih	geodetski	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	32	amod	_	_	_
+
+28	,	,	PUNCT	Z	_	29	punct	_	_	_
+
+29	geoloških	geološki	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	27	conj	_	_	_
+
+30	in	in	CCONJ	Cc	_	31	cc	_	_	_
+
+31	drugih	drug	ADJ	Mlpnpg	Case=Gen|Gender=Neut|Number=Plur	27	conj	_	_	_
+
+32	del	del	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	26	nmod	_	_	_
+
+33	,	,	PUNCT	Z	_	34	punct	_	_	_
+
+34	potrebnih	potreben	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	32	amod	_	_	_
+
+35	za	za	ADP	Sa	Case=Acc	36	case	_	_	_
+
+36	izdelavo	izdelava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	34	obl	_	_	_
+
+37	prostorskega	prostorski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	_	_
+
+38	izvedbenega	izvedben	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	_	_
+
+39	načrta	načrt	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_	_
+
+40	,	,	PUNCT	Z	_	44	punct	_	_	_
+
+41	kakor	kakor	SCONJ	Cs	_	44	case	_	_	_
+
+42	tudi	tudi	PART	Q	_	41	fixed	_	_	_
+
+43	zaradi	zaradi	ADP	Sg	Case=Gen	44	case	_	_	_
+
+44	razlastitve	razlastitev	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	39	appos	_	_	_
+
+45	ali	ali	CCONJ	Cc	_	46	cc	_	_	_
+
+46	omejitve	omejitev	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	44	conj	_	_	_
+
+47	drugih	drug	ADJ	Mlpfpg	Case=Gen|Gender=Fem|Number=Plur	48	amod	_	_	_
+
+48	pravic	pravica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	46	nmod	_	_	_
+
+49	na	na	ADP	Sl	Case=Loc	50	case	_	_	_
+
+50	njih	on	PRON	Pp3mpl	Case=Loc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	46	nmod	_	_	_
+
+51	v	v	ADP	Sa	Case=Acc	53	case	_	_	_
+
+52	javno	javen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	53	amod	_	_	_
+
+53	korist	korist	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	46	nmod	_	_	_
+
+54	.	.	PUNCT	Z	_	19	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015041.txt
+# text = 6. člen
+1	6.	6.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015041.txt
+# text = Doda se nova druga alinea, ki se glasi:"- za dela, ki so s posebnimi predpisi določena kot vzdrževalna dela;".
+1	Doda	doda	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	1	expl	_	_	_
+
+3	nova	nov	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+4	druga	drug	ADJ	Mlpfsn	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	alinea	alinea	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_	_
+
+6	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+7	ki	ki	SCONJ	Cs	_	9	mark	_	_	_
+
+8	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	9	expl	_	_	_
+
+9	glasi	glasiti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_	_
+
+10	:	:	PUNCT	Z	_	14	punct	_	_	_
+
+11	"	"	PUNCT	Z	_	1	punct	_	_	_
+
+12	-	-	PUNCT	Z	_	14	punct	_	_	_
+
+13	za	za	ADP	Sa	Case=Acc	14	case	_	_	_
+
+14	dela	delo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	9	obl	_	_	_
+
+15	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+16	ki	ki	SCONJ	Cs	_	21	mark	_	_	_
+
+17	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	21	cop	_	_	_
+
+18	s	z	ADP	Si	Case=Ins	20	case	_	_	_
+
+19	posebnimi	poseben	ADJ	Agpmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	20	amod	_	_	_
+
+20	predpisi	predpis	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	21	obl	_	_	_
+
+21	določena	določen	ADJ	Appnpn	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|VerbForm=Part	14	acl	_	_	_
+
+22	kot	kot	SCONJ	Cs	_	24	case	_	_	_
+
+23	vzdrževalna	vzdrževalen	ADJ	Agpnpn	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	24	amod	_	_	_
+
+24	dela	delo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	21	obl	_	_	_
+
+25	;	;	PUNCT	Z	_	1	punct	_	_	_
+
+26	"	"	PUNCT	Z	_	1	punct	_	_	_
+
+27	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015041.txt
+# text = Šesta alinea, ki postane peta alinea, se spremeni tako, da se glasi:"- skrbi za usklajenost lokacijske dokumentacije s prostorskimi izvedbenimi akti;".
+1	Šesta	šesti	ADJ	Mlofsn	Case=Nom|Gender=Fem|NumType=Ord|Number=Sing	2	amod	_	_	_
+
+2	alinea	alinea	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_	_
+
+3	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+4	ki	ki	SCONJ	Cs	_	5	mark	_	_	_
+
+5	postane	postati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_	_
+
+6	peta	peti	ADJ	Mlofsn	Case=Nom|Gender=Fem|NumType=Ord|Number=Sing	7	amod	_	_	_
+
+7	alinea	alinea	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	xcomp	_	_	_
+
+8	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+9	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	10	expl	_	_	_
+
+10	spremeni	spremeniti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+11	tako	tako	ADV	Rgp	Degree=Pos	15	mark	_	_	_
+
+12	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+13	da	da	SCONJ	Cs	_	11	fixed	_	_	_
+
+14	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	15	expl	_	_	_
+
+15	glasi	glasiti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_	_
+
+16	:	:	PUNCT	Z	_	19	punct	_	_	_
+
+17	"	"	PUNCT	Z	_	15	punct	_	_	_
+
+18	-	-	PUNCT	Z	_	19	punct	_	_	_
+
+19	skrbi	skrbeti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_	_
+
+20	za	za	ADP	Sa	Case=Acc	21	case	_	_	_
+
+21	usklajenost	usklajenost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_	_
+
+22	lokacijske	lokacijski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_	_
+
+23	dokumentacije	dokumentacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_	_
+
+24	s	z	ADP	Si	Case=Ins	27	case	_	_	_
+
+25	prostorskimi	prostorski	ADJ	Agpmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	27	amod	_	_	_
+
+26	izvedbenimi	izvedben	ADJ	Agpmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	27	amod	_	_	_
+
+27	akti	akti	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	23	nmod	_	_	_
+
+28	;	;	PUNCT	Z	_	19	punct	_	_	_
+
+29	"	"	PUNCT	Z	_	10	punct	_	_	_
+
+30	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015041.txt
+# text = - da ima gospodarska družba v sodni register vpisano, samostojni podjetnik posameznik pa v sodni register vpisano oziroma pri pristojni davčni upravi priglašeno dejavnost urbanističnega načrtovanja;
+1	-	-	PUNCT	Z	_	9	punct	_	_	_
+
+2	da	da	SCONJ	Cs	_	3	mark	_	_	_
+
+3	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	advcl	_	_	_
+
+4	gospodarska	gospodarski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	družba	družba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+6	v	v	ADP	Sa	Case=Acc	8	case	_	_	_
+
+7	sodni	soden	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+8	register	register	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+9	vpisano	vpisan	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+10	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+11	samostojni	samostojen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_	_
+
+12	podjetnik	podjetnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_	_
+
+13	posameznik	posameznik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	parataxis	_	_	_
+
+14	pa	pa	CCONJ	Cc	_	18	advmod	_	_	_
+
+15	v	v	ADP	Sa	Case=Acc	17	case	_	_	_
+
+16	sodni	soden	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_	_
+
+17	register	register	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_	_
+
+18	vpisano	vpisan	ADJ	Appnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	25	amod	_	_	_
+
+19	oziroma	oziroma	CCONJ	Cc	_	24	cc	_	_	_
+
+20	pri	pri	ADP	Sl	Case=Loc	23	case	_	_	_
+
+21	pristojni	pristojen	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_	_
+
+22	davčni	davčen	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_	_
+
+23	upravi	upraviti	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	24	nmod	_	_	_
+
+24	priglašeno	priglašeno	ADJ	Appfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	18	conj	_	_	_
+
+25	dejavnost	dejavnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_	_
+
+26	urbanističnega	urbanističen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_	_
+
+27	načrtovanja	načrtovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_	_
+
+28	;	;	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015041.txt
+# text = Številka: 803- 01/89- 1/37 Ljubljana, dne 11. julija 1997
+1	Številka	Številka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	parataxis	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	803	803	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+4	-	-	PUNCT	Z	_	5	punct	_	_	_
+
+5	01/89	01/89	NUM	Mdc	NumForm=Digit|NumType=Card	3	conj	_	_	_
+
+6	-	-	PUNCT	Z	_	7	punct	_	_	_
+
+7	1/37	1/37	NUM	Mdc	NumForm=Digit|NumType=Card	5	conj	_	_	_
+
+8	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+9	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+10	dne	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	appos	_	_	_
+
+11	11.	11.	NUM	Mdo	NumForm=Digit|NumType=Ord	12	nummod	_	_	_
+
+12	julija	julij	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+13	1997	1997	NUM	Mdc	NumForm=Digit|NumType=Card	12	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015041.txt
+# text = Predsednik Državnega zbora Republike Slovenije Janez Podobnik, dr. med.
+1	Predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Državnega	državen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	zbora	zbor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+5	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+6	Janez	Janez	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_	_
+
+7	Podobnik	Podobnik	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	_	_
+
+8	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+9	dr.	dr.	X	Y	Abbr=Yes	6	appos	_	_	_
+
+10	med	med	X	Y	Abbr=Yes	9	flat:foreign	_	_	_
+
+11	.	.	PUNCT	Z	_	1	punct	_	_	_
+

@@ -1,0 +1,87 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0007305.txt
+# text = 29 .504; El Hadji Diouf( 37), Stelios Giannakopoulos( 50).
+1	29	29	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	.504	.504	NUM	Mdc	NumForm=Digit|NumType=Card	1	conj	_	_	_
+
+3	;	;	PUNCT	Z	_	2	punct	_	_	_
+
+4	El	el	X	Xf	Foreign=Yes	2	nmod	_	_	_
+
+5	Hadji	hadja	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+6	Diouf	Diouf	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_	_
+
+7	(	(	PUNCT	Z	_	8	punct	_	_	_
+
+8	37	37	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+9	)	)	PUNCT	Z	_	8	punct	_	_	_
+
+10	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+11	Stelios	Stelios	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_	_
+
+12	Giannakopoulos	Giannakopoulos	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	_	_
+
+13	(	(	PUNCT	Z	_	14	punct	_	_	_
+
+14	50	50	NUM	Mdc	NumForm=Digit|NumType=Card	11	nummod	_	_	_
+
+15	)	)	PUNCT	Z	_	14	punct	_	_	_
+
+16	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007305.txt
+# text = ***lakovic brezec*** Jaka Lakovič in Primož Brezec sta bila med najučinkovitejšimi proti Litvi.
+1	***lakovic	uutlakovica	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	brezec**	brezec**	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	parataxis	_	_	_
+
+3	*	*	PUNCT	Z	_	2	punct	_	_	_
+
+4	Jaka	Jaka	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	Lakovič	Lakovič	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	Primož	primož	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_	_
+
+8	Brezec	brezec	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	_	_
+
+9	sta	biti	AUX	Va-r3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	_	_
+
+10	bila	biti	VERB	Va-p-dm	Gender=Masc|Number=Dual|VerbForm=Part		root	_	_	_
+
+11	med	med	ADP	Si	Case=Ins	12	case	_	_	_
+
+12	najučinkovitejšimi	učinkovit	ADJ	Agsfpi	Case=Ins|Degree=Sup|Gender=Fem|Number=Plur	10	obl	_	_	_
+
+13	proti	proti	ADP	Sd	Case=Dat	14	case	_	_	_
+
+14	Litvi	Litva	PROPN	Npfsd	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_	_
+
+15	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007305.txt
+# text = Jože Premec
+1	Jože	Jože	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Premec	premec	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007305.txt
+# text = šŠport in politika
+1	šŠport	šŠport	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	in	in	CCONJ	Cc	_	3	cc	_	_	_
+
+3	politika	politika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007305.txt
+# text = Zoran Račič
+1	Zoran	Zoran	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Račič	Račič	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+

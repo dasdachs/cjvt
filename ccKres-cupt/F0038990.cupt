@@ -1,0 +1,439 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0038990.txt
+# text = Jaka Šimenc, oblikovanje svetlobe
+1	Jaka	Jaka	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Šimenc	Šimenc	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	oblikovanje	oblikovanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	1	appos	_	_	_
+
+5	svetlobe	svetloba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038990.txt
+# text = financirano s strani MEDIA II Programme of the European Community, namenjeno vrhunskim umetnikom za širitev znanja na področju digitalne tehnologije.
+1	financirano	financirano	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	s	z	ADP	Sg	Case=Gen	3	case	_	_	_
+
+3	strani	stran	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	MEDIA	Media	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+5	II	II	NUM	Mrc	NumForm=Roman|NumType=Card	4	nummod	_	_	_
+
+6	Programme	Programme	X	Xf	Foreign=Yes	4	flat:foreign	_	_	_
+
+7	of	of	X	Xf	Foreign=Yes	6	flat:foreign	_	_	_
+
+8	the	the	X	Xf	Foreign=Yes	7	flat:foreign	_	_	_
+
+9	European	european	X	Xf	Foreign=Yes	7	flat:foreign	_	_	_
+
+10	Community	Community	X	Xf	Foreign=Yes	7	flat:foreign	_	_	_
+
+11	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+12	namenjeno	namenjen	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	3	amod	_	_	_
+
+13	vrhunskim	vrhunski	ADJ	Agpmpd	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_	_
+
+14	umetnikom	umetnik	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	12	obj	_	_	_
+
+15	za	za	ADP	Sa	Case=Acc	16	case	_	_	_
+
+16	širitev	širitev	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+17	znanja	znanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_	_
+
+18	na	na	ADP	Sl	Case=Loc	19	case	_	_	_
+
+19	področju	področje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	17	nmod	_	_	_
+
+20	digitalne	digitalen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_	_
+
+21	tehnologije	tehnologija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_	_
+
+22	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038990.txt
+# text = Leta 2005 je prejela štipendijo DSFU za vrhunske ustvarjalce.
+1	Leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_	_
+
+2	2005	2005	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+4	prejela	prejeti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	štipendijo	štipendija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_	_
+
+6	DSFU	DSFU	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+7	za	za	ADP	Sa	Case=Acc	9	case	_	_	_
+
+8	vrhunske	vrhunski	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_	_
+
+9	ustvarjalce	ustvarjalec	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	5	nmod	_	_	_
+
+10	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038990.txt
+# text = Dne 20. 02. 2004 jo je Habilitacijska komisija Univerze v Ljubljani prvič izvolila za redno profesorico za režijo zvoka za dobo 5- ih let.
+1	Dne	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_	_
+
+2	20.	20.	NUM	Mdo	NumForm=Digit|NumType=Ord	1	nummod	_	_	_
+
+3	02.	02.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	flat	_	_	_
+
+4	2004	2004	NUM	Mdc	NumForm=Digit|NumType=Card	2	conj	_	_	_
+
+5	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	13	obj	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	_	_
+
+7	Habilitacijska	habilitacijski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	komisija	komisija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_	_
+
+9	Univerze	univerza	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+10	v	v	ADP	Sl	Case=Loc	11	case	_	_	_
+
+11	Ljubljani	Ljubljana	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+12	prvič	prvič	ADV	Rgp	Degree=Pos	13	advmod	_	_	_
+
+13	izvolila	izvoliti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+14	za	za	ADP	Sa	Case=Acc	16	case	_	_	_
+
+15	redno	reden	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_	_
+
+16	profesorico	profesorica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_	_
+
+17	za	za	ADP	Sa	Case=Acc	18	case	_	_	_
+
+18	režijo	režija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+19	zvoka	zvok	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_	_
+
+20	za	za	ADP	Sa	Case=Acc	21	case	_	_	_
+
+21	dobo	doba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	18	nmod	_	_	_
+
+22	5	5	NUM	Mdc	NumForm=Digit|NumType=Card	25	nummod	_	_	_
+
+23	-	-	PUNCT	Z	_	24	punct	_	_	_
+
+24	ih	ih	NUM	Mlc-p	Case=Gen|NumForm=Word|NumType=Card|Number=Plur	22	conj	_	_	_
+
+25	let	leto	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	21	nmod	_	_	_
+
+26	.	.	PUNCT	Z	_	13	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038990.txt
+# text = Od leta 2004 kot gostujoči predavatelj seminarsko poučuje predmet Experimental Sound Design na HFF- Podstam v Nemčiji.
+1	Od	od	ADP	Sg	Case=Gen	2	case	_	_	_
+
+2	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_	_
+
+3	2004	2004	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+4	kot	kot	SCONJ	Cs	_	6	case	_	_	_
+
+5	gostujoči	gostujoč	ADJ	Appmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	6	amod	_	_	_
+
+6	predavatelj	predavatelj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_	_
+
+7	seminarsko	seminarski	ADV	Rgp	Degree=Pos	8	advmod	_	_	_
+
+8	poučuje	poučevati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	predmet	predmet	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_	_
+
+10	Experimental	Experimental	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+11	Sound	Sound	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+12	Design	Design	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+13	na	na	ADP	Sl	Case=Loc	14	case	_	_	_
+
+14	HFF	HFF	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+15	-	-	PUNCT	Z	_	16	punct	_	_	_
+
+16	Podstam	podstati	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_	_
+
+17	v	v	ADP	Sl	Case=Loc	18	case	_	_	_
+
+18	Nemčiji	Nemčija	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+19	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038990.txt
+# text = Zaradi širitve umetniškega delovanja in uvajanja nove umetnosti v slovenskem prostoru se je leta 2006 odločila odpreti Zavod Atelje sonoričnih umetnosti.
+1	Zaradi	zaradi	ADP	Sg	Case=Gen	2	case	_	_	_
+
+2	širitve	širitev	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_	_
+
+3	umetniškega	umetniški	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_	_
+
+4	delovanja	delovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+5	in	in	CCONJ	Cc	_	6	cc	_	_	_
+
+6	uvajanja	uvajanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	conj	_	_	_
+
+7	nove	nov	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	umetnosti	umetnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	11	case	_	_	_
+
+10	slovenskem	slovenski	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	prostoru	prostor	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+12	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	17	expl	_	_	_
+
+13	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	aux	_	_	_
+
+14	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	17	obl	_	_	_
+
+15	2006	2006	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+
+16	odločila	odločiti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+17	odpreti	odpreti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	16	xcomp	_	_	_
+
+18	Zavod	zavod	NOUN	Ncmsnn	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_	_
+
+19	Atelje	Atelje	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	18	nmod	_	_	_
+
+20	sonoričnih	sonoričen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	_	_
+
+21	umetnosti	umetnost	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_	_
+
+22	.	.	PUNCT	Z	_	16	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038990.txt
+# text = Za svoje umetniško delo na področju oblikovanja zvoka je prejela številna festivalska priznanja in nagrade, med drugim Zlato medaljo mesta Beograd;
+1	Za	za	ADP	Sa	Case=Acc	4	case	_	_	_
+
+2	svoje	svoj	DET	Px-nsa	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	4	det	_	_	_
+
+3	umetniško	umetniški	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_	_
+
+4	delo	delo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_	_
+
+5	na	na	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	področju	področje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+7	oblikovanja	oblikovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_	_
+
+8	zvoka	zvok	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+9	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	_	_
+
+10	prejela	prejeti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+11	številna	številen	ADJ	Agpnpa	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	13	amod	_	_	_
+
+12	festivalska	festivalski	ADJ	Agpnpa	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	13	amod	_	_	_
+
+13	priznanja	priznanje	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	_	_
+
+14	in	in	CCONJ	Cc	_	15	cc	_	_	_
+
+15	nagrade	nagrada	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	13	conj	_	_	_
+
+16	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+17	med	med	ADP	Si	Case=Ins	18	case	_	_	_
+
+18	drugim	drug	ADJ	Mlpnsi	Case=Ins|Gender=Masc|Number=Sing	20	amod	_	_	_
+
+19	Zlato	zlat	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_	_
+
+20	medaljo	medalja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	appos	_	_	_
+
+21	mesta	mesto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_	_
+
+22	Beograd	Beograd	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	21	nmod	_	_	_
+
+23	;	;	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038990.txt
+# text = Zlato areno na puljskem festivalu; štiri Priznanja Metod Badjura na Tednih domačega filma v Celju; ameriško nagrado Westrex za dramaturgijo zvoka CF«
+1	Zlato	zlat	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	areno	arena	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing		root	_	_	_
+
+3	na	na	ADP	Sl	Case=Loc	5	case	_	_	_
+
+4	puljskem	puljski	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+5	festivalu	festival	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+6	;	;	PUNCT	Z	_	8	punct	_	_	_
+
+7	štiri	štirje	NUM	Mlcnpa	Case=Acc|Gender=Neut|NumForm=Word|NumType=Card|Number=Plur	8	nummod	_	_	_
+
+8	Priznanja	priznanje	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	2	conj	_	_	_
+
+9	Metod	metod	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_	_
+
+10	Badjura	Badjura	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+11	na	na	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	Tednih	Tedeno	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	8	nmod	_	_	_
+
+13	domačega	domač	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+14	filma	film	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+15	v	v	ADP	Sl	Case=Loc	16	case	_	_	_
+
+16	Celju	Celje	PROPN	Npnsl	Case=Loc|Gender=Neut|Number=Sing	14	nmod	_	_	_
+
+17	;	;	PUNCT	Z	_	19	punct	_	_	_
+
+18	ameriško	ameriški	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_	_
+
+19	nagrado	nagrada	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	conj	_	_	_
+
+20	Westrex	Westrex	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	19	nmod	_	_	_
+
+21	za	za	ADP	Sa	Case=Acc	22	case	_	_	_
+
+22	dramaturgijo	dramaturgija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	19	nmod	_	_	_
+
+23	zvoka	zvok	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_	_
+
+24	CF	CF	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	23	nmod	_	_	_
+
+25	«	«	PUNCT	Z	_	23	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038990.txt
+# text = Krizno obdobje« v Trstu; nagrado za oblikovanje zvoka pri plesnem filmu KF" Vertigo Bird"- produkcija En- Knap, 6. Portoroški Maraton; 3 nagrade Vesna na Festivalu slovenskega filma leta 2005, 2007 in 2008; ter Župančičevo nagrado za umetniško delo na področju ustvarjanja zvoka.
+1	Krizno	krizen	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_	_
+
+2	obdobje	obdobje	NOUN	Ncnsn	Case=Acc|Gender=Neut|Number=Sing		root	_	_	_
+
+3	«	«	PUNCT	Z	_	2	punct	_	_	_
+
+4	v	v	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	Trstu	Trst	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+6	;	;	PUNCT	Z	_	2	punct	_	_	_
+
+7	nagrado	nagrada	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+8	za	za	ADP	Sa	Case=Acc	9	case	_	_	_
+
+9	oblikovanje	oblikovanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	_	_
+
+10	zvoka	zvok	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+11	pri	pri	ADP	Sl	Case=Loc	13	case	_	_	_
+
+12	plesnem	plesen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_	_
+
+13	filmu	film	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+14	KF	KF	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+15	"	"	PUNCT	Z	_	16	punct	_	_	_
+
+16	Vertigo	vertiga	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+17	Bird	Bird	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+18	"	"	PUNCT	Z	_	16	punct	_	_	_
+
+19	-	-	PUNCT	Z	_	20	punct	_	_	_
+
+20	produkcija	produkcija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	17	conj	_	_	_
+
+21	En	en	NUM	Mlpmsn	Case=Nom|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing	20	nummod	_	_	_
+
+22	-	-	PUNCT	Z	_	23	punct	_	_	_
+
+23	Knap	knap	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	21	conj	_	_	_
+
+24	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+25	6.	6.	NUM	Mdo	NumForm=Digit|NumType=Ord	27	nummod	_	_	_
+
+26	Portoroški	portoroški	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_	_
+
+27	Maraton	Maraton	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	20	conj	_	_	_
+
+28	;	;	PUNCT	Z	_	30	punct	_	_	_
+
+29	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	30	nummod	_	_	_
+
+30	nagrade	nagrada	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	conj	_	_	_
+
+31	Vesna	Vesna	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	30	nmod	_	_	_
+
+32	na	na	ADP	Sl	Case=Loc	33	case	_	_	_
+
+33	Festivalu	festival	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	30	nmod	_	_	_
+
+34	slovenskega	slovenski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_	_
+
+35	filma	film	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_	_
+
+36	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	33	nmod	_	_	_
+
+37	2005	2005	NUM	Mdc	NumForm=Digit|NumType=Card	36	nummod	_	_	_
+
+38	,	,	PUNCT	Z	_	39	punct	_	_	_
+
+39	2007	2007	NUM	Mdc	NumForm=Digit|NumType=Card	37	conj	_	_	_
+
+40	in	in	CCONJ	Cc	_	41	cc	_	_	_
+
+41	2008	2008	NUM	Mdc	NumForm=Digit|NumType=Card	37	conj	_	_	_
+
+42	;	;	PUNCT	Z	_	45	punct	_	_	_
+
+43	ter	ter	CCONJ	Cc	_	45	cc	_	_	_
+
+44	Župančičevo	župančičev	ADJ	Aspfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	45	amod	_	_	_
+
+45	nagrado	nagrada	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	_	_
+
+46	za	za	ADP	Sa	Case=Acc	48	case	_	_	_
+
+47	umetniško	umetniški	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	48	amod	_	_	_
+
+48	delo	delo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	45	nmod	_	_	_
+
+49	na	na	ADP	Sl	Case=Loc	50	case	_	_	_
+
+50	področju	področje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	45	nmod	_	_	_
+
+51	ustvarjanja	ustvarjanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	50	nmod	_	_	_
+
+52	zvoka	zvok	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	51	nmod	_	_	_
+
+53	.	.	PUNCT	Z	_	20	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038990.txt
+# text = Brina Kozlevčar
+1	Brina	Brin	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	Kozlevčar	Kozlevčar	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038990.txt
+# text = Vivace
+1	Vivace	Vivace	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+

@@ -1,0 +1,1265 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = 1." Slovenija" Republiko Slovenijo," Hrvaška" Republiko Hrvaško;
+1	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	3	nummod	_	_	_
+
+2	"	"	PUNCT	Z	_	3	punct	_	_	_
+
+3	Slovenija	Slovenija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+4	"	"	PUNCT	Z	_	3	punct	_	_	_
+
+5	Republiko	republika	PROPN	Npfsa	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+6	Slovenijo	Slovenija	PROPN	Npfsa	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+7	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+8	"	"	PUNCT	Z	_	9	punct	_	_	_
+
+9	Hrvaška	hrvaški	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	_	_
+
+10	"	"	PUNCT	Z	_	9	punct	_	_	_
+
+11	Republiko	republika	PROPN	Npfsa	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+12	Hrvaško	Hrvaška	PROPN	Npfsa	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+13	;	;	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = ( 2)
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	2	2	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+3	)	)	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = Državljanom druge države pogodbenice, ki prebivajo v tretji državi, izplačuje prva država pogodbenica pokojnine in druge dajatve pod enakimi pogoji kakor svojim državljanom, ki tam prebivajo.
+1	Državljanom	Državljan	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	12	obj	_	_	_
+
+2	druge	drug	ADJ	Mlpfsg	Case=Gen|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+5	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+6	ki	ki	SCONJ	Cs	_	7	mark	_	_	_
+
+7	prebivajo	prebivati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	10	case	_	_	_
+
+9	tretji	tretji	ADJ	Mlofsl	Case=Loc|Gender=Fem|NumType=Ord|Number=Sing	10	amod	_	_	_
+
+10	državi	država	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_	_
+
+11	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+12	izplačuje	izplačevati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+13	prva	prvi	ADJ	Mlofsn	Case=Nom|Gender=Fem|NumType=Ord|Number=Sing	14	amod	_	_	_
+
+14	država	država	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_	_
+
+15	pogodbenica	pogodbenica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	12	xcomp	_	_	_
+
+16	pokojnine	pokojnina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_	_
+
+17	in	in	CCONJ	Cc	_	19	cc	_	_	_
+
+18	druge	drug	ADJ	Mlpfsa	Case=Gen|Gender=Fem|Number=Plur	19	amod	_	_	_
+
+19	dajatve	dajatev	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	16	conj	_	_	_
+
+20	pod	pod	ADP	Si	Case=Ins	22	case	_	_	_
+
+21	enakimi	enak	DET	Pi-mpi	Case=Ins|Gender=Masc|Number=Plur|PronType=Ind	22	det	_	_	_
+
+22	pogoji	pogoj	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	19	nmod	_	_	_
+
+23	kakor	kakor	SCONJ	Cs	_	25	case	_	_	_
+
+24	svojim	svoj	DET	Px-mpd	Case=Dat|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	25	det	_	_	_
+
+25	državljanom	državljan	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	22	conj	_	_	_
+
+26	,	,	PUNCT	Z	_	29	punct	_	_	_
+
+27	ki	ki	SCONJ	Cs	_	29	mark	_	_	_
+
+28	tam	tam	ADV	Rgp	Degree=Pos	29	advmod	_	_	_
+
+29	prebivajo	prebivati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl	_	_	_
+
+30	.	.	PUNCT	Z	_	12	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = 7. člen Splošno pravilo zavarovanja
+1	7.	7.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	Splošno	splošen	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_	_
+
+4	pravilo	pravilo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+5	zavarovanja	zavarovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = Za obvezno zavarovanje zaposlene osebe in osebe, ki opravlja samostojno dejavnost, veljajo pravni predpisi države pogodbenice, na območju katere se delo oz. samostojna dejavnost opravlja, če ni v 8. in 9. členu tega sporazuma drugače določeno.
+1	Za	za	ADP	Sa	Case=Acc	3	case	_	_	_
+
+2	obvezno	obvezen	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_	_
+
+3	zavarovanje	zavarovanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_	_
+
+4	zaposlene	zaposlen	ADJ	Appfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	5	amod	_	_	_
+
+5	osebe	oseba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	osebe	oseba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	conj	_	_	_
+
+8	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+9	ki	ki	SCONJ	Cs	_	10	mark	_	_	_
+
+10	opravlja	opravljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	_	_
+
+11	samostojno	samostojen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_	_
+
+12	dejavnost	dejavnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_	_
+
+13	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+14	veljajo	veljati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+15	pravni	praven	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_	_
+
+16	predpisi	predpis	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_	_
+
+17	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+18	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_	_
+
+19	,	,	PUNCT	Z	_	28	punct	_	_	_
+
+20	na	na	ADP	Sl	Case=Loc	21	case	_	_	_
+
+21	območju	območje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	28	obl	_	_	_
+
+22	katere	kateri	DET	Pq-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Int	21	nmod	_	_	_
+
+23	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	28	expl	_	_	_
+
+24	delo	delo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	28	obj	_	_	_
+
+25	oz.	oz.	X	Y	Abbr=Yes	27	cc	_	_	_
+
+26	samostojna	samostojen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_	_
+
+27	dejavnost	dejavnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	24	conj	_	_	_
+
+28	opravlja	opravljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl	_	_	_
+
+29	,	,	PUNCT	Z	_	40	punct	_	_	_
+
+30	če	če	SCONJ	Cs	_	40	mark	_	_	_
+
+31	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	40	cop	_	_	_
+
+32	v	v	ADP	Sl	Case=Loc	36	case	_	_	_
+
+33	8.	8.	NUM	Mdo	NumForm=Digit|NumType=Ord	36	nummod	_	_	_
+
+34	in	in	CCONJ	Cc	_	35	cc	_	_	_
+
+35	9.	9.	NUM	Mdo	NumForm=Digit|NumType=Ord	33	conj	_	_	_
+
+36	členu	člen	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	40	obl	_	_	_
+
+37	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	38	det	_	_	_
+
+38	sporazuma	sporazum	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_	_
+
+39	drugače	drugače	ADV	Rgp	Degree=Pos	40	advmod	_	_	_
+
+40	določeno	določen	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	28	advcl	_	_	_
+
+41	.	.	PUNCT	Z	_	14	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = ( 1)
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	1	1	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+3	)	)	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = Če delodajalec s sedežem na območju ene države pogodbenice pošlje svojega zaposlenega na območje druge države pogodbenice, se zanj uporabljajo do konca 24. koledarskega meseca po začetku dela na območju druge države pogodbenice pravni predpisi prve države pogodbenice, kot da je še vedno zaposlen na območju prve države pogodbenice.
+1	Če	če	SCONJ	Cs	_	10	mark	_	_	_
+
+2	delodajalec	delodajalec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_	_
+
+3	s	z	ADP	Si	Case=Ins	4	case	_	_	_
+
+4	sedežem	sedež	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_	_
+
+5	na	na	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	območju	območje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+7	ene	en	NUM	Mlpfsg	Case=Gen|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing	8	nummod	_	_	_
+
+8	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+9	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+10	pošlje	poslati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_	_
+
+11	svojega	svoj	DET	Px-msa	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	12	nmod	_	_	_
+
+12	zaposlenega	zaposlen	ADJ	Appmsa	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	10	obj	_	_	_
+
+13	na	na	ADP	Sa	Case=Acc	14	case	_	_	_
+
+14	območje	območje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_	_
+
+15	druge	drug	ADJ	Mlpfsg	Case=Gen|Gender=Fem|Number=Sing	16	amod	_	_	_
+
+16	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+17	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+18	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+19	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	21	expl	_	_	_
+
+20	zanj	zame	PRON	Pp3msa--b	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Bound	21	obj	_	_	_
+
+21	uporabljajo	uporabljati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+22	do	do	ADP	Sg	Case=Gen	23	case	_	_	_
+
+23	konca	konec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	21	obl	_	_	_
+
+24	24.	24.	NUM	Mdo	NumForm=Digit|NumType=Ord	26	nummod	_	_	_
+
+25	koledarskega	koledarski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_	_
+
+26	meseca	mesec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_	_
+
+27	po	po	ADP	Sl	Case=Loc	28	case	_	_	_
+
+28	začetku	začetek	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	21	obl	_	_	_
+
+29	dela	delo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	_	_
+
+30	na	na	ADP	Sl	Case=Loc	31	case	_	_	_
+
+31	območju	območje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	28	nmod	_	_	_
+
+32	druge	drug	ADJ	Mlpfsg	Case=Gen|Gender=Fem|Number=Sing	33	amod	_	_	_
+
+33	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_	_
+
+34	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	_	_
+
+35	pravni	praven	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	36	amod	_	_	_
+
+36	predpisi	predpis	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	34	nmod	_	_	_
+
+37	prve	prvi	ADJ	Mlofsg	Case=Gen|Gender=Fem|NumType=Ord|Number=Sing	38	amod	_	_	_
+
+38	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	_	_
+
+39	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	38	nmod	_	_	_
+
+40	,	,	PUNCT	Z	_	46	punct	_	_	_
+
+41	kot	kot	SCONJ	Cs	_	46	mark	_	_	_
+
+42	da	da	SCONJ	Cs	_	41	fixed	_	_	_
+
+43	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	46	cop	_	_	_
+
+44	še	še	PART	Q	_	46	advmod	_	_	_
+
+45	vedno	vedno	ADV	Rgp	Degree=Pos	46	advmod	_	_	_
+
+46	zaposlen	zaposlen	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	39	acl	_	_	_
+
+47	na	na	ADP	Sl	Case=Loc	48	case	_	_	_
+
+48	območju	območje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	46	obl	_	_	_
+
+49	prve	prvi	ADJ	Mlofsg	Case=Gen|Gender=Fem|NumType=Ord|Number=Sing	50	amod	_	_	_
+
+50	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	48	nmod	_	_	_
+
+51	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	50	nmod	_	_	_
+
+52	.	.	PUNCT	Z	_	21	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = ( 2)
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	2	2	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+3	)	)	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = Določba prvega odstavka tega člena se s soglasjem pristojnega nosilca uporablja tudi za družinske člane, ki prebivajo z zavarovancem na območju druge države pogodbenice.
+1	Določba	določba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_	_
+
+2	prvega	prvi	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	3	amod	_	_	_
+
+3	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_	_
+
+5	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+6	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	11	expl	_	_	_
+
+7	s	z	ADP	Si	Case=Ins	8	case	_	_	_
+
+8	soglasjem	soglasje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	11	obl	_	_	_
+
+9	pristojnega	pristojen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	nosilca	nosilec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+11	uporablja	uporabljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+12	tudi	tudi	PART	Q	_	11	advmod	_	_	_
+
+13	za	za	ADP	Sa	Case=Acc	15	case	_	_	_
+
+14	družinske	družinski	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_	_
+
+15	člane	član	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	11	obl	_	_	_
+
+16	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+17	ki	ki	SCONJ	Cs	_	18	mark	_	_	_
+
+18	prebivajo	prebivati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	_	_
+
+19	z	z	ADP	Si	Case=Ins	20	case	_	_	_
+
+20	zavarovancem	zavarovanec	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	18	obl	_	_	_
+
+21	na	na	ADP	Sl	Case=Loc	22	case	_	_	_
+
+22	območju	območje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	20	nmod	_	_	_
+
+23	druge	drug	ADJ	Mlpfsg	Case=Gen|Gender=Fem|Number=Sing	24	amod	_	_	_
+
+24	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_	_
+
+25	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_	_
+
+26	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = Družinski člani, ki so zdravstveno zavarovani pri pristojnem nosilcu ene države pogodbenice, so v njegovo breme upravičeni do storitev na območju druge države pogodbenice, če imajo tam stalno prebivališče.
+1	Družinski	družinski	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_	_
+
+2	člani	član	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_	_
+
+3	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+4	ki	ki	SCONJ	Cs	_	7	mark	_	_	_
+
+5	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	_	_
+
+6	zdravstveno	zdravstveno	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+7	zavarovani	zavarovan	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_	_
+
+8	pri	pri	ADP	Sl	Case=Loc	10	case	_	_	_
+
+9	pristojnem	pristojen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	nosilcu	nosilec	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_	_
+
+11	ene	en	NUM	Mlpfsg	Case=Gen|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing	12	nummod	_	_	_
+
+12	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_	_
+
+13	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+14	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+15	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	cop	_	_	_
+
+16	v	v	ADP	Sa	Case=Acc	18	case	_	_	_
+
+17	njegovo	njegov	DET	Ps3nsasm	Case=Acc|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	_	_	_
+
+18	breme	breme	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	_	_
+
+19	upravičeni	upravičen	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+20	do	do	ADP	Sg	Case=Gen	21	case	_	_	_
+
+21	storitev	storitev	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	19	obl	_	_	_
+
+22	na	na	ADP	Sl	Case=Loc	23	case	_	_	_
+
+23	območju	območje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	21	nmod	_	_	_
+
+24	druge	drug	ADJ	Mlpfsg	Case=Gen|Gender=Fem|Number=Sing	25	amod	_	_	_
+
+25	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_	_
+
+26	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_	_
+
+27	,	,	PUNCT	Z	_	29	punct	_	_	_
+
+28	če	če	SCONJ	Cs	_	29	mark	_	_	_
+
+29	imajo	imeti	VERB	Vmpr3p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	advcl	_	_	_
+
+30	tam	tam	ADV	Rgp	Degree=Pos	29	advmod	_	_	_
+
+31	stalno	stalen	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_	_
+
+32	prebivališče	prebivališče	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	29	obj	_	_	_
+
+33	.	.	PUNCT	Z	_	19	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = Obseg, vrsta in način uveljavljanja storitev se določijo po pravnih predpisih pomožnega nosilca, trajanje pravic in krog družinskih članov pa po pravnih predpisih pristojnega nosilca.
+1	Obseg	obseg	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_	_
+
+2	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+3	vrsta	vrsta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_	_
+
+4	in	in	CCONJ	Cc	_	5	cc	_	_	_
+
+5	način	način	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+6	uveljavljanja	uveljavljanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_	_
+
+7	storitev	storitev	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_	_
+
+8	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	9	expl	_	_	_
+
+9	določijo	določiti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	po	po	ADP	Sl	Case=Loc	12	case	_	_	_
+
+11	pravnih	praven	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_	_
+
+12	predpisih	predpis	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	9	obl	_	_	_
+
+13	pomožnega	pomožen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+14	nosilca	nosilec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+15	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+16	trajanje	trajanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	12	conj	_	_	_
+
+17	pravic	pravica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_	_
+
+18	in	in	CCONJ	Cc	_	19	cc	_	_	_
+
+19	krog	krog	NOUN	Ncmsnn	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	conj	_	_	_
+
+20	družinskih	družinski	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_	_
+
+21	članov	član	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_	_
+
+22	pa	pa	CCONJ	Cc	_	25	cc	_	_	_
+
+23	po	po	ADP	Sl	Case=Loc	25	case	_	_	_
+
+24	pravnih	praven	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	25	amod	_	_	_
+
+25	predpisih	predpis	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	12	conj	_	_	_
+
+26	pristojnega	pristojen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_	_
+
+27	nosilca	nosilec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_	_
+
+28	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = ( 3)
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	3	3	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+3	)	)	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = Določbe prvega in drugega odstavka tega člena se uporabljajo tudi za družinske člane upokojencev, pri čemer se krog družinskih članov in trajanje pravic določata po pravnih predpisih pristojnega nosilca.
+1	Določbe	določba	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_	_
+
+2	prvega	prvi	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	5	amod	_	_	_
+
+3	in	in	CCONJ	Cc	_	4	cc	_	_	_
+
+4	drugega	drug	ADJ	Mlpmsg	Case=Gen|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+5	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+6	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_	_
+
+7	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+8	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	9	expl	_	_	_
+
+9	uporabljajo	uporabljati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	tudi	tudi	PART	Q	_	9	advmod	_	_	_
+
+11	za	za	ADP	Sa	Case=Acc	13	case	_	_	_
+
+12	družinske	družinski	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_	_
+
+13	člane	član	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	9	obl	_	_	_
+
+14	upokojencev	upokojenec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_	_
+
+15	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+16	pri	pri	ADP	Sl	Case=Loc	17	case	_	_	_
+
+17	čemer	kar	PRON	Pr-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Rel	25	obl	_	_	_
+
+18	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	25	expl	_	_	_
+
+19	krog	krog	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_	_
+
+20	družinskih	družinski	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_	_
+
+21	članov	član	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_	_
+
+22	in	in	CCONJ	Cc	_	23	cc	_	_	_
+
+23	trajanje	trajanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	21	conj	_	_	_
+
+24	pravic	pravica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_	_
+
+25	določata	določati	VERB	Vmpr3d	Aspect=Imp|Mood=Ind|Number=Dual|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_	_
+
+26	po	po	ADP	Sl	Case=Loc	28	case	_	_	_
+
+27	pravnih	praven	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	28	amod	_	_	_
+
+28	predpisih	predpis	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	25	obl	_	_	_
+
+29	pristojnega	pristojen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_	_
+
+30	nosilca	nosilec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_	_
+
+31	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = 17. člen Obračun stroškov
+1	17.	17.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	Obračun	obračun	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	stroškov	strošek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = 24. člen Upoštevanje dejstev
+1	24.	24.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	Upoštevanje	upoštevanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+4	dejstev	dejstvo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = 25. člen Določitev sorazmernega dela dajatve
+1	25.	25.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	Določitev	določitev	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	sorazmernega	sorazmeren	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+5	dela	delo	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+6	dajatve	dajatev	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = ( 3)
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	3	3	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+3	)	)	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = Nakazila se na podlagi tega sporazuma opravljajo v skladu s sporazumom o plačilnem prometu, ki velja med državama pogodbenicama v času nakazila.
+1	Nakazila	nakaziti	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	7	expl	_	_	_
+
+3	na	na	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	podlagi	podlaga	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_	_
+
+5	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_	_
+
+6	sporazuma	sporazum	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+7	opravljajo	opravljati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	skladu	sklad	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_	_
+
+10	s	z	ADP	Si	Case=Ins	11	case	_	_	_
+
+11	sporazumom	sporazum	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+12	o	o	ADP	Sl	Case=Loc	14	case	_	_	_
+
+13	plačilnem	plačilen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+14	prometu	promet	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+15	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+16	ki	ki	SCONJ	Cs	_	17	mark	_	_	_
+
+17	velja	veljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	_	_
+
+18	med	med	ADP	Si	Case=Ins	19	case	_	_	_
+
+19	državama	država	NOUN	Ncfdi	Case=Ins|Gender=Fem|Number=Dual	17	obl	_	_	_
+
+20	pogodbenicama	pogodbenica	NOUN	Ncfdi	Case=Ins|Gender=Fem|Number=Dual	19	nmod	_	_	_
+
+21	v	v	ADP	Sl	Case=Loc	22	case	_	_	_
+
+22	času	čas	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_	_
+
+23	nakazila	nakaziti	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_	_
+
+24	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = ( 1)
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	1	1	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+3	)	)	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = Izvršljive odločbe sodišč kot tudi odločbe drugih organov ali nosilcev ene države pogodbenice ter dokazila o neplačevanju prispevkov( listine) ali drugih terjatev iz socialnega zavarovanja ter zahteve za vračilo neupravičeno prejetih dajatev se priznajo tudi v drugi državi pogodbenici.
+1	Izvršljive	izvršljiv	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_	_
+
+2	odločbe	odločba	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	36	nsubj	_	_	_
+
+3	sodišč	sodišče	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_	_
+
+4	kot	kot	SCONJ	Cs	_	6	case	_	_	_
+
+5	tudi	tudi	PART	Q	_	36	advmod	_	_	_
+
+6	odločbe	odločba	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	2	appos	_	_	_
+
+7	drugih	drug	ADJ	Mlpmpg	Case=Gen|Gender=Masc|Number=Plur	8	amod	_	_	_
+
+8	organov	organ	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_	_
+
+9	ali	ali	CCONJ	Cc	_	10	cc	_	_	_
+
+10	nosilcev	nosilec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	conj	_	_	_
+
+11	ene	en	NUM	Mlpfsg	Case=Gen|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing	12	nummod	_	_	_
+
+12	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_	_
+
+13	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+14	ter	ter	CCONJ	Cc	_	15	cc	_	_	_
+
+15	dokazila	dokazilo	NOUN	Ncnpn	Case=Acc|Gender=Neut|Number=Plur	6	conj	_	_	_
+
+16	o	o	ADP	Sl	Case=Loc	17	case	_	_	_
+
+17	neplačevanju	neplačevanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	15	nmod	_	_	_
+
+18	prispevkov	prispevek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_	_
+
+19	(	(	PUNCT	Z	_	20	punct	_	_	_
+
+20	listine	listina	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	18	appos	_	_	_
+
+21	)	)	PUNCT	Z	_	20	punct	_	_	_
+
+22	ali	ali	CCONJ	Cc	_	24	cc	_	_	_
+
+23	drugih	drug	ADJ	Mlpfpg	Case=Gen|Gender=Fem|Number=Plur	24	amod	_	_	_
+
+24	terjatev	terjatev	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	18	conj	_	_	_
+
+25	iz	iz	ADP	Sg	Case=Gen	27	case	_	_	_
+
+26	socialnega	socialen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_	_
+
+27	zavarovanja	zavarovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_	_
+
+28	ter	ter	CCONJ	Cc	_	29	cc	_	_	_
+
+29	zahteve	zahteva	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	_	_
+
+30	za	za	ADP	Sa	Case=Acc	31	case	_	_	_
+
+31	vračilo	vračilo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	29	nmod	_	_	_
+
+32	neupravičeno	neupravičen	ADV	Rgp	Degree=Pos	33	advmod	_	_	_
+
+33	prejetih	prejet	ADJ	Appfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	34	amod	_	_	_
+
+34	dajatev	dajatev	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	31	nmod	_	_	_
+
+35	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	36	expl	_	_	_
+
+36	priznajo	priznati	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+37	tudi	tudi	PART	Q	_	36	advmod	_	_	_
+
+38	v	v	ADP	Sl	Case=Loc	40	case	_	_	_
+
+39	drugi	drug	ADJ	Mlpfsl	Case=Loc|Gender=Fem|Number=Sing	40	amod	_	_	_
+
+40	državi	država	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	36	obl	_	_	_
+
+41	pogodbenici	pogodbenica	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	36	iobj	_	_	_
+
+42	.	.	PUNCT	Z	_	36	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = ( 1)
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	1	1	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+3	)	)	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = Če je nosilec ene države pogodbenice izplačeval akontacije dajatev za določeno obdobje, nosilec druge države pogodbenice na njegovo zahtevo zadrži izplačilo zaostalega zneska ustrezne dajatve za isto obdobje, do katerega obstaja pravica po pravnih predpisih druge države pogodbenice.
+1	Če	če	SCONJ	Cs	_	7	mark	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_	_
+
+3	nosilec	nosilec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_	_
+
+4	ene	en	NUM	Mlpfsg	Case=Gen|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing	5	nummod	_	_	_
+
+5	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+6	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+7	izplačeval	izplačevati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	21	advcl	_	_	_
+
+8	akontacije	akontacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	obj	_	_	_
+
+9	dajatev	dajatev	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_	_
+
+10	za	za	ADP	Sa	Case=Acc	12	case	_	_	_
+
+11	določeno	določen	ADJ	Appnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	12	amod	_	_	_
+
+12	obdobje	obdobje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	9	nmod	_	_	_
+
+13	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+14	nosilec	nosilec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_	_
+
+15	druge	drug	ADJ	Mlpfsg	Case=Gen|Gender=Fem|Number=Sing	16	amod	_	_	_
+
+16	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+17	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+18	na	na	ADP	Sa	Case=Acc	20	case	_	_	_
+
+19	njegovo	njegov	DET	Ps3fsasm	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	_	_	_
+
+20	zahtevo	zahteva	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	_	_
+
+21	zadrži	zadržati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+22	izplačilo	izplačilo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_	_
+
+23	zaostalega	zaostal	ADJ	Appmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	24	amod	_	_	_
+
+24	zneska	znesek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_	_
+
+25	ustrezne	ustrezen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_	_
+
+26	dajatve	dajatev	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_	_
+
+27	za	za	ADP	Sa	Case=Acc	29	case	_	_	_
+
+28	isto	isti	DET	Pi-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	29	det	_	_	_
+
+29	obdobje	obdobje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	26	nmod	_	_	_
+
+30	,	,	PUNCT	Z	_	33	punct	_	_	_
+
+31	do	do	ADP	Sg	Case=Gen	32	case	_	_	_
+
+32	katerega	kateri	DET	Pq-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Int	33	obl	_	_	_
+
+33	obstaja	obstajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl	_	_	_
+
+34	pravica	pravica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	33	nsubj	_	_	_
+
+35	po	po	ADP	Sl	Case=Loc	37	case	_	_	_
+
+36	pravnih	praven	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	37	amod	_	_	_
+
+37	predpisih	predpis	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	34	nmod	_	_	_
+
+38	druge	drug	ADJ	Mlpfsg	Case=Gen|Gender=Fem|Number=Sing	39	amod	_	_	_
+
+39	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	_	_
+
+40	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	_	_
+
+41	.	.	PUNCT	Z	_	21	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = Če je nosilec ene države pogodbenice upravičencu izplačeval višjo dajatev, kot bi mu pripadala za obdobje, za katero je nosilec druge države pogodbenice naknadno priznal ustrezno dajatev, se razlika med izplačano in pripadajočo dajatvijo obravnava kot akontacija v smislu prejšnjega stavka.
+1	Če	če	SCONJ	Cs	_	8	mark	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_	_
+
+3	nosilec	nosilec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_	_
+
+4	ene	en	NUM	Mlpfsg	Case=Gen|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing	5	nummod	_	_	_
+
+5	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+6	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+7	upravičencu	upravičenec	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	8	iobj	_	_	_
+
+8	izplačeval	izplačevati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	38	advcl	_	_	_
+
+9	višjo	visok	ADJ	Agcfsa	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	10	amod	_	_	_
+
+10	dajatev	dajatev	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_	_
+
+11	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+12	kot	kot	SCONJ	Cs	_	15	mark	_	_	_
+
+13	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	15	aux	_	_	_
+
+14	mu	on	PRON	Pp3msd--y	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	15	obj	_	_	_
+
+15	pripadala	pripadati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	10	acl	_	_	_
+
+16	za	za	ADP	Sa	Case=Acc	17	case	_	_	_
+
+17	obdobje	obdobje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	_	_
+
+18	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+19	za	za	ADP	Sa	Case=Acc	20	case	_	_	_
+
+20	katero	kateri	DET	Pq-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int	27	obl	_	_	_
+
+21	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	27	aux	_	_	_
+
+22	nosilec	nosilec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_	_
+
+23	druge	drug	ADJ	Mlpfsg	Case=Gen|Gender=Fem|Number=Sing	24	amod	_	_	_
+
+24	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_	_
+
+25	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_	_
+
+26	naknadno	naknadno	ADV	Rgp	Degree=Pos	27	advmod	_	_	_
+
+27	priznal	priznati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	17	acl	_	_	_
+
+28	ustrezno	ustrezen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_	_
+
+29	dajatev	dajatev	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	27	obj	_	_	_
+
+30	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+31	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	38	expl	_	_	_
+
+32	razlika	razlika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	38	nsubj	_	_	_
+
+33	med	med	ADP	Si	Case=Ins	37	case	_	_	_
+
+34	izplačano	izplačan	ADJ	Appfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	37	amod	_	_	_
+
+35	in	in	CCONJ	Cc	_	36	cc	_	_	_
+
+36	pripadajočo	pripadajoč	ADJ	Appfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	34	conj	_	_	_
+
+37	dajatvijo	dajatev	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	32	nmod	_	_	_
+
+38	obravnava	obravnavati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+39	kot	kot	SCONJ	Cs	_	40	case	_	_	_
+
+40	akontacija	akontacija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	32	obl	_	_	_
+
+41	v	v	ADP	Sl	Case=Loc	42	case	_	_	_
+
+42	smislu	smisel	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	40	nmod	_	_	_
+
+43	prejšnjega	prejšnji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	44	amod	_	_	_
+
+44	stavka	stavka	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	_	_
+
+45	.	.	PUNCT	Z	_	38	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = ( 4)
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	4	4	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+3	)	)	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = Ne glede na prvi odstavek tega člena velja ta sporazum tudi za primere zavarovanja, ki so nastopili, preden je začel veljati.
+1	Ne	ne	PART	Q	_	5	advmod	_	_	_
+
+2	glede	glede	ADV	Rgp	Degree=Pos	1	fixed	_	_	_
+
+3	na	na	ADP	Sa	Case=Acc	5	case	_	_	_
+
+4	prvi	prvi	ADJ	Mlomsa	Case=Acc|Gender=Masc|NumType=Ord|Number=Sing	5	amod	_	_	_
+
+5	odstavek	odstavek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_	_
+
+6	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_	_
+
+7	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+8	velja	veljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	ta	ta	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_	_
+
+10	sporazum	sporazum	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_	_
+
+11	tudi	tudi	PART	Q	_	8	advmod	_	_	_
+
+12	za	za	ADP	Sa	Case=Acc	13	case	_	_	_
+
+13	primere	primer	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	8	xcomp	_	_	_
+
+14	zavarovanja	zavarovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_	_
+
+15	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+16	ki	ki	SCONJ	Cs	_	18	mark	_	_	_
+
+17	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	aux	_	_	_
+
+18	nastopili	nastopiti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	14	acl	_	_	_
+
+19	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+20	preden	preden	SCONJ	Cs	_	22	mark	_	_	_
+
+21	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	22	aux	_	_	_
+
+22	začel	začeti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	18	advcl	_	_	_
+
+23	veljati	veljati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	22	xcomp	_	_	_
+
+24	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = b) upravičencu, ki je pokojnino že pridobil v eni državi pogodbenici in ki ima na dan ponovne odmere pokojnine stalno prebivališče v drugi državi pogodbenici ali v neki tretji državi, bo pristojni nosilec prve države pogodbenice izplačeval pokojnino, na novo odmerjeno po njegovih pravnih predpisih, in razliko med zadnjim izplačanim zneskom prej priznane pokojnine ter seštevkom pokojnin, odmerjenih po pravnih predpisih obeh držav pogodbenic.
+1	b	biti	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	40	parataxis	_	_	_
+
+2	)	)	PUNCT	Z	_	1	punct	_	_	_
+
+3	upravičencu	upravičenec	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	40	iobj	_	_	_
+
+4	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+5	ki	ki	SCONJ	Cs	_	9	mark	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	aux	_	_	_
+
+7	pokojnino	pokojnina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_	_
+
+8	že	že	PART	Q	_	9	advmod	_	_	_
+
+9	pridobil	pridobiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	3	acl	_	_	_
+
+10	v	v	ADP	Sl	Case=Loc	12	case	_	_	_
+
+11	eni	en	NUM	Mlpfsl	Case=Loc|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing	12	nummod	_	_	_
+
+12	državi	država	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_	_
+
+13	pogodbenici	pogodbenica	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+14	in	in	CCONJ	Cc	_	16	cc	_	_	_
+
+15	ki	ki	SCONJ	Cs	_	16	mark	_	_	_
+
+16	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	conj	_	_	_
+
+17	na	na	ADP	Sa	Case=Acc	18	case	_	_	_
+
+18	dan	dan	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_	_
+
+19	ponovne	ponoven	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_	_
+
+20	odmere	odmera	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_	_
+
+21	pokojnine	pokojnina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_	_
+
+22	stalno	stalen	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_	_
+
+23	prebivališče	prebivališče	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_	_
+
+24	v	v	ADP	Sl	Case=Loc	26	case	_	_	_
+
+25	drugi	drug	ADJ	Mlpfsl	Case=Loc|Gender=Fem|Number=Sing	26	amod	_	_	_
+
+26	državi	država	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_	_
+
+27	pogodbenici	pogodbenica	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	16	obj	_	_	_
+
+28	ali	ali	CCONJ	Cc	_	32	cc	_	_	_
+
+29	v	v	ADP	Sl	Case=Loc	32	case	_	_	_
+
+30	neki	nek	DET	Pi-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Ind	32	det	_	_	_
+
+31	tretji	tretji	ADJ	Mlofsl	Case=Loc|Gender=Fem|NumType=Ord|Number=Sing	32	amod	_	_	_
+
+32	državi	država	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	27	conj	_	_	_
+
+33	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+34	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	40	aux	_	_	_
+
+35	pristojni	pristojen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_	_
+
+36	nosilec	nosilec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	40	nsubj	_	_	_
+
+37	prve	prvi	ADJ	Mlofsg	Case=Gen|Gender=Fem|NumType=Ord|Number=Sing	38	amod	_	_	_
+
+38	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	_	_
+
+39	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	38	nmod	_	_	_
+
+40	izplačeval	izplačevati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+41	pokojnino	pokojnina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	40	obj	_	_	_
+
+42	,	,	PUNCT	Z	_	45	punct	_	_	_
+
+43	na	na	ADP	Sa	Case=Acc	45	case	_	_	_
+
+44	novo	nov	ADV	Rgp	Degree=Pos	45	advmod	_	_	_
+
+45	odmerjeno	odmerjen	ADJ	Appfsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	41	amod	_	_	_
+
+46	po	po	ADP	Sl	Case=Loc	49	case	_	_	_
+
+47	njegovih	njegov	DET	Ps3mplsm	Case=Loc|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	49	det	_	_	_
+
+48	pravnih	praven	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	49	amod	_	_	_
+
+49	predpisih	predpis	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	45	obl	_	_	_
+
+50	,	,	PUNCT	Z	_	45	punct	_	_	_
+
+51	in	in	CCONJ	Cc	_	52	cc	_	_	_
+
+52	razliko	razlika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	41	conj	_	_	_
+
+53	med	med	ADP	Si	Case=Ins	56	case	_	_	_
+
+54	zadnjim	zadnji	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	56	amod	_	_	_
+
+55	izplačanim	izplačan	ADJ	Appmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	56	amod	_	_	_
+
+56	zneskom	znesek	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	52	nmod	_	_	_
+
+57	prej	prej	ADV	Rgc	Degree=Cmp	58	advmod	_	_	_
+
+58	priznane	priznan	ADJ	Appfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	59	amod	_	_	_
+
+59	pokojnine	pokojnina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	56	nmod	_	_	_
+
+60	ter	ter	CCONJ	Cc	_	61	cc	_	_	_
+
+61	seštevkom	seštevek	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Plur	56	conj	_	_	_
+
+62	pokojnin	pokojnina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	61	nmod	_	_	_
+
+63	,	,	PUNCT	Z	_	64	punct	_	_	_
+
+64	odmerjenih	odmerjen	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	62	amod	_	_	_
+
+65	po	po	ADP	Sl	Case=Loc	67	case	_	_	_
+
+66	pravnih	praven	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	67	amod	_	_	_
+
+67	predpisih	predpis	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	64	obl	_	_	_
+
+68	obeh	oba	DET	Pg-fdg	Case=Gen|Gender=Fem|Number=Dual|PronType=Tot	69	det	_	_	_
+
+69	držav	država	NOUN	Ncfdg	Case=Gen|Gender=Fem|Number=Dual	67	nmod	_	_	_
+
+70	pogodbenic	pogodbenica	NOUN	Ncfdg	Case=Gen|Gender=Fem|Number=Dual	69	nmod	_	_	_
+
+71	.	.	PUNCT	Z	_	40	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = Razliko iz prejšnjega stavka bo pristojni nosilec prve države pogodbenice izplačeval, vse dokler seštevek pokojnin, odmerjenih po pravnih predpisih obeh držav pogodbenic, ne bo dosegel višine prej izplačevane pokojnine.
+1	Razliko	razlika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_	_
+
+2	iz	iz	ADP	Sg	Case=Gen	4	case	_	_	_
+
+3	prejšnjega	prejšnji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	stavka	stavka	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+5	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	11	aux	_	_	_
+
+6	pristojni	pristojen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	nosilec	nosilec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_	_
+
+8	prve	prvi	ADJ	Mlofsg	Case=Gen|Gender=Fem|NumType=Ord|Number=Sing	9	amod	_	_	_
+
+9	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+10	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+11	izplačeval	izplačevati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+12	,	,	PUNCT	Z	_	28	punct	_	_	_
+
+13	vse	ves	DET	Pg-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	28	nsubj	_	_	_
+
+14	dokler	dokler	SCONJ	Cs	_	28	mark	_	_	_
+
+15	seštevek	seštevek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_	_
+
+16	pokojnin	pokojnina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_	_
+
+17	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+18	odmerjenih	odmerjen	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	16	amod	_	_	_
+
+19	po	po	ADP	Sl	Case=Loc	21	case	_	_	_
+
+20	pravnih	praven	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_	_
+
+21	predpisih	predpis	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	18	obl	_	_	_
+
+22	obeh	oba	DET	Pg-fdg	Case=Gen|Gender=Fem|Number=Dual|PronType=Tot	23	det	_	_	_
+
+23	držav	država	NOUN	Ncfdg	Case=Gen|Gender=Fem|Number=Dual	21	nmod	_	_	_
+
+24	pogodbenic	pogodbenica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_	_
+
+25	,	,	PUNCT	Z	_	28	punct	_	_	_
+
+26	ne	ne	PART	Q	Polarity=Neg	28	advmod	_	_	_
+
+27	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	28	aux	_	_	_
+
+28	dosegel	doseči	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	11	advcl	_	_	_
+
+29	višine	višina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	28	obj	_	_	_
+
+30	prej	prej	ADV	Rgc	Degree=Cmp	31	advmod	_	_	_
+
+31	izplačevane	izplačevan	ADJ	Appfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	32	amod	_	_	_
+
+32	pokojnine	pokojnina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_	_
+
+33	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026384.txt
+# text = V tem primeru bo pristojni nosilec druge države pogodbenice pokojnino izplačeval neposredno upravičencu ter bo o vsaki spremembi višine pokojnine obveščal pristojnega nosilca prve države pogodbenice.
+1	V	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	tem	ta	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_	_
+
+3	primeru	primer	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_	_
+
+4	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	11	aux	_	_	_
+
+5	pristojni	pristojen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+6	nosilec	nosilec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_	_
+
+7	druge	drug	ADJ	Mlpfsg	Case=Gen|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+9	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+10	pokojnino	pokojnina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_	_
+
+11	izplačeval	izplačevati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+12	neposredno	neposreden	ADJ	Agpmsa	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_	_
+
+13	upravičencu	upravičenec	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	11	iobj	_	_	_
+
+14	ter	ter	CCONJ	Cc	_	21	cc	_	_	_
+
+15	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	21	aux	_	_	_
+
+16	o	o	ADP	Sl	Case=Loc	18	case	_	_	_
+
+17	vsaki	vsak	DET	Pg-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Tot	18	det	_	_	_
+
+18	spremembi	sprememba	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	21	obl	_	_	_
+
+19	višine	višina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_	_
+
+20	pokojnine	pokojnina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_	_
+
+21	obveščal	obveščati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	11	conj	_	_	_
+
+22	pristojnega	pristojen	ADJ	Agpmsa	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_	_
+
+23	nosilca	nosilec	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_	_
+
+24	prve	prvi	ADJ	Mlofsg	Case=Gen|Gender=Fem|NumType=Ord|Number=Sing	25	amod	_	_	_
+
+25	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_	_
+
+26	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_	_
+
+27	.	.	PUNCT	Z	_	11	punct	_	_	_
+

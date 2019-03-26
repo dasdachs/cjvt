@@ -1,0 +1,565 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0038637.txt
+# text = 27 Sep—23 May 2011, Gallus Hall
+1	27	27	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	Sep—23	sep—23	NUM	Mdc	NumForm=Digit|NumType=Card	1	flat	_	_	_
+
+3	May	May	X	Xf	Foreign=Yes	2	flat:foreign	_	_	_
+
+4	2011	2011	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+5	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+6	Gallus	Gallus	X	Xf	Foreign=Yes	4	appos	_	_	_
+
+7	Hall	Hall	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	flat:foreign	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038637.txt
+# text = Programme:
+1	Programme	Programme	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038637.txt
+# text = R. Schumann: Koncert za violončelo in orkester v a- molu, op. 129
+1	R.	R.	X	Y	Abbr=Yes	4	nsubj	_	_	_
+
+2	Schumann	Schumann	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+4	Koncert	Koncert	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+5	za	za	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	violončelo	violončel	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	orkester	orkester	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	conj	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	12	case	_	_	_
+
+10	a	a	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+11	-	-	PUNCT	Z	_	12	punct	_	_	_
+
+12	molu	mol	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+13	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+14	op.	op.	X	Y	Abbr=Yes	12	appos	_	_	_
+
+15	129	129	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038637.txt
+# text = V sodelovanju z Italijanskim inštitutom za kulturo v Ljubljani.
+1	V	v	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	sodelovanju	sodelovanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing		root	_	_	_
+
+3	z	z	ADP	Si	Case=Ins	5	case	_	_	_
+
+4	Italijanskim	Italijanski	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+
+5	inštitutom	inštitut	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+6	za	za	ADP	Sa	Case=Acc	7	case	_	_	_
+
+7	kulturo	kultura	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	Ljubljani	Ljubljana	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+10	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038637.txt
+# text = 9. dec., 19.30, Gallusova dvorana
+1	9.	9.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	dec	dec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	19.30	19.30	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+6	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+7	Gallusova	Gallusov	ADJ	Aspfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	8	amod	_	_	_
+
+8	dvorana	dvorana	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038637.txt
+# text = Balet Florenta Schmitta Salomina tragedija je posrečena mešanica eksotike Rimskega- Korsakova ter impresionizma Debussyja in Ravela.
+1	Balet	Balet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_	_
+
+2	Florenta	Florent	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	Schmitta	Schmitta	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	2	flat:name	_	_	_
+
+4	Salomina	Salomin	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	2	flat:name	_	_	_
+
+5	tragedija	tragedija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_	_
+
+7	posrečena	posrečen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	8	amod	_	_	_
+
+8	mešanica	mešanica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+9	eksotike	eksotika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+10	Rimskega	rimski	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_	_
+
+11	-	-	PUNCT	Z	_	12	punct	_	_	_
+
+12	Korsakova	Korsakov	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	10	conj	_	_	_
+
+13	ter	ter	CCONJ	Cc	_	14	cc	_	_	_
+
+14	impresionizma	impresionizem	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_	_
+
+15	Debussyja	Debussy	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+16	in	in	CCONJ	Cc	_	17	cc	_	_	_
+
+17	Ravela	ravelo	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	15	conj	_	_	_
+
+18	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038637.txt
+# text = Avtor ga je posvetil Igorju Stravinskemu.
+1	Avtor	avtor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+2	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	4	obj	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+4	posvetil	posvetiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	Igorju	Igor	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	4	obj	_	_	_
+
+6	Stravinskemu	Stravinsko	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	5	flat:name	_	_	_
+
+7	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038637.txt
+# text = Po letu 1913, ko je glasba zaživela v postavitvi slovitega Ruskega baleta, je Schmitt naredil še dve priredbi– simfonično pesnitev za veliki orkester in različico za klavirski kvintet.
+1	Po	po	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	letu	leto	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_	_
+
+3	1913	1913	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+4	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+5	ko	ko	SCONJ	Cs	_	8	mark	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_	_
+
+7	glasba	glasba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_	_
+
+8	zaživela	zaživeti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	10	case	_	_	_
+
+10	postavitvi	postavitev	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+11	slovitega	slovit	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_	_
+
+12	Ruskega	Ruski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_	_
+
+13	baleta	balet	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+14	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+15	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	aux	_	_	_
+
+16	Schmitt	Schmitt	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_	_
+
+17	naredil	narediti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+18	še	še	PART	Q	_	17	advmod	_	_	_
+
+19	dve	dva	NUM	Mlcfda	Case=Acc|Gender=Fem|NumForm=Word|NumType=Card|Number=Dual	20	nummod	_	_	_
+
+20	priredbi	priredba	NOUN	Ncfda	Case=Acc|Gender=Fem|Number=Dual	17	obj	_	_	_
+
+21	–	–	PUNCT	Z	_	23	punct	_	_	_
+
+22	simfonično	simfonično	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_	_
+
+23	pesnitev	pesnitev	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	20	conj	_	_	_
+
+24	za	za	ADP	Sa	Case=Acc	26	case	_	_	_
+
+25	veliki	velik	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_	_
+
+26	orkester	orkester	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	nmod	_	_	_
+
+27	in	in	CCONJ	Cc	_	28	cc	_	_	_
+
+28	različico	različica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	26	conj	_	_	_
+
+29	za	za	ADP	Sa	Case=Acc	31	case	_	_	_
+
+30	klavirski	klavirski	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_	_
+
+31	kvintet	kvintet	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	nmod	_	_	_
+
+32	.	.	PUNCT	Z	_	17	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038637.txt
+# text = Na šestem koncertu abonmajske sezone bodo na sporedu tri manj znana dela, med njimi tudi novost slovenskega skladatelja Igorja Štuheca.
+1	Na	na	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	šestem	šestem	ADJ	Mlomsl	Case=Loc|Gender=Masc|NumType=Ord|Number=Sing	3	amod	_	_	_
+
+3	koncertu	koncert	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_	_
+
+4	abonmajske	abonmajski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	sezone	sezona	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+6	bodo	biti	AUX	Va-f3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	11	cop	_	_	_
+
+7	na	na	ADP	Sl	Case=Loc	8	case	_	_	_
+
+8	sporedu	spored	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_	_
+
+9	tri	trije	NUM	Mlcnpa	Case=Acc|Gender=Neut|NumForm=Word|NumType=Card|Number=Plur	10	nummod	_	_	_
+
+10	manj	manj	DET	Rgc	PronType=Ind	11	advmod	_	_	_
+
+11	znana	znan	ADJ	Appnpn	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|VerbForm=Part		root	_	_	_
+
+12	dela	delo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	_	_
+
+13	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+14	med	med	ADP	Si	Case=Ins	15	case	_	_	_
+
+15	njimi	on	PRON	Pp3mpi	Case=Ins|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	obl	_	_	_
+
+16	tudi	tudi	PART	Q	_	11	advmod	_	_	_
+
+17	novost	novost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	12	appos	_	_	_
+
+18	slovenskega	slovenski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_	_
+
+19	skladatelja	skladatelj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_	_
+
+20	Igorja	Igor	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_	_
+
+21	Štuheca	Štuheca	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	20	flat:name	_	_	_
+
+22	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038637.txt
+# text = Rodion Ščedrin je s soprogo, znamenito balerino Majo Plisecko, lani obiskal Slovenijo in tako smo imeli priložnost tega velikega ruskega skladatelja, rojenega leta 1932, spoznati nekoliko pobliže.
+1	Rodion	Rodion	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_	_
+
+2	Ščedrin	Ščedrin	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	_	_
+
+4	s	z	ADP	Si	Case=Ins	5	case	_	_	_
+
+5	soprogo	soproga	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	13	obl	_	_	_
+
+6	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+7	znamenito	znamenito	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	balerino	balerina	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	5	appos	_	_	_
+
+9	Majo	Maja	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	_	_	_
+
+10	Plisecko	Plisecko	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	9	obj	_	_	_
+
+11	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+12	lani	lani	ADV	Rgp	Degree=Pos	13	advmod	_	_	_
+
+13	obiskal	obiskati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+14	Slovenijo	Slovenija	PROPN	Npfsa	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_	_
+
+15	in	in	CCONJ	Cc	_	18	cc	_	_	_
+
+16	tako	tako	ADV	Rgp	Degree=Pos	18	advmod	_	_	_
+
+17	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	aux	_	_	_
+
+18	imeli	imeti	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	13	conj	_	_	_
+
+19	priložnost	priložnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_	_
+
+20	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_	_
+
+21	velikega	velik	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_	_
+
+22	ruskega	ruski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_	_
+
+23	skladatelja	skladatelj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_	_
+
+24	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+25	rojenega	rojen	ADJ	Appnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	23	amod	_	_	_
+
+26	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	25	obl	_	_	_
+
+27	1932	1932	NUM	Mdc	NumForm=Digit|NumType=Card	26	nummod	_	_	_
+
+28	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+29	spoznati	spoznati	VERB	Vmbn	VerbForm=Inf	18	xcomp	_	_	_
+
+30	nekoliko	nekoliko	ADV	Rgp	Degree=Pos	31	advmod	_	_	_
+
+31	pobliže	pobliže	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	29	obj	_	_	_
+
+32	.	.	PUNCT	Z	_	13	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038637.txt
+# text = Med drugim je napisal tudi šest klavirskih koncertov.
+1	Med	med	ADP	Si	Case=Ins	2	case	_	_	_
+
+2	drugim	drug	ADJ	Mlpmsi	Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+4	napisal	napisati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	tudi	tudi	PART	Q	_	4	advmod	_	_	_
+
+6	šest	šest	NUM	Mlc-pa	Case=Acc|NumForm=Word|NumType=Card|Number=Plur	8	nummod	_	_	_
+
+7	klavirskih	klavirski	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_	_
+
+8	koncertov	koncert	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	obj	_	_	_
+
+9	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038637.txt
+# text = Četrti med njimi je nastal leta 1991 in je bil prvič izveden 11. junija 1992 v Washingtonu.
+1	Četrti	četrti	ADJ	Mlomsn	Case=Nom|Gender=Masc|NumType=Ord|Number=Sing	5	nsubj	_	_	_
+
+2	med	med	ADP	Si	Case=Ins	3	case	_	_	_
+
+3	njimi	on	PRON	Pp3mpi	Case=Ins|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nmod	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+5	nastal	nastati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_	_
+
+7	1991	1991	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+8	in	in	CCONJ	Cc	_	12	cc	_	_	_
+
+9	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	aux	_	_	_
+
+10	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	12	cop	_	_	_
+
+11	prvič	prvič	ADV	Rgp	Degree=Pos	12	advmod	_	_	_
+
+12	izveden	izveden	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	5	conj	_	_	_
+
+13	11.	11.	NUM	Mdo	NumForm=Digit|NumType=Ord	14	nummod	_	_	_
+
+14	junija	junij	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_	_
+
+15	1992	1992	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+
+16	v	v	ADP	Sl	Case=Loc	17	case	_	_	_
+
+17	Washingtonu	Washington	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_	_
+
+18	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038637.txt
+# text = “ V ozadju”
+1	“	“	PUNCT	Z	_	3	punct	_	_	_
+
+2	V	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	ozadju	ozadje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing		root	_	_	_
+
+4	”	”	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038637.txt
+# text = Pred dvema letoma preminuli Uroš Krek je prav gotovo med najboljšimi slovenskimi skladatelji, ki so ustvarjali v drugi polovici 20. stoletja.
+1	Pred	pred	ADP	Si	Case=Ins	3	case	_	_	_
+
+2	dvema	dva	NUM	Mlcndi	Case=Ins|Gender=Neut|NumForm=Word|NumType=Card|Number=Dual	3	nummod	_	_	_
+
+3	letoma	leto	NOUN	Ncndi	Case=Ins|Gender=Neut|Number=Dual	7	obl	_	_	_
+
+4	preminuli	preminul	ADJ	Appmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	5	amod	_	_	_
+
+5	Uroš	Uroš	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_	_
+
+6	Krek	krek	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_	_
+
+7	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+8	prav	prav	PART	Q	_	9	advmod	_	_	_
+
+9	gotovo	gotovo	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+10	med	med	ADP	Si	Case=Ins	13	case	_	_	_
+
+11	najboljšimi	dober	ADJ	Agsmpi	Case=Ins|Degree=Sup|Gender=Masc|Number=Plur	13	amod	_	_	_
+
+12	slovenskimi	slovenski	ADJ	Agpmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_	_
+
+13	skladatelji	skladatelj	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	7	obl	_	_	_
+
+14	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+15	ki	ki	SCONJ	Cs	_	17	mark	_	_	_
+
+16	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	aux	_	_	_
+
+17	ustvarjali	ustvarjati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	13	acl	_	_	_
+
+18	v	v	ADP	Sl	Case=Loc	20	case	_	_	_
+
+19	drugi	drug	ADJ	Mlpfsl	Case=Loc|Gender=Fem|Number=Sing	20	amod	_	_	_
+
+20	polovici	polovica	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_	_
+
+21	20.	20.	NUM	Mdo	NumForm=Digit|NumType=Ord	22	nummod	_	_	_
+
+22	stoletja	stoletje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_	_
+
+23	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038637.txt
+# text = Njegov Koncert za rog in godalni orkester je nastajal v letih od 1960 do 1962, ko je delo prvič izvedel z orkestrom Slovenske filharmonije in pod dirigentskim vodstvom Boga Leskovica Jože Falout.
+1	Njegov	njegov	DET	Ps3msnsm	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_	_
+
+2	Koncert	Koncert	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_	_
+
+3	za	za	ADP	Sa	Case=Acc	4	case	_	_	_
+
+4	rog	rog	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+6	godalni	godalen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	orkester	orkester	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+8	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	aux	_	_	_
+
+9	nastajal	nastajati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+10	v	v	ADP	Sl	Case=Loc	11	case	_	_	_
+
+11	letih	leto	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	9	obl	_	_	_
+
+12	od	od	ADP	Sg	Case=Gen	13	case	_	_	_
+
+13	1960	1960	NUM	Mdc	NumForm=Digit|NumType=Card	11	nummod	_	_	_
+
+14	do	do	ADP	Sg	Case=Gen	15	case	_	_	_
+
+15	1962	1962	NUM	Mdc	NumForm=Digit|NumType=Card	13	conj	_	_	_
+
+16	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+17	ko	ko	SCONJ	Cs	_	21	mark	_	_	_
+
+18	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	21	aux	_	_	_
+
+19	delo	delo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_	_
+
+20	prvič	prvič	ADV	Rgp	Degree=Pos	21	advmod	_	_	_
+
+21	izvedel	izvedeti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	11	acl	_	_	_
+
+22	z	z	ADP	Si	Case=Ins	23	case	_	_	_
+
+23	orkestrom	orkester	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	21	obl	_	_	_
+
+24	Slovenske	slovenski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_	_
+
+25	filharmonije	filharmonija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_	_
+
+26	in	in	CCONJ	Cc	_	29	cc	_	_	_
+
+27	pod	pod	ADP	Si	Case=Ins	29	case	_	_	_
+
+28	dirigentskim	dirigentski	ADJ	Agpnsi	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_	_
+
+29	vodstvom	vodstvo	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	23	conj	_	_	_
+
+30	Boga	bog	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_	_
+
+31	Leskovica	Leskovica	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	30	flat:name	_	_	_
+
+32	Jože	Jože	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	29	nmod	_	_	_
+
+33	Falout	falout	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	32	flat:name	_	_	_
+
+34	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038637.txt
+# text = Falout je bil tudi naročnik in pobudnik za nastanek Koncerta.
+1	Falout	falout	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+3	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	5	cop	_	_	_
+
+4	tudi	tudi	PART	Q	_	5	advmod	_	_	_
+
+5	naročnik	naročnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	pobudnik	pobudnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_	_
+
+8	za	za	ADP	Sa	Case=Acc	9	case	_	_	_
+
+9	nastanek	nastanek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+10	Koncerta	koncert	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+11	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038637.txt
+# text = J. Brahms, Simfonija št. 1 v c- molu, op. 68
+1	J.	J.	X	Y	Abbr=Yes		root	_	_	_
+
+2	Brahms	Brahms	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	Simfonija	Simfonija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_	_
+
+5	št.	št.	NUM	Mdo	NumForm=Digit|NumType=Ord	4	nummod	_	_	_
+
+6	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+7	v	v	ADP	Sl	Case=Loc	10	case	_	_	_
+
+8	c	c	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+9	-	-	PUNCT	Z	_	10	punct	_	_	_
+
+10	molu	mol	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+11	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+12	op.	op.	X	Y	Abbr=Yes	10	appos	_	_	_
+
+13	68	68	NUM	Mdc	NumForm=Digit|NumType=Card	12	nummod	_	_	_
+

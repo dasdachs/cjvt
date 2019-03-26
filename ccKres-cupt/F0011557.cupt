@@ -1,0 +1,533 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0011557.txt
+# text = 1. člen
+1	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011557.txt
+# text = Republika Slovenija zagotavlja pogoje za delo in razvoj SAZU.
+1	Republika	republika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+2	Slovenija	Slovenija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	zagotavlja	zagotavljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	pogoje	pogoj	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_	_
+
+5	za	za	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	delo	delo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	razvoj	razvoj	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	conj	_	_	_
+
+9	SAZU	SAZ	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+10	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011557.txt
+# text = SAZU neguje, spodbuja in pospešuje znanost in umetnost ter s svojo dejavnostjo prispeva k razvoju znanstvene misli in umetniške ustvarjalnosti s tem, da:
+1	SAZU	SAZ	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_	_
+
+2	neguje	negovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	spodbuja	spodbujati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_	_
+
+5	in	in	CCONJ	Cc	_	6	cc	_	_	_
+
+6	pospešuje	pospeševati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_	_
+
+7	znanost	znanost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_	_
+
+8	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+9	umetnost	umetnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	_	_
+
+10	ter	ter	CCONJ	Cc	_	14	cc	_	_	_
+
+11	s	z	ADP	Si	Case=Ins	13	case	_	_	_
+
+12	svojo	svoj	DET	Px-fsi	Case=Ins|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	13	det	_	_	_
+
+13	dejavnostjo	dejavnost	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_	_
+
+14	prispeva	prispevati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_	_
+
+15	k	k	ADP	Sd	Case=Dat	16	case	_	_	_
+
+16	razvoju	razvoj	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	_	_
+
+17	znanstvene	znanstven	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_	_
+
+18	misli	misel	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+19	in	in	CCONJ	Cc	_	21	cc	_	_	_
+
+20	umetniške	umetniški	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_	_
+
+21	ustvarjalnosti	ustvarjalnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	18	conj	_	_	_
+
+22	s	z	ADP	Si	Case=Ins	23	case	_	_	_
+
+23	tem	ta	DET	Pd-nsi	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	21	nmod	_	_	_
+
+24	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+25	da	da	SCONJ	Cs	_	23	acl	_	_	_
+
+26	:	:	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011557.txt
+# text = - sodeluje pri oblikovanju politike raziskovalne dejavnosti in umetniškega ustvarjanja;
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	sodeluje	sodelovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	pri	pri	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	oblikovanju	oblikovanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_	_
+
+5	politike	politika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+6	raziskovalne	raziskovalen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	_
+
+7	dejavnosti	dejavnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+8	in	in	CCONJ	Cc	_	10	cc	_	_	_
+
+9	umetniškega	umetniški	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_	_
+
+10	ustvarjanja	ustvarjanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	7	conj	_	_	_
+
+11	;	;	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011557.txt
+# text = - daje ocene, predloge in mnenja o stanju, razvoju in pospeševanju znanosti in umetnosti, organizaciji raziskovalnega dela in umetniškega ustvarjanja;
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	daje	dajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	ocene	ocena	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	predloge	predlog	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	conj	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	mnenja	mnenje	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	3	conj	_	_	_
+
+8	o	o	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	stanju	stanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_	_
+
+10	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+11	razvoju	razvoj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	9	conj	_	_	_
+
+12	in	in	CCONJ	Cc	_	13	cc	_	_	_
+
+13	pospeševanju	pospeševanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	9	conj	_	_	_
+
+14	znanosti	znanost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_	_
+
+15	in	in	CCONJ	Cc	_	16	cc	_	_	_
+
+16	umetnosti	umetnost	NOUN	Ncfsl	Case=Gen|Gender=Fem|Number=Sing	14	conj	_	_	_
+
+17	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+18	organizaciji	organizacija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	3	conj	_	_	_
+
+19	raziskovalnega	raziskovalen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_	_
+
+20	dela	delo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_	_
+
+21	in	in	CCONJ	Cc	_	23	cc	_	_	_
+
+22	umetniškega	umetniški	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_	_
+
+23	ustvarjanja	ustvarjanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	20	conj	_	_	_
+
+24	;	;	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011557.txt
+# text = - ustanavlja zavode na področju znanstvene, raziskovalne in kulturne dejavnosti;
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	ustanavlja	ustanavljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	zavode	zavod	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_	_
+
+4	na	na	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	področju	področje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	_	_
+
+6	znanstvene	znanstven	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	raziskovalne	raziskovalen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	conj	_	_	_
+
+9	in	in	CCONJ	Cc	_	10	cc	_	_	_
+
+10	kulturne	kulturen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	conj	_	_	_
+
+11	dejavnosti	dejavnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+12	;	;	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011557.txt
+# text = 5. člen
+1	5.	5.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011557.txt
+# text = 11. člen
+1	11.	11.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011557.txt
+# text = SAZU ima največ 60 rednih in 30 izrednih ter 90 dopisnih članov.
+1	SAZU	SAZ	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_	_
+
+2	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	največ	največ	DET	Rgs	PronType=Ind	4	advmod	_	_	_
+
+4	60	60	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+5	rednih	reden	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	30	30	NUM	Mdc	NumForm=Digit|NumType=Card	5	conj	_	_	_
+
+8	izrednih	izreden	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_	_
+
+9	ter	ter	CCONJ	Cc	_	10	cc	_	_	_
+
+10	90	90	NUM	Mdc	NumForm=Digit|NumType=Card	12	nummod	_	_	_
+
+11	dopisnih	dopisen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_	_
+
+12	članov	član	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	2	obj	_	_	_
+
+13	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011557.txt
+# text = Omejitev se nanaša na člane mlajše od 75 let.
+1	Omejitev	omejitev	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	3	expl	_	_	_
+
+3	nanaša	nanašati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	na	na	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	člane	član	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	_	_
+
+6	mlajše	mlad	ADJ	Agcmsg	Case=Gen|Degree=Cmp|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+7	od	od	ADP	Sg	Case=Gen	9	case	_	_	_
+
+8	75	75	NUM	Mdc	NumForm=Digit|NumType=Card	9	nummod	_	_	_
+
+9	let	leto	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_	_
+
+10	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011557.txt
+# text = Volitve so tajne.
+1	Volitve	volitev	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_	_
+
+3	tajne	tajen	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur		root	_	_	_
+
+4	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011557.txt
+# text = Tajno glasovanje je izjemoma tudi pisno za tiste člane, ki se zaradi zdravstvenih ali drugih opravičenih razlogov ne morejo udeležiti volitev.
+1	Tajno	tajno	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_	_
+
+2	glasovanje	glasovanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_	_
+
+4	izjemoma	izjemoma	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+5	tudi	tudi	PART	Q	_	6	advmod	_	_	_
+
+6	pisno	pisno	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing		root	_	_	_
+
+7	za	za	ADP	Sa	Case=Acc	9	case	_	_	_
+
+8	tiste	tisti	DET	Pd-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_	_
+
+9	člane	član	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	6	obl	_	_	_
+
+10	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+11	ki	ki	SCONJ	Cs	_	20	mark	_	_	_
+
+12	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	21	expl	_	_	_
+
+13	zaradi	zaradi	ADP	Sg	Case=Gen	18	case	_	_	_
+
+14	zdravstvenih	zdravstven	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	_	_
+
+15	ali	ali	CCONJ	Cc	_	16	cc	_	_	_
+
+16	drugih	drug	ADJ	Mlpmpg	Case=Gen|Gender=Masc|Number=Plur	14	conj	_	_	_
+
+17	opravičenih	opravičen	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	18	amod	_	_	_
+
+18	razlogov	razlog	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	21	obl	_	_	_
+
+19	ne	ne	PART	Q	Polarity=Neg	20	advmod	_	_	_
+
+20	morejo	moči	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	_	_
+
+21	udeležiti	udeležiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	20	xcomp	_	_	_
+
+22	volitev	volitev	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	21	obj	_	_	_
+
+23	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011557.txt
+# text = Ustanoviteljica Znanstvenoraziskovalnega centra Slovenske akademije znanosti in umetnosti( ZRC SAZU) je SAZU.
+1	Ustanoviteljica	ustanoviteljica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_	_
+
+2	Znanstvenoraziskovalnega	znanstvenorazorazovalen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	centra	center	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	Slovenske	slovenski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	akademije	akademija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+6	znanosti	znanost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	umetnosti	umetnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	conj	_	_	_
+
+9	(	(	PUNCT	Z	_	10	punct	_	_	_
+
+10	ZRC	ZRC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_	_
+
+11	SAZU	SAZ	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+12	)	)	PUNCT	Z	_	10	punct	_	_	_
+
+13	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	cop	_	_	_
+
+14	SAZU	SAZ	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+15	.	.	PUNCT	Z	_	14	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011557.txt
+# text = ZRC SAZU izvaja s SAZU skupni dolgoročni program Naravna in kulturna dediščina slovenskega naroda.
+1	ZRC	ZRC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+2	SAZU	SAZ	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	izvaja	izvajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	s	z	ADP	Si	Case=Ins	5	case	_	_	_
+
+5	SAZU	SAZ	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_	_
+
+6	skupni	skupen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+7	dolgoročni	dolgoročen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+8	program	program	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_	_
+
+9	Naravna	naraven	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_	_
+
+10	in	in	CCONJ	Cc	_	11	cc	_	_	_
+
+11	kulturna	kulturen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	conj	_	_	_
+
+12	dediščina	dediščina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+13	slovenskega	slovenski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+14	naroda	narod	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+15	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011557.txt
+# text = Sredstva za delovanje SAZU zagotavlja Republika Slovenija iz proračuna za:
+1	Sredstva	sredstvo	NOUN	Ncnpn	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	_	_
+
+2	za	za	ADP	Sa	Case=Acc	3	case	_	_	_
+
+3	delovanje	delovanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	1	nmod	_	_	_
+
+4	SAZU	SAZ	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+5	zagotavlja	zagotavljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	Republika	republika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_	_
+
+7	Slovenija	Slovenija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+8	iz	iz	ADP	Sg	Case=Gen	9	case	_	_	_
+
+9	proračuna	proračun	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+10	za	za	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+11	:	:	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011557.txt
+# text = - program dela upokojenih rednih in izrednih članov SAZU;
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	program	program	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	dela	delo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+4	upokojenih	upokojen	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	8	amod	_	_	_
+
+5	rednih	reden	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	izrednih	izreden	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	5	conj	_	_	_
+
+8	članov	član	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_	_
+
+9	SAZU	SAZ	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+10	;	;	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011557.txt
+# text = SAZU lahko pridobiva sredstva tudi z dotacijami, volili in darili ali na kakšni drugi pravni podlagi.
+1	SAZU	SAZ	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+2	lahko	lahko	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+3	pridobiva	pridobiti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	sredstva	sredstvo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_	_
+
+5	tudi	tudi	PART	Q	_	3	advmod	_	_	_
+
+6	z	z	ADP	Si	Case=Ins	7	case	_	_	_
+
+7	dotacijami	dotacija	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	3	obl	_	_	_
+
+8	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+9	volili	voliti	VERB	Vmbp-pm	Gender=Masc|Number=Plur|VerbForm=Part	3	parataxis	_	_	_
+
+10	in	in	CCONJ	Cc	_	11	cc	_	_	_
+
+11	darili	darilo	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	9	conj	_	_	_
+
+12	ali	ali	CCONJ	Cc	_	17	cc	_	_	_
+
+13	na	na	ADP	Sl	Case=Loc	17	case	_	_	_
+
+14	kakšni	kakšen	DET	Pq-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Int	17	det	_	_	_
+
+15	drugi	drug	ADJ	Mlpfsl	Case=Loc|Gender=Fem|Number=Sing	17	amod	_	_	_
+
+16	pravni	praven	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_	_
+
+17	podlagi	podlaga	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+18	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011557.txt
+# text = ZRC SAZU lahko pridobiva sredstva tudi iz drugih virov.
+1	ZRC	ZRC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+2	SAZU	SAZ	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	lahko	lahko	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+4	pridobiva	pridobiti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	sredstva	sredstvo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	_	_
+
+6	tudi	tudi	PART	Q	_	4	advmod	_	_	_
+
+7	iz	iz	ADP	Sg	Case=Gen	9	case	_	_	_
+
+8	drugih	drug	ADJ	Mlpmpg	Case=Gen|Gender=Masc|Number=Plur	9	amod	_	_	_
+
+9	virov	vir	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_	_
+
+10	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011557.txt
+# text = 35. člen
+1	35.	35.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011557.txt
+# text = 36. člen
+1	36.	36.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011557.txt
+# text = ZRC SAZU, ki ga je ustanovila SAZU, dobi s tem zakonom pravice in dolžnosti javnega raziskovalnega zavoda.
+1	ZRC	ZRC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_	_
+
+2	SAZU	SAZ	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_	_
+
+3	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+4	ki	ki	SCONJ	Cs	_	7	mark	_	_	_
+
+5	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	7	obj	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_	_
+
+7	ustanovila	ustanoviti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_	_
+
+8	SAZU	SAZ	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+
+9	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+10	dobi	dobiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+11	s	z	ADP	Si	Case=Ins	13	case	_	_	_
+
+12	tem	ta	DET	Pd-msi	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_	_
+
+13	zakonom	zakon	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_	_
+
+14	pravice	pravica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_	_
+
+15	in	in	CCONJ	Cc	_	16	cc	_	_	_
+
+16	dolžnosti	dolžnost	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	14	conj	_	_	_
+
+17	javnega	javen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_	_
+
+18	raziskovalnega	raziskovalen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_	_
+
+19	zavoda	zavod	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_	_
+
+20	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011557.txt
+# text = 38. člen
+1	38.	38.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+

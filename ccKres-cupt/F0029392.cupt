@@ -1,0 +1,515 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0029392.txt
+# text = Slovenska izvozna družba( SID) je lansko poslovno leto po nerevidiranih podatkih, ti se po besedah predsednika uprave Marjana Kramarja bistveno ne razlikujejo od revidiranih rezultatov, končala z rastjo obsega poslovanja in s pozitivnim rezultatom.
+1	Slovenska	slovenski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+2	izvozna	izvozen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	družba	družba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	30	nsubj	_	_	_
+
+4	(	(	PUNCT	Z	_	5	punct	_	_	_
+
+5	SID	SID	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_	_
+
+6	)	)	PUNCT	Z	_	5	punct	_	_	_
+
+7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	30	aux	_	_	_
+
+8	lansko	lanski	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_	_
+
+9	poslovno	posloven	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_	_
+
+10	leto	leto	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	30	obl	_	_	_
+
+11	po	po	ADP	Sl	Case=Loc	13	case	_	_	_
+
+12	nerevidiranih	nerevidiran	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_	_
+
+13	podatkih	podatek	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	30	obl	_	_	_
+
+14	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+15	ti	ta	DET	Pd-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	25	nsubj	_	_	_
+
+16	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	25	expl	_	_	_
+
+17	po	po	ADP	Sl	Case=Loc	18	case	_	_	_
+
+18	besedah	beseda	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	25	obl	_	_	_
+
+19	predsednika	predsednik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_	_
+
+20	uprave	uprava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_	_
+
+21	Marjana	Marjan	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_	_
+
+22	Kramarja	kramar	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	21	flat:name	_	_	_
+
+23	bistveno	bistveno	ADV	Rgp	Degree=Pos	25	advmod	_	_	_
+
+24	ne	ne	PART	Q	Polarity=Neg	25	advmod	_	_	_
+
+25	razlikujejo	razlikovati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+26	od	od	ADP	Sg	Case=Gen	28	case	_	_	_
+
+27	revidiranih	revidiran	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	28	amod	_	_	_
+
+28	rezultatov	rezultat	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	25	obl	_	_	_
+
+29	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+30	končala	končati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	25	conj	_	_	_
+
+31	z	z	ADP	Si	Case=Ins	32	case	_	_	_
+
+32	rastjo	rast	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	33	obl	_	_	_
+
+33	obsega	obsegati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	conj	_	_	_
+
+34	poslovanja	poslovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	33	obj	_	_	_
+
+35	in	in	CCONJ	Cc	_	38	cc	_	_	_
+
+36	s	z	ADP	Si	Case=Ins	38	case	_	_	_
+
+37	pozitivnim	pozitiven	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_	_
+
+38	rezultatom	rezultat	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	34	conj	_	_	_
+
+39	.	.	PUNCT	Z	_	30	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0029392.txt
+# text = Skupna vrednost zavarovalnih poslov SID je lani narasla za 38 odstotkov in je znašala 1,643 milijarde evrov, kar bo po ocenah SID znašalo skoraj 13 odstotkov celotnega slovenskega izvoza.
+1	Skupna	skupen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	vrednost	vrednost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_	_
+
+3	zavarovalnih	zavarovalen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_	_
+
+4	poslov	posel	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_	_
+
+5	SID	SID	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_	_
+
+7	lani	lani	ADV	Rgp	Degree=Pos	8	advmod	_	_	_
+
+8	narasla	narasti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+9	za	za	ADP	Sa	Case=Acc	11	case	_	_	_
+
+10	38	38	NUM	Mdc	NumForm=Digit|NumType=Card	11	nummod	_	_	_
+
+11	odstotkov	odstotek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_	_
+
+12	in	in	CCONJ	Cc	_	14	cc	_	_	_
+
+13	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	aux	_	_	_
+
+14	znašala	znašati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	8	conj	_	_	_
+
+15	1,643	1,643	NUM	Mdc	NumForm=Digit|NumType=Card	16	nummod	_	_	_
+
+16	milijarde	milijarda	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_	_
+
+17	evrov	evro	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_	_
+
+18	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+19	kar	kar	PRON	Pr-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	24	nsubj	_	_	_
+
+20	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	24	aux	_	_	_
+
+21	po	po	ADP	Sl	Case=Loc	22	case	_	_	_
+
+22	ocenah	ocena	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	24	obl	_	_	_
+
+23	SID	SID	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	22	nmod	_	_	_
+
+24	znašalo	znašati	VERB	Vmpp-sn	Aspect=Imp|Gender=Neut|Number=Sing|VerbForm=Part	8	parataxis	_	_	_
+
+25	skoraj	skoraj	PART	Q	_	26	advmod	_	_	_
+
+26	13	13	NUM	Mdc	NumForm=Digit|NumType=Card	27	nummod	_	_	_
+
+27	odstotkov	odstotek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	24	obl	_	_	_
+
+28	celotnega	celoten	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_	_
+
+29	slovenskega	slovenski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_	_
+
+30	izvoza	izvoz	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_	_
+
+31	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0029392.txt
+# text = Regionalna struktura poslov v družbi po Kramarjevih besedah preslikava regionalno strukturo slovenskega gospodarstva.
+1	Regionalna	regionalen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	struktura	struktura	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_	_
+
+3	poslov	posel	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_	_
+
+4	v	v	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	družbi	družba	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+6	po	po	ADP	Sl	Case=Loc	8	case	_	_	_
+
+7	Kramarjevih	kramarjev	ADJ	Aspfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Poss=Yes	8	amod	_	_	_
+
+8	besedah	beseda	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	9	obl	_	_	_
+
+9	preslikava	preslikava	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	regionalno	regionalen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_	_
+
+11	strukturo	struktura	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_	_
+
+12	slovenskega	slovenski	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_	_
+
+13	gospodarstva	gospodarstvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_	_
+
+14	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0029392.txt
+# text = Na področju jugovzhodne Evrope so tako lani sodelovali pri 15 do 20 odstotkih vseh poslov, letos pa po Kramarjevih besedah pričakujejo še naraščanje omenjenega deleža.
+1	Na	na	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	področju	področje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_	_
+
+3	jugovzhodne	jugovzhoden	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	Evrope	Evropa	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+5	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_	_
+
+6	tako	tako	ADV	Rgp	Degree=Pos	8	advmod	_	_	_
+
+7	lani	lani	ADV	Rgp	Degree=Pos	8	advmod	_	_	_
+
+8	sodelovali	sodelovati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+9	pri	pri	ADP	Sl	Case=Loc	13	case	_	_	_
+
+10	15	15	NUM	Mdc	NumForm=Digit|NumType=Card	13	nummod	_	_	_
+
+11	do	do	ADP	Sg	Case=Gen	12	case	_	_	_
+
+12	20	20	NUM	Mdc	NumForm=Digit|NumType=Card	13	nummod	_	_	_
+
+13	odstotkih	odstotek	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	8	obl	_	_	_
+
+14	vseh	ves	DET	Pg-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	15	det	_	_	_
+
+15	poslov	posel	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_	_
+
+16	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+17	letos	letos	ADV	Rgp	Degree=Pos	22	advmod	_	_	_
+
+18	pa	pa	CCONJ	Cc	_	22	advmod	_	_	_
+
+19	po	po	ADP	Sl	Case=Loc	21	case	_	_	_
+
+20	Kramarjevih	kramarjev	ADJ	Aspfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Poss=Yes	21	amod	_	_	_
+
+21	besedah	beseda	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	22	obl	_	_	_
+
+22	pričakujejo	pričakovati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_	_
+
+23	še	še	PART	Q	_	22	advmod	_	_	_
+
+24	naraščanje	naraščanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	22	obj	_	_	_
+
+25	omenjenega	omenjen	ADJ	Appmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	26	amod	_	_	_
+
+26	deleža	delež	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_	_
+
+27	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0029392.txt
+# text = * Ali zna kdo izdelovati citre?
+1	*	*	PUNCT	Z	_	3	punct	_	_	_
+
+2	Ali	ali	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+3	zna	znati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	kdo	kdo	PRON	Pq-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	3	nsubj	_	_	_
+
+5	izdelovati	izdelovati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	3	xcomp	_	_	_
+
+6	citre	citer	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_	_
+
+7	?	?	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0029392.txt
+# text = Gospa iz Ptuja bi bila zelo vesela, če bi dobila nekaj nasvetov.
+1	Gospa	gospa	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+
+2	iz	iz	ADP	Sg	Case=Gen	3	case	_	_	_
+
+3	Ptuja	Ptuj	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	7	aux	_	_	_
+
+5	bila	biti	AUX	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	7	cop	_	_	_
+
+6	zelo	zelo	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+7	vesela	vesel	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing		root	_	_	_
+
+8	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+9	če	če	SCONJ	Cs	_	11	mark	_	_	_
+
+10	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	11	aux	_	_	_
+
+11	dobila	dobiti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	7	advcl	_	_	_
+
+12	nekaj	nekaj	DET	Rgp	PronType=Ind	13	det	_	_	_
+
+13	nasvetov	nasvet	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	11	obj	_	_	_
+
+14	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0029392.txt
+# text = Razlike v financiranju bolnišnic pa ministrstvo za zdravje pojasnjuje s tem, da analiza pogodb za minulo leto kaže, da se cene za povprečnega bolnika med regijskimi bolnišnicami razlikujejo tudi za 40 odstotkov.
+1	Razlike	razlika	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_	_
+
+2	v	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	financiranju	financiranje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	_	_
+
+4	bolnišnic	bolnišnica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_	_
+
+5	pa	pa	CCONJ	Cc	_	9	advmod	_	_	_
+
+6	ministrstvo	ministrstvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_	_
+
+7	za	za	ADP	Sa	Case=Acc	8	case	_	_	_
+
+8	zdravje	zdravje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	_	_
+
+9	pojasnjuje	pojasnjevati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	s	z	ADP	Si	Case=Ins	11	case	_	_	_
+
+11	tem	ta	DET	Pd-nsi	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	9	obl	_	_	_
+
+12	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+13	da	da	SCONJ	Cs	_	19	mark	_	_	_
+
+14	analiza	analiza	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_	_
+
+15	pogodb	pogodba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_	_
+
+16	za	za	ADP	Sa	Case=Acc	18	case	_	_	_
+
+17	minulo	minul	ADJ	Appnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	18	amod	_	_	_
+
+18	leto	leto	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	15	nmod	_	_	_
+
+19	kaže	kazati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	_	_
+
+20	,	,	PUNCT	Z	_	30	punct	_	_	_
+
+21	da	da	SCONJ	Cs	_	30	mark	_	_	_
+
+22	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	30	expl	_	_	_
+
+23	cene	cena	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	30	nsubj	_	_	_
+
+24	za	za	ADP	Sa	Case=Acc	26	case	_	_	_
+
+25	povprečnega	povprečen	ADJ	Agpmsa	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_	_
+
+26	bolnika	bolnik	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	23	nmod	_	_	_
+
+27	med	med	ADP	Si	Case=Ins	29	case	_	_	_
+
+28	regijskimi	regijski	ADJ	Agpfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	_	_
+
+29	bolnišnicami	bolnišnica	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	26	nmod	_	_	_
+
+30	razlikujejo	razlikovati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_	_
+
+31	tudi	tudi	PART	Q	_	30	advmod	_	_	_
+
+32	za	za	ADP	Sa	Case=Acc	34	case	_	_	_
+
+33	40	40	NUM	Mdc	NumForm=Digit|NumType=Card	34	nummod	_	_	_
+
+34	odstotkov	odstotek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	30	obl	_	_	_
+
+35	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0029392.txt
+# text = " Najbolj paradoksalno pri tem je, da najvišjo ceno med njimi dosega celjska bolnišnica, ki ima na regijski ravni tudi najboljšo preskrbljenost, najslabšo pa Novo mesto, ki ima tudi sicer podpovprečno preskrbljenost.
+1	"	"	PUNCT	Z	_	3	punct	_	_	_
+
+2	Najbolj	najbolj	ADV	Rgs	Degree=Sup	3	advmod	_	_	_
+
+3	paradoksalno	paradoksalno	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing		root	_	_	_
+
+4	pri	pri	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	tem	ta	DET	Pd-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_	_
+
+7	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+8	da	da	SCONJ	Cs	_	13	mark	_	_	_
+
+9	najvišjo	visok	ADJ	Agsfsa	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	10	amod	_	_	_
+
+10	ceno	cena	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_	_
+
+11	med	med	ADP	Si	Case=Ins	12	case	_	_	_
+
+12	njimi	on	PRON	Pp3mpi	Case=Ins|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	nmod	_	_	_
+
+13	dosega	doseg	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	_	_
+
+14	celjska	celjski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_	_
+
+15	bolnišnica	bolnišnica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_	_
+
+16	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+17	ki	ki	SCONJ	Cs	_	18	mark	_	_	_
+
+18	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	acl	_	_	_
+
+19	na	na	ADP	Sl	Case=Loc	21	case	_	_	_
+
+20	regijski	regijski	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_	_
+
+21	ravni	raven	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	18	obl	_	_	_
+
+22	tudi	tudi	PART	Q	_	18	advmod	_	_	_
+
+23	najboljšo	dober	ADJ	Agsfsa	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	24	amod	_	_	_
+
+24	preskrbljenost	preskrbljenost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_	_
+
+25	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+26	najslabšo	vlab	ADJ	Agsnsa	Case=Acc|Degree=Sup|Gender=Neut|Number=Sing	29	amod	_	_	_
+
+27	pa	pa	CCONJ	Cc	_	29	cc	_	_	_
+
+28	Novo	nov	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_	_
+
+29	mesto	mesto	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	24	conj	_	_	_
+
+30	,	,	PUNCT	Z	_	32	punct	_	_	_
+
+31	ki	ki	SCONJ	Cs	_	32	mark	_	_	_
+
+32	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	29	acl	_	_	_
+
+33	tudi	tudi	PART	Q	_	32	advmod	_	_	_
+
+34	sicer	sicer	PART	Q	_	32	advmod	_	_	_
+
+35	podpovprečno	podpovprečno	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_	_
+
+36	preskrbljenost	preskrbljenost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	32	obj	_	_	_
+
+37	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0029392.txt
+# text = " Če bi torej dosledno upoštevali izenačenje cen povprečnih primerov po dejavnostih znotraj bolnišnic, bi najbolje plačana celjska bolnišnica izgubila 526 milijonov tolarjev, tri najbolj podvrednotene bolnišnice pa bi morale dobiti od 69 do 248 milijonov tolarjev.
+1	"	"	PUNCT	Z	_	6	punct	_	_	_
+
+2	Če	če	SCONJ	Cs	_	6	mark	_	_	_
+
+3	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	6	aux	_	_	_
+
+4	torej	torej	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+5	dosledno	dosledno	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+6	upoštevali	upoštevati	VERB	Vmbp-pm	Gender=Masc|Number=Plur|VerbForm=Part	21	advcl	_	_	_
+
+7	izenačenje	izenačenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_	_
+
+8	cen	cena	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_	_
+
+9	povprečnih	povprečen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_	_
+
+10	primerov	primer	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_	_
+
+11	po	po	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	dejavnostih	dejavnost	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	10	nmod	_	_	_
+
+13	znotraj	znotraj	ADP	Sg	Case=Gen	14	case	_	_	_
+
+14	bolnišnic	bolnišnica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_	_
+
+15	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+16	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	21	aux	_	_	_
+
+17	najbolje	dobro	ADV	Rgs	Degree=Sup	21	advmod	_	_	_
+
+18	plačana	plačan	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	20	amod	_	_	_
+
+19	celjska	celjski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_	_
+
+20	bolnišnica	bolnišnica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_	_
+
+21	izgubila	izgubiti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+22	526	526	NUM	Mdc	NumForm=Digit|NumType=Card	23	nummod	_	_	_
+
+23	milijonov	milijon	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	21	obj	_	_	_
+
+24	tolarjev	tolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_	_
+
+25	,	,	PUNCT	Z	_	32	punct	_	_	_
+
+26	tri	trije	NUM	Mlcfpa	Case=Nom|Gender=Fem|NumForm=Word|NumType=Card|Number=Plur	29	nummod	_	_	_
+
+27	najbolj	najbolj	ADV	Rgs	Degree=Sup	28	advmod	_	_	_
+
+28	podvrednotene	podvrednoten	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	_	_
+
+29	bolnišnice	bolnišnica	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	33	obj	_	_	_
+
+30	pa	pa	CCONJ	Cc	_	32	advmod	_	_	_
+
+31	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	32	aux	_	_	_
+
+32	morale	morati	VERB	Vmpp-pf	Aspect=Imp|Gender=Fem|Number=Plur|VerbForm=Part	21	parataxis	_	_	_
+
+33	dobiti	dobiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	32	xcomp	_	_	_
+
+34	od	od	ADP	Sg	Case=Gen	35	case	_	_	_
+
+35	69	69	NUM	Mdc	NumForm=Digit|NumType=Card	38	nummod	_	_	_
+
+36	do	do	ADP	Sg	Case=Gen	37	case	_	_	_
+
+37	248	248	NUM	Mdc	NumForm=Digit|NumType=Card	35	conj	_	_	_
+
+38	milijonov	milijon	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	33	obl	_	_	_
+
+39	tolarjev	tolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	38	nmod	_	_	_
+
+40	.	.	PUNCT	Z	_	21	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0029392.txt
+# text = ( sta)
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	sta	sta	X	X	_		root	_	_	_
+
+3	)	)	PUNCT	Z	_	2	punct	_	_	_
+

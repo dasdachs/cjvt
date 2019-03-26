@@ -1,0 +1,647 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0035971.txt
+# text = Vodja naftnega velikana BP Tony Hayward je prejel pismo, v katerem podjetje
+1	Vodja	vodja	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_	_
+
+2	naftnega	naften	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	velikana	velikan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	BP	BP	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+5	Tony	Tony	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+6	Hayward	Hayward	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_	_
+
+7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_	_
+
+8	prejel	prejeti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+9	pismo	pismo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_	_
+
+10	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+11	v	v	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	katerem	kateri	DET	Pq-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Int	13	obl	_	_	_
+
+13	podjetje	podjetje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	9	acl	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035971.txt
+# text = " Športni del ni problem, problem so pritiski na NLB, da naj odobri posojilo v višini 150 milijonov evrov za financiranje zasebnega dela projekta.
+1	"	"	PUNCT	Z	_	5	punct	_	_	_
+
+2	Športni	športen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	del	del	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+4	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+5	problem	problem	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	problem	problem	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	parataxis	_	_	_
+
+8	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	_	_
+
+9	pritiski	pritisk	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_	_
+
+10	na	na	ADP	Sa	Case=Acc	11	case	_	_	_
+
+11	NLB	NLB	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+12	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+13	da	da	SCONJ	Cs	_	15	mark	_	_	_
+
+14	naj	naj	PART	Q	_	15	advmod	_	_	_
+
+15	odobri	odobriti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	_	_
+
+16	posojilo	posojilo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_	_
+
+17	v	v	ADP	Sl	Case=Loc	18	case	_	_	_
+
+18	višini	višina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+19	150	150	NUM	Mdc	NumForm=Digit|NumType=Card	20	nummod	_	_	_
+
+20	milijonov	milijon	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_	_
+
+21	evrov	evro	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_	_
+
+22	za	za	ADP	Sa	Case=Acc	23	case	_	_	_
+
+23	financiranje	financiranje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	20	nmod	_	_	_
+
+24	zasebnega	zaseben	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_	_
+
+25	dela	delo	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_	_
+
+26	projekta	projekt	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_	_
+
+27	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035971.txt
+# text = Ob tem pa NLB potrebuje svež kapital in trka na vrata vlade, da odobri dokapitalizacijo," pa je dejal poslanec Vizjak.
+1	Ob	ob	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	tem	ta	DET	Pd-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	_	_
+
+3	pa	pa	CCONJ	Cc	_	5	advmod	_	_	_
+
+4	NLB	NLB	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_	_
+
+5	potrebuje	potrebovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	svež	svež	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	kapital	kapital	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_	_
+
+8	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+9	trka	trkati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_	_
+
+10	na	na	ADP	Sa	Case=Acc	11	case	_	_	_
+
+11	vrata	vrata	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	9	obl	_	_	_
+
+12	vlade	vlada	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+13	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+14	da	da	SCONJ	Cs	_	15	mark	_	_	_
+
+15	odobri	odobriti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_	_
+
+16	dokapitalizacijo	dokapitalizacija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_	_
+
+17	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+18	"	"	PUNCT	Z	_	5	punct	_	_	_
+
+19	pa	pa	CCONJ	Cc	_	21	advmod	_	_	_
+
+20	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	21	aux	_	_	_
+
+21	dejal	dejati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	5	parataxis	_	_	_
+
+22	poslanec	poslanec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_	_
+
+23	Vizjak	Vizjak	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	22	nmod	_	_	_
+
+24	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035971.txt
+# text = Da projekt ni dobro izpeljan, se je strinjal tudi Pezdir, ki je opozoril še na dejstvo, da so v bližini Stožic trgovski centri, zato bodo po njegovem mnenju težko izpogajali višino najemnin trgovskih lokalov, ki bo stroškovno vzdržna.
+1	Da	da	SCONJ	Cs	_	5	mark	_	_	_
+
+2	projekt	projekt	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+3	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+4	dobro	dobro	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+5	izpeljan	izpeljan	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	9	ccomp	_	_	_
+
+6	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+7	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	9	expl	_	_	_
+
+8	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	aux	_	_	_
+
+9	strinjal	strinjati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+10	tudi	tudi	PART	Q	_	9	advmod	_	_	_
+
+11	Pezdir	pezdir	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_	_
+
+12	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+13	ki	ki	SCONJ	Cs	_	15	mark	_	_	_
+
+14	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	aux	_	_	_
+
+15	opozoril	opozoriti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	11	acl	_	_	_
+
+16	še	še	PART	Q	_	15	advmod	_	_	_
+
+17	na	na	ADP	Sa	Case=Acc	18	case	_	_	_
+
+18	dejstvo	dejstvo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	_	_
+
+19	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+20	da	da	SCONJ	Cs	_	21	mark	_	_	_
+
+21	so	biti	VERB	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	acl	_	_	_
+
+22	v	v	ADP	Sl	Case=Loc	23	case	_	_	_
+
+23	bližini	bližina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	21	obl	_	_	_
+
+24	Stožic	Stožice	PROPN	Npfpg	Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_	_
+
+25	trgovski	trgovski	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	26	amod	_	_	_
+
+26	centri	center	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_	_
+
+27	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+28	zato	zato	CCONJ	Cc	_	34	cc	_	_	_
+
+29	bodo	biti	AUX	Va-f3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	34	aux	_	_	_
+
+30	po	po	ADP	Sl	Case=Loc	32	case	_	_	_
+
+31	njegovem	njegov	DET	Ps3nslsm	Case=Loc|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	32	det	_	_	_
+
+32	mnenju	mnenje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	34	obl	_	_	_
+
+33	težko	težko	ADV	Rgp	Degree=Pos	34	advmod	_	_	_
+
+34	izpogajali	izpogajati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	21	conj	_	_	_
+
+35	višino	višina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	34	obj	_	_	_
+
+36	najemnin	najemnina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	35	nmod	_	_	_
+
+37	trgovskih	trgovski	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	38	amod	_	_	_
+
+38	lokalov	lokal	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	36	nmod	_	_	_
+
+39	,	,	PUNCT	Z	_	43	punct	_	_	_
+
+40	ki	ki	SCONJ	Cs	_	43	mark	_	_	_
+
+41	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	43	cop	_	_	_
+
+42	stroškovno	stroškoven	ADV	Rgp	Degree=Pos	43	advmod	_	_	_
+
+43	vzdržna	vzdržen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	38	acl	_	_	_
+
+44	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035971.txt
+# text = Komu mar za pešce
+1	Komu	Kom	PRON	Pq-msd	Case=Dat|Gender=Masc|Number=Sing|PronType=Int	2	det	_	_	_
+
+2	mar	mar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	za	za	ADP	Sa	Case=Acc	4	case	_	_	_
+
+4	pešce	pešec	NOUN	Ncmsa	Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035971.txt
+# text = Franz Beckenbauer kritizira angleško igro.
+1	Franz	Franz	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+2	Beckenbauer	Beckenbauer	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	kritizira	kritizirati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	angleško	angleško	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	igro	igra	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_	_
+
+6	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035971.txt
+# text = Foto: Reuters
+1	Foto	foto	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Reuters	Reuters	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035971.txt
+# text = Paul McCartny je v enem od svojih intervijujev razložil kako je prišlo do stvarjenja enega od največjih hitov prejšnjega stoletja.
+1	Paul	Paul	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_	_
+
+2	McCartny	McCartny	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	aux	_	_	_
+
+4	v	v	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	enem	en	NUM	Mlpmsl	Case=Loc|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing	9	obl	_	_	_
+
+6	od	od	ADP	Sg	Case=Gen	8	case	_	_	_
+
+7	svojih	svoj	DET	Px-mpg	Case=Gen|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	_	_
+
+8	intervijujev	intervijev	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_	_
+
+9	razložil	razložiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+10	kako	kako	ADV	Rgp	Degree=Pos	12	advmod	_	_	_
+
+11	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	aux	_	_	_
+
+12	prišlo	priti	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part	9	ccomp	_	_	_
+
+13	do	do	ADP	Sg	Case=Gen	14	case	_	_	_
+
+14	stvarjenja	stvarjenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	12	obl	_	_	_
+
+15	enega	en	NUM	Mlpmsg	Case=Gen|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing	12	obl	_	_	_
+
+16	od	od	ADP	Sg	Case=Gen	18	case	_	_	_
+
+17	največjih	velik	ADJ	Agsmpg	Case=Gen|Degree=Sup|Gender=Masc|Number=Plur	18	amod	_	_	_
+
+18	hitov	hit	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_	_
+
+19	prejšnjega	prejšnji	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_	_
+
+20	stoletja	stoletje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_	_
+
+21	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035971.txt
+# text = Ko je bil član Beatlesov, je ponoči živo sanjal, da so njihovi" konkurenti" Rolling Stones- i posneli krasno pesem na katero je bil precej ljubosumen.
+1	Ko	ko	SCONJ	Cs	_	3	mark	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	_	_
+
+3	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	4	cop	_	_	_
+
+4	član	član	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	advcl	_	_	_
+
+5	Beatlesov	Beatles	PROPN	Npmpg	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_	_
+
+6	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	_	_
+
+8	ponoči	ponoči	ADV	Rgp	Degree=Pos	10	advmod	_	_	_
+
+9	živo	živo	ADV	Rgp	Degree=Pos	10	advmod	_	_	_
+
+10	sanjal	sanjati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+11	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+12	da	da	SCONJ	Cs	_	22	mark	_	_	_
+
+13	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	22	aux	_	_	_
+
+14	njihovi	njihov	DET	Ps3mpnp	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	16	det	_	_	_
+
+15	"	"	PUNCT	Z	_	16	punct	_	_	_
+
+16	konkurenti	konkurent	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	_	_
+
+17	"	"	PUNCT	Z	_	18	punct	_	_	_
+
+18	Rolling	rolling	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	16	nmod	_	_	_
+
+19	Stones	Stones	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	18	nmod	_	_	_
+
+20	-	-	PUNCT	Z	_	21	punct	_	_	_
+
+21	i	i	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	19	nmod	_	_	_
+
+22	posneli	posneti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	10	ccomp	_	_	_
+
+23	krasno	krasen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_	_
+
+24	pesem	pesem	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_	_
+
+25	na	na	ADP	Sa	Case=Acc	26	case	_	_	_
+
+26	katero	kateri	DET	Pq-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int	30	obl	_	_	_
+
+27	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	30	aux	_	_	_
+
+28	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	30	cop	_	_	_
+
+29	precej	precej	ADV	Rgp	Degree=Pos	30	advmod	_	_	_
+
+30	ljubosumen	ljubosumen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	24	acl	_	_	_
+
+31	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035971.txt
+# text = Ko se je...
+1	Ko	ko	SCONJ	Cs	_	3	mark	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	1	fixed	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+5	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+6	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035971.txt
+# text = Več
+1	Več	več	DET	Rgc	PronType=Ind		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035971.txt
+# text = " Napake so, zagotovo"
+1	"	"	PUNCT	Z	_	3	punct	_	_	_
+
+2	Napake	napaka	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_	_
+
+3	so	biti	VERB	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	zagotovo	zagotovo	ADV	Rgp	Degree=Pos	3	discourse	_	_	_
+
+6	"	"	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035971.txt
+# text = Leta 1844 je Charles Goodyear patentiral postopek vulkanizacije.
+1	Leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_	_
+
+2	1844	1844	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
+
+4	Charles	Charles	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	_
+
+5	Goodyear	Goodyear	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	_	_
+
+6	patentiral	patentiral	VERB	Vmbp-sm	Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+7	postopek	postopek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_	_
+
+8	vulkanizacije	vulkanizacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+9	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035971.txt
+# text = Hvala Elektro Turnsek...
+1	Hvala	hvala	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	Elektro	elektro	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	Turnsek	turnsek	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+5	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+6	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035971.txt
+# text = " When American GIs invaded Europe in June 1944, they did so in jeeps, trucks and tanks manufactured by the Big Three motor companies in one of the largest crash militarization programs ever undertaken," observes Dobbs.
+1	"	"	PUNCT	Z	_	2	punct	_	_	_
+
+2	When	When	X	Xf	Foreign=Yes		root	_	_	_
+
+3	American	American	X	Xf	Foreign=Yes	2	flat:foreign	_	_	_
+
+4	GIs	GIs	X	Xf	Foreign=Yes	2	flat:foreign	_	_	_
+
+5	invaded	invaded	X	Xf	Foreign=Yes	2	flat:foreign	_	_	_
+
+6	Europe	europe	X	Xf	Foreign=Yes	2	flat:foreign	_	_	_
+
+7	in	in	X	Xf	Foreign=Yes	2	flat:foreign	_	_	_
+
+8	June	June	X	Xf	Foreign=Yes	7	flat:foreign	_	_	_
+
+9	1944	1944	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+10	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+11	they	they	X	Xf	Foreign=Yes	7	flat:foreign	_	_	_
+
+12	did	did	X	Xf	Foreign=Yes	11	flat:foreign	_	_	_
+
+13	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_	_
+
+14	in	in	CCONJ	Cc	_	15	cc	_	_	_
+
+15	jeeps	jeeps	X	Xf	Foreign=Yes	11	conj	_	_	_
+
+16	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+17	trucks	trucks	X	Xf	Foreign=Yes	15	appos	_	_	_
+
+18	and	and	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+19	tanks	tanks	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+20	manufactured	manufactured	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+21	by	by	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+22	the	the	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+23	Big	Big	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+24	Three	three	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+25	motor	motor	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+26	companies	companies	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+27	in	in	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+28	one	oni	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+29	of	of	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+30	the	the	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+31	largest	largest	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+32	crash	cra	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+33	militarization	militarization	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+34	programs	programs	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+35	ever	ever	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+36	undertaken	undertaken	X	Xf	Foreign=Yes	17	flat:foreign	_	_	_
+
+37	,	,	PUNCT	Z	_	39	punct	_	_	_
+
+38	"	"	PUNCT	Z	_	39	punct	_	_	_
+
+39	observes	observes	X	Xf	Foreign=Yes	36	appos	_	_	_
+
+40	Dobbs	Dobbs	X	Xf	Foreign=Yes	39	flat:foreign	_	_	_
+
+41	.	.	PUNCT	Z	_	39	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035971.txt
+# text = " It came as an unpleasant surprise to discover that the enemy was also driving trucks manufactured by Ford and Opel— a 100 percent GM- owned subsidiary— and flying Opel- built warplanes.
+1	"	"	PUNCT	Z	_	2	punct	_	_	_
+
+2	It	It	X	Xf	Foreign=Yes		root	_	_	_
+
+3	came	cama	X	Xf	Foreign=Yes	2	flat:foreign	_	_	_
+
+4	as	biti	X	Xf	Foreign=Yes	2	flat:foreign	_	_	_
+
+5	an	an	X	Xf	Foreign=Yes	2	flat:foreign	_	_	_
+
+6	unpleasant	unpleasant	X	Xf	Foreign=Yes	2	flat:foreign	_	_	_
+
+7	surprise	surpris	X	Xf	Foreign=Yes	2	flat:foreign	_	_	_
+
+8	to	ta	X	Xf	Foreign=Yes	7	flat:foreign	_	_	_
+
+9	discover	discover	X	Xf	Foreign=Yes	8	flat:foreign	_	_	_
+
+10	that	that	X	Xf	Foreign=Yes	8	flat:foreign	_	_	_
+
+11	the	the	X	Xf	Foreign=Yes	8	flat:foreign	_	_	_
+
+12	enemy	enemy	X	Xf	Foreign=Yes	8	flat:foreign	_	_	_
+
+13	was	was	X	Xf	Foreign=Yes	8	flat:foreign	_	_	_
+
+14	also	alsa	X	Xf	Foreign=Yes	8	flat:foreign	_	_	_
+
+15	driving	driving	X	Xf	Foreign=Yes	8	flat:foreign	_	_	_
+
+16	trucks	trucks	X	Xf	Foreign=Yes	8	flat:foreign	_	_	_
+
+17	manufactured	manufactured	X	Xf	Foreign=Yes	8	flat:foreign	_	_	_
+
+18	by	by	X	Xf	Foreign=Yes	8	flat:foreign	_	_	_
+
+19	Ford	ford	X	Xf	Foreign=Yes	8	flat:foreign	_	_	_
+
+20	and	and	X	Xf	Foreign=Yes	8	flat:foreign	_	_	_
+
+21	Opel	opela	X	Xf	Foreign=Yes	8	flat:foreign	_	_	_
+
+22	—	—	PUNCT	Z	_	24	punct	_	_	_
+
+23	a	a	X	Xf	Foreign=Yes	8	flat:foreign	_	_	_
+
+24	100	100	NUM	Mdc	NumForm=Digit|NumType=Card	23	flat:foreign	_	_	_
+
+25	percent	percent	X	Xf	Foreign=Yes	23	flat:foreign	_	_	_
+
+26	GM	GM	X	Xf	Foreign=Yes	23	flat:foreign	_	_	_
+
+27	-	-	PUNCT	Z	_	28	punct	_	_	_
+
+28	owned	owned	X	Xf	Foreign=Yes	24	flat:foreign	_	_	_
+
+29	subsidiary	subsidiary	X	Xf	Foreign=Yes	28	flat:foreign	_	_	_
+
+30	—	—	PUNCT	Z	_	28	punct	_	_	_
+
+31	and	and	X	Xf	Foreign=Yes	28	flat:foreign	_	_	_
+
+32	flying	flying	X	Xf	Foreign=Yes	28	flat:foreign	_	_	_
+
+33	Opel	opela	X	Xf	Foreign=Yes	28	flat:foreign	_	_	_
+
+34	-	-	PUNCT	Z	_	35	punct	_	_	_
+
+35	built	built	X	Xf	Foreign=Yes	31	flat:foreign	_	_	_
+
+36	warplanes	warplanes	X	Xf	Foreign=Yes	35	flat:foreign	_	_	_
+
+37	.	.	PUNCT	Z	_	23	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035971.txt
+# text = "
+1	"	"	PUNCT	Z	_		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035971.txt
+# text = Hamilton ima po zmagi v Kanadi v skupnem seštevku tri točke prednosti pred Buttonom in še tri več pred Webbrom.
+1	Hamilton	Hamilton	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_	_
+
+2	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	po	po	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	zmagi	zmaga	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	Kanadi	kanadi	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+7	v	v	ADP	Sl	Case=Loc	9	case	_	_	_
+
+8	skupnem	skupen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_	_
+
+9	seštevku	seštevek	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_	_
+
+10	tri	trije	NUM	Mlcfpa	Case=Acc|Gender=Fem|NumForm=Word|NumType=Card|Number=Plur	11	nummod	_	_	_
+
+11	točke	točka	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_	_
+
+12	prednosti	prednost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+13	pred	pred	ADP	Si	Case=Ins	14	case	_	_	_
+
+14	Buttonom	Button	PROPN	Npmsi	Case=Ins|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+15	in	in	CCONJ	Cc	_	20	cc	_	_	_
+
+16	še	še	PART	Q	_	2	advmod	_	_	_
+
+17	tri	trije	NUM	Mlcmpa	Case=Acc|Gender=Fem|NumForm=Word|NumType=Card|Number=Plur	20	nummod	_	_	_
+
+18	več	več	DET	Rgc	PronType=Ind	20	advmod	_	_	_
+
+19	pred	pred	ADP	Si	Case=Ins	20	case	_	_	_
+
+20	Webbrom	Webbrom	PROPN	Npmsi	Case=Ins|Gender=Masc|Number=Sing	14	conj	_	_	_
+
+21	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0035971.txt
+# text = Foto: Reuters
+1	Foto	foto	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Reuters	Reuters	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+

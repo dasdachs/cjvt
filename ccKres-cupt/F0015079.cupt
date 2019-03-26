@@ -1,0 +1,993 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = Medicopharmacia d.o.o. je novodobno medicinsko– farmacevtsko podjetje, ustanovljeno leta 1991 na temeljih znanja in odgovornosti.
+1	Medicopharmacia	medicopharmacia	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+2	d.o.o	d.oda	X	Y	Abbr=Yes	1	nmod	_	_	_
+
+3	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+5	novodobno	novodoben	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing		root	_	_	_
+
+6	medicinsko	medicinski	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_	_
+
+7	–	–	PUNCT	Z	_	8	punct	_	_	_
+
+8	farmacevtsko	farmacevtsko	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	conj	_	_	_
+
+9	podjetje	podjetje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_	_
+
+10	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+11	ustanovljeno	ustanovljen	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	9	amod	_	_	_
+
+12	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	11	obl	_	_	_
+
+13	1991	1991	NUM	Mdc	NumForm=Digit|NumType=Card	12	nummod	_	_	_
+
+14	na	na	ADP	Sl	Case=Loc	15	case	_	_	_
+
+15	temeljih	temelj	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	11	obl	_	_	_
+
+16	znanja	znanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_	_
+
+17	in	in	CCONJ	Cc	_	18	cc	_	_	_
+
+18	odgovornosti	odgovornost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	conj	_	_	_
+
+19	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = Na samem začetku je bilo podjetje usmerjeno predvsem v program široke potrošnje, s poudarkom na negovalni kozmetiki in damski higieni.
+1	Na	na	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	samem	sam	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	začetku	začetek	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_	_
+
+5	bilo	biti	AUX	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part	7	cop	_	_	_
+
+6	podjetje	podjetje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_	_
+
+7	usmerjeno	usmerjen	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+8	predvsem	predvsem	PART	Q	_	7	advmod	_	_	_
+
+9	v	v	ADP	Sa	Case=Acc	10	case	_	_	_
+
+10	program	program	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_	_
+
+11	široke	širok	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_	_
+
+12	potrošnje	potrošnja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_	_
+
+13	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+14	s	z	ADP	Si	Case=Ins	15	case	_	_	_
+
+15	poudarkom	poudarek	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	10	appos	_	_	_
+
+16	na	na	ADP	Sl	Case=Loc	18	case	_	_	_
+
+17	negovalni	negovalen	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_	_
+
+18	kozmetiki	kozmetik	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_	_
+
+19	in	in	CCONJ	Cc	_	21	cc	_	_	_
+
+20	damski	damski	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_	_
+
+21	higieni	higiena	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	18	conj	_	_	_
+
+22	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = Z jasno določenimi cilji in novimi strokovnimi sodelavci pa smo našo ponudbo razširili tudi na strokovni del.
+1	Z	z	ADP	Si	Case=Ins	4	case	_	_	_
+
+2	jasno	jasno	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+3	določenimi	določen	ADJ	Appmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	4	amod	_	_	_
+
+4	cilji	cilj	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	13	obl	_	_	_
+
+5	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+6	novimi	nov	ADJ	Agpmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_	_
+
+7	strokovnimi	strokoven	ADJ	Agpmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_	_
+
+8	sodelavci	sodelavec	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	4	conj	_	_	_
+
+9	pa	pa	CCONJ	Cc	_	13	advmod	_	_	_
+
+10	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	_	_
+
+11	našo	naš	DET	Ps1fsap	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	12	det	_	_	_
+
+12	ponudbo	ponudba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_	_
+
+13	razširili	razširiti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+14	tudi	tudi	PART	Q	_	13	advmod	_	_	_
+
+15	na	na	ADP	Sa	Case=Acc	17	case	_	_	_
+
+16	strokovni	strokoven	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_	_
+
+17	del	del	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_	_
+
+18	.	.	PUNCT	Z	_	13	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = Tako lahko danes našim novim partnerjem, lekarnam in bolnišnicam, nudimo izdelke s področja medicine, farmacije in prve pomoči.
+1	Tako	tako	ADV	Rgp	Degree=Pos	12	advmod	_	_	_
+
+2	lahko	lahko	ADV	Rgp	Degree=Pos	12	advmod	_	_	_
+
+3	danes	danes	ADV	Rgp	Degree=Pos	12	advmod	_	_	_
+
+4	našim	naš	DET	Ps1mpdp	Case=Dat|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	6	det	_	_	_
+
+5	novim	nov	ADJ	Agpmpd	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_	_
+
+6	partnerjem	partner	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	12	iobj	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	lekarnam	lekarna	NOUN	Ncfpd	Case=Dat|Gender=Fem|Number=Plur	6	conj	_	_	_
+
+9	in	in	CCONJ	Cc	_	10	cc	_	_	_
+
+10	bolnišnicam	bolnišnica	NOUN	Ncfpd	Case=Dat|Gender=Fem|Number=Plur	6	conj	_	_	_
+
+11	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+12	nudimo	nuditi	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+13	izdelke	izdelek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_	_
+
+14	s	z	ADP	Sg	Case=Gen	15	case	_	_	_
+
+15	področja	področje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_	_
+
+16	medicine	medicina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_	_
+
+17	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+18	farmacije	farmacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	conj	_	_	_
+
+19	in	in	CCONJ	Cc	_	21	cc	_	_	_
+
+20	prve	prvi	ADJ	Mlofsg	Case=Gen|Gender=Fem|NumType=Ord|Number=Sing	21	amod	_	_	_
+
+21	pomoči	pomoč	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	conj	_	_	_
+
+22	.	.	PUNCT	Z	_	12	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = S proizvodi preverjeno visoke kakovosti in izobraževalnimi programi želimo prispevati predvsem k dvigovanju zdravstvene zavesti naših kupcev.
+1	S	z	ADP	Si	Case=Ins	2	case	_	_	_
+
+2	proizvodi	proizvod	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	3	nmod	_	_	_
+
+3	preverjeno	preverjen	ADJ	Appfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	5	amod	_	_	_
+
+4	visoke	visok	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	kakovosti	kakovost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	obj	_	_	_
+
+6	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+7	izobraževalnimi	izobraževalen	ADJ	Agpmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_	_
+
+8	programi	program	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	5	conj	_	_	_
+
+9	želimo	želeti	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	prispevati	prispevati	VERB	Vmbn	VerbForm=Inf	9	xcomp	_	_	_
+
+11	predvsem	predvsem	PART	Q	_	10	advmod	_	_	_
+
+12	k	k	ADP	Sd	Case=Dat	13	case	_	_	_
+
+13	dvigovanju	dvigovanje	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	_	_
+
+14	zdravstvene	zdravstven	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_	_
+
+15	zavesti	zavest	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_	_
+
+16	naših	naš	DET	Ps1mpgp	Case=Gen|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	17	det	_	_	_
+
+17	kupcev	kupec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_	_
+
+18	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = Naš slogan se glasi:
+1	Naš	naš	DET	Ps1msnp	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	_	_
+
+2	slogan	slogan	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+4	glasi	glasiti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	:	:	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = Negovalna kozmetika Fenjal
+1	Negovalna	negovalen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	kozmetika	kozmetika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+3	Fenjal	fenjati	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = MAM je avstrijsko podjetje, ki proizvaja otroške izdelke.
+1	MAM	MAM	VERB	Vmpr1s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	avstrijsko	avstrijski	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_	_
+
+4	podjetje	podjetje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_	_
+
+5	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+6	ki	ki	SCONJ	Cs	_	7	mark	_	_	_
+
+7	proizvaja	proizvajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_	_
+
+8	otroške	otroški	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_	_
+
+9	izdelke	izdelek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_	_
+
+10	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = Ustanovljeno je bilo leta 1976.
+1	Ustanovljeno	ustanovljen	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	bilo	biti	VERB	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part	1	cop	_	_	_
+
+4	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	1	obl	_	_	_
+
+5	1976	1976	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+6	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = V časovnem obdobju devetnajstih let so s pomočjo številnih raziskav in inovacij, razvili revolucionarno dudo in s tem postali eden izmed vodilnih proizvajalcev otroških dud.
+1	V	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	časovnem	časoven	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_	_
+
+3	obdobju	obdobje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_	_
+
+4	devetnajstih	devetnajst	NUM	Mlc-pg	Case=Gen|NumForm=Word|NumType=Card|Number=Plur	5	nummod	_	_	_
+
+5	let	leto	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_	_
+
+6	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	aux	_	_	_
+
+7	s	z	ADP	Si	Case=Ins	8	case	_	_	_
+
+8	pomočjo	pomoč	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_	_
+
+9	številnih	številen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_	_
+
+10	raziskav	raziskava	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_	_
+
+11	in	in	CCONJ	Cc	_	12	cc	_	_	_
+
+12	inovacij	inovacija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	10	conj	_	_	_
+
+13	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+14	razvili	razviti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+15	revolucionarno	revolucionarno	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_	_
+
+16	dudo	duda	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_	_
+
+17	in	in	CCONJ	Cc	_	20	cc	_	_	_
+
+18	s	z	ADP	Si	Case=Ins	19	case	_	_	_
+
+19	tem	ta	DET	Pd-nsi	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	20	obl	_	_	_
+
+20	postali	postati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	14	conj	_	_	_
+
+21	eden	eden	NUM	Mlpmsn	Case=Nom|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing	20	xcomp	_	_	_
+
+22	izmed	izmed	ADP	Sg	Case=Gen	24	case	_	_	_
+
+23	vodilnih	vodilen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	24	amod	_	_	_
+
+24	proizvajalcev	proizvajalec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_	_
+
+25	otroških	otroški	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	_	_
+
+26	dud	dud	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	_	_
+
+27	.	.	PUNCT	Z	_	14	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = Podjetje je osnovano na mednarodno podprtem razvoju otroških izdelkov, upoštevanju najvišjih možnih kakovostnih standardov, močnem razvoju in izpopolnjevanju izdelkov na osnovi sodelovanja s svetovno priznanimi strokovnjaki, revolucionarnih idejah, dologoročnem in vzajemnem odnosu s partnerji ter iskanju priložnosti v prihodnosti.
+1	Podjetje	podjetje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_	_
+
+3	osnovano	osnovan	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+4	na	na	ADP	Sl	Case=Loc	7	case	_	_	_
+
+5	mednarodno	mednarodno	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+6	podprtem	podprt	ADJ	Appmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	7	amod	_	_	_
+
+7	razvoju	razvoj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_	_
+
+8	otroških	otroški	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_	_
+
+9	izdelkov	izdelek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_	_
+
+10	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+11	upoštevanju	upoštevanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	7	conj	_	_	_
+
+12	najvišjih	visok	ADJ	Agsmpg	Case=Gen|Degree=Sup|Gender=Masc|Number=Plur	15	amod	_	_	_
+
+13	možnih	možen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_	_
+
+14	kakovostnih	kakovosten	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_	_
+
+15	standardov	standard	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_	_
+
+16	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+17	močnem	močen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_	_
+
+18	razvoju	razvoj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	conj	_	_	_
+
+19	in	in	CCONJ	Cc	_	20	cc	_	_	_
+
+20	izpopolnjevanju	izpopolnjevanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	7	conj	_	_	_
+
+21	izdelkov	izdelek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_	_
+
+22	na	na	ADP	Sl	Case=Loc	23	case	_	_	_
+
+23	osnovi	osnova	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	20	nmod	_	_	_
+
+24	sodelovanja	sodelovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_	_
+
+25	s	z	ADP	Si	Case=Ins	28	case	_	_	_
+
+26	svetovno	svetoven	ADV	Rgp	Degree=Pos	27	advmod	_	_	_
+
+27	priznanimi	priznan	ADJ	Appmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	28	amod	_	_	_
+
+28	strokovnjaki	strokovnjak	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	24	nmod	_	_	_
+
+29	,	,	PUNCT	Z	_	31	punct	_	_	_
+
+30	revolucionarnih	revolucionaren	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	31	amod	_	_	_
+
+31	idejah	ideja	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	7	conj	_	_	_
+
+32	,	,	PUNCT	Z	_	36	punct	_	_	_
+
+33	dologoročnem	dologoročen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_	_
+
+34	in	in	CCONJ	Cc	_	35	cc	_	_	_
+
+35	vzajemnem	vzajemen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	33	conj	_	_	_
+
+36	odnosu	odnos	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	conj	_	_	_
+
+37	s	z	ADP	Si	Case=Ins	38	case	_	_	_
+
+38	partnerji	partner	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	36	nmod	_	_	_
+
+39	ter	ter	CCONJ	Cc	_	40	cc	_	_	_
+
+40	iskanju	iskanje	NOUN	Ncnsd	Case=Loc|Gender=Neut|Number=Sing	7	conj	_	_	_
+
+41	priložnosti	priložnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	40	nmod	_	_	_
+
+42	v	v	ADP	Sl	Case=Loc	43	case	_	_	_
+
+43	prihodnosti	prihodnost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	41	nmod	_	_	_
+
+44	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = Stremijo k nenehnem izpopolnjevanju izdelkov v smislu otrokom prijaznih in popolnoma varnih izdelkov.
+1	Stremijo	stremija	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	k	k	ADP	Sd	Case=Dat	4	case	_	_	_
+
+3	nenehnem	nenehen	ADJ	Agpnsd	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_	_
+
+4	izpopolnjevanju	izpopolnjevanje	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	_	_
+
+5	izdelkov	izdelek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_	_
+
+6	v	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+7	smislu	smisel	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+8	otrokom	otrok	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	1	obj	_	_	_
+
+9	prijaznih	prijazen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_	_
+
+10	in	in	CCONJ	Cc	_	12	cc	_	_	_
+
+11	popolnoma	popolnoma	ADV	Rgp	Degree=Pos	12	advmod	_	_	_
+
+12	varnih	varen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	conj	_	_	_
+
+13	izdelkov	izdelek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_	_
+
+14	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = Izreden posluh namenjajo potrebam in zahtevam današnjega uporabnika, prav tako so popolnoma odprti in pripravljeni se prilagajati njihovim idejam ter predlogom.
+1	Izreden	izreden	ADJ	Appmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	2	amod	_	_	_
+
+2	posluh	posluh	NOUN	Ncmsnn	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_	_
+
+3	namenjajo	namenjati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	potrebam	potreba	NOUN	Ncfpd	Case=Dat|Gender=Fem|Number=Plur	3	obj	_	_	_
+
+5	in	in	CCONJ	Cc	_	6	cc	_	_	_
+
+6	zahtevam	zahteva	NOUN	Ncfpd	Case=Dat|Gender=Fem|Number=Plur	4	conj	_	_	_
+
+7	današnjega	današnji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+8	uporabnika	uporabnik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+9	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+10	prav	prav	PART	Q	_	11	advmod	_	_	_
+
+11	tako	tako	ADV	Rgp	Degree=Pos	14	advmod	_	_	_
+
+12	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	cop	_	_	_
+
+13	popolnoma	popolnoma	ADV	Rgp	Degree=Pos	14	advmod	_	_	_
+
+14	odprti	odprt	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	3	parataxis	_	_	_
+
+15	in	in	CCONJ	Cc	_	16	cc	_	_	_
+
+16	pripravljeni	pripravljen	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	14	conj	_	_	_
+
+17	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	16	nmod	_	_	_
+
+18	prilagajati	prilagajati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	16	ccomp	_	_	_
+
+19	njihovim	njihov	DET	Ps3fpdp	Case=Dat|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	20	det	_	_	_
+
+20	idejam	ideja	NOUN	Ncfpd	Case=Dat|Gender=Fem|Number=Plur	18	obj	_	_	_
+
+21	ter	ter	CCONJ	Cc	_	22	cc	_	_	_
+
+22	predlogom	predlog	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	20	conj	_	_	_
+
+23	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = Pritožbe s strani uporabnikov predstavljajo izziv za izpopolnjevanje in prilagajanje izdelkov.
+1	Pritožbe	pritožba	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_	_
+
+2	s	z	ADP	Sg	Case=Gen	3	case	_	_	_
+
+3	strani	stran	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	uporabnikov	uporabnik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_	_
+
+5	predstavljajo	predstavljati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	izziv	izziv	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_	_
+
+7	za	za	ADP	Sa	Case=Acc	8	case	_	_	_
+
+8	izpopolnjevanje	izpopolnjevanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	_	_
+
+9	in	in	CCONJ	Cc	_	10	cc	_	_	_
+
+10	prilagajanje	prilagajanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	8	conj	_	_	_
+
+11	izdelkov	izdelek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_	_
+
+12	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = Uporabniki MAM izdelkov sestavljajo veliko družino, osnovano predvsem na dolgoročnosti, zaupanju in partnerstvu.
+1	Uporabniki	uporabnik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_	_
+
+2	MAM	MAM	VERB	Vmpr1s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	izdelkov	izdelek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	2	obj	_	_	_
+
+4	sestavljajo	sestavljati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_	_
+
+5	veliko	velik	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	družino	družina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	osnovano	osnovan	ADJ	Appnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	6	amod	_	_	_
+
+9	predvsem	predvsem	PART	Q	_	8	advmod	_	_	_
+
+10	na	na	ADP	Sl	Case=Loc	11	case	_	_	_
+
+11	dolgoročnosti	dolgoročnost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+12	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+13	zaupanju	zaupanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	11	conj	_	_	_
+
+14	in	in	CCONJ	Cc	_	15	cc	_	_	_
+
+15	partnerstvu	partnerstvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	11	conj	_	_	_
+
+16	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = classic– latex, silikon
+1	classic	classica	X	Xf	Foreign=Yes		root	_	_	_
+
+2	–	–	PUNCT	Z	_	1	punct	_	_	_
+
+3	latex	latex	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	silikon	silikon	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = elik korak je podjetje naredilo na področju preprečevanja nastopa nenadne smrti pri otrocih( SIDS– Sudden Infant Death Syndrome).
+1	elik	elika	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	korak	korak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+4	podjetje	podjetje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_	_
+
+5	naredilo	narediti	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	na	na	ADP	Sl	Case=Loc	7	case	_	_	_
+
+7	področju	področje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_	_
+
+8	preprečevanja	preprečevanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_	_
+
+9	nastopa	nastop	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+10	nenadne	nenaden	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_	_
+
+11	smrti	smrt	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+12	pri	pri	ADP	Sl	Case=Loc	13	case	_	_	_
+
+13	otrocih	otrok	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	11	nmod	_	_	_
+
+14	(	(	PUNCT	Z	_	15	punct	_	_	_
+
+15	SIDS	SIDS	X	Xf	Foreign=Yes	13	appos	_	_	_
+
+16	–	–	PUNCT	Z	_	15	flat:foreign	_	_	_
+
+17	Sudden	sudden	X	Xf	Foreign=Yes	15	flat:foreign	_	_	_
+
+18	Infant	Infant	X	Xf	Foreign=Yes	15	flat:foreign	_	_	_
+
+19	Death	Death	X	Xf	Foreign=Yes	15	flat:foreign	_	_	_
+
+20	Syndrome	Syndrom	X	Xf	Foreign=Yes	15	flat:foreign	_	_	_
+
+21	)	)	PUNCT	Z	_	15	punct	_	_	_
+
+22	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = Raziskava je bila narejena na populaciji 1800 novorojencev v razdobju treh let.
+1	Raziskava	raziskava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+3	bila	biti	AUX	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	4	cop	_	_	_
+
+4	narejena	narejen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	na	na	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	populaciji	populacija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+7	1800	1800	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+8	novorojencev	novorojenec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	10	case	_	_	_
+
+10	razdobju	razdobje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	_	_
+
+11	treh	trije	NUM	Mlcnpg	Case=Gen|Gender=Neut|NumForm=Word|NumType=Card|Number=Plur	12	nummod	_	_	_
+
+12	let	leto	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	_	_
+
+13	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = Posebno pozornost so namenili 485 primerom nenadne smrti.
+1	Posebno	poseben	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	pozornost	pozornost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_	_
+
+3	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+4	namenili	nameniti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+5	485	485	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+6	primerom	primer	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	4	iobj	_	_	_
+
+7	nenadne	nenaden	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	smrti	smrt	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+9	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = Ugotovljeno je bilo, da je uporaba dude pri otrocih v najrosnejših letih eden izmed dejavnikov preprečevanja nenadne smrti.
+1	Ugotovljeno	ugotovljen	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_	_
+
+3	bilo	biti	VERB	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part	1	cop	_	_	_
+
+4	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+5	da	da	SCONJ	Cs	_	16	mark	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	cop	_	_	_
+
+7	uporaba	uporaba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_	_
+
+8	dude	duda	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+9	pri	pri	ADP	Sl	Case=Loc	10	case	_	_	_
+
+10	otrocih	otrok	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	8	nmod	_	_	_
+
+11	v	v	ADP	Sl	Case=Loc	13	case	_	_	_
+
+12	najrosnejših	sosen	ADJ	Agsnpl	Case=Loc|Degree=Sup|Gender=Neut|Number=Plur	13	amod	_	_	_
+
+13	letih	leto	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	16	obl	_	_	_
+
+14	eden	eden	NUM	Mlpmsn	Case=Nom|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing	16	nummod	_	_	_
+
+15	izmed	izmed	ADP	Sg	Case=Gen	16	case	_	_	_
+
+16	dejavnikov	dejavnik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	csubj	_	_	_
+
+17	preprečevanja	preprečevanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_	_
+
+18	nenadne	nenaden	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_	_
+
+19	smrti	smrt	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_	_
+
+20	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = S sesanjem dude se namreč ustvarja pozitiven pritisk, ki niža gastro- esofagalni refluks in omogoča zraku prosto pot z ohranjanjem jezika v pravilnem položaju.
+1	S	z	ADP	Si	Case=Ins	2	case	_	_	_
+
+2	sesanjem	sesanji	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_	_
+
+3	dude	duda	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	6	expl	_	_	_
+
+5	namreč	namreč	CCONJ	Cc	_	6	advmod	_	_	_
+
+6	ustvarja	ustvarjati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	pozitiven	pozitiven	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+8	pritisk	pritisk	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	_
+
+9	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+10	ki	ki	SCONJ	Cs	_	11	mark	_	_	_
+
+11	niža	nižati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_	_
+
+12	gastro	gastro	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_	_
+
+13	-	-	PUNCT	Z	_	14	punct	_	_	_
+
+14	esofagalni	esofagalen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	conj	_	_	_
+
+15	refluks	refluks	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_	_
+
+16	in	in	CCONJ	Cc	_	17	cc	_	_	_
+
+17	omogoča	omogočati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_	_
+
+18	zraku	zrak	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	17	iobj	_	_	_
+
+19	prosto	prost	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_	_
+
+20	pot	pot	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_	_
+
+21	z	z	ADP	Si	Case=Ins	22	case	_	_	_
+
+22	ohranjanjem	ohranjanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	20	nmod	_	_	_
+
+23	jezika	jezik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_	_
+
+24	v	v	ADP	Sl	Case=Loc	26	case	_	_	_
+
+25	pravilnem	pravilen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_	_
+
+26	položaju	položaj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	22	nmod	_	_	_
+
+27	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = S kampanjo boja proti sindromu nenadne smrti želi podjetje MAM dvigniti osveščenost staršev po celem svetu.
+1	S	z	ADP	Si	Case=Ins	2	case	_	_	_
+
+2	kampanjo	kampanja	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_	_
+
+3	boja	boj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	proti	proti	ADP	Sd	Case=Dat	5	case	_	_	_
+
+5	sindromu	sindrom	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+6	nenadne	nenaden	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	_
+
+7	smrti	smrt	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+8	želi	želeti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	podjetje	podjetje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_	_
+
+10	MAM	MAM	VERB	Vmpr1s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	parataxis	_	_	_
+
+11	dvigniti	dvigniti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	10	xcomp	_	_	_
+
+12	osveščenost	osveščenost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_	_
+
+13	staršev	starš	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_	_
+
+14	po	po	ADP	Sl	Case=Loc	16	case	_	_	_
+
+15	celem	cel	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_	_
+
+16	svetu	svet	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+17	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = Prispevek podjetja k znižanju tveganja nenadne smrti se kaže v informativnih sporočilih in pozivih, ki starše usmerjajo k pravilni legi otroka med spanjem, primerni bivalni temeperaturi in izbiri primernega ležišča za otroka.
+1	Prispevek	prispevek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_	_
+
+2	podjetja	podjetje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_	_
+
+3	k	k	ADP	Sd	Case=Dat	4	case	_	_	_
+
+4	znižanju	znižanje	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+5	tveganja	tveganje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+6	nenadne	nenaden	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	_
+
+7	smrti	smrt	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+8	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	9	expl	_	_	_
+
+9	kaže	kazati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	v	v	ADP	Sl	Case=Loc	12	case	_	_	_
+
+11	informativnih	informativen	ADJ	Agpnpl	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	12	amod	_	_	_
+
+12	sporočilih	sporočilo	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	9	obl	_	_	_
+
+13	in	in	CCONJ	Cc	_	14	cc	_	_	_
+
+14	pozivih	poziv	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	12	conj	_	_	_
+
+15	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+16	ki	ki	SCONJ	Cs	_	18	mark	_	_	_
+
+17	starše	starš	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	18	obj	_	_	_
+
+18	usmerjajo	usmerjati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	_	_
+
+19	k	k	ADP	Sd	Case=Dat	21	case	_	_	_
+
+20	pravilni	pravilen	ADJ	Agpfsd	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_	_
+
+21	legi	lega	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	_	_
+
+22	otroka	otrok	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_	_
+
+23	med	med	ADP	Si	Case=Ins	24	case	_	_	_
+
+24	spanjem	spanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	22	nmod	_	_	_
+
+25	,	,	PUNCT	Z	_	28	punct	_	_	_
+
+26	primerni	primeren	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_	_
+
+27	bivalni	bivalen	ADJ	Agpfsd	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_	_
+
+28	temeperaturi	temeperatura	NOUN	Ncfsd	Case=Loc|Gender=Fem|Number=Sing	24	conj	_	_	_
+
+29	in	in	CCONJ	Cc	_	30	cc	_	_	_
+
+30	izbiri	izbira	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	21	conj	_	_	_
+
+31	primernega	primeren	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_	_
+
+32	ležišča	ležišče	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	_	_
+
+33	za	za	ADP	Sa	Case=Acc	34	case	_	_	_
+
+34	otroka	otrok	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	32	nmod	_	_	_
+
+35	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = • Prodajna ekipa Medicopharmacie nenehno skrbi za kontinuirano obveščanje prodajalcev na maloprodajnih mestih o naših novostih in aktivnostih.
+1	•	•	PUNCT	Z	_	6	punct	_	_	_
+
+2	Prodajna	prodajna	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	ekipa	ekipa	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_	_
+
+4	Medicopharmacie	medicopharmacie	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+5	nenehno	nenehno	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+6	skrbi	skrbeti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	za	za	ADP	Sa	Case=Acc	9	case	_	_	_
+
+8	kontinuirano	kontinuirano	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_	_
+
+9	obveščanje	obveščanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_	_
+
+10	prodajalcev	prodajalec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_	_
+
+11	na	na	ADP	Sl	Case=Loc	13	case	_	_	_
+
+12	maloprodajnih	maloprodajen	ADJ	Agpnpl	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	13	amod	_	_	_
+
+13	mestih	mesto	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	10	nmod	_	_	_
+
+14	o	o	ADP	Sl	Case=Loc	16	case	_	_	_
+
+15	naših	naš	DET	Ps1fplp	Case=Loc|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	16	det	_	_	_
+
+16	novostih	novost	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	13	nmod	_	_	_
+
+17	in	in	CCONJ	Cc	_	18	cc	_	_	_
+
+18	aktivnostih	aktivnost	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	16	conj	_	_	_
+
+19	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = Tudi pri tej akciji bodo prodajalci natančno obveščeni o njenem namenu, značilnostih in razsežnostih.
+1	Tudi	tudi	PART	Q	_	8	advmod	_	_	_
+
+2	pri	pri	ADP	Sl	Case=Loc	4	case	_	_	_
+
+3	tej	ta	DET	Pd-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_	_
+
+4	akciji	akcija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+5	bodo	biti	AUX	Va-f3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	8	cop	_	_	_
+
+6	prodajalci	prodajalec	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_	_
+
+7	natančno	natančno	ADV	Rgp	Degree=Pos	8	advmod	_	_	_
+
+8	obveščeni	obveščen	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+9	o	o	ADP	Sl	Case=Loc	11	case	_	_	_
+
+10	njenem	njen	DET	Ps3mslsf	Case=Loc|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_	_
+
+11	namenu	namen	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_	_
+
+12	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+13	značilnostih	značilnost	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	11	conj	_	_	_
+
+14	in	in	CCONJ	Cc	_	15	cc	_	_	_
+
+15	razsežnostih	razsežnost	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	11	conj	_	_	_
+
+16	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0015079.txt
+# text = Po drugi strani pa za prodajalce večkrat letno pripravljamo informativno pismo, v katerem jim bomo prav tako predstavili akcijo“ Moj prispevek za Pediatrično kliniko”.
+1	Po	po	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	drugi	drug	ADJ	Mlpfsl	Case=Loc|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	strani	stran	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_	_
+
+4	pa	pa	CCONJ	Cc	_	9	advmod	_	_	_
+
+5	za	za	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	prodajalce	prodajalec	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	9	obl	_	_	_
+
+7	večkrat	večkrat	ADV	Rgc	Degree=Cmp	9	advmod	_	_	_
+
+8	letno	letno	ADV	Rgp	Degree=Pos	9	advmod	_	_	_
+
+9	pripravljamo	pripravljati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	informativno	informativen	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_	_
+
+11	pismo	pismo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_	_
+
+12	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+13	v	v	ADP	Sl	Case=Loc	14	case	_	_	_
+
+14	katerem	kateri	DET	Pq-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Int	19	obl	_	_	_
+
+15	jim	on	PRON	Pp3mpd--y	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	19	iobj	_	_	_
+
+16	bomo	biti	AUX	Va-f1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	19	aux	_	_	_
+
+17	prav	prav	PART	Q	_	18	advmod	_	_	_
+
+18	tako	tako	ADV	Rgp	Degree=Pos	19	advmod	_	_	_
+
+19	predstavili	predstaviti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	11	acl	_	_	_
+
+20	akcijo	akcija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_	_
+
+21	“	“	PUNCT	Z	_	23	punct	_	_	_
+
+22	Moj	moj	DET	Ps1msns	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	23	det	_	_	_
+
+23	prispevek	prispevek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	20	nmod	_	_	_
+
+24	za	za	ADP	Sa	Case=Acc	26	case	_	_	_
+
+25	Pediatrično	pediatrično	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_	_
+
+26	kliniko	klinika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	23	nmod	_	_	_
+
+27	”	”	PUNCT	Z	_	23	punct	_	_	_
+
+28	.	.	PUNCT	Z	_	9	punct	_	_	_
+

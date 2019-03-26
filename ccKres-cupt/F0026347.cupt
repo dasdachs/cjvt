@@ -1,0 +1,439 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0026347.txt
+# text = 1. člen
+1	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026347.txt
+# text = 3. člen
+1	3.	3.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026347.txt
+# text = Številka: 212- 07 /97- 7/1 Ljubljana, dne 27. maja 1997
+1	Številka	Številka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	212	212	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+4	-	-	PUNCT	Z	_	5	punct	_	_	_
+
+5	07	07	NUM	Mdc	NumForm=Digit|NumType=Card	3	conj	_	_	_
+
+6	/97	/97	NUM	Mdc	NumForm=Digit|NumType=Card	3	conj	_	_	_
+
+7	-	-	PUNCT	Z	_	8	punct	_	_	_
+
+8	7	7	NUM	Mdc	NumForm=Digit|NumType=Card	6	conj	_	_	_
+
+9	/1	/1	PUNCT	Z	_	10	punct	_	_	_
+
+10	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_	_
+
+11	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+12	dne	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	appos	_	_	_
+
+13	27.	27.	NUM	Mdo	NumForm=Digit|NumType=Ord	14	nummod	_	_	_
+
+14	maja	maj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+15	1997	1997	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026347.txt
+# text = Vlada Republike Slovenije in Vlada Republike Avstrije
+1	Vlada	vlada	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	in	in	CCONJ	Cc	_	5	cc	_	_	_
+
+5	Vlada	vlada	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_	_
+
+6	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+7	Avstrije	Avstrija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026347.txt
+# text = sta se v prepričanju o nujnosti sodelovanja med državama s ciljem olajšati preventivo in medsebojno pomoč pri katastrofah ali težkih nesrečah sporazumeli o:
+1	sta	biti	AUX	Va-r3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	22	aux	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	12	expl	_	_	_
+
+3	v	v	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	prepričanju	prepričanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_	_
+
+5	o	o	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	nujnosti	nujnost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+7	sodelovanja	sodelovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_	_
+
+8	med	med	ADP	Si	Case=Ins	9	case	_	_	_
+
+9	državama	država	NOUN	Ncfdi	Case=Ins|Gender=Fem|Number=Dual	7	nmod	_	_	_
+
+10	s	z	ADP	Si	Case=Ins	11	case	_	_	_
+
+11	ciljem	cilj	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_	_
+
+12	olajšati	olajšati	VERB	Vmen	Aspect=Perf|VerbForm=Inf		root	_	_	_
+
+13	preventivo	preventiva	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_	_
+
+14	in	in	CCONJ	Cc	_	16	cc	_	_	_
+
+15	medsebojno	medsebojno	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_	_
+
+16	pomoč	pomoč	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	conj	_	_	_
+
+17	pri	pri	ADP	Sl	Case=Loc	18	case	_	_	_
+
+18	katastrofah	katastrofa	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	16	nmod	_	_	_
+
+19	ali	ali	CCONJ	Cc	_	21	cc	_	_	_
+
+20	težkih	težek	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	_	_
+
+21	nesrečah	nesreča	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	18	conj	_	_	_
+
+22	sporazumeli	sporazumeti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	12	conj	_	_	_
+
+23	o	o	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_	_
+
+24	:	:	PUNCT	Z	_	22	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026347.txt
+# text = ( 1)
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	1	1	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+3	)	)	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026347.txt
+# text = Organi, ki so pristojni za vlaganje in sprejemanje prošenj za pomoč, so:
+1	Organi	Organi	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_	_
+
+2	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+3	ki	ki	SCONJ	Cs	_	5	mark	_	_	_
+
+4	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+5	pristojni	pristojen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	1	acl	_	_	_
+
+6	za	za	ADP	Sa	Case=Acc	7	case	_	_	_
+
+7	vlaganje	vlaganje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_	_
+
+8	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+9	sprejemanje	sprejemanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	7	conj	_	_	_
+
+10	prošenj	prošenje	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_	_
+
+11	za	za	ADP	Sa	Case=Acc	12	case	_	_	_
+
+12	pomoč	pomoč	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_	_
+
+13	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+14	so	biti	VERB	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+15	:	:	PUNCT	Z	_	14	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026347.txt
+# text = Pomoč bo potekala s pošiljanjem reševalnih ekip ali posameznih reševalcev, človekoljubne pomoči ali na drug ustrezen način.
+1	Pomoč	pomoč	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+2	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	3	aux	_	_	_
+
+3	potekala	potekati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+4	s	z	ADP	Si	Case=Ins	5	case	_	_	_
+
+5	pošiljanjem	pošiljanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_	_
+
+6	reševalnih	reševalen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_	_
+
+7	ekip	ekipa	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_	_
+
+8	ali	ali	CCONJ	Cc	_	10	cc	_	_	_
+
+9	posameznih	posamezen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_	_
+
+10	reševalcev	reševalec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	7	conj	_	_	_
+
+11	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+12	človekoljubne	človekoljuben	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_	_
+
+13	pomoči	pomoč	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	conj	_	_	_
+
+14	ali	ali	CCONJ	Cc	_	18	cc	_	_	_
+
+15	na	na	ADP	Sa	Case=Acc	18	case	_	_	_
+
+16	drug	drug	ADJ	Mlpmsan	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	18	amod	_	_	_
+
+17	ustrezen	ustrezen	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_	_
+
+18	način	način	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	conj	_	_	_
+
+19	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026347.txt
+# text = ( 1)
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	1	1	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+3	)	)	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026347.txt
+# text = Osebe, ki so med katastrofo ali težko nesrečo prišle kot reševalci ali evakuiranci iz ene v drugo državo pogodbenico, prejemajo v času do svoje prve možne vrnitve vso potrebno oskrbo in pomoč.
+1	Osebe	oseba	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	_	_
+
+2	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+3	ki	ki	SCONJ	Cs	_	10	mark	_	_	_
+
+4	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	_	_
+
+5	med	med	ADP	Si	Case=Ins	6	case	_	_	_
+
+6	katastrofo	katastrofa	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_	_
+
+7	ali	ali	CCONJ	Cc	_	9	cc	_	_	_
+
+8	težko	težek	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_	_
+
+9	nesrečo	nesreča	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	6	conj	_	_	_
+
+10	prišle	priti	VERB	Vmep-pf	Aspect=Perf|Gender=Fem|Number=Plur|VerbForm=Part	1	acl	_	_	_
+
+11	kot	kot	SCONJ	Cs	_	12	case	_	_	_
+
+12	reševalci	reševalec	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	10	obl	_	_	_
+
+13	ali	ali	CCONJ	Cc	_	14	cc	_	_	_
+
+14	evakuiranci	evakuiranec	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	12	conj	_	_	_
+
+15	iz	iz	ADP	Sg	Case=Gen	16	case	_	_	_
+
+16	ene	en	NUM	Mlpfsg	Case=Gen|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing	14	nummod	_	_	_
+
+17	v	v	ADP	Sa	Case=Acc	19	case	_	_	_
+
+18	drugo	drug	ADJ	Mlpfsa	Case=Acc|Gender=Fem|Number=Sing	19	amod	_	_	_
+
+19	državo	država	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+20	pogodbenico	pogodbenica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_	_
+
+21	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+22	prejemajo	prejemati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+23	v	v	ADP	Sl	Case=Loc	24	case	_	_	_
+
+24	času	čas	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	22	obl	_	_	_
+
+25	do	do	ADP	Sg	Case=Gen	29	case	_	_	_
+
+26	svoje	svoj	DET	Px-fsg	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	29	det	_	_	_
+
+27	prve	prvi	ADJ	Mlofsg	Case=Gen|Gender=Fem|NumType=Ord|Number=Sing	29	amod	_	_	_
+
+28	možne	možen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_	_
+
+29	vrnitve	vrnitev	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	22	obl	_	_	_
+
+30	vso	ves	DET	Pg-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	32	det	_	_	_
+
+31	potrebno	potreben	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_	_
+
+32	oskrbo	oskrba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_	_
+
+33	in	in	CCONJ	Cc	_	34	cc	_	_	_
+
+34	pomoč	pomoč	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	32	conj	_	_	_
+
+35	.	.	PUNCT	Z	_	22	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026347.txt
+# text = Stroške podpore in vrnitve teh oseb krije država, iz katere prihajajo, v kolikor niso državljani druge države pogodbenice.
+1	Stroške	strošek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_	_
+
+2	podpore	podpora	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	in	in	CCONJ	Cc	_	4	cc	_	_	_
+
+4	vrnitve	vrnitev	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	conj	_	_	_
+
+5	teh	ta	DET	Pd-fpg	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_	_
+
+6	oseb	oseba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_	_
+
+7	krije	krij	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+8	država	država	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+
+9	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+10	iz	iz	ADP	Sg	Case=Gen	11	case	_	_	_
+
+11	katere	kateri	DET	Pq-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Int	12	obl	_	_	_
+
+12	prihajajo	prihajati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_	_
+
+13	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+14	v	v	ADP	Sl	Case=Loc	15	case	_	_	_
+
+15	kolikor	kolikor	SCONJ	Cs	_	17	mark	_	_	_
+
+16	niso	biti	AUX	Va-r3p-y	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	17	cop	_	_	_
+
+17	državljani	državljan	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	12	advcl	_	_	_
+
+18	druge	drug	ADJ	Mlpfsg	Case=Gen|Gender=Fem|Number=Sing	19	amod	_	_	_
+
+19	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_	_
+
+20	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_	_
+
+21	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026347.txt
+# text = ( 2)
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	2	2	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+3	)	)	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026347.txt
+# text = Državi pogodbenici morata omogočiti vrnitev vsem tistim osebam, ki so kot reševalci ali evakuiranci prišle iz ene države pogodbenice v drugo.
+1	Državi	država	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	4	iobj	_	_	_
+
+2	pogodbenici	pogodbenica	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	4	iobj	_	_	_
+
+3	morata	morati	VERB	Vmpr3d	Aspect=Imp|Mood=Ind|Number=Dual|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	omogočiti	omogočiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	3	xcomp	_	_	_
+
+5	vrnitev	vrnitev	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_	_
+
+6	vsem	ves	DET	Pg-fpd	Case=Dat|Gender=Fem|Number=Plur|PronType=Tot	8	det	_	_	_
+
+7	tistim	tisti	DET	Pd-fpd	Case=Dat|Gender=Fem|Number=Plur|PronType=Dem	8	det	_	_	_
+
+8	osebam	oseba	NOUN	Ncfpd	Case=Dat|Gender=Fem|Number=Plur	5	nmod	_	_	_
+
+9	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+10	ki	ki	SCONJ	Cs	_	16	mark	_	_	_
+
+11	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	aux	_	_	_
+
+12	kot	kot	SCONJ	Cs	_	13	case	_	_	_
+
+13	reševalci	reševalec	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	16	obl	_	_	_
+
+14	ali	ali	CCONJ	Cc	_	15	cc	_	_	_
+
+15	evakuiranci	evakuiranec	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	13	conj	_	_	_
+
+16	prišle	priti	VERB	Vmep-pf	Aspect=Perf|Gender=Fem|Number=Plur|VerbForm=Part	8	acl	_	_	_
+
+17	iz	iz	ADP	Sg	Case=Gen	19	case	_	_	_
+
+18	ene	en	NUM	Mlpfsg	Case=Gen|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing	19	nummod	_	_	_
+
+19	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	obl	_	_	_
+
+20	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_	_
+
+21	v	v	ADP	Sa	Case=Acc	22	case	_	_	_
+
+22	drugo	drug	ADJ	Mlpfsa	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_	_
+
+23	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026347.txt
+# text = Če so med njimi osebe, ki niso državljani države pogodbenice, v katero se vračajo, zanje še naprej velja status tujca, ki so ga imele pred prestopom državne meje.
+1	Če	če	SCONJ	Cs	_	2	mark	_	_	_
+
+2	so	biti	VERB	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	21	advcl	_	_	_
+
+3	med	med	ADP	Si	Case=Ins	4	case	_	_	_
+
+4	njimi	on	PRON	Pp3mpi	Case=Ins|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obl	_	_	_
+
+5	osebe	oseba	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_	_
+
+6	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+7	ki	ki	SCONJ	Cs	_	9	mark	_	_	_
+
+8	niso	biti	AUX	Va-r3p-y	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	9	cop	_	_	_
+
+9	državljani	državljan	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	5	acl	_	_	_
+
+10	države	država	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+11	pogodbenice	pogodbenica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_	_
+
+12	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+13	v	v	ADP	Sa	Case=Acc	14	case	_	_	_
+
+14	katero	kateri	DET	Pq-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int	16	obl	_	_	_
+
+15	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	16	expl	_	_	_
+
+16	vračajo	vračati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_	_
+
+17	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+18	zanje	zame	PRON	Pp3mpa--b	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Bound	21	obj	_	_	_
+
+19	še	še	PART	Q	_	21	advmod	_	_	_
+
+20	naprej	naprej	ADV	Rgp	Degree=Pos	21	advmod	_	_	_
+
+21	velja	veljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+22	status	status	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_	_
+
+23	tujca	tujec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_	_
+
+24	,	,	PUNCT	Z	_	28	punct	_	_	_
+
+25	ki	ki	SCONJ	Cs	_	28	mark	_	_	_
+
+26	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	28	aux	_	_	_
+
+27	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	28	obj	_	_	_
+
+28	imele	imeti	VERB	Vmpp-pf	Aspect=Imp|Gender=Fem|Number=Plur|VerbForm=Part	23	acl	_	_	_
+
+29	pred	pred	ADP	Si	Case=Ins	30	case	_	_	_
+
+30	prestopom	prestop	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	28	obl	_	_	_
+
+31	državne	državen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_	_
+
+32	meje	meja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_	_
+
+33	.	.	PUNCT	Z	_	21	punct	_	_	_
+

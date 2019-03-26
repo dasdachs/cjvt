@@ -1,0 +1,219 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0011863.txt
+# text = / 1/
+1	/	/	PUNCT	Z	_	2	punct	_	_	_
+
+2	1/	1/	X	X	_		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011863.txt
+# text = Oblikovanje Alix Wood
+1	Oblikovanje	oblikovanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+2	Alix	Alix	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	Wood	Wood	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011863.txt
+# text = Tiskano in vezano na Kitajskem
+1	Tiskano	Tiskano	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing		root	_	_	_
+
+2	in	in	CCONJ	Cc	_	3	cc	_	_	_
+
+3	vezano	vezan	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	1	conj	_	_	_
+
+4	na	na	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	Kitajskem	Kitajsko	PROPN	Npnsl	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011863.txt
+# text = Na strani 7 začnemo spoznavati Jonove občutke.
+1	Na	na	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	strani	stran	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+3	7	7	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+4	začnemo	začeti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	spoznavati	spoznavati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	4	xcomp	_	_	_
+
+6	Jonove	Jonova	ADJ	Aspmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Poss=Yes	7	amod	_	_	_
+
+7	občutke	občutek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_	_
+
+8	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011863.txt
+# text = Si otroci lahko predstavljajo, kako mu je, ko izve, da se bo očka odselil?
+1	Si	biti	PRON	Px---d--y	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	4	aux	_	_	_
+
+2	otroci	otrok	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_	_
+
+3	lahko	lahko	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+4	predstavljajo	predstavljati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+6	kako	kako	ADV	Rgp	Degree=Pos	8	advmod	_	_	_
+
+7	mu	on	PRON	Pp3msd--y	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	4	iobj	_	_	_
+
+8	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	ccomp	_	_	_
+
+9	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+10	ko	ko	SCONJ	Cs	_	11	mark	_	_	_
+
+11	izve	izva	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_	_
+
+12	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+13	da	da	SCONJ	Cs	_	17	mark	_	_	_
+
+14	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	17	expl	_	_	_
+
+15	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	17	aux	_	_	_
+
+16	očka	očka	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_	_
+
+17	odselil	odseliti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	11	ccomp	_	_	_
+
+18	?	?	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011863.txt
+# text = Zakaj po njihovem prosi mamico in očka, naj drug drugemu rečeta 'oprosti'?
+1	Zakaj	zakaj	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+2	po	po	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	njihovem	njihov	DET	Ps3nslp	Case=Loc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	4	obl	_	_	_
+
+4	prosi	prosi	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	mamico	mamica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	očka	očka	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_	_
+
+8	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+9	naj	naj	SCONJ	Cs	_	12	mark	_	_	_
+
+10	drug	drug	ADJ	Mlpmsnn	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	_	_
+
+11	drugemu	drug	ADJ	Mlpmsd	Case=Dat|Gender=Masc|Number=Sing	12	obj	_	_	_
+
+12	rečeta	reči	VERB	Vmer3d	Aspect=Perf|Mood=Ind|Number=Dual|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_	_
+
+13	'oprosti'	3oprostiti	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_	_
+
+14	?	?	PUNCT	Z	_	12	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011863.txt
+# text = Razložite otrokom, da čeprav včasih želijo razrešiti težave, je to v resnici naloga za odrasle.
+1	Razložite	razložiti	VERB	Vmer2p	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	otrokom	otrok	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	1	iobj	_	_	_
+
+3	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+4	da	da	SCONJ	Cs	_	7	mark	_	_	_
+
+5	čeprav	čeprav	SCONJ	Cs	_	7	mark	_	_	_
+
+6	včasih	včasih	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+7	želijo	želeti	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_	_
+
+8	razrešiti	razrešiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	7	xcomp	_	_	_
+
+9	težave	težava	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_	_
+
+10	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+11	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	cop	_	_	_
+
+12	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	nsubj	_	_	_
+
+13	v	v	ADP	Sl	Case=Loc	14	case	_	_	_
+
+14	resnici	resnica	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_	_
+
+15	naloga	naloga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	parataxis	_	_	_
+
+16	za	za	ADP	Sa	Case=Acc	17	case	_	_	_
+
+17	odrasle	odrasel	ADJ	Appmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	15	amod	_	_	_
+
+18	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011863.txt
+# text = Na strani 18 mama zagotovi Jonu, da očka ne odhaja zato, ker bi on storil kaj hudega.
+1	Na	na	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	strani	stran	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+3	18	18	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+4	mama	mama	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_	_
+
+5	zagotovi	zagotoviti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	Jonu	Jon	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	5	iobj	_	_	_
+
+7	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+8	da	da	SCONJ	Cs	_	11	mark	_	_	_
+
+9	očka	očka	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_	_
+
+10	ne	ne	PART	Q	Polarity=Neg	11	advmod	_	_	_
+
+11	odhaja	odhajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_	_
+
+12	zato	zato	ADV	Rgp	Degree=Pos	17	mark	_	_	_
+
+13	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+14	ker	ker	SCONJ	Cs	_	12	fixed	_	_	_
+
+15	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	17	aux	_	_	_
+
+16	on	on	PRON	Pp3msn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_	_
+
+17	storil	storiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	11	advcl	_	_	_
+
+18	kaj	kaj	PRON	Pq-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	17	obj	_	_	_
+
+19	hudega	hud	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_	_
+
+20	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011863.txt
+# text = Ponovno poudarite, da za ločitev staršev nikoli niso krivi otroci.
+1	Ponovno	ponovno	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+2	poudarite	poudariti	VERB	Vmem2p	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin		root	_	_	_
+
+3	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+4	da	da	SCONJ	Cs	_	10	mark	_	_	_
+
+5	za	za	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	ločitev	ločitev	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_	_
+
+7	staršev	starš	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_	_
+
+8	nikoli	nikoli	ADV	Rgp	Degree=Pos	10	advmod	_	_	_
+
+9	niso	biti	AUX	Va-r3p-y	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	10	cop	_	_	_
+
+10	krivi	kriv	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	ccomp	_	_	_
+
+11	otroci	otrok	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_	_
+
+12	.	.	PUNCT	Z	_	2	punct	_	_	_
+

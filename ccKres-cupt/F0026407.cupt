@@ -1,0 +1,127 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0026407.txt
+# text = 200 g sira ricotta( it. sveži sir)
+1	200	200	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+2	g	g	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+3	sira	sir	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing		root	_	_	_
+
+4	ricotta	ricota	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+5	(	(	PUNCT	Z	_	6	punct	_	_	_
+
+6	it.	it.	X	Y	Abbr=Yes	3	appos	_	_	_
+
+7	sveži	svež	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+8	sir	sir	X	Xf	Foreign=Yes	6	flat:foreign	_	_	_
+
+9	)	)	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026407.txt
+# text = 1 jajce
+1	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	jajce	jajce	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026407.txt
+# text = Vzrok je v prirojeni občutljivosti za določene dražljaje( t. i. trigerje).
+1	Vzrok	vzrok	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_	_
+
+3	v	v	ADP	Sl	Case=Loc	5	case	_	_	_
+
+4	prirojeni	prirojen	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	občutljivosti	občutljivost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	1	obl	_	_	_
+
+6	za	za	ADP	Sa	Case=Acc	8	case	_	_	_
+
+7	določene	določen	ADJ	Appfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	8	amod	_	_	_
+
+8	dražljaje	dražljaj	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	5	nmod	_	_	_
+
+9	(	(	PUNCT	Z	_	12	punct	_	_	_
+
+10	t.	t.	X	Y	Abbr=Yes	12	amod	_	_	_
+
+11	i.	i.	X	Y	Abbr=Yes	10	fixed	_	_	_
+
+12	trigerje	triger	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	8	appos	_	_	_
+
+13	)	)	PUNCT	Z	_	12	punct	_	_	_
+
+14	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026407.txt
+# text = Najpogosteje bolniki z migreno prištevajo mednje kokakolo, rdeče vino, svetlo pivo in kavo.
+1	Najpogosteje	pogosto	ADV	Rgs	Degree=Sup	5	advmod	_	_	_
+
+2	bolniki	bolnik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_	_
+
+3	z	z	ADP	Si	Case=Ins	4	case	_	_	_
+
+4	migreno	migren	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+5	prištevajo	prištevati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	mednje	mednj	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_	_
+
+7	kokakolo	kokakolo	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_	_
+
+8	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+9	rdeče	rdeč	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_	_
+
+10	vino	vino	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	7	conj	_	_	_
+
+11	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+12	svetlo	svetlo	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_	_
+
+13	pivo	pivo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	7	conj	_	_	_
+
+14	in	in	CCONJ	Cc	_	15	cc	_	_	_
+
+15	kavo	kava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	_	_
+
+16	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026407.txt
+# text = Od hrane pa predvsem sir, čokolado, kakav, klobase, pice in prekajena rebrca.
+1	Od	od	ADP	Sg	Case=Gen	2	case	_	_	_
+
+2	hrane	hrana	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+3	pa	pa	CCONJ	Cc	_	5	cc	_	_	_
+
+4	predvsem	predvsem	PART	Q	_	5	advmod	_	_	_
+
+5	sir	sir	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing		root	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	čokolado	čokolada	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	_	_
+
+8	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+9	kakav	kakava	NOUN	Ncmsa	Case=Acc|Gender=Masc|Number=Sing	5	conj	_	_	_
+
+10	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+11	klobase	klobasa	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	5	conj	_	_	_
+
+12	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+13	pice	pica	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	5	conj	_	_	_
+
+14	in	in	CCONJ	Cc	_	16	cc	_	_	_
+
+15	prekajena	prekajen	ADJ	Appfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	16	amod	_	_	_
+
+16	rebrca	rebrca	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	_	_
+
+17	.	.	PUNCT	Z	_	5	punct	_	_	_
+

@@ -1,0 +1,87 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0001151.txt
+# text = Avgust
+1	Avgust	Avgust	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001151.txt
+# text = PON TOR SRE ČET PET SOB NED PON TOR SRE ČET PET SOB NED
+1	PON	PON	X	Xf	Foreign=Yes		root	_	_	_
+
+2	TOR	tor	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+3	SRE	biti	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+4	ČET	čet	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+5	PET	PET	NUM	Mlc-pn	Case=Acc|NumForm=Word|NumType=Card|Number=Plur	6	nummod	_	_	_
+
+6	SOB	sob	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	flat:foreign	_	_	_
+
+7	NED	ned	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+8	PON	PON	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+9	TOR	tor	X	Xf	Foreign=Yes	7	flat:foreign	_	_	_
+
+10	SRE	biti	X	Xf	Foreign=Yes	7	flat:foreign	_	_	_
+
+11	ČET	čet	X	Xf	Foreign=Yes	8	flat:foreign	_	_	_
+
+12	PET	PET	NUM	Mlc-pn	Case=Nom|NumForm=Word|NumType=Card|Number=Plur	13	nummod	_	_	_
+
+13	SOB	sob	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_	_
+
+14	NED	ned	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001151.txt
+# text = Sava od Ljubljane do Litije je bila od nekdaj elitni sulčarski revir.
+1	Sava	Sava	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_	_
+
+2	od	od	ADP	Sg	Case=Gen	3	case	_	_	_
+
+3	Ljubljane	Ljubljana	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	do	do	ADP	Sg	Case=Gen	5	case	_	_	_
+
+5	Litije	Litija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	aux	_	_	_
+
+7	bila	biti	VERB	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	12	cop	_	_	_
+
+8	od	od	ADP	Sg	Case=Gen	12	case	_	_	_
+
+9	nekdaj	nekdaj	ADV	Rgp	Degree=Pos	10	advmod	_	_	_
+
+10	elitni	eliten	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_	_
+
+11	sulčarski	sulčarski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_	_
+
+12	revir	revir	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+13	.	.	PUNCT	Z	_	12	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001151.txt
+# text = Dobrodošli v občini Dol pri Ljubljani, v deželi Jurija Vege
+1	Dobrodošli	dobrodošli	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur		root	_	_	_
+
+2	v	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	občini	občina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	Dol	dol	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+5	pri	pri	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	Ljubljani	Ljubljana	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+7	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	deželi	dežela	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	6	appos	_	_	_
+
+10	Jurija	Jurij	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+11	Vege	vega	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_	_
+

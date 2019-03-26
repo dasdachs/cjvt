@@ -1,0 +1,231 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0005412.txt
+# text = http:/ /www .acer.com
+1	http:	http:	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	/	/	PUNCT	Z	_	3	punct	_	_	_
+
+3	/www	/www	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_	_
+
+4	.acer.com	.acer.ca	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005412.txt
+# text = http:/ /www.uci.
+1	http	http	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	parataxis	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	/	/	PUNCT	Z	_	4	punct	_	_	_
+
+4	/www.uci	dwww.uci	X	Y	Abbr=Yes		root	_	_	_
+
+5	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005412.txt
+# text = edu
+1	edu	ed	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005412.txt
+# text = Na računalnik sem priključil Seagatov 200- gigabajtni zunanji disk, ki omogoča priklop tako na vmesnik USB 2.0 kakor tudi firewire.
+1	Na	na	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	računalnik	računalnik	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+3	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+4	priključil	priključiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	Seagatov	Seagatov	ADJ	Aspmsan	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	10	amod	_	_	_
+
+6	200	200	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+7	-	-	PUNCT	Z	_	8	punct	_	_	_
+
+8	gigabajtni	gigabajten	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+9	zunanji	zunanji	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	disk	disk	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_	_
+
+11	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+12	ki	ki	SCONJ	Cs	_	13	mark	_	_	_
+
+13	omogoča	omogočati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	_	_
+
+14	priklop	priklop	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_	_
+
+15	tako	tako	ADV	Rgp	Degree=Pos	17	cc:preconj	_	_	_
+
+16	na	na	ADP	Sa	Case=Acc	17	case	_	_	_
+
+17	vmesnik	vmesnik	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_	_
+
+18	USB	USB	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	_	_
+
+19	2.0	2.0	NUM	Mdc	NumForm=Digit|NumType=Card	18	nummod	_	_	_
+
+20	kakor	kakor	SCONJ	Cs	_	22	case	_	_	_
+
+21	tudi	tudi	PART	Q	_	13	advmod	_	_	_
+
+22	firewire	firewira	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	19	obl	_	_	_
+
+23	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005412.txt
+# text = Disk je sicer nekoliko večji( po kubičnih centimetrih, ne gigabajtih), kakor bi si želel, in tudi na električno omrežje ga moramo priključiti, drugače pa si lažjega priklopa in rabe verjetno ne bi mogel želeti.
+1	Disk	Disk	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+3	sicer	sicer	PART	Q	_	5	advmod	_	_	_
+
+4	nekoliko	nekoliko	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+5	večji	velik	ADJ	Agcmsny	Case=Nom|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing		root	_	_	_
+
+6	(	(	PUNCT	Z	_	9	punct	_	_	_
+
+7	po	po	ADP	Sl	Case=Loc	9	case	_	_	_
+
+8	kubičnih	kubičen	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_	_
+
+9	centimetrih	centimeter	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_	_
+
+10	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+11	ne	ne	PART	Q	Polarity=Neg	12	advmod	_	_	_
+
+12	gigabajtih	gigabajt	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	9	conj	_	_	_
+
+13	)	)	PUNCT	Z	_	9	punct	_	_	_
+
+14	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+15	kakor	kakor	SCONJ	Cs	_	18	mark	_	_	_
+
+16	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	18	aux	_	_	_
+
+17	si	se	PRON	Px---d--y	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	18	expl	_	_	_
+
+18	želel	želeti	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	5	advcl	_	_	_
+
+19	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+20	in	in	CCONJ	Cc	_	26	cc	_	_	_
+
+21	tudi	tudi	PART	Q	_	26	advmod	_	_	_
+
+22	na	na	ADP	Sa	Case=Acc	24	case	_	_	_
+
+23	električno	električen	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_	_
+
+24	omrežje	omrežje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	27	obl	_	_	_
+
+25	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	27	obj	_	_	_
+
+26	moramo	morati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	conj	_	_	_
+
+27	priključiti	priključiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	26	xcomp	_	_	_
+
+28	,	,	PUNCT	Z	_	39	punct	_	_	_
+
+29	drugače	drugače	ADV	Rgp	Degree=Pos	40	advmod	_	_	_
+
+30	pa	pa	CCONJ	Cc	_	39	advmod	_	_	_
+
+31	si	se	PRON	Px---d--y	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	40	expl	_	_	_
+
+32	lažjega	lahek	ADJ	Agcmsg	Case=Gen|Degree=Cmp|Gender=Masc|Number=Sing	33	amod	_	_	_
+
+33	priklopa	priklop	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	40	obj	_	_	_
+
+34	in	in	CCONJ	Cc	_	35	cc	_	_	_
+
+35	rabe	raba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	33	conj	_	_	_
+
+36	verjetno	verjetno	ADV	Rgp	Degree=Pos	40	advmod	_	_	_
+
+37	ne	ne	PART	Q	Polarity=Neg	39	advmod	_	_	_
+
+38	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	39	aux	_	_	_
+
+39	mogel	moči	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	5	parataxis	_	_	_
+
+40	želeti	želeti	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	39	xcomp	_	_	_
+
+41	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005412.txt
+# text = Disk sem na prenosnik priključil s kablom USB, računalnik ga je v nekaj sekundah samodejno prepoznal in na seznamu pogonov se je pokazala nova črka z 200 gigabajti prostora za glasbo in filme.
+1	Disk	Disk	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_	_
+
+2	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+3	na	na	ADP	Sa	Case=Acc	4	case	_	_	_
+
+4	prenosnik	prenosnik	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_	_
+
+5	priključil	priključiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	s	z	ADP	Si	Case=Ins	7	case	_	_	_
+
+7	kablom	kabel	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_	_
+
+8	USB	USB	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+9	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+10	računalnik	računalnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_	_
+
+11	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	17	obj	_	_	_
+
+12	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	aux	_	_	_
+
+13	v	v	ADP	Sl	Case=Loc	15	case	_	_	_
+
+14	nekaj	nekaj	DET	Rgp	PronType=Ind	15	det	_	_	_
+
+15	sekundah	sekunda	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	17	obl	_	_	_
+
+16	samodejno	samodejno	ADV	Rgp	Degree=Pos	17	advmod	_	_	_
+
+17	prepoznal	prepoznati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	5	parataxis	_	_	_
+
+18	in	in	CCONJ	Cc	_	24	cc	_	_	_
+
+19	na	na	ADP	Sl	Case=Loc	20	case	_	_	_
+
+20	seznamu	seznam	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	24	obl	_	_	_
+
+21	pogonov	pogon	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_	_
+
+22	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	24	expl	_	_	_
+
+23	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	24	aux	_	_	_
+
+24	pokazala	pokazati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	17	conj	_	_	_
+
+25	nova	nov	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_	_
+
+26	črka	črka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_	_
+
+27	z	z	ADP	Si	Case=Ins	29	case	_	_	_
+
+28	200	200	NUM	Mdc	NumForm=Digit|NumType=Card	29	nummod	_	_	_
+
+29	gigabajti	gigabajt	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	26	nmod	_	_	_
+
+30	prostora	prostor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_	_
+
+31	za	za	ADP	Sa	Case=Acc	32	case	_	_	_
+
+32	glasbo	glasba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	30	nmod	_	_	_
+
+33	in	in	CCONJ	Cc	_	34	cc	_	_	_
+
+34	filme	film	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	32	conj	_	_	_
+
+35	.	.	PUNCT	Z	_	5	punct	_	_	_
+

@@ -1,0 +1,417 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0018528.txt
+# text = V 13. členu se v tretjem odstavku 1., 2., 3. in 4. točka spremenijo, tako da se glasijo:
+1	V	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	13.	13.	NUM	Mdo	NumForm=Digit|NumType=Ord	3	nummod	_	_	_
+
+3	členu	člen	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_	_
+
+4	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	16	expl	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+6	tretjem	tretji	ADJ	Mlomsl	Case=Loc|Gender=Masc|NumType=Ord|Number=Sing	7	amod	_	_	_
+
+7	odstavku	odstavek	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_	_
+
+8	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	7	nummod	_	_	_
+
+9	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+10	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	8	conj	_	_	_
+
+11	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+12	3.	3.	NUM	Mdo	NumForm=Digit|NumType=Ord	8	conj	_	_	_
+
+13	in	in	CCONJ	Cc	_	14	cc	_	_	_
+
+14	4.	4.	NUM	Mdo	NumForm=Digit|NumType=Ord	8	conj	_	_	_
+
+15	točka	točka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	16	obl	_	_	_
+
+16	spremenijo	spremeniti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+17	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+18	tako	tako	CCONJ	Cc	_	21	cc	_	_	_
+
+19	da	da	SCONJ	Cs	_	18	fixed	_	_	_
+
+20	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	21	expl	_	_	_
+
+21	glasijo	glasiti	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_	_
+
+22	:	:	PUNCT	Z	_	16	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0018528.txt
+# text = " 1) za eno ali dve osebi s stalnim prebivališčem v stanovanjskem objektu je standardna neto površina enaka 90 m2; 2) za tri osebe s stalnim prebivališčem v stanovanjskem objektu je standardna neto površina enaka 115 m2; 3) za štiri osebe s stalnim prebivališčem v stanovanjskem objektu je standardna površina enaka 120 m2; 4) za pet oseb s stalnim prebivališčem v stanovanjskem objektu je standardna površina enaka 135 m2.
+1	"	"	PUNCT	Z	_	2	punct	_	_	_
+
+2	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	19	parataxis	_	_	_
+
+3	)	)	PUNCT	Z	_	2	punct	_	_	_
+
+4	za	za	ADP	Sa	Case=Acc	8	case	_	_	_
+
+5	eno	en	NUM	Mlpfsa	Case=Acc|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing	8	nummod	_	_	_
+
+6	ali	ali	CCONJ	Cc	_	7	cc	_	_	_
+
+7	dve	dva	NUM	Mlcfda	Case=Acc|Gender=Fem|NumForm=Word|NumType=Card|Number=Dual	5	conj	_	_	_
+
+8	osebi	oseba	NOUN	Ncfda	Case=Acc|Gender=Fem|Number=Dual	19	obl	_	_	_
+
+9	s	z	ADP	Si	Case=Ins	11	case	_	_	_
+
+10	stalnim	stalen	ADJ	Agpnsi	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_	_
+
+11	prebivališčem	prebivališče	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	8	nmod	_	_	_
+
+12	v	v	ADP	Sl	Case=Loc	14	case	_	_	_
+
+13	stanovanjskem	stanovanjski	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+14	objektu	objekt	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+15	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	cop	_	_	_
+
+16	standardna	standarden	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_	_
+
+17	neto	neto	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_	_
+
+18	površina	površina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_	_
+
+19	enaka	enak	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind		root	_	_	_
+
+20	90	90	NUM	Mdc	NumForm=Digit|NumType=Card	21	nummod	_	_	_
+
+21	m2	m2	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_	_
+
+22	;	;	PUNCT	Z	_	23	punct	_	_	_
+
+23	2	2	NUM	Mdc	NumForm=Digit|NumType=Card	19	parataxis	_	_	_
+
+24	)	)	PUNCT	Z	_	23	punct	_	_	_
+
+25	za	za	ADP	Sa	Case=Acc	27	case	_	_	_
+
+26	tri	trije	NUM	Mlcfpa	Case=Acc|Gender=Fem|NumForm=Word|NumType=Card|Number=Plur	27	nummod	_	_	_
+
+27	osebe	oseba	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	19	obl	_	_	_
+
+28	s	z	ADP	Si	Case=Ins	30	case	_	_	_
+
+29	stalnim	stalen	ADJ	Agpnsi	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_	_
+
+30	prebivališčem	prebivališče	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	27	nmod	_	_	_
+
+31	v	v	ADP	Sl	Case=Loc	33	case	_	_	_
+
+32	stanovanjskem	stanovanjski	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_	_
+
+33	objektu	objekt	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	30	nmod	_	_	_
+
+34	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	38	cop	_	_	_
+
+35	standardna	standarden	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_	_
+
+36	neto	neto	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_	_
+
+37	površina	površina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	38	nsubj	_	_	_
+
+38	enaka	enak	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	19	parataxis	_	_	_
+
+39	115	115	NUM	Mdc	NumForm=Digit|NumType=Card	40	nummod	_	_	_
+
+40	m2	m2	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	38	nsubj	_	_	_
+
+41	;	;	PUNCT	Z	_	42	punct	_	_	_
+
+42	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	46	nummod	_	_	_
+
+43	)	)	PUNCT	Z	_	38	punct	_	_	_
+
+44	za	za	ADP	Sa	Case=Acc	46	case	_	_	_
+
+45	štiri	štirje	NUM	Mlcfpa	Case=Acc|Gender=Fem|NumForm=Word|NumType=Card|Number=Plur	46	nummod	_	_	_
+
+46	osebe	oseba	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	56	obl	_	_	_
+
+47	s	z	ADP	Si	Case=Ins	49	case	_	_	_
+
+48	stalnim	stalen	ADJ	Agpnsi	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	49	amod	_	_	_
+
+49	prebivališčem	prebivališče	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	46	nmod	_	_	_
+
+50	v	v	ADP	Sl	Case=Loc	52	case	_	_	_
+
+51	stanovanjskem	stanovanjski	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	52	amod	_	_	_
+
+52	objektu	objekt	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	49	nmod	_	_	_
+
+53	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	56	cop	_	_	_
+
+54	standardna	standarden	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	55	amod	_	_	_
+
+55	površina	površina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	56	nsubj	_	_	_
+
+56	enaka	enak	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	38	parataxis	_	_	_
+
+57	120	120	NUM	Mdc	NumForm=Digit|NumType=Card	58	nummod	_	_	_
+
+58	m2	m2	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	56	obl	_	_	_
+
+59	;	;	PUNCT	Z	_	74	punct	_	_	_
+
+60	4	4	NUM	Mdc	NumForm=Digit|NumType=Card	64	nummod	_	_	_
+
+61	)	)	PUNCT	Z	_	56	punct	_	_	_
+
+62	za	za	ADP	Sa	Case=Acc	64	case	_	_	_
+
+63	pet	pet	NUM	Mlc-pa	Case=Acc|NumForm=Word|NumType=Card|Number=Plur	64	nummod	_	_	_
+
+64	oseb	oseba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	74	obl	_	_	_
+
+65	s	z	ADP	Si	Case=Ins	67	case	_	_	_
+
+66	stalnim	stalen	ADJ	Agpnsi	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	67	amod	_	_	_
+
+67	prebivališčem	prebivališče	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	64	nmod	_	_	_
+
+68	v	v	ADP	Sl	Case=Loc	70	case	_	_	_
+
+69	stanovanjskem	stanovanjski	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	70	amod	_	_	_
+
+70	objektu	objekt	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	67	nmod	_	_	_
+
+71	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	74	cop	_	_	_
+
+72	standardna	standarden	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	73	amod	_	_	_
+
+73	površina	površina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	74	nsubj	_	_	_
+
+74	enaka	enak	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	56	parataxis	_	_	_
+
+75	135	135	NUM	Mdc	NumForm=Digit|NumType=Card	74	advmod	_	_	_
+
+76	m2.	m2.	NUM	Mro	NumForm=Roman|NumType=Ord	74	advmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0018528.txt
+# text = 11. člen
+1	11.	11.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0018528.txt
+# text = ( 2)
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	2	2	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+3	)	)	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0018528.txt
+# text = Če se pri pravnomočno končanih postopkih za določitev sredstev državne pomoči po določbah zakona iz prejšnjega odstavka, ugotovi, da so bila upravičencem dodeljena manjša sredstva državne pomoči, kot bi jim pripadala po določbah tega zakona, imajo takšni upravičenci pravico do razlike.
+1	Če	če	SCONJ	Cs	_	19	mark	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	19	expl	_	_	_
+
+3	pri	pri	ADP	Sl	Case=Loc	6	case	_	_	_
+
+4	pravnomočno	pravnomočno	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+5	končanih	končan	ADJ	Appmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	6	amod	_	_	_
+
+6	postopkih	postopek	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	19	obl	_	_	_
+
+7	za	za	ADP	Sa	Case=Acc	8	case	_	_	_
+
+8	določitev	določitev	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+9	sredstev	sredstvo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_	_
+
+10	državne	državen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_	_
+
+11	pomoči	pomoč	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+12	po	po	ADP	Sl	Case=Loc	13	case	_	_	_
+
+13	določbah	določba	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	8	nmod	_	_	_
+
+14	zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+15	iz	iz	ADP	Sg	Case=Gen	17	case	_	_	_
+
+16	prejšnjega	prejšnji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_	_
+
+17	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+18	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+19	ugotovi	ugotov	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+20	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+21	da	da	SCONJ	Cs	_	25	mark	_	_	_
+
+22	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	25	aux	_	_	_
+
+23	bila	biti	AUX	Va-p-pn	Gender=Neut|Number=Plur|VerbForm=Part	25	cop	_	_	_
+
+24	upravičencem	upravičenec	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	25	obj	_	_	_
+
+25	dodeljena	dodeljen	ADJ	Appnpn	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|VerbForm=Part	19	ccomp	_	_	_
+
+26	manjša	majhen	ADJ	Agcnpn	Case=Nom|Degree=Cmp|Gender=Neut|Number=Plur	27	amod	_	_	_
+
+27	sredstva	sredstvo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	25	nsubj	_	_	_
+
+28	državne	državen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_	_
+
+29	pomoči	pomoč	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_	_
+
+30	,	,	PUNCT	Z	_	34	punct	_	_	_
+
+31	kot	kot	SCONJ	Cs	_	34	mark	_	_	_
+
+32	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	34	aux	_	_	_
+
+33	jim	on	PRON	Pp3mpd--y	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	34	obj	_	_	_
+
+34	pripadala	pripadati	VERB	Vmpp-pn	Aspect=Imp|Gender=Neut|Number=Plur|VerbForm=Part	29	acl	_	_	_
+
+35	po	po	ADP	Sl	Case=Loc	36	case	_	_	_
+
+36	določbah	določba	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	34	obl	_	_	_
+
+37	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	38	det	_	_	_
+
+38	zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_	_
+
+39	,	,	PUNCT	Z	_	34	punct	_	_	_
+
+40	imajo	imeti	VERB	Vmpr3p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	parataxis	_	_	_
+
+41	takšni	takšen	DET	Pd-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	42	det	_	_	_
+
+42	upravičenci	upravičenec	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	40	nsubj	_	_	_
+
+43	pravico	pravica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	40	obj	_	_	_
+
+44	do	do	ADP	Sg	Case=Gen	45	case	_	_	_
+
+45	razlike	razlika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	43	nmod	_	_	_
+
+46	.	.	PUNCT	Z	_	40	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0018528.txt
+# text = V takšnem primeru ministrstvo po uradni dolžnosti izda dopolnilno odločbo o namenu porabe in obsegu sredstev državne pomoči pri popotresni obnovi objektov.
+1	V	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	takšnem	takšen	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_	_
+
+3	primeru	primer	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_	_
+
+4	ministrstvo	ministrstvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_	_
+
+5	po	po	ADP	Sl	Case=Loc	7	case	_	_	_
+
+6	uradni	uraden	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	_
+
+7	dolžnosti	dolžnost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+8	izda	izdati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	dopolnilno	dopolnilen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_	_
+
+10	odločbo	odločba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_	_
+
+11	o	o	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	namenu	namen	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+13	porabe	poraba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+14	in	in	CCONJ	Cc	_	15	cc	_	_	_
+
+15	obsegu	obseg	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	12	conj	_	_	_
+
+16	sredstev	sredstvo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	_	_
+
+17	državne	državen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_	_
+
+18	pomoči	pomoč	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+19	pri	pri	ADP	Sl	Case=Loc	21	case	_	_	_
+
+20	popotresni	popotresen	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_	_
+
+21	obnovi	obnova	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_	_
+
+22	objektov	objekt	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_	_
+
+23	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0018528.txt
+# text = Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+1	Ta	ta	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_	_
+
+2	zakon	zakon	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+3	začne	začeti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	veljati	veljati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	3	xcomp	_	_	_
+
+5	naslednji	naslednji	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+6	dan	dan	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+7	po	po	ADP	Sl	Case=Loc	8	case	_	_	_
+
+8	objavi	objava	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	11	case	_	_	_
+
+10	Uradnem	uraden	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	listu	list	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+12	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+13	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+14	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0018528.txt
+# text = Številka: 433- 07 /98- 13/6 Ljubljana, dne 17. septembra 1998
+1	Številka	Številka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	9	parataxis	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	433	433	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+4	-	-	PUNCT	Z	_	5	punct	_	_	_
+
+5	07	07	NUM	Mdc	NumForm=Digit|NumType=Card	3	conj	_	_	_
+
+6	/98	/98	NUM	Mdc	NumForm=Digit|NumType=Card	3	conj	_	_	_
+
+7	-	-	PUNCT	Z	_	8	punct	_	_	_
+
+8	13/6	13/6	NUM	Mdc	NumForm=Digit|NumType=Card	6	conj	_	_	_
+
+9	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+10	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+11	dne	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	appos	_	_	_
+
+12	17.	17.	NUM	Mdo	NumForm=Digit|NumType=Ord	13	nummod	_	_	_
+
+13	septembra	september	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+14	1998	1998	NUM	Mdc	NumForm=Digit|NumType=Card	13	nummod	_	_	_
+

@@ -1,0 +1,507 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0038993.txt
+# text = Za vas, ki hočete vedeti več, da boste lahko povedali drugim!
+1	Za	za	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	vas	ti	PRON	Pp2-pa	Case=Acc|Number=Plur|Person=2|PronType=Prs		root	_	_	_
+
+3	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+4	ki	ki	SCONJ	Cs	_	5	mark	_	_	_
+
+5	hočete	hoteti	VERB	Vmpr2p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	acl	_	_	_
+
+6	vedeti	vedeti	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	5	xcomp	_	_	_
+
+7	več	več	PART	Q	_	6	advmod	_	_	_
+
+8	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+9	da	da	SCONJ	Cs	_	12	mark	_	_	_
+
+10	boste	biti	AUX	Va-f2p-n	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin	12	aux	_	_	_
+
+11	lahko	lahko	ADV	Rgp	Degree=Pos	12	advmod	_	_	_
+
+12	povedali	povedati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	6	advcl	_	_	_
+
+13	drugim	drug	ADJ	Mlpmpd	Case=Dat|Gender=Masc|Number=Plur	12	obj	_	_	_
+
+14	!	!	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038993.txt
+# text = Simbolična cena: 10 EUR na mesec.
+1	Simbolična	simboličen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	cena	cena	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+3	:	:	PUNCT	Z	_	2	punct	_	_	_
+
+4	10	10	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+5	EUR	EUR	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_	_
+
+6	na	na	ADP	Sa	Case=Acc	7	case	_	_	_
+
+7	mesec	mesec	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+8	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038993.txt
+# text = Delavnico vodi Špela Kuhar.
+1	Delavnico	delavnica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_	_
+
+2	vodi	voditi	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	Špela	špela	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_	_
+
+4	Kuhar	Kuhar	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	flat:name	_	_	_
+
+5	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038993.txt
+# text = 3 € odrasli, 2 € študenti, dijaki, upokojenci, invalidi, brezposelni
+1	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	€	€	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	odrasli	odrasel	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	2	amod	_	_	_
+
+4	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+5	2	2	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+6	€	€	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_	_
+
+7	študenti	študent	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	6	nmod	_	_	_
+
+8	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+9	dijaki	dijak	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	6	conj	_	_	_
+
+10	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+11	upokojenci	upokojenec	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	6	conj	_	_	_
+
+12	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+13	invalidi	invalid	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	6	conj	_	_	_
+
+14	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+15	brezposelni	brezposeln	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038993.txt
+# text = Legendarna Lee Miller, retrospektivna razstava umetnice, ki globoko v sebi pooseblja nemir izgubljene generacije in je ustvarila obsežen opus preko 40.000 fotografskih del, predstavlja izbor njenih 96 fotografij, ki prinašajo prerez poglavij njenega umetniškega razvoja.
+1	Legendarna	legendaren	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	Lee	lee	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_	_
+
+3	Miller	Miller	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	flat:name	_	_	_
+
+4	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+5	retrospektivna	retrospektiven	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	razstava	razstava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_	_
+
+7	umetnice	umetnica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+8	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+9	ki	ki	SCONJ	Cs	_	13	mark	_	_	_
+
+10	globoko	globoko	ADV	Rgp	Degree=Pos	13	advmod	_	_	_
+
+11	v	v	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	sebi	se	PRON	Px---l	Case=Loc|PronType=Prs|Reflex=Yes	13	obl	_	_	_
+
+13	pooseblja	poosebljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_	_
+
+14	nemir	nemir	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_	_
+
+15	izgubljene	izgubljen	ADJ	Appfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	16	amod	_	_	_
+
+16	generacije	generacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+17	in	in	CCONJ	Cc	_	19	cc	_	_	_
+
+18	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	aux	_	_	_
+
+19	ustvarila	ustvariti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	13	conj	_	_	_
+
+20	obsežen	obsežen	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_	_
+
+21	opus	opus	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_	_
+
+22	preko	preko	ADP	Sg	Case=Gen	25	case	_	_	_
+
+23	40.000	40.000	NUM	Mdc	NumForm=Digit|NumType=Card	25	nummod	_	_	_
+
+24	fotografskih	fotografski	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	25	amod	_	_	_
+
+25	del	del	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	21	nmod	_	_	_
+
+26	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+27	predstavlja	predstavljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+28	izbor	izbor	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	_	_	_
+
+29	njenih	njen	DET	Ps3fpgsf	Case=Gen|Gender=Fem|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	31	det	_	_	_
+
+30	96	96	NUM	Mdc	NumForm=Digit|NumType=Card	31	nummod	_	_	_
+
+31	fotografij	fotografija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	_	_
+
+32	,	,	PUNCT	Z	_	34	punct	_	_	_
+
+33	ki	ki	SCONJ	Cs	_	34	mark	_	_	_
+
+34	prinašajo	prinašati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	acl	_	_	_
+
+35	prerez	prerez	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	34	obj	_	_	_
+
+36	poglavij	poglavje	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	35	nmod	_	_	_
+
+37	njenega	njen	DET	Ps3msgsf	Case=Gen|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	39	det	_	_	_
+
+38	umetniškega	umetniški	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	_	_
+
+39	razvoja	razvoj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_	_
+
+40	.	.	PUNCT	Z	_	27	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038993.txt
+# text = Kronološko si sledijo skozi obdobja njenega delovanja v New Yorku, Parizu, v Egiptu, na prizoriščih druge svetovne vojne, v mestih na Azurni obali in nazadnje na njenem domu Farley Farm v Vzhodnem Sussexu, kjer je preživela zadnja in manj nemirna leta svojega življenja.
+1	Kronološko	kronološki	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+2	si	se	PRON	Px---d--y	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	3	expl	_	_	_
+
+3	sledijo	slediti	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	skozi	skozi	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	obdobja	obdobje	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	_	_
+
+6	njenega	njen	DET	Ps3nsgsf	Case=Gen|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_	_
+
+7	delovanja	delovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	10	case	_	_	_
+
+9	New	New	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+10	Yorku	York	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+11	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+12	Parizu	Pariz	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	10	conj	_	_	_
+
+13	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+14	v	v	ADP	Sl	Case=Loc	15	case	_	_	_
+
+15	Egiptu	Egipt	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	10	conj	_	_	_
+
+16	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+17	na	na	ADP	Sl	Case=Loc	18	case	_	_	_
+
+18	prizoriščih	prizorišče	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	10	conj	_	_	_
+
+19	druge	drug	ADJ	Mlpfsg	Case=Gen|Gender=Fem|Number=Sing	21	amod	_	_	_
+
+20	svetovne	svetoven	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_	_
+
+21	vojne	vojna	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_	_
+
+22	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+23	v	v	ADP	Sl	Case=Loc	24	case	_	_	_
+
+24	mestih	mesto	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	5	conj	_	_	_
+
+25	na	na	ADP	Sl	Case=Loc	27	case	_	_	_
+
+26	Azurni	Azurni	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_	_
+
+27	obali	obala	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	24	nmod	_	_	_
+
+28	in	in	CCONJ	Cc	_	32	cc	_	_	_
+
+29	nazadnje	nazadnje	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+30	na	na	ADP	Sl	Case=Loc	32	case	_	_	_
+
+31	njenem	njen	DET	Ps3mslsf	Case=Loc|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	32	det	_	_	_
+
+32	domu	dom	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	5	conj	_	_	_
+
+33	Farley	Farley	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	32	nmod	_	_	_
+
+34	Farm	Farm	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	33	flat:name	_	_	_
+
+35	v	v	ADP	Sl	Case=Loc	37	case	_	_	_
+
+36	Vzhodnem	vzhoden	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_	_
+
+37	Sussexu	Sussex	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	32	nmod	_	_	_
+
+38	,	,	PUNCT	Z	_	41	punct	_	_	_
+
+39	kjer	kjer	SCONJ	Cs	_	41	mark	_	_	_
+
+40	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	41	aux	_	_	_
+
+41	preživela	preživeti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	37	acl	_	_	_
+
+42	zadnja	zadnji	ADJ	Agpnpa	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	46	amod	_	_	_
+
+43	in	in	CCONJ	Cc	_	45	cc	_	_	_
+
+44	manj	manj	DET	Rgc	PronType=Ind	45	advmod	_	_	_
+
+45	nemirna	nemiren	ADJ	Agpnpa	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	42	conj	_	_	_
+
+46	leta	leto	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	41	obj	_	_	_
+
+47	svojega	svoj	DET	Px-nsg	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	48	det	_	_	_
+
+48	življenja	življenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	46	nmod	_	_	_
+
+49	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038993.txt
+# text = Farley Farm je danes sedež Lee Miller Archive, ki hrani in proučuje zapuščino Lee Miller in ki ga vodi njen sin Antony Penrose.
+1	Farley	Farley	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+2	Farm	Farm	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+4	danes	danes	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+5	sedež	sedež	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+6	Lee	lee	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+7	Miller	Miller	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	_	_
+
+8	Archive	Archiv	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	flat:foreign	_	_	_
+
+9	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+10	ki	ki	SCONJ	Cs	_	11	mark	_	_	_
+
+11	hrani	hraniti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_	_
+
+12	in	in	CCONJ	Cc	_	13	cc	_	_	_
+
+13	proučuje	proučevati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_	_
+
+14	zapuščino	zapuščina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_	_
+
+15	Lee	lee	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+16	Miller	Miller	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	15	flat:name	_	_	_
+
+17	in	in	CCONJ	Cc	_	20	cc	_	_	_
+
+18	ki	ki	SCONJ	Cs	_	20	mark	_	_	_
+
+19	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	20	obj	_	_	_
+
+20	vodi	voditi	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_	_
+
+21	njen	njen	DET	Ps3msnsf	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	22	det	_	_	_
+
+22	sin	sin	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_	_
+
+23	Antony	Antony	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	22	nmod	_	_	_
+
+24	Penrose	Penrose	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	23	flat:name	_	_	_
+
+25	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038993.txt
+# text = Stripburger bo v direkciji Andreja Štularja razstavil izsek svoje založniške dejavnosti in njene prežitke.
+1	Stripburger	Stripburger	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_	_
+
+2	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	7	aux	_	_	_
+
+3	v	v	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	direkciji	direkcija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_	_
+
+5	Andreja	Andreja	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+6	Štularja	Štular	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	5	flat:name	_	_	_
+
+7	razstavil	razstaviti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+8	izsek	izsek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_	_
+
+9	svoje	svoj	DET	Px-fsg	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	11	det	_	_	_
+
+10	založniške	založniški	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_	_
+
+11	dejavnosti	dejavnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+12	in	in	CCONJ	Cc	_	14	cc	_	_	_
+
+13	njene	njen	DET	Ps3fsgsf	Case=Gen|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_	_
+
+14	prežitke	prežitek	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	conj	_	_	_
+
+15	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038993.txt
+# text = Predstavil bo posebno izdajo,» Ljubilejnik, Stripburgerjev kronološki zbornik«, ročno tiskan na prastarih mašinah, z vonjem po potu avtorjev in z grenkimi izpovedmi o njihovem srečanju s Stripburgerjem.
+1	Predstavil	predstaviti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	1	aux	_	_	_
+
+3	posebno	poseben	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	izdajo	izdaja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_	_
+
+5	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+6	»	»	PUNCT	Z	_	7	punct	_	_	_
+
+7	Ljubilejnik	ljubilejnik	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_	_
+
+8	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+9	Stripburgerjev	stripburger	ADJ	Aspmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	11	amod	_	_	_
+
+10	kronološki	kronološki	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	zbornik	zbornik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_	_
+
+12	«	«	PUNCT	Z	_	11	punct	_	_	_
+
+13	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+14	ročno	ročen	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+
+15	tiskan	tiskan	ADJ	Agpmsnn	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+16	na	na	ADP	Sl	Case=Loc	18	case	_	_	_
+
+17	prastarih	prastar	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	_	_
+
+18	mašinah	mašina	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	15	obl	_	_	_
+
+19	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+20	z	z	ADP	Si	Case=Ins	21	case	_	_	_
+
+21	vonjem	vonj	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	18	conj	_	_	_
+
+22	po	po	ADP	Sl	Case=Loc	23	case	_	_	_
+
+23	potu	pot	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	21	nmod	_	_	_
+
+24	avtorjev	avtor	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_	_
+
+25	in	in	CCONJ	Cc	_	28	cc	_	_	_
+
+26	z	z	ADP	Si	Case=Ins	28	case	_	_	_
+
+27	grenkimi	grenek	ADJ	Agpfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	_	_
+
+28	izpovedmi	izpoved	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	4	conj	_	_	_
+
+29	o	o	ADP	Sl	Case=Loc	31	case	_	_	_
+
+30	njihovem	njihov	DET	Ps3nslp	Case=Loc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	31	det	_	_	_
+
+31	srečanju	srečanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	28	nmod	_	_	_
+
+32	s	z	ADP	Si	Case=Ins	33	case	_	_	_
+
+33	Stripburgerjem	stripburger	PROPN	Npmsi	Case=Ins|Gender=Masc|Number=Sing	31	nmod	_	_	_
+
+34	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038993.txt
+# text = Svoje vtise so na 70 izvodov vtisnili: Domen Finžgar, Andrej Štular, Kaja Avberšek, Marko Kociper, Koco, Jakob Klemenčič, Gašper Rus, Matej Lavrenčič, Matej de Cecco, David Krančan.
+1	Svoje	svoj	DET	Px-mpa	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	2	det	_	_	_
+
+2	vtise	vtis	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_	_
+
+3	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_	_
+
+4	na	na	ADP	Sa	Case=Acc	6	case	_	_	_
+
+5	70	70	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+6	izvodov	izvod	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_	_
+
+7	vtisnili	vtisniti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+8	:	:	PUNCT	Z	_	9	punct	_	_	_
+
+9	Domen	Domen	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_	_
+
+10	Finžgar	Finžgar	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_	_
+
+11	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+12	Andrej	Andrej	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_	_
+
+13	Štular	Štular	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	12	flat:name	_	_	_
+
+14	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+15	Kaja	kaja	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	_	_
+
+16	Avberšek	Avberšek	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	15	flat:name	_	_	_
+
+17	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+18	Marko	Marko	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_	_
+
+19	Kociper	Kociper	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	18	flat:name	_	_	_
+
+20	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+21	Koco	Koco	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_	_
+
+22	,	,	PUNCT	Z	_	23	punct	_	_	_
+
+23	Jakob	Jakob	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_	_
+
+24	Klemenčič	Klemenčič	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	23	flat:name	_	_	_
+
+25	,	,	PUNCT	Z	_	26	punct	_	_	_
+
+26	Gašper	Gašper	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_	_
+
+27	Rus	Rus	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	26	flat:name	_	_	_
+
+28	,	,	PUNCT	Z	_	29	punct	_	_	_
+
+29	Matej	Matej	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_	_
+
+30	Lavrenčič	Lavrenčič	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	29	flat:name	_	_	_
+
+31	,	,	PUNCT	Z	_	32	punct	_	_	_
+
+32	Matej	Matej	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_	_
+
+33	de	de	X	Xf	Foreign=Yes	34	nmod	_	_	_
+
+34	Cecco	Cecco	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	32	flat:name	_	_	_
+
+35	,	,	PUNCT	Z	_	36	punct	_	_	_
+
+36	David	David	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_	_
+
+37	Krančan	Krančan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	36	flat:name	_	_	_
+
+38	.	.	PUNCT	Z	_	7	punct	_	_	_
+

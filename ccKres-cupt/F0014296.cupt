@@ -1,0 +1,439 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0014296.txt
+# text = Popolna pisarna
+1	Popolna	Popoln	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	pisarna	pisarna	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0014296.txt
+# text = Microsoft Word Developers Kit, 3rd Edition
+1	Microsoft	Microsoft	X	Xf	Foreign=Yes		root	_	_	_
+
+2	Word	Word	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+3	Developers	Developers	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+4	Kit	kit	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+5	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+6	3rd	3rd	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+7	Edition	edition	X	Xf	Foreign=Yes	6	flat:foreign	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0014296.txt
+# text = Primož Gabrijelčič
+1	Primož	primož	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Gabrijelčič	Gabrijelčič	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0014296.txt
+# text = O NEKATERIH PRIKLJUČKIH NE MOREMO POVEDATI KAJ DOSTI.
+1	O	o	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	NEKATERIH	nekateri	DET	Pi-mpl	Case=Loc|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_	_
+
+3	PRIKLJUČKIH	priključek	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	6	obl	_	_	_
+
+4	NE	ne	PART	Q	Polarity=Neg	5	advmod	_	_	_
+
+5	MOREMO	moči	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	POVEDATI	povedati	VERB	Vmen	Aspect=Perf|VerbForm=Inf	5	xcomp	_	_	_
+
+7	KAJ	kaj	PRON	Pq-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	6	obj	_	_	_
+
+8	DOSTI	dosti	DET	Rgp	PronType=Ind	6	advmod	_	_	_
+
+9	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0014296.txt
+# text = VHOD ZA TIPKOVNICO JE V DVEH RAZLIČICAH.
+1	VHOD	vhod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+2	ZA	za	ADP	Sa	Case=Acc	3	case	_	_	_
+
+3	TIPKOVNICO	tipkovnica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	JE	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	V	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+6	DVEH	dva	NUM	Mlcfdl	Case=Loc|Gender=Fem|NumForm=Word|NumType=Card|Number=Dual	7	nummod	_	_	_
+
+7	RAZLIČICAH	različica	NOUN	Ncfdl	Case=Loc|Gender=Fem|Number=Dual	4	obl	_	_	_
+
+8	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0014296.txt
+# text = VEČINA PLOŠČ IMA VGRAJEN OBIČAJNI, VELIK( AT) PRIKLJUČEK, NEKATERE PA MANJŠEGA, KI GA POZNAMO IZ MACOV IN RAČUNALNIKOV IBM PS/2.
+1	VEČINA	večina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+2	PLOŠČ	plošča	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_	_
+
+3	IMA	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	VGRAJEN	vgrajen	ADJ	Appmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	5	amod	_	_	_
+
+5	OBIČAJNI	običajen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	VELIK	velik	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	conj	_	_	_
+
+8	(	(	PUNCT	Z	_	9	punct	_	_	_
+
+9	AT	AT	NOUN	Ncmsn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_	_
+
+10	)	)	PUNCT	Z	_	9	punct	_	_	_
+
+11	PRIKLJUČEK	priključek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_	_
+
+12	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+13	NEKATERE	nekateri	DET	Pi-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_	_
+
+14	PA	pa	CCONJ	Cc	_	15	cc	_	_	_
+
+15	MANJŠEGA	manjšeg	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	11	conj	_	_	_
+
+16	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+17	KI	ki	SCONJ	Cs	_	19	mark	_	_	_
+
+18	GA	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	19	obj	_	_	_
+
+19	POZNAMO	poznati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	acl	_	_	_
+
+20	IZ	iz	ADP	Sg	Case=Gen	21	case	_	_	_
+
+21	MACOV	macov	PROPN	Npmpg	Case=Gen|Gender=Masc|Number=Plur	19	obl	_	_	_
+
+22	IN	in	CCONJ	Cc	_	23	cc	_	_	_
+
+23	RAČUNALNIKOV	računalnik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	21	conj	_	_	_
+
+24	IBM	IBM	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	23	nmod	_	_	_
+
+25	PS/2	PS/2	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	24	nmod	_	_	_
+
+26	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0014296.txt
+# text = PRI NAKUPU BODITE POZORNI NA TO, DA VAM NE BO TREBA KUPOVATI ŠE PRILAGODITVENEGA VMESNIKA.
+1	PRI	pri	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	NAKUPU	nakup	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+3	BODITE	boditi	AUX	Va-m2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	4	cop	_	_	_
+
+4	POZORNI	pozoren	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur		root	_	_	_
+
+5	NA	na	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	TO	to	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obl	_	_	_
+
+7	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+8	DA	da	SCONJ	Cs	_	11	mark	_	_	_
+
+9	VAM	vama	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	13	iobj	_	_	_
+
+10	NE	ne	PART	Q	Polarity=Neg	11	advmod	_	_	_
+
+11	BO	biti	VERB	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	6	acl	_	_	_
+
+12	TREBA	treba	ADV	Rgp	Degree=Pos	11	advmod	_	_	_
+
+13	KUPOVATI	kupovati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	11	csubj	_	_	_
+
+14	ŠE	še	PART	Q	_	13	advmod	_	_	_
+
+15	PRILAGODITVENEGA	prilagoditven	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_	_
+
+16	VMESNIKA	vmesnik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	obj	_	_	_
+
+17	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0014296.txt
+# text = NA VEČINI PLOŠČ Z OBIČAJNIM PRIKLJUČKOM ZA TIPKOVNICO JE ŽE PRIPRAVLJENO PRIKLJUČNO MESTO ZA TIPKOVNICO PS/2.
+1	NA	na	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	VEČINI	večina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_	_
+
+3	PLOŠČ	plošča	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_	_
+
+4	Z	z	ADP	Si	Case=Ins	6	case	_	_	_
+
+5	OBIČAJNIM	običajen	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+6	PRIKLJUČKOM	priključek	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+7	ZA	za	ADP	Sa	Case=Acc	8	case	_	_	_
+
+8	TIPKOVNICO	tipkovnica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+9	JE	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	cop	_	_	_
+
+10	ŽE	že	PART	Q	_	11	advmod	_	_	_
+
+11	PRIPRAVLJENO	pripravljen	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+12	PRIKLJUČNO	priključno	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_	_
+
+13	MESTO	mesto	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_	_
+
+14	ZA	za	ADP	Sa	Case=Acc	15	case	_	_	_
+
+15	TIPKOVNICO	tipkovnica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	_	_
+
+16	PS/2	PS/2	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+17	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0014296.txt
+# text = PRI NEKATERIH DOBIMO PRIKLJUČEK ŽE V OSNOVNEM PAKETU, PRI DRUGIH PA GA MORAMO DOKUPITI.
+1	PRI	pri	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	NEKATERIH	nekateri	DET	Pi-fpl	Case=Loc|Gender=Masc|Number=Plur|PronType=Ind	3	obl	_	_	_
+
+3	DOBIMO	dobiti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	PRIKLJUČEK	priključek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_	_
+
+5	ŽE	že	PART	Q	_	3	advmod	_	_	_
+
+6	V	v	ADP	Sl	Case=Loc	8	case	_	_	_
+
+7	OSNOVNEM	osnoven	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+8	PAKETU	paket	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_	_
+
+9	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+10	PRI	pri	ADP	Sl	Case=Loc	11	case	_	_	_
+
+11	DRUGIH	drug	ADJ	Mlpmpl	Case=Loc|Gender=Fem|Number=Plur	15	obl	_	_	_
+
+12	PA	pa	CCONJ	Cc	_	14	advmod	_	_	_
+
+13	GA	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	15	obj	_	_	_
+
+14	MORAMO	morati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	_	_
+
+15	DOKUPITI	dokupiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	14	xcomp	_	_	_
+
+16	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0014296.txt
+# text = Dolga leta pri diskih in drugih pomnilniških enotah srečujemo zgolj dva vmesnika: IDE( EIDE) in SCSI.
+1	Dolga	dolg	ADJ	Agpnpa	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	2	amod	_	_	_
+
+2	leta	leto	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	9	obl	_	_	_
+
+3	pri	pri	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	diskih	diski	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	9	obl	_	_	_
+
+5	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+6	drugih	drug	ADJ	Mlpfpl	Case=Loc|Gender=Fem|Number=Plur	8	amod	_	_	_
+
+7	pomnilniških	pomnilniški	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_	_
+
+8	enotah	enota	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	4	conj	_	_	_
+
+9	srečujemo	srečevati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	zgolj	zgolj	PART	Q	_	9	advmod	_	_	_
+
+11	dva	dva	NUM	Mlcmda	Case=Acc|Gender=Masc|NumForm=Word|NumType=Card|Number=Dual	12	nummod	_	_	_
+
+12	vmesnika	vmesnik	NOUN	Ncmda	Case=Acc|Gender=Masc|Number=Dual	9	obj	_	_	_
+
+13	:	:	PUNCT	Z	_	9	punct	_	_	_
+
+14	IDE	IDE	NOUN	Ncmsa	Case=Acc|Gender=Masc|Number=Sing	12	appos	_	_	_
+
+15	(	(	PUNCT	Z	_	16	punct	_	_	_
+
+16	EIDE	EIDE	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_	_
+
+17	)	)	PUNCT	Z	_	16	punct	_	_	_
+
+18	in	in	CCONJ	Cc	_	19	cc	_	_	_
+
+19	SCSI	SCSI	PROPN	Npmsn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_	_
+
+20	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0014296.txt
+# text = Oba standarda sta nastala še v časih prvih računalnikov PC, vendar sta se z leti precej razvila in prilagodila razvoju drugih delov sodobnih računalnikov.
+1	Oba	oba	DET	Pg-mdn	Case=Nom|Gender=Masc|Number=Dual|PronType=Tot	2	det	_	_	_
+
+2	standarda	standard	NOUN	Ncmdn	Case=Nom|Gender=Masc|Number=Dual	4	nsubj	_	_	_
+
+3	sta	biti	AUX	Va-r3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+4	nastala	nastati	VERB	Vmep-dm	Aspect=Perf|Gender=Masc|Number=Dual|VerbForm=Part		root	_	_	_
+
+5	še	še	PART	Q	_	4	advmod	_	_	_
+
+6	v	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+7	časih	čas	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_	_
+
+8	prvih	prvi	ADJ	Mlompg	Case=Gen|Gender=Masc|NumType=Ord|Number=Plur	9	amod	_	_	_
+
+9	računalnikov	računalnik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_	_
+
+10	PC	PC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+11	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+12	vendar	vendar	CCONJ	Cc	_	18	cc	_	_	_
+
+13	sta	biti	AUX	Va-r3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	aux	_	_	_
+
+14	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	18	expl	_	_	_
+
+15	z	z	ADP	Si	Case=Ins	16	case	_	_	_
+
+16	leti	leto	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	18	obl	_	_	_
+
+17	precej	precej	ADV	Rgp	Degree=Pos	18	advmod	_	_	_
+
+18	razvila	razviti	VERB	Vmep-dm	Aspect=Perf|Gender=Masc|Number=Dual|VerbForm=Part	4	conj	_	_	_
+
+19	in	in	CCONJ	Cc	_	20	cc	_	_	_
+
+20	prilagodila	prilagoditi	VERB	Vmep-dm	Aspect=Perf|Gender=Masc|Number=Dual|VerbForm=Part	18	conj	_	_	_
+
+21	razvoju	razvoj	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	20	iobj	_	_	_
+
+22	drugih	drug	ADJ	Mlpmpg	Case=Gen|Gender=Masc|Number=Plur	23	amod	_	_	_
+
+23	delov	del	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_	_
+
+24	sodobnih	sodoben	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	25	amod	_	_	_
+
+25	računalnikov	računalnik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_	_
+
+26	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0014296.txt
+# text = Kljub temu je za nekatere, predvsem najbolj zmogljive računalnike, tudi to premalo.
+1	Kljub	kljub	ADP	Sd	Case=Dat	2	case	_	_	_
+
+2	temu	ta	DET	Pd-nsd	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	za	za	ADP	Sa	Case=Acc	10	case	_	_	_
+
+5	nekatere	nekateri	DET	Pi-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_	_
+
+6	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+7	predvsem	predvsem	PART	Q	_	3	advmod	_	_	_
+
+8	najbolj	najbolj	ADV	Rgs	Degree=Sup	9	advmod	_	_	_
+
+9	zmogljive	zmogljiv	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	conj	_	_	_
+
+10	računalnike	računalnik	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	_	_
+
+11	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+12	tudi	tudi	PART	Q	_	14	advmod	_	_	_
+
+13	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	nmod	_	_	_
+
+14	premalo	premalo	ADV	Rgp	Degree=Pos	10	advmod	_	_	_
+
+15	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0014296.txt
+# text = Na vrsti so torej novi vmesniki, ki ponujajo več.
+1	Na	na	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	vrsti	vrsta	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_	_
+
+3	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	torej	torej	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+5	novi	nov	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_	_
+
+6	vmesniki	vmesnik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_	_
+
+7	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+8	ki	ki	SCONJ	Cs	_	9	mark	_	_	_
+
+9	ponujajo	ponujati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	_	_
+
+10	več	več	DET	Rgc	PronType=Ind	9	advmod	_	_	_
+
+11	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0014296.txt
+# text = Nasvidenje SCSI, na vrsti je SSA
+1	Nasvidenje	nasvidenje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing		root	_	_	_
+
+2	SCSI	SCSI	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+4	na	na	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	vrsti	vrsta	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_	_
+
+6	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	parataxis	_	_	_
+
+7	SSA	SSA	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0014296.txt
+# text = Avtor: Mijenix Corporation, ZDA; tel.: 001 608 277 1981, faks: 001 608 277 1971.
+1	Avtor	avtor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	Mijenix	Mijenix	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+4	Corporation	corporation	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	_	_
+
+5	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+6	ZDA	ZDA	PROPN	Npfpl	Case=Loc|Gender=Fem|Number=Plur	4	conj	_	_	_
+
+7	;	;	PUNCT	Z	_	1	punct	_	_	_
+
+8	tel	tel	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_	_
+
+9	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+10	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+11	001	001	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+12	608	608	NUM	Mdc	NumForm=Digit|NumType=Card	11	flat	_	_	_
+
+13	277	277	NUM	Mdc	NumForm=Digit|NumType=Card	12	flat	_	_	_
+
+14	1981	1981	NUM	Mdc	NumForm=Digit|NumType=Card	12	flat	_	_	_
+
+15	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+16	faks	faks	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_	_
+
+17	:	:	PUNCT	Z	_	16	punct	_	_	_
+
+18	001	001	NUM	Mdc	NumForm=Digit|NumType=Card	16	nummod	_	_	_
+
+19	608	608	NUM	Mdc	NumForm=Digit|NumType=Card	18	flat	_	_	_
+
+20	277	277	NUM	Mdc	NumForm=Digit|NumType=Card	18	conj	_	_	_
+
+21	1971.	1971.	NUM	Mdc	NumForm=Digit|NumType=Card	18	conj	_	_	_
+

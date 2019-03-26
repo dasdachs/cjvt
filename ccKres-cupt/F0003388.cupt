@@ -1,0 +1,573 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0003388.txt
+# text = Še letos sodobnejša cesta
+1	Še	še	PART	Q	_	4	advmod	_	_	_
+
+2	letos	letos	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+3	sodobnejša	sodoben	ADJ	Agcfsn	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	cesta	cesta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003388.txt
+# text = Agencija Nasa je pred kratkim objavila nove fotografije treh od 16 Jupitrovih lun- Evrope, Ia in Ganimeda.
+1	Agencija	Agencija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_	_
+
+2	Nasa	Nasa	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
+
+4	pred	pred	ADP	Si	Case=Ins	5	case	_	_	_
+
+5	kratkim	kratek	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	6	obl	_	_	_
+
+6	objavila	objaviti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+7	nove	nov	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_	_
+
+8	fotografije	fotografija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_	_
+
+9	treh	trije	NUM	Mlcmpg	Case=Gen|Gender=Masc|NumForm=Word|NumType=Card|Number=Plur	8	nummod	_	_	_
+
+10	od	od	ADP	Sg	Case=Gen	13	case	_	_	_
+
+11	16	16	NUM	Mdc	NumForm=Digit|NumType=Card	13	nummod	_	_	_
+
+12	Jupitrovih	Jupitrov	ADJ	Aspfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Poss=Yes	13	amod	_	_	_
+
+13	lun	lun	PROPN	Npfpg	Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_	_
+
+14	-	-	PUNCT	Z	_	15	punct	_	_	_
+
+15	Evrope	Evropa	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	13	conj	_	_	_
+
+16	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+17	Ia	Ia	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	13	conj	_	_	_
+
+18	in	in	CCONJ	Cc	_	19	cc	_	_	_
+
+19	Ganimeda	Ganimed	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	13	conj	_	_	_
+
+20	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003388.txt
+# text = Fotografije je na Zemljo poslalo plovilo Galileo, ki je na dveletnem raziskovanju Jupitra, njegovih lun in okolice.
+1	Fotografije	fotografija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+3	na	na	ADP	Sa	Case=Acc	4	case	_	_	_
+
+4	Zemljo	zemlja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+5	poslalo	poslati	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	plovilo	plovilo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_	_
+
+7	Galileo	galileo	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+8	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+9	ki	ki	SCONJ	Cs	_	10	mark	_	_	_
+
+10	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	acl	_	_	_
+
+11	na	na	ADP	Sl	Case=Loc	13	case	_	_	_
+
+12	dveletnem	dveleten	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_	_
+
+13	raziskovanju	raziskovanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_	_
+
+14	Jupitra	Jupiter	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+15	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+16	njegovih	njegov	DET	Ps3fpgsm	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_	_
+
+17	lun	lun	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	14	conj	_	_	_
+
+18	in	in	CCONJ	Cc	_	19	cc	_	_	_
+
+19	okolice	okolica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	conj	_	_	_
+
+20	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003388.txt
+# text = Galilea so oktobra 1989 z raketoplana Atlantis izstrelili na zahtevno pot, ki ga je najprej vodila enkrat mimo Venere in dvakrat mimo Zemlje.
+1	Galilea	Galilea	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_	_
+
+3	oktobra	oktober	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_	_
+
+4	1989	1989	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+5	z	z	ADP	Sg	Case=Gen	6	case	_	_	_
+
+6	raketoplana	raketoplan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_	_
+
+7	Atlantis	Atlantis	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+8	izstrelili	izstreliti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+9	na	na	ADP	Sa	Case=Acc	11	case	_	_	_
+
+10	zahtevno	zahteven	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_	_
+
+11	pot	pot	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+12	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+13	ki	ki	SCONJ	Cs	_	17	mark	_	_	_
+
+14	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	17	obj	_	_	_
+
+15	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	aux	_	_	_
+
+16	najprej	najprej	ADV	Rgs	Degree=Sup	17	advmod	_	_	_
+
+17	vodila	voditi	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	11	acl	_	_	_
+
+18	enkrat	enkrat	ADV	Rgp	Degree=Pos	17	advmod	_	_	_
+
+19	mimo	mimo	ADP	Sg	Case=Gen	20	case	_	_	_
+
+20	Venere	vener	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_	_
+
+21	in	in	CCONJ	Cc	_	24	cc	_	_	_
+
+22	dvakrat	dvakrat	ADV	Rgp	Degree=Pos	24	advmod	_	_	_
+
+23	mimo	mimo	ADP	Sg	Case=Gen	24	case	_	_	_
+
+24	Zemlje	zemlja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	20	conj	_	_	_
+
+25	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003388.txt
+# text = Tako je plovilo dobilo dodaten gravitacijski pospešek za 74 mesecev dolgo potovanje.
+1	Tako	tako	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+3	plovilo	plovilo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_	_
+
+4	dobilo	dobiti	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	dodaten	dodaten	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+6	gravitacijski	gravitacijski	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	pospešek	pospešek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_	_
+
+8	za	za	ADP	Sa	Case=Acc	10	case	_	_	_
+
+9	74	74	NUM	Mdc	NumForm=Digit|NumType=Card	10	nummod	_	_	_
+
+10	mesecev	mesec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_	_
+
+11	dolgo	dolg	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_	_
+
+12	potovanje	potovanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_	_
+
+13	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003388.txt
+# text = Julija 1995 se je od njega ločila sonda in decembra stopila v Jupitrovo visoko atmosfero s hitrostjo 170.000 kilometrov na uro.
+1	Julija	Julij	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_	_
+
+2	1995	1995	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	7	expl	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_	_
+
+5	od	od	ADP	Sg	Case=Gen	6	case	_	_	_
+
+6	njega	on	PRON	Pp3msg	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	_	_
+
+7	ločila	ločiti	VERB	Vmbp-sf	Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+8	sonda	sonda	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+
+9	in	in	CCONJ	Cc	_	11	cc	_	_	_
+
+10	decembra	december	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_	_
+
+11	stopila	stopiti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	7	conj	_	_	_
+
+12	v	v	ADP	Sa	Case=Acc	15	case	_	_	_
+
+13	Jupitrovo	Jupitrov	ADJ	Aspfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	15	amod	_	_	_
+
+14	visoko	visok	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_	_
+
+15	atmosfero	atmosfer	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_	_
+
+16	s	z	ADP	Si	Case=Ins	17	case	_	_	_
+
+17	hitrostjo	hitrost	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	_	_
+
+18	170.000	170.000	NUM	Mdc	NumForm=Digit|NumType=Card	19	nummod	_	_	_
+
+19	kilometrov	kilometer	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_	_
+
+20	na	na	ADP	Sa	Case=Acc	21	case	_	_	_
+
+21	uro	ura	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	_	_
+
+22	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003388.txt
+# text = V nekaj urah je zaradi strašanskega padanja razpadla in zgorela.
+1	V	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	nekaj	nekaj	DET	Rgp	PronType=Ind	3	det	_	_	_
+
+3	urah	ura	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	8	obl	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_	_
+
+5	zaradi	zaradi	ADP	Sg	Case=Gen	7	case	_	_	_
+
+6	strašanskega	strašanski	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_	_
+
+7	padanja	padanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_	_
+
+8	razpadla	razpasti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+9	in	in	CCONJ	Cc	_	10	cc	_	_	_
+
+10	zgorela	zgoreti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	8	conj	_	_	_
+
+11	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003388.txt
+# text = Pa vendar so sondini instrumenti še 75 minut zapisovali in pošiljali podatke.
+1	Pa	pa	CCONJ	Cc	_	9	advmod	_	_	_
+
+2	vendar	vendar	CCONJ	Cc	_	1	fixed	_	_	_
+
+3	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	aux	_	_	_
+
+4	sondini	sondina	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_	_
+
+5	instrumenti	instrument	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	4	nmod	_	_	_
+
+6	še	še	PART	Q	_	9	advmod	_	_	_
+
+7	75	75	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+8	minut	minuta	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	9	obl	_	_	_
+
+9	zapisovali	zapisovati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+10	in	in	CCONJ	Cc	_	11	cc	_	_	_
+
+11	pošiljali	pošiljati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	9	conj	_	_	_
+
+12	podatke	podatek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_	_
+
+13	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003388.txt
+# text = Med 202 kilometra dolgem spuščanju so naprave zaznale višje temperature, močnejše vrtinčenje in siloviteješe vetrove, kot so pričakovali strokovnjaki.
+1	Med	med	ADP	Si	Case=Ins	3	case	_	_	_
+
+2	202	202	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+3	kilometra	kilometer	NOUN	Ncmdg	Case=Gen|Gender=Masc|Number=Dual	8	obl	_	_	_
+
+4	dolgem	dolg	ADJ	Agpnsd	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_	_
+
+5	spuščanju	spuščanje	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	_	_
+
+6	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_	_
+
+7	naprave	naprava	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_	_
+
+8	zaznale	zaznati	VERB	Vmep-pf	Aspect=Perf|Gender=Fem|Number=Plur|VerbForm=Part		root	_	_	_
+
+9	višje	visok	ADJ	Agcfpn	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	10	amod	_	_	_
+
+10	temperature	temperatura	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_	_
+
+11	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+12	močnejše	močen	ADJ	Agcnsa	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	13	amod	_	_	_
+
+13	vrtinčenje	vrtinčenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	10	appos	_	_	_
+
+14	in	in	CCONJ	Cc	_	16	cc	_	_	_
+
+15	siloviteješe	silovit	ADJ	Agcmpa	Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur	16	amod	_	_	_
+
+16	vetrove	veter	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	10	conj	_	_	_
+
+17	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+18	kot	kot	SCONJ	Cs	_	20	mark	_	_	_
+
+19	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	aux	_	_	_
+
+20	pričakovali	pričakovati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	16	acl	_	_	_
+
+21	strokovnjaki	strokovnjak	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_	_
+
+22	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003388.txt
+# text = Na podlagi tega so sklepali, da jim daje moč toplota, ki se iz globine planeta širi skozi atmosfero, v nasprotju s predvidevanji, da na pojave vpliva kondenzacija vode.
+1	Na	na	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	podlagi	podlaga	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+3	tega	ta	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	2	nmod	_	_	_
+
+4	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+5	sklepali	sklepati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+6	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+7	da	da	SCONJ	Cs	_	9	mark	_	_	_
+
+8	jim	on	PRON	Pp3mpd--y	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	9	iobj	_	_	_
+
+9	daje	dajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_	_
+
+10	moč	moč	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_	_
+
+11	toplota	toplota	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_	_
+
+12	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+13	ki	ki	SCONJ	Cs	_	18	mark	_	_	_
+
+14	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	18	expl	_	_	_
+
+15	iz	iz	ADP	Sg	Case=Gen	16	case	_	_	_
+
+16	globine	globina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	18	obl	_	_	_
+
+17	planeta	planet	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_	_
+
+18	širi	šir	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	_	_
+
+19	skozi	skozi	ADP	Sa	Case=Acc	20	case	_	_	_
+
+20	atmosfero	atmosfer	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_	_
+
+21	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+22	v	v	ADP	Sl	Case=Loc	23	case	_	_	_
+
+23	nasprotju	nasprotje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	10	conj	_	_	_
+
+24	s	z	ADP	Si	Case=Ins	25	case	_	_	_
+
+25	predvidevanji	predvidevanje	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	23	nmod	_	_	_
+
+26	,	,	PUNCT	Z	_	30	punct	_	_	_
+
+27	da	da	SCONJ	Cs	_	30	mark	_	_	_
+
+28	na	na	ADP	Sa	Case=Acc	29	case	_	_	_
+
+29	pojave	pojava	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	30	obl	_	_	_
+
+30	vpliva	vplivati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl	_	_	_
+
+31	kondenzacija	kondenzacija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	30	nsubj	_	_	_
+
+32	vode	voda	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_	_
+
+33	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003388.txt
+# text = Dosti knjig, izvirnih in prevodnih, ostane v javnosti po krivici neopaženih
+1	Dosti	dosti	DET	Rgp	PronType=Ind	2	det	_	_	_
+
+2	knjig	knjiga	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	8	nsubj	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	izvirnih	izviren	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_	_
+
+5	in	in	CCONJ	Cc	_	6	cc	_	_	_
+
+6	prevodnih	prevoden	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	2	conj	_	_	_
+
+7	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+8	ostane	ostati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	10	case	_	_	_
+
+10	javnosti	javnost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+11	po	po	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	krivici	krivica	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_	_
+
+13	neopaženih	neopažen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	12	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003388.txt
+# text = predsednik Slovenske sekcije Mednarodnega oglaševalskega združenja IAA
+1	predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Slovenske	slovenski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	sekcije	sekcija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	Mednarodnega	mednaroden	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_	_
+
+5	oglaševalskega	oglaševalski	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_	_
+
+6	združenja	združenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_	_
+
+7	IAA	IAA	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003388.txt
+# text = 12.
+1	12.	12.	NUM	Mdo	NumForm=Digit|NumType=Ord		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003388.txt
+# text = 50
+1	50	50	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003388.txt
+# text = Na vrtu
+1	Na	na	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	vrtu	vrt	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003388.txt
+# text = Hrvaška 1- 23.00Strah v Wood Sideu
+1	Hrvaška	hrvaški	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+3	-	-	PUNCT	Z	_	4	punct	_	_	_
+
+4	23.00Strah	23.00Strah	NUM	Mdc	NumForm=Digit|NumType=Card	2	conj	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+6	Wood	Wood	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+7	Sideu	sideu	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003388.txt
+# text = Zgodba nemškega pisatelja se godi v starih časih na Jutrovem.
+1	Zgodba	zgodba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_	_
+
+2	nemškega	nemški	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	pisatelja	pisatelj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	5	expl	_	_	_
+
+5	godi	goditi	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	v	v	ADP	Sl	Case=Loc	8	case	_	_	_
+
+7	starih	star	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_	_
+
+8	časih	čas	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_	_
+
+9	na	na	ADP	Sl	Case=Loc	10	case	_	_	_
+
+10	Jutrovem	Jutrov	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+11	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003388.txt
+# text = Sultanov sin princ Ahmed je dobil novega konja.
+1	Sultanov	Sultan	ADJ	Aspmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	2	amod	_	_	_
+
+2	sin	sin	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	_
+
+3	princ	princ	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	Ahmed	ahmed	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
+
+6	dobil	dobiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+7	novega	nov	ADJ	Agpmsa	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+8	konja	konj	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_	_
+
+9	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003388.txt
+# text = Konj se mora še marsikaj naučiti, kajti življenje na sultanovem dvoru ni lahko in princ Ahmed ima z ljudmi same težave.
+1	Konj	konj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	6	expl	_	_	_
+
+3	mora	morati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	še	še	PART	Q	_	3	advmod	_	_	_
+
+5	marsikaj	marsikaj	PRON	Pi-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	6	obj	_	_	_
+
+6	naučiti	naučiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	3	xcomp	_	_	_
+
+7	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+8	kajti	kajti	CCONJ	Cc	_	13	cc	_	_	_
+
+9	življenje	življenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	13	nsubj	_	_	_
+
+10	na	na	ADP	Sl	Case=Loc	12	case	_	_	_
+
+11	sultanovem	sultanov	ADJ	Aspmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	12	amod	_	_	_
+
+12	dvoru	dvor	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_	_
+
+13	ni	biti	VERB	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	conj	_	_	_
+
+14	lahko	lahko	ADV	Rgp	Degree=Pos	13	advmod	_	_	_
+
+15	in	in	CCONJ	Cc	_	18	cc	_	_	_
+
+16	princ	princ	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_	_
+
+17	Ahmed	ahmed	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	16	nmod	_	_	_
+
+18	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	conj	_	_	_
+
+19	z	z	ADP	Si	Case=Ins	20	case	_	_	_
+
+20	ljudmi	človek	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	18	obl	_	_	_
+
+21	same	sam	ADJ	Agpfsa	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_	_
+
+22	težave	težava	NOUN	Ncfpa	Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_	_
+
+23	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0003388.txt
+# text = Po letu dni uspešne prodaje se Windows 95 poslavljajo
+1	Po	po	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	letu	leto	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_	_
+
+3	dni	dan	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_	_
+
+4	uspešne	uspešen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	prodaje	prodaja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+6	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	9	expl	_	_	_
+
+7	Windows	Windows	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_	_
+
+8	95	95	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+9	poslavljajo	poslavljati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+

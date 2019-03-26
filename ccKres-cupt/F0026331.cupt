@@ -1,0 +1,111 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0026331.txt
+# text = Povedano drugače, naloga novinarjev je, da obveščajo, naloga državnih organov pa, da po svojih močeh preprečujejo objave državnih skrivnosti.
+1	Povedano	povedan	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	drugače	drugače	ADV	Rgp	Degree=Pos	1	advmod	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	naloga	naloga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	parataxis	_	_	_
+
+5	novinarjev	novinar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_	_
+
+7	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+8	da	da	SCONJ	Cs	_	9	mark	_	_	_
+
+9	obveščajo	obveščati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	csubj	_	_	_
+
+10	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+11	naloga	naloga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	parataxis	_	_	_
+
+12	državnih	državen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_	_
+
+13	organov	organ	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_	_
+
+14	pa	pa	CCONJ	Cc	_	11	advmod	_	_	_
+
+15	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+16	da	da	SCONJ	Cs	_	20	mark	_	_	_
+
+17	po	po	ADP	Sl	Case=Loc	19	case	_	_	_
+
+18	svojih	svoj	DET	Px-fpl	Case=Loc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	19	det	_	_	_
+
+19	močeh	moč	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	20	obl	_	_	_
+
+20	preprečujejo	preprečevati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	csubj	_	_	_
+
+21	objave	objava	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	20	obj	_	_	_
+
+22	državnih	državen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	_	_
+
+23	skrivnosti	skrivnost	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	_	_
+
+24	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0026331.txt
+# text = Zato bi bilo za vse veliko bolje, če bi država- namesto da poskuša novinarjem z novimi zakonskimi določbami zapreti usta- najprej pometla pred svojim pragom.
+1	Zato	zato	CCONJ	Cc	_	3	cc	_	_	_
+
+2	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	3	aux	_	_	_
+
+3	bilo	biti	VERB	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+4	za	za	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	vse	ves	DET	Pg-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	3	obl	_	_	_
+
+6	veliko	veliko	DET	Rgp	PronType=Ind	7	advmod	_	_	_
+
+7	bolje	dobro	ADV	Rgc	Degree=Cmp	3	advmod	_	_	_
+
+8	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+9	če	če	SCONJ	Cs	_	25	mark	_	_	_
+
+10	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	25	aux	_	_	_
+
+11	država	država	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_	_
+
+12	-	-	PUNCT	Z	_	15	punct	_	_	_
+
+13	namesto	namesto	ADP	Sg	Case=Gen	15	mark	_	_	_
+
+14	da	da	SCONJ	Cs	_	13	fixed	_	_	_
+
+15	poskuša	poskušati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	_	_
+
+16	novinarjem	novinar	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	21	iobj	_	_	_
+
+17	z	z	ADP	Si	Case=Ins	20	case	_	_	_
+
+18	novimi	nov	ADJ	Agpfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	_	_
+
+19	zakonskimi	zakonski	ADJ	Agpfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	_	_
+
+20	določbami	določba	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	21	obl	_	_	_
+
+21	zapreti	zapreti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	15	xcomp	_	_	_
+
+22	usta	usta	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	21	obj	_	_	_
+
+23	-	-	PUNCT	Z	_	25	punct	_	_	_
+
+24	najprej	najprej	ADV	Rgs	Degree=Sup	25	advmod	_	_	_
+
+25	pometla	pometel	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	3	parataxis	_	_	_
+
+26	pred	pred	ADP	Si	Case=Ins	28	case	_	_	_
+
+27	svojim	svoj	DET	Px-msi	Case=Ins|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	28	det	_	_	_
+
+28	pragom	prag	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	25	obl	_	_	_
+
+29	.	.	PUNCT	Z	_	3	punct	_	_	_
+

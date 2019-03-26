@@ -1,0 +1,233 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0021371.txt
+# text = Katja Reider
+1	Katja	Katja	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	Reider	Reider	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021371.txt
+# text = Katja Reider
+1	Katja	Katja	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	Reider	Reider	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021371.txt
+# text = Mladinska knjiga Založba, d. d., Ljubljana 2005
+1	Mladinska	mladinski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+3	Založba	založba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	d.	d.	X	Y	Abbr=Yes	3	appos	_	_	_
+
+6	d.	d.	X	Y	Abbr=Yes	5	fixed	_	_	_
+
+7	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+8	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+9	2005	2005	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021371.txt
+# text = Natisnila tiskarna
+1	Natisnila	natisniti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	tiskarna	tiskarna	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021371.txt
+# text = » Ah, ko sem bil v tvojih letih,« pravi Tufkov oče,» sem bil kapetan nogometnega kluba Divja svinja in sanjaril o svetovnem prvenstvu.
+1	»	»	PUNCT	Z	_	6	punct	_	_	_
+
+2	Ah	ah	INTJ	I	_	23	discourse	_	_	_
+
+3	,	,	PUNCT	Z	_	2	punct	_	_	_
+
+4	ko	ko	SCONJ	Cs	_	6	mark	_	_	_
+
+5	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
+
+6	bil	biti	VERB	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	23	advcl	_	_	_
+
+7	v	v	ADP	Sl	Case=Loc	9	case	_	_	_
+
+8	tvojih	tvoj	DET	Ps1nplp	Case=Loc|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	9	det	_	_	_
+
+9	letih	leto	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	6	obl	_	_	_
+
+10	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+11	«	«	PUNCT	Z	_	12	punct	_	_	_
+
+12	pravi	praviti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_	_
+
+13	Tufkov	Tufkov	ADJ	Aspmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	14	amod	_	_	_
+
+14	oče	oče	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_	_
+
+15	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+16	»	»	PUNCT	Z	_	12	punct	_	_	_
+
+17	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	23	aux	_	_	_
+
+18	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	23	cop	_	_	_
+
+19	kapetan	kapetan	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_	_
+
+20	nogometnega	nogometen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_	_
+
+21	kluba	klub	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_	_
+
+22	Divja	Divja	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_	_
+
+23	svinja	svinja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+24	in	in	CCONJ	Cc	_	25	cc	_	_	_
+
+25	sanjaril	sanjariti	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	23	conj	_	_	_
+
+26	o	o	ADP	Sl	Case=Loc	28	case	_	_	_
+
+27	svetovnem	svetoven	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_	_
+
+28	prvenstvu	prvenstvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	25	obl	_	_	_
+
+29	.	.	PUNCT	Z	_	23	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021371.txt
+# text = «
+1	«	«	PUNCT	Z	_		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021371.txt
+# text = Zakuhal?
+1	Zakuhal	zakuhati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+2	?	?	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021371.txt
+# text = Kako to?
+1	Kako	kako	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+2	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem		root	_	_	_
+
+3	?	?	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021371.txt
+# text = Si je Tufko mogoče nakopal kakega prašička?
+1	Si	biti	PRON	Px---d--y	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	4	cop	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_	_
+
+3	Tufko	Tufko	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+4	mogoče	mogoč	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing		root	_	_	_
+
+5	nakopal	nakopati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	4	csubj	_	_	_
+
+6	kakega	kak	DET	Pq-msa	Case=Acc|Gender=Masc|Number=Sing|PronType=Int	7	det	_	_	_
+
+7	prašička	prašiček	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_	_
+
+8	?	?	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021371.txt
+# text = dovolj sanjarjenja!
+1	dovolj	dovolj	DET	Rgp	PronType=Ind	2	det	_	_	_
+
+2	sanjarjenja	sanjarjenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing		root	_	_	_
+
+3	!	!	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021371.txt
+# text = Kaj res misli, da ga bo ta Rozi ljubila takega, kot je.
+1	Kaj	kaj	PRON	Pq-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	3	iobj	_	_	_
+
+2	res	res	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+3	misli	misliti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+5	da	da	SCONJ	Cs	_	10	mark	_	_	_
+
+6	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	10	obj	_	_	_
+
+7	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	10	aux	_	_	_
+
+8	ta	ta	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_	_
+
+9	Rozi	Rozi	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_	_
+
+10	ljubila	ljubiti	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	3	ccomp	_	_	_
+
+11	takega	tak	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	10	obj	_	_	_
+
+12	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+13	kot	kot	SCONJ	Cs	_	14	mark	_	_	_
+
+14	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	acl	_	_	_
+
+15	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021371.txt
+# text = © za izdajo v slovenščini Mladinska knjiga Založba, d. d.
+1	©	©	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	za	za	ADP	Sa	Case=Acc	3	case	_	_	_
+
+3	izdajo	izdaja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	v	v	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	slovenščini	slovenščina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+6	Mladinska	mladinski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	_
+
+7	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+8	Založba	založba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+9	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+10	d.	d.	X	Y	Abbr=Yes	8	appos	_	_	_
+
+11	d.	d.	X	Y	Abbr=Yes	10	fixed	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021371.txt
+# text = Toda Rozi se moti.
+1	Toda	toda	CCONJ	Cc	_	4	cc	_	_	_
+
+2	Rozi	Rozi	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+4	moti	motiti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021371.txt
+# text = Res je.
+1	Res	res	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+2	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0021371.txt
+# text = Tufko se pelje mimo Rozi.
+1	Tufko	Tufko	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	3	expl	_	_	_
+
+3	pelje	peljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	mimo	mimo	ADP	Sg	Case=Gen	5	case	_	_	_
+
+5	Rozi	Rozi	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_	_
+
+6	.	.	PUNCT	Z	_	3	punct	_	_	_
+

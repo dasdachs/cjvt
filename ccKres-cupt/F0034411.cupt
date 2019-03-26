@@ -1,0 +1,977 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = OB SONČEVI POTI
+1	OB	ob	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	SONČEVI	Sončev	ADJ	Aspfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	3	amod	_	_	_
+
+3	POTI	POTI	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = Gibanje pesti pred nami je resnično( vzrok), na nebu pa opazujemo njeno navidezno gibanje( posledica).
+1	Gibanje	gibanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_	_
+
+2	pesti	pest	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	pred	pred	ADP	Si	Case=Ins	4	case	_	_	_
+
+4	nami	jaz	PRON	Pp1-pi	Case=Ins|Number=Plur|Person=1|PronType=Prs	2	nmod	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_	_
+
+6	resnično	resnično	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing		root	_	_	_
+
+7	(	(	PUNCT	Z	_	8	punct	_	_	_
+
+8	vzrok	vzrok	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_	_
+
+9	)	)	PUNCT	Z	_	8	punct	_	_	_
+
+10	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+11	na	na	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	nebu	nebo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_	_
+
+13	pa	pa	CCONJ	Cc	_	14	advmod	_	_	_
+
+14	opazujemo	opazovati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis	_	_	_
+
+15	njeno	njen	DET	Ps3nsasf	Case=Acc|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_	_
+
+16	navidezno	navidezen	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_	_
+
+17	gibanje	gibanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_	_
+
+18	(	(	PUNCT	Z	_	19	punct	_	_	_
+
+19	posledica	posledica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	17	appos	_	_	_
+
+20	)	)	PUNCT	Z	_	19	punct	_	_	_
+
+21	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = Ozvezdje Dvojčka je zanimivo tudi zato, ker sta bila v njem odkrita kar dva planeta: Uran in Pluton.
+1	Ozvezdje	ozvezdje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_	_
+
+2	Dvojčka	dvojček	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_	_
+
+4	zanimivo	zanimiv	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing		root	_	_	_
+
+5	tudi	tudi	PART	Q	_	4	advmod	_	_	_
+
+6	zato	zato	ADV	Rgp	Degree=Pos	13	mark	_	_	_
+
+7	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+8	ker	ker	SCONJ	Cs	_	6	fixed	_	_	_
+
+9	sta	biti	AUX	Va-r3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	_	_
+
+10	bila	biti	AUX	Va-p-dm	Gender=Masc|Number=Dual|VerbForm=Part	13	cop	_	_	_
+
+11	v	v	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	njem	on	PRON	Pp3msl	Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl	_	_	_
+
+13	odkrita	odkriti	ADJ	Appmdn	Case=Nom|Degree=Pos|Gender=Masc|Number=Dual|VerbForm=Part	4	advcl	_	_	_
+
+14	kar	kar	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+
+15	dva	dva	NUM	Mlcmdn	Case=Nom|Gender=Masc|NumForm=Word|NumType=Card|Number=Dual	16	nummod	_	_	_
+
+16	planeta	planet	NOUN	Ncmdn	Case=Nom|Gender=Masc|Number=Dual	13	nsubj	_	_	_
+
+17	:	:	PUNCT	Z	_	13	punct	_	_	_
+
+18	Uran	Uran	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_	_
+
+19	in	in	CCONJ	Cc	_	20	cc	_	_	_
+
+20	Pluton	Pluton	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	18	conj	_	_	_
+
+21	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = Prvega je po naključju odkril 1781 angleški astronom William Herschel, drugega pa ameriški astronom Clyde Tombaugh 1930 po dolgotrajnih in premišljenih raziskovanjih na osnovi natančnih izračunov.
+1	Prvega	prvi	ADJ	Mlomsa	Case=Acc|Gender=Masc|NumType=Ord|Number=Sing	5	obj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+3	po	po	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	naključju	naključje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_	_
+
+5	odkril	odkriti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	1781	1781	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+7	angleški	angleški	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+8	astronom	astronom	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+9	William	William	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+10	Herschel	herschel	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_	_
+
+11	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+12	drugega	drug	ADJ	Mlpmsg	Case=Acc|Gender=Masc|Number=Sing	15	amod	_	_	_
+
+13	pa	pa	CCONJ	Cc	_	15	cc	_	_	_
+
+14	ameriški	ameriški	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_	_
+
+15	astronom	astronom	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_	_
+
+16	Clyde	Clyde	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+17	Tombaugh	Tombaugh	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	16	flat:name	_	_	_
+
+18	1930	1930	NUM	Mdc	NumForm=Digit|NumType=Card	16	nummod	_	_	_
+
+19	po	po	ADP	Sl	Case=Loc	23	case	_	_	_
+
+20	dolgotrajnih	dolgotrajen	ADJ	Agpnpl	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	23	amod	_	_	_
+
+21	in	in	CCONJ	Cc	_	22	cc	_	_	_
+
+22	premišljenih	premišljen	ADJ	Appnpl	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur|VerbForm=Part	20	conj	_	_	_
+
+23	raziskovanjih	raziskovanje	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	15	nmod	_	_	_
+
+24	na	na	ADP	Sl	Case=Loc	25	case	_	_	_
+
+25	osnovi	osnova	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	23	nmod	_	_	_
+
+26	natančnih	natančen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	27	amod	_	_	_
+
+27	izračunov	izračun	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_	_
+
+28	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = Ozvezdje Dvojčka- Gemini, pri nas zvečer vidno od novembra do maja.
+1	Ozvezdje	ozvezdje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_	_
+
+2	Dvojčka	dvojček	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	-	-	PUNCT	Z	_	4	punct	_	_	_
+
+4	Gemini	Gemina	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_	_
+
+5	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+6	pri	pri	ADP	Sl	Case=Loc	7	case	_	_	_
+
+7	nas	jaz	PRON	Pp1-pl	Case=Loc|Number=Plur|Person=1|PronType=Prs	9	obl	_	_	_
+
+8	zvečer	zvečer	ADV	Rgp	Degree=Pos	9	advmod	_	_	_
+
+9	vidno	vidno	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing		root	_	_	_
+
+10	od	od	ADP	Sg	Case=Gen	11	case	_	_	_
+
+11	novembra	november	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+12	do	do	ADP	Sg	Case=Gen	13	case	_	_	_
+
+13	maja	maj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+14	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = Najsvetlejši zvezdi Alfa Dvojčkov- Kastor in Beta Dvojčkov- Poluks sta po jakosti sija tako podobni in navidezno tako blizu,, da so ju stari narodi privzeli kar za zvezdi dvojčici.
+1	Najsvetlejši	svetel	ADJ	Agsmdn	Case=Nom|Degree=Sup|Gender=Fem|Number=Dual	2	amod	_	_	_
+
+2	zvezdi	zvezda	NOUN	Ncfdn	Case=Nom|Gender=Fem|Number=Dual	17	nsubj	_	_	_
+
+3	Alfa	Alfa	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	Dvojčkov	dvojček	PROPN	Npmpg	Case=Gen|Gender=Masc|Number=Plur	3	flat:name	_	_	_
+
+5	-	-	PUNCT	Z	_	6	punct	_	_	_
+
+6	Kastor	kastor	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	Beta	beti	PROPN	Npmsn	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	_	_
+
+9	Dvojčkov	dvojček	PROPN	Npmpg	Case=Gen|Gender=Masc|Number=Plur	8	flat:name	_	_	_
+
+10	-	-	PUNCT	Z	_	11	punct	_	_	_
+
+11	Poluks	Poluks	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_	_
+
+12	sta	biti	AUX	Va-r3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	cop	_	_	_
+
+13	po	po	ADP	Sl	Case=Loc	14	case	_	_	_
+
+14	jakosti	jakost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_	_
+
+15	sija	sija	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+16	tako	tako	ADV	Rgp	Degree=Pos	17	advmod	_	_	_
+
+17	podobni	podoben	ADJ	Agpmdn	Case=Nom|Degree=Pos|Gender=Masc|Number=Dual		root	_	_	_
+
+18	in	in	CCONJ	Cc	_	21	cc	_	_	_
+
+19	navidezno	navidezen	ADV	Rgp	Degree=Pos	21	advmod	_	_	_
+
+20	tako	tako	ADV	Rgp	Degree=Pos	21	advmod	_	_	_
+
+21	blizu	blizu	ADV	Rgp	Degree=Pos	17	advmod	_	_	_
+
+22	,	,	PUNCT	Z	_	29	punct	_	_	_
+
+23	,	,	PUNCT	Z	_	29	punct	_	_	_
+
+24	da	da	SCONJ	Cs	_	29	mark	_	_	_
+
+25	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	29	aux	_	_	_
+
+26	ju	on	PRON	Pp3mda--y	Case=Acc|Gender=Masc|Number=Dual|Person=3|PronType=Prs|Variant=Short	29	obj	_	_	_
+
+27	stari	star	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	28	amod	_	_	_
+
+28	narodi	narod	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	_	_
+
+29	privzeli	privzeti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	17	advcl	_	_	_
+
+30	kar	kar	ADV	Rgp	Degree=Pos	32	advmod	_	_	_
+
+31	za	za	ADP	Sa	Case=Acc	32	case	_	_	_
+
+32	zvezdi	zvezda	NOUN	Ncfda	Case=Acc|Gender=Fem|Number=Dual	29	obl	_	_	_
+
+33	dvojčici	dvojčica	NOUN	Ncfdn	Case=Nom|Gender=Fem|Number=Dual	29	nsubj	_	_	_
+
+34	.	.	PUNCT	Z	_	17	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = V najstarejših časih niso vedeli, da nastajajo letni časi zato, ker kroži Zemlja okrog Sonca in je njena vrtilna os nagnjena.
+1	V	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	najstarejših	star	ADJ	Agsmpl	Case=Loc|Degree=Sup|Gender=Masc|Number=Plur	3	amod	_	_	_
+
+3	časih	čas	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_	_
+
+4	niso	biti	AUX	Va-r3p-y	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+5	vedeli	vedeti	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+6	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+7	da	da	SCONJ	Cs	_	8	mark	_	_	_
+
+8	nastajajo	nastajati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_	_
+
+9	letni	leten	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_	_
+
+10	časi	čas	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_	_
+
+11	zato	zato	ADV	Rgp	Degree=Pos	14	mark	_	_	_
+
+12	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+13	ker	ker	SCONJ	Cs	_	11	fixed	_	_	_
+
+14	kroži	krožiti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_	_
+
+15	Zemlja	Zemlja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_	_
+
+16	okrog	okrog	ADP	Sg	Case=Gen	17	case	_	_	_
+
+17	Sonca	Sonce	PROPN	Npnsg	Case=Gen|Gender=Neut|Number=Sing	14	obl	_	_	_
+
+18	in	in	CCONJ	Cc	_	23	cc	_	_	_
+
+19	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	23	cop	_	_	_
+
+20	njena	njen	DET	Ps3fsnsf	Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	22	det	_	_	_
+
+21	vrtilna	vrtilen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_	_
+
+22	os	os	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_	_
+
+23	nagnjena	nagnjen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	14	conj	_	_	_
+
+24	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = Z zgodbo o dekletu, ki mora peživeti pol leta v ujetništvu v podzemlju, preden se zmagovalno vrne v pomlad, so pojasnjevali veliko skrivnost narave, to je letne čase.
+1	Z	z	ADP	Si	Case=Ins	2	case	_	_	_
+
+2	zgodbo	zgodba	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	24	obl	_	_	_
+
+3	o	o	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	dekletu	dekle	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+5	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+6	ki	ki	SCONJ	Cs	_	7	mark	_	_	_
+
+7	mora	morati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_	_
+
+8	peživeti	peživeti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	7	xcomp	_	_	_
+
+9	pol	pol	DET	Rgp	PronType=Ind	10	det	_	_	_
+
+10	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_	_
+
+11	v	v	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	ujetništvu	ujetništvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_	_
+
+13	v	v	ADP	Sl	Case=Loc	14	case	_	_	_
+
+14	podzemlju	podzemlje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	12	nmod	_	_	_
+
+15	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+16	preden	preden	SCONJ	Cs	_	19	mark	_	_	_
+
+17	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	19	expl	_	_	_
+
+18	zmagovalno	zmagovalen	ADV	Rgp	Degree=Pos	19	advmod	_	_	_
+
+19	vrne	vrniti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_	_
+
+20	v	v	ADP	Sa	Case=Acc	21	case	_	_	_
+
+21	pomlad	pomlad	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_	_
+
+22	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+23	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	24	aux	_	_	_
+
+24	pojasnjevali	pojasnjevati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+25	veliko	velik	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_	_
+
+26	skrivnost	skrivnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_	_
+
+27	narave	narava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_	_
+
+28	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+29	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	32	nsubj	_	_	_
+
+30	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	24	parataxis	_	_	_
+
+31	letne	leten	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	32	amod	_	_	_
+
+32	čase	čas	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	24	obj	_	_	_
+
+33	.	.	PUNCT	Z	_	24	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = • Poglej Luno z dvogledom.
+1	•	•	PUNCT	Z	_	2	punct	_	_	_
+
+2	Poglej	poglej	VERB	Vmem2s	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin		root	_	_	_
+
+3	Luno	Luna	PROPN	Npfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_	_
+
+4	z	z	ADP	Si	Case=Ins	5	case	_	_	_
+
+5	dvogledom	dvogled	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_	_
+
+6	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = Najprimernejši čas je okoli prvega krajca.
+1	Najprimernejši	zrimeren	ADJ	Agsmsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	čas	čas	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_	_
+
+4	okoli	okoli	ADP	Sg	Case=Gen	6	case	_	_	_
+
+5	prvega	prvi	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	6	amod	_	_	_
+
+6	krajca	krajec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_	_
+
+7	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = Vidiš kraterje.
+1	Vidiš	videti	VERB	Vmbr2s	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	kraterje	krater	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	_	_
+
+3	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = ( Z daljnogledom raje ne opazuj polne lune!
+1	(	(	PUNCT	Z	_	6	punct	_	_	_
+
+2	Z	z	ADP	Si	Case=Ins	3	case	_	_	_
+
+3	daljnogledom	daljnogled	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_	_
+
+4	raje	raje	ADV	Rgc	Degree=Cmp	6	advmod	_	_	_
+
+5	ne	ne	PART	Q	Polarity=Neg	6	advmod	_	_	_
+
+6	opazuj	opazuj	VERB	Vmer2s	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	polne	poln	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	lune	luna	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	obj	_	_	_
+
+9	!	!	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = Močna svetloba je nevarna za oči.
+1	Močna	močen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	svetloba	svetloba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_	_
+
+4	nevarna	nevaren	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing		root	_	_	_
+
+5	za	za	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	oči	oči	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	4	obl	_	_	_
+
+7	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = )• En mesec vsak teden vsaj enkrat opazuj Luno.
+1	)	)	PUNCT	Z	_	9	punct	_	_	_
+
+2	•	•	PUNCT	Z	_	9	punct	_	_	_
+
+3	En	en	NUM	Mlpmsa	Case=Acc|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing	4	nummod	_	_	_
+
+4	mesec	mesec	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+5	vsak	vsak	DET	Pg-msa	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	6	det	_	_	_
+
+6	teden	teden	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_	_
+
+7	vsaj	vsaj	PART	Q	_	9	advmod	_	_	_
+
+8	enkrat	enkrat	ADV	Rgp	Degree=Pos	9	advmod	_	_	_
+
+9	opazuj	opazuj	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	Luno	Luna	PROPN	Npfsa	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_	_
+
+11	.	.	PUNCT	Z	_	9	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = Nariši jo in slike primerjaj.
+1	Nariši	nariš	VERB	Vmem2s	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin		root	_	_	_
+
+2	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	1	obj	_	_	_
+
+3	in	in	CCONJ	Cc	_	5	cc	_	_	_
+
+4	slike	slika	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_	_
+
+5	primerjaj	primerjaj	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_	_
+
+6	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = Pravijo, da od tedaj sveti na zimskem nebu ozvezdje Kozorog med ozvezdjema Strelec in Vodnar.
+1	Pravijo	praviti	VERB	Vmbr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+3	da	da	SCONJ	Cs	_	11	mark	_	_	_
+
+4	od	od	ADP	Sg	Case=Gen	5	case	_	_	_
+
+5	tedaj	tedaj	ADV	Rgp	Degree=Pos	11	advmod	_	_	_
+
+6	sveti	svet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_	_
+
+7	na	na	ADP	Sl	Case=Loc	9	case	_	_	_
+
+8	zimskem	zimski	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_	_
+
+9	nebu	nebo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	_	_
+
+10	ozvezdje	ozvezdje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_	_
+
+11	Kozorog	kozorog	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	ccomp	_	_	_
+
+12	med	med	ADP	Si	Case=Ins	13	case	_	_	_
+
+13	ozvezdjema	ozvezdje	NOUN	Ncndi	Case=Ins|Gender=Neut|Number=Dual	11	nmod	_	_	_
+
+14	Strelec	strelec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+15	in	in	CCONJ	Cc	_	16	cc	_	_	_
+
+16	Vodnar	vodnar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_	_
+
+17	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = Tako sta postala ustanovitelja novega človeštva- praoče in pramati Grkov, za katere je Zevs upal, da bodo plemenitejši in vrednejši življenja na Zemlji.
+1	Tako	tako	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+2	sta	biti	AUX	Va-r3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	_	_
+
+3	postala	postati	VERB	Vmep-dm	Aspect=Perf|Gender=Masc|Number=Dual|VerbForm=Part		root	_	_	_
+
+4	ustanovitelja	ustanovitelj	NOUN	Ncmdn	Case=Nom|Gender=Masc|Number=Dual	3	nsubj	_	_	_
+
+5	novega	nov	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_	_
+
+6	človeštva	človeštvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_	_
+
+7	-	-	PUNCT	Z	_	8	punct	_	_	_
+
+8	praoče	praoča	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_	_
+
+9	in	in	CCONJ	Cc	_	10	cc	_	_	_
+
+10	pramati	pramat	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_	_
+
+11	Grkov	Grkov	PROPN	Npmpg	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_	_
+
+12	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+13	za	za	ADP	Sa	Case=Acc	14	case	_	_	_
+
+14	katere	kateri	DET	Pq-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Int	17	obl	_	_	_
+
+15	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	aux	_	_	_
+
+16	Zevs	Zevs	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_	_
+
+17	upal	upati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	10	acl	_	_	_
+
+18	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+19	da	da	SCONJ	Cs	_	21	mark	_	_	_
+
+20	bodo	biti	AUX	Va-f3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	21	cop	_	_	_
+
+21	plemenitejši	plemenit	ADJ	Agcmpn	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	17	ccomp	_	_	_
+
+22	in	in	CCONJ	Cc	_	23	cc	_	_	_
+
+23	vrednejši	vreden	ADJ	Agcmpn	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	21	conj	_	_	_
+
+24	življenja	življenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	23	obj	_	_	_
+
+25	na	na	ADP	Sl	Case=Loc	26	case	_	_	_
+
+26	Zemlji	zemlja	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	24	nmod	_	_	_
+
+27	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = Podatki o Zemlji, Luni in Soncu
+1	Podatki	podatek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur		root	_	_	_
+
+2	o	o	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	Zemlji	zemlja	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	Luni	Luni	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	3	conj	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	Soncu	Sonce	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	3	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = Model Sonca naj bo žogica s premerom 15 cm.
+1	Model	model	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+2	Sonca	Sonce	PROPN	Npnsg	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_	_
+
+3	naj	naj	PART	Q	_	4	advmod	_	_	_
+
+4	bo	biti	VERB	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin		root	_	_	_
+
+5	žogica	žogica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	advmod	_	_	_
+
+6	s	z	ADP	Si	Case=Ins	7	case	_	_	_
+
+7	premerom	premer	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+8	15	15	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+9	cm.	cm.	X	Y	Abbr=Yes	7	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = 2.
+1	2	2	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = Zemlja se enkrat zavrti v.......... urah ali enem.........
+1	Zemlja	Zemlja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+3	enkrat	enkrat	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+4	zavrti	zavrt	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+7	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+8	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+9	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+10	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+11	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+12	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+13	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+14	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+15	.	.	PUNCT	Z	_	16	punct	_	_	_
+
+16	urah	ura	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	4	parataxis	_	_	_
+
+17	ali	ali	CCONJ	Cc	_	18	cc	_	_	_
+
+18	enem	en	NUM	Mlpmsl	Case=Loc|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing	16	conj	_	_	_
+
+19	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+20	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+21	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+22	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+23	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+24	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+25	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+26	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+27	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = .
+1	.	.	PUNCT	Z	_		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = 4.
+1	4	4	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = Luna se enkrat zavrti v......... dneh ali približno v.......... mesecu.
+1	Luna	Luna	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+3	enkrat	enkrat	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+4	zavrti	zavrt	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+7	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+8	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+9	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+10	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+11	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+12	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+13	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+14	.	.	PUNCT	Z	_	15	punct	_	_	_
+
+15	dneh	dan	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	4	parataxis	_	_	_
+
+16	ali	ali	CCONJ	Cc	_	17	cc	_	_	_
+
+17	približno	približno	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+
+18	v	v	ADP	Sl	Case=Loc	15	case	_	_	_
+
+19	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+20	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+21	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+22	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+23	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+24	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+25	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+26	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+27	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+28	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+29	mesecu	mesec	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	parataxis	_	_	_
+
+30	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = 6*.
+1	6*	6*	X	X	_		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = Skice prikazujejo smer vrtenja Zemlje( Z) in smer kroženja Lune( L) okrog Zemlje.
+1	Skice	Skica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_	_
+
+2	prikazujejo	prikazovati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	smer	smer	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_	_
+
+4	vrtenja	vrtenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_	_
+
+5	Zemlje	zemlja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+6	(	(	PUNCT	Z	_	7	punct	_	_	_
+
+7	Z	z	ADP	Si	Case=Ins	10	case	_	_	_
+
+8	)	)	PUNCT	Z	_	7	punct	_	_	_
+
+9	in	in	CCONJ	Cc	_	10	cc	_	_	_
+
+10	smer	smer	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	3	conj	_	_	_
+
+11	kroženja	kroženje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_	_
+
+12	Lune	Luna	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+13	(	(	PUNCT	Z	_	14	punct	_	_	_
+
+14	L	L	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	appos	_	_	_
+
+15	)	)	PUNCT	Z	_	14	punct	_	_	_
+
+16	okrog	okrog	ADP	Sg	Case=Gen	17	case	_	_	_
+
+17	Zemlje	zemlja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+18	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = Katera skica je narisana pravilno.
+1	Katera	katera	DET	Pq-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Int	2	det	_	_	_
+
+2	skica	skica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_	_
+
+4	narisana	narisan	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	pravilno	pravilno	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+6	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = Obkroži.
+1	Obkroži	obkrožiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = a) od 21. 12. do 21. 3. b) od 21. 3. do 23. 9. c) od 21. 12. do 21. 6.
+1	a	a	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	)	)	PUNCT	Z	_	1	punct	_	_	_
+
+3	od	od	ADP	Sg	Case=Gen	5	case	_	_	_
+
+4	21.	21.	NUM	Mdo	NumForm=Digit|NumType=Ord	9	nummod	_	_	_
+
+5	12.	12.	NUM	Mdo	NumForm=Digit|NumType=Ord	9	nummod	_	_	_
+
+6	do	do	ADP	Sg	Case=Gen	7	case	_	_	_
+
+7	21.	21.	NUM	Mdo	NumForm=Digit|NumType=Ord	9	nummod	_	_	_
+
+8	3.	3.	NUM	Mdo	NumForm=Digit|NumType=Ord	9	nummod	_	_	_
+
+9	b	biti	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:foreign	_	_	_
+
+10	)	)	PUNCT	Z	_	9	punct	_	_	_
+
+11	od	od	ADP	Sg	Case=Gen	13	case	_	_	_
+
+12	21.	21.	NUM	Mdo	NumForm=Digit|NumType=Ord	13	flat	_	_	_
+
+13	3.	3.	NUM	Mdo	NumForm=Digit|NumType=Ord	9	nummod	_	_	_
+
+14	do	do	ADP	Sg	Case=Gen	15	case	_	_	_
+
+15	23.	23.	NUM	Mdo	NumForm=Digit|NumType=Ord	17	nummod	_	_	_
+
+16	9.	9.	NUM	Mdo	NumForm=Digit|NumType=Ord	17	nummod	_	_	_
+
+17	c	c	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+18	)	)	PUNCT	Z	_	17	punct	_	_	_
+
+19	od	od	ADP	Sg	Case=Gen	21	case	_	_	_
+
+20	21.	21.	NUM	Mdo	NumForm=Digit|NumType=Ord	17	nummod	_	_	_
+
+21	12.	12.	NUM	Mdo	NumForm=Digit|NumType=Ord	20	flat	_	_	_
+
+22	do	do	ADP	Sg	Case=Gen	23	case	_	_	_
+
+23	21.	21.	NUM	Mdo	NumForm=Digit|NumType=Ord	21	conj	_	_	_
+
+24	6.	6.	NUM	Mdo	NumForm=Digit|NumType=Ord	23	flat	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = 26.
+1	26	26	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = Luna v meni ščip zaide približno ob...........
+1	Luna	Luna	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_	_
+
+2	v	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	meni	jaz	PRON	Pp1-sl	Case=Loc|Number=Sing|Person=1|PronType=Prs	5	obl	_	_	_
+
+4	ščip	ščip	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+5	zaide	zaiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	približno	približno	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+7	ob	ob	ADP	Sl	Case=Loc	5	advmod	_	_	_
+
+8	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+9	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+10	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+11	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+12	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+13	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+14	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+15	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+16	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+17	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+18	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = ( 18. uri, 6. uri.
+1	(	(	PUNCT	Z	_	3	punct	_	_	_
+
+2	18.	18.	NUM	Mdo	NumForm=Digit|NumType=Ord	3	nummod	_	_	_
+
+3	uri	ura	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing		root	_	_	_
+
+4	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+5	6.	6.	NUM	Mdo	NumForm=Digit|NumType=Ord	6	nummod	_	_	_
+
+6	uri	ura	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	3	appos	_	_	_
+
+7	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = 9. uri, 24. uri- opolnoči).
+1	9.	9.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	uri	ura	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing		root	_	_	_
+
+3	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+4	24.	24.	NUM	Mdo	NumForm=Digit|NumType=Ord	5	nummod	_	_	_
+
+5	uri	ura	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	2	appos	_	_	_
+
+6	-	-	PUNCT	Z	_	5	punct	_	_	_
+
+7	opolnoči	opolnoč	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+8	)	)	PUNCT	Z	_	5	punct	_	_	_
+
+9	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = b)
+1	b	biti	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	)	)	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = Zemlja in Luna v natanko nasprotnih straneh Sonca
+1	Zemlja	Zemlja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	in	in	CCONJ	Cc	_	3	cc	_	_	_
+
+3	Luna	Luna	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_	_
+
+4	v	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+5	natanko	natanko	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_	_
+
+6	nasprotnih	nasproten	ADJ	Agpfpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_	_
+
+7	straneh	stran	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	3	nmod	_	_	_
+
+8	Sonca	Sonce	PROPN	Npnsg	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0034411.txt
+# text = SEZNAM OBRAVNAVANIH POJMOV IN IMEN
+1	SEZNAM	seznam	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	OBRAVNAVANIH	obravnavan	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	3	amod	_	_	_
+
+3	POJMOV	pojem	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_	_
+
+4	IN	in	CCONJ	Cc	_	5	cc	_	_	_
+
+5	IMEN	IMEN	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	3	conj	_	_	_
+

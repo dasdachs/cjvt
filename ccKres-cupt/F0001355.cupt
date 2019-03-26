@@ -1,0 +1,117 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0001355.txt
+# text = 2. člen
+1	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001355.txt
+# text = - v letu 1996 v višini 1.526.
+1	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+2	v	v	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	letu	leto	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing		root	_	_	_
+
+4	1996	1996	NUM	Mdc	NumForm=Digit|NumType=Card	3	nummod	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	višini	višina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+7	1.526	1.526	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+8	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001355.txt
+# text = 739.590 tolarjev iz sredstev proračuna Republike Slovenije.
+1	739.590	739.590	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	tolarjev	tolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur		root	_	_	_
+
+3	iz	iz	ADP	Sg	Case=Gen	4	case	_	_	_
+
+4	sredstev	sredstvo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_	_
+
+5	proračuna	proračun	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+6	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+7	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+8	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001355.txt
+# text = Sredstva po tem zakonu se dodelijo občinam in pristojnim ministrstvom po predložitvi začasnega programa sanacije, oziroma programa sanacije, ki ga potrdi državna komisija, ki jo imenuje Vlada Republike Slovenije.
+1	Sredstva	sredstvo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_	_
+
+2	po	po	ADP	Sl	Case=Loc	4	case	_	_	_
+
+3	tem	ta	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_	_
+
+4	zakonu	zakon	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+5	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	6	expl	_	_	_
+
+6	dodelijo	dodeliti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	občinam	občina	NOUN	Ncfpd	Case=Dat|Gender=Fem|Number=Plur	6	iobj	_	_	_
+
+8	in	in	CCONJ	Cc	_	10	cc	_	_	_
+
+9	pristojnim	pristojen	ADJ	Agpnpd	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	10	amod	_	_	_
+
+10	ministrstvom	ministrstvo	NOUN	Ncnpd	Case=Dat|Gender=Neut|Number=Plur	7	conj	_	_	_
+
+11	po	po	ADP	Sl	Case=Loc	12	case	_	_	_
+
+12	predložitvi	predložitev	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_	_
+
+13	začasnega	začasen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+14	programa	program	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+15	sanacije	sanacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+16	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+17	oziroma	oziroma	CCONJ	Cc	_	18	cc	_	_	_
+
+18	programa	program	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	14	conj	_	_	_
+
+19	sanacije	sanacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_	_
+
+20	,	,	PUNCT	Z	_	23	punct	_	_	_
+
+21	ki	ki	SCONJ	Cs	_	23	mark	_	_	_
+
+22	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	23	obj	_	_	_
+
+23	potrdi	potrd	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl	_	_	_
+
+24	državna	državen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_	_
+
+25	komisija	komisija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_	_
+
+26	,	,	PUNCT	Z	_	29	punct	_	_	_
+
+27	ki	ki	SCONJ	Cs	_	29	mark	_	_	_
+
+28	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	29	obj	_	_	_
+
+29	imenuje	imenovati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl	_	_	_
+
+30	Vlada	vlada	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	_	_
+
+31	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_	_
+
+32	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_	_
+
+33	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0001355.txt
+# text = 11. člen
+1	11.	11.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+

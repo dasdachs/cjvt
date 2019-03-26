@@ -1,0 +1,141 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0000197.txt
+# text = Bosna 24 14 10 1945: 1921 38
+1	Bosna	Bosna	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	24	24	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+3	14	14	NUM	Mdc	NumForm=Digit|NumType=Card	2	flat	_	_	_
+
+4	10	10	NUM	Mdc	NumForm=Digit|NumType=Card	5	conj	_	_	_
+
+5	1945	1945	NUM	Mdc	NumForm=Digit|NumType=Card	2	conj	_	_	_
+
+6	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+7	1921	1921	NUM	Mdc	NumForm=Digit|NumType=Card	5	conj	_	_	_
+
+8	38	38	NUM	Mdc	NumForm=Digit|NumType=Card	7	flat	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000197.txt
+# text = ZD Koper( centralna stavba), Dellavallejeva 3, Koper, tel.
+1	ZD	ZD	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	Koper	Koper	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	(	(	PUNCT	Z	_	5	punct	_	_	_
+
+4	centralna	centralen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	stavba	stavba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_	_
+
+6	)	)	PUNCT	Z	_	5	punct	_	_	_
+
+7	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+8	Dellavallejeva	dellavallej	ADJ	Aspfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	9	amod	_	_	_
+
+9	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+10	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+11	Koper	Koper	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_	_
+
+12	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+13	tel	tel	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_	_
+
+14	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000197.txt
+# text = ( 05)
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	05	05	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+3	)	)	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000197.txt
+# text = 664- 71- 00 Tedensko dežurstvo se začne ob 20. uri in traja do 7. ure naslednjega dne; dežurstvo ob nedeljah in praznikih traja od 7. ure do 7. ure naslednjega dne, t.j. 24 ur.
+1	664	664	NUM	Mdc	NumForm=Digit|NumType=Card	9	parataxis	_	_	_
+
+2	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+3	71	71	NUM	Mdc	NumForm=Digit|NumType=Card	9	parataxis	_	_	_
+
+4	-	-	PUNCT	Z	_	3	punct	_	_	_
+
+5	00	00	NUM	Mdc	NumForm=Digit|NumType=Card	3	conj	_	_	_
+
+6	Tedensko	tedenski	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_	_
+
+7	dežurstvo	dežurstvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_	_
+
+8	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	9	expl	_	_	_
+
+9	začne	začeti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+10	ob	ob	ADP	Sl	Case=Loc	12	case	_	_	_
+
+11	20.	20.	NUM	Mdo	NumForm=Digit|NumType=Ord	12	nummod	_	_	_
+
+12	uri	ura	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_	_
+
+13	in	in	CCONJ	Cc	_	14	cc	_	_	_
+
+14	traja	trajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_	_
+
+15	do	do	ADP	Sg	Case=Gen	17	case	_	_	_
+
+16	7.	7.	NUM	Mdo	NumForm=Digit|NumType=Ord	17	nummod	_	_	_
+
+17	ure	ura	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_	_
+
+18	naslednjega	naslednji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_	_
+
+19	dne	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	14	obl	_	_	_
+
+20	;	;	PUNCT	Z	_	26	punct	_	_	_
+
+21	dežurstvo	dežurstvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	_	_
+
+22	ob	ob	ADP	Sl	Case=Loc	23	case	_	_	_
+
+23	nedeljah	nedelja	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	21	nmod	_	_	_
+
+24	in	in	CCONJ	Cc	_	25	cc	_	_	_
+
+25	praznikih	praznik	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	23	conj	_	_	_
+
+26	traja	trajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_	_
+
+27	od	od	ADP	Sg	Case=Gen	29	case	_	_	_
+
+28	7.	7.	NUM	Mdo	NumForm=Digit|NumType=Ord	29	nummod	_	_	_
+
+29	ure	ura	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	26	obl	_	_	_
+
+30	do	do	ADP	Sg	Case=Gen	32	case	_	_	_
+
+31	7.	7.	NUM	Mdo	NumForm=Digit|NumType=Ord	32	nummod	_	_	_
+
+32	ure	ura	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	26	obl	_	_	_
+
+33	naslednjega	naslednji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_	_
+
+34	dne	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_	_
+
+35	,	,	PUNCT	Z	_	37	punct	_	_	_
+
+36	t.j.	t.j.	X	Y	Abbr=Yes	37	advmod	_	_	_
+
+37	24	24	NUM	Mdc	NumForm=Digit|NumType=Card	34	nummod	_	_	_
+
+38	ur.	ur.	X	Y	Abbr=Yes	37	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0000197.txt
+# text = 12.00 Orientacija
+1	12.00	12.00	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Orientacija	orientacija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+

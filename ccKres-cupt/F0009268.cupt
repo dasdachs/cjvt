@@ -1,0 +1,433 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0009268.txt
+# text = Sprejeti vsi potrebni ukrepi
+1	Sprejeti	sprejeti	VERB	Vmen	Aspect=Perf|VerbForm=Inf		root	_	_	_
+
+2	vsi	ves	DET	Pg-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	4	det	_	_	_
+
+3	potrebni	potreben	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_	_
+
+4	ukrepi	ukrep	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009268.txt
+# text = Ludvik kramberger knjiga geza
+1	Ludvik	Ludvik	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	kramberger	kramberger	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+4	geza	geza	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009268.txt
+# text = SAMONAKLADALNO prikolico mengele garant 432, 16 nožev, prodam.
+1	SAMONAKLADALNO	samonakladalno	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	prikolico	prikolica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_	_
+
+3	mengele	mengel	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+4	garant	garant	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	432	432	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	16	16	NUM	Mdc	NumForm=Digit|NumType=Card	5	conj	_	_	_
+
+8	nožev	nož	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_	_
+
+9	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+10	prodam	prodati	VERB	Vmer1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+11	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009268.txt
+# text = Tel.: 04/23 25 754, 031/387 397.- 3591
+1	Tel.	tel.	X	Y	Abbr=Yes		root	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	04/23	04/23	NUM	Mdc	NumForm=Digit|NumType=Card	1	conj	_	_	_
+
+4	25	25	NUM	Mdc	NumForm=Digit|NumType=Card	3	flat	_	_	_
+
+5	754	754	NUM	Mdc	NumForm=Digit|NumType=Card	3	flat	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	031/387	031/387	NUM	Mdc	NumForm=Digit|NumType=Card	5	conj	_	_	_
+
+8	397.	397.	NUM	Mdo	NumForm=Digit|NumType=Ord	5	conj	_	_	_
+
+9	-	-	PUNCT	Z	_	10	punct	_	_	_
+
+10	3591	3591	NUM	Mdc	NumForm=Digit|NumType=Card	8	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009268.txt
+# text = STEYR 81 30, 4x4, čelni nakladalec steyr serije 8000 prodam ali menjam.
+1	STEYR	stewr	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	12	parataxis	_	_	_
+
+2	81	81	NUM	Mdc	NumForm=Digit|NumType=Card	1	nummod	_	_	_
+
+3	30	30	NUM	Mdc	NumForm=Digit|NumType=Card	2	flat	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	4x4	4x4	NUM	Mdc	NumForm=Digit|NumType=Card	3	conj	_	_	_
+
+6	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+7	čelni	čelen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+8	nakladalec	nakladalec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+9	steyr	steya	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+10	serije	serija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_	_
+
+11	8000	8000	NUM	Mdc	NumForm=Digit|NumType=Card	10	nummod	_	_	_
+
+12	prodam	prodati	VERB	Vmer1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+13	ali	ali	CCONJ	Cc	_	14	cc	_	_	_
+
+14	menjam	menja	VERB	Vmer1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	conj	_	_	_
+
+15	.	.	PUNCT	Z	_	12	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009268.txt
+# text = Tel.: 041/560 199.- 4208
+1	Tel.	tel.	X	Y	Abbr=Yes		root	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	041/560	041/560	NUM	Mdc	NumForm=Digit|NumType=Card	1	conj	_	_	_
+
+4	199.	199.	NUM	Mdo	NumForm=Digit|NumType=Ord	3	flat	_	_	_
+
+5	-	-	PUNCT	Z	_	6	punct	_	_	_
+
+6	4208	4208	NUM	Mdc	NumForm=Digit|NumType=Card	4	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009268.txt
+# text = TV Slovenija 1 ob 20.00
+1	TV	TV	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+2	Slovenija	Slovenija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+3	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+4	ob	ob	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	20.00	20.00	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009268.txt
+# text = Že tretje leto po vrsti govorimo o petdesetletnicah narodnozabavnih ansamblov.
+1	Že	že	PART	Q	_	6	advmod	_	_	_
+
+2	tretje	tretji	ADJ	Mlonsa	Case=Acc|Gender=Neut|NumType=Ord|Number=Sing	3	amod	_	_	_
+
+3	leto	leto	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_	_
+
+4	po	po	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	vrsti	vrsta	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_	_
+
+6	govorimo	govoriti	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	o	o	ADP	Sl	Case=Loc	8	case	_	_	_
+
+8	petdesetletnicah	petdesetletnica	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	6	obl	_	_	_
+
+9	narodnozabavnih	narodnozabaven	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_	_
+
+10	ansamblov	ansamblov	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_	_
+
+11	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009268.txt
+# text = Predlani so jo praznovali Beneški fantje, lani Ansambel bratov Avsenik… zdaj pa je oddaja posvečena petdesetletnici ansambla Štirje kovači.
+1	Predlani	predlan	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+3	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	4	obj	_	_	_
+
+4	praznovali	praznovati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+5	Beneški	beneški	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_	_
+
+6	fantje	fant	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_	_
+
+7	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+8	lani	lani	ADV	Rgp	Degree=Pos	16	advmod	_	_	_
+
+9	Ansambel	Ansambel	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_	_
+
+10	bratov	brat	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_	_
+
+11	Avsenik	Avsenik	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+12	…	…	PUNCT	Z	_	16	punct	_	_	_
+
+13	zdaj	zdaj	ADV	Rgp	Degree=Pos	16	advmod	_	_	_
+
+14	pa	pa	CCONJ	Cc	_	16	advmod	_	_	_
+
+15	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	aux	_	_	_
+
+16	oddaja	oddajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_	_
+
+17	posvečena	posvečen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	16	xcomp	_	_	_
+
+18	petdesetletnici	petdesetletnica	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	16	obj	_	_	_
+
+19	ansambla	ansambel	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_	_
+
+20	Štirje	štirje	NUM	Mlcmpn	Case=Nom|Gender=Masc|NumForm=Word|NumType=Card|Number=Plur	21	nummod	_	_	_
+
+21	kovači	kovač	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	19	nmod	_	_	_
+
+22	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009268.txt
+# text = Ana Benkovič se je odpravila v Slovenj Gradec, kjer je nastal zanimiv zapis življenja Franca Šegovca in njegove zasedbe.
+1	Ana	Ana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_	_
+
+2	Benkovič	Benkovič	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	flat:name	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	5	expl	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+5	odpravila	odpraviti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	v	v	ADP	Sa	Case=Acc	8	case	_	_	_
+
+7	Slovenj	Slovenj	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+8	Gradec	Gradec	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_	_
+
+9	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+10	kjer	kjer	SCONJ	Cs	_	12	mark	_	_	_
+
+11	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	aux	_	_	_
+
+12	nastal	nastati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	8	acl	_	_	_
+
+13	zanimiv	zanimiv	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+14	zapis	zapis	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_	_
+
+15	življenja	življenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_	_
+
+16	Franca	Franc	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+17	Šegovca	Šegovca	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	16	flat:name	_	_	_
+
+18	in	in	CCONJ	Cc	_	20	cc	_	_	_
+
+19	njegove	njegov	DET	Ps3fsgsm	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	_	_	_
+
+20	zasedbe	zasedba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	conj	_	_	_
+
+21	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009268.txt
+# text = S starimi posnetki in novimi melodijami, ki jih bodo predstavili na odru, bodo gledalce popeljali skozi svoja dela.
+1	S	z	ADP	Si	Case=Ins	3	case	_	_	_
+
+2	starimi	star	ADJ	Agpmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_	_
+
+3	posnetki	posnetek	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	17	obl	_	_	_
+
+4	in	in	CCONJ	Cc	_	6	cc	_	_	_
+
+5	novimi	nov	ADJ	Agpfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_	_
+
+6	melodijami	melodija	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	3	conj	_	_	_
+
+7	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+8	ki	ki	SCONJ	Cs	_	11	mark	_	_	_
+
+9	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	11	obj	_	_	_
+
+10	bodo	biti	AUX	Va-f3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	11	aux	_	_	_
+
+11	predstavili	predstaviti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	6	acl	_	_	_
+
+12	na	na	ADP	Sl	Case=Loc	13	case	_	_	_
+
+13	odru	oder	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_	_
+
+14	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+15	bodo	biti	AUX	Va-f3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	17	aux	_	_	_
+
+16	gledalce	gledalec	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_	_
+
+17	popeljali	popeljati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+18	skozi	skozi	ADP	Sa	Case=Acc	20	case	_	_	_
+
+19	svoja	svoj	DET	Px-npa	Case=Acc|Gender=Neut|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	20	det	_	_	_
+
+20	dela	delo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	17	obl	_	_	_
+
+21	.	.	PUNCT	Z	_	17	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009268.txt
+# text = Praznovanje jubileja bo vrhunec doseglo v soboto, 17. aprila, v Slovenj Gradcu.
+1	Praznovanje	praznovanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_	_
+
+2	jubileja	jubilej	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	5	aux	_	_	_
+
+4	vrhunec	vrhunec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+5	doseglo	doseči	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	v	v	ADP	Sa	Case=Acc	7	case	_	_	_
+
+7	soboto	sobota	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+8	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+9	17.	17.	NUM	Mdo	NumForm=Digit|NumType=Ord	10	nummod	_	_	_
+
+10	aprila	april	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	appos	_	_	_
+
+11	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+12	v	v	ADP	Sl	Case=Loc	14	case	_	_	_
+
+13	Slovenj	Slovenj	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	10	appos	_	_	_
+
+14	Gradcu	Gradec	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+15	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009268.txt
+# text = Opozorili pa bodo še na koroško ljudsko glasbeno zasedbo Šentanevski pavri, ki letos praznujejo štiridesetletnico delovanja.
+1	Opozorili	opozoriti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+2	pa	pa	CCONJ	Cc	_	1	advmod	_	_	_
+
+3	bodo	biti	AUX	Va-f3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	1	aux	_	_	_
+
+4	še	še	PART	Q	_	1	advmod	_	_	_
+
+5	na	na	ADP	Sa	Case=Acc	9	case	_	_	_
+
+6	koroško	koroški	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_	_
+
+7	ljudsko	ljudsko	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_	_
+
+8	glasbeno	glasben	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_	_
+
+9	zasedbo	zasedba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_	_
+
+10	Šentanevski	šentanevski	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_	_
+
+11	pavri	pavra	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_	_
+
+12	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+13	ki	ki	SCONJ	Cs	_	15	mark	_	_	_
+
+14	letos	letos	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+
+15	praznujejo	praznovati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	_	_
+
+16	štiridesetletnico	štiridesetletnica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_	_
+
+17	delovanja	delovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_	_
+
+18	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009268.txt
+# text = Ljudske pevce vodi Mitja Šipek, ki bo tudi pripovedovalec ljudskih kovaških zgodb.
+1	Ljudske	ljudski	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_	_
+
+2	pevce	pevec	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_	_
+
+3	vodi	voditi	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	Mitja	Mitja	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+5	Šipek	Šipek	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	_	_
+
+6	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+7	ki	ki	SCONJ	Cs	_	10	mark	_	_	_
+
+8	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	10	cop	_	_	_
+
+9	tudi	tudi	PART	Q	_	10	advmod	_	_	_
+
+10	pripovedovalec	pripovedovalec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	acl	_	_	_
+
+11	ljudskih	ljudski	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_	_
+
+12	kovaških	kovaški	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_	_
+
+13	zgodb	zgodba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_	_
+
+14	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009268.txt
+# text = Oddajo bo vodila Natalija Verboten.
+1	Oddajo	oddaja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_	_
+
+2	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	3	aux	_	_	_
+
+3	vodila	voditi	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+4	Natalija	Natalija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+5	Verboten	verboten	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	flat:name	_	_	_
+
+6	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009268.txt
+# text = Marjan Papež
+1	Marjan	Marjan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Papež	Papež	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009268.txt
+# text = Zavod za gozdove Slovenije
+1	Zavod	zavod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	za	za	ADP	Sa	Case=Acc	3	case	_	_	_
+
+3	gozdove	gozd	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	1	nmod	_	_	_
+
+4	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009268.txt
+# text = 19.35 Utrip
+1	19.35	19.35	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	Utrip	utrip	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009268.txt
+# text = Milan vodovod
+1	Milan	Milan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	vodovod	vodovod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0009268.txt
+# text = TV Avstrija 1
+1	TV	TV	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+2	Avstrija	Avstrija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+3	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+

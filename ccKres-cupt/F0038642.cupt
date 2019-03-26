@@ -1,0 +1,377 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0038642.txt
+# text = Franz Liszt, Preludiji, simfonična pesnitev
+1	Franz	Franz	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Liszt	liszt	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	Preludiji	Preludija	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	1	appos	_	_	_
+
+5	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+6	simfonična	simfoničen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	_
+
+7	pesnitev	pesnitev	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038642.txt
+# text = Francis Poulenc, Stabat Mater
+1	Francis	Francis	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Poulenc	poulenc	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	Stabat	stabat	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_	_
+
+5	Mater	Mater	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038642.txt
+# text = Felix Mendelssohn Bartholdy, Simfonija št. 3 v a- molu, op. 56,» Škotska«
+1	Felix	Felix	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Mendelssohn	Mendelssohn	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	Bartholdy	Bartholdy	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	Simfonija	Simfonija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_	_
+
+6	št.	št.	NUM	Mdo	NumForm=Digit|NumType=Ord	5	nummod	_	_	_
+
+7	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	11	case	_	_	_
+
+9	a	a	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+10	-	-	PUNCT	Z	_	11	punct	_	_	_
+
+11	molu	mol	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_	_
+
+12	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+13	op.	op.	X	Y	Abbr=Yes	11	appos	_	_	_
+
+14	56	56	NUM	Mdc	NumForm=Digit|NumType=Card	13	flat	_	_	_
+
+15	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+16	»	»	PUNCT	Z	_	17	punct	_	_	_
+
+17	Škotska	škotski	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	13	appos	_	_	_
+
+18	«	«	PUNCT	Z	_	17	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038642.txt
+# text = » Ob mraku smo prispeli do palače, v kateri je živela in ljubila kraljica Marija.
+1	»	»	PUNCT	Z	_	5	punct	_	_	_
+
+2	Ob	ob	ADP	Sl	Case=Loc	3	case	_	_	_
+
+3	mraku	mrak	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_	_
+
+4	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_	_
+
+5	prispeli	prispeti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+6	do	do	ADP	Sg	Case=Gen	7	case	_	_	_
+
+7	palače	palača	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+8	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	10	case	_	_	_
+
+10	kateri	kateri	DET	Pq-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Int	12	obl	_	_	_
+
+11	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	aux	_	_	_
+
+12	živela	živeti	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	7	acl	_	_	_
+
+13	in	in	CCONJ	Cc	_	14	cc	_	_	_
+
+14	ljubila	ljubiti	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	12	conj	_	_	_
+
+15	kraljica	kraljica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_	_
+
+16	Marija	Marija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	15	nmod	_	_	_
+
+17	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038642.txt
+# text = /.../ Kapelica nima več strehe, prerasla sta jo plevel in bršljan, ob zdaj okrušenem oltarju pa so Marijo kronali za škotsko kraljico.
+1	/	/	PUNCT	Z	_	7	punct	_	_	_
+
+2	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+3	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+4	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+5	/	/	PUNCT	Z	_	6	punct	_	_	_
+
+6	Kapelica	Kapelica	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+
+7	nima	imeti	VERB	Vmpr3s-y	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+8	več	več	PART	Q	_	7	advmod	_	_	_
+
+9	strehe	streha	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	obj	_	_	_
+
+10	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+11	prerasla	prerasti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	7	parataxis	_	_	_
+
+12	sta	biti	AUX	Va-r3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_	_
+
+13	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	11	obj	_	_	_
+
+14	plevel	plevel	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_	_
+
+15	in	in	CCONJ	Cc	_	16	cc	_	_	_
+
+16	bršljan	bršljan	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_	_
+
+17	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+18	ob	ob	ADP	Sl	Case=Loc	21	case	_	_	_
+
+19	zdaj	zdaj	ADV	Rgp	Degree=Pos	20	advmod	_	_	_
+
+20	okrušenem	okrušen	ADJ	Appmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	21	amod	_	_	_
+
+21	oltarju	oltar	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	25	obl	_	_	_
+
+22	pa	pa	CCONJ	Cc	_	25	advmod	_	_	_
+
+23	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	25	aux	_	_	_
+
+24	Marijo	Marija	PROPN	Npfsa	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_	_
+
+25	kronali	kronati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	7	parataxis	_	_	_
+
+26	za	za	ADP	Sa	Case=Acc	28	case	_	_	_
+
+27	škotsko	škotski	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_	_
+
+28	kraljico	kraljica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	25	obl	_	_	_
+
+29	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038642.txt
+# text = /...
+1	/	/	PUNCT	Z	_	3	punct	_	_	_
+
+2	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+3	.	.	PUNCT	Z	_		root	_	_	_
+
+4	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038642.txt
+# text = /
+1	/	/	PUNCT	Z	_		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038642.txt
+# text = Glasbo za godala, tolkala in čelesto je Béli Bartóku naročil znani glasbeni mecen, švicarski dirigent Paul Sacher in jo( 21. januarja 1937) krstil z Baselskim komornim orkestrom.
+1	Glasbo	glasba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_	_
+
+2	za	za	ADP	Sa	Case=Acc	3	case	_	_	_
+
+3	godala	godati	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	1	nmod	_	_	_
+
+4	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+5	tolkala	tolkati	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	3	conj	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	čelesto	čelesto	NOUN	Ncnsa	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	_	_
+
+8	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_	_
+
+9	Béli	bel	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	11	obj	_	_	_
+
+10	Bartóku	Bartwk	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	9	flat:name	_	_	_
+
+11	naročil	naročiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+12	znani	znan	ADJ	Appmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	14	amod	_	_	_
+
+13	glasbeni	glasben	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+14	mecen	mecen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_	_
+
+15	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+16	švicarski	švicarski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_	_
+
+17	dirigent	dirigent	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_	_
+
+18	Paul	Paul	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	_	_
+
+19	Sacher	Sacher	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	18	flat:name	_	_	_
+
+20	in	in	CCONJ	Cc	_	27	cc	_	_	_
+
+21	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	27	obj	_	_	_
+
+22	(	(	PUNCT	Z	_	24	punct	_	_	_
+
+23	21.	21.	NUM	Mdo	NumForm=Digit|NumType=Ord	24	nummod	_	_	_
+
+24	januarja	januar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	21	appos	_	_	_
+
+25	1937	1937	NUM	Mdc	NumForm=Digit|NumType=Card	24	nummod	_	_	_
+
+26	)	)	PUNCT	Z	_	24	punct	_	_	_
+
+27	krstil	krstiti	VERB	Vmbp-sm	Gender=Masc|Number=Sing|VerbForm=Part	11	parataxis	_	_	_
+
+28	z	z	ADP	Si	Case=Ins	31	case	_	_	_
+
+29	Baselskim	Baselski	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_	_
+
+30	komornim	komoren	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_	_
+
+31	orkestrom	orkester	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	27	obl	_	_	_
+
+32	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038642.txt
+# text = Glavna značilnost skladbe je simetrija– v glasbi in prostoru, saj je skladatelj godala razdelil v dve samostojni skupini.
+1	Glavna	glaven	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_
+
+2	značilnost	značilnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_	_
+
+3	skladbe	skladba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+5	simetrija	simetrija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+6	–	–	PUNCT	Z	_	8	punct	_	_	_
+
+7	v	v	ADP	Sl	Case=Loc	8	case	_	_	_
+
+8	glasbi	glasba	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+9	in	in	CCONJ	Cc	_	10	cc	_	_	_
+
+10	prostoru	prostor	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	conj	_	_	_
+
+11	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+12	saj	saj	CCONJ	Cc	_	16	cc	_	_	_
+
+13	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	aux	_	_	_
+
+14	skladatelj	skladatelj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_	_
+
+15	godala	godati	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_	_
+
+16	razdelil	razdeliti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	5	conj	_	_	_
+
+17	v	v	ADP	Sa	Case=Acc	20	case	_	_	_
+
+18	dve	dva	NUM	Mlcfda	Case=Acc|Gender=Fem|NumForm=Word|NumType=Card|Number=Dual	20	nummod	_	_	_
+
+19	samostojni	samostojen	ADJ	Agpfda	Case=Acc|Degree=Pos|Gender=Fem|Number=Dual	20	amod	_	_	_
+
+20	skupini	skupina	NOUN	Ncfda	Case=Acc|Gender=Fem|Number=Dual	16	obl	_	_	_
+
+21	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038642.txt
+# text = Med njiju je postavil tolkala, harfo in instrumente s tipkami( klavir in čelesto).
+1	Med	med	ADP	Si	Case=Ins	2	case	_	_	_
+
+2	njiju	on	PRON	Pp3mdi	Case=Ins|Gender=Masc|Number=Dual|Person=3|PronType=Prs	4	obl	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+4	postavil	postaviti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	tolkala	tolkati	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	harfo	harfa	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	_	_
+
+8	in	in	CCONJ	Cc	_	9	cc	_	_	_
+
+9	instrumente	instrument	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	5	conj	_	_	_
+
+10	s	z	ADP	Si	Case=Ins	11	case	_	_	_
+
+11	tipkami	tipka	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	9	nmod	_	_	_
+
+12	(	(	PUNCT	Z	_	13	punct	_	_	_
+
+13	klavir	klavir	NOUN	Ncmsa	Case=Acc|Gender=Masc|Number=Sing	11	appos	_	_	_
+
+14	in	in	CCONJ	Cc	_	15	cc	_	_	_
+
+15	čelesto	čelesto	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	11	conj	_	_	_
+
+16	)	)	PUNCT	Z	_	13	punct	_	_	_
+
+17	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038642.txt
+# text = Witold Lutoslawski, Koncert za klavir in orkester
+1	Witold	Witold	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Lutoslawski	lutoslawski	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+4	Koncert	Koncert	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_	_
+
+5	za	za	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	klavir	klavir	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+7	in	in	CCONJ	Cc	_	8	cc	_	_	_
+
+8	orkester	orkester	NOUN	Ncmsnn	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038642.txt
+# text = Aldo Kumar, novo delo
+1	Aldo	Alda	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Kumar	kumar	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+4	novo	nov	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_	_
+
+5	delo	delo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	1	appos	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038642.txt
+# text = Richard Strauss, Alpska simfonija, op. 64, TrV 233
+1	Richard	Richard	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Strauss	strauss	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+4	Alpska	Alpska	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	simfonija	simfonija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	op.	op.	X	Y	Abbr=Yes	5	amod	_	_	_
+
+8	64	64	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+9	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+10	TrV	TrV	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_	_
+
+11	233	233	NUM	Mdc	NumForm=Digit|NumType=Card	10	nummod	_	_	_
+

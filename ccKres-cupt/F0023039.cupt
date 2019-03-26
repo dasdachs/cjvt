@@ -1,0 +1,413 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0023039.txt
+# text = • \pnf1Wal Mart www.wal- mart.com
+1	•	•	PUNCT	Z	_	2	punct	_	_	_
+
+2	\pnf1Wal	\pnf1Wal	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	Mart	Mart	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	www.wal	www.wal	X	Y	Abbr=Yes	3	nummod	_	_	_
+
+5	-	-	PUNCT	Z	_	6	punct	_	_	_
+
+6	mart.com	mart.ca	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	4	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023039.txt
+# text = Japonsko podjetje Kao, največji izdelovalec disket na svetu, je napovedalo, da namerava zaradi slabe prodaje proizvodnjo zmanjšati za polovico, resno pa razmišljajo tudi, da bi jo sploh opustili.
+1	Japonsko	Japonska	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_	_
+
+2	podjetje	podjetje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_	_
+
+3	Kao	kao	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+5	največji	velik	ADJ	Agsmsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+6	izdelovalec	izdelovalec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_	_
+
+7	disket	disket	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_	_
+
+8	na	na	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	svetu	svet	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+10	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+11	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	aux	_	_	_
+
+12	napovedalo	napovedati	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+13	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+14	da	da	SCONJ	Cs	_	15	mark	_	_	_
+
+15	namerava	nameravati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_	_
+
+16	zaradi	zaradi	ADP	Sg	Case=Gen	18	case	_	_	_
+
+17	slabe	slab	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_	_
+
+18	prodaje	prodaja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	20	obl	_	_	_
+
+19	proizvodnjo	proizvodnja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_	_
+
+20	zmanjšati	zmanjšati	VERB	Vmen	Aspect=Perf|VerbForm=Inf	15	xcomp	_	_	_
+
+21	za	za	ADP	Sa	Case=Acc	22	case	_	_	_
+
+22	polovico	polovica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_	_
+
+23	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+24	resno	resno	ADV	Rgp	Degree=Pos	26	advmod	_	_	_
+
+25	pa	pa	CCONJ	Cc	_	26	advmod	_	_	_
+
+26	razmišljajo	razmišljati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_	_
+
+27	tudi	tudi	PART	Q	_	26	advmod	_	_	_
+
+28	,	,	PUNCT	Z	_	33	punct	_	_	_
+
+29	da	da	SCONJ	Cs	_	33	mark	_	_	_
+
+30	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	33	aux	_	_	_
+
+31	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	33	obj	_	_	_
+
+32	sploh	sploh	PART	Q	_	33	advmod	_	_	_
+
+33	opustili	opustiti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	26	ccomp	_	_	_
+
+34	.	.	PUNCT	Z	_	12	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023039.txt
+# text = Glavni razlog za to je čedalje večja zasičenost trga s temi izdelki in zniževanje cen.
+1	Glavni	glaven	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	razlog	razlog	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_	_
+
+3	za	za	ADP	Sa	Case=Acc	4	case	_	_	_
+
+4	to	ta	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	nmod	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_	_
+
+6	čedalje	čedalje	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+7	večja	velik	ADJ	Agcfsn	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	8	amod	_	_	_
+
+8	zasičenost	zasičenost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+9	trga	trg	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+10	s	z	ADP	Si	Case=Ins	12	case	_	_	_
+
+11	temi	ta	DET	Pd-mpi	Case=Ins|Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_	_
+
+12	izdelki	izdelek	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	9	nmod	_	_	_
+
+13	in	in	CCONJ	Cc	_	14	cc	_	_	_
+
+14	zniževanje	zniževanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	12	conj	_	_	_
+
+15	cen	cena	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_	_
+
+16	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023039.txt
+# text = Ob prvi predstavitvi leta 1996 so 3,5- palčne diskete stale 7,75 dolarja, že deset pozneje pa manj kakor 77 centov kos.
+1	Ob	ob	ADP	Sl	Case=Loc	3	case	_	_	_
+
+2	prvi	prvi	ADJ	Mlofsl	Case=Loc|Gender=Fem|NumType=Ord|Number=Sing	3	amod	_	_	_
+
+3	predstavitvi	predstavitev	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_	_
+
+4	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_	_
+
+5	1996	1996	NUM	Mdc	NumForm=Digit|NumType=Card	4	nummod	_	_	_
+
+6	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_	_
+
+7	3,5	3,5	NUM	Mdc	NumForm=Digit|NumType=Card	9	nummod	_	_	_
+
+8	-	-	PUNCT	Z	_	9	punct	_	_	_
+
+9	palčne	palčen	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_	_
+
+10	diskete	disketi	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_	_
+
+11	stale	stati	VERB	Vmpp-pf	Aspect=Imp|Gender=Fem|Number=Plur|VerbForm=Part		root	_	_	_
+
+12	7,75	7,75	NUM	Mdc	NumForm=Digit|NumType=Card	13	nummod	_	_	_
+
+13	dolarja	dolar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	obj	_	_	_
+
+14	,	,	PUNCT	Z	_	23	punct	_	_	_
+
+15	že	že	PART	Q	_	23	advmod	_	_	_
+
+16	deset	deset	NUM	Mlc-pa	Case=Acc|NumForm=Word|NumType=Card|Number=Plur	17	nummod	_	_	_
+
+17	pozneje	pozno	ADV	Rgc	Degree=Cmp	23	advmod	_	_	_
+
+18	pa	pa	CCONJ	Cc	_	23	advmod	_	_	_
+
+19	manj	manj	DET	Rgc	PronType=Ind	22	advmod	_	_	_
+
+20	kakor	kakor	SCONJ	Cs	_	19	fixed	_	_	_
+
+21	77	77	NUM	Mdc	NumForm=Digit|NumType=Card	22	nummod	_	_	_
+
+22	centov	cent	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	23	nsubj	_	_	_
+
+23	kos	kos	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	parataxis	_	_	_
+
+24	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023039.txt
+# text = Nedavno so cene zdrknile pod 15 centov, kar komajda še omogoča preživetje.
+1	Nedavno	nedavno	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_	_
+
+3	cene	cena	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_	_
+
+4	zdrknile	zdrkniti	VERB	Vmep-pf	Aspect=Perf|Gender=Fem|Number=Plur|VerbForm=Part		root	_	_	_
+
+5	pod	pod	ADP	Sa	Case=Acc	7	case	_	_	_
+
+6	15	15	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	_	_
+
+7	centov	cent	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_	_
+
+8	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+9	kar	kar	PRON	Pr-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	12	nsubj	_	_	_
+
+10	komajda	komajda	ADV	Rgp	Degree=Pos	12	advmod	_	_	_
+
+11	še	še	PART	Q	_	12	advmod	_	_	_
+
+12	omogoča	omogočati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_	_
+
+13	preživetje	preživetje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_	_
+
+14	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023039.txt
+# text = Samo podjetje Kao je lani izgubilo skoraj 16 milijonov dolarjev, izgube pa imajo tudi drugi.
+1	Samo	samo	PART	Q	_	6	advmod	_	_	_
+
+2	podjetje	podjetje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_	_
+
+3	Kao	kao	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
+
+5	lani	lani	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+6	izgubilo	izgubiti	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+7	skoraj	skoraj	PART	Q	_	8	advmod	_	_	_
+
+8	16	16	NUM	Mdc	NumForm=Digit|NumType=Card	9	nummod	_	_	_
+
+9	milijonov	milijon	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	obj	_	_	_
+
+10	dolarjev	dolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_	_
+
+11	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+12	izgube	izguba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	obj	_	_	_
+
+13	pa	pa	CCONJ	Cc	_	14	advmod	_	_	_
+
+14	imajo	imeti	VERB	Vmpr3p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	parataxis	_	_	_
+
+15	tudi	tudi	PART	Q	_	14	advmod	_	_	_
+
+16	drugi	drug	ADJ	Mlpmpn	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_	_
+
+17	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023039.txt
+# text = Kao, ki je doslej izdelal okoli 400 milijonov disket na leto, bo proizvodnjo v letu dni prepolovil.
+1	Kao	kao	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_	_
+
+2	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+3	ki	ki	SCONJ	Cs	_	6	mark	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
+
+5	doslej	doslej	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+6	izdelal	izdelati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_	_
+
+7	okoli	okoli	ADV	Rgp	Degree=Pos	9	advmod	_	_	_
+
+8	400	400	NUM	Mdc	NumForm=Digit|NumType=Card	9	nummod	_	_	_
+
+9	milijonov	milijon	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	obj	_	_	_
+
+10	disket	disket	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_	_
+
+11	na	na	ADP	Sa	Case=Acc	12	case	_	_	_
+
+12	leto	leto	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	9	nmod	_	_	_
+
+13	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+14	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	19	aux	_	_	_
+
+15	proizvodnjo	proizvodnja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_	_
+
+16	v	v	ADP	Sl	Case=Loc	17	case	_	_	_
+
+17	letu	leto	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	19	obl	_	_	_
+
+18	dni	dan	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_	_
+
+19	prepolovil	prepoloviti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+20	.	.	PUNCT	Z	_	19	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023039.txt
+# text = Slika, ki jo daje projektor, je nekoliko slabše osvetljena od drugih mnogo manjših projektorjev in zato v svetlem prostoru dokaj zbledi.
+1	Slika	slika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_	_
+
+2	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+3	ki	ki	SCONJ	Cs	_	5	mark	_	_	_
+
+4	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	5	obj	_	_	_
+
+5	daje	dajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	_	_
+
+6	projektor	projektor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+7	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+8	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	cop	_	_	_
+
+9	nekoliko	nekoliko	ADV	Rgp	Degree=Pos	10	advmod	_	_	_
+
+10	slabše	slabo	ADV	Rgc	Degree=Cmp	11	advmod	_	_	_
+
+11	osvetljena	osvetljen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+12	od	od	ADP	Sg	Case=Gen	16	case	_	_	_
+
+13	drugih	drug	ADJ	Mlpmpg	Case=Gen|Gender=Masc|Number=Plur	16	amod	_	_	_
+
+14	mnogo	mnogo	DET	Rgp	PronType=Ind	16	det	_	_	_
+
+15	manjših	majhen	ADJ	Agcmpg	Case=Gen|Degree=Cmp|Gender=Masc|Number=Plur	16	amod	_	_	_
+
+16	projektorjev	projektor	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_	_
+
+17	in	in	CCONJ	Cc	_	23	cc	_	_	_
+
+18	zato	zato	CCONJ	Cc	_	23	advmod	_	_	_
+
+19	v	v	ADP	Sl	Case=Loc	21	case	_	_	_
+
+20	svetlem	svetel	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_	_
+
+21	prostoru	prostor	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	23	obl	_	_	_
+
+22	dokaj	dokaj	ADV	Rgp	Degree=Pos	23	advmod	_	_	_
+
+23	zbledi	zbled	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_	_
+
+24	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023039.txt
+# text = Vendar je ostra, barve so lepe, pa tudi video slika je vsaj srednje dobra.
+1	Vendar	vendar	CCONJ	Cc	_	3	cc	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_	_
+
+3	ostra	oster	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing		root	_	_	_
+
+4	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+5	barve	barva	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+
+6	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	_	_
+
+7	lepe	lep	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	conj	_	_	_
+
+8	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+9	pa	pa	CCONJ	Cc	_	16	advmod	_	_	_
+
+10	tudi	tudi	PART	Q	_	16	advmod	_	_	_
+
+11	video	video	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+12	slika	slika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_	_
+
+13	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	cop	_	_	_
+
+14	vsaj	vsaj	PART	Q	_	16	advmod	_	_	_
+
+15	srednje	srednje	ADV	Rgp	Degree=Pos	16	advmod	_	_	_
+
+16	dobra	dober	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	conj	_	_	_
+
+17	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023039.txt
+# text = Edino, kar malce razočara, je zvok en zvočnik, ki komaj uspe preglasiti nadpovprečno glasni ventilator.
+1	Edino	edino	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	advcl	_	_	_
+
+2	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+3	kar	kar	PRON	Pr-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	5	nsubj	_	_	_
+
+4	malce	malce	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+5	razočara	razočarati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	csubj	_	_	_
+
+6	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	cop	_	_	_
+
+8	zvok	zvok	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_	_
+
+9	en	en	NUM	Mlpmsn	Case=Nom|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing	10	nummod	_	_	_
+
+10	zvočnik	zvočnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+11	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+12	ki	ki	SCONJ	Cs	_	14	mark	_	_	_
+
+13	komaj	komaj	ADV	Rgp	Degree=Pos	14	advmod	_	_	_
+
+14	uspe	uspeti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	_	_
+
+15	preglasiti	preglasiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	14	xcomp	_	_	_
+
+16	nadpovprečno	nadpovprečen	ADV	Rgp	Degree=Pos	17	advmod	_	_	_
+
+17	glasni	glasen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_	_
+
+18	ventilator	ventilator	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_	_
+
+19	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0023039.txt
+# text = IBM podvojil zmogljivost diskov
+1	IBM	IBM	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_	_
+
+2	podvojil	podvojiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+3	zmogljivost	zmogljivost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_	_
+
+4	diskov	disk	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_	_
+

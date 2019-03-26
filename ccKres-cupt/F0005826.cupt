@@ -1,0 +1,563 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0005826.txt
+# text = 1. člen
+1	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005826.txt
+# text = Za izvajanje tega sporazuma skrbi Ministrstvo za znanost in tehnologijo.
+1	Za	za	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	izvajanje	izvajanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_	_
+
+3	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_	_
+
+4	sporazuma	sporazum	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	skrbi	skrbeti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	Ministrstvo	ministrstvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_	_
+
+7	za	za	ADP	Sa	Case=Acc	8	case	_	_	_
+
+8	znanost	znanost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_	_
+
+9	in	in	CCONJ	Cc	_	10	cc	_	_	_
+
+10	tehnologijo	tehnologija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	conj	_	_	_
+
+11	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005826.txt
+# text = Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije- Mednarodne pogodbe.
+1	Ta	ta	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_	_
+
+2	zakon	zakon	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+3	začne	začeti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	veljati	veljati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	3	xcomp	_	_	_
+
+5	naslednji	naslednji	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+6	dan	dan	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+7	po	po	ADP	Sl	Case=Loc	8	case	_	_	_
+
+8	objavi	objava	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+9	v	v	ADP	Sl	Case=Loc	11	case	_	_	_
+
+10	Uradnem	uraden	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	listu	list	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+12	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+13	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+14	-	-	PUNCT	Z	_	16	punct	_	_	_
+
+15	Mednarodne	mednaroden	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_	_
+
+16	pogodbe	pogodba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+17	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005826.txt
+# text = Številka: 630- 02 /97- 9/1 Ljubljana, dne 27. maja 1997
+1	Številka	Številka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	9	parataxis	_	_	_
+
+2	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+3	630	630	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+4	-	-	PUNCT	Z	_	5	punct	_	_	_
+
+5	02	02	NUM	Mdc	NumForm=Digit|NumType=Card	3	conj	_	_	_
+
+6	/97	/97	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+7	-	-	PUNCT	Z	_	8	punct	_	_	_
+
+8	9	9	NUM	Mdc	NumForm=Digit|NumType=Card	6	conj	_	_	_
+
+9	/1	/1	PUNCT	Z	_	10	punct	_	_	_
+
+10	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_	_
+
+11	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+12	dne	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	appos	_	_	_
+
+13	27.	27.	NUM	Mdo	NumForm=Digit|NumType=Ord	14	nummod	_	_	_
+
+14	maja	maj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+15	1997	1997	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005826.txt
+# text = ker se zavedajo pomembne vloge molekularne biologije pri napredovanju znanosti in blaginji človeštva,
+1	ker	ker	SCONJ	Cs	_	3	mark	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	3	expl	_	_	_
+
+3	zavedajo	zavedati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	pomembne	pomemben	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_	_
+
+5	vloge	vloga	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_	_
+
+6	molekularne	molekularen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	_
+
+7	biologije	biologija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+
+8	pri	pri	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	napredovanju	napredovanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_	_
+
+10	znanosti	znanost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_	_
+
+11	in	in	CCONJ	Cc	_	12	cc	_	_	_
+
+12	blaginji	blaginja	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	9	conj	_	_	_
+
+13	človeštva	človeštvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_	_
+
+14	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005826.txt
+# text = Ustanovitev konference
+1	Ustanovitev	ustanovitev	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	konference	konferenca	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005826.txt
+# text = II. člen
+1	II.	II.	X	Y	Abbr=Yes	2	amod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005826.txt
+# text = Konferenca
+1	Konferenca	Konferenca	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005826.txt
+# text = V. člen
+1	V.	V.	X	Y	Abbr=Yes		root	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005826.txt
+# text = 1. Konferenca z dvotretjinsko večino vseh članic imenuje generalnega sekretarja za določeno časovno obdobje.
+1	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	Konferenca	Konferenca	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_	_
+
+3	z	z	ADP	Si	Case=Ins	5	case	_	_	_
+
+4	dvotretjinsko	dvotretjinski	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_
+
+5	večino	večina	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+6	vseh	ves	DET	Pg-fpg	Case=Gen|Gender=Fem|Number=Plur|PronType=Tot	7	det	_	_	_
+
+7	članic	članica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_	_
+
+8	imenuje	imenovati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	generalnega	generalen	ADJ	Agpmsa	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	sekretarja	sekretar	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_	_
+
+11	za	za	ADP	Sa	Case=Acc	14	case	_	_	_
+
+12	določeno	določen	ADJ	Appnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	14	amod	_	_	_
+
+13	časovno	časovno	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_	_
+
+14	obdobje	obdobje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	10	nmod	_	_	_
+
+15	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005826.txt
+# text = Njegov mandat traja, dokler ni imenovan njegov naslednik.
+1	Njegov	njegov	DET	Ps3msnsm	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_	_
+
+2	mandat	mandat	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+3	traja	trajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+5	dokler	dokler	SCONJ	Cs	_	7	mark	_	_	_
+
+6	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	7	cop	_	_	_
+
+7	imenovan	imenovan	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	3	advcl	_	_	_
+
+8	njegov	njegov	DET	Ps3msnsm	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_	_
+
+9	naslednik	naslednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_	_
+
+10	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005826.txt
+# text = Generalni sekretar pomaga Predsedniku konference in ohranja kontinuiteto delovanja med zasedanji.
+1	Generalni	generalen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	sekretar	sekretar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+3	pomaga	pomagati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	Predsedniku	predsednik	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	_	_
+
+5	konference	konferenca	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+6	in	in	CCONJ	Cc	_	7	cc	_	_	_
+
+7	ohranja	ohranjati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_	_
+
+8	kontinuiteto	kontinuiteta	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_	_
+
+9	delovanja	delovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_	_
+
+10	med	med	ADP	Si	Case=Ins	11	case	_	_	_
+
+11	zasedanji	zasedanji	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	9	nmod	_	_	_
+
+12	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005826.txt
+# text = Lahko ukrepa tako, kot je Potrebno za vodenje tekočega delovanja konference.
+1	Lahko	lahko	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+2	ukrepa	ukrep	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	tako	tako	ADV	Rgp	Degree=Pos	7	mark	_	_	_
+
+4	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+5	kot	kot	SCONJ	Cs	_	3	fixed	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	_	_
+
+7	Potrebno	potreben	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	advcl	_	_	_
+
+8	za	za	ADP	Sa	Case=Acc	9	case	_	_	_
+
+9	vodenje	vodenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_	_
+
+10	tekočega	tekoč	ADJ	Appnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	11	amod	_	_	_
+
+11	delovanja	delovanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_	_
+
+12	konference	konferenca	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+13	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005826.txt
+# text = 2. Generalni sekretar predloži konferenci: a) osnutek okvirnega načrta, naveden v točki f) tretjega odstavka IV. člena, b) redni proračun in začasno oceno, predvidena v točkah g) in h) tretjega odstavka IV. člena, c) posebne finančne določbe za vsak poseben projekt v skladu s točko i) tretjega odstavka IV. člena, d) pregledani zaključni račun in letno poročilo, določena v skladu s točkama k) in l) tretjega odstavka IV. člena.
+1	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	4	dep	_	_	_
+
+2	Generalni	generalen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	sekretar	sekretar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+4	predloži	predložiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	konferenci	konferenca	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	4	obj	_	_	_
+
+6	:	:	PUNCT	Z	_	9	punct	_	_	_
+
+7	a	a	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_	_
+
+8	)	)	PUNCT	Z	_	7	punct	_	_	_
+
+9	osnutek	osnutek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+10	okvirnega	okviren	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	načrta	načrt	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_	_
+
+12	,	,	PUNCT	Z	_	13	punct	_	_	_
+
+13	naveden	naveden	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	9	amod	_	_	_
+
+14	v	v	ADP	Sl	Case=Loc	15	case	_	_	_
+
+15	točki	točka	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_	_
+
+16	f	f	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+17	)	)	PUNCT	Z	_	13	punct	_	_	_
+
+18	tretjega	tretji	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	19	amod	_	_	_
+
+19	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_	_
+
+20	IV.	IV.	NUM	Mro	NumForm=Roman|NumType=Ord	21	nummod	_	_	_
+
+21	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_	_
+
+22	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+23	b)	biti	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_	_
+
+24	redni	reden	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_	_
+
+25	proračun	proračun	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	parataxis	_	_	_
+
+26	in	in	CCONJ	Cc	_	28	cc	_	_	_
+
+27	začasno	začasen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_	_
+
+28	oceno	ocena	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	25	conj	_	_	_
+
+29	,	,	PUNCT	Z	_	30	punct	_	_	_
+
+30	predvidena	predviden	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	25	amod	_	_	_
+
+31	v	v	ADP	Sl	Case=Loc	32	case	_	_	_
+
+32	točkah	točka	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	30	obl	_	_	_
+
+33	g	g	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	32	nmod	_	_	_
+
+34	)	)	PUNCT	Z	_	30	punct	_	_	_
+
+35	in	in	CCONJ	Cc	_	39	cc	_	_	_
+
+36	h	k	ADP	Sd	Case=Dat	39	case	_	_	_
+
+37	)	)	PUNCT	Z	_	39	punct	_	_	_
+
+38	tretjega	tretji	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	39	amod	_	_	_
+
+39	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	32	conj	_	_	_
+
+40	IV.	IV.	NUM	Mro	NumForm=Roman|NumType=Ord	41	nummod	_	_	_
+
+41	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	39	nmod	_	_	_
+
+42	,	,	PUNCT	Z	_	46	punct	_	_	_
+
+43	c)	c)	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	46	amod	_	_	_
+
+44	posebne	poseben	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	46	amod	_	_	_
+
+45	finančne	finančen	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	46	amod	_	_	_
+
+46	določbe	določba	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	62	nsubj	_	_	_
+
+47	za	za	ADP	Sa	Case=Acc	50	case	_	_	_
+
+48	vsak	vsak	DET	Pg-msa	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	50	det	_	_	_
+
+49	poseben	poseben	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	50	amod	_	_	_
+
+50	projekt	projekt	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	62	obl	_	_	_
+
+51	v	v	ADP	Sl	Case=Loc	52	case	_	_	_
+
+52	skladu	sklad	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	46	nmod	_	_	_
+
+53	s	z	ADP	Si	Case=Ins	54	case	_	_	_
+
+54	točko	točka	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	52	nmod	_	_	_
+
+55	i	i	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	54	nmod	_	_	_
+
+56	)	)	PUNCT	Z	_	62	punct	_	_	_
+
+57	tretjega	tretji	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	58	amod	_	_	_
+
+58	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	54	nmod	_	_	_
+
+59	IV.	IV.	NUM	Mro	NumForm=Roman|NumType=Ord	60	nummod	_	_	_
+
+60	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	58	nmod	_	_	_
+
+61	,	,	PUNCT	Z	_	62	punct	_	_	_
+
+62	d)	d)	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_	_
+
+63	pregledani	pregledan	ADJ	Appmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	65	amod	_	_	_
+
+64	zaključni	zaključen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	65	amod	_	_	_
+
+65	račun	račun	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	62	nsubj	_	_	_
+
+66	in	in	CCONJ	Cc	_	68	cc	_	_	_
+
+67	letno	leten	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	68	amod	_	_	_
+
+68	poročilo	poročilo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	65	conj	_	_	_
+
+69	,	,	PUNCT	Z	_	70	punct	_	_	_
+
+70	določena	določen	ADJ	Appnpn	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|VerbForm=Part	65	amod	_	_	_
+
+71	v	v	ADP	Sl	Case=Loc	72	case	_	_	_
+
+72	skladu	sklad	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	70	obl	_	_	_
+
+73	s	z	ADP	Si	Case=Ins	74	case	_	_	_
+
+74	točkama	točka	NOUN	Ncfdi	Case=Ins|Gender=Fem|Number=Dual	72	nmod	_	_	_
+
+75	k	k	ADP	Sd	Case=Dat	74	case	_	_	_
+
+76	)	)	PUNCT	Z	_	70	punct	_	_	_
+
+77	in	in	CCONJ	Cc	_	78	cc	_	_	_
+
+78	l	l	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	74	conj	_	_	_
+
+79	)	)	PUNCT	Z	_	78	punct	_	_	_
+
+80	tretjega	tretji	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	81	amod	_	_	_
+
+81	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	74	nmod	_	_	_
+
+82	IV.	IV.	NUM	Mro	NumForm=Roman|NumType=Ord	83	nummod	_	_	_
+
+83	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	81	nmod	_	_	_
+
+84	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005826.txt
+# text = 3.
+1	3	3	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005826.txt
+# text = Pri opravljanju svojih nalog generalni sekretar uporablja storitve EMBO.
+1	Pri	pri	ADP	Sl	Case=Loc	2	case	_	_	_
+
+2	opravljanju	opravljanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_	_
+
+3	svojih	svoj	DET	Px-fpg	Case=Gen|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	4	det	_	_	_
+
+4	nalog	naloga	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_	_
+
+5	generalni	generalen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_
+
+6	sekretar	sekretar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_	_
+
+7	uporablja	uporabljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+8	storitve	storitev	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_	_
+
+9	EMBO	EMBO	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+10	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005826.txt
+# text = Amandmaji
+1	Amandmaji	amandma	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005826.txt
+# text = V POTRDITEV TEGA so pravilno pooblaščeni podpisniki podpisali ta sporazum.
+1	V	v	ADP	Sa	Case=Acc	2	case	_	_	_
+
+2	POTRDITEV	potrditev	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+3	TEGA	ta	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	2	nmod	_	_	_
+
+4	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_	_
+
+5	pravilno	pravilno	ADV	Rgp	Degree=Pos	8	advmod	_	_	_
+
+6	pooblaščeni	pooblaščen	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	7	amod	_	_	_
+
+7	podpisniki	podpisnik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_	_
+
+8	podpisali	podpisati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+9	ta	ta	DET	Pd-msa	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_	_
+
+10	sporazum	sporazum	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_	_
+
+11	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005826.txt
+# text = PRILOGA K SPORAZUMU, S KATERIM SE USTANAVLJA EVROPSKA KONFERENCA ZA MOLEKULARNO BIOLOGIJO
+1	PRILOGA	priloga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	K	k	ADP	Sd	Case=Dat	3	case	_	_	_
+
+3	SPORAZUMU	sporazum	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+4	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+5	S	z	ADP	Si	Case=Ins	6	case	_	_	_
+
+6	KATERIM	kateri	DET	Pq-msi	Case=Ins|Gender=Masc|Number=Sing|PronType=Int	8	obl	_	_	_
+
+7	SE	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	8	expl	_	_	_
+
+8	USTANAVLJA	ustanavljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_	_
+
+9	EVROPSKA	evropski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_	_
+
+10	KONFERENCA	konferenca	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_	_
+
+11	ZA	za	ADP	Sa	Case=Acc	13	case	_	_	_
+
+12	MOLEKULARNO	molekularna	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_	_
+
+13	BIOLOGIJO	biologija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005826.txt
+# text = Lestvica prispevkov, ki jo je sestavil CERN za leto 1967 na podlagi povprečnih narodnih dohodkov od 1962- 1964
+1	Lestvica	lestvica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	prispevkov	prispevek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_	_
+
+3	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+4	ki	ki	SCONJ	Cs	_	7	mark	_	_	_
+
+5	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	7	obj	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_	_
+
+7	sestavil	sestaviti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_	_
+
+8	CERN	CERN	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_	_
+
+9	za	za	ADP	Sa	Case=Acc	10	case	_	_	_
+
+10	leto	leto	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_	_
+
+11	1967	1967	NUM	Mdc	NumForm=Digit|NumType=Card	10	nummod	_	_	_
+
+12	na	na	ADP	Sl	Case=Loc	13	case	_	_	_
+
+13	podlagi	podlaga	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_	_
+
+14	povprečnih	povprečen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_	_
+
+15	narodnih	naroden	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_	_
+
+16	dohodkov	dohodek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_	_
+
+17	od	od	ADP	Sg	Case=Gen	18	case	_	_	_
+
+18	1962	1962	NUM	Mdc	NumForm=Digit|NumType=Card	13	nummod	_	_	_
+
+19	-	-	PUNCT	Z	_	20	punct	_	_	_
+
+20	1964	1964	NUM	Mdc	NumForm=Digit|NumType=Card	18	conj	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005826.txt
+# text = 21,84%
+1	21,84%	21,84%	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0005826.txt
+# text = 100,00
+1	100,00	100,00	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+

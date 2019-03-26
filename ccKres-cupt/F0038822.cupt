@@ -1,0 +1,575 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0038822.txt
+# text = Zoper to odločbo ni dovoljena pritožba, pač pa lahko prosilec sproži upravni spor zoper odločbo Občine Ilirska Bistrica, Bazoviška cesta 14, 6250 Ilirska Bistrica, št. 090- 6/ 201 z dne 28. 6. 2010.
+1	Zoper	zoper	ADP	Sa	Case=Acc	3	case	_	_	_
+
+2	to	ta	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_	_
+
+3	odločbo	odločba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_	_
+
+4	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+5	dovoljena	dovoljen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+6	pritožba	pritožba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_	_
+
+7	,	,	PUNCT	Z	_	12	punct	_	_	_
+
+8	pač	pač	PART	Q	_	12	mark	_	_	_
+
+9	pa	pa	CCONJ	Cc	_	12	advmod	_	_	_
+
+10	lahko	lahko	ADV	Rgp	Degree=Pos	12	advmod	_	_	_
+
+11	prosilec	prosilec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_	_
+
+12	sproži	sprožiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_	_
+
+13	upravni	upraven	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+14	spor	spor	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_	_
+
+15	zoper	zoper	ADP	Sa	Case=Acc	16	case	_	_	_
+
+16	odločbo	odločba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+17	Občine	občina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+18	Ilirska	Ilirska	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_	_
+
+19	Bistrica	bistrica	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	17	nmod	_	_	_
+
+20	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+21	Bazoviška	bazoviški	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_	_
+
+22	cesta	cesta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	_	_
+
+23	14	14	NUM	Mdc	NumForm=Digit|NumType=Card	22	nummod	_	_	_
+
+24	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+25	6250	6250	NUM	Mdc	NumForm=Digit|NumType=Card	23	conj	_	_	_
+
+26	Ilirska	Ilirska	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_	_
+
+27	Bistrica	bistrica	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	22	conj	_	_	_
+
+28	,	,	PUNCT	Z	_	30	punct	_	_	_
+
+29	št.	št.	NUM	Mdo	NumForm=Digit|NumType=Ord	30	conj	_	_	_
+
+30	090	090	NUM	Mdc	NumForm=Digit|NumType=Card	27	nummod	_	_	_
+
+31	-	-	PUNCT	Z	_	32	punct	_	_	_
+
+32	6	6	NUM	Mdc	NumForm=Digit|NumType=Card	30	conj	_	_	_
+
+33	/	/	PUNCT	Z	_	34	punct	_	_	_
+
+34	201	201	NUM	Mdc	NumForm=Digit|NumType=Card	32	conj	_	_	_
+
+35	z	z	ADP	Sg	Case=Gen	36	case	_	_	_
+
+36	dne	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_	_
+
+37	28.	28.	NUM	Mdo	NumForm=Digit|NumType=Ord	36	nummod	_	_	_
+
+38	6.	6.	NUM	Mdo	NumForm=Digit|NumType=Ord	39	flat	_	_	_
+
+39	2010	2010	NUM	Mdc	NumForm=Digit|NumType=Card	37	conj	_	_	_
+
+40	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038822.txt
+# text = Upravni spor se sproži s tožbo, ki se vloži v 30 dneh od vročitve te odločbe na Upravno sodišče, Fajfarjeva 33, Ljubljana.
+1	Upravni	upraven	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+
+2	spor	spor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+4	sproži	sprožiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	s	z	ADP	Si	Case=Ins	6	case	_	_	_
+
+6	tožbo	tožba	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+7	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+8	ki	ki	SCONJ	Cs	_	10	mark	_	_	_
+
+9	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	10	expl	_	_	_
+
+10	vloži	vloža	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	_	_
+
+11	v	v	ADP	Sl	Case=Loc	13	case	_	_	_
+
+12	30	30	NUM	Mdc	NumForm=Digit|NumType=Card	13	nummod	_	_	_
+
+13	dneh	dan	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	10	obl	_	_	_
+
+14	od	od	ADP	Sg	Case=Gen	15	case	_	_	_
+
+15	vročitve	vročitev	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_	_
+
+16	te	ta	DET	Pd-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_	_
+
+17	odločbe	odločba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_	_
+
+18	na	na	ADP	Sa	Case=Acc	20	case	_	_	_
+
+19	Upravno	upraven	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_	_
+
+20	sodišče	sodišče	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	17	nmod	_	_	_
+
+21	,	,	PUNCT	Z	_	23	punct	_	_	_
+
+22	Fajfarjeva	Fajfarjev	ADJ	Aspfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	23	amod	_	_	_
+
+23	33	33	NUM	Mdc	NumForm=Digit|NumType=Card	20	nummod	_	_	_
+
+24	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+25	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	23	conj	_	_	_
+
+26	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038822.txt
+# text = Tožba se lahko vloži pisno po pošti ali pri navedenem sodišču.
+1	Tožba	tožba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+3	lahko	lahko	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+4	vloži	vloža	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	pisno	pisno	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+6	po	po	ADP	Sl	Case=Loc	7	case	_	_	_
+
+7	pošti	pošta	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+8	ali	ali	CCONJ	Cc	_	11	cc	_	_	_
+
+9	pri	pri	ADP	Sl	Case=Loc	11	case	_	_	_
+
+10	navedenem	naveden	ADJ	Appnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	11	amod	_	_	_
+
+11	sodišču	sodišče	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	7	conj	_	_	_
+
+12	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038822.txt
+# text = Če se tožba pošlje priporočeno po pošti, se za dan izročitve sodišču šteje dan oddaje na pošto.
+1	Če	če	SCONJ	Cs	_	4	mark	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+3	tožba	tožba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+4	pošlje	poslati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_	_
+
+5	priporočeno	priporočen	ADJ	Appnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	4	xcomp	_	_	_
+
+6	po	po	ADP	Sl	Case=Loc	7	case	_	_	_
+
+7	pošti	pošta	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+8	,	,	PUNCT	Z	_	4	punct	_	_	_
+
+9	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	14	expl	_	_	_
+
+10	za	za	ADP	Sa	Case=Acc	11	case	_	_	_
+
+11	dan	dan	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_	_
+
+12	izročitve	izročitev	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+13	sodišču	sodišče	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	14	obj	_	_	_
+
+14	šteje	šteti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+15	dan	dan	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_	_
+
+16	oddaje	oddaja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_	_
+
+17	na	na	ADP	Sa	Case=Acc	18	case	_	_	_
+
+18	pošto	pošta	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+19	.	.	PUNCT	Z	_	14	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038822.txt
+# text = Tožba z morebitnimi prilogami se vloži v najmanj treh izvodih.
+1	Tožba	tožba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_	_
+
+2	z	z	ADP	Si	Case=Ins	4	case	_	_	_
+
+3	morebitnimi	morebiten	ADJ	Agpfpi	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_	_
+
+4	prilogami	priloga	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	1	nmod	_	_	_
+
+5	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	6	expl	_	_	_
+
+6	vloži	vloža	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	v	v	ADP	Sl	Case=Loc	10	case	_	_	_
+
+8	najmanj	najmanj	ADV	Rgs	Degree=Sup	9	advmod	_	_	_
+
+9	treh	trije	NUM	Mlcmpl	Case=Loc|Gender=Masc|NumForm=Word|NumType=Card|Number=Plur	10	nummod	_	_	_
+
+10	izvodih	izvod	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	6	obl	_	_	_
+
+11	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038822.txt
+# text = Tožbi je treba priložiti tudi to odločbo v izvirniku ali prepisu.
+1	Tožbi	Tožba	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	4	iobj	_	_	_
+
+2	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	treba	treba	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+4	priložiti	priložiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	2	csubj	_	_	_
+
+5	tudi	tudi	PART	Q	_	4	advmod	_	_	_
+
+6	to	ta	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_	_
+
+7	odločbo	odločba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	izvirniku	izvirnik	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_	_
+
+10	ali	ali	CCONJ	Cc	_	11	cc	_	_	_
+
+11	prepisu	prepis	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	9	conj	_	_	_
+
+12	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038822.txt
+# text = 3.
+1	3	3	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+2	.	.	PUNCT	Z	_	1	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038822.txt
+# text = PGD za( že začeto) izgradnjo 2. pod etapo I. faze Poljanske obvoznice;
+1	PGD	PGD	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+2	za	za	ADP	Sa	Case=Acc	5	case	_	_	_
+
+3	(	(	PUNCT	Z	_	5	punct	_	_	_
+
+4	že	že	PART	Q	_	1	advmod	_	_	_
+
+5	začeto	začeti	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+6	)	)	PUNCT	Z	_	5	punct	_	_	_
+
+7	izgradnjo	izgradnja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+8	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	7	nummod	_	_	_
+
+9	pod	pod	ADP	Si	Case=Ins	10	case	_	_	_
+
+10	etapo	etapa	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+11	I.	I.	X	Y	Abbr=Yes	12	amod	_	_	_
+
+12	faze	faza	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_	_
+
+13	Poljanske	poljanski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_	_
+
+14	obvoznice	obvoznica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+15	;	;	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038822.txt
+# text = Upoštevaje navedeno Pooblaščenec ugotavlja, da bo pomanjkljivosti postopka na prvi stopnji hitreje in bolj ekonomično odpravil organ prve stopnje, zaradi česar je pritožbi prosilca ugodil in na podlagi tretjega odstavka 251. člena ZUP izpodbijano odločbo v celoti odpravil ter zadevo vrnil organu prve stopnje v ponovno odločanje.
+1	Upoštevaje	upoštevaje	ADV	Rr	VerbForm=Conv	4	advmod	_	_	_
+
+2	navedeno	naveden	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	3	amod	_	_	_
+
+3	Pooblaščenec	pooblaščenec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_	_
+
+4	ugotavlja	ugotavljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+6	da	da	SCONJ	Cs	_	17	mark	_	_	_
+
+7	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	17	aux	_	_	_
+
+8	pomanjkljivosti	pomanjkljivost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	17	obj	_	_	_
+
+9	postopka	postopek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+10	na	na	ADP	Sl	Case=Loc	12	case	_	_	_
+
+11	prvi	prvi	ADJ	Mlofsl	Case=Loc|Gender=Fem|NumType=Ord|Number=Sing	12	amod	_	_	_
+
+12	stopnji	stopnja	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_	_
+
+13	hitreje	hitro	ADV	Rgc	Degree=Cmp	17	advmod	_	_	_
+
+14	in	in	CCONJ	Cc	_	16	cc	_	_	_
+
+15	bolj	bolj	ADV	Rgc	Degree=Cmp	16	advmod	_	_	_
+
+16	ekonomično	ekonomično	ADV	Rgp	Degree=Pos	13	conj	_	_	_
+
+17	odpravil	odpraviti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	4	ccomp	_	_	_
+
+18	organ	organ	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_	_
+
+19	prve	prvi	ADJ	Mlofsg	Case=Gen|Gender=Fem|NumType=Ord|Number=Sing	20	amod	_	_	_
+
+20	stopnje	stopnja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_	_
+
+21	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+22	zaradi	zaradi	ADP	Sg	Case=Gen	23	case	_	_	_
+
+23	česar	kar	PRON	Pr-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Rel	27	obl	_	_	_
+
+24	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	27	aux	_	_	_
+
+25	pritožbi	pritožba	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	27	obj	_	_	_
+
+26	prosilca	prosilec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_	_
+
+27	ugodil	ugoditi	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	4	parataxis	_	_	_
+
+28	in	in	CCONJ	Cc	_	40	cc	_	_	_
+
+29	na	na	ADP	Sl	Case=Loc	30	case	_	_	_
+
+30	podlagi	podlaga	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	40	obl	_	_	_
+
+31	tretjega	tretji	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	32	amod	_	_	_
+
+32	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_	_
+
+33	251.	251.	NUM	Mdo	NumForm=Digit|NumType=Ord	34	nummod	_	_	_
+
+34	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_	_
+
+35	ZUP	ZUP	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_	_
+
+36	izpodbijano	izpodbijan	ADJ	Appfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	37	amod	_	_	_
+
+37	odločbo	odločba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	40	obj	_	_	_
+
+38	v	v	ADP	Sl	Case=Loc	39	case	_	_	_
+
+39	celoti	celota	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	40	obl	_	_	_
+
+40	odpravil	odpraviti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	27	conj	_	_	_
+
+41	ter	ter	CCONJ	Cc	_	43	cc	_	_	_
+
+42	zadevo	zadeva	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	43	obj	_	_	_
+
+43	vrnil	vrniti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	40	conj	_	_	_
+
+44	organu	organ	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	43	iobj	_	_	_
+
+45	prve	prvi	ADJ	Mlofsg	Case=Gen|Gender=Fem|NumType=Ord|Number=Sing	46	amod	_	_	_
+
+46	stopnje	stopnja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	44	nmod	_	_	_
+
+47	v	v	ADP	Sa	Case=Acc	49	case	_	_	_
+
+48	ponovno	ponoven	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	49	amod	_	_	_
+
+49	odločanje	odločanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	43	obl	_	_	_
+
+50	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038822.txt
+# text = Organ mora o zahtevi prosilca odločiti najpozneje v roku 30( tridesetih) dneh od prejema te odločbe.
+1	Organ	Organ	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_	_
+
+2	mora	morati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+3	o	o	ADP	Sl	Case=Loc	4	case	_	_	_
+
+4	zahtevi	zahteva	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_	_
+
+5	prosilca	prosilec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+6	odločiti	odločiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	2	xcomp	_	_	_
+
+7	najpozneje	pozno	ADV	Rgs	Degree=Sup	9	advmod	_	_	_
+
+8	v	v	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	roku	rok	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_	_
+
+10	30	30	NUM	Mdc	NumForm=Digit|NumType=Card	9	nummod	_	_	_
+
+11	(	(	PUNCT	Z	_	12	punct	_	_	_
+
+12	tridesetih	trideset	NUM	Mlc-pl	Case=Loc|NumForm=Word|NumType=Card|Number=Plur	9	nummod	_	_	_
+
+13	)	)	PUNCT	Z	_	12	punct	_	_	_
+
+14	dneh	dan	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	9	nmod	_	_	_
+
+15	od	od	ADP	Sg	Case=Gen	16	case	_	_	_
+
+16	prejema	prejem	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+17	te	ta	DET	Pd-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_	_
+
+18	odločbe	odločba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_	_
+
+19	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038822.txt
+# text = Posebni stroški v tem postopku niso nastali.
+1	Posebni	poseben	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_	_
+
+2	stroški	strošek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_	_
+
+3	v	v	ADP	Sl	Case=Loc	5	case	_	_	_
+
+4	tem	ta	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_	_
+
+5	postopku	postopek	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_	_
+
+6	niso	biti	AUX	Va-r3p-y	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	7	aux	_	_	_
+
+7	nastali	nastati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part		root	_	_	_
+
+8	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038822.txt
+# text = 2. veljavne upravljavske pogodbe za Krvavški vodovodni sistem na območjih občin: Cerklje, Komenda, Šenčur, Vodice, Kranj, Mengeš;
+1	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	4	nummod	_	_	_
+
+2	veljavne	veljaven	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+3	upravljavske	upravljavski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	pogodbe	pogodba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing		root	_	_	_
+
+5	za	za	ADP	Sa	Case=Acc	8	case	_	_	_
+
+6	Krvavški	krvavški	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+7	vodovodni	vodovoden	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	_
+
+8	sistem	sistem	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+9	na	na	ADP	Sl	Case=Loc	10	case	_	_	_
+
+10	območjih	območje	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	8	nmod	_	_	_
+
+11	občin	občina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_	_
+
+12	:	:	PUNCT	Z	_	13	punct	_	_	_
+
+13	Cerklje	Cerklje	PROPN	Npfpn	Case=Nom|Gender=Fem|Number=Plur	4	appos	_	_	_
+
+14	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+15	Komenda	komenda	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	13	conj	_	_	_
+
+16	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+17	Šenčur	šenčur	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_	_
+
+18	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+19	Vodice	vodica	PROPN	Npfpn	Case=Nom|Gender=Fem|Number=Plur	13	conj	_	_	_
+
+20	,	,	PUNCT	Z	_	21	punct	_	_	_
+
+21	Kranj	Kranj	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_	_
+
+22	,	,	PUNCT	Z	_	23	punct	_	_	_
+
+23	Mengeš	mengeš	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_	_
+
+24	;	;	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0038822.txt
+# text = - spremni dopis gradiva vlade, ki je bil skupaj s predlogom Družinskega zakonika dne 9. 12. 2009 posredovan Generalnemu sekretariatu Vlade RS in v katerem so navedene osebe, odgovorne za pripravo Družinskega zakonika;
+1	-	-	PUNCT	Z	_	19	punct	_	_	_
+
+2	spremni	spremeniti	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	dopis	dopis	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+4	gradiva	gradivo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_	_
+
+5	vlade	vlada	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+6	,	,	PUNCT	Z	_	19	punct	_	_	_
+
+7	ki	ki	SCONJ	Cs	_	19	mark	_	_	_
+
+8	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	aux	_	_	_
+
+9	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	19	cop	_	_	_
+
+10	skupaj	skupaj	ADV	Rgp	Degree=Pos	19	advmod	_	_	_
+
+11	s	z	ADP	Si	Case=Ins	12	case	_	_	_
+
+12	predlogom	predlog	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	19	obl	_	_	_
+
+13	Družinskega	družinski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+14	zakonika	zakonika	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+15	dne	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_	_
+
+16	9.	9.	NUM	Mdo	NumForm=Digit|NumType=Ord	15	nummod	_	_	_
+
+17	12.	12.	NUM	Mdo	NumForm=Digit|NumType=Ord	16	flat	_	_	_
+
+18	2009	2009	NUM	Mdc	NumForm=Digit|NumType=Card	16	flat	_	_	_
+
+19	posredovan	posredovan	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	3	acl	_	_	_
+
+20	Generalnemu	Generalem	ADJ	Agpmsd	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_	_
+
+21	sekretariatu	sekretariat	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	19	obj	_	_	_
+
+22	Vlade	vlada	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_	_
+
+23	RS	RS	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_	_
+
+24	in	in	CCONJ	Cc	_	28	cc	_	_	_
+
+25	v	v	ADP	Sl	Case=Loc	26	case	_	_	_
+
+26	katerem	kateri	DET	Pq-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Int	28	obl	_	_	_
+
+27	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	28	cop	_	_	_
+
+28	navedene	naveden	ADJ	Appfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	19	conj	_	_	_
+
+29	osebe	oseba	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	28	nsubj	_	_	_
+
+30	,	,	PUNCT	Z	_	31	punct	_	_	_
+
+31	odgovorne	odgovoren	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	_	_
+
+32	za	za	ADP	Sa	Case=Acc	33	case	_	_	_
+
+33	pripravo	priprava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	31	obl	_	_	_
+
+34	Družinskega	družinski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_	_
+
+35	zakonika	zakonika	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_	_
+
+36	;	;	PUNCT	Z	_	3	punct	_	_	_
+

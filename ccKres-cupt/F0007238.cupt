@@ -1,0 +1,619 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0007238.txt
+# text = 1. člen
+1	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007238.txt
+# text = ( 1)
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	1	1	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+3	)	)	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007238.txt
+# text = Meja rezervata in meja med območjema sta označeni na TTN Republike Slovenije( Koper 27- vzd. 1996, Koper 28- vzd. 1995, Koper 37- vzd. 1996, Koper 38- vzd. 1995) v merilu 1:5000, ki se hrani kot izvirnik pri Državnem zboru Republike Slovenije in pri ministrstvu, pristojnem za varstvo narave( v nadaljnjem besedilu: ministrstvo).
+1	Meja	meja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_	_
+
+2	rezervata	rezervat	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	in	in	CCONJ	Cc	_	4	cc	_	_	_
+
+4	meja	meja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	conj	_	_	_
+
+5	med	med	ADP	Si	Case=Ins	6	case	_	_	_
+
+6	območjema	območje	NOUN	Ncndi	Case=Ins|Gender=Neut|Number=Dual	4	nmod	_	_	_
+
+7	sta	biti	AUX	Va-r3d-n	Mood=Ind|Number=Dual|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_	_
+
+8	označeni	označen	ADJ	Appmdn	Case=Nom|Degree=Pos|Gender=Masc|Number=Dual|VerbForm=Part		root	_	_	_
+
+9	na	na	ADP	Sl	Case=Loc	11	case	_	_	_
+
+10	TTN	TTN	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+11	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+12	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_	_
+
+13	(	(	PUNCT	Z	_	14	punct	_	_	_
+
+14	Koper	Koper	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_	_
+
+15	27	27	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	_	_
+
+16	-	-	PUNCT	Z	_	17	punct	_	_	_
+
+17	vzd.	vzd.	X	Y	Abbr=Yes	15	conj	_	_	_
+
+18	1996	1996	NUM	Mdc	NumForm=Digit|NumType=Card	17	nummod	_	_	_
+
+19	,	,	PUNCT	Z	_	20	punct	_	_	_
+
+20	Koper	Koper	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	18	nmod	_	_	_
+
+21	28	28	NUM	Mdc	NumForm=Digit|NumType=Card	20	nummod	_	_	_
+
+22	-	-	PUNCT	Z	_	23	punct	_	_	_
+
+23	vzd.	vzd.	X	Y	Abbr=Yes	21	conj	_	_	_
+
+24	1995	1995	NUM	Mdc	NumForm=Digit|NumType=Card	23	nummod	_	_	_
+
+25	,	,	PUNCT	Z	_	26	punct	_	_	_
+
+26	Koper	Koper	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	24	nmod	_	_	_
+
+27	37	37	NUM	Mdc	NumForm=Digit|NumType=Card	26	nummod	_	_	_
+
+28	-	-	PUNCT	Z	_	29	punct	_	_	_
+
+29	vzd.	vzd.	X	Y	Abbr=Yes	27	conj	_	_	_
+
+30	1996	1996	NUM	Mdc	NumForm=Digit|NumType=Card	29	nummod	_	_	_
+
+31	,	,	PUNCT	Z	_	32	punct	_	_	_
+
+32	Koper	Koper	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	30	nmod	_	_	_
+
+33	38	38	NUM	Mdc	NumForm=Digit|NumType=Card	32	nummod	_	_	_
+
+34	-	-	PUNCT	Z	_	35	punct	_	_	_
+
+35	vzd.	vzd.	X	Y	Abbr=Yes	33	conj	_	_	_
+
+36	1995	1995	NUM	Mdc	NumForm=Digit|NumType=Card	35	nummod	_	_	_
+
+37	)	)	PUNCT	Z	_	36	punct	_	_	_
+
+38	v	v	ADP	Sl	Case=Loc	39	case	_	_	_
+
+39	merilu	merilo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	32	nmod	_	_	_
+
+40	1:5000	1:5000	NUM	Mdc	NumForm=Digit|NumType=Card	39	nummod	_	_	_
+
+41	,	,	PUNCT	Z	_	44	punct	_	_	_
+
+42	ki	ki	SCONJ	Cs	_	44	mark	_	_	_
+
+43	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	44	expl	_	_	_
+
+44	hrani	hraniti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	acl	_	_	_
+
+45	kot	kot	SCONJ	Cs	_	46	case	_	_	_
+
+46	izvirnik	izvirnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	44	obl	_	_	_
+
+47	pri	pri	ADP	Sl	Case=Loc	49	case	_	_	_
+
+48	Državnem	državen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	49	amod	_	_	_
+
+49	zboru	zbor	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	46	nmod	_	_	_
+
+50	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	49	nmod	_	_	_
+
+51	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	50	nmod	_	_	_
+
+52	in	in	CCONJ	Cc	_	54	cc	_	_	_
+
+53	pri	pri	ADP	Sl	Case=Loc	54	case	_	_	_
+
+54	ministrstvu	ministrstvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	49	conj	_	_	_
+
+55	,	,	PUNCT	Z	_	56	punct	_	_	_
+
+56	pristojnem	pristojen	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	54	amod	_	_	_
+
+57	za	za	ADP	Sa	Case=Acc	58	case	_	_	_
+
+58	varstvo	varstvo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	56	obl	_	_	_
+
+59	narave	narava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	58	nmod	_	_	_
+
+60	(	(	PUNCT	Z	_	63	punct	_	_	_
+
+61	v	v	ADP	Sl	Case=Loc	63	case	_	_	_
+
+62	nadaljnjem	nadaljnji	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	63	amod	_	_	_
+
+63	besedilu	besedilo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	59	appos	_	_	_
+
+64	:	:	PUNCT	Z	_	65	punct	_	_	_
+
+65	ministrstvo	ministrstvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	63	appos	_	_	_
+
+66	)	)	PUNCT	Z	_	65	punct	_	_	_
+
+67	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007238.txt
+# text = ( 1)
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	1	1	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+3	)	)	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007238.txt
+# text = Vlada Republike Slovenije( v nadaljnjem besedilu: Vlada) sprejme po predhodnem mnenju Mestne občine Koper program varstva in razvoja rezervata( v nadaljnjem besedilu: program) za obdobje petih let, ki vsebuje zlasti: 1. celovito oceno stanja v rezervatu; 2. načine uresničevanja ciljev varstva in razvoja, določenih z zakonom; 3. oceno stanja v okolici rezervata ter predlog ukrepov za izboljšanje in preprečevanje škodljivih vplivov; 4. potrebna sredstva in vire za doseganje ciljev rezervata, vključno s sredstvi za odškodnine ali nadomestila v primeru odvzema lastninske pravice, in za izvajanje predlaganih ukrepov za izboljšanje življenjskih pogojev in preprečevanje škodljivih vplivov v rezervatu; 5. prostorske opredelitve načrtovanih varstvenih in razvojnih dejavnosti v rezervatu; 6. določitev dejavnosti, ki se lahko opravljajo v rezervatu in smernice za njihov razvoj.
+1	Vlada	vlada	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_	_
+
+2	Republike	republika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_	_
+
+3	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	(	(	PUNCT	Z	_	7	punct	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	7	case	_	_	_
+
+6	nadaljnjem	nadaljnji	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_	_
+
+7	besedilu	besedilo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	11	parataxis	_	_	_
+
+8	:	:	PUNCT	Z	_	1	punct	_	_	_
+
+9	Vlada	vlada	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_	_
+
+10	)	)	PUNCT	Z	_	7	punct	_	_	_
+
+11	sprejme	sprejeti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+12	po	po	ADP	Sl	Case=Loc	14	case	_	_	_
+
+13	predhodnem	predhoden	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_	_
+
+14	mnenju	mnenje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	11	obl	_	_	_
+
+15	Mestne	mesten	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_	_
+
+16	občine	občina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_	_
+
+17	Koper	Koper	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	16	nmod	_	_	_
+
+18	program	program	NOUN	Ncmsn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_	_
+
+19	varstva	varstvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_	_
+
+20	in	in	CCONJ	Cc	_	21	cc	_	_	_
+
+21	razvoja	razvoj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	19	conj	_	_	_
+
+22	rezervata	rezervat	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_	_
+
+23	(	(	PUNCT	Z	_	26	punct	_	_	_
+
+24	v	v	ADP	Sl	Case=Loc	26	case	_	_	_
+
+25	nadaljnjem	nadaljnji	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_	_
+
+26	besedilu	besedilo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	22	appos	_	_	_
+
+27	:	:	PUNCT	Z	_	28	punct	_	_	_
+
+28	program	program	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	26	appos	_	_	_
+
+29	)	)	PUNCT	Z	_	28	punct	_	_	_
+
+30	za	za	ADP	Sa	Case=Acc	31	case	_	_	_
+
+31	obdobje	obdobje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_	_
+
+32	petih	pet	NUM	Mlc-pg	Case=Gen|NumForm=Word|NumType=Card|Number=Plur	33	nummod	_	_	_
+
+33	let	leto	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	31	nmod	_	_	_
+
+34	,	,	PUNCT	Z	_	36	punct	_	_	_
+
+35	ki	ki	SCONJ	Cs	_	36	mark	_	_	_
+
+36	vsebuje	vsebovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl	_	_	_
+
+37	zlasti	zlasti	PART	Q	_	36	advmod	_	_	_
+
+38	:	:	PUNCT	Z	_	41	punct	_	_	_
+
+39	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	41	nummod	_	_	_
+
+40	celovito	celovit	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	_	_
+
+41	oceno	ocena	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	36	obj	_	_	_
+
+42	stanja	stanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	41	nmod	_	_	_
+
+43	v	v	ADP	Sl	Case=Loc	44	case	_	_	_
+
+44	rezervatu	rezervat	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	41	nmod	_	_	_
+
+45	;	;	PUNCT	Z	_	47	punct	_	_	_
+
+46	2.	2.	NUM	Mdo	NumForm=Digit|NumType=Ord	47	nummod	_	_	_
+
+47	načine	način	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	41	conj	_	_	_
+
+48	uresničevanja	uresničevanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	47	nmod	_	_	_
+
+49	ciljev	cilj	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	48	nmod	_	_	_
+
+50	varstva	varstvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	49	nmod	_	_	_
+
+51	in	in	CCONJ	Cc	_	52	cc	_	_	_
+
+52	razvoja	razvoj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	50	conj	_	_	_
+
+53	,	,	PUNCT	Z	_	54	punct	_	_	_
+
+54	določenih	določen	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	49	amod	_	_	_
+
+55	z	z	ADP	Si	Case=Ins	56	case	_	_	_
+
+56	zakonom	zakon	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	54	obl	_	_	_
+
+57	;	;	PUNCT	Z	_	59	punct	_	_	_
+
+58	3.	3.	NUM	Mdo	NumForm=Digit|NumType=Ord	59	nummod	_	_	_
+
+59	oceno	ocena	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	54	obj	_	_	_
+
+60	stanja	stanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	59	nmod	_	_	_
+
+61	v	v	ADP	Sl	Case=Loc	62	case	_	_	_
+
+62	okolici	okolica	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	60	nmod	_	_	_
+
+63	rezervata	rezervat	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	62	nmod	_	_	_
+
+64	ter	ter	CCONJ	Cc	_	65	cc	_	_	_
+
+65	predlog	predlog	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	59	conj	_	_	_
+
+66	ukrepov	ukrep	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	65	nmod	_	_	_
+
+67	za	za	ADP	Sa	Case=Acc	68	case	_	_	_
+
+68	izboljšanje	izboljšanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	66	nmod	_	_	_
+
+69	in	in	CCONJ	Cc	_	70	cc	_	_	_
+
+70	preprečevanje	preprečevanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	68	conj	_	_	_
+
+71	škodljivih	škodljiv	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	72	amod	_	_	_
+
+72	vplivov	vpliv	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	70	nmod	_	_	_
+
+73	;	;	PUNCT	Z	_	75	punct	_	_	_
+
+74	4.	4.	NUM	Mdo	NumForm=Digit|NumType=Ord	76	nummod	_	_	_
+
+75	potrebna	potreben	ADJ	Agpnpa	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	76	amod	_	_	_
+
+76	sredstva	sredstvo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	59	conj	_	_	_
+
+77	in	in	CCONJ	Cc	_	78	cc	_	_	_
+
+78	vire	vir	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	76	conj	_	_	_
+
+79	za	za	ADP	Sa	Case=Acc	80	case	_	_	_
+
+80	doseganje	doseganje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	78	nmod	_	_	_
+
+81	ciljev	cilj	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	80	nmod	_	_	_
+
+82	rezervata	rezervat	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	81	nmod	_	_	_
+
+83	,	,	PUNCT	Z	_	86	punct	_	_	_
+
+84	vključno	vključno	ADV	Rgp	Degree=Pos	86	advmod	_	_	_
+
+85	s	z	ADP	Si	Case=Ins	86	case	_	_	_
+
+86	sredstvi	sredstvo	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	80	conj	_	_	_
+
+87	za	za	ADP	Sa	Case=Acc	88	case	_	_	_
+
+88	odškodnine	odškodnina	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	86	nmod	_	_	_
+
+89	ali	ali	CCONJ	Cc	_	90	cc	_	_	_
+
+90	nadomestila	nadomestilo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	88	conj	_	_	_
+
+91	v	v	ADP	Sl	Case=Loc	92	case	_	_	_
+
+92	primeru	primer	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	86	nmod	_	_	_
+
+93	odvzema	odvzem	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	92	nmod	_	_	_
+
+94	lastninske	lastninski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	95	amod	_	_	_
+
+95	pravice	pravica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	93	nmod	_	_	_
+
+96	,	,	PUNCT	Z	_	86	punct	_	_	_
+
+97	in	in	CCONJ	Cc	_	99	cc	_	_	_
+
+98	za	za	ADP	Sa	Case=Acc	99	case	_	_	_
+
+99	izvajanje	izvajanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	92	conj	_	_	_
+
+100	predlaganih	predlagan	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	101	amod	_	_	_
+
+101	ukrepov	ukrep	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	99	nmod	_	_	_
+
+102	za	za	ADP	Sa	Case=Acc	103	case	_	_	_
+
+103	izboljšanje	izboljšanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	101	nmod	_	_	_
+
+104	življenjskih	življenjski	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	105	amod	_	_	_
+
+105	pogojev	pogoj	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	103	nmod	_	_	_
+
+106	in	in	CCONJ	Cc	_	107	cc	_	_	_
+
+107	preprečevanje	preprečevanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	101	conj	_	_	_
+
+108	škodljivih	škodljiv	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	109	amod	_	_	_
+
+109	vplivov	vpliv	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	107	nmod	_	_	_
+
+110	v	v	ADP	Sl	Case=Loc	111	case	_	_	_
+
+111	rezervatu	rezervat	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	109	nmod	_	_	_
+
+112	;	;	PUNCT	Z	_	113	punct	_	_	_
+
+113	5.	5.	NUM	Mdo	NumForm=Digit|NumType=Ord	115	nummod	_	_	_
+
+114	prostorske	prostorski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	115	amod	_	_	_
+
+115	opredelitve	opredelitev	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	107	appos	_	_	_
+
+116	načrtovanih	načrtovan	ADJ	Appfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part	120	amod	_	_	_
+
+117	varstvenih	varstven	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	120	amod	_	_	_
+
+118	in	in	CCONJ	Cc	_	119	cc	_	_	_
+
+119	razvojnih	razvojen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	117	conj	_	_	_
+
+120	dejavnosti	dejavnost	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	115	nmod	_	_	_
+
+121	v	v	ADP	Sl	Case=Loc	122	case	_	_	_
+
+122	rezervatu	rezervat	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	120	nmod	_	_	_
+
+123	;	;	PUNCT	Z	_	115	punct	_	_	_
+
+124	6.	6.	NUM	Mdo	NumForm=Digit|NumType=Ord	125	nummod	_	_	_
+
+125	določitev	določitev	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	115	conj	_	_	_
+
+126	dejavnosti	dejavnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	125	nmod	_	_	_
+
+127	,	,	PUNCT	Z	_	131	punct	_	_	_
+
+128	ki	ki	SCONJ	Cs	_	131	mark	_	_	_
+
+129	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	131	expl	_	_	_
+
+130	lahko	lahko	ADV	Rgp	Degree=Pos	131	advmod	_	_	_
+
+131	opravljajo	opravljati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	125	acl	_	_	_
+
+132	v	v	ADP	Sl	Case=Loc	133	case	_	_	_
+
+133	rezervatu	rezervat	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	131	obl	_	_	_
+
+134	in	in	CCONJ	Cc	_	135	cc	_	_	_
+
+135	smernice	smernica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	133	conj	_	_	_
+
+136	za	za	ADP	Sa	Case=Acc	138	case	_	_	_
+
+137	njihov	njihov	DET	Ps3msap	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	138	det	_	_	_
+
+138	razvoj	razvoj	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	135	nmod	_	_	_
+
+139	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007238.txt
+# text = ( 1)
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	1	1	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+3	)	)	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007238.txt
+# text = Vlada po predhodnem mnenju Mestne občine Koper sprejema prostorski izvedbeni akt za rezervat.
+1	Vlada	vlada	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_	_
+
+2	po	po	ADP	Sl	Case=Loc	4	case	_	_	_
+
+3	predhodnem	predhoden	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_	_
+
+4	mnenju	mnenje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_	_
+
+5	Mestne	mesten	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_
+
+6	občine	občina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+7	Koper	Koper	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+8	sprejema	sprejemati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	prostorski	prostorski	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+10	izvedbeni	izvedben	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	akt	akt	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_	_
+
+12	za	za	ADP	Sa	Case=Acc	13	case	_	_	_
+
+13	rezervat	rezervat	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+14	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007238.txt
+# text = ( 3)
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	3	3	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+3	)	)	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007238.txt
+# text = Dejavnost iz prejšnjega odstavka opravlja javni zavod.
+1	Dejavnost	dejavnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_	_
+
+2	iz	iz	ADP	Sg	Case=Gen	4	case	_	_	_
+
+3	prejšnjega	prejšnji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	_
+
+4	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+5	opravlja	opravljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	javni	javen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_
+
+7	zavod	zavod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_	_
+
+8	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007238.txt
+# text = ( 1)
+1	(	(	PUNCT	Z	_	2	punct	_	_	_
+
+2	1	1	NUM	Mdc	NumForm=Digit|NumType=Card		root	_	_	_
+
+3	)	)	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007238.txt
+# text = Z denarno kaznijo najmanj 200.000 tolarjev se kaznuje za prekršek pravna oseba ali posameznik, ki stori prekršek v zvezi s samostojnim opravljanjem dejavnosti, če ravna v nasprotju s prepovedmi iz 1. do 13. točke prvega ter iz drugega odstavka 4. člena in iz 5. člena tega zakona.
+1	Z	z	ADP	Si	Case=Ins	3	case	_	_	_
+
+2	denarno	denaren	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	kaznijo	kazen	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_	_
+
+4	najmanj	najmanj	ADV	Rgs	Degree=Sup	5	advmod	_	_	_
+
+5	200.000	200.000	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+6	tolarjev	tolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_	_
+
+7	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	8	expl	_	_	_
+
+8	kaznuje	kazno	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+9	za	za	ADP	Sa	Case=Acc	10	case	_	_	_
+
+10	prekršek	prekršek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_	_
+
+11	pravna	praven	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_	_
+
+12	oseba	oseba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_	_
+
+13	ali	ali	CCONJ	Cc	_	14	cc	_	_	_
+
+14	posameznik	posameznik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_	_
+
+15	,	,	PUNCT	Z	_	17	punct	_	_	_
+
+16	ki	ki	SCONJ	Cs	_	17	mark	_	_	_
+
+17	stori	storiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	_	_
+
+18	prekršek	prekršek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_	_
+
+19	v	v	ADP	Sl	Case=Loc	20	case	_	_	_
+
+20	zvezi	zveza	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_	_
+
+21	s	z	ADP	Si	Case=Ins	23	case	_	_	_
+
+22	samostojnim	samostojen	ADJ	Agpnsi	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_	_
+
+23	opravljanjem	opravljanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	20	nmod	_	_	_
+
+24	dejavnosti	dejavnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_	_
+
+25	,	,	PUNCT	Z	_	27	punct	_	_	_
+
+26	če	če	SCONJ	Cs	_	27	mark	_	_	_
+
+27	ravna	raven	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_	_
+
+28	v	v	ADP	Sl	Case=Loc	29	case	_	_	_
+
+29	nasprotju	nasprotje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	27	obl	_	_	_
+
+30	s	z	ADP	Si	Case=Ins	31	case	_	_	_
+
+31	prepovedmi	prepoved	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	29	nmod	_	_	_
+
+32	iz	iz	ADP	Sg	Case=Gen	36	case	_	_	_
+
+33	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	36	nummod	_	_	_
+
+34	do	do	ADP	Sg	Case=Gen	35	case	_	_	_
+
+35	13.	13.	NUM	Mdo	NumForm=Digit|NumType=Ord	33	conj	_	_	_
+
+36	točke	točka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_	_
+
+37	prvega	prvi	ADJ	Mlomsg	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing	36	amod	_	_	_
+
+38	ter	ter	CCONJ	Cc	_	41	cc	_	_	_
+
+39	iz	iz	ADP	Sg	Case=Gen	41	case	_	_	_
+
+40	drugega	drug	ADJ	Mlpmsg	Case=Gen|Gender=Masc|Number=Sing	41	amod	_	_	_
+
+41	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	36	conj	_	_	_
+
+42	4.	4.	NUM	Mdo	NumForm=Digit|NumType=Ord	43	nummod	_	_	_
+
+43	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	41	nmod	_	_	_
+
+44	in	in	CCONJ	Cc	_	47	cc	_	_	_
+
+45	iz	iz	ADP	Sg	Case=Gen	47	case	_	_	_
+
+46	5.	5.	NUM	Mdo	NumForm=Digit|NumType=Ord	47	nummod	_	_	_
+
+47	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	41	conj	_	_	_
+
+48	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	49	det	_	_	_
+
+49	zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	47	nmod	_	_	_
+
+50	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007238.txt
+# text = 22. člen
+1	22.	22.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+

@@ -1,0 +1,301 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0017002.txt
+# text = The Portrait, am. drama, 1992
+1	The	the	X	Xf	Foreign=Yes		root	_	_	_
+
+2	Portrait	portrait	X	Xf	Foreign=Yes	1	flat:foreign	_	_	_
+
+3	,	,	PUNCT	Z	_	1	punct	_	_	_
+
+4	am.	am.	X	Y	Abbr=Yes	1	flat:foreign	_	_	_
+
+5	drama	drama	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_	_
+
+6	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+7	1992	1992	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017002.txt
+# text = Ximena se ponudi, da bo Marianu pomagala pozabiti Angelo.
+1	Ximena	Ximen	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	3	expl	_	_	_
+
+3	ponudi	ponuditi	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+5	da	da	SCONJ	Cs	_	8	mark	_	_	_
+
+6	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	8	aux	_	_	_
+
+7	Marianu	Marian	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	9	iobj	_	_	_
+
+8	pomagala	pomagati	VERB	Vmbp-sf	Gender=Fem|Number=Sing|VerbForm=Part	3	ccomp	_	_	_
+
+9	pozabiti	pozabiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	8	xcomp	_	_	_
+
+10	Angelo	Angelo	PROPN	Npmsa	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_	_
+
+11	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017002.txt
+# text = Don Humberto miri Catalino, ki je vsa iz sebe.
+1	Don	don	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+2	Humberto	Humberto	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	miri	mir	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	Catalino	Catalino	PROPN	Npfsa	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_	_
+
+5	,	,	PUNCT	Z	_	8	punct	_	_	_
+
+6	ki	ki	SCONJ	Cs	_	8	mark	_	_	_
+
+7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_	_
+
+8	vsa	ves	DET	Pg-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	4	acl	_	_	_
+
+9	iz	iz	ADP	Sg	Case=Gen	10	case	_	_	_
+
+10	sebe	se	PRON	Px---g	Case=Gen|PronType=Prs|Reflex=Yes	8	obl	_	_	_
+
+11	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017002.txt
+# text = Lorenza ne verjame Ximeni, da je bil nočni gost Bruno, vendar noče preverjati.
+1	Lorenza	Lorenz	PROPN	Npmsgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	obj	_	_	_
+
+2	ne	ne	PART	Q	Polarity=Neg	3	advmod	_	_	_
+
+3	verjame	verjeti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	Ximeni	šimen	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+5	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+6	da	da	SCONJ	Cs	_	11	mark	_	_	_
+
+7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_	_
+
+8	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	11	cop	_	_	_
+
+9	nočni	nočen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_
+
+10	gost	gost	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_	_
+
+11	Bruno	Bruno	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	acl	_	_	_
+
+12	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+13	vendar	vendar	CCONJ	Cc	_	14	cc	_	_	_
+
+14	noče	hoteti	VERB	Vmpr3s-y	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	11	conj	_	_	_
+
+15	preverjati	preverjati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	14	xcomp	_	_	_
+
+16	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017002.txt
+# text = Angela se dobro razume s Clarino hčerkico Lupe.
+1	Angela	Angela	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+2	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_	_
+
+3	dobro	dobro	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+4	razume	razumeti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	s	z	ADP	Si	Case=Ins	7	case	_	_	_
+
+6	Clarino	Clarino	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	_
+
+7	hčerkico	hčerkica	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_	_
+
+8	Lupe	Lupe	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+9	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017002.txt
+# text = Yolanda je zelo jezna na Angelo...
+1	Yolanda	Yolanda	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_	_
+
+3	zelo	zelo	ADV	Rgp	Degree=Pos	4	advmod	_	_	_
+
+4	jezna	jezen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing		root	_	_	_
+
+5	na	na	ADP	Sa	Case=Acc	6	case	_	_	_
+
+6	Angelo	Angelo	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+7	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+8	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+9	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017002.txt
+# text = Julieta je prepričana, da Gabriela ljubi.
+1	Julieta	Juliet	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_	_
+
+3	prepričana	prepričan	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+4	,	,	PUNCT	Z	_	7	punct	_	_	_
+
+5	da	da	SCONJ	Cs	_	7	mark	_	_	_
+
+6	Gabriela	Gabriel	PROPN	Npmsn	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_	_
+
+7	ljubi	ljubiti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_	_
+
+8	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017002.txt
+# text = Ko je umiral, je spoznala, koliko ji pomeni.
+1	Ko	ko	SCONJ	Cs	_	3	mark	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	_	_
+
+3	umiral	umirati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	6	advcl	_	_	_
+
+4	,	,	PUNCT	Z	_	3	punct	_	_	_
+
+5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
+
+6	spoznala	spoznati	VERB	Vmbp-sf	Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+7	,	,	PUNCT	Z	_	10	punct	_	_	_
+
+8	koliko	koliko	DET	Rgp	PronType=Int	10	advmod	_	_	_
+
+9	ji	on	PRON	Pp3fsd--y	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	10	obj	_	_	_
+
+10	pomeni	pomeniti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_	_
+
+11	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017002.txt
+# text = Vsi, ki jo poznajo, dvomijo o tem, vendar ona trmasto vztraja, da se hoče poročiti z njim, čeprav ima tudi on pomisleke.
+1	Vsi	ves	DET	Pg-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	7	nsubj	_	_	_
+
+2	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+3	ki	ki	SCONJ	Cs	_	5	mark	_	_	_
+
+4	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	5	obj	_	_	_
+
+5	poznajo	poznati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	_	_
+
+6	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+7	dvomijo	dvomiti	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+8	o	o	ADP	Sl	Case=Loc	9	case	_	_	_
+
+9	tem	ta	DET	Pd-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	7	obl	_	_	_
+
+10	,	,	PUNCT	Z	_	14	punct	_	_	_
+
+11	vendar	vendar	CCONJ	Cc	_	14	cc	_	_	_
+
+12	ona	on	PRON	Pp3fsn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_	_
+
+13	trmasto	trmast	ADV	Rgp	Degree=Pos	14	advmod	_	_	_
+
+14	vztraja	vztrajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_	_
+
+15	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+16	da	da	SCONJ	Cs	_	18	mark	_	_	_
+
+17	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	19	expl	_	_	_
+
+18	hoče	hoteti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	ccomp	_	_	_
+
+19	poročiti	poročiti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	18	xcomp	_	_	_
+
+20	z	z	ADP	Si	Case=Ins	21	case	_	_	_
+
+21	njim	on	PRON	Pp3msi	Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl	_	_	_
+
+22	,	,	PUNCT	Z	_	24	punct	_	_	_
+
+23	čeprav	čeprav	SCONJ	Cs	_	24	mark	_	_	_
+
+24	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	advcl	_	_	_
+
+25	tudi	tudi	PART	Q	_	24	advmod	_	_	_
+
+26	on	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_	_
+
+27	pomisleke	pomislek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	24	obj	_	_	_
+
+28	.	.	PUNCT	Z	_	7	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017002.txt
+# text = Medtem Javier pokliče Nadio, ker pa je ni, sporočilo preda kar Pedru.
+1	Medtem	medtem	ADV	Rgp	Degree=Pos	3	advmod	_	_	_
+
+2	Javier	Javier	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_	_
+
+3	pokliče	poklicati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	Nadio	nadio	PROPN	Npfsa	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_	_
+
+5	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+6	ker	ker	SCONJ	Cs	_	9	mark	_	_	_
+
+7	pa	pa	CCONJ	Cc	_	9	advmod	_	_	_
+
+8	je	on	PRON	Pp3fsg--y	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	9	nsubj	_	_	_
+
+9	ni	biti	VERB	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	12	advcl	_	_	_
+
+10	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+11	sporočilo	sporočilo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_	_
+
+12	preda	preda	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_	_
+
+13	kar	kar	ADV	Rgp	Degree=Pos	14	advmod	_	_	_
+
+14	Pedru	Peder	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	12	obj	_	_	_
+
+15	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0017002.txt
+# text = Če ne bo v kratkem izpolnila obljube, mu bo prekipelo...
+1	Če	če	SCONJ	Cs	_	6	mark	_	_	_
+
+2	ne	ne	PART	Q	Polarity=Neg	6	advmod	_	_	_
+
+3	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	6	aux	_	_	_
+
+4	v	v	ADP	Sl	Case=Loc	5	case	_	_	_
+
+5	kratkem	kratek	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	6	obl	_	_	_
+
+6	izpolnila	izpolniti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	11	advcl	_	_	_
+
+7	obljube	obljuba	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_	_
+
+8	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+9	mu	on	PRON	Pp3msd--y	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	11	obj	_	_	_
+
+10	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	11	aux	_	_	_
+
+11	prekipelo	prekipeti	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part		root	_	_	_
+
+12	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+13	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+14	.	.	PUNCT	Z	_	11	punct	_	_	_
+

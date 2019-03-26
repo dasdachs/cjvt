@@ -1,0 +1,207 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0011797.txt
+# text = 1. člen
+1	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011797.txt
+# text = - rok odplačila je lahko do 20 let, z vključenim 4 do 8 letnim moratorijem na odplačilo glavnice;
+1	-	-	PUNCT	Z	_	2	punct	_	_	_
+
+2	rok	rok	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	odplačila	odplačilo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_	_
+
+5	lahko	lahko	ADV	Rgp	Degree=Pos	2	advmod	_	_	_
+
+6	do	do	ADP	Sg	Case=Gen	8	case	_	_	_
+
+7	20	20	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+8	let	leto	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	2	obl	_	_	_
+
+9	,	,	PUNCT	Z	_	16	punct	_	_	_
+
+10	z	z	ADP	Si	Case=Ins	11	case	_	_	_
+
+11	vključenim	vključen	ADJ	Appmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	8	amod	_	_	_
+
+12	4	4	NUM	Mdc	NumForm=Digit|NumType=Card	16	nummod	_	_	_
+
+13	do	do	ADP	Sg	Case=Gen	14	case	_	_	_
+
+14	8	8	NUM	Mdc	NumForm=Digit|NumType=Card	16	nummod	_	_	_
+
+15	letnim	leten	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_	_
+
+16	moratorijem	moratorij	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	8	appos	_	_	_
+
+17	na	na	ADP	Sa	Case=Acc	18	case	_	_	_
+
+18	odplačilo	odplačilo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	16	nmod	_	_	_
+
+19	glavnice	glavnica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_	_
+
+20	;	;	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011797.txt
+# text = - strošek rezervacije sredstev kredita je lahko največ 0,5 % od nečrpanega zneska kredita in se obračuna od pogodbeno določenega datuma črpanja kredita dalje.
+1	-	-	PUNCT	Z	_	6	punct	_	_	_
+
+2	strošek	strošek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	_
+
+3	rezervacije	rezervacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_	_
+
+4	sredstev	sredstvo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_	_
+
+5	kredita	kredita	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+6	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+7	lahko	lahko	ADV	Rgp	Degree=Pos	6	advmod	_	_	_
+
+8	največ	največ	DET	Rgs	PronType=Ind	9	advmod	_	_	_
+
+9	0,5	0,5	NUM	Mdc	NumForm=Digit|NumType=Card	10	nummod	_	_	_
+
+10	%	%	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	obl	_	_	_
+
+11	od	od	ADP	Sg	Case=Gen	13	case	_	_	_
+
+12	nečrpanega	nečrpan	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_	_
+
+13	zneska	znesek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_	_
+
+14	kredita	kredita	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_	_
+
+15	in	in	CCONJ	Cc	_	17	cc	_	_	_
+
+16	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	17	expl	_	_	_
+
+17	obračuna	obračunati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_	_
+
+18	od	od	ADP	Sg	Case=Gen	21	case	_	_	_
+
+19	pogodbeno	pogodben	ADV	Rgp	Degree=Pos	20	advmod	_	_	_
+
+20	določenega	določen	ADJ	Appmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	21	amod	_	_	_
+
+21	datuma	datum	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_	_
+
+22	črpanja	črpanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_	_
+
+23	kredita	kredita	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_	_
+
+24	dalje	dalje	ADV	Rgp	Degree=Pos	22	advmod	_	_	_
+
+25	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011797.txt
+# text = Če DARS d. d. najame kredit iz prejšnjega člena pri tujih kreditodajalcih, bo Republika Slovenija izdala poroštvo za tak kredit na podlagi posebnega zakona.
+1	Če	če	SCONJ	Cs	_	5	mark	_	_	_
+
+2	DARS	DARS	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+3	d.	d.	X	Y	Abbr=Yes	2	nmod	_	_	_
+
+4	d.	d.	X	Y	Abbr=Yes	3	fixed	_	_	_
+
+5	najame	najema	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_	_
+
+6	kredit	kredit	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+7	iz	iz	ADP	Sg	Case=Gen	9	case	_	_	_
+
+8	prejšnjega	prejšnji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_	_
+
+9	člena	člen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+10	pri	pri	ADP	Sl	Case=Loc	12	case	_	_	_
+
+11	tujih	tuj	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_	_
+
+12	kreditodajalcih	kreditodajalec	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	9	nmod	_	_	_
+
+13	,	,	PUNCT	Z	_	5	punct	_	_	_
+
+14	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	17	aux	_	_	_
+
+15	Republika	republika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_	_
+
+16	Slovenija	Slovenija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	15	nmod	_	_	_
+
+17	izdala	izdati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+18	poroštvo	poroštvo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_	_
+
+19	za	za	ADP	Sa	Case=Acc	21	case	_	_	_
+
+20	tak	tak	DET	Pd-msa	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_	_
+
+21	kredit	kredit	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	nmod	_	_	_
+
+22	na	na	ADP	Sl	Case=Loc	23	case	_	_	_
+
+23	podlagi	podlaga	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_	_
+
+24	posebnega	poseben	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_	_
+
+25	zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_	_
+
+26	.	.	PUNCT	Z	_	17	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011797.txt
+# text = Če bo DARS d. d. izdala obveznice, bo Republika Slovenija izdala poroštvo za izdajo teh obveznic na podlagi posebnega zakona.
+1	Če	če	SCONJ	Cs	_	6	mark	_	_	_
+
+2	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	6	aux	_	_	_
+
+3	DARS	DARS	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_	_
+
+4	d.	d.	X	Y	Abbr=Yes	3	nmod	_	_	_
+
+5	d.	d.	X	Y	Abbr=Yes	4	fixed	_	_	_
+
+6	izdala	izdati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	12	advcl	_	_	_
+
+7	obveznice	obveznica	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_	_
+
+8	,	,	PUNCT	Z	_	6	punct	_	_	_
+
+9	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	12	aux	_	_	_
+
+10	Republika	republika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_	_
+
+11	Slovenija	Slovenija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	10	nmod	_	_	_
+
+12	izdala	izdati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+13	poroštvo	poroštvo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_	_
+
+14	za	za	ADP	Sa	Case=Acc	15	case	_	_	_
+
+15	izdajo	izdaja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	_	_
+
+16	teh	ta	DET	Pd-fpg	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	17	det	_	_	_
+
+17	obveznic	obveznica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_	_
+
+18	na	na	ADP	Sl	Case=Loc	19	case	_	_	_
+
+19	podlagi	podlaga	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_	_
+
+20	posebnega	poseben	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_	_
+
+21	zakona	zakon	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_	_
+
+22	.	.	PUNCT	Z	_	12	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0011797.txt
+# text = 5. člen
+1	5.	5.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+

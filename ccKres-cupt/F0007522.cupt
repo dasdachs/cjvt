@@ -1,0 +1,595 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0007522.txt
+# text = Vipotnik Janez Iskra Cranex
+1	Vipotnik	Vipotnik	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	Janez	Janez	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+3	Iskra	iskra	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	flat:name	_	_	_
+
+4	Cranex	Cranex	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007522.txt
+# text = foto DENIS SARKIĆ
+1	foto	foto	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+2	DENIS	denis	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_	_
+
+3	SARKIĆ	SarkI	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007522.txt
+# text = Manca je tajnica.
+1	Manca	Manca	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_	_
+
+3	tajnica	tajnica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing		root	_	_	_
+
+4	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007522.txt
+# text = Njena bruto plača je v letu 1996 znašala 120.000 SIT mesečno.
+1	Njena	njen	DET	Ps3fsnsf	Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_	_
+
+2	bruto	bruto	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+
+3	plača	plača	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_	_
+
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_	_
+
+5	v	v	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	letu	leto	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_	_
+
+7	1996	1996	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+8	znašala	znašati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+9	120.000	120.000	NUM	Mdc	NumForm=Digit|NumType=Card	10	nummod	_	_	_
+
+10	SIT	SIT	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_	_
+
+11	mesečno	mesečno	ADV	Rgp	Degree=Pos	8	advmod	_	_	_
+
+12	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007522.txt
+# text = Njena izobrazba je sicer srednješolska, vendar je študirala, zna nekaj jezikov, zato si plačo izboljšuje s honorarnim delom, za kar dobi povprečno 30.000 SIT( neto) mesečno.
+1	Njena	njen	DET	Ps3fsnsf	Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_	_
+
+2	izobrazba	izobrazba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_	_
+
+4	sicer	sicer	PART	Q	_	5	advmod	_	_	_
+
+5	srednješolska	srednješolski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing		root	_	_	_
+
+6	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+7	vendar	vendar	CCONJ	Cc	_	9	cc	_	_	_
+
+8	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	aux	_	_	_
+
+9	študirala	študirati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	5	conj	_	_	_
+
+10	,	,	PUNCT	Z	_	9	punct	_	_	_
+
+11	zna	znati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_	_
+
+12	nekaj	nekaj	DET	Rgp	PronType=Ind	13	det	_	_	_
+
+13	jezikov	jezik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	11	obj	_	_	_
+
+14	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+15	zato	zato	CCONJ	Cc	_	18	cc	_	_	_
+
+16	si	se	PRON	Px---d--y	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	18	expl	_	_	_
+
+17	plačo	plača	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_	_
+
+18	izboljšuje	izboljševati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_	_
+
+19	s	z	ADP	Si	Case=Ins	21	case	_	_	_
+
+20	honorarnim	honoraren	ADJ	Agpnsi	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_	_
+
+21	delom	delo	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	18	obl	_	_	_
+
+22	,	,	PUNCT	Z	_	25	punct	_	_	_
+
+23	za	za	ADP	Sa	Case=Acc	24	case	_	_	_
+
+24	kar	kar	PRON	Pr-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	25	obl	_	_	_
+
+25	dobi	dobiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl	_	_	_
+
+26	povprečno	povprečen	ADV	Rgp	Degree=Pos	27	advmod	_	_	_
+
+27	30.000	30.000	NUM	Mdc	NumForm=Digit|NumType=Card	28	nummod	_	_	_
+
+28	SIT	SIT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_	_
+
+29	(	(	PUNCT	Z	_	30	punct	_	_	_
+
+30	neto	neto	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	28	appos	_	_	_
+
+31	)	)	PUNCT	Z	_	30	punct	_	_	_
+
+32	mesečno	mesečno	ADV	Rgp	Degree=Pos	25	advmod	_	_	_
+
+33	.	.	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007522.txt
+# text = Regresa kljub kolektivni pogodbi ni dobila.
+1	Regresa	Regres	NOUN	Ncmsa	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_	_
+
+2	kljub	kljub	ADP	Sd	Case=Dat	4	case	_	_	_
+
+3	kolektivni	kolektiven	ADJ	Agpfsd	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_
+
+4	pogodbi	pogodba	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_	_
+
+5	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
+
+6	dobila	dobiti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+7	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007522.txt
+# text = Njena odmerjena dohodnina znaša 214.558 SIT.
+1	Njena	njen	DET	Ps3fsnsf	Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_	_
+
+2	odmerjena	odmerjen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	3	amod	_	_	_
+
+3	dohodnina	dohodnina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+4	znaša	znašati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+5	214.558	214.558	NUM	Mdc	NumForm=Digit|NumType=Card	6	nummod	_	_	_
+
+6	SIT	SIT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	_	_
+
+7	.	.	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007522.txt
+# text = In koliko bi znašala njena dohodnina po novem?
+1	In	in	CCONJ	Cc	_	4	cc	_	_	_
+
+2	koliko	koliko	DET	Rgp	PronType=Int	4	advmod	_	_	_
+
+3	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	4	aux	_	_	_
+
+4	znašala	znašati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+5	njena	njen	DET	Ps3fsnsf	Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_	_
+
+6	dohodnina	dohodnina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+
+7	po	po	ADP	Sl	Case=Loc	8	case	_	_	_
+
+8	novem	nov	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_	_
+
+9	?	?	PUNCT	Z	_	4	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007522.txt
+# text = 257.695 SIT oziroma 43.
+1	257.695	257.695	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	SIT	SIT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	oziroma	oziroma	CCONJ	Cc	_	4	cc	_	_	_
+
+4	43	43	NUM	Mdc	NumForm=Digit|NumType=Card	2	conj	_	_	_
+
+5	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007522.txt
+# text = 137 SIT več kakor prej.
+1	137	137	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	SIT	SIT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	več	več	DET	Rgc	PronType=Ind	2	advmod	_	_	_
+
+4	kakor	kakor	SCONJ	Cs	_	5	case	_	_	_
+
+5	prej	prej	ADV	Rgc	Degree=Cmp	3	advmod	_	_	_
+
+6	.	.	PUNCT	Z	_	2	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007522.txt
+# text = Vendar Manca ne bi bila prikrajšana le za ta znesek!
+1	Vendar	vendar	CCONJ	Cc	_	6	cc	_	_	_
+
+2	Manca	Manca	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_	_
+
+3	ne	ne	PART	Q	Polarity=Neg	6	advmod	_	_	_
+
+4	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	6	aux	_	_	_
+
+5	bila	biti	AUX	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	6	cop	_	_	_
+
+6	prikrajšana	prikrajšan	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+7	le	le	PART	Q	_	6	advmod	_	_	_
+
+8	za	za	ADP	Sa	Case=Acc	10	case	_	_	_
+
+9	ta	ta	DET	Pd-msa	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_	_
+
+10	znesek	znesek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_	_
+
+11	!	!	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007522.txt
+# text = Ker živi sama s hčerko, je bil njen bruto dohodek na družinskega člana, je bila upravičena do otroškega dodatka v višini 3 .334 SIT.
+1	Ker	ker	SCONJ	Cs	_	2	mark	_	_	_
+
+2	živi	živeti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_	_
+
+3	sama	sam	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	obl	_	_	_
+
+4	s	z	ADP	Si	Case=Ins	5	case	_	_	_
+
+5	hčerko	hčerka	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_	_
+
+6	,	,	PUNCT	Z	_	2	punct	_	_	_
+
+7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_	_
+
+8	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	11	cop	_	_	_
+
+9	njen	njen	DET	Ps3msnsf	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_	_
+
+10	bruto	bruto	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_
+
+11	dohodek	dohodek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+12	na	na	ADP	Sa	Case=Acc	14	case	_	_	_
+
+13	družinskega	družinski	ADJ	Agpmsa	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_
+
+14	člana	član	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_	_
+
+15	,	,	PUNCT	Z	_	18	punct	_	_	_
+
+16	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	aux	_	_	_
+
+17	bila	biti	AUX	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	18	cop	_	_	_
+
+18	upravičena	upravičen	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	11	parataxis	_	_	_
+
+19	do	do	ADP	Sg	Case=Gen	21	case	_	_	_
+
+20	otroškega	otroški	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_	_
+
+21	dodatka	dodatek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_	_
+
+22	v	v	ADP	Sl	Case=Loc	23	case	_	_	_
+
+23	višini	višina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	21	nmod	_	_	_
+
+24	3	3	NUM	Mdc	NumForm=Digit|NumType=Card	26	nummod	_	_	_
+
+25	.334	.334	NUM	Mdc	NumForm=Digit|NumType=Card	26	nummod	_	_	_
+
+26	SIT	SIT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	23	nmod	_	_	_
+
+27	.	.	PUNCT	Z	_	11	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007522.txt
+# text = Letno to predstavlja 40.008 SIT.
+1	Letno	letno	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_	_
+
+2	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_	_
+
+3	predstavlja	predstavljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+4	40.008	40.008	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	_	_
+
+5	SIT	SIT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	_	_
+
+6	.	.	PUNCT	Z	_	3	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007522.txt
+# text = Poleg tega je glede na svoje dohodke za hčerko plačevala 40 odstotkov polne cene vrtca.
+1	Poleg	poleg	ADP	Sg	Case=Gen	2	case	_	_	_
+
+2	tega	ta	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	10	obl	_	_	_
+
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	_	_
+
+4	glede	glede	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+5	na	na	ADP	Sa	Case=Acc	7	case	_	_	_
+
+6	svoje	svoj	DET	Px-mpa	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	_	_
+
+7	dohodke	dohodek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	10	obl	_	_	_
+
+8	za	za	ADP	Sa	Case=Acc	9	case	_	_	_
+
+9	hčerko	hčerka	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	_	_
+
+10	plačevala	plačevati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+11	40	40	NUM	Mdc	NumForm=Digit|NumType=Card	12	nummod	_	_	_
+
+12	odstotkov	odstotek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	10	obj	_	_	_
+
+13	polne	poln	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_	_
+
+14	cene	cena	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_	_
+
+15	vrtca	vrtec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_	_
+
+16	.	.	PUNCT	Z	_	10	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007522.txt
+# text = Če bi ji država pri honorarju, ki ga je zaslužila poleg plače, priznala le 10 odstotkov normiranih stroškov, bi mesečni dohodek na družinskega člana znašal 75 .882 SIT oziroma 59 odstotkov povprečne plače, zaradi česar naj bi po novem ne prejemala več otroškega dodatka, ker naj bi ga za doslej najvišji razred( 55 do 110 odstotkov povprečne plače na družinskega člana) odpravili.
+1	Če	če	SCONJ	Cs	_	15	mark	_	_	_
+
+2	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	15	aux	_	_	_
+
+3	ji	on	PRON	Pp3fsd--y	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	15	iobj	_	_	_
+
+4	država	država	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_	_
+
+5	pri	pri	ADP	Sl	Case=Loc	6	case	_	_	_
+
+6	honorarju	honorar	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_	_
+
+7	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+8	ki	ki	SCONJ	Cs	_	11	mark	_	_	_
+
+9	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	11	obj	_	_	_
+
+10	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_	_
+
+11	zaslužila	zaslužiti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	6	acl	_	_	_
+
+12	poleg	poleg	ADP	Sg	Case=Gen	13	case	_	_	_
+
+13	plače	plača	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_	_
+
+14	,	,	PUNCT	Z	_	11	punct	_	_	_
+
+15	priznala	priznati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	28	advcl	_	_	_
+
+16	le	le	PART	Q	_	15	advmod	_	_	_
+
+17	10	10	NUM	Mdc	NumForm=Digit|NumType=Card	18	nummod	_	_	_
+
+18	odstotkov	odstotek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	15	obj	_	_	_
+
+19	normiranih	normiran	ADJ	Appmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	20	amod	_	_	_
+
+20	stroškov	strošek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_	_
+
+21	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+22	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	28	aux	_	_	_
+
+23	mesečni	mesečen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_	_
+
+24	dohodek	dohodek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_	_
+
+25	na	na	ADP	Sa	Case=Acc	27	case	_	_	_
+
+26	družinskega	družinski	ADJ	Agpmsa	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_	_
+
+27	člana	član	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	24	nmod	_	_	_
+
+28	znašal	znašati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+29	75	75	NUM	Mdc	NumForm=Digit|NumType=Card	31	nummod	_	_	_
+
+30	.882	.882	NUM	Mdc	NumForm=Digit|NumType=Card	31	nummod	_	_	_
+
+31	SIT	SIT	NOUN	Ncmsg	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_	_
+
+32	oziroma	oziroma	CCONJ	Cc	_	34	cc	_	_	_
+
+33	59	59	NUM	Mdc	NumForm=Digit|NumType=Card	34	nummod	_	_	_
+
+34	odstotkov	odstotek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	31	conj	_	_	_
+
+35	povprečne	povprečen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_	_
+
+36	plače	plača	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	_	_
+
+37	,	,	PUNCT	Z	_	45	punct	_	_	_
+
+38	zaradi	zaradi	ADP	Sg	Case=Gen	39	case	_	_	_
+
+39	česar	kar	PRON	Pr-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Rel	45	obl	_	_	_
+
+40	naj	naj	PART	Q	_	45	advmod	_	_	_
+
+41	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	45	aux	_	_	_
+
+42	po	po	ADP	Sl	Case=Loc	43	case	_	_	_
+
+43	novem	nov	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	45	obl	_	_	_
+
+44	ne	ne	PART	Q	Polarity=Neg	45	advmod	_	_	_
+
+45	prejemala	prejemati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	28	parataxis	_	_	_
+
+46	več	več	PART	Q	_	45	advmod	_	_	_
+
+47	otroškega	otroški	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	48	amod	_	_	_
+
+48	dodatka	dodatek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	45	obj	_	_	_
+
+49	,	,	PUNCT	Z	_	69	punct	_	_	_
+
+50	ker	ker	SCONJ	Cs	_	69	mark	_	_	_
+
+51	naj	naj	PART	Q	_	69	advmod	_	_	_
+
+52	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	69	aux	_	_	_
+
+53	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	69	obj	_	_	_
+
+54	za	za	ADP	Sa	Case=Acc	57	case	_	_	_
+
+55	doslej	doslej	ADV	Rgp	Degree=Pos	56	advmod	_	_	_
+
+56	najvišji	visok	ADJ	Agsmsay	Case=Acc|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	57	amod	_	_	_
+
+57	razred	razred	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	69	obl	_	_	_
+
+58	(	(	PUNCT	Z	_	62	punct	_	_	_
+
+59	55	55	NUM	Mdc	NumForm=Digit|NumType=Card	62	nummod	_	_	_
+
+60	do	do	ADP	Sg	Case=Gen	61	case	_	_	_
+
+61	110	110	NUM	Mdc	NumForm=Digit|NumType=Card	62	nummod	_	_	_
+
+62	odstotkov	odstotek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	57	appos	_	_	_
+
+63	povprečne	povprečen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	64	amod	_	_	_
+
+64	plače	plača	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	62	nmod	_	_	_
+
+65	na	na	ADP	Sa	Case=Acc	67	case	_	_	_
+
+66	družinskega	družinski	ADJ	Agpmsa	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	67	amod	_	_	_
+
+67	člana	član	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	62	nmod	_	_	_
+
+68	)	)	PUNCT	Z	_	62	punct	_	_	_
+
+69	odpravili	odpraviti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	28	parataxis	_	_	_
+
+70	.	.	PUNCT	Z	_	28	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007522.txt
+# text = Poleg tega bi za vrtec plačevala 60 odstotkov polne cene, kar pri polni ceni okrog 40.000 za prvo starostno skupino znese približno 4.000 mesečno.
+1	Poleg	poleg	ADP	Sg	Case=Gen	2	case	_	_	_
+
+2	tega	ta	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	6	obl	_	_	_
+
+3	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	6	aux	_	_	_
+
+4	za	za	ADP	Sa	Case=Acc	5	case	_	_	_
+
+5	vrtec	vrtec	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_	_
+
+6	plačevala	plačevati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part		root	_	_	_
+
+7	60	60	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+8	odstotkov	odstotek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	obj	_	_	_
+
+9	polne	poln	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_	_
+
+10	cene	cena	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_	_
+
+11	,	,	PUNCT	Z	_	22	punct	_	_	_
+
+12	kar	kar	PRON	Pr-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	22	nsubj	_	_	_
+
+13	pri	pri	ADP	Sl	Case=Loc	15	case	_	_	_
+
+14	polni	poln	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_	_
+
+15	ceni	cena	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	22	obl	_	_	_
+
+16	okrog	okrog	ADV	Rgp	Degree=Pos	17	advmod	_	_	_
+
+17	40.000	40.000	NUM	Mdc	NumForm=Digit|NumType=Card	22	advmod	_	_	_
+
+18	za	za	ADP	Sa	Case=Acc	21	case	_	_	_
+
+19	prvo	prvi	ADJ	Mlofsa	Case=Acc|Gender=Fem|NumType=Ord|Number=Sing	21	amod	_	_	_
+
+20	starostno	starosten	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_	_
+
+21	skupino	skupina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	22	obl	_	_	_
+
+22	znese	znesti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_	_
+
+23	približno	približno	ADV	Rgp	Degree=Pos	24	advmod	_	_	_
+
+24	4.000	4.000	NUM	Mdc	NumForm=Digit|NumType=Card	25	nummod	_	_	_
+
+25	mesečno	mesečno	ADV	Rgp	Degree=Pos	22	advmod	_	_	_
+
+26	.	.	PUNCT	Z	_	6	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007522.txt
+# text = Mančin družinski proračun bi bil tako letno zmanjšan kar za 123.
+1	Mančin	Mančin	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+2	družinski	družinski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+
+3	proračun	proračun	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_	_
+
+4	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	8	aux	_	_	_
+
+5	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	8	cop	_	_	_
+
+6	tako	tako	ADV	Rgp	Degree=Pos	7	advmod	_	_	_
+
+7	letno	letno	ADV	Rgp	Degree=Pos	8	advmod	_	_	_
+
+8	zmanjšan	zmanjšan	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part		root	_	_	_
+
+9	kar	kar	ADV	Rgp	Degree=Pos	11	advmod	_	_	_
+
+10	za	za	ADP	Sa	Case=Acc	11	case	_	_	_
+
+11	123	123	NUM	Mdc	NumForm=Digit|NumType=Card	8	advmod	_	_	_
+
+12	.	.	PUNCT	Z	_	8	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0007522.txt
+# text = 145 SIT in to pri mesečnih dohodkih, ki skupaj s plačo in honorarjem znašajo le nekaj čez 100.000 neto.
+1	145	145	NUM	Mdc	NumForm=Digit|NumType=Card	2	nummod	_	_	_
+
+2	SIT	SIT	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+3	in	in	CCONJ	Cc	_	4	cc	_	_	_
+
+4	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	conj	_	_	_
+
+5	pri	pri	ADP	Sl	Case=Loc	7	case	_	_	_
+
+6	mesečnih	mesečen	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_	_
+
+7	dohodkih	dohodek	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_	_
+
+8	,	,	PUNCT	Z	_	15	punct	_	_	_
+
+9	ki	ki	SCONJ	Cs	_	15	mark	_	_	_
+
+10	skupaj	skupaj	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+
+11	s	z	ADP	Si	Case=Ins	12	case	_	_	_
+
+12	plačo	plača	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	15	obl	_	_	_
+
+13	in	in	CCONJ	Cc	_	14	cc	_	_	_
+
+14	honorarjem	honorar	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	12	conj	_	_	_
+
+15	znašajo	znašati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	_	_
+
+16	le	le	PART	Q	_	15	advmod	_	_	_
+
+17	nekaj	nekaj	DET	Rgp	PronType=Ind	20	det	_	_	_
+
+18	čez	čez	ADP	Sa	Case=Acc	20	case	_	_	_
+
+19	100.000	100.000	NUM	Mdc	NumForm=Digit|NumType=Card	20	nummod	_	_	_
+
+20	neto	neto	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	15	obl	_	_	_
+
+21	.	.	PUNCT	Z	_	2	punct	_	_	_
+

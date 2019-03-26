@@ -1,0 +1,63 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = . . cckresV1_0-text/F0010939.txt
+# text = 1. člen
+1	1.	1.	NUM	Mdo	NumForm=Digit|NumType=Ord	2	nummod	_	_	_
+
+2	člen	člen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010939.txt
+# text = DARS d. d. lahko najame kredita iz prejšnjega odstavka pod naslednjimi pogoji:
+1	DARS	DARS	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_	_
+
+2	d.	d.	X	Y	Abbr=Yes	1	nmod	_	_	_
+
+3	d.	d.	X	Y	Abbr=Yes	2	fixed	_	_	_
+
+4	lahko	lahko	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+
+5	najame	najema	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin		root	_	_	_
+
+6	kredita	kredita	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_	_
+
+7	iz	iz	ADP	Sg	Case=Gen	9	case	_	_	_
+
+8	prejšnjega	prejšnji	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_	_
+
+9	odstavka	odstavek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_	_
+
+10	pod	pod	ADP	Si	Case=Ins	12	case	_	_	_
+
+11	naslednjimi	naslednji	ADJ	Agpmpi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_	_
+
+12	pogoji	pogoj	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	9	nmod	_	_	_
+
+13	:	:	PUNCT	Z	_	5	punct	_	_	_
+
+# source_sent_id = . . cckresV1_0-text/F0010939.txt
+# text = - provizija za odpoved kreditov je 0,75 % za odpovedan znesek črpanja;
+1	-	-	PUNCT	Z	_	8	punct	_	_	_
+
+2	provizija	provizija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_	_
+
+3	za	za	ADP	Sa	Case=Acc	4	case	_	_	_
+
+4	odpoved	odpoved	NOUN	Ncmsa	Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_	_
+
+5	kreditov	kredit	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_	_
+
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_	_
+
+7	0,75	0,75	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	_	_
+
+8	%	%	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing		root	_	_	_
+
+9	za	za	ADP	Sa	Case=Acc	11	case	_	_	_
+
+10	odpovedan	odpovedan	ADJ	Appmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	11	amod	_	_	_
+
+11	znesek	znesek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_	_
+
+12	črpanja	črpanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_	_
+
+13	;	;	PUNCT	Z	_	8	punct	_	_	_
+
